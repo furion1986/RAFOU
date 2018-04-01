@@ -1,0 +1,1108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<!--Declare Civilizations-->
+		<Row Type="CIVILIZATION_IRONBORN" Kind="KIND_CIVILIZATION"/>
+		<Row Type="CIVILIZATION_THE_NORTH" Kind="KIND_CIVILIZATION"/>
+		<Row Type="CIVILIZATION_THE_WESTERLANDS" Kind="KIND_CIVILIZATION"/>
+		<Row Type="CIVILIZATION_THE_STORMLANDS" Kind="KIND_CIVILIZATION"/>
+		<Row Type="CIVILIZATION_THE_REACH" Kind="KIND_CIVILIZATION"/>
+		<Row Type="CIVILIZATION_THE_VALE" Kind="KIND_CIVILIZATION"/>
+		<Row Type="CIVILIZATION_THE_RIVERLANDS" Kind="KIND_CIVILIZATION"/>
+		<Row Type="CIVILIZATION_DORNE" Kind="KIND_CIVILIZATION"/>
+		<Row Type="CIVILIZATION_THE_CROWNLANDS" Kind="KIND_CIVILIZATION"/>
+		<!--Declare Traits-->
+		<!-- Balon Greyjoy leads the Ironborn -->
+		<Row Type="TRAIT_CIVILIZATION_BUILDING_CAPTAINS_TAVERN" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_UNIT_IRON_LONGSHIP" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_UNIT_THRALL" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_WE_DO_NOT_SOW" Kind="KIND_TRAIT" />
+		<!-- Eddard Stark leads the North -->
+		<Row Type="TRAIT_CIVILIZATION_DISTRICT_HEART_TREE" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_UNIT_MOUNTAIN_CLAN" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_WINTER_IS_COMING" Kind="KIND_TRAIT" />
+		<!-- Tywin Lannister leads the Westerlands -->
+		<Row Type="TRAIT_CIVILIZATION_DISTRICT_SELLSWORDS_CAMP" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_UNIT_SELLSWORDS" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_HEAR_ME_ROAR" Kind="KIND_TRAIT" />
+		<Row Type="MODIFIER_LANNISTER_TRAIT_FLAT_BONUS" Kind="KIND_MODIFIER"/>
+		<!-- Robert Baratheon leads the Stormlands -->
+		<Row Type="TRAIT_CIVILIZATION_BUILDING_JOUSTING_ARENA" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_UNIT_SQUIRE" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_OURS_IS_THE_FURY" Kind="KIND_TRAIT" />
+		<!-- Mace Tyrell leads the Reach -->
+		<!-- Jon Arryn leads the Vale -->
+		<!-- Hoster Tully leads the Riverlands -->
+		<!-- Doran Martell leads Dorne -->
+		<!-- Rhaegar Targaryen leads the Crownlands -->
+		
+		<!--Declare New Unit Ability-->
+		<Row Kind="KIND_ABILITY" Type="ABILITY_ALL_MELEE_CAPTURE_WORKERS"/>
+	</Types>
+
+	<Civilizations>
+		<!-- Balon Greyjoy leads the Ironborn -->
+		<Row>
+			<CivilizationType>CIVILIZATION_IRONBORN</CivilizationType>
+			<Name>LOC_CIVILIZATION_IRONBORN_NAME</Name>
+			<Description>LOC_CIVILIZATION_IRONBORN_DESCRIPTION</Description>
+			<Adjective>LOC_CIVILIZATION_IRONBORN_ADJECTIVE</Adjective>
+			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
+			<Ethnicity>ETHNICITY_EURO</Ethnicity>
+			<RandomCityNameDepth>10</RandomCityNameDepth>
+		</Row>
+		<!-- Eddard Stark leads the North -->
+		<Row>
+			<CivilizationType>CIVILIZATION_THE_NORTH</CivilizationType>
+			<Name>LOC_CIVILIZATION_THE_NORTH_NAME</Name>
+			<Description>LOC_CIVILIZATION_THE_NORTH_DESCRIPTION</Description>
+			<Adjective>LOC_CIVILIZATION_THE_NORTH_ADJECTIVE</Adjective>
+			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
+			<Ethnicity>ETHNICITY_EURO</Ethnicity>
+			<RandomCityNameDepth>5</RandomCityNameDepth>
+		</Row>
+		<!-- Tywin Lannister leads the Westerlands -->
+		<Row>
+			<CivilizationType>CIVILIZATION_THE_WESTERLANDS</CivilizationType>
+			<Name>LOC_CIVILIZATION_THE_WESTERLANDS_NAME</Name>
+			<Description>LOC_CIVILIZATION_THE_WESTERLANDS_DESCRIPTION</Description>
+			<Adjective>LOC_CIVILIZATION_THE_WESTERLANDS_ADJECTIVE</Adjective>
+			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
+			<Ethnicity>ETHNICITY_EURO</Ethnicity>
+			<RandomCityNameDepth>5</RandomCityNameDepth>
+		</Row>
+		<!-- Robert Baratheon leads the Stormlands -->
+		<Row>
+			<CivilizationType>CIVILIZATION_THE_STORMLANDS</CivilizationType>
+			<Name>LOC_CIVILIZATION_THE_STORMLANDS_NAME</Name>
+			<Description>LOC_CIVILIZATION_THE_STORMLANDS_DESCRIPTION</Description>
+			<Adjective>LOC_CIVILIZATION_THE_STORMLANDS_ADJECTIVE</Adjective>
+			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
+			<Ethnicity>ETHNICITY_EURO</Ethnicity>
+			<RandomCityNameDepth>5</RandomCityNameDepth>
+		</Row>
+		<!-- Mace Tyrell leads the Reach -->
+		<!-- Jon Arryn leads the Vale -->
+		<!-- Hoster Tully leads the Riverlands -->
+		<!-- Doran Martell leads Dorne -->
+		<!-- Rhaegar Targaryen leads the Crownlands -->
+	</Civilizations>
+
+	<CivilizationLeaders>
+		<!-- Balon Greyjoy leads the Ironborn -->
+		<Row CivilizationType="CIVILIZATION_IRONBORN" LeaderType="LEADER_BALON_GREYJOY" CapitalName="LOC_CIVILIZATION_IRONBORN_CITY_1" />
+		<!-- Eddard Stark leads the North -->
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" LeaderType="LEADER_EDDARD_STARK" CapitalName="LOC_CIVILIZATION_THE_NORTH_CITY_1" />
+		<!-- Tywin Lannister leads the Westerlands -->
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" LeaderType="LEADER_TYWIN_LANNISTER" CapitalName="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_1" />
+		<!-- Robert Baratheon leads the Stormlands -->
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" LeaderType="LEADER_ROBERT_BARATHEON" CapitalName="LOC_CIVILIZATION_THE_STORMLANDS_CITY_1" />
+	</CivilizationLeaders>
+
+	<CivilizationTraits>
+		<!-- Balon Greyjoy leads the Ironborn -->
+		<Row CivilizationType="CIVILIZATION_IRONBORN" TraitType="TRAIT_CIVILIZATION_BUILDING_CAPTAINS_TAVERN"/>
+		<Row CivilizationType="CIVILIZATION_IRONBORN" TraitType="TRAIT_CIVILIZATION_WE_DO_NOT_SOW"/>
+		<Row CivilizationType="CIVILIZATION_IRONBORN" TraitType="TRAIT_CIVILIZATION_UNIT_IRON_LONGSHIP"/>
+		<Row CivilizationType="CIVILIZATION_IRONBORN" TraitType="TRAIT_CIVILIZATION_UNIT_THRALL"/>
+		<!-- Eddard Stark leads the North -->
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" TraitType="TRAIT_CIVILIZATION_DISTRICT_HEART_TREE"/>
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" TraitType="TRAIT_CIVILIZATION_WINTER_IS_COMING"/>
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" TraitType="TRAIT_CIVILIZATION_UNIT_MOUNTAIN_CLAN"/>
+		<!-- Tywin Lannister leads the Westerlands -->
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" TraitType="TRAIT_CIVILIZATION_DISTRICT_SELLSWORDS_CAMP"/>
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" TraitType="TRAIT_CIVILIZATION_UNIT_SELLSWORDS"/>
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" TraitType="TRAIT_CIVILIZATION_HEAR_ME_ROAR"/>
+		<!-- Robert Baratheon leads the Stormlands -->
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" TraitType="TRAIT_CIVILIZATION_BUILDING_JOUSTING_ARENA"/>
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" TraitType="TRAIT_CIVILIZATION_UNIT_SQUIRE"/>
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" TraitType="TRAIT_CIVILIZATION_OURS_IS_THE_FURY"/>
+		<!-- Mace Tyrell leads the Reach -->
+		<!-- Jon Arryn leads the Vale -->
+		<!-- Hoster Tully leads the Riverlands -->
+		<!-- Doran Martell leads Dorne -->
+		<!-- Rhaegar Targaryen leads the Crownlands -->
+	</CivilizationTraits>
+
+	<CivilizationInfo>
+		<!-- Balon Greyjoy leads the Ironborn -->
+		<Row CivilizationType="CIVILIZATION_IRONBORN" SortIndex="10" Caption="LOC_CIVINFO_IRONBORN_LOCATION" Header="LOC_CIVINFO_LOCATION"/>
+		<Row CivilizationType="CIVILIZATION_IRONBORN" SortIndex="20" Caption="LOC_CIVINFO_IRONBORN_SIZE" Header="LOC_CIVINFO_SIZE"/>
+		<Row CivilizationType="CIVILIZATION_IRONBORN" SortIndex="30" Caption="LOC_CIVINFO_IRONBORN_POPULATION" Header="LOC_CIVINFO_POPULATION"/>
+		<Row CivilizationType="CIVILIZATION_IRONBORN" SortIndex="40" Caption="LOC_CIVINFO_IRONBORN_CAPITAL" Header="LOC_CIVINFO_CAPITAL"/>
+		<!-- Eddard Stark leads the North -->
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" SortIndex="10" Caption="LOC_CIVINFO_THE_NORTH_LOCATION" Header="LOC_CIVINFO_LOCATION"/>
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" SortIndex="20" Caption="LOC_CIVINFO_THE_NORTH_SIZE" Header="LOC_CIVINFO_SIZE"/>
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" SortIndex="30" Caption="LOC_CIVINFO_THE_NORTH_POPULATION" Header="LOC_CIVINFO_POPULATION"/>
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" SortIndex="40" Caption="LOC_CIVINFO_THE_NORTH_CAPITAL" Header="LOC_CIVINFO_CAPITAL"/>
+		<!-- Tywin Lannister leads the Westerlands -->
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" SortIndex="10" Caption="LOC_CIVINFO_THE_WESTERLANDS_LOCATION" Header="LOC_CIVINFO_LOCATION"/>
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" SortIndex="20" Caption="LOC_CIVINFO_THE_WESTERLANDS_SIZE" Header="LOC_CIVINFO_SIZE"/>
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" SortIndex="30" Caption="LOC_CIVINFO_THE_WESTERLANDS_POPULATION" Header="LOC_CIVINFO_POPULATION"/>
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" SortIndex="40" Caption="LOC_CIVINFO_THE_WESTERLANDS_CAPITAL" Header="LOC_CIVINFO_CAPITAL"/>
+		<!-- Robert Baratheon leads the Stormlands -->
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" SortIndex="10" Caption="LOC_CIVINFO_THE_STORMLANDS_LOCATION" Header="LOC_CIVINFO_LOCATION"/>
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" SortIndex="20" Caption="LOC_CIVINFO_THE_STORMLANDS_SIZE" Header="LOC_CIVINFO_SIZE"/>
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" SortIndex="30" Caption="LOC_CIVINFO_THE_STORMLANDS_POPULATION" Header="LOC_CIVINFO_POPULATION"/>
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" SortIndex="40" Caption="LOC_CIVINFO_THE_STORMLANDS_CAPITAL" Header="LOC_CIVINFO_CAPITAL"/>
+		<!-- Mace Tyrell leads the Reach -->
+		<!-- Jon Arryn leads the Vale -->
+		<!-- Hoster Tully leads the Riverlands -->
+		<!-- Doran Martell leads Dorne -->
+		<!-- Rhaegar Targaryen leads the Crownlands -->
+	</CivilizationInfo>
+
+	<CivilizationCitizenNames>
+		<!-- Balon Greyjoy leads the Ironborn -->
+		<Row CivilizationType="CIVILIZATION_IRONBORN" CitizenName="LOC_CITIZEN_IRONBORN_MALE_1" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_IRONBORN" CitizenName="LOC_CITIZEN_IRONBORN_MALE_2" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_IRONBORN" CitizenName="LOC_CITIZEN_IRONBORN_MALE_3" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_IRONBORN" CitizenName="LOC_CITIZEN_IRONBORN_MALE_4" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_IRONBORN" CitizenName="LOC_CITIZEN_IRONBORN_FEMALE_1" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_IRONBORN" CitizenName="LOC_CITIZEN_IRONBORN_FEMALE_2" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_IRONBORN" CitizenName="LOC_CITIZEN_IRONBORN_FEMALE_3" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_IRONBORN" CitizenName="LOC_CITIZEN_IRONBORN_FEMALE_4" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_IRONBORN" CitizenName="LOC_CITIZEN_IRONBORN_FEMALE_5" Female="1"/>
+		<!-- Eddard Stark leads the North -->
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" CitizenName="LOC_CITIZEN_THE_NORTH_MALE_1" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" CitizenName="LOC_CITIZEN_THE_NORTH_MALE_2" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" CitizenName="LOC_CITIZEN_THE_NORTH_MALE_3" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" CitizenName="LOC_CITIZEN_THE_NORTH_MALE_4" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" CitizenName="LOC_CITIZEN_THE_NORTH_FEMALE_1" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" CitizenName="LOC_CITIZEN_THE_NORTH_FEMALE_2" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" CitizenName="LOC_CITIZEN_THE_NORTH_FEMALE_3" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" CitizenName="LOC_CITIZEN_THE_NORTH_FEMALE_4" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" CitizenName="LOC_CITIZEN_THE_NORTH_FEMALE_5" Female="1"/>
+		<!-- Tywin Lannister leads the Westerlands -->
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" CitizenName="LOC_CITIZEN_THE_WESTERLANDS_MALE_1" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" CitizenName="LOC_CITIZEN_THE_WESTERLANDS_MALE_2" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" CitizenName="LOC_CITIZEN_THE_WESTERLANDS_MALE_3" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" CitizenName="LOC_CITIZEN_THE_WESTERLANDS_MALE_4" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" CitizenName="LOC_CITIZEN_THE_WESTERLANDS_FEMALE_1" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" CitizenName="LOC_CITIZEN_THE_WESTERLANDS_FEMALE_2" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" CitizenName="LOC_CITIZEN_THE_WESTERLANDS_FEMALE_3" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" CitizenName="LOC_CITIZEN_THE_WESTERLANDS_FEMALE_4" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" CitizenName="LOC_CITIZEN_THE_WESTERLANDS_FEMALE_5" Female="1"/>
+		<!-- Robert Baratheon leads the Stormlands -->
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" CitizenName="LOC_CITIZEN_THE_STORMLANDS_MALE_1" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" CitizenName="LOC_CITIZEN_THE_STORMLANDS_MALE_2" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" CitizenName="LOC_CITIZEN_THE_STORMLANDS_MALE_3" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" CitizenName="LOC_CITIZEN_THE_STORMLANDS_MALE_4" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" CitizenName="LOC_CITIZEN_THE_STORMLANDS_FEMALE_1" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" CitizenName="LOC_CITIZEN_THE_STORMLANDS_FEMALE_2" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" CitizenName="LOC_CITIZEN_THE_STORMLANDS_FEMALE_3" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" CitizenName="LOC_CITIZEN_THE_STORMLANDS_FEMALE_4" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" CitizenName="LOC_CITIZEN_THE_STORMLANDS_FEMALE_5" Female="1"/>
+		<!-- Mace Tyrell leads the Reach -->
+		<!-- Jon Arryn leads the Vale -->
+		<!-- Hoster Tully leads the Riverlands -->
+		<!-- Doran Martell leads Dorne -->
+		<!-- Rhaegar Targaryen leads the Crownlands -->
+	</CivilizationCitizenNames>
+
+	<LoadingInfo>
+		<!-- Balon Greyjoy leads the Ironborn -->
+		<Row LeaderType="LEADER_BALON_GREYJOY" PlayDawnOfManAudio="0" BackgroundImage="LEADER_BALON_GREYJOY_Background" ForegroundImage="LEADER_BALON_GREYJOY_Foreground"/>
+		<!-- Eddard Stark leads the North -->
+		<Row LeaderType="LEADER_EDDARD_STARK" PlayDawnOfManAudio="0" BackgroundImage="LEADER_EDDARD_STARK_Background" ForegroundImage="LEADER_EDDARD_STARK_Foreground"/>
+		<!-- Tywin Lannister leads the Westerlands -->
+		<Row LeaderType="LEADER_TYWIN_LANNISTER" PlayDawnOfManAudio="0" BackgroundImage="LEADER_TYWIN_LANNISTER_BACKGROUND" ForegroundImage="TYWINLANNISTER_Foreground"/>
+		<!-- Robert Baratheon leads the Stormlands -->
+		<Row LeaderType="LEADER_ROBERT_BARATHEON" PlayDawnOfManAudio="0" BackgroundImage="LEADER_ROBERT_BARATHEON_BACKGROUND" ForegroundImage="ROBERTBARATHEON_Foreground"/>
+		<!-- Mace Tyrell leads the Reach -->
+		<!-- Jon Arryn leads the Vale -->
+		<!-- Hoster Tully leads the Riverlands -->
+		<!-- Doran Martell leads Dorne -->
+		<!-- Rhaegar Targaryen leads the Crownlands -->
+	</LoadingInfo>
+	<DiplomacyInfo>
+		<!-- Balon Greyjoy leads the Ironborn -->
+		<Row Type="LEADER_BALON_GREYJOY" BackgroundImage="BALONGREYJOY_Diplomacy"/>
+		<!-- Eddard Stark leads the North -->
+		<Row Type="LEADER_EDDARD_STARK" BackgroundImage="LEADER_EDDARD_STARK_Diplomacy"/>
+		<!-- Tywin Lannister leads the Westerlands -->
+		<Row Type="LEADER_TYWIN_LANNISTER" BackgroundImage="TYWINLANNISTER_Diplomacy"/>
+		<!-- Robert Baratheon leads the Stormlands -->
+		<Row Type="LEADER_ROBERT_BARATHEON" BackgroundImage="ROBERTBARATHEON_Diplomacy"/>
+		<!-- Mace Tyrell leads the Reach -->
+		<!-- Jon Arryn leads the Vale -->
+		<!-- Hoster Tully leads the Riverlands -->
+		<!-- Doran Martell leads Dorne -->
+		<!-- Rhaegar Targaryen leads the Crownlands -->
+	</DiplomacyInfo>
+
+	<TypeTags>
+		<!-- Balon Greyjoy leads the Ironborn -->
+		<Row Type="ABILITY_ALL_MELEE_CAPTURE_WORKERS" Tag="CLASS_RECON"/>
+		<Row Type="ABILITY_ALL_MELEE_CAPTURE_WORKERS" Tag="CLASS_MELEE"/>
+		<Row Type="ABILITY_ALL_MELEE_CAPTURE_WORKERS" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="ABILITY_ALL_MELEE_CAPTURE_WORKERS" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="ABILITY_ALL_MELEE_CAPTURE_WORKERS" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="ABILITY_ALL_MELEE_CAPTURE_WORKERS" Tag="CLASS_HEAVY_CHARIOT"/>
+		<Row Type="ABILITY_ALL_MELEE_CAPTURE_WORKERS" Tag="CLASS_LIGHT_CHARIOT"/>
+		<Row Type="ABILITY_ALL_MELEE_CAPTURE_WORKERS" Tag="CLASS_NAVAL_MELEE"/>
+		<!-- Eddard Stark leads the North -->
+		<!-- Tywin Lannister leads the Westerlands -->
+		<!-- Robert Baratheon leads the Stormlands -->
+		<!-- Mace Tyrell leads the Reach -->
+		<!-- Jon Arryn leads the Vale -->
+		<!-- Hoster Tully leads the Riverlands -->
+		<!-- Doran Martell leads Dorne -->
+		<!-- Rhaegar Targaryen leads the Crownlands -->
+	</TypeTags>
+	<UnitAbilities>
+		<!-- Balon Greyjoy leads the Ironborn -->
+		<Row Description="LOC_ABILITY_ALL_MELEE_CAPTURE_WORKERS_DESCRIPTION" Name="LOC_ABILITY_ALL_MELEE_CAPTURE_WORKERS_NAME" UnitAbilityType="ABILITY_ALL_MELEE_CAPTURE_WORKERS" Inactive="true"/>
+		<!-- Eddard Stark leads the North -->
+		<!-- Tywin Lannister leads the Westerlands -->
+		<!-- Robert Baratheon leads the Stormlands -->
+		<!-- Mace Tyrell leads the Reach -->
+		<!-- Jon Arryn leads the Vale -->
+		<!-- Hoster Tully leads the Riverlands -->
+		<!-- Doran Martell leads Dorne -->
+		<!-- Rhaegar Targaryen leads the Crownlands -->
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<!-- Balon Greyjoy leads the Ironborn -->
+		<Row>
+			<UnitAbilityType>ABILITY_ALL_MELEE_CAPTURE_WORKERS</UnitAbilityType>
+			<ModifierId>CAPTURE_COMBAT_UNITS_AS_THRALLS</ModifierId>
+		</Row>
+		<!-- Eddard Stark leads the North -->
+		<!-- Tywin Lannister leads the Westerlands -->
+		<!-- Robert Baratheon leads the Stormlands -->
+		<!-- Mace Tyrell leads the Reach -->
+		<!-- Jon Arryn leads the Vale -->
+		<!-- Hoster Tully leads the Riverlands -->
+		<!-- Doran Martell leads Dorne -->
+		<!-- Rhaegar Targaryen leads the Crownlands -->
+	</UnitAbilityModifiers>
+	<ModifierStrings>
+		<!-- Balon Greyjoy leads the Ironborn -->
+		<Row Text="LOC_CAPTURE_COMBAT_UNITS_AS_THRALLS_DESCRIPTION" Context="Preview" ModifierId="CAPTURE_COMBAT_UNITS_AS_THRALLS"/>
+		<!-- Eddard Stark leads the North -->
+		<!-- Tywin Lannister leads the Westerlands -->
+		<!-- Robert Baratheon leads the Stormlands -->
+		<!-- Mace Tyrell leads the Reach -->
+		<!-- Jon Arryn leads the Vale -->
+		<!-- Hoster Tully leads the Riverlands -->
+		<!-- Doran Martell leads Dorne -->
+		<!-- Rhaegar Targaryen leads the Crownlands -->
+	</ModifierStrings>
+
+	<Traits>
+		<!-- Balon Greyjoy leads the Ironborn -->
+		<Row TraitType="TRAIT_CIVILIZATION_BUILDING_CAPTAINS_TAVERN" Name="LOC_BUILDING_CAPTAINS_TAVERN_NAME" Description="LOC_BUILDING_CAPTAINS_TAVERN_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_WE_DO_NOT_SOW" Name="LOC_TRAIT_CIVILIZATION_IRONBORN_NAME" Description="LOC_TRAIT_CIVILIZATION_IRONBORN_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_IRON_LONGSHIP" Name="LOC_UNIT_IRON_LONGSHIP_NAME" Description="LOC_UNIT_IRON_LONGSHIP_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_THRALL" Name="LOC_UNIT_THRALL_NAME" Description="LOC_UNIT_THRALL_DESCRIPTION"/>
+		<!-- Eddard Stark leads the North -->
+		<Row TraitType="TRAIT_CIVILIZATION_DISTRICT_HEART_TREE" Name="LOC_DISTRICT_HEART_TREE_NAME" Description="LOC_DISTRICT_HEART_TREE_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_WINTER_IS_COMING" Name="LOC_TRAIT_CIVILIZATION_THE_NORTH_NAME" Description="LOC_TRAIT_CIVILIZATION_THE_NORTH_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_MOUNTAIN_CLAN" Name="LOC_UNIT_MOUNTAIN_CLAN_NAME" Description="LOC_UNIT_MOUNTAIN_CLAN_DESCRIPTION"/>
+		<!-- Tywin Lannister leads the Westerlands -->
+		<Row TraitType="TRAIT_CIVILIZATION_DISTRICT_SELLSWORDS_CAMP" Name="LOC_DISTRICT_SELLSWORDS_CAMP_NAME" Description="LOC_DISTRICT_SELLSWORDS_CAMP_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_SELLSWORDS" Name="LOC_UNIT_SELLSWORDS_NAME" Description="LOC_UNIT_SELLSWORDS_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_HEAR_ME_ROAR" Name="LOC_TRAIT_CIVILIZATION_THE_WESTERLANDS_NAME" Description="LOC_TRAIT_CIVILIZATION_THE_WESTERLANDS_DESCRIPTION"/>
+		<!-- Robert Baratheon leads the Stormlands -->
+		<Row TraitType="TRAIT_CIVILIZATION_BUILDING_JOUSTING_ARENA" Name="LOC_BUILDING_JOUSTING_ARENA_NAME" Description="LOC_BUILDING_JOUSTING_ARENA_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_SQUIRE" Name="LOC_UNIT_SQUIRE_NAME" Description="LOC_UNIT_SQUIRE_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_OURS_IS_THE_FURY" Name="LOC_TRAIT_CIVILIZATION_THE_STORMLANDS_NAME" Description="LOC_TRAIT_CIVILIZATION_THE_STORMLANDS_DESCRIPTION"/>
+		<!-- Mace Tyrell leads the Reach -->
+		<!-- Jon Arryn leads the Vale -->
+		<!-- Hoster Tully leads the Riverlands -->
+		<!-- Doran Martell leads Dorne -->
+		<!-- Rhaegar Targaryen leads the Crownlands -->
+	</Traits>
+
+	<TraitModifiers>
+		<!-- Balon Greyjoy leads the Ironborn -->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_WE_DO_NOT_SOW</TraitType>
+			<ModifierId>TRAIT_COMBAT_CAPTURE_BUILDERS</ModifierId>
+		</Row>
+		<!-- Eddard Stark leads the North -->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_WINTER_IS_COMING</TraitType>
+			<ModifierId>TRAIT_ES_INCREASED_TUNDRA_FOOD</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_WINTER_IS_COMING</TraitType>
+			<ModifierId>TRAIT_ES_INCREASED_TUNDRA_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_WINTER_IS_COMING</TraitType>
+			<ModifierId>TRAIT_ES_INCREASED_TUNDRA_CULTURE</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_WINTER_IS_COMING</TraitType>
+			<ModifierId>TRAIT_ES_INCREASED_SNOW_FOOD</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_WINTER_IS_COMING</TraitType>
+			<ModifierId>TRAIT_ES_INCREASED_SNOW_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_WINTER_IS_COMING</TraitType>
+			<ModifierId>TRAIT_ES_INCREASED_SNOW_CULTURE</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_WINTER_IS_COMING</TraitType>
+			<ModifierId>TRAIT_ES_INCREASED_TUNDRA_HILLS_FOOD</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_WINTER_IS_COMING</TraitType>
+			<ModifierId>TRAIT_ES_INCREASED_TUNDRA_HILLS_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_WINTER_IS_COMING</TraitType>
+			<ModifierId>TRAIT_ES_INCREASED_TUNDRA_HILLS_CULTURE</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_WINTER_IS_COMING</TraitType>
+			<ModifierId>TRAIT_ES_INCREASED_SNOW_HILLS_FOOD</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_WINTER_IS_COMING</TraitType>
+			<ModifierId>TRAIT_ES_INCREASED_SNOW_HILLS_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_WINTER_IS_COMING</TraitType>
+			<ModifierId>TRAIT_ES_INCREASED_SNOW_HILLS_CULTURE</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_WINTER_IS_COMING</TraitType>
+			<ModifierId>TRAIT_HT_INCREASED_FOREST_SCIENCE</ModifierId>
+		</Row>
+		<!-- Tywin Lannister leads the Westerlands -->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_HEAR_ME_ROAR</TraitType>
+			<ModifierId>TRAIT_TL_MINE_BONUS_GOLD</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_HEAR_ME_ROAR</TraitType>
+			<ModifierId>TRAIT_TL_MINE_STRATEGIC_GOLD</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_HEAR_ME_ROAR</TraitType>
+			<ModifierId>TRAIT_TL_MINE_LUXURY_GOLD</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_HEAR_ME_ROAR</TraitType>
+			<ModifierId>TRAIT_TL_GOLD_DISCOUNT</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_HEAR_ME_ROAR</TraitType>
+			<ModifierId>TRAIT_TL_CULTURE_BOMB_TRIGGER_MINE</ModifierId>
+		</Row>
+		<!-- Robert Baratheon leads the Stormlands -->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_OURS_IS_THE_FURY</TraitType>
+			<ModifierId>TRAIT_RB_WALLS_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_OURS_IS_THE_FURY</TraitType>
+			<ModifierId>TRAIT_RB_CASTLE_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_OURS_IS_THE_FURY</TraitType>
+			<ModifierId>TRAIT_RB_STAR_FORT_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_OURS_IS_THE_FURY</TraitType>
+			<ModifierId>TRAIT_RB_WALLS_CULTURE</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_OURS_IS_THE_FURY</TraitType>
+			<ModifierId>TRAIT_RB_CASTLE_CULTURE</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_OURS_IS_THE_FURY</TraitType>
+			<ModifierId>TRAIT_RB_STAR_FORT_CULTURE</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_OURS_IS_THE_FURY</TraitType>
+			<ModifierId>TRAIT_RB_OUTER_DEFENSE</ModifierId>
+		</Row>
+		<!-- Mace Tyrell leads the Reach -->
+		<!-- Jon Arryn leads the Vale -->
+		<!-- Hoster Tully leads the Riverlands -->
+		<!-- Doran Martell leads Dorne -->
+		<!-- Rhaegar Targaryen leads the Crownlands -->
+	</TraitModifiers>
+
+	<Modifiers>
+		<!-- Balon Greyjoy leads the Ironborn -->
+		<Row>
+			<ModifierId>TRAIT_COMBAT_CAPTURE_BUILDERS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>CAPTURE_COMBAT_UNITS_AS_THRALLS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_CAPTURE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>CAPTAINSTAVERN_GRANT_THRALLS</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_UNIT_IN_CITY</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<!-- Eddard Stark leads the North -->
+		<Row>
+			<ModifierId>TRAIT_ES_INCREASED_TUNDRA_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_TUNDRA_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ES_INCREASED_TUNDRA_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_TUNDRA_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ES_INCREASED_TUNDRA_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_TUNDRA_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ES_INCREASED_TUNDRA_HILLS_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_TUNDRA_HILLS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ES_INCREASED_TUNDRA_HILLS_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_TUNDRA_HILLS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ES_INCREASED_TUNDRA_HILLS_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_TUNDRA_HILLS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ES_INCREASED_SNOW_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_SNOW_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ES_INCREASED_SNOW_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_SNOW_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ES_INCREASED_SNOW_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_SNOW_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ES_INCREASED_SNOW_HILLS_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_SNOW_HILLS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ES_INCREASED_SNOW_HILLS_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_SNOW_HILLS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ES_INCREASED_SNOW_HILLS_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_SNOW_HILLS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<!-- Tywin Lannister leads the Westerlands -->
+		<Row>
+			<ModifierId>TRAIT_TL_MINE_BONUS_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_BONUS_MINE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TL_MINE_STRATEGIC_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_STRATEGIC_MINE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TL_MINE_LUXURY_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_LUXURY_MINE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TL_GOLD_DISCOUNT</ModifierId>
+			<ModifierType>MODIFIER_LANNISTER_TRAIT_FLAT_BONUS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TL_CULTURE_BOMB_TRIGGER_MINE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADD_CULTURE_BOMB_TRIGGER</ModifierType>
+		</Row>
+		<!-- Robert Baratheon leads the Stormlands -->
+		<Row>
+			<ModifierId>TRAIT_RB_WALLS_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RB_CASTLE_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RB_STAR_FORT_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_PRODUCTION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RB_WALLS_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_ANCIENT_WALLS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RB_CASTLE_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_MEDIEVAL_WALLS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RB_STAR_FORT_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_RENAISSANCE_WALLS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>RB_WALLS_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_BUILDING_YIELD_CHANGE</ModifierType>
+			<RunOnce>false</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>RB_CASTLE_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_BUILDING_YIELD_CHANGE</ModifierType>
+			<RunOnce>false</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>RB_STAR_FORT_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_BUILDING_YIELD_CHANGE</ModifierType>
+			<RunOnce>false</RunOnce>
+			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RB_OUTER_DEFENSE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_OUTER_DEFENSE</ModifierType>
+		</Row>
+		<!-- Mace Tyrell leads the Reach -->
+		<!-- Jon Arryn leads the Vale -->
+		<!-- Hoster Tully leads the Riverlands -->
+		<!-- Doran Martell leads Dorne -->
+		<!-- Rhaegar Targaryen leads the Crownlands -->
+	</Modifiers>
+
+	<ModifierArguments>
+		<!-- Balon Greyjoy leads the Ironborn -->
+		<Row>
+			<ModifierId>TRAIT_COMBAT_CAPTURE_BUILDERS</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_ALL_MELEE_CAPTURE_WORKERS</Value>
+		</Row>
+		<Row>
+			<ModifierId>CAPTURE_COMBAT_UNITS_AS_THRALLS</ModifierId>
+			<Name>CanCapture</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>CAPTURE_COMBAT_UNITS_AS_THRALLS</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_THRALL</Value>
+		</Row>
+		<Row>
+			<ModifierId>CAPTAINSTAVERN_GRANT_THRALLS</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_THRALL</Value>
+		</Row>
+		<Row>
+			<ModifierId>CAPTAINSTAVERN_GRANT_THRALLS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!-- Eddard Stark leads the North -->
+		<Row>
+			<ModifierId>TRAIT_ES_INCREASED_TUNDRA_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ES_INCREASED_TUNDRA_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ES_INCREASED_TUNDRA_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ES_INCREASED_TUNDRA_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ES_INCREASED_TUNDRA_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ES_INCREASED_TUNDRA_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ES_INCREASED_TUNDRA_HILLS_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ES_INCREASED_TUNDRA_HILLS_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ES_INCREASED_TUNDRA_HILLS_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ES_INCREASED_TUNDRA_HILLS_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ES_INCREASED_TUNDRA_HILLS_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ES_INCREASED_TUNDRA_HILLS_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ES_INCREASED_SNOW_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ES_INCREASED_SNOW_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ES_INCREASED_SNOW_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ES_INCREASED_SNOW_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ES_INCREASED_SNOW_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ES_INCREASED_SNOW_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ES_INCREASED_SNOW_HILLS_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ES_INCREASED_SNOW_HILLS_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ES_INCREASED_SNOW_HILLS_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ES_INCREASED_SNOW_HILLS_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ES_INCREASED_SNOW_HILLS_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ES_INCREASED_SNOW_HILLS_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!-- Tywin Lannister leads the Westerlands -->
+		<Row>
+			<ModifierId>TRAIT_TL_MINE_BONUS_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TL_MINE_BONUS_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TL_MINE_STRATEGIC_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TL_MINE_STRATEGIC_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TL_MINE_LUXURY_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TL_MINE_LUXURY_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TL_GOLD_DISCOUNT</ModifierId>
+			<Name>BonusType</Name>
+			<Value>GOVERNMENTBONUS_GOLD_PURCHASES</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TL_GOLD_DISCOUNT</ModifierId>
+			<Name>Amount</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_TL_CULTURE_BOMB_TRIGGER_MINE</ModifierId>
+			<Name>ImprovementType</Name>
+			<Value>IMPROVEMENT_MINE</Value>
+		</Row>
+		<!-- Robert Baratheon leads the Stormlands -->
+		<Row>
+			<ModifierId>TRAIT_RB_WALLS_PRODUCTION</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_WALLS</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RB_WALLS_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RB_CASTLE_PRODUCTION</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_CASTLE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RB_CASTLE_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RB_STAR_FORT_PRODUCTION</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_STAR_FORT</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RB_STAR_FORT_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_RB_WALLS_CULTURE</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>RB_WALLS_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>RB_WALLS_CULTURE</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_WALLS</Value>
+		</Row>
+		<Row>
+			<ModifierId>RB_WALLS_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>RB_WALLS_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_RB_CASTLE_CULTURE</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>RB_CASTLE_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>RB_CASTLE_CULTURE</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_CASTLE</Value>
+		</Row>
+		<Row>
+			<ModifierId>RB_CASTLE_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>RB_CASTLE_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_RB_STAR_FORT_CULTURE</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>RB_STAR_FORT_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>RB_STAR_FORT_CULTURE</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_STAR_FORT</Value>
+		</Row>
+		<Row>
+			<ModifierId>RB_STAR_FORT_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>RB_STAR_FORT_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_RB_OUTER_DEFENSE</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<!-- Mace Tyrell leads the Reach -->
+		<!-- Jon Arryn leads the Vale -->
+		<!-- Hoster Tully leads the Riverlands -->
+		<!-- Doran Martell leads Dorne -->
+		<!-- Rhaegar Targaryen leads the Crownlands -->
+	</ModifierArguments>
+
+	<ModifierStrings>
+		<!-- Robert Baratheon leads the Stormlands -->
+		<Row ModifierId="TRAIT_RB_WALLS_CULTURE" Context="Preview" Text="LOC_TRAIT_RB_WALLS_CULTURE_DESCRIPTION"/>
+		<Row ModifierId="TRAIT_RB_CASTLE_CULTURE" Context="Preview" Text="LOC_TRAIT_RB_CASTLE_CULTURE_DESCRIPTION"/>
+		<Row ModifierId="TRAIT_RB_STAR_FORT_CULTURE" Context="Preview" Text="LOC_TRAIT_RB_STAR_FORT_CULTURE_DESCRIPTION"/>
+	</ModifierStrings>
+
+	<DynamicModifiers>
+		<!-- Tywin Lannister leads the Westerlands -->
+		<Row>
+			<ModifierType>MODIFIER_LANNISTER_TRAIT_FLAT_BONUS</ModifierType>
+			<CollectionType>COLLECTION_OWNER</CollectionType>
+			<EffectType>EFFECT_ADJUST_FLAT_BONUS</EffectType>
+		</Row>
+	</DynamicModifiers>
+
+	<CityNames>
+		<!-- Balon Greyjoy leads the Ironborn -->
+		<Row CivilizationType="CIVILIZATION_IRONBORN" CityName="LOC_CIVILIZATION_IRONBORN_CITY_1" />
+		<Row CivilizationType="CIVILIZATION_IRONBORN" CityName="LOC_CIVILIZATION_IRONBORN_CITY_2" />
+		<Row CivilizationType="CIVILIZATION_IRONBORN" CityName="LOC_CIVILIZATION_IRONBORN_CITY_3" />
+		<Row CivilizationType="CIVILIZATION_IRONBORN" CityName="LOC_CIVILIZATION_IRONBORN_CITY_4" />
+		<Row CivilizationType="CIVILIZATION_IRONBORN" CityName="LOC_CIVILIZATION_IRONBORN_CITY_5" />
+		<Row CivilizationType="CIVILIZATION_IRONBORN" CityName="LOC_CIVILIZATION_IRONBORN_CITY_6" />
+		<Row CivilizationType="CIVILIZATION_IRONBORN" CityName="LOC_CIVILIZATION_IRONBORN_CITY_7" />
+		<Row CivilizationType="CIVILIZATION_IRONBORN" CityName="LOC_CIVILIZATION_IRONBORN_CITY_8" />
+		<Row CivilizationType="CIVILIZATION_IRONBORN" CityName="LOC_CIVILIZATION_IRONBORN_CITY_9" />
+		<Row CivilizationType="CIVILIZATION_IRONBORN" CityName="LOC_CIVILIZATION_IRONBORN_CITY_10" />
+		<Row CivilizationType="CIVILIZATION_IRONBORN" CityName="LOC_CIVILIZATION_IRONBORN_CITY_11" />
+		<Row CivilizationType="CIVILIZATION_IRONBORN" CityName="LOC_CIVILIZATION_IRONBORN_CITY_12" />
+		<Row CivilizationType="CIVILIZATION_IRONBORN" CityName="LOC_CIVILIZATION_IRONBORN_CITY_13" />
+		<Row CivilizationType="CIVILIZATION_IRONBORN" CityName="LOC_CIVILIZATION_IRONBORN_CITY_14" />
+		<Row CivilizationType="CIVILIZATION_IRONBORN" CityName="LOC_CIVILIZATION_IRONBORN_CITY_15" />
+		<!-- Eddard Stark leads the North -->
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" CityName="LOC_CIVILIZATION_THE_NORTH_CITY_1" />
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" CityName="LOC_CIVILIZATION_THE_NORTH_CITY_2" />
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" CityName="LOC_CIVILIZATION_THE_NORTH_CITY_3" />
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" CityName="LOC_CIVILIZATION_THE_NORTH_CITY_4" />
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" CityName="LOC_CIVILIZATION_THE_NORTH_CITY_5" />
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" CityName="LOC_CIVILIZATION_THE_NORTH_CITY_6" />
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" CityName="LOC_CIVILIZATION_THE_NORTH_CITY_7" />
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" CityName="LOC_CIVILIZATION_THE_NORTH_CITY_8" />
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" CityName="LOC_CIVILIZATION_THE_NORTH_CITY_9" />
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" CityName="LOC_CIVILIZATION_THE_NORTH_CITY_10" />
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" CityName="LOC_CIVILIZATION_THE_NORTH_CITY_11" />
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" CityName="LOC_CIVILIZATION_THE_NORTH_CITY_12" />
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" CityName="LOC_CIVILIZATION_THE_NORTH_CITY_13" />
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" CityName="LOC_CIVILIZATION_THE_NORTH_CITY_14" />
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" CityName="LOC_CIVILIZATION_THE_NORTH_CITY_15" />
+		<!-- Tywin Lannister leads the Westerlands -->
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" CityName="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_1" />
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" CityName="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_2" />
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" CityName="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_3" />
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" CityName="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_4" />
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" CityName="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_5" />
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" CityName="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_6" />
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" CityName="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_7" />
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" CityName="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_8" />
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" CityName="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_9" />
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" CityName="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_10" />
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" CityName="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_11" />
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" CityName="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_12" />
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" CityName="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_13" />
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" CityName="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_14" />
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" CityName="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_15" />
+		<!-- Robert Baratheon leads the Stormlands -->
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" CityName="LOC_CIVILIZATION_THE_STORMLANDS_CITY_1" />
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" CityName="LOC_CIVILIZATION_THE_STORMLANDS_CITY_2" />
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" CityName="LOC_CIVILIZATION_THE_STORMLANDS_CITY_3" />
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" CityName="LOC_CIVILIZATION_THE_STORMLANDS_CITY_4" />
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" CityName="LOC_CIVILIZATION_THE_STORMLANDS_CITY_5" />
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" CityName="LOC_CIVILIZATION_THE_STORMLANDS_CITY_6" />
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" CityName="LOC_CIVILIZATION_THE_STORMLANDS_CITY_7" />
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" CityName="LOC_CIVILIZATION_THE_STORMLANDS_CITY_8" />
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" CityName="LOC_CIVILIZATION_THE_STORMLANDS_CITY_9" />
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" CityName="LOC_CIVILIZATION_THE_STORMLANDS_CITY_10" />
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" CityName="LOC_CIVILIZATION_THE_STORMLANDS_CITY_11" />
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" CityName="LOC_CIVILIZATION_THE_STORMLANDS_CITY_12" />
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" CityName="LOC_CIVILIZATION_THE_STORMLANDS_CITY_13" />
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" CityName="LOC_CIVILIZATION_THE_STORMLANDS_CITY_14" />
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" CityName="LOC_CIVILIZATION_THE_STORMLANDS_CITY_15" />
+		<!-- Mace Tyrell leads the Reach -->
+		<!-- Jon Arryn leads the Vale -->
+		<!-- Hoster Tully leads the Riverlands -->
+		<!-- Doran Martell leads Dorne -->
+		<!-- Rhaegar Targaryen leads the Crownlands -->
+	</CityNames>
+
+	<Colors>
+		<!-- Balon Greyjoy leads the Ironborn -->
+		<Row>
+			<Type>COLOR_PLAYER_IRONBORN_PRIMARY</Type>
+			<Color>15,15,15,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_IRONBORN_SECONDARY</Type>
+			<Color>207,181,59,255</Color>
+		</Row>
+		<!-- Eddard Stark leads the North -->
+		<Row>
+			<Type>COLOR_PLAYER_THE_NORTH_PRIMARY</Type>
+			<Color>220,220,220,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_THE_NORTH_SECONDARY</Type>
+			<Color>71,73,88,255</Color>
+		</Row>
+		<!-- Tywin Lannister leads the Westerlands -->
+		<Row>
+			<Type>COLOR_PLAYER_THE_WESTERLANDS_PRIMARY</Type>
+			<Color>162,6,6,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_THE_WESTERLANDS_SECONDARY</Type>
+			<Color>246,217,32,255</Color>
+		</Row>
+		<!-- Robert Baratheon leads the Stormlands -->
+		<Row>
+			<Type>COLOR_PLAYER_THE_STORMLANDS_PRIMARY</Type>
+			<Color>254,207,3,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_THE_STORMLANDS_SECONDARY</Type>
+			<Color>34,30,31,255</Color>
+		</Row>
+		<!-- Mace Tyrell leads the Reach -->
+		<!-- Jon Arryn leads the Vale -->
+		<!-- Hoster Tully leads the Riverlands -->
+		<!-- Doran Martell leads Dorne -->
+		<!-- Rhaegar Targaryen leads the Crownlands -->
+	</Colors>
+	<PlayerColors>
+		<!-- Balon Greyjoy leads the Ironborn -->
+		<Row>
+			<Type>LEADER_BALON_GREYJOY</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_IRONBORN_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_IRONBORN_SECONDARY</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>
+		<!-- Eddard Stark leads the North -->
+		<Row>
+			<Type>LEADER_EDDARD_STARK</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_THE_NORTH_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_THE_NORTH_SECONDARY</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>
+		<!-- Tywin Lannister leads the Westerlands -->
+		<Row>
+			<Type>LEADER_TYWIN_LANNISTER</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_THE_WESTERLANDS_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_THE_WESTERLANDS_SECONDARY</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>
+		<!-- Robert Baratheon leads the Stormlands -->
+		<Row>
+			<Type>LEADER_ROBERT_BARATHEON</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_THE_STORMLANDS_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_THE_STORMLANDS_SECONDARY</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>
+		<!-- Mace Tyrell leads the Reach -->
+		<!-- Jon Arryn leads the Vale -->
+		<!-- Hoster Tully leads the Riverlands -->
+		<!-- Doran Martell leads Dorne -->
+		<!-- Rhaegar Targaryen leads the Crownlands -->
+	</PlayerColors>
+
+	<StartBiasResources>
+		<!-- Balon Greyjoy leads the Ironborn -->
+		<Row CivilizationType="CIVILIZATION_IRONBORN" Tier="1" ResourceType="RESOURCE_FISH"/>
+		<Row CivilizationType="CIVILIZATION_IRONBORN" Tier="3" ResourceType="RESOURCE_CRABS"/>
+		<Row CivilizationType="CIVILIZATION_IRONBORN" Tier="2" ResourceType="RESOURCE_WHALES"/>
+		<Row CivilizationType="CIVILIZATION_IRONBORN" Tier="3" ResourceType="RESOURCE_PEARLS"/>
+		<!-- Eddard Stark leads the North -->
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" Tier="4" ResourceType="RESOURCE_DEER"/>
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" Tier="4" ResourceType="RESOURCE_FURS"/>
+		<!-- Tywin Lannister leads the Westerlands -->
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" Tier="2" ResourceType="RESOURCE_IRON"/>
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" Tier="2" ResourceType="RESOURCE_SILVER"/>
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" Tier="2" ResourceType="RESOURCE_COPPER"/>
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" Tier="2" ResourceType="RESOURCE_SALT"/>
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" Tier="2" ResourceType="RESOURCE_JADE"/>
+		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" Tier="2" ResourceType="RESOURCE_AMBER"/>
+		<!-- Robert Baratheon leads the Stormlands -->
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" Tier="2" ResourceType="RESOURCE_HORSES"/>
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" Tier="3" ResourceType="RESOURCE_CATTLE"/>
+		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" Tier="3" ResourceType="RESOURCE_SHEEP"/>
+		<!-- Mace Tyrell leads the Reach -->
+		<!-- Jon Arryn leads the Vale -->
+		<!-- Hoster Tully leads the Riverlands -->
+		<!-- Doran Martell leads Dorne -->
+		<!-- Rhaegar Targaryen leads the Crownlands -->
+	</StartBiasResources>
+	<StartBiasFeatures>
+		<!-- Eddard Stark leads the North -->
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" FeatureType="FEATURE_FOREST" Tier="4"/>
+	</StartBiasFeatures>
+	<StartBiasTerrains>
+		<!-- Balon Greyjoy leads the Ironborn -->
+		<Row CivilizationType="CIVILIZATION_IRONBORN" Tier="1" TerrainType="TERRAIN_COAST"/>
+		<!-- Eddard Stark leads the North -->
+		<Row CivilizationType="CIVILIZATION_THE_NORTH" Tier="1" TerrainType="TERRAIN_TUNDRA"/>
+		<!-- Tywin Lannister leads the Westerlands -->
+		<!-- Robert Baratheon leads the Stormlands -->
+		<!-- Mace Tyrell leads the Reach -->
+		<!-- Jon Arryn leads the Vale -->
+		<!-- Hoster Tully leads the Riverlands -->
+		<!-- Doran Martell leads Dorne -->
+		<!-- Rhaegar Targaryen leads the Crownlands -->
+	</StartBiasTerrains>
+</GameData>

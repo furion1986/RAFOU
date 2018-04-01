@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>Rise and Fall of Usurper</Name>
+    <Guid>609b5cea-2689-40fb-8cc5-3e6f8d1f72a3</Guid>
+    <ProjectGuid>b3648e89-d133-47f4-9553-f5250aaee4d2</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>Ice and Fire</Teaser>
+    <Description>Recompile the 4 Leaders already made and add more.</Description>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><Criteria>LeaderCriteria</Criteria><File>NewLeader_Felines.xml</File><File>NewLeader_JasperKitty.xml</File><File>NewLeader_LitterBox.xml</File></UpdateDatabase><UpdateText id="Text"><Criteria>LeaderCriteria</Criteria><File>NewLeader_ConfigText.xml</File><File>NewLeader_Text.xml</File></UpdateText><UpdateIcons id="Icons"><Criteria>LeaderCriteria</Criteria><File>NewLeader_Icons.xml</File></UpdateIcons><UpdateArt id="Art"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt></InGameActions>]]></InGameActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config"><File>NewLeader_Config.xml</File></UpdateDatabase><UpdateText id="ConfigText"><File>NewLeader_ConfigText.xml</File></UpdateText><UpdateIcons id="ConfigIcons"><File>NewLeader_Icons.xml</File></UpdateIcons><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
+    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="LeaderCriteria"><LeaderPlayable>StandardPlayers::LEADER_JASPER_KITTY</LeaderPlayable></Criteria></ActionCriteria>]]></ActionCriteriaData>
+    <AssemblyName>Rise and Fall of Usurper</AssemblyName>
+    <RootNamespace>Rise and Fall of Usurper</RootNamespace>
+    <Authors>Furion1986</Authors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Artdefs\" />
+    <Folder Include="Textures\" />
+    <Folder Include="XLPs\" />
+    <Content Include="RAFOU_Units.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="RAFOU_Config.xml" />
+    <Content Include="RAFOU_ConfigText.xml" />
+    <Content Include="RAFOU_Civilizations.xml" />
+    <Content Include="RAFOU_Icons.xml" />
+    <Content Include="RAFOU_Leaders.xml" />
+    <Content Include="RAFOU_DistrictsAndBuildings.xml" />
+    <Content Include="RAFOU_Text.xml" />
+    <None Include="Textures\FALLBACK_NEUTRAL_JASPERKITTY.dds" />
+    <None Include="Textures\FALLBACK_NEUTRAL_JASPERKITTY.tex" />
+    <None Include="Textures\LEADER_JASPER_KITTY_NEUTRAL.dds" />
+    <None Include="Textures\LEADER_JASPER_KITTY_NEUTRAL.tex" />
+    <None Include="ArtDefs\FallbackLeaders.artdef" />
+    <None Include="XLPs\LeaderFallbacks.xlp" />
+    <None Include="XLPs\UILeaders.xlp" />
+    <None Include="Mod.Art.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>
