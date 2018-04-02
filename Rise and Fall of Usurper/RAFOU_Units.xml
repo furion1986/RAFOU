@@ -3,5 +3,465 @@
 <!-- Author: Furion -->
 <!-- DateCreated: 3/30/2018 10:09:26 AM -->
 <GameData>
-
+<Types>
+		<!-- Balon Greyjoy leads the Ironborn -->
+		<Row Kind="KIND_UNIT" Type="UNIT_IRON_LONGSHIP"/>
+		<Row Kind="KIND_UNIT" Type="UNIT_THRALL"/>
+		<!-- Eddard Stark leads the North -->
+		<Row Kind="KIND_UNIT" Type="UNIT_MOUNTAIN_CLAN"/>
+		<Row Type="ABILITY_MOUNTAIN_CLAN" Kind="KIND_ABILITY"/>
+		<!-- Tywin Lannister leads the Westerlands -->
+		<Row Kind="KIND_UNIT" Type="UNIT_SELLSWORDS"/>
+		<Row Kind="KIND_UNIT" Type="UNIT_SELLSWORDS_SWORDSMAN"/>
+		<Row Kind="KIND_UNIT" Type="UNIT_SELLSWORDS_PIKEMAN"/>
+		<Row Kind="KIND_UNIT" Type="UNIT_SELLSWORDS_MARKSMAN"/>
+		<Row Type="ABILITY_SELLSWORDS" Kind="KIND_ABILITY"/>
+		<Row Type="TRAIT_DUMMY_UNIT_SELLSWORDS" Kind="KIND_TRAIT" />
+		<!-- Robert Baratheon leads the Stormlands -->
+		<Row Kind="KIND_UNIT" Type="UNIT_SQUIRE"/>
+		<Row Type="ABILITY_SQUIRE" Kind="KIND_ABILITY"/>
+		<!-- Mace Tyrell leads the Reach -->
+		<!-- Jon Arryn leads the Vale -->
+		<!-- Hoster Tully leads the Riverlands -->
+		<!-- Doran Martell leads Dorne -->
+		<!-- Rhaegar Targaryen leads the Crownlands -->
+	</Types>
+	<Traits>
+		<!--Unique trait for sellswords-->
+		<Row TraitType="TRAIT_DUMMY_UNIT_SELLSWORDS" Name="LOC_TRAIT_DUMMY_UNIT_SELLSWORDS_NAME" Description="LOC_TRAIT_DUMMY_UNIT_SELLSWORDS_DESCRIPTION"/>
+	</Traits>
+	<Tags>
+		<!-- Balon Greyjoy leads the Ironborn -->
+		<!-- Eddard Stark leads the North -->
+		<Row Tag="CLASS_MOUNTAIN_CLAN" Vocabulary="ABILITY_CLASS"/>
+		<!-- Tywin Lannister leads the Westerlands -->
+		<Row Tag="CLASS_SELLSWORDS" Vocabulary="ABILITY_CLASS"/>
+		<!-- Robert Baratheon leads the Stormlands -->
+		<Row Tag="CLASS_SQUIRE" Vocabulary="ABILITY_CLASS"/>
+		<!-- Mace Tyrell leads the Reach -->
+		<!-- Jon Arryn leads the Vale -->
+		<!-- Hoster Tully leads the Riverlands -->
+		<!-- Doran Martell leads Dorne -->
+		<!-- Rhaegar Targaryen leads the Crownlands -->
+	</Tags>
+	<TypeTags>
+		<!-- Balon Greyjoy leads the Ironborn -->
+		<Row Type="UNIT_IRON_LONGSHIP" Tag="CLASS_NAVAL_RAIDER"/>
+		<Row Type="UNIT_IRON_LONGSHIP" Tag="CLASS_STEALTH"/>
+		<Row Type="UNIT_IRON_LONGSHIP" Tag="CLASS_REVEAL_STEALTH"/>
+		<Row Type="UNIT_IRON_LONGSHIP" Tag="CLASS_CAPTURE_SHIPS"/>
+		<Row Type="UNIT_THRALL" Tag="CLASS_LANDCIVILIAN"/>
+		<!-- Eddard Stark leads the North -->
+		<Row Type="UNIT_MOUNTAIN_CLAN" Tag="CLASS_RECON"/>
+		<Row Type="UNIT_MOUNTAIN_CLAN" Tag="CLASS_REVEAL_STEALTH"/>
+		<Row Type="UNIT_MOUNTAIN_CLAN" Tag="CLASS_MOUNTAIN_CLAN"/>
+		<Row Type="ABILITY_MOUNTAIN_CLAN" Tag="CLASS_MOUNTAIN_CLAN"/>
+		<!-- Tywin Lannister leads the Westerlands -->
+		<Row Type="UNIT_SELLSWORDS" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_SELLSWORDS_SWORDSMAN" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_SELLSWORDS_PIKEMAN" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="UNIT_SELLSWORDS_MARKSMAN" Tag="CLASS_RANGED"/>
+		<Row Type="UNIT_SELLSWORDS_SWORDSMAN" Tag="CLASS_SELLSWORDS"/>
+		<Row Type="UNIT_SELLSWORDS_PIKEMAN" Tag="CLASS_SELLSWORDS"/>
+		<Row Type="UNIT_SELLSWORDS_MARKSMAN" Tag="CLASS_SELLSWORDS"/>
+		<Row Type="ABILITY_SELLSWORDS" Tag="CLASS_SELLSWORDS"/>
+		<!-- Robert Baratheon leads the Stormlands -->
+		<Row Type="UNIT_SQUIRE" Tag="CLASS_LANDCIVILIAN"/>
+		<Row Type="UNIT_SQUIRE" Tag="CLASS_SQUIRE"/>
+		<Row Type="ABILITY_SQUIRE" Tag="CLASS_SQUIRE"/>
+		<!-- Mace Tyrell leads the Reach -->
+		<!-- Jon Arryn leads the Vale -->
+		<!-- Hoster Tully leads the Riverlands -->
+		<!-- Doran Martell leads Dorne -->
+		<!-- Rhaegar Targaryen leads the Crownlands -->
+	</TypeTags>
+	<Units>
+		<!-- Balon Greyjoy leads the Ironborn -->
+		<Row UnitType="UNIT_IRON_LONGSHIP" TraitType="TRAIT_CIVILIZATION_UNIT_IRON_LONGSHIP" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" PrereqTech="TECH_CELESTIAL_NAVIGATION" ObsoleteCivic="CIVIC_MERCANTILISM" Combat="20" Range="2" RangedCombat="28" Maintenance="2" PromotionClass="PROMOTION_CLASS_NAVAL_RAIDER" PurchaseYield="YIELD_GOLD" Description="LOC_UNIT_IRON_LONGSHIP_DESCRIPTION" Name="LOC_UNIT_IRON_LONGSHIP_NAME" FormationClass="FORMATION_CLASS_NAVAL" Domain="DOMAIN_SEA" ZoneOfControl="true" BaseSightRange="2" AdvisorType="ADVISOR_CONQUEST" Cost="130" BaseMoves="3"/>
+		<Row UnitType="UNIT_THRALL" TraitType="TRAIT_CIVILIZATION_UNIT_THRALL" Name="LOC_UNIT_THRALL_NAME" PurchaseYield="YIELD_FAITH" CostProgressionParam1="4" CostProgressionModel="COST_PROGRESSION_PREVIOUS_COPIES" CanCapture="False" Description="LOC_UNIT_THRALL_DESCRIPTION" FormationClass="FORMATION_CLASS_CIVILIAN" Domain="DOMAIN_LAND" ZoneOfControl="false" BaseSightRange="2" AdvisorType="ADVISOR_GENERIC" Cost="50" BaseMoves="2" MustPurchase="TRUE" BuildCharges="3"/>
+		<!-- Eddard Stark leads the North -->
+		<Row UnitType="UNIT_MOUNTAIN_CLAN" TraitType="TRAIT_CIVILIZATION_UNIT_MOUNTAIN_CLAN" BaseMoves="3" Cost="35" AdvisorType="ADVISOR_GENERIC" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_MOUNTAIN_CLAN_NAME" Description="LOC_UNIT_MOUNTAIN_CLAN_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_EXPLORER" PromotionClass="PROMOTION_CLASS_RECON" Combat="20"/>
+		<!-- Tywin Lannister leads the Westerlands -->
+		<Row UnitType="UNIT_SELLSWORDS" TraitType="TRAIT_CIVILIZATION_UNIT_SELLSWORDS" BaseMoves="0" Cost="160" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_SELLSWORDS_NAME" Description="LOC_UNIT_SELLSWORDS_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" PrereqDistrict="DISTRICT_SELLSWORDS_CAMP" PrereqCivic="CIVIC_FEUDALISM" Maintenance="3" Combat="45" MustPurchase="TRUE"/>
+		<Row UnitType="UNIT_SELLSWORDS_SWORDSMAN" BaseMoves="2" Cost="180" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_SELLSWORDS_SWORDSMAN_NAME" Description="LOC_UNIT_SELLSWORDS_SWORDSMAN_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_MELEE" Maintenance="3" Combat="45" PrereqCivic="CIVIC_FEUDALISM" TraitType="TRAIT_DUMMY_UNIT_SELLSWORDS"/>
+		<Row UnitType="UNIT_SELLSWORDS_PIKEMAN" BaseMoves="2" Cost="180" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_SELLSWORDS_PIKEMAN_NAME" Description="LOC_UNIT_SELLSWORDS_PIKEMAN_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_ANTI_CAVALRY" Maintenance="3" Combat="41" PrereqCivic="CIVIC_FEUDALISM" TraitType="TRAIT_DUMMY_UNIT_SELLSWORDS"/>
+		<Row UnitType="UNIT_SELLSWORDS_MARKSMAN" BaseMoves="2" Cost="180" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_SELLSWORDS_MARKSMAN_NAME" Description="LOC_UNIT_SELLSWORDS_MARKSMAN_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_RANGED" Maintenance="3" Combat="30" RangedCombat="40" Range="2" PrereqCivic="CIVIC_FEUDALISM" TraitType="TRAIT_DUMMY_UNIT_SELLSWORDS"/>
+		<!-- Robert Baratheon leads the Stormlands -->
+		<Row UnitType="UNIT_SQUIRE" TraitType="TRAIT_CIVILIZATION_UNIT_SQUIRE" BaseMoves="3" Cost="48" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_CIVILIAN" Name="LOC_UNIT_SQUIRE_NAME" Description="LOC_UNIT_SQUIRE_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY" Maintenance="1" CanCapture="False" PrereqCivic="CIVIC_MILITARY_TRADITION"/>
+		<!-- Mace Tyrell leads the Reach -->
+		<!-- Jon Arryn leads the Vale -->
+		<!-- Hoster Tully leads the Riverlands -->
+		<!-- Doran Martell leads Dorne -->
+		<!-- Rhaegar Targaryen leads the Crownlands -->
+	</Units>
+	<UnitAbilities>
+		<!-- Balon Greyjoy leads the Ironborn -->
+		<!-- Eddard Stark leads the North -->
+		<Row UnitAbilityType="ABILITY_MOUNTAIN_CLAN" Name="LOC_ABILITY_MOUNTAIN_CLAN_NAME" Description="LOC_ABILITY_MOUNTAIN_CLAN_DESCRIPTION"/>
+		<!-- Tywin Lannister leads the Westerlands -->
+		<Row UnitAbilityType="ABILITY_SELLSWORDS" Name="LOC_ABILITY_SELLSWORDS_NAME" Description="LOC_ABILITY_SELLSWORDS_DESCRIPTION"/>
+		<!-- Robert Baratheon leads the Stormlands -->
+		<Row UnitAbilityType="ABILITY_SQUIRE" Name="LOC_ABILITY_SQUIRE_NAME" Description="LOC_ABILITY_SQUIRE_DESCRIPTION"/>
+		<!-- Mace Tyrell leads the Reach -->
+		<!-- Jon Arryn leads the Vale -->
+		<!-- Hoster Tully leads the Riverlands -->
+		<!-- Doran Martell leads Dorne -->
+		<!-- Rhaegar Targaryen leads the Crownlands -->
+	</UnitAbilities>
+	<UnitAbilityModifiers>
+		<!-- Balon Greyjoy leads the Ironborn -->
+		<!-- Eddard Stark leads the North -->
+		<Row>
+			<UnitAbilityType>ABILITY_MOUNTAIN_CLAN</UnitAbilityType>
+			<ModifierId>MOUNTAIN_CLAN_BONUS_ON_TUNDRA_SNOW</ModifierId>
+		</Row>
+		<!-- Tywin Lannister leads the Westerlands -->
+		<Row>
+			<UnitAbilityType>ABILITY_SELLSWORDS</UnitAbilityType>
+			<ModifierId>SELLSWORDS_VICTORY_GOLD</ModifierId>
+		</Row>
+		<!-- Robert Baratheon leads the Stormlands -->
+		<Row>
+			<UnitAbilityType>ABILITY_SQUIRE</UnitAbilityType>
+			<ModifierId>SQUIRE_COMBAT_MODIFIER</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_SQUIRE</UnitAbilityType>
+			<ModifierId>SQUIRE_MOVEMENT_MODIFIER</ModifierId>
+		</Row>
+		<!-- Mace Tyrell leads the Reach -->
+		<!-- Jon Arryn leads the Vale -->
+		<!-- Hoster Tully leads the Riverlands -->
+		<!-- Doran Martell leads Dorne -->
+		<!-- Rhaegar Targaryen leads the Crownlands -->
+	</UnitAbilityModifiers>
+	<Modifiers>
+		<!-- Balon Greyjoy leads the Ironborn -->
+		<!-- Eddard Stark leads the North -->
+		<Row>
+			<ModifierId>MOUNTAIN_CLAN_BONUS_ON_TUNDRA_SNOW</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>MOUNTAIN_CLAN_TUNDRA_SNOW_TERRAIN_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<!-- Tywin Lannister leads the Westerlands -->
+		<Row>
+			<ModifierId>SELLSWORDS_VICTORY_GOLD</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_POST_COMBAT_YIELD</ModifierType>
+		</Row>
+		<!-- Robert Baratheon leads the Stormlands -->
+		<Row>
+			<ModifierId>SQUIRE_COMBAT_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>RB_UNIT_MELEE_ATTCHED_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>SQUIRE_MOVEMENT_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>RB_UNIT_MELEE_ATTCHED_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>SQUIRE_COMBAT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>SQUIRE_MOVEMENT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT</ModifierType>
+		</Row>
+		<!-- Mace Tyrell leads the Reach -->
+		<!-- Jon Arryn leads the Vale -->
+		<!-- Hoster Tully leads the Riverlands -->
+		<!-- Doran Martell leads Dorne -->
+		<!-- Rhaegar Targaryen leads the Crownlands -->
+	</Modifiers>
+	<ModifierArguments>
+		<!-- Balon Greyjoy leads the Ironborn -->
+		<!-- Eddard Stark leads the North -->
+		<Row>
+		<ModifierId>MOUNTAIN_CLAN_BONUS_ON_TUNDRA_SNOW</ModifierId>
+		<Name>Amount</Name>
+		<Value>10</Value>
+		</Row>
+		<!-- Tywin Lannister leads the Westerlands -->
+		<Row>
+			<ModifierId>SELLSWORDS_VICTORY_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>SELLSWORDS_VICTORY_GOLD</ModifierId>
+			<Name>PercentDefeatedStrength</Name>
+			<Value>75</Value>
+		</Row>
+		<!-- Robert Baratheon leads the Stormlands -->
+		<Row>
+			<ModifierId>SQUIRE_COMBAT_MODIFIER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>SQUIRE_COMBAT_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>SQUIRE_MOVEMENT_MODIFIER</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>SQUIRE_MOVEMENT_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>SQUIRE_COMBAT_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>9</Value>
+		</Row>
+		<Row>
+			<ModifierId>SQUIRE_MOVEMENT_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<!-- Mace Tyrell leads the Reach -->
+		<!-- Jon Arryn leads the Vale -->
+		<!-- Hoster Tully leads the Riverlands -->
+		<!-- Doran Martell leads Dorne -->
+		<!-- Rhaegar Targaryen leads the Crownlands -->
+	</ModifierArguments>
+	<ModifierStrings>
+		<!-- Balon Greyjoy leads the Ironborn -->
+		<!-- Eddard Stark leads the North -->
+		<Row ModifierId="MOUNTAIN_CLAN_BONUS_ON_TUNDRA_SNOW" Context="Preview" Text="LOC_ABILITY_MOUNTAIN_CLAN_DESCRIPTION"/>
+		<!-- Tywin Lannister leads the Westerlands -->
+		<Row ModifierId="SELLSWORDS_VICTORY_GOLD" Context="Preview" Text="LOC_ABILITY_SELLSWORDS_DESCRIPTION"/>
+		<!-- Robert Baratheon leads the Stormlands -->
+		<Row ModifierId="SQUIRE_COMBAT_BONUS" Context="Preview" Text="LOC_ABILITY_SQUIRE_COMBAT_BONUS_DESCRIPTION"/>
+		<Row ModifierId="SQUIRE_MOVEMENT_BONUS" Context="Preview" Text="LOC_ABILITY_SQUIRE_MOVEMENT_BONUS_DESCRIPTION"/>
+		<!-- Mace Tyrell leads the Reach -->
+		<!-- Jon Arryn leads the Vale -->
+		<!-- Hoster Tully leads the Riverlands -->
+		<!-- Doran Martell leads Dorne -->
+		<!-- Rhaegar Targaryen leads the Crownlands -->
+	</ModifierStrings>
+	<UnitAiInfos>
+		<!-- Balon Greyjoy leads the Ironborn -->
+		<Row AiType="UNITAI_COMBAT" UnitType="UNIT_IRON_LONGSHIP"/>
+		<Row AiType="UNITTYPE_RANGED" UnitType="UNIT_IRON_LONGSHIP"/>
+		<Row AiType="UNITTYPE_NAVAL" UnitType="UNIT_IRON_LONGSHIP"/>
+		<Row AiType="UNITTYPE_CIVILIAN" UnitType="UNIT_THRALL" />
+		<!-- Eddard Stark leads the North -->
+		<Row UnitType="UNIT_MOUNTAIN_CLAN" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_MOUNTAIN_CLAN" AiType="UNITTYPE_LAND_COMBAT"/>
+		<!-- Tywin Lannister leads the Westerlands -->
+		<!-- Melee-->
+		<Row UnitType="UNIT_SELLSWORDS_SWORDSMAN" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_SELLSWORDS_SWORDSMAN" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_SELLSWORDS_SWORDSMAN" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_SELLSWORDS_SWORDSMAN" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_SELLSWORDS_PIKEMAN" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_SELLSWORDS_PIKEMAN" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_SELLSWORDS_PIKEMAN" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_SELLSWORDS_PIKEMAN" AiType="UNITTYPE_LAND_COMBAT"/>
+		<!-- Ranged-->
+		<Row UnitType="UNIT_SELLSWORDS_MARKSMAN" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_SELLSWORDS_MARKSMAN" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_SELLSWORDS_MARKSMAN" AiType="UNITTYPE_LAND_COMBAT"/>
+		<!-- Robert Baratheon leads the Stormlands -->
+		<!-- Great People-->
+		<Row UnitType="UNIT_SQUIRE" AiType="UNITTYPE_CIVILIAN_LEADER"/>
+		<Row UnitType="UNIT_SQUIRE" AiType="UNITAI_LEADER"/>
+		<!-- Mace Tyrell leads the Reach -->
+		<!-- Jon Arryn leads the Vale -->
+		<!-- Hoster Tully leads the Riverlands -->
+		<!-- Doran Martell leads Dorne -->
+		<!-- Rhaegar Targaryen leads the Crownlands -->
+	</UnitAiInfos>
+	<UnitCaptures>
+		<!-- Balon Greyjoy leads the Ironborn -->
+		<Row CapturedUnitType="UNIT_THRALL" BecomesUnitType="UNIT_THRALL"/>
+	</UnitCaptures>
+	<UnitReplaces>
+		<!-- Balon Greyjoy leads the Ironborn -->
+		<Row ReplacesUnitType="UNIT_BUILDER" CivUniqueUnitType="UNIT_THRALL"/>
+		<!-- Eddard Stark leads the North -->
+		<Row ReplacesUnitType="UNIT_SCOUT" CivUniqueUnitType="UNIT_MOUNTAIN_CLAN"/>
+		<!-- Tywin Lannister leads the Westerlands -->
+		<!-- Robert Baratheon leads the Stormlands -->
+		<!-- Mace Tyrell leads the Reach -->
+		<!-- Jon Arryn leads the Vale -->
+		<!-- Hoster Tully leads the Riverlands -->
+		<!-- Doran Martell leads Dorne -->
+		<!-- Rhaegar Targaryen leads the Crownlands -->
+	</UnitReplaces>
+	<UnitUpgrades>
+		<!-- Balon Greyjoy leads the Ironborn -->
+		<Row UpgradeUnit="UNIT_PRIVATEER" Unit="UNIT_IRON_LONGSHIP"/>
+		<!-- Eddard Stark leads the North -->
+		<Row Unit="UNIT_MOUNTAIN_CLAN" UpgradeUnit="UNIT_RANGER"/>
+		<!-- Tywin Lannister leads the Westerlands -->
+		<Row Unit="UNIT_SELLSWORDS_SWORDSMAN" UpgradeUnit="UNIT_INFANTRY"/>
+		<Row Unit="UNIT_SELLSWORDS_PIKEMAN" UpgradeUnit="UNIT_PIKE_AND_SHOT"/>
+		<Row Unit="UNIT_SELLSWORDS_MARKSMAN" UpgradeUnit="UNIT_FIELD_CANNON"/>
+		<!-- Robert Baratheon leads the Stormlands -->
+		<Row Unit="UNIT_SQUIRE" UpgradeUnit="UNIT_KNIGHT"/>
+		<!-- Mace Tyrell leads the Reach -->
+		<!-- Jon Arryn leads the Vale -->
+		<!-- Hoster Tully leads the Riverlands -->
+		<!-- Doran Martell leads Dorne -->
+		<!-- Rhaegar Targaryen leads the Crownlands -->
+	</UnitUpgrades>
+	<Unit_BuildingPrereqs>
+		<!-- Balon Greyjoy leads the Ironborn -->
+		<Row Unit="UNIT_THRALL" PrereqBuilding="BUILDING_CAPTAINS_TAVERN"/>
+		<!-- Eddard Stark leads the North -->
+		<!-- Tywin Lannister leads the Westerlands -->
+		<!-- Robert Baratheon leads the Stormlands -->
+		<!-- Mace Tyrell leads the Reach -->
+		<!-- Jon Arryn leads the Vale -->
+		<!-- Hoster Tully leads the Riverlands -->
+		<!-- Doran Martell leads Dorne -->
+		<!-- Rhaegar Targaryen leads the Crownlands -->
+	</Unit_BuildingPrereqs>
+	<Improvement_ValidBuildUnits>
+		<!-- Balon Greyjoy leads the Ironborn -->
+		<Row UnitType="UNIT_THRALL" ImprovementType="IMPROVEMENT_FARM"/>
+		<Row UnitType="UNIT_THRALL" ImprovementType="IMPROVEMENT_MINE"/>
+		<Row UnitType="UNIT_THRALL" ImprovementType="IMPROVEMENT_QUARRY"/>
+		<Row UnitType="UNIT_THRALL" ImprovementType="IMPROVEMENT_PASTURE"/>
+		<Row UnitType="UNIT_THRALL" ImprovementType="IMPROVEMENT_PLANTATION"/>
+		<Row UnitType="UNIT_THRALL" ImprovementType="IMPROVEMENT_CAMP"/>
+		<Row UnitType="UNIT_THRALL" ImprovementType="IMPROVEMENT_LUMBER_MILL"/>
+		<Row UnitType="UNIT_THRALL" ImprovementType="IMPROVEMENT_OIL_WELL"/>
+		<Row UnitType="UNIT_THRALL" ImprovementType="IMPROVEMENT_OFFSHORE_OIL_RIG"/>
+		<Row UnitType="UNIT_THRALL" ImprovementType="IMPROVEMENT_BEACH_RESORT"/>
+		<Row UnitType="UNIT_THRALL" ImprovementType="IMPROVEMENT_FISHING_BOATS"/>
+	</Improvement_ValidBuildUnits>
+	<Technologies>
+		<!-- Balon Greyjoy leads the Ironborn -->
+		<Update>
+			<Where TechnologyType="TECH_ASTROLOGY"/>
+			<Set EmbarkUnitType="UNIT_THRALL"/>
+		</Update>
+	</Technologies>
+	<RequirementSets>
+		<!-- Balon Greyjoy leads the Ironborn -->
+		<!-- Eddard Stark leads the North -->
+		<Row>
+			<RequirementSetId>MOUNTAIN_CLAN_TUNDRA_SNOW_TERRAIN_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<!-- Tywin Lannister leads the Westerlands -->
+		<!-- Robert Baratheon leads the Stormlands -->
+		<Row>
+			<RequirementSetId>RB_UNIT_MELEE_ATTCHED_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>RB_UNIT_MELEE_ATTCHED_UNITS_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+		</Row>
+		<!-- Mace Tyrell leads the Reach -->
+		<!-- Jon Arryn leads the Vale -->
+		<!-- Hoster Tully leads the Riverlands -->
+		<!-- Doran Martell leads Dorne -->
+		<!-- Rhaegar Targaryen leads the Crownlands -->
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<!-- Balon Greyjoy leads the Ironborn -->
+		<!-- Eddard Stark leads the North -->
+		<Row>
+			<RequirementSetId>MOUNTAIN_CLAN_TUNDRA_SNOW_TERRAIN_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_TUNDRA</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>MOUNTAIN_CLAN_TUNDRA_SNOW_TERRAIN_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_SNOW</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>MOUNTAIN_CLAN_TUNDRA_SNOW_TERRAIN_REQUIREMENTS</RequirementSetId>
+			<RequirementId>PLOT_IS_TUNDRA_HILLS_TERRAIN_REQUIREMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>MOUNTAIN_CLAN_TUNDRA_SNOW_TERRAIN_REQUIREMENTS</RequirementSetId>
+			<RequirementId>PLOT_IS_SNOW_HILLS_TERRAIN_REQUIREMENT</RequirementId>
+		</Row>
+		<!-- Tywin Lannister leads the Westerlands -->
+		<!-- Robert Baratheon leads the Stormlands -->
+		<Row>
+			<RequirementSetId>RB_UNIT_MELEE_ATTCHED_REQUIREMENTS</RequirementSetId>
+			<RequirementId>RB_UNIT_MELEE_ATTCHED_REQUIREMENTS_MET_REQUIREMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>RB_UNIT_MELEE_ATTCHED_REQUIREMENTS</RequirementSetId>
+			<RequirementId>RB_UNIT_MELEE_ATTCHED_ADJACENCY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>RB_UNIT_MELEE_ATTCHED_UNITS_REQUIREMENTS</RequirementSetId>
+			<RequirementId>RB_UNIT_IS_WARRIOR</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>RB_UNIT_MELEE_ATTCHED_UNITS_REQUIREMENTS</RequirementSetId>
+			<RequirementId>RB_UNIT_IS_SWORDSMAN</RequirementId>
+		</Row>
+		<!-- Mace Tyrell leads the Reach -->
+		<!-- Jon Arryn leads the Vale -->
+		<!-- Hoster Tully leads the Riverlands -->
+		<!-- Doran Martell leads Dorne -->
+		<!-- Rhaegar Targaryen leads the Crownlands -->
+	</RequirementSetRequirements>
+	<Requirements>
+		<!-- Balon Greyjoy leads the Ironborn -->
+		<!-- Eddard Stark leads the North -->
+		<!-- Tywin Lannister leads the Westerlands -->
+		<!-- Robert Baratheon leads the Stormlands -->
+		<Row>
+			<RequirementId>RB_UNIT_MELEE_ATTCHED_REQUIREMENTS_MET_REQUIREMENT</RequirementId>
+			<RequirementType>REQUIREMENT_REQUIREMENTSET_IS_MET</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>RB_UNIT_MELEE_ATTCHED_ADJACENCY</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_TO_OWNER</RequirementType>
+		</Row>
+		
+		<Row>
+			<RequirementId>RB_UNIT_IS_WARRIOR</RequirementId>
+			<RequirementType>REQUIREMENT_UNIT_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>RB_UNIT_IS_SWORDSMAN</RequirementId>
+			<RequirementType>REQUIREMENT_UNIT_TYPE_MATCHES</RequirementType>
+		</Row>
+		<!-- Mace Tyrell leads the Reach -->
+		<!-- Jon Arryn leads the Vale -->
+		<!-- Hoster Tully leads the Riverlands -->
+		<!-- Doran Martell leads Dorne -->
+		<!-- Rhaegar Targaryen leads the Crownlands -->
+	</Requirements>
+	<RequirementArguments>
+		<!-- Balon Greyjoy leads the Ironborn -->
+		<!-- Eddard Stark leads the North -->
+		<!-- Tywin Lannister leads the Westerlands -->
+		<!-- Robert Baratheon leads the Stormlands -->
+		<Row>
+			<RequirementId>RB_UNIT_MELEE_ATTCHED_REQUIREMENTS_MET_REQUIREMENT</RequirementId>
+			<Name>RequirementSetId</Name>
+			<Value>RB_UNIT_MELEE_ATTCHED_UNITS_REQUIREMENTS</Value>
+		</Row>
+		<Row>
+			<RequirementId>RB_UNIT_MELEE_ATTCHED_ADJACENCY</RequirementId>
+			<Name>MinDistance</Name>
+			<Value>0</Value>
+		</Row>
+		<Row>
+			<RequirementId>RB_UNIT_MELEE_ATTCHED_ADJACENCY</RequirementId>
+			<Name>MaxDistance</Name>
+			<Value>0</Value>
+		</Row>
+		<Row>
+			<RequirementId>RB_UNIT_IS_WARRIOR</RequirementId>
+			<Name>UnitType</Name>
+			<Value>UNIT_WARRIOR</Value>
+		</Row>
+		<Row>
+			<RequirementId>RB_UNIT_IS_SWORDSMAN</RequirementId>
+			<Name>UnitType</Name>
+			<Value>UNIT_SWORDSMAN</Value>
+		</Row>
+		<!-- Mace Tyrell leads the Reach -->
+		<!-- Jon Arryn leads the Vale -->
+		<!-- Hoster Tully leads the Riverlands -->
+		<!-- Doran Martell leads Dorne -->
+		<!-- Rhaegar Targaryen leads the Crownlands -->
+	</RequirementArguments>
 </GameData>
