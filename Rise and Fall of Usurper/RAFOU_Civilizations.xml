@@ -321,6 +321,14 @@
 			<TraitType>TRAIT_CIVILIZATION_WE_DO_NOT_SOW</TraitType>
 			<ModifierId>TRAIT_COMBAT_CAPTURE_BUILDERS</ModifierId>
 		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_WE_DO_NOT_SOW</TraitType>
+			<ModifierId>TRAIT_FARM_REDUCE_FOOD</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_WE_DO_NOT_SOW</TraitType>
+			<ModifierId>TRAIT_FISHINGBOAT_INCREASE_FOOD</ModifierId>
+		</Row>
 		<!-- Eddard Stark leads the North -->
 		<Row>
 			<TraitType>TRAIT_CIVILIZATION_WINTER_IS_COMING</TraitType>
@@ -447,6 +455,16 @@
 			<ModifierType>MODIFIER_SINGLE_CITY_GRANT_UNIT_IN_CITY</ModifierType>
 			<RunOnce>true</RunOnce>
 			<Permanent>true</Permanent>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FARM_REDUCE_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>BG_PLOT_IS_FARM_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FISHINGBOAT_INCREASE_FOOD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>PLOT_HAS_FISHINGBOATS_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
 		<!-- Eddard Stark leads the North -->
 		<Row>
@@ -614,6 +632,26 @@
 		</Row>
 		<Row>
 			<ModifierId>CAPTAINSTAVERN_GRANT_THRALLS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FARM_REDUCE_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FARM_REDUCE_FOOD</ModifierId>
+			<Name>Amount</Name>
+			<Value>-1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FISHINGBOAT_INCREASE_FOOD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_FISHINGBOAT_INCREASE_FOOD</ModifierId>
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>
@@ -1105,4 +1143,105 @@
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</StartBiasTerrains>
+
+	<RequirementSets>
+		<!--THE IRONBORN-->
+		<Row>
+			<RequirementSetId>BG_PLOT_IS_FARM_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<!--THE NORTH-->
+		<Row>
+			<RequirementSetId>PLOT_HAS_SNOW_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_SNOW_HILLS_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<!--Feature Forest Requirement-->
+		<Row>
+			<RequirementSetId>HT_PLOT_HAS_FOREST_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<!--City Has Heart Tree Requirement-->
+		<Row>
+			<RequirementSetId>CITY_HAS_HEART_TREE_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+
+	<RequirementSetRequirements>
+		<!--THE IRONBORN-->
+		<Row>
+			<RequirementSetId>BG_PLOT_IS_FARM_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_FARM</RequirementId>
+		</Row>
+		<!--THE NORTH-->
+		<Row>
+			<RequirementSetId>PLOT_HAS_SNOW_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_SNOW</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLOT_HAS_SNOW_HILLS_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_SNOW_HILLS</RequirementId>
+		</Row>
+		<!--Feature Forest Requirement-->
+		<Row>
+			<RequirementSetId>HT_PLOT_HAS_FOREST_REQUIREMENTS</RequirementSetId>
+			<RequirementId>HT_REQUIRES_PLOT_HAS_FOREST</RequirementId>
+		</Row>
+		<!--City has Heart Tree Requirement-->
+		<Row>
+			<RequirementSetId>CITY_HAS_HEART_TREE_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_CITY_HAS_HEART_TREE</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+
+	<Requirements>
+		<!--THE NORTH-->
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_SNOW</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_SNOW_HILLS</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_TERRAIN_TYPE_MATCHES</RequirementType>
+		</Row>
+		<!--Feature Forest Requirement-->
+		<Row>
+			<RequirementId>HT_REQUIRES_PLOT_HAS_FOREST</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_FEATURE_TYPE_MATCHES</RequirementType>
+		</Row>
+		<!--City has Heart Tree Requirement-->
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_HEART_TREE</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_DISTRICT</RequirementType>
+		</Row>
+	</Requirements>
+
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_SNOW</RequirementId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_SNOW</Value>
+		</Row>
+		<Row>
+			<RequirementId>REQUIRES_PLOT_HAS_SNOW_HILLS</RequirementId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_SNOW_HILLS</Value>
+		</Row>
+		<!--Feature Forest Requirement-->
+		<Row>
+			<RequirementId>HT_REQUIRES_PLOT_HAS_FOREST</RequirementId>
+			<Name>FeatureType</Name>
+			<Value>FEATURE_FOREST</Value>
+		</Row>
+		<!--City has Heart Tree Requirement-->
+		<Row>
+			<RequirementId>REQUIRES_CITY_HAS_HEART_TREE</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_HEART_TREE</Value>
+		</Row>
+	</RequirementArguments>
 </GameData>

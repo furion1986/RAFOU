@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<BaseGameText>
+		<Row Tag="LOC_CIVILIZATION_THE_WESTERLANDS_DESCRIPTION">
+			<Text>Kingdom of The Westerlands</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_WESTERLANDS_ADJECTIVE">
+			<Text>The Westerlands</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_HAMMER_AND_ANVIL_NAME">
+			<Text>Hammer and Anvil</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_HAMMER_AND_ANVIL_DESCRIPTION">
+			<Text>+10 [ICON_Strength] Combat Strength to Melee and Anti-Cavalry units when defending. +50% Flanking Bonus to Light and Heavy Cavalry units. +5 [ICON_Strength] Combat Strength to Ranged and Siege units when attacking wounded unit.</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_TYWIN_LANNISTER_QUOTE">
+			<Text>Some battles are won with swords and spears, others with quills and ravens.</Text>
+		</Row>
+		
+		<Row Tag="LOC_CIVILIZATION_THE_STORMLANDS_DESCRIPTION">
+			<Text>Kingdom of The Stormlands</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_STORMLANDS_ADJECTIVE">
+			<Text>The Stormlands</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_THE_USURPER_NAME">
+			<Text>The Usurper</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_THE_USURPER_DESCRIPTION">
+			<Text>Upon major civilization city conquered by Robert Baratheon, grant a free Technology or Civic that the conquered city owner already has and is available to Robert Baratheon.</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_ROBERT_BARATHEON_QUOTE">
+			<Text>I swear to you, I was never so alive as when I was winning this throne, or so dead as now that I've won it.</Text>
+		</Row>
+
+		<!--City Names-->
+		<Row Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_1">
+			<Text>Casterly Rock</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_2">
+			<Text>Ashemark</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_3">
+			<Text>Banefort</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_4">
+			<Text>Castamere</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_5">
+			<Text>Clegane's Keep</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_6">
+			<Text>Cornfield</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_7">
+			<Text>Crag</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_8">
+			<Text>Crakehall</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_9">
+			<Text>Deep Den</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_10">
+			<Text>Faircastle</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_11">
+			<Text>Feastfires</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_12">
+			<Text>Golden Tooth</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_13">
+			<Text>Greenfield</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_14">
+			<Text>Hornvale</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_15">
+			<Text>Kayce</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_16">
+			<Text>Lannisport</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_17">
+			<Text>Oxcross</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_18">
+			<Text>Riverspring</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_19">
+			<Text>Sarsfield</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_20">
+			<Text>Silverhill</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_21">
+			<Text>Tarbeck Hall</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_22">
+			<Text>Wyndhall</Text>
+		</Row>		
+		<!--CITIZEN NAMES-->
+		<Row Tag="LOC_CITIZEN_THE_WESTERLANDS_MALE_1">
+			<Text>Tytos Brax</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_THE_WESTERLANDS_MALE_2">
+			<Text>Gylbert Farman</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_THE_WESTERLANDS_MALE_3">
+			<Text>Podrick Payne</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_THE_WESTERLANDS_MALE_4">
+			<Text>Gregor Clegane</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_THE_WESTERLANDS_FEMALE_1">
+			<Text>Johanna Lannister</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_THE_WESTERLANDS_FEMALE_2">
+			<Text>Teora Kyndall</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_THE_WESTERLANDS_FEMALE_3">
+			<Text>Myranda Lefford</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_THE_WESTERLANDS_FEMALE_4">
+			<Text>Jeyne Westerling</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_THE_WESTERLANDS_FEMALE_5">
+			<Text>Rohanne Tarbeck</Text>
+		</Row>
+
+		<!--City Names-->
+		<Row Tag="LOC_CIVILIZATION_THE_STORMLANDS_CITY_1">
+			<Text>Storm's End</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_STORMLANDS_CITY_2">
+			<Text>Amberly</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_STORMLANDS_CITY_3">
+			<Text>Blackhaven</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_STORMLANDS_CITY_4">
+			<Text>Broad Arch</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_STORMLANDS_CITY_5">
+			<Text>Bronzegate</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_STORMLANDS_CITY_6">
+			<Text>Crow's Nest</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_STORMLANDS_CITY_7">
+			<Text>Evenfall Hall</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_STORMLANDS_CITY_8">
+			<Text>Fawnton</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_STORMLANDS_CITY_9">
+			<Text>Felwood</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_STORMLANDS_CITY_10">
+			<Text>Gallowsgrey</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_STORMLANDS_CITY_11">
+			<Text>Grandview</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_STORMLANDS_CITY_12">
+			<Text>Greenstone</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_STORMLANDS_CITY_13">
+			<Text>Griffin's Roost</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_STORMLANDS_CITY_14">
+			<Text>Harvest Hall</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_STORMLANDS_CITY_15">
+			<Text>Mistwood</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_STORMLANDS_CITY_16">
+			<Text>Morne</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_STORMLANDS_CITY_17">
+			<Text>Nightsong</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_STORMLANDS_CITY_18">
+			<Text>Parchments</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_STORMLANDS_CITY_19">
+			<Text>Poddingfield</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_STORMLANDS_CITY_20">
+			<Text>Rain House</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_STORMLANDS_CITY_21">
+			<Text>Stonehelm</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_STORMLANDS_CITY_22">
+			<Text>Summerhall</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_STORMLANDS_CITY_23">
+			<Text>Weeping Town</Text>
+		</Row>	
+		<!--CITIZEN NAMES-->
+		<Row Tag="LOC_CITIZEN_THE_STORMLANDS_MALE_1">
+			<Text>Jon Connington</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_THE_STORMLANDS_MALE_2">
+			<Text>Beric Dondarrion</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_THE_STORMLANDS_MALE_3">
+			<Text>Davos Seaworth</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_THE_STORMLANDS_MALE_4">
+			<Text>Harrold Rogers</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_THE_STORMLANDS_FEMALE_1">
+			<Text>Cyrenna Swann</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_THE_STORMLANDS_FEMALE_2">
+			<Text>Brienne Tarth</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_THE_STORMLANDS_FEMALE_3">
+			<Text>Shyra Errol</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_THE_STORMLANDS_FEMALE_4">
+			<Text>Cassana Estermont</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_THE_STORMLANDS_FEMALE_5">
+			<Text>Mylenda Caron</Text>
+		</Row>
+
+		<!--Unit Ability Descriptions-->
+		<Row Tag="LOC_ABILITY_MELEE_DEFEND_BONUS_MODIFIER_DESCRIPTION">
+			<Text>+{1_Amount} Combat Strength when defending</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_RANGED_WOUNDED_BONUS_MODIFIER_DESCRIPTION">
+			<Text>+{1_Amount} Combat Strength to wounded unit</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_SELLSWORDS_NAME">
+			<Text>Pillage Corpse</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_SELLSWORDS_DESCRIPTION">
+			<Text>Gain [ICON_GOLD] on combat victory</Text>
+		</Row>
+
+		<Row Tag="LOC_ABILITY_SQUIRE_COMBAT_BONUS_DESCRIPTION">
+			<Text>+{1_Amount} Combat Strength from Squire</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_SQUIRE_MOVEMENT_BONUS_DESCRIPTION">
+			<Text>+{1_Amount} Movement from Squire</Text>
+		</Row>
+
+		<!--Agendas-->
+		<Row Tag="LOC_AGENDA_THE_LANNISTERS_PAY_DEBTS_NAME">
+			<Text>The Lannisters Pay Debts</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_THE_LANNISTERS_PAY_DEBTS_DESCRIPTION">
+			<Text>Likes civilizations with high gold income and strong standing army. Dislikes weak civilizations with low gold income.</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_THE_STAG_KING_NAME">
+			<Text>The Stag King</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_THE_STAG_KING_DESCRIPTION">
+			<Text>Be happy to see civilizations with same government and strong standing army. Dislikes civilizations with different government or weak army.</Text>
+		</Row>
+
+		<!--PEDIA-->
+		<!--CIV-->
+		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_DISTRICT_SELLSWORDS_CAMP_CHAPTER_HISTORY_PARA_1">
+			<Text>A mercenary is a soldier who takes temporary assignments fighting for wages rather than as an official member of an army. There are a number of different types of mercenaries. The terms "sellsword" and "freerider" carry a certain stigma in Westeros. Sellswords are said to have no loyalty, or only loyal to GOLD.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_WESTERLANDS_CHAPTER_HISTORY_PARA_1">
+			<Text>The westerlands lie along the coast of the Sunset Sea, with Ironman's Bay and the Iron Islands to the north. A salient of the northeastern westerlands extends near the ruins of Oldstones and the Blue Fork. Castles on the northwestern coast include Banefort and the Crag. Faircastle is located on Fair Isle, while Feastfires and the market town of Kayce are found on a peninsula jutting into the sea.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_WESTERLANDS_CHAPTER_HISTORY_PARA_2">
+			<Text>Also along the coast is Casterly Rock, the seat of House Lannister, a fortress carved out of a massive hill of solid rock. Near the Rock is Lannisport, a port and one of the largest cities of Westeros. Three days ride from the Rock is the village of Oxcross. Hills and mountain ranges are spread throughout the westerlands, with inland castles near the Rock including Ashemark and Sarsfield,[8] as well as the ruins of Castamere and Tarbeck Hall.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_WESTERLANDS_CHAPTER_HISTORY_PARA_3">
+			<Text>The headwaters of the Tumblestone and the Red Fork begin in the westerlands and flow east into the riverlands. The main pass through the eastern mountains is guarded by the Golden Tooth, a castle which controls access to the river road leading to Riverrun. Further south is the Goldroad, which runs east to King's Landing. Deep Den watches this road, with Hornvale to the north and Silverhill to the south.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_WESTERLANDS_CHAPTER_HISTORY_PARA_4">
+			<Text>The southern westerlands contain more flatland than the rest of the country and includes Cornfield and the forest by Crakehall Castle. The Ocean Road leads south from the Rock past Crakehall to Old Oak and Highgarden in the Reach. Also located in the westerlands are Greenfield and Wyndhall.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_WESTERLANDS_CHAPTER_HISTORY_PARA_5">
+			<Text>The westerlands are not the largest, most populous, or most fertile part of the realm, but they are the richest. Full of hills and crags, the land is dotted with mines from which pour gold and silver in astonishing quantities. There are gold mines at Casterly Rock, the Golden Tooth, Castamere, Nunn's Deep, and the Pendric Hills. According to semi-canon sources, there are settlements which become ghost towns once nearby mines stop producing ore.[10] Besides farming, there is also some fishery in Lannisport and on Fair Isle.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_WESTERLANDS_CHAPTER_HISTORY_PARA_6">
+			<Text>The military strength of the westerlands to be fifty thousand men strong, though this count includes even green boys, and depletes most castles of any protection. During Aegon's Conquest, King Loren I Lannister marched a host of twenty-two thousand from the westerlands to battle. The westerlands contributed ten thousand men-at-arms and one thousand knights during the War of the Ninepenny Kings.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_WESTERLANDS_CHAPTER_HISTORY_PARA_7">
+			<Text>In 261 AC House Reyne was able to field eight thousand men, while Houses Westerling, Banefort, Plumm, and Stackspear together were able to field at least sixty-five hundred men together.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_WESTERLANDS_CHAPTER_HISTORY_PARA_8">
+			<Text>In 283 AC, Lord Tywin Lannister commanded twelve thousand Lannister men during the Sack of King's Landing. The Lannister fleet at Lannisport consists of twenty or thirty cogs, carracks, galleys, and dromonds, while lesser lords have two or three ships for patrolling. The total naval power of the westerlands to be “probably closer to fifty or sixty large ships”. Casterly Rock's vessels were rebuilt after the burning of the Lannister fleet in 289 AC.</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_JOUSTING_ARENA_CHAPTER_HISTORY_PARA_1">
+			<Text>Tourneys in Westeros vary according to the region in which the tourney is held, the desires of the hosting lord, and the rules devised by the lord's master of the games. Many forms of competition are known, including jousting (also called the lists), mock battles between teams of knights, archery competitions, or the melee, in which many warriors fight individually in one large battle. Tourneys can be small events focusing on one competition held on a single day, or they can be large events that take several days and may include several different competitions. Jousting is a martial game or hastilude between two horsemen wielding lances with blunted tips, often as part of a tournament. The primary aim was to replicate a clash of heavy cavalry, with each opponent trying hard to strike the opponent while riding towards him at high speed, if possible breaking the lance on the opponent's shield or jousting armour, or unhorsing him. The joust became an iconic characteristic of the knight in Romantic medievalism. The participants experience close to three and a quarter times their body weight in G-forces when the lances collide with their armor.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_STORMLANDS_CHAPTER_HISTORY_PARA_1">
+			<Text>The Stormlands are one of the constituent regions of the Seven Kingdoms on the continent of Westeros. The Kingdom of the Storm was a sovereign nation until the War of Conquest, in which the last Storm King was slain. The region is so-named for the savage and frequent autumn storms that batter the coast after beginning in the Summer Sea.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_STORMLANDS_CHAPTER_HISTORY_PARA_2">
+			<Text>The Stormlands are ruled from the castle of Storm's End by House Baratheon. Notable bannermen of the region include Buckler, Caron, Connington, Dondarrion, Errol, Estermont, Penrose, Selmy, Staedmon, Swann, Tarth, and Wylde. Noble bastards raised in the stormlands are given the surname Storm.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_STORMLANDS_CHAPTER_HISTORY_PARA_3">
+			<Text>The Stormlands are bordered to the north by the crownlands, west by the Reach, south by Dorne and the Sea of Dorne, and east by Shipbreaker Bay and the narrow sea. They are one of the smaller regions of Westeros, a land of harsh mountains, stony shores, and verdant forests, including the kingswood and the rainwood along Cape Wrath. Major rivers include the Slayne and part of the Wendwater.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_STORMLANDS_CHAPTER_HISTORY_PARA_4">
+			<Text>The Dornish Marches, located in the south-west in a long salient along the Red Mountains, serve as an effective buffer zone between the stormlands and their old enemies of the Reach and Dorne. For centuries it was a regular battleground, changing hands more than once until Dorne became part of the Seven Kingdoms.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_STORMLANDS_CHAPTER_HISTORY_PARA_5">
+			<Text>A few islands, including Tarth and Estermont, are also considered part of the stormlands. Ships coming across the narrow sea avoid the notorious Shipbreaker Bay and its storms, though the seas along the Stormlands can be clear and blue. The waters around Tarth are particularly famed for their clear blue color, earning Tarth the name "Sapphire Isle."</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_STORMLANDS_CHAPTER_HISTORY_PARA_6">
+			<Text>Although it is rainy, the region is fertile enough. There are no cities in the stormlands due to the strong martial culture of the storm lords, but larger fortresses such as Bronzegate are often supported by several small towns. The Weeping Town is a thriving port on the Sea of Dorne. The kingsroad runs north from Storm's End to King's Landing in the crownlands.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_STORMLANDS_CHAPTER_HISTORY_PARA_7">
+			<Text>The population of the Stormlands is diffused, and the region can perhaps raise some thirty thousand men. In 206 AC, House Dondarrion on its own was able to raise nearly four thousand infantry and eight hundred cavalry.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_STORMLANDS_CHAPTER_HISTORY_PARA_8">
+			<Text>Possibly, as much as some twenty thousand Stormlanders join Renly Baratheon in the War of the Five Kings.</Text>
+		</Row>
+
+		<!--LEADER-->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TYWIN_LANNISTER_TITLE">
+			<Text>Tywin Lannister</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TYWIN_LANNISTER_SUBTITLE">
+			<Text>Head of House Lannister, Lord of Casterly Rock, and Warden of the Westerlands.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TYWIN_LANNISTER_QUOTE">
+			<Text>Some battles are won with swords and spears, others with quills and ravens.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TYWIN_LANNISTER_CHAPTER_HISTORY_PARA_1">
+			<Text>Tywin is one of the most powerful lords in Westeros, and is the father of Cersei, Jaime, and Tyrion. He loves his children Jaime and Cersei, but despises Tyrion. This is partly because Tyrion is deformed, but also Tywin blames his son for causing his beloved wife Joanna's death during his birth, as well as for shaming the family name with his frequent whoring.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TYWIN_LANNISTER_CHAPTER_HISTORY_PARA_2">
+			<Text>Tywin is a tall, slender, broad-shouldered man in his fifties. He has kept his head shaved ever since he started going bald, but grows out bushy golden side-whiskers, and has green eyes flecked with gold. In battle, he wears deep crimson armor highlighted with gold, with a cloth-of-gold cape.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TYWIN_LANNISTER_CHAPTER_HISTORY_PARA_3">
+			<Text>Tywin is a calculating, intelligent, politically astute, ruthless, and controlling man. He dedicates his life and efforts towards maintaining the Lannisters' prestige, and ensuring House Lannister is respected, or at least feared. He is a proven battle commander and politician, and has a very powerful presence combined with an intimidating gaze.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TYWIN_LANNISTER_CHAPTER_HISTORY_PARA_4">
+			<Text>When Robert's Rebellion began, Lord Tywin sat at Casterly Rock and waited, ignoring King Aerys's orders to arm, taking no side until after Robert Baratheon's decisive victory at the Battle of the Trident. After the battle, Tywin mustered his forces and rode for the capital of King's Landing. After Aerys was convinced by Grand Maester Pycelle that Tywin had come to aid him, he ordered the gates of the city opened for Tywin. The westermen proceeded to sack the city. Aerys was killed by Jaime before Tywin's forces arrived at the Red Keep, but Gregor Clegane and Amory Lorch, knights sworn to Tywin and under Tywin's orders, slew Rhaegar's wife Elia of Dorne and her two young children, Rhaenys and Aegon. Tywin wrapped the bodies in crimson Lannister cloaks to better conceal the blood and presented them to Robert Baratheon as a token of fealty.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TYWIN_LANNISTER_CHAPTER_HISTORY_PARA_5">
+			<Text>After the rebellion, Tywin returned to Casterly Rock, where he continued to serve as Lord and Warden of the West. In 289 AC Lord Balon Greyjoy began Greyjoy's Rebellion against King Robert by burning the Lannister fleet anchored at Lannisport. After the defeat of the Greyjoys, Tywin rebuilt his fleet and hosted another tourney at Lannisport. Due to King Robert's financial mismanagement of the realm, as well as his own new connection to the throne by marriage, Lord Tywin frequently lent money to the crown, placing the court in King's Landing in debt of over three million gold dragons to House Lannister.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_TYWIN_LANNISTER_CHAPTER_HISTORY_PARA_6">
+			<Text>Though ruthless, Tywin Lannister is an able and shrewd ruler who brought great prosperity during his tenures as the King's Hand. He is especially talented at the raising of funds, leading to a persistent jest that he must "shit gold." The common folk of Lannisport cheered twice as loud for Tywin at the tourney for King Aerys II as they did for their actual king. Even so, Tywin is more respected than loved in the Westerlands and he became despised in King's Landing after his house treacherously sacked the city.</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ROBERT_BARATHEON_TITLE">
+			<Text>Robert Baratheon</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ROBERT_BARATHEON_SUBTITLE">
+			<Text>Head of House Baratheon, Lord of Storm's End, the Stag King, and Warden of the Stormlands.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ROBERT_BARATHEON_QUOTE">
+			<Text>I will not kill a man for loyalty, nor for fighting well.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ROBERT_BARATHEON_CHAPTER_HISTORY_PARA_1">
+			<Text>Robert was crowned king after King Aerys II Targaryen, his first cousin once removed, was killed during Robert's Rebellion. Following the war, Robert married Cersei Lannister to ensure political stability. With her, Robert has three children: Joffrey, Myrcella, and Tommen. Although, they prove to be the children of Jaime Lannister.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ROBERT_BARATHEON_CHAPTER_HISTORY_PARA_2">
+			<Text>Robert has the classical Baratheon look: black hair and bright blue eyes. His heavy black hair is thick on his chest, and coarse around his sex. He is a very tall man; Eddard Stark estimates his height to be six and a half feet. As a young adult, Robert was a handsome, clean shaven man, with rough and hard hands. He was strong and powerful, and muscled "like a maiden's fantasy". However, after he won the throne, Robert's appearance changed. Due to excessive feasting and drinking, Robert gained a significant amount of weight. In the nine years since Greyjoy's Rebellion, he gained at least eight stone in weight. Now, he is often red-faced from drink, with dark circles underneath his eyes, and walks as if he is half in his cups, while sweating through his silks. In the final years of his life, Robert grew a beard, which people described as a wild, thick and fierce thing, and which served to hide his double chin.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ROBERT_BARATHEON_CHAPTER_HISTORY_PARA_3">
+			<Text>Robert is brave, but headstrong, rash, and impatient. He is proud, and will not likely back down on words spoken in a drunken bravado. As king, Robert is no longer used to someone disagreeing with him, and a good way of ensuring that he’d do something, is telling him that he could not, should not, of must not do something (especially in public). Tyrion Lannister considers Robert to be a great blustering oaf, while Varys describes him as a fool. Cersei Lannister considers Robert to be an ignorant, dumb, slow-witted, drunken brute of a man, who does not have the ruthless streak she believes a king requires. Although several people consider Robert to be brave, Cersei believes him to be a coward. According to Petyr Baelish, Robert is simply very practiced at closing his eyes to things he would rather not see.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ROBERT_BARATHEON_CHAPTER_HISTORY_PARA_4">
+			<Text>Robert is as strong as a bull and fearless in battle. He loves the song of swords and considers poison to be a coward’s weapon. As long they are honest and brave, Robert can be merciful towards his enemies. The only exception are the Targaryens; His hatred for them is a madness within him. A peerless warrior in his youth, Robert fought with a spiked iron warhammer, crafted by Donal Noye. In battle, he wore a great antlered helmet, which made him look like a horned god. He prefers melees, in which he can hit people with his hammer, over jousts. Despite the numerous weapons in the royal armory, the only blade Robert uses is a hunting knife he received as a boy from Lord Jon Arryn, his foster father. Although his condition has deteriorated due to his weight gain and frequent drinking, Robert remains a strong man; Jaime Lannister believes that Robert is stronger than him. Robert possesses a powerful battlefield voice.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_ROBERT_BARATHEON_CHAPTER_HISTORY_PARA_5">
+			<Text>Robert is a man of huge appetites, who knows how to take his pleasures. He is quite promiscuous, and has fathered multiple bastard children. His lusts are the subject of ribald drinking songs throughout the realm. As king, Robert is not loath to impose upon the hospitality of his subjects, no matter whether it is voluntarily or forced. At the same time, however, Robert possesses a great, but rather careless, generosity. He is an avid hunter. Some of Robert's favorite songs are "A Cask of Ale", "Fifty-Four Tuns", and "The Bear and the Maiden Fair".</Text>
+		</Row>
+
+		<!--UNITS-->
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SELLSWORDS_CHAPTER_HISTORY_PARA_1">
+			<Text>A Sellsword is a mercenary who hires out his services to the highest bidder. Inevitably, this sort of lifestyle involves a great deal of violence and physical exertion. Many sellswords are organized into companies. Some of the sellsword companies are very disciplined (such as the Golden Company), and some are nothing but rabble joined together in search of loot (like the Brave Companions); the Second Sons and the Stormcrows are in the middle. Most tend to be experienced professional soldiers, as it is a profession a man tends to chose after he's tasted a few battles and learned that he's good at fighting.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SELLSWORDS_CHAPTER_HISTORY_PARA_2">
+			<Text>The Free Cities have made heavy use of mercenaries for centuries, to fight their endless wars in the Stepstones and the Disputed Lands; as such there are more sellswords in Essos than in Westeros. Many of the mercenary soldiers of the east are organized into long-established sellsword companies, or "free companies".</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SQUIRE_CHAPTER_HISTORY_PARA_1">
+			<Text>Although not a requirement for becoming a knight, boys, often nobly born, can serve as pages and later squires. Boys can become pages at several different ages. It appears to be normal to become a page from the ages of six or seven onwards. Robert Arryn was six years old when his father planned on having him become a page, although circumstances were not entirely ordinary. According to Brienne of Tarth, boys near the age of six or seven are pages. Edric Dayne became a page at the age of seven, and the Princess of Dorne suggested taking on Jaime Lannister as a page at that age as well. Tommen Baratheon hid as a page at the age of eight, while Kevan Lannister was made a page at this age. When Jon Snow, Lord Commander of the Night's Watch, accepts pages and squires from the free folk, he does not accept any boy younger than eight.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SQUIRE_CHAPTER_HISTORY_PARA_2">
+			<Text>After a several years of serving as a page, a boy can become a squire. However, boys are not required to serve as a page before becoming a squire, and because of that, the range of ages upon which a boy is made a squire range quite widely. While Samwell Tarly was supposed to become a page and cupbearer at the age of ten, multiple boys are known to have been squires by that age or by an even younger age. Examples include Doran Martell, Aegon V Targaryen, Rollam Westerling, and Elmar Frey, who were all already a squire at the age of nine, and Barristan Selmy, and Edric Dayne, made a squire at the age of ten. Some squires choose to never become a knight, and live the rest of their lives as squires. This may be because the individual does not have the inclination to live a knight's martial lifestyle, or does not have the funds to properly equip himself.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SQUIRE_CHAPTER_HISTORY_PARA_3">
+			<Text>Pages and squires train at arms. Squires run errands for their masters, tend to their master's animals, clean his mail, and help him into his armor whenever required. In times of war, they ride beside their masters, assisting them and fighting by their sides. During tourneys, squires will provide their masters with new lances, or with a sword. A boy who is being fostered but who is not training for knighthood (e.g., because he does not follow the Faith of the Seven), can perform the duties of a page and squire without strictly being one.</Text>
+		</Row>
+		<!--CIVINFO-->
+		<Row Tag="LOC_CIVINFO_THE_WESTERLANDS_LOCATION">
+			<Text>The Westerlands</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_THE_WESTERLANDS_SIZE">
+			<Text>The Westerlands is a region in the west of the continent of Westeros. Before the Targaryen conquest, it was known as the Kingdom of the Rock. People from the westerlands are known as westermen.</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_THE_WESTERLANDS_POPULATION">
+			<Text>The customary surname of bastards of noble origin born in the westerlands is Hill.</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_THE_WESTERLANDS_CAPITAL">
+			<Text>Castly Rock</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVINFO_THE_STORMLANDS_LOCATION">
+			<Text>The Stormlands</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_THE_STORMLANDS_SIZE">
+			<Text>The Stormlands are one of the constituent regions of the Seven Kingdoms on the continent of Westeros. The Kingdom of the Storm was a sovereign nation until the War of Conquest, in which the last Storm King was slain. The region is so-named for the savage and frequent autumn storms that batter the coast after beginning in the Summer Sea.</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_THE_STORMLANDS_POPULATION">
+			<Text>Notable bannermen of the region include Buckler, Caron, Connington, Dondarrion, Errol, Estermont, Penrose, Selmy, Staedmon, Swann, Tarth, and Wylde. Noble bastards raised in the stormlands are given the surname Storm.</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_THE_STORMLANDS_CAPITAL">
+			<Text>Storm's End</Text>
+		</Row>
+		<!--DIPLO-->
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_TYWIN_LANNISTER_ANY">
+			<Text>A profitable proposal, I appreciate it.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_TYWIN_LANNISTER_ANY">
+			<Text>I see you come for the gold of the Westerlands, I must deny.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_TYWIN_LANNISTER_ANY">
+			<Text>Some battles are won with swords and spears, others with quills and ravens. Do you like my raven and the words it brought?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_TYWIN_LANNISTER_ANY">
+			<Text>This is a good start.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_TYWIN_LANNISTER_ANY">
+			<Text>Fine. Maybe next time.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_TYWIN_LANNISTER_ANY">
+			<Text>You will regret it. I have gold dragons for sellswords and will not sacrifice a single life of my own people. Would you care about your... peasants?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_TYWIN_LANNISTER_ANY">
+			<Text>I bet you heard about my Hammer and Anvil tactics. Yet still, it's too late to run.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_TYWIN_LANNISTER_ANY">
+			<Text>There is a tool for every task, and a task for every tool. I wish your delegation is a good tool.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_TYWIN_LANNISTER_ANY">
+			<Text>No. I think not.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_TYWIN_LANNISTER_ANY">
+			<Text>I sent my delegation with some golden artifacts. I hope you like them.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_TYWIN_LANNISTER_ANY">
+			<Text>The greatest fools are ofttimes more clever than the men who laugh at them. Don't you think so?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_TYWIN_LANNISTER_ANY">
+			<Text>What is the value of your people in this world? (Denounces You).</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_TYWIN_LANNISTER_ANY">
+			<Text>Welcome to the Westerlands. Do visit your famous gold mines and trade with merchants in Lannisport. Make yourself at home here, and you will never want to leave.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_TYWIN_LANNISTER_ANY">
+			<Text>People say I shit gold. What a funny tale... I'm not inviting you to watch me shiting... (wait what is that a crossbow or something?)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_TYWIN_LANNISTER_ANY">
+			<Text>Your city is beautiful. But might need some more decoration. How about gold?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_TYWIN_LANNISTER_ANY">
+			<Text>I would like to know about your capital. I hope it's not a filthy place like a sewer that my son is cleaning.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_TYWIN_LANNISTER_ANY">
+			<Text>Greetings.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_TYWIN_LANNISTER_ANY">
+			<Text>Your people are rich, your army is strong. You have my congratulations.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_TYWIN_LANNISTER_REASON_ANY">
+			<Text>(You have high gold income and strong army)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_TYWIN_LANNISTER_ANY">
+			<Text>You have no gold, no army. How would protect your people?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_TYWIN_LANNISTER_REASON_ANY">
+			<Text>(You have low gold income or weak army)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_TYWIN_LANNISTER_ANY">
+			<Text>I believe you will find it beneficial to become our ally, don't you agree?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_TYWIN_LANNISTER_ANY">
+			<Text>This war is pointless. Let's stop wasting gold.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_TYWIN_LANNISTER_ANY">
+			<Text>I spent my money, my sellswords don't get their price yet. How do you expect me to stop?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_TYWIN_LANNISTER_ANY">
+			<Text>Bend your knees, and I will help you get up again. How does that sound?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_TYWIN_LANNISTER_ANY">
+			<Text>I wish you can pick up some gold ores on our road side.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_TYWIN_LANNISTER_ANY">
+			<Text>Border is border, we will not allow any passage.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_TYWIN_LANNISTER_ANY">
+			<Text>Passage for gold. I see a fair trade.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_TYWIN_LANNISTER_ANY">
+			<Text>My sellsword companies informed me about your troops,</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_TYWIN_LANNISTER_ANY">
+			<Text>Very well, ser. Go do your duty.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_TYWIN_LANNISTER_ANY">
+			<Text>This is not a fair trade. No.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_TYWIN_LANNISTER_ANY">
+			<Text>The Lannisters pays debts. With gold, or with goods.</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ROBERT_BARATHEON_ANY">
+			<Text>You will be our good friend, offer accepted!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_ROBERT_BARATHEON_ANY">
+			<Text>You are not a true friend yet. Prove yourself and try next time.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_ROBERT_BARATHEON_ANY">
+			<Text>You are mightly like a god! Would you like to accept our friendship?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_ROBERT_BARATHEON_ANY">
+			<Text>Happy day.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_ROBERT_BARATHEON_ANY">
+			<Text>Ah... you should have accepted it.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_ROBERT_BARATHEON_ANY">
+			<Text>Have you heard about how strong the defence of Storm's End is? Try ensiege our cities and you will find you don't have enough supplies for the war.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_ROBERT_BARATHEON_ANY">
+			<Text>I will not kill a man for loyalty, nor for fighting well. Prove yourself and I will spare your life.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_ROBERT_BARATHEON_ANY">
+			<Text>Your delegation is well settled. But next time, don't take ships here. The gulf is cursed.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_ROBERT_BARATHEON_ANY">
+			<Text>Hmmm, did I see a sinking ship with your flag?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_ROBERT_BARATHEON_ANY">
+			<Text>I sent my envoy to you. Try some peach, it tastes like maiden's lip.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_ROBERT_BARATHEON_ANY">
+			<Text>Fat? Fat, is it? Is that how you speak to your king?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_ROBERT_BARATHEON_ANY">
+			<Text>STOP THIS MADNESS, IN THE NAME OF YOUR KING! (Denounces You).</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_ROBERT_BARATHEON_ANY">
+			<Text>The Stormlands welcome you. I believe you've seen our mighty castles already. Laugh loud, this is how we make friends.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_ROBERT_BARATHEON_ANY">
+			<Text>Are you down watching a jousting tourney? Or rather melee brawl?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_ROBERT_BARATHEON_ANY">
+			<Text>Let's see what good wine you got.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_ROBERT_BARATHEON_ANY">
+			<Text>Just tell me one thing, do you unforgetable whores and wine?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_ROBERT_BARATHEON_ANY">
+			<Text>Good day!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_ROBERT_BARATHEON_ANY">
+			<Text>We share the same ideology, we train strong armies. I see you good friend to be.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_ROBERT_BARATHEON_REASON_ANY">
+			<Text>(Your government is the same as theirs, and you have strong standing army.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_ROBERT_BARATHEON_ANY">
+			<Text>What you believe is a lie, and where's your army to defend your miserable little lie?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_ROBERT_BARATHEON_REASON_ANY">
+			<Text>(Your government is different than theirs, and your standing army is weak.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_ROBERT_BARATHEON_ANY">
+			<Text>Our houses will be strong and prosper by making alliances.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_ROBERT_BARATHEON_ANY">
+			<Text>I agree, I'm bored already.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_ROBERT_BARATHEON_ANY">
+			<Text>Now you regret? Now you tremble in front of the horned god? No, it's not done yet. </Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_ROBERT_BARATHEON_ANY">
+			<Text>Bend your knees to your king. It is over.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_ROBERT_BARATHEON_ANY">
+			<Text>Our sea is furious, only smugglers can handle it. Be careful.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_ROBERT_BARATHEON_ANY">
+			<Text>You will only see our iron gates but nothing beyond.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_ROBERT_BARATHEON_ANY">
+			<Text>Can you grant a passage to us? Fat boars on the other side of the forest.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_ROBERT_BARATHEON_ANY">
+			<Text>Your troops want to climb my wall, aren't they? Tell them leave, it's not gonna be an easy climb.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_ROBERT_BARATHEON_ANY">
+			<Text>The realm ... the realm knows ... what a wretched king I've been. Bad as Aerys, the gods spare me.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_ROBERT_BARATHEON_ANY">
+			<Text>I'm not drunk nor fool, this is not a fair trade.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_ROBERT_BARATHEON_ANY">
+			<Text>Good ale, good deal. Aha.</Text>
+		</Row>
+	</BaseGameText>
+</GameData>

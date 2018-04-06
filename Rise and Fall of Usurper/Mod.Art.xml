@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <AssetObjects::GameArtSpecification>
 	<id>
-		<name text="Example - New Civilization and Leader"/>
+		<name text="Rise and Fall of the Usurper"/>
 		<id text="609b5cea-2689-40fb-8cc5-3e6f8d1f72a3"/>
 	</id>
 	<artConsumers>
 		<Element>
 			<consumerName text="Units"/>
 			<relativeArtDefPaths>
+				<Element text="Cultures.artdef"/>
+				<Element text="Units.artdef" />
+				<Element text="Unit_Bins.artdef" />
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="Unit"/>
@@ -29,6 +32,11 @@
 		<Element>
 			<consumerName text="Landmarks"/>
 			<relativeArtDefPaths>
+				<Element text="Landmarks.artdef" />
+				<Element text="Districts.artdef"/>
+				<Element text="Buildings.artdef"/>
+				<Element text="Cultures.artdef"/>
+				<Element text="Civilizations.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="CityBuildings"/>
@@ -36,7 +44,7 @@
 				<Element text="RouteDecalMaterial"/>
 			</libraryDependencies>
 			<loadsLibraries>true</loadsLibraries>
-		</Element>
+		</Element>	
 		<Element>
 			<consumerName text="Farms"/>
 			<relativeArtDefPaths>
@@ -249,9 +257,10 @@
 		<Element>
 			<consumerName text="Civilizations"/>
 			<relativeArtDefPaths>
+				<Element text="Civilizations.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies/>
-			<loadsLibraries>false</loadsLibraries>
+			<loadsLibraries>true</loadsLibraries>
 		</Element>
 		<Element>
 			<consumerName text="Cultures"/>
@@ -270,6 +279,13 @@
 		<Element>
 			<consumerName text="Improvements"/>
 			<relativeArtDefPaths>
+				<Element text="Improvements.artdef"/>
+				<Element text="StrategicView.artdef"/>
+				<Element text="Landmarks.artdef"/>
+				<Element text="Buildings.artdef"/>
+				<Element text="CityGenerators.artdef"/>
+				<Element text="Cultures.artdef"/>
+				<Element text="Civilizations.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies/>
 			<loadsLibraries>false</loadsLibraries>
@@ -537,6 +553,8 @@
 		<Element>
 			<libraryName text="TileBase"/>
 			<relativePackagePaths>
+				<Element text="landmarks/hero_buildings"/>
+				<Element text="landmarks/tilebases"/>
 			</relativePackagePaths>
 		</Element>
 		<Element>
@@ -547,12 +565,16 @@
 		<Element>
 			<libraryName text="UITexture"/>
 			<relativePackagePaths>
+				<Element text="UI/Icons"/>
 				<Element text="UILeaders"/>
+				<Element text="UI/Shell_Loading"/>
+				<Element text="UI_LeaderScenes"/>
 			</relativePackagePaths>
 		</Element>
 		<Element>
 			<libraryName text="Unit"/>
 			<relativePackagePaths>
+				<Element text="units/units"/>
 			</relativePackagePaths>
 		</Element>
 		<Element>

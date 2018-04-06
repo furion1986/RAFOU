@@ -1,0 +1,9 @@
+Starting AssetCooker...
+Opened output file: C:\Users\Furion\Documents\My Games\Sid Meier's Civilization VI\Mods\Rise and Fall of Usurper\ArtDefs/FallbackLeaders.artdef
+Cooking ArtDef: (FallbackLeaders.artdef).
+Unable to find the XLP (LeaderFallbacks.xlp) referenced by  >> FallbackLeaders.artdef >> Leaders >> LEADER_JASPER_KITTY >> Animations >> DEFAULT >> BLP Entry.
+ >> FallbackLeaders.artdef >> Leaders >> LEADER_JASPER_KITTY >> Animations >> DEFAULT >> BLP Entry has had its value replaced with its default value.
+
+Cook finished for ArtDef at Path: 'FallbackLeaders.artdef' with Template: 'LeaderFallback'
+ArtDef cook completed.
+Cook completed in 1.627 seconds

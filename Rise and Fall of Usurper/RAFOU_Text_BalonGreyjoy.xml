@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<BaseGameText>
+		<Row Tag="LOC_CIVILIZATION_IRONBORN_DESCRIPTION">
+			<Text>Kingdom of Iron Islands</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_IRONBORN_ADJECTIVE">
+			<Text>Ironborn</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_IRON_FLEET_NAME">
+			<Text>The Iron Fleet</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_IRON_FLEET_DESCRIPTION">
+			<Text>+1 [ICON_Movement] Movement and +5 [ICON_Strength] Combat Strength to all naval units.</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_BALON_GREYJOY_QUOTE">
+			<Text>No man has ever died from bending his knee. He who kneels may rise again, blade in hand. He who will not kneel stays dead, stiff legs and all.</Text>
+		</Row>
+		
+		<!--City Names-->
+		<Row Tag="LOC_CIVILIZATION_IRONBORN_CITY_1">
+			<Text>Pyke</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_IRONBORN_CITY_2">
+			<Text>Hammerhorn</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_IRONBORN_CITY_3">
+			<Text>Corpse Lake</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_IRONBORN_CITY_4">
+			<Text>Crow Spike Keep</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_IRONBORN_CITY_5">
+			<Text>Downdelving</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_IRONBORN_CITY_6">
+			<Text>Pebbleton</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_IRONBORN_CITY_7">
+			<Text>Sealskin Point</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_IRONBORN_CITY_8">
+			<Text>Shatterstone</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_IRONBORN_CITY_9">
+			<Text>Ten Towers</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_IRONBORN_CITY_10">
+			<Text>Saltcliffe</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_IRONBORN_CITY_11">
+			<Text>Harlaw</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_IRONBORN_CITY_12">
+			<Text>Blacktyde</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_IRONBORN_CITY_13">
+			<Text>Orkmont</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_IRONBORN_CITY_14">
+			<Text>Lonely Light</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_IRONBORN_CITY_15">
+			<Text>Lordsport</Text>
+		</Row>
+		
+		<!--CITIZEN NAMES-->
+		<Row Tag="LOC_CITIZEN_IRONBORN_MALE_1">
+			<Text>Dagmer</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_IRONBORN_MALE_2">
+			<Text>Maron Botley</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_IRONBORN_MALE_3">
+			<Text>Dagon Codd</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_IRONBORN_MALE_4">
+			<Text>Gevin Harlaw</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_IRONBORN_FEMALE_1">
+			<Text>Asha Greyjoy</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_IRONBORN_FEMALE_2">
+			<Text>Alannys Harlaw</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_IRONBORN_FEMALE_3">
+			<Text>Gysella Goodbrother</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_IRONBORN_FEMALE_4">
+			<Text>Helya</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_IRONBORN_FEMALE_5">
+			<Text>Sylas Sourmouth</Text>
+		</Row>
+		
+		<!--Unit Ability Descriptions-->
+		<Row Tag="LOC_PROMOTION_COMBAT_WATER_DESCRIPTION">
+			<Text>+{1_Amount} Combat Strength for Naval Units</Text>
+		</Row>
+		<Row Tag="LOC_CAPTURE_COMBAT_UNITS_AS_THRALLS_DESCRIPTION">
+			<Text>Can Capture Enemy Units as Thralls upon Combat Victory</Text>
+		</Row>
+		
+		<!--Agendas-->
+
+		<Row Tag="LOC_AGENDA_IRON_PRICE_NAME">
+			<Text>Pay the Iron Price</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_IRON_PRICE_DESCRIPTION">
+			<Text>Builds a large navy and respects civilizations who follow his lead. Does not like civilizations with a weak navy.</Text>
+		</Row>
+		
+		<!--PEDIA-->
+		<!--CIV-->
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_CAPTAINS_TAVERN_CHAPTER_HISTORY_PARA_1">
+			<Text>The ironborn are fierce men of the sea, and their naval supremacy was once unmatched, their dark legacy of raids and pillage of the hinterlands of the western and southern regions granting them, to this day, a fearsome reputation. The finger dance is a game played by the Ironborn of the Iron Islands. It is played by at least two people who throw a hand axe at each other. One must catch the axe or leap over it without missing a step. The name comes from the fact that the game usually ends with a dancer losing one or more of his fingers. The Taverns of Captains are where Ironborn "lose" their fingers...</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_IRONBORN_CHAPTER_HISTORY_PARA_1">
+			<Text>The ironborn are the natives of the Iron Islands in the Sunset Sea off the western coast of Westeros. They are also known as ironmen, especially by those they raid. The men from the green lands of Westeros also call them squids because the isles are ruled by House Greyjoy, whose sigil is a kraken.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_IRONBORN_CHAPTER_HISTORY_PARA_2">
+			<Text>The Iron Islands were settled by the First Men many thousands of years ago. (Although the priests of the Drowned God claim the ironborn came from beneath the oceans, and are more kin to fish and merlings than the rest of mankind; and Archmaester Haereg once theorized that the ancestors of the ironborn came from a land west of the Sunset Sea.) Somewhat isolated from the rest of Westeros, the ironborn did not take up the worship of the old gods of the forest, instead creating their own religion based around the Drowned God. Their Seastone Chair, carved from oily black stone, is said to have been found on the shores of Old Wyk when they arrived. When the Andals overran Westeros and conquered the Iron Islands, they intermingled with the natives. While a few locals converted to the Faith of the Seven, it did not fully take hold and worship of the Drowned God continued.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_IRONBORN_CHAPTER_HISTORY_PARA_3">
+			<Text>The ironborn of antiquity were ruled by local rock kings and salt kings, and the High Kings of the Iron Islands were chosen by kingsmoot. Beginning with the reign of Urron Greyiron, however, the ironmen were ruled by hereditary dynasties from first House Greyiron and later House Hoare.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_IRONBORN_CHAPTER_HISTORY_PARA_4">
+			<Text>The ironborn control over the lands of the Sunset Sea waxed and waned over millenia. Three Hoares ruled over the riverlands as Kings of the Isles and the Rivers. After the War of Conquest, however, the ironborn were thrown back to their islands with Harren the Black and all his line extinguished.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_IRONBORN_CHAPTER_HISTORY_PARA_5">
+			<Text>Guided by House Greyjoy, the ironborn have been mostly-peaceful subjects of the Lord of the Seven Kingdoms and the Iron Throne for almost three hundred years, aside from reaving by Lords Dalton and Dagon Greyjoy. In 289 AC the ironborn revolted in Greyjoy's Rebellion in an attempt to restore the Old Way, but they were crushed by King Robert I Baratheon.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_IRONBORN_CHAPTER_HISTORY_PARA_6">
+			<Text>Archmaester Haereg recorded the history of the ironmen in his exhaustive History of the Ironborn, while Archmaester Hake also wrote of their history. Some maesters believe the blood of Cape Kraken's people is closer to that of the ironmen than the northmen.</Text>
+		</Row>
+		<!--LEADER-->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BALON_GREYJOY_TITLE">
+			<Text>Balon Greyjoy</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BALON_GREYJOY_SUBTITLE">
+			<Text>Head of House Greyjoy, Lord of Iron Islands, the Captain of the Great Kraken</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BALON_GREYJOY_QUOTE">
+			<Text>No man has ever died from bending his knee. He who kneels may rise again, blade in hand. He who will not kneel stays dead, stiff legs and all.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BALON_GREYJOY_CHAPTER_HISTORY_PARA_1">
+			<Text>Balon is the eldest surviving son of Quellon Greyjoy, Lord of the Iron Islands, and a lady of House Sunderly. It is not clear when he was born.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BALON_GREYJOY_CHAPTER_HISTORY_PARA_2">
+			<Text>Balon learned to sail when still young and was a very skilled captain. Balon scaled the Flint Cliffs to the Blind Lord's haunted tower when he was ten. By his thirteenth year, he had become an expert oarsman. At fifteen he sailed with Dagmer Cleftjaw to the Stepstones on a reaving, killing his first man and taking his first two salt wives there. By seventeen he captained his own longship.[1] Later he often went raiding and was known for his fierceness and fearlessness.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BALON_GREYJOY_CHAPTER_HISTORY_PARA_3">
+			<Text>Balon and two of his brothers, Euron and Victarion, wanted their father Quellon to join Robert's Rebellion. Quellon was peaceful and cautious, however, and desired neutrality. After Crown Prince Rhaegar Targaryen was slain in the Battle of the Trident, Quellon was convinced by his sons to join the rebellion or else gain nothing from the war. The ironmen's contribution to the war turned out to be minimal. Quellon was slain fighting the longships of the Shield Islands in a battle at the Mander, after which Balon brought the Greyjoy ships back to Pyke so he could claim the Seastone Chair.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BALON_GREYJOY_CHAPTER_HISTORY_PARA_4">
+			<Text>When Balon returned to Pyke he found out his younger brother, Urrigon, had died of gangrene after being injured in the finger dance. The maester at Pyke had tried to save the hand of the boy, but his potions had failed and the fourteen-year-old Urrigon lost his life instead. Balon commanded the same treatment be used on the maester, who died along with Balon's stepmother.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BALON_GREYJOY_CHAPTER_HISTORY_PARA_5">
+			<Text>Balon is married to Alannys Harlaw, who gave him three sons and a daughter: Rodrik, Maron, Asha, and Theon.</Text>
+		</Row>
+		
+		<!--UNITS-->
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_IRON_LONGSHIP_CHAPTER_HISTORY_PARA_1">
+			<Text>The Iron Fleet is the largest grouping of longships from the Iron Islands. They number one hundred, and unlike other ironborn ships they belong to the Seastone Chair. It is one of the three most powerful fleets of Westeros, along with the royal fleet of the crownlands and the Redwyne fleet of the Arbor.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_IRON_LONGSHIP_CHAPTER_HISTORY_PARA_2">
+			<Text>Each ship of the Iron Fleet is captained and crewed by people of various islands. The ships, while smaller than the war dromonds of the mainland, are three times the size of a standard longship of the Isles. The fleet's commander, the Lord Captain of the Iron Fleet, is Victarion Greyjoy.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_THRALL_CHAPTER_HISTORY_PARA_1">
+			<Text>Thralls of the ironborn may only be obtained by paying the "iron price" (capturing them by raiding) under the Old Way. They are not slaves since they may not be sold and they may not be obtained by paying the "gold price." Their children may be free if they are drowned to the Drowned God. Thralls are used for farming and mining, activities which the ironmen consider unsuitable for free men.</Text>
+		</Row>
+		<!--CIVINFO-->
+		<Row Tag="LOC_CIVINFO_IRONBORN_LOCATION">
+			<Text>Iron Islands</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_IRONBORN_SIZE">
+			<Text>The Iron Islands is an archipelago in Ironman's Bay, located in the Sunset Sea off the western coast of Westeros.</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_IRONBORN_POPULATION">
+			<Text>The inhabitants of these harsh isles are known as ironmen, especially by the rest of Westeros, but they also call themselves the ironborn.</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_IRONBORN_CAPITAL">
+			<Text>Pyke</Text>
+		</Row>
+		
+		<!--DIPLO-->
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_BALON_GREYJOY_ANY">
+			<Text>We will accept your friendship. We shall enjoy the feasts in the Drowned God's watery halls.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_BALON_GREYJOY_ANY">
+			<Text>You are not following The Old Way. Friendship is not accepted.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_BALON_GREYJOY_ANY">
+			<Text>The Drowned God praises you. Let us officially declare our friendship.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_BALON_GREYJOY_ANY">
+			<Text>Very good.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_BALON_GREYJOY_ANY">
+			<Text>Unwise decision.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_BALON_GREYJOY_ANY">
+			<Text>Interesting... Now face my Iron Fleet and be prepared for your rest of life as my Thrall!</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_BALON_GREYJOY_ANY">
+			<Text>Don't ask me why, I've paid my Iron Prices...</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_BALON_GREYJOY_ANY">
+			<Text>We have received your trade delegation, served with bread and salt.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_BALON_GREYJOY_ANY">
+			<Text>Trade? I guess you will not be happy to see my Iron Prices.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_BALON_GREYJOY_ANY">
+			<Text>Fear not, my fleet is here for trading. This time...</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_BALON_GREYJOY_ANY">
+			<Text>Now you have trouble. Keep an eye on your coast line. Though it won't help you too much...</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_BALON_GREYJOY_ANY">
+			<Text>Tell me where's your fleet? If I don't find them, I will plunder your coast. If I find them... My Iron Fleet will have some more Galleies. (Denounces You).</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_BALON_GREYJOY_ANY">
+			<Text>What brings you here stranger? Though I complement your sailing skill, our young krakens can do much better.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_BALON_GREYJOY_ANY">
+			<Text>You might want to try some different style of lodging. Hope you sleep well with the music of waves.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_BALON_GREYJOY_ANY">
+			<Text>Fine, that's not too bad a deal.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_BALON_GREYJOY_ANY">
+			<Text>Tell me of your capital. And you wish it's not a coastal one.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_BALON_GREYJOY_ANY">
+			<Text>What is it?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_BALON_GREYJOY_ANY">
+			<Text>A strong navy you have. You are safe from my fleet for now.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_BALON_GREYJOY_REASON_ANY">
+			<Text>(You have strong navy)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_BALON_GREYJOY_ANY">
+			<Text>Guardless coast? Looking juicy...</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_BALON_GREYJOY_REASON_ANY">
+			<Text>(You have weak navy.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_BALON_GREYJOY_ANY">
+			<Text>We shall fight together, agreed?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_BALON_GREYJOY_ANY">
+			<Text>Let's put it on a pause, fishing season is starting.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_BALON_GREYJOY_ANY">
+			<Text>Not yet.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_BALON_GREYJOY_ANY">
+			<Text>No man has ever died from bending his knee. He who kneels may rise again, blade in hand.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_BALON_GREYJOY_ANY">
+			<Text>Just for passing by, no fishing our resource, no sleeping our women.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_BALON_GREYJOY_ANY">
+			<Text>The Drowned God doesn't like you. Better not pass or your ship will sink.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_BALON_GREYJOY_ANY">
+			<Text>I promise my people will not pillage your land, so would you provide them a passage?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_BALON_GREYJOY_ANY">
+			<Text>I see the rigs of your junk wood. What is this about?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_BALON_GREYJOY_ANY">
+			<Text>What is dead may never die, but rises again, harder and stronger.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_BALON_GREYJOY_ANY">
+			<Text>Not a chance.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_BALON_GREYJOY_ANY">
+			<Text>Looking good.</Text>
+		</Row>
+	</BaseGameText>
+</GameData>

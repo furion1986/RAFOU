@@ -276,12 +276,6 @@
 			<ModifierType>MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE</ModifierType>
 		</Row>
 		<Row>
-			<ModifierId>HEART_TREE_AWARD_TWO_INFLUENCE_TOKEN</ModifierId>
-			<ModifierType>MODIFIER_PLAYER_GRANT_INFLUENCE_TOKEN</ModifierType>
-			<RunOnce>true</RunOnce>
-			<Permanent>true</Permanent>
-		</Row>
-		<Row>
 			<ModifierId>AGENDA_HONOR_AND_JUSTICE_FRIEND</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
 			<SubjectRequirementSetId>PLAYER_DECLARED_FRIEND</SubjectRequirementSetId>
@@ -310,7 +304,7 @@
 		<Row>
 			<ModifierId>MELEE_DEFEND_BONUS</ModifierId>
 			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
-			<SubjectRequirementSetId>UNIT_STRONG_WHEN_DEFENDING_REQUIREMENTS</SubjectRequirementSetId>
+			<SubjectRequirementSetId>TL_UNIT_STRONG_WHEN_DEFENDING_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
 		<Row>
 			<ModifierId>CAVALRY_FLANKING_BONUS</ModifierId>
@@ -376,11 +370,6 @@
 			<ModifierId>TRAIT_FAITH_PURCHASE_TRADERS</ModifierId>
 			<Name>Tag</Name>
 			<Value>CLASS_TRADER</Value>
-		</Row>
-		<Row>
-			<ModifierId>HEART_TREE_AWARD_TWO_INFLUENCE_TOKEN</ModifierId>
-			<Name>Amount</Name>
-			<Value>1</Value>
 		</Row>
 		<!--Agenda-->
 		<Row>
@@ -515,11 +504,11 @@
 		<Row ListType="TywinUnitBuilds"/>
 		<Row ListType="TywinDiplomacy"/>
 		<!-- Robert Baratheon leads the Stormlands -->
-		<Row ListType="RobertCivics"/>
-		<Row ListType="RobertTechs"/>
-		<Row ListType="RobertWonders"/>
-		<Row ListType="RobertUnitBuilds"/>
-		<Row ListType="RobertDiplomacy"/>
+		<Row ListType="RobertBCivics"/>
+		<Row ListType="RobertBTechs"/>
+		<Row ListType="RobertBWonders"/>
+		<Row ListType="RobertBUnitBuilds"/>
+		<Row ListType="RobertBDiplomacy"/>
 		<!-- Mace Tyrell leads the Reach -->
 		<!-- Jon Arryn leads the Vale -->
 		<!-- Hoster Tully leads the Riverlands -->
@@ -539,7 +528,6 @@
 		<Row LeaderType="TRAIT_IRON_FLEET" ListType="BalonUnitBuilds" System="UnitPromotionClasses"/>
 		<!-- Eddard Stark leads the North -->
 		<Row ListType="EddardDiplomacy" System="DiplomaticActions" AgendaType="TRAIT_AGENDA_HONOR_AND_JUSTICE"/>
-
 		<Row LeaderType="TRAIT_THE_NORTH_REMEMBERS" ListType="EddardWonders" System="Buildings"/>
 		<Row LeaderType="TRAIT_THE_NORTH_REMEMBERS" ListType="EddardCivics" System="Civics"/>
 		<Row LeaderType="TRAIT_THE_NORTH_REMEMBERS" ListType="EddardTechs" System="Technologies"/>
@@ -551,11 +539,11 @@
 		<Row LeaderType="TRAIT_HAMMER_AND_ANVIL" ListType="TywinTechs" System="Technologies"/>
 		<Row LeaderType="TRAIT_HAMMER_AND_ANVIL" ListType="TywinUnitBuilds" System="UnitPromotionClasses"/>
 		<!-- Robert Baratheon leads the Stormlands -->
-		<Row ListType="RobertDiplomacy" System="DiplomaticActions" AgendaType="TRAIT_AGENDA_THE_STAG_KING"/>
-		<Row LeaderType="TRAIT_THE_USURPER" ListType="RobertWonders" System="Buildings"/>
-		<Row LeaderType="TRAIT_THE_USURPER" ListType="RobertCivics" System="Civics"/>
-		<Row LeaderType="TRAIT_THE_USURPER" ListType="RobertTechs" System="Technologies"/>
-		<Row LeaderType="TRAIT_THE_USURPER" ListType="RobertUnitBuilds" System="UnitPromotionClasses"/>
+		<Row ListType="RobertBDiplomacy" System="DiplomaticActions" AgendaType="TRAIT_AGENDA_THE_STAG_KING"/>
+		<Row LeaderType="TRAIT_THE_USURPER" ListType="RobertBWonders" System="Buildings"/>
+		<Row LeaderType="TRAIT_THE_USURPER" ListType="RobertBCivics" System="Civics"/>
+		<Row LeaderType="TRAIT_THE_USURPER" ListType="RobertBTechs" System="Technologies"/>
+		<Row LeaderType="TRAIT_THE_USURPER" ListType="RobertBUnitBuilds" System="UnitPromotionClasses"/>
 		<!-- Mace Tyrell leads the Reach -->
 		<!-- Jon Arryn leads the Vale -->
 		<!-- Hoster Tully leads the Riverlands -->
@@ -630,22 +618,22 @@
 		<Row Item="PROMOTION_CLASS_MELEE" ListType="TywinUnitBuilds" Value="1"/>
 		<!-- Robert Baratheon leads the Stormlands -->
 		<!--Wonder Preference-->
-		<Row Item="BUILDING_CASTLE" ListType="RobertWonders"/>
-		<Row Item="BUILDING_STAR_FORT" ListType="RobertWonders"/>
-		<Row Item="BUILDING_JOUSTING_ARENA" ListType="RobertWonders"/>
-		<Row Item="BUILDING_ALHAMBRA" ListType="RobertWonders"/>
+		<Row Item="BUILDING_CASTLE" ListType="RobertBWonders"/>
+		<Row Item="BUILDING_STAR_FORT" ListType="RobertBWonders"/>
+		<Row Item="BUILDING_JOUSTING_ARENA" ListType="RobertBWonders"/>
+		<Row Item="BUILDING_ALHAMBRA" ListType="RobertBWonders"/>
 		<!--Civic Preference-->
-		<Row Item="CIVIC_EARLY_EMPIRE" ListType="RobertCivics"/>
-		<Row Item="CIVIC_DIVINE_RIGHT" ListType="RobertCivics"/>
-		<Row Item="CIVIC_MILITARY_TRAINING" ListType="RobertCivics"/>
-		<Row Item="CIVIC_DEFENSIVE_TACTICS" ListType="RobertCivics"/>
+		<Row Item="CIVIC_EARLY_EMPIRE" ListType="RobertBCivics"/>
+		<Row Item="CIVIC_DIVINE_RIGHT" ListType="RobertBCivics"/>
+		<Row Item="CIVIC_MILITARY_TRAINING" ListType="RobertBCivics"/>
+		<Row Item="CIVIC_DEFENSIVE_TACTICS" ListType="RobertBCivics"/>
 		<!--Tech Preference-->
-		<Row Item="TECH_HORSEBACK_RIDING" ListType="RobertTechs"/>
-		<Row Item="TECH_CASTLES" ListType="RobertTechs"/>
-		<Row Item="TECH_SIEGE_TACTICS" ListType="RobertTechs"/>
+		<Row Item="TECH_HORSEBACK_RIDING" ListType="RobertBTechs"/>
+		<Row Item="TECH_CASTLES" ListType="RobertBTechs"/>
+		<Row Item="TECH_SIEGE_TACTICS" ListType="RobertBTechs"/>
 		<!--Unit Preference-->
-		<Row Item="PROMOTION_CLASS_MELEE" ListType="RobertUnitBuilds" Value="1"/>
-		<Row Item="PROMOTION_CLASS_HEAVY_CAVALRY" ListType="RobertUnitBuilds" Value="1"/>
+		<Row Item="PROMOTION_CLASS_MELEE" ListType="RobertBUnitBuilds" Value="1"/>
+		<Row Item="PROMOTION_CLASS_HEAVY_CAVALRY" ListType="RobertBUnitBuilds" Value="1"/>
 		<!-- Mace Tyrell leads the Reach -->
 		<!-- Jon Arryn leads the Vale -->
 		<!-- Hoster Tully leads the Riverlands -->
@@ -716,21 +704,21 @@
 	<RequirementSets>
 		<!-- Tywin Lannister leads the Westerlands -->
 		<Row>
-			<RequirementSetId>UNIT_STRONG_WHEN_DEFENDING_REQUIREMENTS</RequirementSetId>
+			<RequirementSetId>TL_UNIT_STRONG_WHEN_DEFENDING_REQUIREMENTS</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
 	</RequirementSets>
 	<RequirementSetRequirements>
 		<!-- Tywin Lannister leads the Westerlands -->
 		<Row>
-			<RequirementSetId>UNIT_STRONG_WHEN_DEFENDING_REQUIREMENTS</RequirementSetId>
-			<RequirementId>UNIT_STRONG_WHEN_DEFENDING_REQUIREMENT</RequirementId>
+			<RequirementSetId>TL_UNIT_STRONG_WHEN_DEFENDING_REQUIREMENTS</RequirementSetId>
+			<RequirementId>TL_UNIT_STRONG_WHEN_DEFENDING_REQUIREMENT</RequirementId>
 		</Row>
 	</RequirementSetRequirements>
 	<Requirements>
 		<!-- Tywin Lannister leads the Westerlands -->
 		<Row>
-			<RequirementId>UNIT_STRONG_WHEN_DEFENDING_REQUIREMENT</RequirementId>
+			<RequirementId>TL_UNIT_STRONG_WHEN_DEFENDING_REQUIREMENT</RequirementId>
 			<RequirementType>REQUIREMENT_PLAYER_IS_ATTACKING</RequirementType>
 			<Inverse>true</Inverse>
 		</Row>

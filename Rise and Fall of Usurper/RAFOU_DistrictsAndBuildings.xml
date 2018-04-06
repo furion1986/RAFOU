@@ -211,6 +211,16 @@
 		</Row>
 		<!-- Eddard Stark leads the North -->
 		<Row>
+			<ModifierId>TRAIT_HT_INCREASED_FOREST_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_HEART_TREE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HT_INCREASED_FOREST_SCIENCE_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>HT_PLOT_HAS_FOREST_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
 			<ModifierId>HEART_TREE_AWARD_TWO_INFLUENCE_TOKEN</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_GRANT_INFLUENCE_TOKEN</ModifierType>
 			<RunOnce>true</RunOnce>
@@ -264,9 +274,24 @@
 		</Row>
 		<!-- Eddard Stark leads the North -->
 		<Row>
+			<ModifierId>TRAIT_HT_INCREASED_FOREST_SCIENCE</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>TRAIT_HT_INCREASED_FOREST_SCIENCE_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HT_INCREASED_FOREST_SCIENCE_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HT_INCREASED_FOREST_SCIENCE_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
 			<ModifierId>HEART_TREE_AWARD_TWO_INFLUENCE_TOKEN</ModifierId>
 			<Name>Amount</Name>
-			<Value>2</Value>
+			<Value>1</Value>
 		</Row>
 		<!-- Tywin Lannister leads the Westerlands -->
 		<!-- Robert Baratheon leads the Stormlands -->
