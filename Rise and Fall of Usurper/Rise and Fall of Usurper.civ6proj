@@ -12,9 +12,9 @@
     <SupportsSinglePlayer>true</SupportsSinglePlayer>
     <SupportsMultiplayer>true</SupportsMultiplayer>
     <SupportsHotSeat>true</SupportsHotSeat>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><Criteria>LeaderCriteria</Criteria><File>RAFOU_Civilizations.xml</File><File>RAFOU_DistrictsAndBuildings.xml</File><File>RAFOU_Leaders.xml</File><File>RAFOU_Units.xml</File></UpdateDatabase><UpdateText id="Text"><Criteria>LeaderCriteria</Criteria><File>RAFOU_ConfigText.xml</File><File>RAFOU_Text_BalonGreyjoy.xml</File><File>RAFOU_Text_EddardStark.xml</File><File>RAFOU_Text_TywinRobert.xml</File></UpdateText><UpdateIcons id="Icons"><Criteria>LeaderCriteria</Criteria></UpdateIcons><UpdateArt id="Art"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><AddGameplayScripts id="AddGameplayScripts"><Criteria>LeaderCriteria</Criteria><File>GameScript/LannisterBaratheonGameScript.lua</File></AddGameplayScripts></InGameActions>]]></InGameActionData>
-    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config"><File>RAFOU_Config.xml</File></UpdateDatabase><UpdateText id="ConfigText"><File>RAFOU_ConfigText.xml</File></UpdateText><UpdateIcons id="ConfigIcons" /><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
-    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="LeaderCriteria"><LeaderPlayable>Players:Expansion1_Players::LEADER_BALON_GREYJOY,LEADER_EDDARD_STARK,LEADER_TYWIN_LANNISTER,LEADER_ROBERT_BARATHEON</LeaderPlayable></Criteria></ActionCriteria>]]></ActionCriteriaData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><Criteria>LeaderCriteria</Criteria><File>RAFOU_Civilizations.xml</File><File>RAFOU_DistrictsAndBuildings.xml</File><File>RAFOU_Leaders.xml</File><File>RAFOU_Units.xml</File><File>RAFOU_Improvements.xml</File></UpdateDatabase><UpdateText id="Text"><Criteria>LeaderCriteria</Criteria><File>RAFOU_ConfigText.xml</File><File>RAFOU_Text_BalonGreyjoy.xml</File><File>RAFOU_Text_EddardStark.xml</File><File>RAFOU_Text_TywinRobert.xml</File><File>RAFOU_Text_MaceTyrell.xml</File><File>RAFOU_Text_JonArryn.xml</File></UpdateText><UpdateIcons id="Icons"><Criteria>LeaderCriteria</Criteria><File>RAFOU_Icons_Civilizations.xml</File></UpdateIcons><UpdateArt id="Art"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><AddGameplayScripts id="AddGameplayScripts"><Criteria>LeaderCriteria</Criteria><File>GameScript/LannisterBaratheonGameScript.lua</File></AddGameplayScripts></InGameActions>]]></InGameActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config"><File>RAFOU_Config.xml</File></UpdateDatabase><UpdateText id="ConfigText"><File>RAFOU_ConfigText.xml</File></UpdateText><UpdateIcons id="ConfigIcons"><File>RAFOU_Icons_Civilizations.xml</File></UpdateIcons><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
+    <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="LeaderCriteria"><LeaderPlayable>Players:Expansion1_Players::LEADER_BALON_GREYJOY,LEADER_EDDARD_STARK,LEADER_TYWIN_LANNISTER,LEADER_ROBERT_BARATHEON,LEADER_MACE_TYRELL,LEADER_JON_ARRYN</LeaderPlayable></Criteria></ActionCriteria>]]></ActionCriteriaData>
     <AssemblyName>Rise and Fall of Usurper</AssemblyName>
     <RootNamespace>Rise and Fall of Usurper</RootNamespace>
     <Authors>Furion1986</Authors>
@@ -30,7 +30,26 @@
     <OutputPath>.</OutputPath>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="ArtDefs\FallbackLeaders.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="RAFOU_Text_JonArryn.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\Icons.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\LeaderFallbacks.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Folder Include="ArtDefs\" />
     <Folder Include="GameScript\" />
+    <Content Include="RAFOU_Icons_Leaders.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="RAFOU_Improvements.xml">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="GameScript\LannisterBaratheonGameScript.lua">
       <SubType>Content</SubType>
     </Content>
@@ -38,6 +57,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="RAFOU_Text_EddardStark.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="RAFOU_Text_MaceTyrell.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="RAFOU_Text_TywinRobert.xml">
@@ -52,6 +74,7 @@
     <Content Include="RAFOU_Icons_Civilizations.xml" />
     <Content Include="RAFOU_Leaders.xml" />
     <Content Include="RAFOU_DistrictsAndBuildings.xml" />
+    <Folder Include="XLPs\" />
     <None Include="Mod.Art.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />

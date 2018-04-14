@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<BaseGameText>
+		<Row Tag="LOC_CIVILIZATION_THE_REACH_DESCRIPTION">
+			<Text>Kingdom of The Reach</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_REACH_ADJECTIVE">
+			<Text>The Reach</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LORD_PUFFFISH_NAME">
+			<Text>Lord Puff Fish</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LORD_PUFFFISH_DESCRIPTION">
+			<Text>Receive a copy of Builder or Settler unit when produced one.[NEWLINE]But -3 [ICON_Strength] Combat Strength for all units.</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_MACE_TYRELL_QUOTE">
+			<Text>Is there anything as pointless as a king without a kingdom? No, it's plain, the boy must abandon the riverlands, join his forces to Roose Bolton's once more, and throw all his strength against Moat Cailin. That is what I would do.</Text>
+		</Row>
+
+		<!--City Names-->
+		<Row Tag="LOC_CIVILIZATION_THE_REACH_CITY_1">
+			<Text>Highgarden</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_REACH_CITY_2">
+			<Text>Ashford</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_REACH_CITY_3">
+			<Text>Tumbleton</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_REACH_CITY_4">
+			<Text>Oldtown</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_REACH_CITY_5">
+			<Text>Cuy</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_REACH_CITY_6">
+			<Text>The Arbor</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_REACH_CITY_7">
+			<Text>Blackcrown</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_REACH_CITY_8">
+			<Text>Three Towers</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_REACH_CITY_9">
+			<Text>Shield Islands</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_REACH_CITY_10">
+			<Text>Cider Hall</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_REACH_CITY_11">
+			<Text>Grassy Vale</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_REACH_CITY_12">
+			<Text>Bitterbridge</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_REACH_CITY_13">
+			<Text>Brightwater Keep</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_REACH_CITY_14">
+			<Text>Old Oak</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_REACH_CITY_15">
+			<Text>Horn Hill</Text>
+		</Row>
+		<!--CITIZEN NAMES-->
+		<Row Tag="LOC_CITIZEN_THE_REACH_MALE_1">
+			<Text>Randyll Tarly</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_THE_REACH_MALE_2">
+			<Text>Paxter Redwyne</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_THE_REACH_MALE_3">
+			<Text>Willas Tyrell</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_THE_REACH_MALE_4">
+			<Text>Leyton Hightower</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_THE_REACH_FEMALE_1">
+			<Text>Olenna Tyrell</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_THE_REACH_FEMALE_2">
+			<Text>Margaery Tyrell</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_THE_REACH_FEMALE_3">
+			<Text>Jeyne Beesbury</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_THE_REACH_FEMALE_4">
+			<Text>Delena Florent</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_THE_REACH_FEMALE_5">
+			<Text>Jeyne Fossoway</Text>
+		</Row>
+
+		<!--Unit Ability Descriptions-->
+		<Row Tag="LOC_PROMOTION_COMBAT_REDUCE_DESCRIPTION">
+			<Text>-{1_Amount} Combat Strength because Lord Puff Fish is too fat to battle.</Text>
+		</Row>
+
+		<!--Agendas-->
+		<Row Tag="LOC_AGENDA_TOO_FAT_TO_BATTLE_NAME">
+			<Text>Too Fat to Battle</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_TOO_FAT_TO_BATTLE_DESCRIPTION">
+			<Text>Likes civilizations in peace and with high city populations.</Text>
+		</Row>
+
+		<!--PEDIA-->
+		<!--CIV-->
+		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_ARBOR_WINERY_CHAPTER_HISTORY_PARA_1">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_REACH_CHAPTER_HISTORY_PARA_1">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_REACH_CHAPTER_HISTORY_PARA_2">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_REACH_CHAPTER_HISTORY_PARA_3">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_REACH_CHAPTER_HISTORY_PARA_4">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_REACH_CHAPTER_HISTORY_PARA_5">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_REACH_CHAPTER_HISTORY_PARA_6">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_REACH_CHAPTER_HISTORY_PARA_7">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_REACH_CHAPTER_HISTORY_PARA_8">
+			<Text>**</Text>
+		</Row>
+
+		<!--LEADER-->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MACE_TYRELL_TITLE">
+			<Text>Mace Tyrell</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MACE_TYRELL_SUBTITLE">
+			<Text>Head of House Tyrell, Lord of Highgarden, and Warden of the Reach.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MACE_TYRELL_QUOTE">
+			<Text>Is there anything as pointless as a king without a kingdom? No, it's plain, the boy must abandon the riverlands, join his forces to Roose Bolton's once more, and throw all his strength against Moat Cailin. That is what I would do.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MACE_TYRELL_CHAPTER_HISTORY_PARA_1">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MACE_TYRELL_CHAPTER_HISTORY_PARA_2">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MACE_TYRELL_CHAPTER_HISTORY_PARA_3">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MACE_TYRELL_CHAPTER_HISTORY_PARA_4">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MACE_TYRELL_CHAPTER_HISTORY_PARA_5">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MACE_TYRELL_CHAPTER_HISTORY_PARA_6">
+			<Text>**</Text>
+		</Row>
+
+		<!--UNITS-->
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_REDWYNE_FLEET_CHAPTER_HISTORY_PARA_1">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_REDWYNE_FLEET_CHAPTER_HISTORY_PARA_2">
+			<Text>**</Text>
+		</Row>
+
+		<!--CIVINFO-->
+		<Row Tag="LOC_CIVINFO_THE_REACH_LOCATION">
+			<Text>The Reach</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_THE_REACH_SIZE">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_THE_REACH_POPULATION">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_THE_REACH_CAPITAL">
+			<Text>Highgarden</Text>
+		</Row>
+
+		<!--DIPLO-->
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_MACE_TYRELL_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_MACE_TYRELL_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_MACE_TYRELL_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_MACE_TYRELL_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_MACE_TYRELL_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_MACE_TYRELL_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_MACE_TYRELL_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_MACE_TYRELL_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_MACE_TYRELL_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_MACE_TYRELL_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_MACE_TYRELL_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_MACE_TYRELL_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_MACE_TYRELL_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_MACE_TYRELL_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_MACE_TYRELL_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_MACE_TYRELL_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_MACE_TYRELL_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_MACE_TYRELL_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_MACE_TYRELL_REASON_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_MACE_TYRELL_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_MACE_TYRELL_REASON_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_MACE_TYRELL_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_MACE_TYRELL_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_MACE_TYRELL_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_MACE_TYRELL_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_MACE_TYRELL_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_MACE_TYRELL_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_MACE_TYRELL_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_MACE_TYRELL_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_MACE_TYRELL_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_MACE_TYRELL_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_MACE_TYRELL_ANY">
+			<Text>**</Text>
+		</Row>
+	</BaseGameText>
+</GameData>

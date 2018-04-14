@@ -1,4 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
-	
+	<IconTextureAtlases>
+		<!--CIVILIZATION ICON-->
+		<Row Filename="RAFOU_ICONS_CIVILIZATIONS_22" IconsPerColumn="3" IconsPerRow="3" IconSize="22" Name="ICON_ATLAS_RAFOU_CIVS"/>
+		<Row Filename="RAFOU_ICONS_CIVILIZATIONS_30" IconsPerColumn="3" IconsPerRow="3" IconSize="30" Name="ICON_ATLAS_RAFOU_CIVS"/>
+		<Row Filename="RAFOU_ICONS_CIVILIZATIONS_32" IconsPerColumn="3" IconsPerRow="3" IconSize="32" Name="ICON_ATLAS_RAFOU_CIVS"/>
+		<Row Filename="RAFOU_ICONS_CIVILIZATIONS_36" IconsPerColumn="3" IconsPerRow="3" IconSize="36" Name="ICON_ATLAS_RAFOU_CIVS"/>
+		<Row Filename="RAFOU_ICONS_CIVILIZATIONS_44" IconsPerColumn="3" IconsPerRow="3" IconSize="44" Name="ICON_ATLAS_RAFOU_CIVS"/>
+		<Row Filename="RAFOU_ICONS_CIVILIZATIONS_45" IconsPerColumn="3" IconsPerRow="3" IconSize="45" Name="ICON_ATLAS_RAFOU_CIVS"/>
+		<Row Filename="RAFOU_ICONS_CIVILIZATIONS_48" IconsPerColumn="3" IconsPerRow="3" IconSize="48" Name="ICON_ATLAS_RAFOU_CIVS"/>
+		<Row Filename="RAFOU_ICONS_CIVILIZATIONS_50" IconsPerColumn="3" IconsPerRow="3" IconSize="50" Name="ICON_ATLAS_RAFOU_CIVS"/>
+		<Row Filename="RAFOU_ICONS_CIVILIZATIONS_55" IconsPerColumn="3" IconsPerRow="3" IconSize="55" Name="ICON_ATLAS_RAFOU_CIVS"/>
+		<Row Filename="RAFOU_ICONS_CIVILIZATIONS_64" IconsPerColumn="3" IconsPerRow="3" IconSize="64" Name="ICON_ATLAS_RAFOU_CIVS"/>
+		<Row Filename="RAFOU_ICONS_CIVILIZATIONS_80" IconsPerColumn="3" IconsPerRow="3" IconSize="80" Name="ICON_ATLAS_RAFOU_CIVS"/>
+		<Row Filename="RAFOU_ICONS_CIVILIZATIONS_128" IconsPerColumn="3" IconsPerRow="3" IconSize="128" Name="ICON_ATLAS_RAFOU_CIVS"/>
+		<Row Filename="RAFOU_ICONS_CIVILIZATIONS_256" IconsPerColumn="3" IconsPerRow="3" IconSize="256" Name="ICON_ATLAS_RAFOU_CIVS"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<!--CIVILIZATION ICON-->
+		<Row Name="ICON_CIVILIZATION_IRONBORN" Atlas="ICON_ATLAS_RAFOU_CIVS" Index="0"/>
+		<Row Name="ICON_CIVILIZATION_THE_NORTH" Atlas="ICON_ATLAS_RAFOU_CIVS" Index="1"/>
+		<Row Name="ICON_CIVILIZATION_THE_WESTERLANDS" Atlas="ICON_ATLAS_RAFOU_CIVS" Index="3"/>
+		<Row Name="ICON_CIVILIZATION_THE_STORMLANDS" Atlas="ICON_ATLAS_RAFOU_CIVS" Index="4"/>
+		<Row Name="ICON_CIVILIZATION_THE_REACH" Atlas="ICON_ATLAS_RAFOU_CIVS" Index="2"/>
+		<Row Name="ICON_CIVILIZATION_THE_VALE" Atlas="ICON_ATLAS_RAFOU_CIVS" Index="6"/>
+	</IconDefinitions>
 </GameData>

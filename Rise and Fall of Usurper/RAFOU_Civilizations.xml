@@ -31,7 +31,13 @@
 		<Row Type="TRAIT_CIVILIZATION_UNIT_SQUIRE" Kind="KIND_TRAIT" />
 		<Row Type="TRAIT_CIVILIZATION_OURS_IS_THE_FURY" Kind="KIND_TRAIT" />
 		<!-- Mace Tyrell leads the Reach -->
+		<Row Type="TRAIT_CIVILIZATION_IMPROVEMENT_ARBOR_WINERY" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_UNIT_REDWYNE_FLEET" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_GROWING_STRONG" Kind="KIND_TRAIT" />
 		<!-- Jon Arryn leads the Vale -->
+		<Row Type="TRAIT_CIVILIZATION_DISTRICT_GATE_OF_THE_MOON" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_UNIT_VALE_KNIGHT" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_AS_HIGH_AS_HONOR" Kind="KIND_TRAIT" />
 		<!-- Hoster Tully leads the Riverlands -->
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
@@ -82,7 +88,25 @@
 			<RandomCityNameDepth>5</RandomCityNameDepth>
 		</Row>
 		<!-- Mace Tyrell leads the Reach -->
+		<Row>
+			<CivilizationType>CIVILIZATION_THE_REACH</CivilizationType>
+			<Name>LOC_CIVILIZATION_THE_REACH_NAME</Name>
+			<Description>LOC_CIVILIZATION_THE_REACH_DESCRIPTION</Description>
+			<Adjective>LOC_CIVILIZATION_THE_REACH_ADJECTIVE</Adjective>
+			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
+			<Ethnicity>ETHNICITY_EURO</Ethnicity>
+			<RandomCityNameDepth>5</RandomCityNameDepth>
+		</Row>
 		<!-- Jon Arryn leads the Vale -->
+		<Row>
+			<CivilizationType>CIVILIZATION_THE_VALE</CivilizationType>
+			<Name>LOC_CIVILIZATION_THE_VALE_NAME</Name>
+			<Description>LOC_CIVILIZATION_THE_VALE_DESCRIPTION</Description>
+			<Adjective>LOC_CIVILIZATION_THE_VALE_ADJECTIVE</Adjective>
+			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
+			<Ethnicity>ETHNICITY_EURO</Ethnicity>
+			<RandomCityNameDepth>5</RandomCityNameDepth>
+		</Row>
 		<!-- Hoster Tully leads the Riverlands -->
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
@@ -97,6 +121,13 @@
 		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" LeaderType="LEADER_TYWIN_LANNISTER" CapitalName="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_1" />
 		<!-- Robert Baratheon leads the Stormlands -->
 		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" LeaderType="LEADER_ROBERT_BARATHEON" CapitalName="LOC_CIVILIZATION_THE_STORMLANDS_CITY_1" />
+		<!-- Mace Tyrell leads the Reach -->
+		<Row CivilizationType="CIVILIZATION_THE_REACH" LeaderType="LEADER_MACE_TYRELL" CapitalName="LOC_CIVILIZATION_THE_REACH_CITY_1" />
+		<!-- Jon Arryn leads the Vale -->
+		<Row CivilizationType="CIVILIZATION_THE_VALE" LeaderType="LEADER_JON_ARRYN" CapitalName="LOC_CIVILIZATION_THE_VALE_CITY_1" />
+		<!-- Hoster Tully leads the Riverlands -->
+		<!-- Doran Martell leads Dorne -->
+		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</CivilizationLeaders>
 
 	<CivilizationTraits>
@@ -118,7 +149,13 @@
 		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" TraitType="TRAIT_CIVILIZATION_UNIT_SQUIRE"/>
 		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" TraitType="TRAIT_CIVILIZATION_OURS_IS_THE_FURY"/>
 		<!-- Mace Tyrell leads the Reach -->
+		<Row CivilizationType="CIVILIZATION_THE_REACH" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_ARBOR_WINERY"/>
+		<Row CivilizationType="CIVILIZATION_THE_REACH" TraitType="TRAIT_CIVILIZATION_UNIT_REDWYNE_FLEET"/>
+		<Row CivilizationType="CIVILIZATION_THE_REACH" TraitType="TRAIT_CIVILIZATION_GROWING_STRONG"/>
 		<!-- Jon Arryn leads the Vale -->
+		<Row CivilizationType="CIVILIZATION_THE_VALE" TraitType="TRAIT_CIVILIZATION_DISTRICT_GATE_OF_THE_MOON"/>
+		<Row CivilizationType="CIVILIZATION_THE_VALE" TraitType="TRAIT_CIVILIZATION_UNIT_VALE_KNIGHT"/>
+		<Row CivilizationType="CIVILIZATION_THE_VALE" TraitType="TRAIT_CIVILIZATION_AS_HIGH_AS_HONOR"/>
 		<!-- Hoster Tully leads the Riverlands -->
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
@@ -146,7 +183,15 @@
 		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" SortIndex="30" Caption="LOC_CIVINFO_THE_STORMLANDS_POPULATION" Header="LOC_CIVINFO_POPULATION"/>
 		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" SortIndex="40" Caption="LOC_CIVINFO_THE_STORMLANDS_CAPITAL" Header="LOC_CIVINFO_CAPITAL"/>
 		<!-- Mace Tyrell leads the Reach -->
+		<Row CivilizationType="CIVILIZATION_THE_REACH" SortIndex="10" Caption="LOC_CIVINFO_THE_REACH_LOCATION" Header="LOC_CIVINFO_LOCATION"/>
+		<Row CivilizationType="CIVILIZATION_THE_REACH" SortIndex="20" Caption="LOC_CIVINFO_THE_REACH_SIZE" Header="LOC_CIVINFO_SIZE"/>
+		<Row CivilizationType="CIVILIZATION_THE_REACH" SortIndex="30" Caption="LOC_CIVINFO_THE_REACH_POPULATION" Header="LOC_CIVINFO_POPULATION"/>
+		<Row CivilizationType="CIVILIZATION_THE_REACH" SortIndex="40" Caption="LOC_CIVINFO_THE_REACH_CAPITAL" Header="LOC_CIVINFO_CAPITAL"/>
 		<!-- Jon Arryn leads the Vale -->
+		<Row CivilizationType="CIVILIZATION_THE_VALE" SortIndex="10" Caption="LOC_CIVINFO_THE_VALE_LOCATION" Header="LOC_CIVINFO_LOCATION"/>
+		<Row CivilizationType="CIVILIZATION_THE_VALE" SortIndex="20" Caption="LOC_CIVINFO_THE_VALE_SIZE" Header="LOC_CIVINFO_SIZE"/>
+		<Row CivilizationType="CIVILIZATION_THE_VALE" SortIndex="30" Caption="LOC_CIVINFO_THE_VALE_POPULATION" Header="LOC_CIVINFO_POPULATION"/>
+		<Row CivilizationType="CIVILIZATION_THE_VALE" SortIndex="40" Caption="LOC_CIVINFO_THE_VALE_CAPITAL" Header="LOC_CIVINFO_CAPITAL"/>
 		<!-- Hoster Tully leads the Riverlands -->
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
@@ -194,7 +239,25 @@
 		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" CitizenName="LOC_CITIZEN_THE_STORMLANDS_FEMALE_4" Female="1"/>
 		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" CitizenName="LOC_CITIZEN_THE_STORMLANDS_FEMALE_5" Female="1"/>
 		<!-- Mace Tyrell leads the Reach -->
+		<Row CivilizationType="CIVILIZATION_THE_REACH" CitizenName="LOC_CITIZEN_THE_REACH_MALE_1" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_THE_REACH" CitizenName="LOC_CITIZEN_THE_REACH_MALE_2" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_THE_REACH" CitizenName="LOC_CITIZEN_THE_REACH_MALE_3" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_THE_REACH" CitizenName="LOC_CITIZEN_THE_REACH_MALE_4" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_THE_REACH" CitizenName="LOC_CITIZEN_THE_REACH_FEMALE_1" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_THE_REACH" CitizenName="LOC_CITIZEN_THE_REACH_FEMALE_2" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_THE_REACH" CitizenName="LOC_CITIZEN_THE_REACH_FEMALE_3" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_THE_REACH" CitizenName="LOC_CITIZEN_THE_REACH_FEMALE_4" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_THE_REACH" CitizenName="LOC_CITIZEN_THE_REACH_FEMALE_5" Female="1"/>
 		<!-- Jon Arryn leads the Vale -->
+		<Row CivilizationType="CIVILIZATION_THE_VALE" CitizenName="LOC_CITIZEN_THE_VALE_MALE_1" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_THE_VALE" CitizenName="LOC_CITIZEN_THE_VALE_MALE_2" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_THE_VALE" CitizenName="LOC_CITIZEN_THE_VALE_MALE_3" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_THE_VALE" CitizenName="LOC_CITIZEN_THE_VALE_MALE_4" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_THE_VALE" CitizenName="LOC_CITIZEN_THE_VALE_FEMALE_1" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_THE_VALE" CitizenName="LOC_CITIZEN_THE_VALE_FEMALE_2" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_THE_VALE" CitizenName="LOC_CITIZEN_THE_VALE_FEMALE_3" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_THE_VALE" CitizenName="LOC_CITIZEN_THE_VALE_FEMALE_4" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_THE_VALE" CitizenName="LOC_CITIZEN_THE_VALE_FEMALE_5" Female="1"/>
 		<!-- Hoster Tully leads the Riverlands -->
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
@@ -210,7 +273,9 @@
 		<!-- Robert Baratheon leads the Stormlands -->
 		<Row LeaderType="LEADER_ROBERT_BARATHEON" PlayDawnOfManAudio="0" BackgroundImage="LEADER_ROBERT_BARATHEON_BACKGROUND" ForegroundImage="ROBERTBARATHEON_Foreground"/>
 		<!-- Mace Tyrell leads the Reach -->
+		<Row LeaderType="LEADER_MACE_TYRELL" PlayDawnOfManAudio="0" BackgroundImage="LEADER_MACE_TYRELL_BACKGROUND" ForegroundImage="MACETYRELL_Foreground"/>
 		<!-- Jon Arryn leads the Vale -->
+		<Row LeaderType="LEADER_JON_ARRYN" PlayDawnOfManAudio="0" BackgroundImage="LEADER_JON_ARRYN_BACKGROUND" ForegroundImage="JONARRYN_Foreground"/>
 		<!-- Hoster Tully leads the Riverlands -->
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
@@ -225,7 +290,9 @@
 		<!-- Robert Baratheon leads the Stormlands -->
 		<Row Type="LEADER_ROBERT_BARATHEON" BackgroundImage="ROBERTBARATHEON_Diplomacy"/>
 		<!-- Mace Tyrell leads the Reach -->
+		<Row Type="LEADER_MACE_TYRELL" BackgroundImage="MACETYRELL_Diplomacy"/>
 		<!-- Jon Arryn leads the Vale -->
+		<Row Type="LEADER_JON_ARRYN" BackgroundImage="JONARRYN_Diplomacy"/>
 		<!-- Hoster Tully leads the Riverlands -->
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
@@ -309,7 +376,13 @@
 		<Row TraitType="TRAIT_CIVILIZATION_UNIT_SQUIRE" Name="LOC_UNIT_SQUIRE_NAME" Description="LOC_UNIT_SQUIRE_DESCRIPTION"/>
 		<Row TraitType="TRAIT_CIVILIZATION_OURS_IS_THE_FURY" Name="LOC_TRAIT_CIVILIZATION_THE_STORMLANDS_NAME" Description="LOC_TRAIT_CIVILIZATION_THE_STORMLANDS_DESCRIPTION"/>
 		<!-- Mace Tyrell leads the Reach -->
+		<Row TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_ARBOR_WINERY" Name="LOC_IMPROVEMENT_ARBOR_WINERY_NAME" Description="LOC_IMPROVEMENT_ARBOR_WINERY_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_REDWYNE_FLEET" Name="LOC_UNIT_ARBOR_FLEET_NAME" Description="LOC_UNIT_ARBOR_FLEET_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_GROWING_STRONG" Name="LOC_TRAIT_CIVILIZATION_THE_REACH_NAME" Description="LOC_TRAIT_CIVILIZATION_THE_REACH_DESCRIPTION"/>
 		<!-- Jon Arryn leads the Vale -->
+		<Row TraitType="TRAIT_CIVILIZATION_DISTRICT_GATE_OF_THE_MOON" Name="LOC_DISTRICT_GATE_OF_THE_MOON_NAME" Description="LOC_DISTRICT_GATE_OF_THE_MOON_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_VALE_KNIGHT" Name="LOC_UNIT_VALE_KNIGHT_NAME" Description="LOC_UNIT_VALE_KNIGHT_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_AS_HIGH_AS_HONOR" Name="LOC_TRAIT_CIVILIZATION_THE_VALE_NAME" Description="LOC_TRAIT_CIVILIZATION_THE_VALE_DESCRIPTION"/>
 		<!-- Hoster Tully leads the Riverlands -->
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
@@ -433,7 +506,141 @@
 			<ModifierId>TRAIT_RB_OUTER_DEFENSE</ModifierId>
 		</Row>
 		<!-- Mace Tyrell leads the Reach -->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_GROWING_STRONG</TraitType>
+			<ModifierId>TRAIT_MT_FARMS_SCIENCE_FROM_CAMPUS</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_GROWING_STRONG</TraitType>
+			<ModifierId>TRAIT_MT_FARMS_CULTURE_FROM_THEATRE</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_GROWING_STRONG</TraitType>
+			<ModifierId>TRAIT_MT_FARMS_FAITH_FROM_HOLYSITE</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_GROWING_STRONG</TraitType>
+			<ModifierId>TRAIT_MT_FARMS_GOLD_FROM_HUB</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_GROWING_STRONG</TraitType>
+			<ModifierId>TRAIT_MT_FARMS_GOLD_FROM_HARBOR</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_GROWING_STRONG</TraitType>
+			<ModifierId>TRAIT_MT_FARMS_PRODUCTION_FROM_INDUSTRIAL</ModifierId>
+		</Row>
 		<!-- Jon Arryn leads the Vale -->
+		<!-- CAMPUS -->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_AS_HIGH_AS_HONOR</TraitType>
+			<ModifierId>TRAIT_JA_CAMPUS_GRASS_MOUNTAIN_ADJACENCY</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_AS_HIGH_AS_HONOR</TraitType>
+			<ModifierId>TRAIT_JA_CAMPUS_PLAINS_MOUNTAIN_ADJACENCY</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_AS_HIGH_AS_HONOR</TraitType>
+			<ModifierId>TRAIT_JA_CAMPUS_DESERT_MOUNTAIN_ADJACENCY</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_AS_HIGH_AS_HONOR</TraitType>
+			<ModifierId>TRAIT_JA_CAMPUS_TUNDRA_MOUNTAIN_ADJACENCY</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_AS_HIGH_AS_HONOR</TraitType>
+			<ModifierId>TRAIT_JA_CAMPUS_SNOW_MOUNTAIN_ADJACENCY</ModifierId>
+		</Row>
+		<!-- THEATER -->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_AS_HIGH_AS_HONOR</TraitType>
+			<ModifierId>TRAIT_JA_THEATER_GRASS_MOUNTAIN_ADJACENCY</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_AS_HIGH_AS_HONOR</TraitType>
+			<ModifierId>TRAIT_JA_THEATER_PLAINS_MOUNTAIN_ADJACENCY</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_AS_HIGH_AS_HONOR</TraitType>
+			<ModifierId>TRAIT_JA_THEATER_DESERT_MOUNTAIN_ADJACENCY</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_AS_HIGH_AS_HONOR</TraitType>
+			<ModifierId>TRAIT_JA_THEATER_TUNDRA_MOUNTAIN_ADJACENCY</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_AS_HIGH_AS_HONOR</TraitType>
+			<ModifierId>TRAIT_JA_THEATER_SNOW_MOUNTAIN_ADJACENCY</ModifierId>
+		</Row>
+		<!-- HOLY -->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_AS_HIGH_AS_HONOR</TraitType>
+			<ModifierId>TRAIT_JA_HOLY_GRASS_MOUNTAIN_ADJACENCY</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_AS_HIGH_AS_HONOR</TraitType>
+			<ModifierId>TRAIT_JA_HOLY_PLAINS_MOUNTAIN_ADJACENCY</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_AS_HIGH_AS_HONOR</TraitType>
+			<ModifierId>TRAIT_JA_HOLY_DESERT_MOUNTAIN_ADJACENCY</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_AS_HIGH_AS_HONOR</TraitType>
+			<ModifierId>TRAIT_JA_HOLY_TUNDRA_MOUNTAIN_ADJACENCY</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_AS_HIGH_AS_HONOR</TraitType>
+			<ModifierId>TRAIT_JA_HOLY_SNOW_MOUNTAIN_ADJACENCY</ModifierId>
+		</Row>
+		<!-- HUB -->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_AS_HIGH_AS_HONOR</TraitType>
+			<ModifierId>TRAIT_JA_HUB_GRASS_MOUNTAIN_ADJACENCY</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_AS_HIGH_AS_HONOR</TraitType>
+			<ModifierId>TRAIT_JA_HUB_PLAINS_MOUNTAIN_ADJACENCY</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_AS_HIGH_AS_HONOR</TraitType>
+			<ModifierId>TRAIT_JA_HUB_DESERT_MOUNTAIN_ADJACENCY</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_AS_HIGH_AS_HONOR</TraitType>
+			<ModifierId>TRAIT_JA_HUB_TUNDRA_MOUNTAIN_ADJACENCY</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_AS_HIGH_AS_HONOR</TraitType>
+			<ModifierId>TRAIT_JA_HUB_SNOW_MOUNTAIN_ADJACENCY</ModifierId>
+		</Row>
+		<!-- INDUSTRIAL -->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_AS_HIGH_AS_HONOR</TraitType>
+			<ModifierId>TRAIT_JA_INDUSTRIAL_GRASS_MOUNTAIN_ADJACENCY</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_AS_HIGH_AS_HONOR</TraitType>
+			<ModifierId>TRAIT_JA_INDUSTRIAL_PLAINS_MOUNTAIN_ADJACENCY</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_AS_HIGH_AS_HONOR</TraitType>
+			<ModifierId>TRAIT_JA_INDUSTRIAL_DESERT_MOUNTAIN_ADJACENCY</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_AS_HIGH_AS_HONOR</TraitType>
+			<ModifierId>TRAIT_JA_INDUSTRIAL_TUNDRA_MOUNTAIN_ADJACENCY</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_AS_HIGH_AS_HONOR</TraitType>
+			<ModifierId>TRAIT_JA_INDUSTRIAL_SNOW_MOUNTAIN_ADJACENCY</ModifierId>
+		</Row>
+		<!-- UNITS -->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_AS_HIGH_AS_HONOR</TraitType>
+			<ModifierId>TRAIT_JA_UNIT_IGNORE_HILL_MOVEMENT_COST</ModifierId>
+		</Row>
 		<!-- Hoster Tully leads the Riverlands -->
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
@@ -448,7 +655,7 @@
 		</Row>
 		<Row>
 			<ModifierId>CAPTURE_COMBAT_UNITS_AS_THRALLS</ModifierId>
-			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_CAPTURE</ModifierType>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_UNIT_CAPTURE</ModifierType>
 		</Row>
 		<Row>
 			<ModifierId>CAPTAINSTAVERN_GRANT_THRALLS</ModifierId>
@@ -602,7 +809,147 @@
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_OUTER_DEFENSE</ModifierType>
 		</Row>
 		<!-- Mace Tyrell leads the Reach -->
+		<Row>
+			<ModifierId>TRAIT_MT_FARMS_SCIENCE_FROM_CAMPUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>MT_PLOT_IS_FARM_CAMPUS_ADJACENT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MT_FARMS_CULTURE_FROM_THEATRE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>MT_PLOT_IS_FARM_THEATRE_ADJACENT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MT_FARMS_FAITH_FROM_HOLYSITE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>MT_PLOT_IS_FARM_HOLYSITE_ADJACENT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MT_FARMS_GOLD_FROM_HUB</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>MT_PLOT_IS_FARM_HUB_ADJACENT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MT_FARMS_GOLD_FROM_HARBOR</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>MT_PLOT_IS_FARM_HARBOR_ADJACENT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MT_FARMS_PRODUCTION_FROM_INDUSTRIAL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>MT_PLOT_IS_FARM_INDUSTRIAL_ADJACENT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
 		<!-- Jon Arryn leads the Vale -->
+		<!-- CAMPUS -->
+		<Row>
+			<ModifierId>TRAIT_JA_CAMPUS_GRASS_MOUNTAIN_ADJACENCY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_CAMPUS_PLAINS_MOUNTAIN_ADJACENCY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_CAMPUS_DESERT_MOUNTAIN_ADJACENCY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_CAMPUS_TUNDRA_MOUNTAIN_ADJACENCY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_CAMPUS_SNOW_MOUNTAIN_ADJACENCY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<!-- THEATER -->
+		<Row>
+			<ModifierId>TRAIT_JA_THEATER_GRASS_MOUNTAIN_ADJACENCY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_THEATER_PLAINS_MOUNTAIN_ADJACENCY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_THEATER_DESERT_MOUNTAIN_ADJACENCY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_THEATER_TUNDRA_MOUNTAIN_ADJACENCY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_THEATER_SNOW_MOUNTAIN_ADJACENCY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<!-- HOLY -->
+		<Row>
+			<ModifierId>TRAIT_JA_HOLY_GRASS_MOUNTAIN_ADJACENCY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_HOLY_PLAINS_MOUNTAIN_ADJACENCY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_HOLY_DESERT_MOUNTAIN_ADJACENCY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_HOLY_TUNDRA_MOUNTAIN_ADJACENCY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_HOLY_SNOW_MOUNTAIN_ADJACENCY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<!-- HUB -->
+		<Row>
+			<ModifierId>TRAIT_JA_HUB_GRASS_MOUNTAIN_ADJACENCY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_HUB_PLAINS_MOUNTAIN_ADJACENCY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_HUB_DESERT_MOUNTAIN_ADJACENCY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_HUB_TUNDRA_MOUNTAIN_ADJACENCY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_HUB_SNOW_MOUNTAIN_ADJACENCY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<!-- INDUSTRIAL -->
+		<Row>
+			<ModifierId>TRAIT_JA_INDUSTRIAL_GRASS_MOUNTAIN_ADJACENCY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_INDUSTRIAL_PLAINS_MOUNTAIN_ADJACENCY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_INDUSTRIAL_DESERT_MOUNTAIN_ADJACENCY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_INDUSTRIAL_TUNDRA_MOUNTAIN_ADJACENCY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_INDUSTRIAL_SNOW_MOUNTAIN_ADJACENCY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY</ModifierType>
+		</Row>
+		<!-- UNITS -->
+		<Row>
+			<ModifierId>TRAIT_JA_UNIT_IGNORE_HILL_MOVEMENT_COST</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER</ModifierType>
+		</Row>
 		<!-- Hoster Tully leads the Riverlands -->
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
@@ -923,7 +1270,828 @@
 			<Value>10</Value>
 		</Row>
 		<!-- Mace Tyrell leads the Reach -->
+		<Row>
+			<ModifierId>TRAIT_MT_FARMS_SCIENCE_FROM_CAMPUS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MT_FARMS_SCIENCE_FROM_CAMPUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+				<Row>
+			<ModifierId>TRAIT_MT_FARMS_CULTURE_FROM_THEATRE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MT_FARMS_CULTURE_FROM_THEATRE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MT_FARMS_FAITH_FROM_HOLYSITE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MT_FARMS_FAITH_FROM_HOLYSITE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MT_FARMS_GOLD_FROM_HUB</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MT_FARMS_GOLD_FROM_HUB</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MT_FARMS_GOLD_FROM_HARBOR</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MT_FARMS_GOLD_FROM_HARBOR</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MT_FARMS_PRODUCTION_FROM_INDUSTRIAL</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MT_FARMS_PRODUCTION_FROM_INDUSTRIAL</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
 		<!-- Jon Arryn leads the Vale -->
+		<!-- CAMPUS -->
+		<Row>
+			<ModifierId>TRAIT_JA_CAMPUS_GRASS_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_CAMPUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_CAMPUS_GRASS_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_GRASS_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_CAMPUS_GRASS_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_CAMPUS_GRASS_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_CAMPUS_GRASS_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>TilesRequired</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_CAMPUS_GRASS_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_THE_VALE_GRASS_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_CAMPUS_PLAINS_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_CAMPUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_CAMPUS_PLAINS_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_PLAINS_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_CAMPUS_PLAINS_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_CAMPUS_PLAINS_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_CAMPUS_PLAINS_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>TilesRequired</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_CAMPUS_PLAINS_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_THE_VALE_PLAINS_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_CAMPUS_DESERT_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_CAMPUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_CAMPUS_DESERT_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_DESERT_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_CAMPUS_DESERT_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_CAMPUS_DESERT_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_CAMPUS_DESERT_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>TilesRequired</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_CAMPUS_DESERT_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_THE_VALE_DESERT_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_CAMPUS_TUNDRA_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_CAMPUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_CAMPUS_TUNDRA_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_TUNDRA_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_CAMPUS_TUNDRA_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_CAMPUS_TUNDRA_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_CAMPUS_TUNDRA_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>TilesRequired</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_CAMPUS_TUNDRA_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_THE_VALE_TUNDRA_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_CAMPUS_SNOW_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_CAMPUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_CAMPUS_SNOW_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_SNOW_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_CAMPUS_SNOW_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_CAMPUS_SNOW_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_CAMPUS_SNOW_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>TilesRequired</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_CAMPUS_SNOW_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_THE_VALE_SNOW_SCIENCE</Value>
+		</Row>
+		<!-- THEATER -->
+		<Row>
+			<ModifierId>TRAIT_JA_THEATER_GRASS_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_THEATER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_THEATER_GRASS_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_GRASS_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_THEATER_GRASS_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_THEATER_GRASS_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_THEATER_GRASS_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>TilesRequired</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_THEATER_GRASS_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_THE_VALE_GRASS_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_THEATER_PLAINS_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_THEATER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_THEATER_PLAINS_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_PLAINS_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_THEATER_PLAINS_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_THEATER_PLAINS_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_THEATER_PLAINS_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>TilesRequired</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_THEATER_PLAINS_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_THE_VALE_PLAINS_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_THEATER_DESERT_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_THEATER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_THEATER_DESERT_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_DESERT_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_THEATER_DESERT_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_THEATER_DESERT_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_THEATER_DESERT_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>TilesRequired</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_THEATER_DESERT_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_THE_VALE_DESERT_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_THEATER_TUNDRA_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_THEATER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_THEATER_TUNDRA_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_TUNDRA_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_THEATER_TUNDRA_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_THEATER_TUNDRA_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_THEATER_TUNDRA_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>TilesRequired</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_THEATER_TUNDRA_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_THE_VALE_TUNDRA_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_THEATER_SNOW_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_THEATER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_THEATER_SNOW_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_SNOW_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_THEATER_SNOW_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_THEATER_SNOW_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_THEATER_SNOW_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>TilesRequired</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_THEATER_SNOW_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_THE_VALE_SNOW_CULTURE</Value>
+		</Row>
+		<!-- HOLY -->
+		<Row>
+			<ModifierId>TRAIT_JA_HOLY_GRASS_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_HOLY_SITE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_HOLY_GRASS_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_GRASS_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_HOLY_GRASS_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_HOLY_GRASS_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_HOLY_GRASS_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>TilesRequired</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_HOLY_GRASS_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_THE_VALE_GRASS_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_HOLY_PLAINS_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_HOLY_SITE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_HOLY_PLAINS_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_PLAINS_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_HOLY_PLAINS_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_HOLY_PLAINS_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_HOLY_PLAINS_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>TilesRequired</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_HOLY_PLAINS_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_THE_VALE_PLAINS_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_HOLY_DESERT_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_HOLY_SITE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_HOLY_DESERT_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_DESERT_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_HOLY_DESERT_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_HOLY_DESERT_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_HOLY_DESERT_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>TilesRequired</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_HOLY_DESERT_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_THE_VALE_DESERT_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_HOLY_TUNDRA_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_HOLY_SITE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_HOLY_TUNDRA_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_TUNDRA_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_HOLY_TUNDRA_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_HOLY_TUNDRA_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_HOLY_TUNDRA_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>TilesRequired</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_HOLY_TUNDRA_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_THE_VALE_TUNDRA_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_HOLY_SNOW_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_HOLY_SITE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_HOLY_SNOW_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_SNOW_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_HOLY_SNOW_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_HOLY_SNOW_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_HOLY_SNOW_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>TilesRequired</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_HOLY_SNOW_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_THE_VALE_SNOW_FAITH</Value>
+		</Row>
+		<!-- HUB -->
+		<Row>
+			<ModifierId>TRAIT_JA_HUB_GRASS_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_COMMERCIAL_HUB</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_HUB_GRASS_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_GRASS_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_HUB_GRASS_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_HUB_GRASS_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_HUB_GRASS_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>TilesRequired</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_HUB_GRASS_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_THE_VALE_GRASS_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_HUB_PLAINS_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_COMMERCIAL_HUB</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_HUB_PLAINS_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_PLAINS_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_HUB_PLAINS_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_HUB_PLAINS_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_HUB_PLAINS_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>TilesRequired</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_HUB_PLAINS_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_THE_VALE_PLAINS_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_HUB_DESERT_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_COMMERCIAL_HUB</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_HUB_DESERT_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_DESERT_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_HUB_DESERT_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_HUB_DESERT_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_HUB_DESERT_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>TilesRequired</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_HUB_DESERT_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_THE_VALE_DESERT_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_HUB_TUNDRA_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_COMMERCIAL_HUB</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_HUB_TUNDRA_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_TUNDRA_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_HUB_TUNDRA_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_HUB_TUNDRA_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_HUB_TUNDRA_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>TilesRequired</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_HUB_TUNDRA_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_THE_VALE_TUNDRA_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_HUB_SNOW_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_COMMERCIAL_HUB</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_HUB_SNOW_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_SNOW_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_HUB_SNOW_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_HUB_SNOW_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_HUB_SNOW_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>TilesRequired</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_HUB_SNOW_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_THE_VALE_SNOW_GOLD</Value>
+		</Row>
+		<!-- INDUSTRIAL -->
+		<Row>
+			<ModifierId>TRAIT_JA_INDUSTRIAL_GRASS_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_INDUSTRIAL_ZONE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_INDUSTRIAL_GRASS_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_GRASS_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_INDUSTRIAL_GRASS_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_INDUSTRIAL_GRASS_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_INDUSTRIAL_GRASS_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>TilesRequired</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_INDUSTRIAL_GRASS_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_THE_VALE_GRASS_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_INDUSTRIAL_PLAINS_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_INDUSTRIAL_ZONE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_INDUSTRIAL_PLAINS_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_PLAINS_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_INDUSTRIAL_PLAINS_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_INDUSTRIAL_PLAINS_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_INDUSTRIAL_PLAINS_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>TilesRequired</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_INDUSTRIAL_PLAINS_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_THE_VALE_PLAINS_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_INDUSTRIAL_DESERT_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_INDUSTRIAL_ZONE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_INDUSTRIAL_DESERT_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_DESERT_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_INDUSTRIAL_DESERT_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_INDUSTRIAL_DESERT_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_INDUSTRIAL_DESERT_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>TilesRequired</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_INDUSTRIAL_DESERT_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_THE_VALE_DESERT_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_INDUSTRIAL_TUNDRA_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_INDUSTRIAL_ZONE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_INDUSTRIAL_TUNDRA_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_TUNDRA_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_INDUSTRIAL_TUNDRA_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_INDUSTRIAL_TUNDRA_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_INDUSTRIAL_TUNDRA_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>TilesRequired</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_INDUSTRIAL_TUNDRA_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_THE_VALE_TUNDRA_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_INDUSTRIAL_SNOW_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_INDUSTRIAL_ZONE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_INDUSTRIAL_SNOW_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>TerrainType</Name>
+			<Value>TERRAIN_SNOW_MOUNTAIN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_INDUSTRIAL_SNOW_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_INDUSTRIAL_SNOW_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_INDUSTRIAL_SNOW_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>TilesRequired</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_INDUSTRIAL_SNOW_MOUNTAIN_ADJACENCY</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_DISTRICT_THE_VALE_SNOW_PRODUCTION</Value>
+		</Row>
+		<!-- UNITS -->
+		<Row>
+			<ModifierId>TRAIT_JA_UNIT_IGNORE_HILL_MOVEMENT_COST</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>ALTITUDE_TRAINING_IGNORE_HILLS</Value>
+		</Row>		
 		<!-- Hoster Tully leads the Riverlands -->
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
@@ -1011,7 +2179,37 @@
 		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" CityName="LOC_CIVILIZATION_THE_STORMLANDS_CITY_14" />
 		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" CityName="LOC_CIVILIZATION_THE_STORMLANDS_CITY_15" />
 		<!-- Mace Tyrell leads the Reach -->
+		<Row CivilizationType="CIVILIZATION_THE_REACH" CityName="LOC_CIVILIZATION_THE_REACH_CITY_1" />
+		<Row CivilizationType="CIVILIZATION_THE_REACH" CityName="LOC_CIVILIZATION_THE_REACH_CITY_2" />
+		<Row CivilizationType="CIVILIZATION_THE_REACH" CityName="LOC_CIVILIZATION_THE_REACH_CITY_3" />
+		<Row CivilizationType="CIVILIZATION_THE_REACH" CityName="LOC_CIVILIZATION_THE_REACH_CITY_4" />
+		<Row CivilizationType="CIVILIZATION_THE_REACH" CityName="LOC_CIVILIZATION_THE_REACH_CITY_5" />
+		<Row CivilizationType="CIVILIZATION_THE_REACH" CityName="LOC_CIVILIZATION_THE_REACH_CITY_6" />
+		<Row CivilizationType="CIVILIZATION_THE_REACH" CityName="LOC_CIVILIZATION_THE_REACH_CITY_7" />
+		<Row CivilizationType="CIVILIZATION_THE_REACH" CityName="LOC_CIVILIZATION_THE_REACH_CITY_8" />
+		<Row CivilizationType="CIVILIZATION_THE_REACH" CityName="LOC_CIVILIZATION_THE_REACH_CITY_9" />
+		<Row CivilizationType="CIVILIZATION_THE_REACH" CityName="LOC_CIVILIZATION_THE_REACH_CITY_10" />
+		<Row CivilizationType="CIVILIZATION_THE_REACH" CityName="LOC_CIVILIZATION_THE_REACH_CITY_11" />
+		<Row CivilizationType="CIVILIZATION_THE_REACH" CityName="LOC_CIVILIZATION_THE_REACH_CITY_12" />
+		<Row CivilizationType="CIVILIZATION_THE_REACH" CityName="LOC_CIVILIZATION_THE_REACH_CITY_13" />
+		<Row CivilizationType="CIVILIZATION_THE_REACH" CityName="LOC_CIVILIZATION_THE_REACH_CITY_14" />
+		<Row CivilizationType="CIVILIZATION_THE_REACH" CityName="LOC_CIVILIZATION_THE_REACH_CITY_15" />
 		<!-- Jon Arryn leads the Vale -->
+		<Row CivilizationType="CIVILIZATION_THE_VALE" CityName="LOC_CIVILIZATION_THE_VALE_CITY_1" />
+		<Row CivilizationType="CIVILIZATION_THE_VALE" CityName="LOC_CIVILIZATION_THE_VALE_CITY_2" />
+		<Row CivilizationType="CIVILIZATION_THE_VALE" CityName="LOC_CIVILIZATION_THE_VALE_CITY_3" />
+		<Row CivilizationType="CIVILIZATION_THE_VALE" CityName="LOC_CIVILIZATION_THE_VALE_CITY_4" />
+		<Row CivilizationType="CIVILIZATION_THE_VALE" CityName="LOC_CIVILIZATION_THE_VALE_CITY_5" />
+		<Row CivilizationType="CIVILIZATION_THE_VALE" CityName="LOC_CIVILIZATION_THE_VALE_CITY_6" />
+		<Row CivilizationType="CIVILIZATION_THE_VALE" CityName="LOC_CIVILIZATION_THE_VALE_CITY_7" />
+		<Row CivilizationType="CIVILIZATION_THE_VALE" CityName="LOC_CIVILIZATION_THE_VALE_CITY_8" />
+		<Row CivilizationType="CIVILIZATION_THE_VALE" CityName="LOC_CIVILIZATION_THE_VALE_CITY_9" />
+		<Row CivilizationType="CIVILIZATION_THE_VALE" CityName="LOC_CIVILIZATION_THE_VALE_CITY_10" />
+		<Row CivilizationType="CIVILIZATION_THE_VALE" CityName="LOC_CIVILIZATION_THE_VALE_CITY_11" />
+		<Row CivilizationType="CIVILIZATION_THE_VALE" CityName="LOC_CIVILIZATION_THE_VALE_CITY_12" />
+		<Row CivilizationType="CIVILIZATION_THE_VALE" CityName="LOC_CIVILIZATION_THE_VALE_CITY_13" />
+		<Row CivilizationType="CIVILIZATION_THE_VALE" CityName="LOC_CIVILIZATION_THE_VALE_CITY_14" />
+		<Row CivilizationType="CIVILIZATION_THE_VALE" CityName="LOC_CIVILIZATION_THE_VALE_CITY_15" />
 		<!-- Hoster Tully leads the Riverlands -->
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
@@ -1055,7 +2253,23 @@
 			<Color>34,30,31,255</Color>
 		</Row>
 		<!-- Mace Tyrell leads the Reach -->
+		<Row>
+			<Type>COLOR_PLAYER_THE_REACH_PRIMARY</Type>
+			<Color>39,151,39,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_THE_REACH_SECONDARY</Type>
+			<Color>242,213,22,255</Color>
+		</Row>
 		<!-- Jon Arryn leads the Vale -->
+		<Row>
+			<Type>COLOR_PLAYER_THE_VALE_PRIMARY</Type>
+			<Color>5,126,216,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_THE_VALE_SECONDARY</Type>
+			<Color>240,240,240,255</Color>
+		</Row>
 		<!-- Hoster Tully leads the Riverlands -->
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
@@ -1094,7 +2308,21 @@
 			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
 		</Row>
 		<!-- Mace Tyrell leads the Reach -->
+		<Row>
+			<Type>LEADER_MACE_TYRELL</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_THE_REACH_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_THE_REACH_SECONDARY</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>
 		<!-- Jon Arryn leads the Vale -->
+		<Row>
+			<Type>LEADER_JON_ARRYN</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_THE_VALE_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_THE_VALE_SECONDARY</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>
 		<!-- Hoster Tully leads the Riverlands -->
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
@@ -1121,6 +2349,7 @@
 		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" Tier="3" ResourceType="RESOURCE_CATTLE"/>
 		<Row CivilizationType="CIVILIZATION_THE_STORMLANDS" Tier="3" ResourceType="RESOURCE_SHEEP"/>
 		<!-- Mace Tyrell leads the Reach -->
+		<Row CivilizationType="CIVILIZATION_THE_REACH" Tier="2" ResourceType="RESOURCE_WINE"/>
 		<!-- Jon Arryn leads the Vale -->
 		<!-- Hoster Tully leads the Riverlands -->
 		<!-- Doran Martell leads Dorne -->
@@ -1138,7 +2367,12 @@
 		<!-- Tywin Lannister leads the Westerlands -->
 		<!-- Robert Baratheon leads the Stormlands -->
 		<!-- Mace Tyrell leads the Reach -->
+		<Row CivilizationType="CIVILIZATION_THE_REACH" Tier="1" TerrainType="TERRAIN_GRASS"/>
 		<!-- Jon Arryn leads the Vale -->
+		<Row CivilizationType="CIVILIZATION_THE_VALE" Tier="2" TerrainType="TERRAIN_PLAINS_MOUNTAIN"/>
+		<Row CivilizationType="CIVILIZATION_THE_VALE" Tier="3" TerrainType="TERRAIN_TUNDRA_MOUNTAIN"/>
+		<Row CivilizationType="CIVILIZATION_THE_VALE" Tier="2" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row CivilizationType="CIVILIZATION_THE_VALE" Tier="3" TerrainType="TERRAIN_TUNDRA_HILLS"/>
 		<!-- Hoster Tully leads the Riverlands -->
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
@@ -1169,6 +2403,31 @@
 			<RequirementSetId>CITY_HAS_HEART_TREE_REQUIREMENTS</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
+		<!-- THE REACH -->
+		<Row>
+			<RequirementSetId>MT_PLOT_IS_FARM_CAMPUS_ADJACENT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>MT_PLOT_IS_FARM_THEATRE_ADJACENT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>MT_PLOT_IS_FARM_HOLYSITE_ADJACENT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+				<Row>
+			<RequirementSetId>MT_PLOT_IS_FARM_HUB_ADJACENT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+				<Row>
+			<RequirementSetId>MT_PLOT_IS_FARM_HARBOR_ADJACENT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+				<Row>
+			<RequirementSetId>MT_PLOT_IS_FARM_INDUSTRIAL_ADJACENT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
 	</RequirementSets>
 
 	<RequirementSetRequirements>
@@ -1196,6 +2455,55 @@
 			<RequirementSetId>CITY_HAS_HEART_TREE_REQUIREMENTS</RequirementSetId>
 			<RequirementId>REQUIRES_CITY_HAS_HEART_TREE</RequirementId>
 		</Row>
+		<!-- THE REACH -->
+		<Row>
+			<RequirementSetId>MT_PLOT_IS_FARM_CAMPUS_ADJACENT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>MT_REQUIRES_PLOT_ADJACENT_TO_CAMPUS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>MT_PLOT_IS_FARM_CAMPUS_ADJACENT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_FARM</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>MT_PLOT_IS_FARM_THEATRE_ADJACENT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>MT_REQUIRES_PLOT_ADJACENT_TO_THEATRE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>MT_PLOT_IS_FARM_THEATRE_ADJACENT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_FARM</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>MT_PLOT_IS_FARM_HOLYSITE_ADJACENT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>MT_REQUIRES_PLOT_ADJACENT_TO_HOLYSITE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>MT_PLOT_IS_FARM_HOLYSITE_ADJACENT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_FARM</RequirementId>
+		</Row>
+				<Row>
+			<RequirementSetId>MT_PLOT_IS_FARM_HUB_ADJACENT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>MT_REQUIRES_PLOT_ADJACENT_TO_HUB</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>MT_PLOT_IS_FARM_HUB_ADJACENT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_FARM</RequirementId>
+		</Row>
+				<Row>
+			<RequirementSetId>MT_PLOT_IS_FARM_HARBOR_ADJACENT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>MT_REQUIRES_PLOT_ADJACENT_TO_HARBOR</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>MT_PLOT_IS_FARM_HARBOR_ADJACENT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_FARM</RequirementId>
+		</Row>
+				<Row>
+			<RequirementSetId>MT_PLOT_IS_FARM_INDUSTRIAL_ADJACENT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>MT_REQUIRES_PLOT_ADJACENT_TO_INDUSTRIAL</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>MT_PLOT_IS_FARM_INDUSTRIAL_ADJACENT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_FARM</RequirementId>
+		</Row>
 	</RequirementSetRequirements>
 
 	<Requirements>
@@ -1217,6 +2525,31 @@
 		<Row>
 			<RequirementId>REQUIRES_CITY_HAS_HEART_TREE</RequirementId>
 			<RequirementType>REQUIREMENT_CITY_HAS_DISTRICT</RequirementType>
+		</Row>
+		<!-- THE REACH -->
+		<Row>
+			<RequirementId>MT_REQUIRES_PLOT_ADJACENT_TO_CAMPUS</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_DISTRICT_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>MT_REQUIRES_PLOT_ADJACENT_TO_THEATRE</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_DISTRICT_TYPE_MATCHES</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>MT_REQUIRES_PLOT_ADJACENT_TO_HOLYSITE</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_DISTRICT_TYPE_MATCHES</RequirementType>
+		</Row>
+				<Row>
+			<RequirementId>MT_REQUIRES_PLOT_ADJACENT_TO_HUB</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_DISTRICT_TYPE_MATCHES</RequirementType>
+		</Row>
+				<Row>
+			<RequirementId>MT_REQUIRES_PLOT_ADJACENT_TO_HARBOR</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_DISTRICT_TYPE_MATCHES</RequirementType>
+		</Row>
+				<Row>
+			<RequirementId>MT_REQUIRES_PLOT_ADJACENT_TO_INDUSTRIAL</RequirementId>
+			<RequirementType>REQUIREMENT_PLOT_ADJACENT_DISTRICT_TYPE_MATCHES</RequirementType>
 		</Row>
 	</Requirements>
 
@@ -1242,6 +2575,37 @@
 			<RequirementId>REQUIRES_CITY_HAS_HEART_TREE</RequirementId>
 			<Name>DistrictType</Name>
 			<Value>DISTRICT_HEART_TREE</Value>
+		</Row>
+		<!-- THE REACH -->
+		<Row>
+			<RequirementId>MT_REQUIRES_PLOT_ADJACENT_TO_CAMPUS</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_CAMPUS</Value>
+		</Row>
+				<Row>
+			<RequirementId>MT_REQUIRES_PLOT_ADJACENT_TO_THEATRE</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_THEATER</Value>
+		</Row>
+				<Row>
+			<RequirementId>MT_REQUIRES_PLOT_ADJACENT_TO_HOLYSITE</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_HOLY_SITE</Value>
+		</Row>
+				<Row>
+			<RequirementId>MT_REQUIRES_PLOT_ADJACENT_TO_HUB</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_COMMERCIAL_HUB</Value>
+		</Row>
+				<Row>
+			<RequirementId>MT_REQUIRES_PLOT_ADJACENT_TO_HARBOR</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_HARBOR</Value>
+		</Row>
+				<Row>
+			<RequirementId>MT_REQUIRES_PLOT_ADJACENT_TO_INDUSTRIAL</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_INDUSTRIAL_ZONE</Value>
 		</Row>
 	</RequirementArguments>
 </GameData>

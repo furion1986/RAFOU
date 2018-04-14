@@ -22,7 +22,13 @@
 		<Row Type="TRAIT_THE_USURPER" Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_AGENDA_THE_STAG_KING" Kind="KIND_TRAIT"/>
 		<!-- Mace Tyrell leads the Reach -->
+		<Row Type="LEADER_MACE_TYRELL" Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_LORD_PUFFFISH" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_TOO_FAT_TO_BATTLE" Kind="KIND_TRAIT"/>
 		<!-- Jon Arryn leads the Vale -->
+		<Row Type="LEADER_JON_ARRYN" Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_HAND_OF_THE_KING" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_THE_NOBLE_HAND" Kind="KIND_TRAIT"/>
 		<!-- Hoster Tully leads the Riverlands -->
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
@@ -64,7 +70,17 @@
 			<InheritFrom>LEADER_DEFAULT</InheritFrom>
 		</Row>
 		<!-- Mace Tyrell leads the Reach -->
+		<Row>
+			<LeaderType>LEADER_MACE_TYRELL</LeaderType>
+			<Name>LOC_LEADER_MACE_TYRELL_NAME</Name>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+		</Row>
 		<!-- Jon Arryn leads the Vale -->
+		<Row>
+			<LeaderType>LEADER_JON_ARRYN</LeaderType>
+			<Name>LOC_LEADER_JON_ARRYN_NAME</Name>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+		</Row>
 		<!-- Hoster Tully leads the Riverlands -->
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
@@ -80,7 +96,9 @@
 		<!-- Robert Baratheon leads the Stormlands -->
 		<Row LeaderType="LEADER_ROBERT_BARATHEON" Quote="LOC_LEADER_ROBERT_BARATHEON_QUOTE"/>
 		<!-- Mace Tyrell leads the Reach -->
+		<Row LeaderType="LEADER_MACE_TYRELL" Quote="LOC_LEADER_MACE_TYRELL_QUOTE"/>
 		<!-- Jon Arryn leads the Vale -->
+		<Row LeaderType="LEADER_JON_ARRYN" Quote="LOC_LEADER_JON_ARRYN_QUOTE"/>
 		<!-- Hoster Tully leads the Riverlands -->
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
@@ -98,7 +116,9 @@
 		<Row LeaderType="LEADER_ROBERT_BARATHEON" TraitType="TRAIT_THE_USURPER"/>
 		<Row LeaderType="LEADER_ROBERT_BARATHEON" TraitType="TRAIT_LEADER_LOW_RELIGIOUS_PREFERENCE"/>
 		<!-- Mace Tyrell leads the Reach -->
+		<Row LeaderType="LEADER_MACE_TYRELL" TraitType="TRAIT_LORD_PUFFFISH"/>
 		<!-- Jon Arryn leads the Vale -->
+		<Row LeaderType="LEADER_JON_ARRYN" TraitType="TRAIT_HAND_OF_THE_KING"/>
 		<!-- Hoster Tully leads the Riverlands -->
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
@@ -117,7 +137,11 @@
 		<Row Name="LOC_TRAIT_THE_USURPER_NAME" TraitType="TRAIT_THE_USURPER" Description="LOC_TRAIT_THE_USURPER_DESCRIPTION"/>
 		<Row Name="LOC_PLACEHOLDER" TraitType="TRAIT_AGENDA_THE_STAG_KING" Description="LOC_PLACEHOLDER"/>
 		<!-- Mace Tyrell leads the Reach -->
+		<Row Name="LOC_TRAIT_LORD_PUFFFISH_NAME" TraitType="TRAIT_LORD_PUFFFISH" Description="LOC_TRAIT_LORD_PUFFFISH_DESCRIPTION"/>
+		<Row Name="LOC_PLACEHOLDER" TraitType="TRAIT_AGENDA_TOO_FAT_TO_BATTLE" Description="LOC_PLACEHOLDER"/>
 		<!-- Jon Arryn leads the Vale -->
+		<Row Name="LOC_TRAIT_HAND_OF_THE_KING_NAME" TraitType="TRAIT_HAND_OF_THE_KING" Description="LOC_TRAIT_HAND_OF_THE_KING_DESCRIPTION"/>
+		<Row Name="LOC_PLACEHOLDER" TraitType="TRAIT_AGENDA_THE_NOBLE_HAND" Description="LOC_PLACEHOLDER"/>
 		<!-- Hoster Tully leads the Riverlands -->
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
@@ -208,11 +232,53 @@
 			<ModifierId>AGENDA_LOW_STANDING_ARMY</ModifierId>
 		</Row>
 		<!-- Mace Tyrell leads the Reach -->
+		<Row>
+			<TraitType>TRAIT_LORD_PUFFFISH</TraitType>
+			<ModifierId>TRAIT_EXTRABUILDER</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LORD_PUFFFISH</TraitType>
+			<ModifierId>TRAIT_EXTRASETTLER</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_LORD_PUFFFISH</TraitType>
+			<ModifierId>TRAIT_MT_REDUCE_COMBAT_STRENGTH</ModifierId>
+		</Row>
+		<Row TraitType="TRAIT_AGENDA_TOO_FAT_TO_BATTLE" ModifierId="AGENDA_TOO_FAT_TO_BATTLE_PEACE"/>
+		<Row TraitType="TRAIT_AGENDA_TOO_FAT_TO_BATTLE" ModifierId="AGENDA_TOO_FAT_TO_BATTLE_WAR"/>
+		<Row TraitType="TRAIT_AGENDA_TOO_FAT_TO_BATTLE" ModifierId="AGENDA_TOO_FAT_TO_BATTLE_HIGH_POP"/>
+		<Row TraitType="TRAIT_AGENDA_TOO_FAT_TO_BATTLE" ModifierId="AGENDA_TOO_FAT_TO_BATTLE_LOW_POP"/>
 		<!-- Jon Arryn leads the Vale -->
+		<Row>
+			<TraitType>TRAIT_HAND_OF_THE_KING</TraitType>
+			<ModifierId>TRAIT_CULTURE_FROM_INTERNATIONAL_TRADE_ROUTES</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_HAND_OF_THE_KING</TraitType>
+			<ModifierId>TRAIT_CULTURE_FROM_INCOMING_TRADE_ROUTES</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_HAND_OF_THE_KING</TraitType>
+			<ModifierId>TRAIT_JA_TRADECULTURE_FROM_ALLY</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_HAND_OF_THE_KING</TraitType>
+			<ModifierId>TRAIT_JA_TRADECULTURE_TO_ALLY</ModifierId>
+		</Row>
+		<!-- DIPLOMACY -->
+		<Row TraitType="TRAIT_LEADER_MAJOR_CIV" ModifierId="JONARRYN_DIPLOMATIC_DELEGATION"/>
+		<!--Row>
+			<TraitType>TRAIT_HAND_OF_THE_KING</TraitType>
+			<ModifierId>TRAIT_JA_DELEGATION_EXTRA_VIS</ModifierId>
+		</Row-->
 		<!-- Hoster Tully leads the Riverlands -->
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</TraitModifiers>
+	
+	<!--DiplomaticVisibilitySources>
+		<Row VisibilitySourceType="SOURCE_DELEGATE_TRAIT" Description="LOC_VIZSOURCE_DELEGATE_TRAIT" ActionDescription="LOC_VIZSOURCE_ACTION_DELEGATE_TRAIT" GossipString="LOC_GOSSIP_SOURCE_DELEGATE_TRAIT" FromCitizen="true" Delegate="true" TraitType="TRAIT_HAND_OF_THE_KING"/>
+	</DiplomaticVisibilitySources-->
 	
 	<UnitAbilities>
 		<!-- Tywin Lannister leads the Westerlands -->
@@ -317,7 +383,61 @@
 		</Row>
 		<!-- Robert Baratheon leads the Stormlands -->
 		<!-- Mace Tyrell leads the Reach -->
+		<Row>
+			<ModifierId>TRAIT_EXTRABUILDER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_EXTRA_UNIT_COPY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_EXTRASETTLER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_EXTRA_UNIT_COPY</ModifierType>
+		</Row>
+		<Row>
+		<ModifierId>TRAIT_MT_REDUCE_COMBAT_STRENGTH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MT_COMBAT_REDUCE_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_TOO_FAT_TO_BATTLE_PEACE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_NOT_WARMONGER_SUBJECT</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_TOO_FAT_TO_BATTLE_WAR</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_IS_WARMONGER_SUBJECT</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_TOO_FAT_TO_BATTLE_HIGH_POP</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_HIGH_POPULATION</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_TOO_FAT_TO_BATTLE_LOW_POP</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_LOW_POPULATION</SubjectRequirementSetId>
+		</Row>
 		<!-- Jon Arryn leads the Vale -->
+		<Row>
+			<ModifierId>TRAIT_JA_TRADECULTURE_FROM_ALLY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_ORIGIN_YIELD_FOR_ALLY_ROUTE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_TRADECULTURE_TO_ALLY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_DESTINATION_YIELD_FOR_ALLY_ROUTE</ModifierType>
+		</Row>
+		<!-- DIPLOMACY -->
+		<Row>
+			<ModifierId>JONARRYN_DIPLOMATIC_DELEGATION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>JA_PLAYER_DELEGATION_AND_BUILDING</SubjectRequirementSetId>
+		</Row>
+		<!--Row>
+			<ModifierId>TRAIT_JA_DELEGATION_EXTRA_VIS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADD_DIPLO_VISIBILITY</ModifierType>
+		</Row-->		
 		<!-- Hoster Tully leads the Riverlands -->
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
@@ -460,7 +580,138 @@
 		</Row>
 		<!-- Robert Baratheon leads the Stormlands -->
 		<!-- Mace Tyrell leads the Reach -->
+		<Row>
+			<ModifierId>TRAIT_EXTRABUILDER</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_BUILDER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_EXTRABUILDER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_EXTRASETTLER</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_SETTLER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_EXTRASETTLER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_MT_REDUCE_COMBAT_STRENGTH</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>MT_COMBAT_REDUCE_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>MT_COMBAT_REDUCE_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>-3</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_TOO_FAT_TO_BATTLE_PEACE</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_TOO_FAT_TO_BATTLE_PEACE</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_KUDO_LEADER_MACE_TYRELL_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_TOO_FAT_TO_BATTLE_PEACE</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_PEACEKEEPER_NOT_WARMONGER</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_TOO_FAT_TO_BATTLE_WAR</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>-8</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_TOO_FAT_TO_BATTLE_WAR</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_WARNING_LEADER_MACE_TYRELL_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_TOO_FAT_TO_BATTLE_WAR</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_PEACEKEEPER_WARMONGER</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_TOO_FAT_TO_BATTLE_HIGH_POP</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>6</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_TOO_FAT_TO_BATTLE_HIGH_POP</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_KUDO_LEADER_MACE_TYRELL_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_TOO_FAT_TO_BATTLE_HIGH_POP</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_DESCRIPTION_HIGH_POPULATION</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_TOO_FAT_TO_BATTLE_LOW_POP</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>6</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_TOO_FAT_TO_BATTLE_LOW_POP</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_WARNING_LEADER_MACE_TYRELL_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_TOO_FAT_TO_BATTLE_LOW_POP</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_DESCRIPTION_LOW_POPULATION</Value>
+		</Row>
 		<!-- Jon Arryn leads the Vale -->
+		<Row>
+			<ModifierId>TRAIT_JA_TRADECULTURE_FROM_ALLY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_TRADECULTURE_FROM_ALLY</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_TRADECULTURE_TO_ALLY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_TRADECULTURE_TO_ALLY</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<!-- DIPLOMACY -->
+		<Row>
+			<ModifierId>JONARRYN_DIPLOMATIC_DELEGATION</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>JONARRYN_DIPLOMATIC_DELEGATION</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_JA_DELEGATION</Value>
+		</Row>
+		<!--Row>
+			<ModifierId>TRAIT_JA_DELEGATION_EXTRA_VIS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_JA_DELEGATION_EXTRA_VIS</ModifierId>
+			<Name>Source</Name>
+			<Value>SOURCE_DELEGATE_TRAIT</Value>
+		</Row-->
 		<!-- Hoster Tully leads the Riverlands -->
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
@@ -477,7 +728,13 @@
 		<Row ModifierId="RANGED_WOUNDED_BONUS" Context="Preview" Text="LOC_ABILITY_RANGED_WOUNDED_BONUS_MODIFIER_DESCRIPTION"/>
 		<!-- Robert Baratheon leads the Stormlands -->
 		<!-- Mace Tyrell leads the Reach -->
+		<Row ModifierId="MT_COMBAT_REDUCE_MODIFIER" Context="Preview" Text="LOC_PROMOTION_COMBAT_REDUCE_DESCRIPTION"/>
+		<Row ModifierId="AGENDA_TOO_FAT_TO_BATTLE_PEACE" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL" Context="Sample"/>
+		<Row ModifierId="AGENDA_TOO_FAT_TO_BATTLE_WAR" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL" Context="Sample"/>
+		<Row ModifierId="AGENDA_TOO_FAT_TO_BATTLE_HIGH_POP" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL" Context="Sample"/>
+		<Row ModifierId="AGENDA_TOO_FAT_TO_BATTLE_LOW_POP" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL" Context="Sample"/>
 		<!-- Jon Arryn leads the Vale -->
+		<Row ModifierId="JONARRYN_DIPLOMATIC_DELEGATION" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
 		<!-- Hoster Tully leads the Riverlands -->
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
@@ -510,6 +767,11 @@
 		<Row ListType="RobertBUnitBuilds"/>
 		<Row ListType="RobertBDiplomacy"/>
 		<!-- Mace Tyrell leads the Reach -->
+		<Row ListType="MaceCivics"/>
+		<Row ListType="MaceTechs"/>
+		<Row ListType="MaceWonders"/>
+		<Row ListType="MaceUnitBuilds"/>
+		<Row ListType="MaceDiplomacy"/>
 		<!-- Jon Arryn leads the Vale -->
 		<!-- Hoster Tully leads the Riverlands -->
 		<!-- Doran Martell leads Dorne -->
@@ -545,6 +807,11 @@
 		<Row LeaderType="TRAIT_THE_USURPER" ListType="RobertBTechs" System="Technologies"/>
 		<Row LeaderType="TRAIT_THE_USURPER" ListType="RobertBUnitBuilds" System="UnitPromotionClasses"/>
 		<!-- Mace Tyrell leads the Reach -->
+		<Row ListType="MaceDiplomacy" System="DiplomaticActions" AgendaType="TRAIT_AGENDA_THE_STAG_KING"/>
+		<Row LeaderType="TRAIT_LORD_PUFFFISH" ListType="MaceWonders" System="Buildings"/>
+		<Row LeaderType="TRAIT_LORD_PUFFFISH" ListType="MaceCivics" System="Civics"/>
+		<Row LeaderType="TRAIT_LORD_PUFFFISH" ListType="MaceTechs" System="Technologies"/>
+		<Row LeaderType="TRAIT_LORD_PUFFFISH" ListType="MaceUnitBuilds" System="UnitPromotionClasses"/>
 		<!-- Jon Arryn leads the Vale -->
 		<!-- Hoster Tully leads the Riverlands -->
 		<!-- Doran Martell leads Dorne -->
@@ -635,6 +902,17 @@
 		<Row Item="PROMOTION_CLASS_MELEE" ListType="RobertBUnitBuilds" Value="1"/>
 		<Row Item="PROMOTION_CLASS_HEAVY_CAVALRY" ListType="RobertBUnitBuilds" Value="1"/>
 		<!-- Mace Tyrell leads the Reach -->
+		<!--Wonder Preference-->
+		<Row Item="BUILDING_TEMPLE_ARTEMIS" ListType="MaceWonders"/>
+		<Row Item="BUILDING_HANGING_GARDENS" ListType="MaceWonders"/>
+		<Row Item="BUILDING_ANGKOR_WAT" ListType="MaceWonders"/>
+		<!--Civic Preference-->
+		<Row Item="CIVIC_EARLY_EMPIRE" ListType="MaceCivics"/>
+		<Row Item="CIVIC_NAVAL_TRADITION" ListType="MaceCivics"/>
+		<!--Tech Preference-->
+		<Row Item="TECH_IRRIGATION" ListType="MaceTechs"/>
+		<!--Unit Preference-->
+		<Row Item="PROMOTION_CLASS_NAVAL_RANGED" ListType="MaceUnitBuilds" Value="1"/>
 		<!-- Jon Arryn leads the Vale -->
 		<!-- Hoster Tully leads the Riverlands -->
 		<!-- Doran Martell leads Dorne -->
@@ -650,6 +928,7 @@
 		<!-- Robert Baratheon leads the Stormlands -->
 		<Row AgendaType="AGENDA_THE_STAG_KING" Description="LOC_AGENDA_THE_STAG_KING_DESCRIPTION" Name="LOC_AGENDA_THE_STAG_KING_NAME"/>
 		<!-- Mace Tyrell leads the Reach -->
+		<Row AgendaType="AGENDA_TOO_FAT_TO_BATTLE" Description="LOC_AGENDA_TOO_FAT_TO_BATTLE_DESCRIPTION" Name="LOC_AGENDA_TOO_FAT_TO_BATTLE_NAME"/>
 		<!-- Jon Arryn leads the Vale -->
 		<!-- Hoster Tully leads the Riverlands -->
 		<!-- Doran Martell leads Dorne -->
@@ -665,6 +944,7 @@
 		<!-- Robert Baratheon leads the Stormlands -->
 		<Row LeaderType="LEADER_ROBERT_BARATHEON" AgendaType="AGENDA_THE_STAG_KING"/>
 		<!-- Mace Tyrell leads the Reach -->
+		<Row LeaderType="LEADER_MACE_TYRELL" AgendaType="AGENDA_TOO_FAT_TO_BATTLE"/>
 		<!-- Jon Arryn leads the Vale -->
 		<!-- Hoster Tully leads the Riverlands -->
 		<!-- Doran Martell leads Dorne -->
@@ -680,6 +960,7 @@
 		<!-- Robert Baratheon leads the Stormlands -->
 		<Row AgendaType="AGENDA_THE_STAG_KING" TraitType="TRAIT_AGENDA_THE_STAG_KING"/>
 		<!-- Mace Tyrell leads the Reach -->
+		<Row AgendaType="AGENDA_TOO_FAT_TO_BATTLE" TraitType="TRAIT_AGENDA_TOO_FAT_TO_BATTLE"/>
 		<!-- Jon Arryn leads the Vale -->
 		<!-- Hoster Tully leads the Riverlands -->
 		<!-- Doran Martell leads Dorne -->
@@ -696,6 +977,9 @@
 		<Row AgendaOne="AGENDA_THE_STAG_KING" AgendaTwo="AGENDA_IDEOLOGUE"/>
 		<Row AgendaOne="AGENDA_THE_STAG_KING" AgendaTwo="AGENDA_STANDING_ARMY"/>
 		<!-- Mace Tyrell leads the Reach -->
+		<Row AgendaOne="AGENDA_TOO_FAT_TO_BATTLE" AgendaTwo="AGENDA_PEACEKEEPER"/>
+		<Row AgendaOne="AGENDA_TOO_FAT_TO_BATTLE" AgendaTwo="AGENDA_POPULOUS"/>
+		<Row AgendaOne="AGENDA_TOO_FAT_TO_BATTLE" AgendaTwo="AGENDA_DARWINIST"/>
 		<!-- Jon Arryn leads the Vale -->
 		<!-- Hoster Tully leads the Riverlands -->
 		<!-- Doran Martell leads Dorne -->
@@ -707,12 +991,34 @@
 			<RequirementSetId>TL_UNIT_STRONG_WHEN_DEFENDING_REQUIREMENTS</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
+		<!-- Jon Arryn leads the Vale -->
+		<Row>
+			<RequirementSetId>JA_PLAYER_DELEGATION_AND_BUILDING</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
 	</RequirementSets>
 	<RequirementSetRequirements>
 		<!-- Tywin Lannister leads the Westerlands -->
 		<Row>
 			<RequirementSetId>TL_UNIT_STRONG_WHEN_DEFENDING_REQUIREMENTS</RequirementSetId>
 			<RequirementId>TL_UNIT_STRONG_WHEN_DEFENDING_REQUIREMENT</RequirementId>
+		</Row>
+		<!-- Jon Arryn leads the Vale -->
+		<Row>
+			<RequirementSetId>JA_PLAYER_DELEGATION_AND_BUILDING</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_DELEGATION</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>JA_PLAYER_DELEGATION_AND_BUILDING</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_AT_PEACE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>JA_PLAYER_DELEGATION_AND_BUILDING</RequirementSetId>
+			<RequirementId>REQUIRES_MAJOR_CIV_OPPONENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>JA_PLAYER_DELEGATION_AND_BUILDING</RequirementSetId>
+			<RequirementId>REQUIRES_PLAYER_HAS_CRESCENT_CHAMBER</RequirementId>
 		</Row>
 	</RequirementSetRequirements>
 	<Requirements>
@@ -722,5 +1028,17 @@
 			<RequirementType>REQUIREMENT_PLAYER_IS_ATTACKING</RequirementType>
 			<Inverse>true</Inverse>
 		</Row>
+		<!-- Jon Arryn leads the Vale -->
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_CRESCENT_CHAMBER</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_BUILDING</RequirementType>
+		</Row>
 	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>REQUIRES_PLAYER_HAS_CRESCENT_CHAMBER</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_CRESCENT_CHAMBER</Value>
+		</Row>
+	</RequirementArguments>
 </GameData>

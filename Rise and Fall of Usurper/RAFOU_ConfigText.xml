@@ -46,7 +46,7 @@
 			<Text>Mountain Clan</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_MOUNTAIN_CLAN_DESCRIPTION">
-			<Text>The North's unique ancient era recon unit. Has combat strength bonus on Tundra and Snow terrains.</Text>
+			<Text>The North's unique ancient era recon unit. Replaces Scout.[NEWLINE]Has combat strength bonus on Tundra and Snow terrains.</Text>
 		</Row>
 		<Row Tag="LOC_DISTRICT_HEART_TREE_NAME">
 			<Text>Godswood</Text>
@@ -104,7 +104,7 @@
 			<Text>Sellswords Camp</Text>
 		</Row>
 		<Row Tag="LOC_DISTRICT_SELLSWORDS_CAMP_DESCRIPTION">
-			<Text>A district unique to Westerlands replacing Encampment. +2 [ICON_GOlD] Gold bonus if adjacent to a Commercial Hub district. +1 [ICON_GreatMerchant] Great Merchant point for each citizen working on Sellswords Camp.</Text>
+			<Text>A district unique to Westerlands replacing Encampment. +2 [ICON_GOLD] Gold bonus if adjacent to a Commercial Hub district. +1 [ICON_GreatMerchant] Great Merchant point for each citizen working on Sellswords Camp.</Text>
 		</Row>
 		<Row Tag="LOC_LEADER_TYWIN_LANNISTER_NAME">
 			<Text>Tywin Lannister</Text>
@@ -161,6 +161,82 @@
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_ROBERT_BARATHEON_DESCRIPTION">
 			<Text>Upon major civilization city conquered by Robert Baratheon, grant a free [ICON_SCIENCE] Technology or [ICON_CULTURE] Civic that the conquered city owner already has and is available to Robert Baratheon.</Text>
+		</Row>
+		<!-- Mace Tyrell leads the Reach -->
+		<Row Tag="LOC_UNIT_REDWYNE_FLEET_NAME">
+			<Text>Redwyne's Fleet</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_REDWYNE_FLEET_DESCRIPTION">
+			<Text>The Reach's unique naval melee unit. Replaces Caravel. Unlocks earlier at Naval Tradition Civic. Cheaper but also weaker.[NEWLINE]Can reveal stealth units.</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_ARBOR_WINERY_NAME">
+			<Text>Arbor Winery</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_ARBOR_WINERY_DESCRIPTION">
+			<Text>An improvement unique to The Reach. Must be placed next to luxury or bonus resources. +1 [ICON_FOOD] Food and +2 [ICON_GOLD] Gold. [NEWLINE] +1 [ICON_CULTURE] Culture from each adjacent  luxury resource. Extra +1 [ICON_CULTURE] Culture from each adjacent luxury resource after Mercantilism Civic.[NEWLINE]+1 [ICON_PRODUCTION] Production from each adjacent bonus resource. Extra +1 [ICON_PRODUCTION] Production from each adjacent bonus resource after Mass Production Technology.[NEWLINE]+2 [ICON_GOLD] Gold from each adjacent luxury resource after Economics Technology.</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_MACE_TYRELL_NAME">
+			<Text>Mace Tyrell</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_MACE_TYRELL">
+			<Text>"There is no greater pleasure than to serve the King's Grace. If I was deemed worthy to join your royal council, you would find none more loyal or true."-Mace Tyrell</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_REACH_NAME">
+			<Text>The Reach</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_THE_REACH_NAME">
+			<Text>Growing Strong</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_THE_REACH_DESCRIPTION">
+			<Text>All Farms yield  +1 Extra [ICON_SCIENCE] Science from adjacent Campus, +1 [ICON_CULTURE] Culture from adjacent Theater Squre, +1 [ICON_Faith] Faith from adjacent Holy Site, +2 [ICON_GOLD] Gold from adjacent Commercial Hub or Harbor, and +1 [ICON_PRODUCTION] Production from adjacent Industrial Zone.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_MACE_TYRELL_NAME">
+			<Text>Lord Puff Fish</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_MACE_TYRELL_DESCRIPTION">
+			<Text>Receive a copy of Builder or Settler unit when produced one.[NEWLINE]But -3 [ICON_Strength] Combat Strength for all units.</Text>
+		</Row>
+		<!-- Jon Arryn leads the Vale -->
+		<Row Tag="LOC_UNIT_VALE_KNIGHT_NAME">
+			<Text>Knights of the Vale</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_VALE_KNIGHT_DESCRIPTION">
+			<Text>The Vale's unique Heavy Cavalry unit. Replaces Knightsl. Has 45 [ICON_Strength] Combat Strength instead of 48, but gains +10 [ICON_Strength] Combat Strength on hill tiles and gain [ICON_CULTURE] from defeating enemies.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_GATE_OF_THE_MOON_NAME">
+			<Text>Gate of the Moon</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_GATE_OF_THE_MOON_DESCRIPTION">
+			<Text>A district unique to The Vale. Replaces Neighborhoods and unlocks earlier (Defensive Tactics). Must be placed on Hills. [NEWLINE]Keeps hill terrain original 2 [ICON_PRODUCTION] Production yield. Provide +5 [ICON_HOUSING] Housing regardless of tile appeal. [NEWLINE] A Gate of the Moon also functions as Encampment with 100 Hit Points and can initiate [ICON_Ranged] Ranged Strikes if city has Walls.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_CRESCENT_CHAMBER_NAME">
+			<Text>Crescent Chamber</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_CRESCENT_CHAMBER_DESCRIPTION">
+			<Text>A building unique to Jon Arryn replacing Palace. [NEWLINE]Other than standard Palace yields and Slot, Crescent Chamber also earns extra +3 diplomatic points from another civilization if you have sent Delegation or Resident Embassy to them.</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_JON_ARRYN_NAME">
+			<Text>Jon Arryn</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_JON_ARRYN">
+			<Text>"I need good men about me. Men like Jon Arryn."-Robert Baratheon to Eddard Stark</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_VALE_NAME">
+			<Text>The Vale</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_THE_VALE_NAME">
+			<Text>As High As Honor</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_THE_VALE_DESCRIPTION">
+			<Text>Mountains provide extra standard adjacency bonus to Campus and Holy Site; standard adjacency bonus to Commercial Hub, Theater Squre and Industrial Zone. [NEWLINE]All units ignore [ICON_Movement] Movement penalty from Hills.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_JON_ARRYN_NAME">
+			<Text>Hand of the King</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_JON_ARRYN_DESCRIPTION">
+			<Text>All International [ICON_TradeRoute] Trade Routes From/To the Vale yield extra +1 [ICON_CULTURE] Culture. All [ICON_TradeRoute] Trade Routes From/To an ally of the Vale yield extra +2 [ICON_CULTURE] Culture.[NEWLINE]Has Crescent Chamber unique building replacing Palace. Allowing extra +3 diplomatic points from another civilization if you have sent Delegation or Resident Embassy to them.</Text>
 		</Row>
 	</BaseGameText>
 </GameData>

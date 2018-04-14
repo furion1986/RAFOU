@@ -34,5 +34,12 @@
 		<!-- Robert Baratheon leads the Stormlands -->
 		<Row Domain="Players:Expansion1_Players" CivilizationType="CIVILIZATION_THE_STORMLANDS" LeaderType="LEADER_ROBERT_BARATHEON" Type="BUILDING_JOUSTING_ARENA" Icon="ICON_BUILDING_JOUSTING_ARENA" Name="LOC_BUILDING_JOUSTING_ARENA_NAME" Description="LOC_BUILDING_JOUSTING_ARENA_DESCRIPTION" SortIndex="10"/>
 		<Row Domain="Players:Expansion1_Players" CivilizationType="CIVILIZATION_THE_STORMLANDS" LeaderType="LEADER_ROBERT_BARATHEON" Type="UNIT_SQUIRE" Icon="ICON_UNIT_SQUIRE" Name="LOC_UNIT_SQUIRE_NAME" Description="LOC_UNIT_SQUIRE_DESCRIPTION" SortIndex="20"/>
+		<!-- Mace Tyrell leads the Reach -->
+		<Row Domain="Players:Expansion1_Players" CivilizationType="CIVILIZATION_THE_REACH" LeaderType="LEADER_MACE_TYRELL" Type="IMPROVEMENT_ARBOR_WINERY" Icon="ICON_IMPROVEMENT_ARBOR_WINERY" Name="LOC_IMPROVEMENT_ARBOR_WINERY_NAME" Description="LOC_IMPROVEMENT_ARBOR_WINERY_DESCRIPTION" SortIndex="10"/>
+		<Row Domain="Players:Expansion1_Players" CivilizationType="CIVILIZATION_THE_REACH" LeaderType="LEADER_MACE_TYRELL" Type="UNIT_REDWYNE_FLEET" Icon="ICON_UNIT_REDWYNE_FLEET" Name="LOC_UNIT_REDWYNE_FLEET_NAME" Description="LOC_UNIT_REDWYNE_FLEET_DESCRIPTION" SortIndex="20"/>
+		<!-- Jon Arryn leads the Vale -->
+		<Row Domain="Players:Expansion1_Players" CivilizationType="CIVILIZATION_THE_VALE" LeaderType="LEADER_JON_ARRYN" Type="DISTRICT_GATE_OF_THE_MOON" Icon="ICON_DISTRICT_GATE_OF_THE_MOON" Name="LOC_DISTRICT_GATE_OF_THE_MOON_NAME" Description="LOC_DISTRICT_GATE_OF_THE_MOON_DESCRIPTION" SortIndex="10"/>
+		<Row Domain="Players:Expansion1_Players" CivilizationType="CIVILIZATION_THE_VALE" LeaderType="LEADER_JON_ARRYN" Type="BUILDING_CRESCENT_CHAMBER" Icon="ICON_BUILDING_CRESCENT_CHAMBER" Name="LOC_BUILDING_CRESCENT_CHAMBER_NAME" Description="LOC_BUILDING_CRESCENT_CHAMBER_DESCRIPTION" SortIndex="20"/>
+		<Row Domain="Players:Expansion1_Players" CivilizationType="CIVILIZATION_THE_VALE" LeaderType="LEADER_JON_ARRYN" Type="UNIT_VALE_KNIGHT" Icon="ICON_UNIT_VALE_KNIGHT" Name="LOC_UNIT_VALE_KNIGHT_NAME" Description="LOC_UNIT_VALE_KNIGHT_DESCRIPTION" SortIndex="30"/>		
 	</PlayerItems>
 </GameData>

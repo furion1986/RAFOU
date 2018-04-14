@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>315</build>
+		<revision>805</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UI/Icons"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="RAFOU_ICONS_CIVILIZATIONS_128"/>
+			<m_ObjectName text="RAFOU_ICONS_CIVILIZATIONS_128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="RAFOU_ICONS_CIVILIZATIONS_22"/>
+			<m_ObjectName text="RAFOU_ICONS_CIVILIZATIONS_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="RAFOU_ICONS_CIVILIZATIONS_256"/>
+			<m_ObjectName text="RAFOU_ICONS_CIVILIZATIONS_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="RAFOU_ICONS_CIVILIZATIONS_30"/>
+			<m_ObjectName text="RAFOU_ICONS_CIVILIZATIONS_30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="RAFOU_ICONS_CIVILIZATIONS_32"/>
+			<m_ObjectName text="RAFOU_ICONS_CIVILIZATIONS_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="RAFOU_ICONS_CIVILIZATIONS_36"/>
+			<m_ObjectName text="RAFOU_ICONS_CIVILIZATIONS_36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="RAFOU_ICONS_CIVILIZATIONS_44"/>
+			<m_ObjectName text="RAFOU_ICONS_CIVILIZATIONS_44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="RAFOU_ICONS_CIVILIZATIONS_45"/>
+			<m_ObjectName text="RAFOU_ICONS_CIVILIZATIONS_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="RAFOU_ICONS_CIVILIZATIONS_48"/>
+			<m_ObjectName text="RAFOU_ICONS_CIVILIZATIONS_48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="RAFOU_ICONS_CIVILIZATIONS_50"/>
+			<m_ObjectName text="RAFOU_ICONS_CIVILIZATIONS_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="RAFOU_ICONS_CIVILIZATIONS_55"/>
+			<m_ObjectName text="RAFOU_ICONS_CIVILIZATIONS_55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="RAFOU_ICONS_CIVILIZATIONS_64"/>
+			<m_ObjectName text="RAFOU_ICONS_CIVILIZATIONS_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="RAFOU_ICONS_CIVILIZATIONS_80"/>
+			<m_ObjectName text="RAFOU_ICONS_CIVILIZATIONS_80"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

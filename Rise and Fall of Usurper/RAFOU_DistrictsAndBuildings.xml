@@ -11,6 +11,8 @@
 		<Row Type="BUILDING_JOUSTING_ARENA" Kind="KIND_BUILDING"/>
 		<!-- Mace Tyrell leads the Reach -->
 		<!-- Jon Arryn leads the Vale -->
+		<Row Type="DISTRICT_GATE_OF_THE_MOON" Kind="KIND_DISTRICT"/>
+		<Row Type="BUILDING_CRESCENT_CHAMBER" Kind="KIND_BUILDING"/>
 		<!-- Hoster Tully leads the Riverlands -->
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
@@ -25,6 +27,7 @@
 		<!-- Robert Baratheon leads the Stormlands -->
 		<!-- Mace Tyrell leads the Reach -->
 		<!-- Jon Arryn leads the Vale -->
+		<Row CivUniqueDistrictType="DISTRICT_GATE_OF_THE_MOON" ReplacesDistrictType="DISTRICT_NEIGHBORHOOD"/>
 		<!-- Hoster Tully leads the Riverlands -->
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
@@ -39,6 +42,7 @@
 		<Row CivUniqueBuildingType="BUILDING_JOUSTING_ARENA" ReplacesBuildingType="BUILDING_STABLE"/>
 		<!-- Mace Tyrell leads the Reach -->
 		<!-- Jon Arryn leads the Vale -->
+		<Row CivUniqueBuildingType="BUILDING_CRESCENT_CHAMBER" ReplacesBuildingType="BUILDING_PALACE"/>
 		<!-- Hoster Tully leads the Riverlands -->
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
@@ -53,6 +57,7 @@
 		<!-- Robert Baratheon leads the Stormlands -->
 		<!-- Mace Tyrell leads the Reach -->
 		<!-- Jon Arryn leads the Vale -->
+		<Row DistrictType="DISTRICT_GATE_OF_THE_MOON" Name="LOC_DISTRICT_GATE_OF_THE_MOON_NAME" Description="LOC_DISTRICT_GATE_OF_THE_MOON_DESCRIPTION" PrereqCivic="CIVIC_DEFENSIVE_TACTICS" PlunderType="NO_PLUNDER" AdvisorType="ADVISOR_GENERIC" Cost="27" CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS" CostProgressionParam1="1000" RequiresPlacement="true" RequiresPopulation="false" Aqueduct="false" NoAdjacentCity="false" InternalOnly="false" ZOC="true" HitPoints="100" CaptureRemovesBuildings="true" CaptureRemovesCityDefenses="false" MilitaryDomain="DOMAIN_LAND" Housing="5" CityStrengthModifier="2" TraitType="TRAIT_CIVILIZATION_DISTRICT_GATE_OF_THE_MOON"/>
 		<!-- Hoster Tully leads the Riverlands -->
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
@@ -67,6 +72,7 @@
 		<Row BuildingType="BUILDING_JOUSTING_ARENA" Name="LOC_BUILDING_JOUSTING_ARENA_NAME" Description="LOC_BUILDING_JOUSTING_ARENA_DESCRIPTION" PrereqTech="TECH_HORSEBACK_RIDING" PrereqDistrict="DISTRICT_ENCAMPMENT" PurchaseYield="YIELD_GOLD" Cost="120" AdvisorType="ADVISOR_CONQUEST" Maintenance="1" Housing="1" Entertainment="1" CitizenSlots="1" TraitType ="TRAIT_CIVILIZATION_BUILDING_JOUSTING_ARENA"/>
 		<!-- Mace Tyrell leads the Reach -->
 		<!-- Jon Arryn leads the Vale -->
+		<Row BuildingType="BUILDING_CRESCENT_CHAMBER" Name="LOC_BUILDING_CRESCENT_CHAMBER_NAME" Description="LOC_BUILDING_CRESCENT_CHAMBER_DESCRIPTION" PrereqDistrict="DISTRICT_CITY_CENTER" Cost="1" AdvisorType="ADVISOR_GENERIC" Housing="1" Entertainment="1" Capital="true" MaxPlayerInstances="1" TraitType ="TRAIT_HAND_OF_THE_KING"/>
 		<!-- Hoster Tully leads the Riverlands -->
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
@@ -97,6 +103,14 @@
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</District_Adjacencies>
+	
+	<District_ValidTerrains>
+		<Row DistrictType="DISTRICT_GATE_OF_THE_MOON" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row DistrictType="DISTRICT_GATE_OF_THE_MOON" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row DistrictType="DISTRICT_GATE_OF_THE_MOON" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row DistrictType="DISTRICT_GATE_OF_THE_MOON" TerrainType="TERRAIN_SNOW_HILLS"/>
+		<Row DistrictType="DISTRICT_GATE_OF_THE_MOON" TerrainType="TERRAIN_DESERT_HILLS"/>
+	</District_ValidTerrains>
 
 	<District_GreatPersonPoints>
 		<!-- Balon Greyjoy leads the Ironborn -->
@@ -173,6 +187,10 @@
 		<Row BuildingType="BUILDING_JOUSTING_ARENA" YieldType="YIELD_PRODUCTION" YieldChange="1"/>
 		<!-- Mace Tyrell leads the Reach -->
 		<!-- Jon Arryn leads the Vale -->
+		<Row BuildingType="BUILDING_CRESCENT_CHAMBER" YieldType="YIELD_CULTURE" YieldChange="1"/>
+		<Row BuildingType="BUILDING_CRESCENT_CHAMBER" YieldType="YIELD_GOLD" YieldChange="5"/>
+		<Row BuildingType="BUILDING_CRESCENT_CHAMBER" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
+		<Row BuildingType="BUILDING_CRESCENT_CHAMBER" YieldType="YIELD_SCIENCE" YieldChange="2"/>
 		<!-- Hoster Tully leads the Riverlands -->
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
@@ -191,6 +209,10 @@
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</Building_GreatPersonPoints>
+	
+	<Building_GreatWorks>
+		<Row BuildingType="BUILDING_CRESCENT_CHAMBER" GreatWorkSlotType="GREATWORKSLOT_PALACE" NumSlots="1" NonUniquePersonYield="1" NonUniquePersonTourism="1"/>
+	</Building_GreatWorks>
 
 	<Modifiers>
 		<!-- Balon Greyjoy leads the Ironborn -->
@@ -235,6 +257,10 @@
 		</Row>
 		<!-- Mace Tyrell leads the Reach -->
 		<!-- Jon Arryn leads the Vale -->
+		<Row>
+			<ModifierId>GATE_OF_THE_MOON_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_BASE_YIELD_CHANGE</ModifierType>
+		</Row>
 		<!-- Hoster Tully leads the Riverlands -->
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
@@ -307,6 +333,16 @@
 		</Row>
 		<!-- Mace Tyrell leads the Reach -->
 		<!-- Jon Arryn leads the Vale -->
+		<Row>
+			<ModifierId>GATE_OF_THE_MOON_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>GATE_OF_THE_MOON_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
 		<!-- Hoster Tully leads the Riverlands -->
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
@@ -323,6 +359,10 @@
 		<!-- Robert Baratheon leads the Stormlands -->
 		<!-- Mace Tyrell leads the Reach -->
 		<!-- Jon Arryn leads the Vale -->
+		<Row>
+			<DistrictType>DISTRICT_GATE_OF_THE_MOON</DistrictType>
+			<ModifierId>GATE_OF_THE_MOON_PRODUCTION</ModifierId>
+		</Row>
 		<!-- Hoster Tully leads the Riverlands -->
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
@@ -359,6 +399,10 @@
 		</Row>
 		<!-- Mace Tyrell leads the Reach -->
 		<!-- Jon Arryn leads the Vale -->
+		<Row>
+			<BuildingType>BUILDING_CRESCENT_CHAMBER</BuildingType>
+			<ModifierId>PALACE_ADJUST_GARRISON_STRENGTH</ModifierId>
+		</Row>
 		<!-- Hoster Tully leads the Riverlands -->
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->

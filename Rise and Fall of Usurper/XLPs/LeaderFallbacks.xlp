@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>315</build>
+		<revision>805</revision>
+	</m_Version>
+	<m_ClassName text="LeaderFallback"/>
+	<m_PackageName text="LeaderFallbacks"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_BALONGREYJOY"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_BALONGREYJOY"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_EDDARDSTARK"/>
+			<m_ObjectName text="FALLBACK_NEUTRAL_EDDARDSTARK"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_ROBERTBARATHEON"/>
+			<m_ObjectName text="Fallback_Neutral_Robert"/>
+		</Element>
+		<Element>
+			<m_EntryID text="FALLBACK_NEUTRAL_TYWINLANNISTER"/>
+			<m_ObjectName text="Fallback_Neutral_Tywin"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

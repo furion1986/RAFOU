@@ -21,7 +21,9 @@
 		<Row Kind="KIND_UNIT" Type="UNIT_SQUIRE"/>
 		<Row Type="ABILITY_SQUIRE" Kind="KIND_ABILITY"/>
 		<!-- Mace Tyrell leads the Reach -->
+		<Row Kind="KIND_UNIT" Type="UNIT_REDWYNE_FLEET"/>
 		<!-- Jon Arryn leads the Vale -->
+		<Row Kind="KIND_UNIT" Type="UNIT_VALE_KNIGHT"/>
 		<!-- Hoster Tully leads the Riverlands -->
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
@@ -70,7 +72,11 @@
 		<Row Type="UNIT_SQUIRE" Tag="CLASS_SQUIRE"/>
 		<Row Type="ABILITY_SQUIRE" Tag="CLASS_SQUIRE"/>
 		<!-- Mace Tyrell leads the Reach -->
+		<Row Type="UNIT_REDWYNE_FLEET" Tag="CLASS_NAVAL_MELEE"/>
+		<Row Type="UNIT_REDWYNE_FLEET" Tag="CLASS_REVEAL_STEALTH"/>
 		<!-- Jon Arryn leads the Vale -->
+		<Row Type="UNIT_VALE_KNIGHT" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="UNIT_VALE_KNIGHT" Tag="CLASS_ROUGH_RIDER"/>
 		<!-- Hoster Tully leads the Riverlands -->
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
@@ -89,7 +95,9 @@
 		<!-- Robert Baratheon leads the Stormlands -->
 		<Row UnitType="UNIT_SQUIRE" TraitType="TRAIT_CIVILIZATION_UNIT_SQUIRE" BaseMoves="3" Cost="48" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_CIVILIAN" Name="LOC_UNIT_SQUIRE_NAME" Description="LOC_UNIT_SQUIRE_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY" Maintenance="1" CanCapture="False" PrereqCivic="CIVIC_MILITARY_TRADITION"/>
 		<!-- Mace Tyrell leads the Reach -->
+		<Row UnitType="UNIT_REDWYNE_FLEET" TraitType="TRAIT_CIVILIZATION_UNIT_REDWYNE_FLEET" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT"  PrereqCivic="CIVIC_NAVAL_TRADITION" MandatoryObsoleteTech="TECH_STEAM_POWER" Combat="40" Maintenance="3" PromotionClass="PROMOTION_CLASS_NAVAL_MELEE" PurchaseYield="YIELD_GOLD" Description="LOC_UNIT_REDWYNE_FLEET_DESCRIPTION" Name="LOC_UNIT_REDWYNE_FLEET_NAME" FormationClass="FORMATION_CLASS_NAVAL" Domain="DOMAIN_SEA" ZoneOfControl="true" BaseSightRange="3" AdvisorType="ADVISOR_CONQUEST" Cost="180" BaseMoves="4"/>
 		<!-- Jon Arryn leads the Vale -->
+		<Row UnitType="UNIT_VALE_KNIGHT" TraitType="TRAIT_CIVILIZATION_UNIT_VALE_KNIGHT" Cost="180" Maintenance="3" BaseMoves="4" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="45" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_VALE_KNIGHT_NAME" Description="LOC_UNIT_VALE_KNIGHT_DESCRIPTION" PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_COMPOSITES" PrereqTech="TECH_STIRRUPS"/>
 		<!-- Hoster Tully leads the Riverlands -->
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
@@ -262,7 +270,15 @@
 		<Row UnitType="UNIT_SQUIRE" AiType="UNITTYPE_CIVILIAN_LEADER"/>
 		<Row UnitType="UNIT_SQUIRE" AiType="UNITAI_LEADER"/>
 		<!-- Mace Tyrell leads the Reach -->
+		<Row UnitType="UNIT_REDWYNE_FLEET" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_REDWYNE_FLEET" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_REDWYNE_FLEET" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_REDWYNE_FLEET" AiType="UNITTYPE_NAVAL"/>
 		<!-- Jon Arryn leads the Vale -->
+		<Row UnitType="UNIT_VALE_KNIGHT" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_VALE_KNIGHT" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_VALE_KNIGHT" AiType="UNITTYPE_CAVALRY"/>
+		<Row UnitType="UNIT_VALE_KNIGHT" AiType="UNITTYPE_LAND_COMBAT"/>
 		<!-- Hoster Tully leads the Riverlands -->
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
@@ -279,7 +295,9 @@
 		<!-- Tywin Lannister leads the Westerlands -->
 		<!-- Robert Baratheon leads the Stormlands -->
 		<!-- Mace Tyrell leads the Reach -->
+		<Row ReplacesUnitType="UNIT_CARAVEL" CivUniqueUnitType="UNIT_REDWYNE_FLEET"/>
 		<!-- Jon Arryn leads the Vale -->
+		<Row CivUniqueUnitType="UNIT_VALE_KNIGHT" ReplacesUnitType="UNIT_KNIGHT"/>
 		<!-- Hoster Tully leads the Riverlands -->
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
@@ -296,7 +314,9 @@
 		<!-- Robert Baratheon leads the Stormlands -->
 		<Row Unit="UNIT_SQUIRE" UpgradeUnit="UNIT_KNIGHT"/>
 		<!-- Mace Tyrell leads the Reach -->
+		<Row Unit="UNIT_REDWYNE_FLEET" UpgradeUnit="UNIT_IRONCLAD"/>
 		<!-- Jon Arryn leads the Vale -->
+		<Row Unit="UNIT_VALE_KNIGHT" UpgradeUnit="UNIT_TANK"/>
 		<!-- Hoster Tully leads the Riverlands -->
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->

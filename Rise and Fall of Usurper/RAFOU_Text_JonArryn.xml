@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<BaseGameText>
+		<Row Tag="LOC_CIVILIZATION_THE_VALE_DESCRIPTION">
+			<Text>Kingdom of The Vale</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_VALE_ADJECTIVE">
+			<Text>The Vale</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LORD_PUFFFISH_NAME">
+			<Text>Hand of the King</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LORD_PUFFFISH_DESCRIPTION">
+			<Text>All International [ICON_TradeRoute] Trade Routes From/To the Vale yield extra +1 [ICON_CULTURE] Culture. All [ICON_TradeRoute] Trade Routes From/To an ally of the Vale yield extra +2 [ICON_CULTURE] Culture.[NEWLINE]Has Crescent Chamber unique building replacing Palace. Allowing extra +3 diplomatic points from another civilization if you have sent Delegation or Resident Embassy to them.</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_JON_ARRYN_QUOTE">
+			<Text>"Jon Arryn was a wise man and a good Hand." - Eddard Stark to Rebert Baratheon</Text>
+		</Row>
+
+		<!--City Names-->
+		<Row Tag="LOC_CIVILIZATION_THE_VALE_CITY_1">
+			<Text>The Eyrie</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_VALE_CITY_2">
+			<Text>The Bloody Gate</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_VALE_CITY_3">
+			<Text>Culltown</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_VALE_CITY_4">
+			<Text>Oldtown</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_VALE_CITY_5">
+			<Text>Coldwater Burn</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_VALE_CITY_6">
+			<Text>The Fingers</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_VALE_CITY_7">
+			<Text>Sisterton</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_VALE_CITY_8">
+			<Text>Breakwater</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_VALE_CITY_9">
+			<Text>Grey Glen</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_VALE_CITY_10">
+			<Text>Heart's Home</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_VALE_CITY_11">
+			<Text>Ironoaks</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_VALE_CITY_12">
+			<Text>Longbow Hall</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_VALE_CITY_13">
+			<Text>Newkeep</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_VALE_CITY_14">
+			<Text>Old Anchor</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_VALE_CITY_15">
+			<Text>Runestone</Text>
+		</Row>
+		<!--CITIZEN NAMES-->
+		<Row Tag="LOC_CITIZEN_THE_VALE_MALE_1">
+			<Text>Yohn Royce</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_THE_VALE_MALE_2">
+			<Text>Harrold Hardyng</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_THE_VALE_MALE_3">
+			<Text>Robin Arryn</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_THE_VALE_MALE_4">
+			<Text>Jon Redfort</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_THE_VALE_FEMALE_1">
+			<Text>Mya Stone</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_THE_VALE_FEMALE_2">
+			<Text>Lysa Arryn</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_THE_VALE_FEMALE_3">
+			<Text>Myranda Royce</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_THE_VALE_FEMALE_4">
+			<Text>Anya Waynwood</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_THE_VALE_FEMALE_5">
+			<Text>Chella</Text>
+		</Row>
+
+		<!--Diplomatics-->
+		<Row Tag="LOC_DIPLO_MODIFIER_JA_DELEGATION">
+			<Text>Our delegation tells them the story about our Crescent Chamber</Text>
+		</Row>
+		<Row Tag="LOC_VIZSOURCE_DELEGATE_TRAIT">
+			<Text>Jon Arryn's delegation</Text>
+		</Row>
+		<Row Tag="LOC_VIZSOURCE_ACTION_DELEGATE_TRAIT">
+			<Text>Play as Jon Arryn and send a delegation or establish an embassy.</Text>
+		</Row>
+		<Row Tag="LOC_GOSSIP_SOURCE_DELEGATE_TRAIT">
+			<Text>Your delegate, {1_Name}, sent a raven back to Crescent Chamber informing you that</Text>
+		</Row>
+		<!--Agendas-->
+
+		<!--PEDIA-->
+		<!--CIV-->
+		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_DISTRICT_GATE_OF_THE_MOON_CHAPTER_HISTORY_PARA_1">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_VALE_CHAPTER_HISTORY_PARA_1">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_VALE_CHAPTER_HISTORY_PARA_2">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_VALE_CHAPTER_HISTORY_PARA_3">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_VALE_CHAPTER_HISTORY_PARA_4">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_VALE_CHAPTER_HISTORY_PARA_5">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_VALE_CHAPTER_HISTORY_PARA_6">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_VALE_CHAPTER_HISTORY_PARA_7">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_VALE_CHAPTER_HISTORY_PARA_8">
+			<Text>**</Text>
+		</Row>
+
+		<!--LEADER-->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JON_ARRYN_TITLE">
+			<Text>Jon Arryn</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JON_ARRYN_SUBTITLE">
+			<Text>Head of House Arryn, Lord of the Eyrie, and Warden of the Vale.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JON_ARRYN_QUOTE">
+			<Text>"I need good men about me. Men like Jon Arryn." - Robert Baratheon</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JON_ARRYN_CHAPTER_HISTORY_PARA_1">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JON_ARRYN_CHAPTER_HISTORY_PARA_2">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JON_ARRYN_CHAPTER_HISTORY_PARA_3">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JON_ARRYN_CHAPTER_HISTORY_PARA_4">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JON_ARRYN_CHAPTER_HISTORY_PARA_5">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JON_ARRYN_CHAPTER_HISTORY_PARA_6">
+			<Text>**</Text>
+		</Row>
+
+		<!--UNITS-->
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_VALE_KNIGHT_CHAPTER_HISTORY_PARA_1">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_VALE_KNIGHT_CHAPTER_HISTORY_PARA_2">
+			<Text>**</Text>
+		</Row>
+
+		<!--CIVINFO-->
+		<Row Tag="LOC_CIVINFO_THE_VALE_LOCATION">
+			<Text>The Vale</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_THE_VALE_SIZE">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_THE_VALE_POPULATION">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_THE_VALE_CAPITAL">
+			<Text>The Eyrie</Text>
+		</Row>
+
+		<!--DIPLO-->
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_JON_ARRYN_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_JON_ARRYN_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_JON_ARRYN_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_JON_ARRYN_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_JON_ARRYN_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_JON_ARRYN_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_JON_ARRYN_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_JON_ARRYN_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_JON_ARRYN_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_JON_ARRYN_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_JON_ARRYN_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_JON_ARRYN_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_JON_ARRYN_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_JON_ARRYN_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_JON_ARRYN_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_JON_ARRYN_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_JON_ARRYN_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_JON_ARRYN_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_JON_ARRYN_REASON_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_JON_ARRYN_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_JON_ARRYN_REASON_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_JON_ARRYN_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_JON_ARRYN_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_JON_ARRYN_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_JON_ARRYN_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_JON_ARRYN_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_JON_ARRYN_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_JON_ARRYN_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_JON_ARRYN_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_JON_ARRYN_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_JON_ARRYN_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_JON_ARRYN_ANY">
+			<Text>**</Text>
+		</Row>
+	</BaseGameText>
+</GameData>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Author: Furion -->
+<!-- DateCreated: 4/6/2018 9:13:47 PM -->
+<GameData>
+	<Types>
+		<!-- THE REACH -->
+		<Row Type="IMPROVEMENT_ARBOR_WINERY" Kind="KIND_IMPROVEMENT"/>
+	</Types>
+	<Improvements>
+		<!-- THE REACH -->
+		<Row ImprovementType="IMPROVEMENT_ARBOR_WINERY" Name="LOC_IMPROVEMENT_ARBOR_WINERY_NAME" Description="LOC_IMPROVEMENT_ARBOR_WINERY_DESCRIPTION" Icon="ICON_IMPROVEMENT_ARBOR_WINERY" PlunderType="PLUNDER_GOLD" PlunderAmount="50" Buildable="true" RequiresAdjacentBonusOrLuxury="true" PrereqCivic="CIVIC_GAMES_RECREATION" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_ARBOR_WINERY"/>
+	</Improvements>
+	<Improvement_Adjacencies>
+		<Row ImprovementType="IMPROVEMENT_ARBOR_WINERY" YieldChangeId="ArborWinery_CultureLux_Early"/>
+		<Row ImprovementType="IMPROVEMENT_ARBOR_WINERY" YieldChangeId="ArborWinery_CultureLux_Late"/>
+		<Row ImprovementType="IMPROVEMENT_ARBOR_WINERY" YieldChangeId="ArborWinery_ProdBonus_Early"/>
+		<Row ImprovementType="IMPROVEMENT_ARBOR_WINERY" YieldChangeId="ArborWinery_ProdBonus_Late"/>
+		<Row ImprovementType="IMPROVEMENT_ARBOR_WINERY" YieldChangeId="ArborWinery_GoldLux"/>
+	</Improvement_Adjacencies>
+	<Improvement_ValidTerrains>
+		<Row ImprovementType="IMPROVEMENT_ARBOR_WINERY" TerrainType="TERRAIN_DESERT"/>
+		<Row ImprovementType="IMPROVEMENT_ARBOR_WINERY" TerrainType="TERRAIN_TUNDRA"/>
+		<Row ImprovementType="IMPROVEMENT_ARBOR_WINERY" TerrainType="TERRAIN_PLAINS"/>
+		<Row ImprovementType="IMPROVEMENT_ARBOR_WINERY" TerrainType="TERRAIN_GRASS"/>
+		<Row ImprovementType="IMPROVEMENT_ARBOR_WINERY" TerrainType="TERRAIN_SNOW"/>
+		<Row ImprovementType="IMPROVEMENT_ARBOR_WINERY" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_ARBOR_WINERY" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_ARBOR_WINERY" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_ARBOR_WINERY" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_ARBOR_WINERY" TerrainType="TERRAIN_SNOW_HILLS"/>
+	</Improvement_ValidTerrains>
+	<Improvement_ValidBuildUnits>
+		<Row ImprovementType="IMPROVEMENT_ARBOR_WINERY" UnitType="UNIT_BUILDER"/>
+	</Improvement_ValidBuildUnits>
+	<Improvement_YieldChanges>
+		<Row ImprovementType="IMPROVEMENT_ARBOR_WINERY" YieldType="YIELD_FOOD" YieldChange="1"/>
+		<Row ImprovementType="IMPROVEMENT_ARBOR_WINERY" YieldType="YIELD_GOLD" YieldChange="2"/>
+		<Row ImprovementType="IMPROVEMENT_ARBOR_WINERY" YieldType="YIELD_CULTURE" YieldChange="0"/>
+		<Row ImprovementType="IMPROVEMENT_ARBOR_WINERY" YieldType="YIELD_PRODUCTION" YieldChange="0"/>
+	</Improvement_YieldChanges>
+	<Improvement_BonusYieldChanges>
+		<Row Id="500" ImprovementType="IMPROVEMENT_ARBOR_WINERY" YieldType="YIELD_CULTURE" BonusYieldChange="1" PrereqCivic="CIVIC_GUILDS"/>
+	</Improvement_BonusYieldChanges>
+	<Improvement_Tourism>
+		<Row ImprovementType="IMPROVEMENT_ARBOR_WINERY" TourismSource="TOURISMSOURCE_CULTURE" PrereqTech="TECH_FLIGHT" ScalingFactor="100"/>
+	</Improvement_Tourism>
+	<Adjacency_YieldChanges>
+		<Row ID="ArborWinery_CultureLux_Early" Description="Placeholder" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="1" AdjacentResourceClass="RESOURCECLASS_LUXURY" ObsoleteCivic="CIVIC_MERCANTILISM"/>
+		<Row ID="ArborWinery_CultureLux_Late" Description="Placeholder" YieldType="YIELD_CULTURE" YieldChange="2" TilesRequired="1" AdjacentResourceClass="RESOURCECLASS_LUXURY" PrereqCivic="CIVIC_MERCANTILISM"/>
+		<Row ID="ArborWinery_ProdBonus_Early" Description="Placeholder" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="1" AdjacentResourceClass="RESOURCECLASS_BONUS" ObsoleteTech="TECH_MASS_PRODUCTION"/>
+		<Row ID="ArborWinery_ProdBonus_Late" Description="Placeholder" YieldType="YIELD_PRODUCTION" YieldChange="2" TilesRequired="1" AdjacentResourceClass="RESOURCECLASS_BONUS" PrereqTech="TECH_MASS_PRODUCTION"/>
+		<Row ID="ArborWinery_GoldLux" Description="Placeholder" YieldType="YIELD_GOLD" YieldChange="2" TilesRequired="1" AdjacentResourceClass="RESOURCECLASS_LUXURY" PrereqTech="TECH_ECONOMICS"/>
+	</Adjacency_YieldChanges>
+</GameData>
