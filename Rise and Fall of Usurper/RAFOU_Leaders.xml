@@ -695,7 +695,7 @@
 		<Row>
 			<ModifierId>JONARRYN_DIPLOMATIC_DELEGATION</ModifierId>
 			<Name>InitialValue</Name>
-			<Value>3</Value>
+			<Value>5</Value>
 		</Row>
 		<Row>
 			<ModifierId>JONARRYN_DIPLOMATIC_DELEGATION</ModifierId>

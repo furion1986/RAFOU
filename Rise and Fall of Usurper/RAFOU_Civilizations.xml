@@ -39,6 +39,9 @@
 		<Row Type="TRAIT_CIVILIZATION_UNIT_VALE_KNIGHT" Kind="KIND_TRAIT" />
 		<Row Type="TRAIT_CIVILIZATION_AS_HIGH_AS_HONOR" Kind="KIND_TRAIT" />
 		<!-- Hoster Tully leads the Riverlands -->
+		<Row Type="TRAIT_CIVILIZATION_DISTRICT_THE_TWIN_TOWERS" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_UNIT_BROTHERHOOD_WITHOUT_BANNERS" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_FAMILY_DUTY_HONOR" Kind="KIND_TRAIT" />
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 		
@@ -108,6 +111,15 @@
 			<RandomCityNameDepth>5</RandomCityNameDepth>
 		</Row>
 		<!-- Hoster Tully leads the Riverlands -->
+		<Row>
+			<CivilizationType>CIVILIZATION_THE_RIVERLANDS</CivilizationType>
+			<Name>LOC_CIVILIZATION_THE_RIVERLANDS_NAME</Name>
+			<Description>LOC_CIVILIZATION_THE_RIVERLANDS_DESCRIPTION</Description>
+			<Adjective>LOC_CIVILIZATION_THE_RIVERLANDS_ADJECTIVE</Adjective>
+			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
+			<Ethnicity>ETHNICITY_EURO</Ethnicity>
+			<RandomCityNameDepth>5</RandomCityNameDepth>
+		</Row>
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</Civilizations>
@@ -126,6 +138,7 @@
 		<!-- Jon Arryn leads the Vale -->
 		<Row CivilizationType="CIVILIZATION_THE_VALE" LeaderType="LEADER_JON_ARRYN" CapitalName="LOC_CIVILIZATION_THE_VALE_CITY_1" />
 		<!-- Hoster Tully leads the Riverlands -->
+		<Row CivilizationType="THE_RIVERLANDS" LeaderType="LEADER_HOSTER_TULLY" CapitalName="LOC_THE_RIVERLANDS_CITY_1" />
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</CivilizationLeaders>
@@ -157,6 +170,9 @@
 		<Row CivilizationType="CIVILIZATION_THE_VALE" TraitType="TRAIT_CIVILIZATION_UNIT_VALE_KNIGHT"/>
 		<Row CivilizationType="CIVILIZATION_THE_VALE" TraitType="TRAIT_CIVILIZATION_AS_HIGH_AS_HONOR"/>
 		<!-- Hoster Tully leads the Riverlands -->
+		<Row CivilizationType="CIVILIZATION_THE_RIVERLANDS" TraitType="TRAIT_CIVILIZATION_DISTRICT_THE_TWIN_TOWERS"/>
+		<Row CivilizationType="CIVILIZATION_THE_RIVERLANDS" TraitType="TRAIT_CIVILIZATION_UNIT_BROTHERHOOD_WITHOUT_BANNERS"/>
+		<Row CivilizationType="CIVILIZATION_THE_RIVERLANDS" TraitType="TRAIT_CIVILIZATION_FAMILY_DUTY_HONOR"/>
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</CivilizationTraits>
@@ -193,6 +209,10 @@
 		<Row CivilizationType="CIVILIZATION_THE_VALE" SortIndex="30" Caption="LOC_CIVINFO_THE_VALE_POPULATION" Header="LOC_CIVINFO_POPULATION"/>
 		<Row CivilizationType="CIVILIZATION_THE_VALE" SortIndex="40" Caption="LOC_CIVINFO_THE_VALE_CAPITAL" Header="LOC_CIVINFO_CAPITAL"/>
 		<!-- Hoster Tully leads the Riverlands -->
+		<Row CivilizationType="CIVILIZATION_THE_RIVERLANDS" SortIndex="10" Caption="LOC_CIVINFO_THE_RIVERLANDS_LOCATION" Header="LOC_CIVINFO_LOCATION"/>
+		<Row CivilizationType="CIVILIZATION_THE_RIVERLANDS" SortIndex="20" Caption="LOC_CIVINFO_THE_RIVERLANDS_SIZE" Header="LOC_CIVINFO_SIZE"/>
+		<Row CivilizationType="CIVILIZATION_THE_RIVERLANDS" SortIndex="30" Caption="LOC_CIVINFO_THE_RIVERLANDS_POPULATION" Header="LOC_CIVINFO_POPULATION"/>
+		<Row CivilizationType="CIVILIZATION_THE_RIVERLANDS" SortIndex="40" Caption="LOC_CIVINFO_THE_RIVERLANDS_CAPITAL" Header="LOC_CIVINFO_CAPITAL"/>
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</CivilizationInfo>
@@ -259,6 +279,15 @@
 		<Row CivilizationType="CIVILIZATION_THE_VALE" CitizenName="LOC_CITIZEN_THE_VALE_FEMALE_4" Female="1"/>
 		<Row CivilizationType="CIVILIZATION_THE_VALE" CitizenName="LOC_CITIZEN_THE_VALE_FEMALE_5" Female="1"/>
 		<!-- Hoster Tully leads the Riverlands -->
+		<Row CivilizationType="CIVILIZATION_THE_RIVERLANDS" CitizenName="LOC_CITIZEN_THE_RIVERLANDS_MALE_1" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_THE_RIVERLANDS" CitizenName="LOC_CITIZEN_THE_RIVERLANDS_MALE_2" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_THE_RIVERLANDS" CitizenName="LOC_CITIZEN_THE_RIVERLANDS_MALE_3" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_THE_RIVERLANDS" CitizenName="LOC_CITIZEN_THE_RIVERLANDS_MALE_4" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_THE_RIVERLANDS" CitizenName="LOC_CITIZEN_THE_RIVERLANDS_FEMALE_1" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_THE_RIVERLANDS" CitizenName="LOC_CITIZEN_THE_RIVERLANDS_FEMALE_2" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_THE_RIVERLANDS" CitizenName="LOC_CITIZEN_THE_RIVERLANDS_FEMALE_3" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_THE_RIVERLANDS" CitizenName="LOC_CITIZEN_THE_RIVERLANDS_FEMALE_4" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_THE_RIVERLANDS" CitizenName="LOC_CITIZEN_THE_RIVERLANDS_FEMALE_5" Female="1"/>
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</CivilizationCitizenNames>
@@ -277,6 +306,7 @@
 		<!-- Jon Arryn leads the Vale -->
 		<Row LeaderType="LEADER_JON_ARRYN" PlayDawnOfManAudio="0" BackgroundImage="LEADER_JON_ARRYN_BACKGROUND" ForegroundImage="JONARRYN_Foreground"/>
 		<!-- Hoster Tully leads the Riverlands -->
+		<Row LeaderType="LEADER_HOSTER_TULLY" PlayDawnOfManAudio="0" BackgroundImage="LEADER_HOSTER_TULLY_BACKGROUND" ForegroundImage="HOSTERTULLY_Foreground"/>		
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</LoadingInfo>
@@ -294,6 +324,7 @@
 		<!-- Jon Arryn leads the Vale -->
 		<Row Type="LEADER_JON_ARRYN" BackgroundImage="JONARRYN_Diplomacy"/>
 		<!-- Hoster Tully leads the Riverlands -->
+		<Row Type="LEADER_HOSTER_TULLY" BackgroundImage="HOSTERTULLY_Diplomacy"/>
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</DiplomacyInfo>
@@ -384,6 +415,9 @@
 		<Row TraitType="TRAIT_CIVILIZATION_UNIT_VALE_KNIGHT" Name="LOC_UNIT_VALE_KNIGHT_NAME" Description="LOC_UNIT_VALE_KNIGHT_DESCRIPTION"/>
 		<Row TraitType="TRAIT_CIVILIZATION_AS_HIGH_AS_HONOR" Name="LOC_TRAIT_CIVILIZATION_THE_VALE_NAME" Description="LOC_TRAIT_CIVILIZATION_THE_VALE_DESCRIPTION"/>
 		<!-- Hoster Tully leads the Riverlands -->
+		<Row TraitType="TRAIT_CIVILIZATION_DISTRICT_THE_TWIN_TOWERS" Name="LOC_DISTRICT_THE_TWIN_TOWERS_NAME" Description="LOC_DISTRICT_THE_TWIN_TOWERS_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_BROTHERHOOD_WITHOUT_BANNERS" Name="LOC_UNIT_BROTHERHOOD_WITHOUT_BANNERS_NAME" Description="LOC_UNIT_BROTHERHOOD_WITHOUT_BANNERS_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_FAMILY_DUTY_HONOR" Name="LOC_TRAIT_CIVILIZATION_THE_RIVERLANDS_NAME" Description="LOC_TRAIT_CIVILIZATION_THE_RIVERLANDS_DESCRIPTION"/>
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</Traits>
@@ -642,6 +676,30 @@
 			<ModifierId>TRAIT_JA_UNIT_IGNORE_HILL_MOVEMENT_COST</ModifierId>
 		</Row>
 		<!-- Hoster Tully leads the Riverlands -->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_FAMILY_DUTY_HONOR</TraitType>
+			<ModifierId>TRAIT_HT_CITYCENTER_RIVER_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_FAMILY_DUTY_HONOR</TraitType>
+			<ModifierId>TRAIT_HT_CITYCENTER_RIVER_HOUSING</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_FAMILY_DUTY_HONOR</TraitType>
+			<ModifierId>TRAIT_HT_SPECIALTY_RIVER_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_FAMILY_DUTY_HONOR</TraitType>
+			<ModifierId>TRAIT_HT_SPECIALTY_RIVER_HOUSING</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_FAMILY_DUTY_HONOR</TraitType>
+			<ModifierId>TRAIT_HT_ADJUST_CITY_GROWTH_MODIFIER</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_FAMILY_DUTY_HONOR</TraitType>
+			<ModifierId>TRAIT_HT_ADJUST_CITY_GOLD_MODIFIER</ModifierId>
+		</Row>
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</TraitModifiers>
@@ -951,6 +1009,36 @@
 			<ModifierType>MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER</ModifierType>
 		</Row>
 		<!-- Hoster Tully leads the Riverlands -->
+		<Row>
+			<ModifierId>TRAIT_HT_CITYCENTER_RIVER_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>HT_PLOT_IS_RIVER_CITY_CENTER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HT_CITYCENTER_RIVER_HOUSING</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_HOUSING</ModifierType>
+			<SubjectRequirementSetId>HT_PLOT_IS_RIVER_CITY_CENTER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HT_SPECIALTY_RIVER_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_DISTRICT</ModifierType>
+			<SubjectRequirementSetId>HT_PLOT_IS_RIVER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HT_SPECIALTY_RIVER_HOUSING</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_HOUSING_PER_DISTRICT</ModifierType>
+			<SubjectRequirementSetId>HT_PLOT_IS_RIVER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HT_ADJUST_CITY_GROWTH_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_GROWTH</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GOVERNOR</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HT_ADJUST_CITY_GOLD_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_GOVERNOR</SubjectRequirementSetId>
+		</Row>
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</Modifiers>
@@ -2093,6 +2181,51 @@
 			<Value>ALTITUDE_TRAINING_IGNORE_HILLS</Value>
 		</Row>		
 		<!-- Hoster Tully leads the Riverlands -->
+		<Row>
+			<ModifierId>TRAIT_HT_CITYCENTER_RIVER_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HT_CITYCENTER_RIVER_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HT_CITYCENTER_RIVER_HOUSING</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HT_SPECIALTY_RIVER_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HT_SPECIALTY_RIVER_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HT_SPECIALTY_RIVER_HOUSING</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HT_ADJUST_CITY_GROWTH_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HT_ADJUST_CITY_GOLD_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HT_ADJUST_CITY_GOLD_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
+		</Row>
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</ModifierArguments>
@@ -2211,6 +2344,21 @@
 		<Row CivilizationType="CIVILIZATION_THE_VALE" CityName="LOC_CIVILIZATION_THE_VALE_CITY_14" />
 		<Row CivilizationType="CIVILIZATION_THE_VALE" CityName="LOC_CIVILIZATION_THE_VALE_CITY_15" />
 		<!-- Hoster Tully leads the Riverlands -->
+		<Row CivilizationType="CIVILIZATION_THE_RIVERLANDS" CityName="LOC_CIVILIZATION_THE_RIVERLANDS_CITY_1" />
+		<Row CivilizationType="CIVILIZATION_THE_RIVERLANDS" CityName="LOC_CIVILIZATION_THE_RIVERLANDS_CITY_2" />
+		<Row CivilizationType="CIVILIZATION_THE_RIVERLANDS" CityName="LOC_CIVILIZATION_THE_RIVERLANDS_CITY_3" />
+		<Row CivilizationType="CIVILIZATION_THE_RIVERLANDS" CityName="LOC_CIVILIZATION_THE_RIVERLANDS_CITY_4" />
+		<Row CivilizationType="CIVILIZATION_THE_RIVERLANDS" CityName="LOC_CIVILIZATION_THE_RIVERLANDS_CITY_5" />
+		<Row CivilizationType="CIVILIZATION_THE_RIVERLANDS" CityName="LOC_CIVILIZATION_THE_RIVERLANDS_CITY_6" />
+		<Row CivilizationType="CIVILIZATION_THE_RIVERLANDS" CityName="LOC_CIVILIZATION_THE_RIVERLANDS_CITY_7" />
+		<Row CivilizationType="CIVILIZATION_THE_RIVERLANDS" CityName="LOC_CIVILIZATION_THE_RIVERLANDS_CITY_8" />
+		<Row CivilizationType="CIVILIZATION_THE_RIVERLANDS" CityName="LOC_CIVILIZATION_THE_RIVERLANDS_CITY_9" />
+		<Row CivilizationType="CIVILIZATION_THE_RIVERLANDS" CityName="LOC_CIVILIZATION_THE_RIVERLANDS_CITY_10" />
+		<Row CivilizationType="CIVILIZATION_THE_RIVERLANDS" CityName="LOC_CIVILIZATION_THE_RIVERLANDS_CITY_11" />
+		<Row CivilizationType="CIVILIZATION_THE_RIVERLANDS" CityName="LOC_CIVILIZATION_THE_RIVERLANDS_CITY_12" />
+		<Row CivilizationType="CIVILIZATION_THE_RIVERLANDS" CityName="LOC_CIVILIZATION_THE_RIVERLANDS_CITY_13" />
+		<Row CivilizationType="CIVILIZATION_THE_RIVERLANDS" CityName="LOC_CIVILIZATION_THE_RIVERLANDS_CITY_14" />
+		<Row CivilizationType="CIVILIZATION_THE_RIVERLANDS" CityName="LOC_CIVILIZATION_THE_RIVERLANDS_CITY_15" />
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</CityNames>
@@ -2271,6 +2419,14 @@
 			<Color>240,240,240,255</Color>
 		</Row>
 		<!-- Hoster Tully leads the Riverlands -->
+		<Row>
+			<Type>COLOR_PLAYER_THE_RIVERLANDS_PRIMARY</Type>
+			<Color>187,43,43,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_THE_RIVERLANDS_SECONDARY</Type>
+			<Color>19,19,197,255</Color>
+		</Row>
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</Colors>
@@ -2324,6 +2480,13 @@
 			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
 		</Row>
 		<!-- Hoster Tully leads the Riverlands -->
+		<Row>
+			<Type>LEADER_HOSTER_TULLY</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_THE_RIVERLANDS_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_THE_RIVERLANDS_SECONDARY</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</PlayerColors>
@@ -2377,7 +2540,10 @@
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</StartBiasTerrains>
-
+	<StartBiasRivers>
+		<Row CivilizationType="CIVILIZATION_THE_RIVERLANDS" Tier="2"/>
+	</StartBiasRivers>
+	
 	<RequirementSets>
 		<!--THE IRONBORN-->
 		<Row>
@@ -2426,6 +2592,15 @@
 		</Row>
 				<Row>
 			<RequirementSetId>MT_PLOT_IS_FARM_INDUSTRIAL_ADJACENT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<!-- THE RIVERLANDS -->
+		<Row>
+			<RequirementSetId>HT_PLOT_IS_RIVER_CITY_CENTER_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>HT_PLOT_IS_RIVER_REQUIREMENTS</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
 	</RequirementSets>
@@ -2503,6 +2678,19 @@
 		<Row>
 			<RequirementSetId>MT_PLOT_IS_FARM_INDUSTRIAL_ADJACENT_REQUIREMENTS</RequirementSetId>
 			<RequirementId>REQUIRES_PLOT_HAS_FARM</RequirementId>
+		</Row>
+		<!-- THE RIVERLANDS -->
+		<Row>
+			<RequirementSetId>HT_PLOT_IS_RIVER_CITY_CENTER_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_RIVER</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>HT_PLOT_IS_RIVER_CITY_CENTER_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_DISTRICT_IS_CITY_CENTER</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>HT_PLOT_IS_RIVER_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_RIVER</RequirementId>
 		</Row>
 	</RequirementSetRequirements>
 

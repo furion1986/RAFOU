@@ -7,11 +7,11 @@
 		<Row Tag="LOC_CIVILIZATION_THE_VALE_ADJECTIVE">
 			<Text>The Vale</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_LORD_PUFFFISH_NAME">
+		<Row Tag="LOC_TRAIT_HAND_OF_THE_KING_NAME">
 			<Text>Hand of the King</Text>
 		</Row>
-		<Row Tag="LOC_TRAIT_LORD_PUFFFISH_DESCRIPTION">
-			<Text>All International [ICON_TradeRoute] Trade Routes From/To the Vale yield extra +1 [ICON_CULTURE] Culture. All [ICON_TradeRoute] Trade Routes From/To an ally of the Vale yield extra +2 [ICON_CULTURE] Culture.[NEWLINE]Has Crescent Chamber unique building replacing Palace. Allowing extra +3 diplomatic points from another civilization if you have sent Delegation or Resident Embassy to them.</Text>
+		<Row Tag="LOC_TRAIT_HAND_OF_THE_KING_DESCRIPTION">
+			<Text>All International [ICON_TradeRoute] Trade Routes From/To the Vale yield extra +1 [ICON_CULTURE] Culture. All [ICON_TradeRoute] Trade Routes From/To an ally of the Vale yield extra +2 [ICON_CULTURE] Culture.[NEWLINE]Has Crescent Chamber unique building. +1 [ICON_CULTURE] Culture and allowing extra +5 relationship points from another civilization if you have sent Delegation or Resident Embassy to them.</Text>
 		</Row>
 		<Row Tag="LOC_LEADER_JON_ARRYN_QUOTE">
 			<Text>"Jon Arryn was a wise man and a good Hand." - Eddard Stark to Rebert Baratheon</Text>

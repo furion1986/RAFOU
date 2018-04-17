@@ -13,10 +13,17 @@
 		<!-- Jon Arryn leads the Vale -->
 		<Row Type="DISTRICT_GATE_OF_THE_MOON" Kind="KIND_DISTRICT"/>
 		<Row Type="BUILDING_CRESCENT_CHAMBER" Kind="KIND_BUILDING"/>
+		<Row Type="TRAIT_RAFOU_DUMMY_BUILDINGS" Kind="KIND_TRAIT" />
 		<!-- Hoster Tully leads the Riverlands -->
+		<Row Type="DISTRICT_THE_TWIN_TOWERS" Kind="KIND_DISTRICT"/>
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</Types>
+	
+	<Traits>
+		<!--Unique trait for sellswords-->
+		<Row TraitType="TRAIT_RAFOU_DUMMY_BUILDINGS" Name="LOC_TRAIT_RAFOU_DUMMY_BUILDINGS_NAME" Description="LOC_TRAIT_RAFOU_DUMMY_BUILDINGS_DESCRIPTION"/>
+	</Traits>
 
 	<DistrictReplaces>
 		<!-- Balon Greyjoy leads the Ironborn -->
@@ -29,6 +36,7 @@
 		<!-- Jon Arryn leads the Vale -->
 		<Row CivUniqueDistrictType="DISTRICT_GATE_OF_THE_MOON" ReplacesDistrictType="DISTRICT_NEIGHBORHOOD"/>
 		<!-- Hoster Tully leads the Riverlands -->
+		<Row CivUniqueDistrictType="DISTRICT_THE_TWIN_TOWERS" ReplacesDistrictType="DISTRICT_AQUEDUCT"/>
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</DistrictReplaces>
@@ -42,7 +50,6 @@
 		<Row CivUniqueBuildingType="BUILDING_JOUSTING_ARENA" ReplacesBuildingType="BUILDING_STABLE"/>
 		<!-- Mace Tyrell leads the Reach -->
 		<!-- Jon Arryn leads the Vale -->
-		<Row CivUniqueBuildingType="BUILDING_CRESCENT_CHAMBER" ReplacesBuildingType="BUILDING_PALACE"/>
 		<!-- Hoster Tully leads the Riverlands -->
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
@@ -59,6 +66,7 @@
 		<!-- Jon Arryn leads the Vale -->
 		<Row DistrictType="DISTRICT_GATE_OF_THE_MOON" Name="LOC_DISTRICT_GATE_OF_THE_MOON_NAME" Description="LOC_DISTRICT_GATE_OF_THE_MOON_DESCRIPTION" PrereqCivic="CIVIC_DEFENSIVE_TACTICS" PlunderType="NO_PLUNDER" AdvisorType="ADVISOR_GENERIC" Cost="27" CostProgressionModel="COST_PROGRESSION_GAME_PROGRESS" CostProgressionParam1="1000" RequiresPlacement="true" RequiresPopulation="false" Aqueduct="false" NoAdjacentCity="false" InternalOnly="false" ZOC="true" HitPoints="100" CaptureRemovesBuildings="true" CaptureRemovesCityDefenses="false" MilitaryDomain="DOMAIN_LAND" Housing="5" CityStrengthModifier="2" TraitType="TRAIT_CIVILIZATION_DISTRICT_GATE_OF_THE_MOON"/>
 		<!-- Hoster Tully leads the Riverlands -->
+		<Row DistrictType="DISTRICT_THE_TWIN_TOWERS" Name="LOC_DISTRICT_THE_TWIN_TOWERS_NAME" Description="LOC_DISTRICT_THE_TWIN_TOWERS_DESCRIPTION" PlunderType="NO_PLUNDER" AdvisorType="ADVISOR_GENERIC" Cost="27" RequiresPlacement="true" RequiresPopulation="false" Aqueduct="true" FreeEmbark="true" NoAdjacentCity="false" InternalOnly="false" ZOC="true" HitPoints="150" TradeEmbark="true" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="true" MilitaryDomain="DOMAIN_LAND" CityStrengthModifier="2" PrereqTech="TECH_CASTLES" TraitType="TRAIT_CIVILIZATION_DISTRICT_THE_TWIN_TOWERS"/>
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</Districts>
@@ -72,7 +80,7 @@
 		<Row BuildingType="BUILDING_JOUSTING_ARENA" Name="LOC_BUILDING_JOUSTING_ARENA_NAME" Description="LOC_BUILDING_JOUSTING_ARENA_DESCRIPTION" PrereqTech="TECH_HORSEBACK_RIDING" PrereqDistrict="DISTRICT_ENCAMPMENT" PurchaseYield="YIELD_GOLD" Cost="120" AdvisorType="ADVISOR_CONQUEST" Maintenance="1" Housing="1" Entertainment="1" CitizenSlots="1" TraitType ="TRAIT_CIVILIZATION_BUILDING_JOUSTING_ARENA"/>
 		<!-- Mace Tyrell leads the Reach -->
 		<!-- Jon Arryn leads the Vale -->
-		<Row BuildingType="BUILDING_CRESCENT_CHAMBER" Name="LOC_BUILDING_CRESCENT_CHAMBER_NAME" Description="LOC_BUILDING_CRESCENT_CHAMBER_DESCRIPTION" PrereqDistrict="DISTRICT_CITY_CENTER" Cost="1" AdvisorType="ADVISOR_GENERIC" Housing="1" Entertainment="1" Capital="true" MaxPlayerInstances="1" TraitType ="TRAIT_HAND_OF_THE_KING"/>
+		<Row BuildingType="BUILDING_CRESCENT_CHAMBER" Name="LOC_BUILDING_CRESCENT_CHAMBER_NAME" Description="LOC_BUILDING_CRESCENT_CHAMBER_DESCRIPTION" PrereqDistrict="DISTRICT_CITY_CENTER" Cost="40" AdvisorType="ADVISOR_GENERIC" MaxPlayerInstances="1" TraitType ="TRAIT_HAND_OF_THE_KING"/>
 		<!-- Hoster Tully leads the Riverlands -->
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
@@ -177,6 +185,10 @@
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</Adjacency_YieldChanges>
 	
+	<BuildingPrereqs>
+		<Row Building="BUILDING_CRESCENT_CHAMBER" PrereqBuilding="BUILDING_PALACE"/>
+	</BuildingPrereqs>
+	
 	<Building_YieldChanges>
 		<!-- Balon Greyjoy leads the Ironborn -->
 		<Row BuildingType="BUILDING_CAPTAINS_TAVERN" YieldChange="1" YieldType="YIELD_FOOD"/>
@@ -188,9 +200,6 @@
 		<!-- Mace Tyrell leads the Reach -->
 		<!-- Jon Arryn leads the Vale -->
 		<Row BuildingType="BUILDING_CRESCENT_CHAMBER" YieldType="YIELD_CULTURE" YieldChange="1"/>
-		<Row BuildingType="BUILDING_CRESCENT_CHAMBER" YieldType="YIELD_GOLD" YieldChange="5"/>
-		<Row BuildingType="BUILDING_CRESCENT_CHAMBER" YieldType="YIELD_PRODUCTION" YieldChange="2"/>
-		<Row BuildingType="BUILDING_CRESCENT_CHAMBER" YieldType="YIELD_SCIENCE" YieldChange="2"/>
 		<!-- Hoster Tully leads the Riverlands -->
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
@@ -209,10 +218,6 @@
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</Building_GreatPersonPoints>
-	
-	<Building_GreatWorks>
-		<Row BuildingType="BUILDING_CRESCENT_CHAMBER" GreatWorkSlotType="GREATWORKSLOT_PALACE" NumSlots="1" NonUniquePersonYield="1" NonUniquePersonTourism="1"/>
-	</Building_GreatWorks>
 
 	<Modifiers>
 		<!-- Balon Greyjoy leads the Ironborn -->
@@ -262,6 +267,26 @@
 			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_BASE_YIELD_CHANGE</ModifierType>
 		</Row>
 		<!-- Hoster Tully leads the Riverlands -->
+		<Row>
+			<ModifierId>THE_TWIN_TOWERS_CULTURE_FROM_MONUMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_BASE_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>HT_CITY_HAS_MONUMENT</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>THE_TWIN_TOWERS_FOOD_FROM_GRANARY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_BASE_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>HT_CITY_HAS_GRANARY</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>THE_TWIN_TOWERS_FOOD_FROM_WATERMILL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_BASE_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>HT_CITY_HAS_WATERMILL</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>THE_TWIN_TOWERS_PRODUCTION_FROM_WATERMILL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICT_ADJUST_BASE_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>HT_CITY_HAS_WATERMILL</SubjectRequirementSetId>
+		</Row>
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</Modifiers>
@@ -344,6 +369,46 @@
 			<Value>YIELD_PRODUCTION</Value>
 		</Row>
 		<!-- Hoster Tully leads the Riverlands -->
+		<Row>
+			<ModifierId>THE_TWIN_TOWERS_CULTURE_FROM_MONUMENT</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>THE_TWIN_TOWERS_CULTURE_FROM_MONUMENT</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>THE_TWIN_TOWERS_FOOD_FROM_GRANARY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>THE_TWIN_TOWERS_FOOD_FROM_GRANARY</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+				<Row>
+			<ModifierId>THE_TWIN_TOWERS_FOOD_FROM_WATERMILL</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>THE_TWIN_TOWERS_FOOD_FROM_WATERMILL</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+				<Row>
+			<ModifierId>THE_TWIN_TOWERS_PRODUCTION_FROM_WATERMILL</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>THE_TWIN_TOWERS_PRODUCTION_FROM_WATERMILL</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</ModifierArguments>
@@ -364,6 +429,22 @@
 			<ModifierId>GATE_OF_THE_MOON_PRODUCTION</ModifierId>
 		</Row>
 		<!-- Hoster Tully leads the Riverlands -->
+		<Row>
+			<DistrictType>DISTRICT_THE_TWIN_TOWERS</DistrictType>
+			<ModifierId>THE_TWIN_TOWERS_CULTURE_FROM_MONUMENT</ModifierId>
+		</Row>
+		<Row>
+			<DistrictType>DISTRICT_THE_TWIN_TOWERS</DistrictType>
+			<ModifierId>THE_TWIN_TOWERS_FOOD_FROM_GRANARY</ModifierId>
+		</Row>
+		<Row>
+			<DistrictType>DISTRICT_THE_TWIN_TOWERS</DistrictType>
+			<ModifierId>THE_TWIN_TOWERS_FOOD_FROM_WATERMILL</ModifierId>
+		</Row>
+		<Row>
+			<DistrictType>DISTRICT_THE_TWIN_TOWERS</DistrictType>
+			<ModifierId>THE_TWIN_TOWERS_PRODUCTION_FROM_WATERMILL</ModifierId>
+		</Row>
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</DistrictModifiers>
@@ -399,13 +480,68 @@
 		</Row>
 		<!-- Mace Tyrell leads the Reach -->
 		<!-- Jon Arryn leads the Vale -->
-		<Row>
-			<BuildingType>BUILDING_CRESCENT_CHAMBER</BuildingType>
-			<ModifierId>PALACE_ADJUST_GARRISON_STRENGTH</ModifierId>
-		</Row>
 		<!-- Hoster Tully leads the Riverlands -->
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</BuildingModifiers>
 	
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>HT_CITY_HAS_MONUMENT</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>HT_CITY_HAS_GRANARY</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>HT_CITY_HAS_WATERMILL</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>HT_CITY_HAS_MONUMENT</RequirementSetId>
+			<RequirementId>HT_REQUIRES_CITY_HAS_MONUMENT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>HT_CITY_HAS_GRANARY</RequirementSetId>
+			<RequirementId>HT_REQUIRES_CITY_HAS_GRANARY</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>HT_CITY_HAS_WATERMILL</RequirementSetId>
+			<RequirementId>HT_REQUIRES_CITY_HAS_WATERMILL</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row>
+			<RequirementId>HT_REQUIRES_CITY_HAS_MONUMENT</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>HT_REQUIRES_CITY_HAS_GRANARY</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>HT_REQUIRES_CITY_HAS_WATERMILL</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>HT_REQUIRES_CITY_HAS_MONUMENT</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_MONUMENT</Value>
+		</Row>
+		<Row>
+			<RequirementId>HT_REQUIRES_CITY_HAS_GRANARY</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_GRANARY</Value>
+		</Row>
+		<Row>
+			<RequirementId>HT_REQUIRES_CITY_HAS_WATERMILL</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_WATER_MILL</Value>
+		</Row>
+	</RequirementArguments>
 </GameData>

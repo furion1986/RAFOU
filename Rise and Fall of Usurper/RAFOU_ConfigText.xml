@@ -214,7 +214,7 @@
 			<Text>Crescent Chamber</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_CRESCENT_CHAMBER_DESCRIPTION">
-			<Text>A building unique to Jon Arryn replacing Palace. [NEWLINE]Other than standard Palace yields and Slot, Crescent Chamber also earns extra +3 diplomatic points from another civilization if you have sent Delegation or Resident Embassy to them.</Text>
+			<Text>A building unique to Jon Arryn. Must build in Capital City. [NEWLINE]+1 [ICON_CULTURE] Culture. Crescent Chamber also earns extra +5 relationship points from another civilization if you have sent Delegation or Resident Embassy to them.</Text>
 		</Row>
 		<Row Tag="LOC_LEADER_JON_ARRYN_NAME">
 			<Text>Jon Arryn</Text>
@@ -236,7 +236,7 @@
 			<Text>Hand of the King</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_JON_ARRYN_DESCRIPTION">
-			<Text>All International [ICON_TradeRoute] Trade Routes From/To the Vale yield extra +1 [ICON_CULTURE] Culture. All [ICON_TradeRoute] Trade Routes From/To an ally of the Vale yield extra +2 [ICON_CULTURE] Culture.[NEWLINE]Has Crescent Chamber unique building replacing Palace. Allowing extra +3 diplomatic points from another civilization if you have sent Delegation or Resident Embassy to them.</Text>
+			<Text>All International [ICON_TradeRoute] Trade Routes From/To the Vale yield extra +1 [ICON_CULTURE] Culture. All [ICON_TradeRoute] Trade Routes From/To an ally of the Vale yield extra +2 [ICON_CULTURE] Culture.[NEWLINE]Has Crescent Chamber unique building. +1 [ICON_CULTURE] Culture and allowing extra +5 relationship points from another civilization if you have sent Delegation or Resident Embassy to them.</Text>
 		</Row>
 	</BaseGameText>
 </GameData>
