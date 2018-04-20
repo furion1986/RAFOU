@@ -238,5 +238,58 @@
 		<Row Tag="LOC_TRAIT_LEADER_JON_ARRYN_DESCRIPTION">
 			<Text>All International [ICON_TradeRoute] Trade Routes From/To the Vale yield extra +1 [ICON_CULTURE] Culture. All [ICON_TradeRoute] Trade Routes From/To an ally of the Vale yield extra +2 [ICON_CULTURE] Culture.[NEWLINE]Has Crescent Chamber unique building. +1 [ICON_CULTURE] Culture and allowing extra +5 relationship points from another civilization if you have sent Delegation or Resident Embassy to them.</Text>
 		</Row>
+		<!-- Hoster Tully Leads the Riverlands -->
+		<Row Tag="LOC_UNIT_BROTHERHOOD_WITHOUT_BANNERS_NAME">
+			<Text>Brotherhood without Banners</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_BROTHERHOOD_WITHOUT_BANNERS_DESCRIPTION">
+			<Text>A group of outlaws founded in the Riverlands.[NEWLINE]Has the ability to move freely in forest and jungle without movement penalty. Can also see through these features.[NEWLINE]Upon spawn, randomly picked from one of these three types:[NEWLINE]Exile Knight: Heavy Cavalry class. Longbowman: Ranged class with 3 [ICON_RANGED] attack range. Warrior Monk of Myr: Melee class. Doesn't lose [ICON_Strength] combat strength when they take damage. Horrifies adjacent enemies (-2 [ICON_Strength] combat strength) with aflame sword.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_BROTHERHOOD_WITHOUT_BANNERS_EXILE_KNIGHT_NAME">
+			<Text>Exile Knight</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_BROTHERHOOD_WITHOUT_BANNERS_EXILE_KNIGHT_DESCRIPTION">
+			<Text>Heavy Cavalry class.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_BROTHERHOOD_WITHOUT_BANNERS_LONGBOW_NAME">
+			<Text>Longbowman</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_BROTHERHOOD_WITHOUT_BANNERS_LONGBOW_DESCRIPTION">
+			<Text>Ranged class with 3 [ICON_RANGED] attack range. </Text>
+		</Row>
+		<Row Tag="LOC_UNIT_BROTHERHOOD_WITHOUT_BANNERS_WARRIOR_MONK_OF_MYR_NAME">
+			<Text>Warrior Monk of Myr</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_BROTHERHOOD_WITHOUT_BANNERS_WARRIOR_MONK_OF_MYR_DESCRIPTION">
+			<Text>Melee class. Doesn't lose [ICON_Strength] combat strength when they take damage. Horrifies adjacent enemies (-2 [ICON_Strength] combat strength) with aflame sword.</Text>
+		</Row>		
+		<Row Tag="LOC_DISTRICT_THE_TWIN_TOWERS_NAME">
+			<Text>The Twin Towers</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_THE_TWIN_TOWERS_DESCRIPTION">
+			<Text>A district unique to The Riverlands. Replaces Aqueduct but unlocks later (Castles).[NEWLINE]A Twin Tower receives yield copies from City Center buildings. It also functions as Encampment with 150 Hit Points and can initiate [ICON_Ranged] Ranged Strikes if city has Walls.[NEWLINE]Yet if a Twin Tower is pillaged, the city will loose -100 Loyalty.</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_HOSTER_TULLY_NAME">
+			<Text>Hoster Tully</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_HOSTER_TULLY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_RIVERLANDS_NAME">
+			<Text>The Riverlands</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_THE_RIVERLANDS_NAME">
+			<Text>Family, Duy, Honor</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_THE_RIVERLANDS_DESCRIPTION">
+			<Text>City Center and Specialty Districts adjacent to river +1 [ICON_PRODUCTION] Production and +1 [ICON_HOUSING] Housing.[NEWLINE]Cities with [ICON_GOVERNOR] Governor have +10% [ICON_CITIZEN] increase of growth and +10% [ICON_GOLD] Gold.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_HOSTER_TULLY_NAME">
+			<Text>Advantageous Betrothal</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_HOSTER_TULLY_DESCRIPTION">
+			<Text>**Not Functional Yet** Can Annex a City-State you are Suzerain of with [ICON_GOLD] Gold. Cost is determined by [ICON_CITIZEN] Population, [ICON_PRODUCTION] costs of Districts, Buildings and Units of the City-State.[NEWLINE]Annexed City-State will always have full Loyalty, keeps it's City-State type bonus to you when you annex it. Annexed City-State will also be considered as city originally founded by the Riverlands without Religious population, so that it cannot be Liberated nor trigger Casus Belli.</Text>
+		</Row>
 	</BaseGameText>
 </GameData>

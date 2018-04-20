@@ -25,12 +25,20 @@
 		<!-- Jon Arryn leads the Vale -->
 		<Row Kind="KIND_UNIT" Type="UNIT_VALE_KNIGHT"/>
 		<!-- Hoster Tully leads the Riverlands -->
+		<Row Kind="KIND_UNIT" Type="UNIT_BROTHERHOOD_WITHOUT_BANNERS"/>
+		<Row Kind="KIND_UNIT" Type="UNIT_BROTHERHOOD_WITHOUT_BANNERS_LONGBOW"/>
+		<Row Kind="KIND_UNIT" Type="UNIT_BROTHERHOOD_WITHOUT_BANNERS_EXILE_KNIGHT"/>
+		<Row Kind="KIND_UNIT" Type="UNIT_BROTHERHOOD_WITHOUT_BANNERS_WARRIOR_MONK_OF_MYR"/>
+		<Row Type="TRAIT_DUMMY_UNIT_BROTHERHOOD_WITHOUT_BANNERS" Kind="KIND_TRAIT"/>
+		<Row Type="ABILITY_BROTHERHOOD_WITHOUT_BANNERS" Kind="KIND_ABILITY"/>
+		<Row Type="ABILITY_WARRIOR_MONK_OF_MYR_FEARLESS" Kind="KIND_ABILITY"/>
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</Types>
 	<Traits>
 		<!--Unique trait for sellswords-->
 		<Row TraitType="TRAIT_DUMMY_UNIT_SELLSWORDS" Name="LOC_TRAIT_DUMMY_UNIT_SELLSWORDS_NAME" Description="LOC_TRAIT_DUMMY_UNIT_SELLSWORDS_DESCRIPTION"/>
+		<Row TraitType="TRAIT_DUMMY_UNIT_BROTHERHOOD_WITHOUT_BANNERS" Name="LOC_TRAIT_DUMMY_UNIT_BROTHERHOOD_WITHOUT_BANNERS_NAME" Description="LOC_TRAIT_DUMMY_UNIT_BROTHERHOOD_WITHOUT_BANNERS_DESCRIPTION"/>
 	</Traits>
 	<Tags>
 		<!-- Balon Greyjoy leads the Ironborn -->
@@ -43,6 +51,8 @@
 		<!-- Mace Tyrell leads the Reach -->
 		<!-- Jon Arryn leads the Vale -->
 		<!-- Hoster Tully leads the Riverlands -->
+		<Row Tag="CLASS_BROTHERHOOD_WITHOUT_BANNERS" Vocabulary="ABILITY_CLASS"/>
+		<Row Tag="CLASS_BROTHERHOOD_WITHOUT_BANNERS_FEARLESS" Vocabulary="ABILITY_CLASS"/>
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</Tags>
@@ -78,6 +88,16 @@
 		<Row Type="UNIT_VALE_KNIGHT" Tag="CLASS_HEAVY_CAVALRY"/>
 		<Row Type="UNIT_VALE_KNIGHT" Tag="CLASS_ROUGH_RIDER"/>
 		<!-- Hoster Tully leads the Riverlands -->
+		<Row Type="UNIT_BROTHERHOOD_WITHOUT_BANNERS" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_BROTHERHOOD_WITHOUT_BANNERS_EXILE_KNIGHT" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="UNIT_BROTHERHOOD_WITHOUT_BANNERS_LONGBOW" Tag="CLASS_RANGED"/>
+		<Row Type="UNIT_BROTHERHOOD_WITHOUT_BANNERS_WARRIOR_MONK_OF_MYR" Tag="CLASS_MELEE"/>
+		<Row Type="UNIT_BROTHERHOOD_WITHOUT_BANNERS_EXILE_KNIGHT" Tag="CLASS_BROTHERHOOD_WITHOUT_BANNERS"/>
+		<Row Type="UNIT_BROTHERHOOD_WITHOUT_BANNERS_LONGBOW" Tag="CLASS_BROTHERHOOD_WITHOUT_BANNERS"/>
+		<Row Type="UNIT_BROTHERHOOD_WITHOUT_BANNERS_WARRIOR_MONK_OF_MYR" Tag="CLASS_BROTHERHOOD_WITHOUT_BANNERS"/>
+		<Row Type="UNIT_BROTHERHOOD_WITHOUT_BANNERS_WARRIOR_MONK_OF_MYR" Tag="CLASS_BROTHERHOOD_WITHOUT_BANNERS_FEARLESS"/>
+		<Row Type="ABILITY_BROTHERHOOD_WITHOUT_BANNERS" Tag="CLASS_BROTHERHOOD_WITHOUT_BANNERS"/>
+		<Row Type="ABILITY_WARRIOR_MONK_OF_MYR_FEARLESS" Tag="CLASS_BROTHERHOOD_WITHOUT_BANNERS_FEARLESS"/>
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</TypeTags>
@@ -99,6 +119,10 @@
 		<!-- Jon Arryn leads the Vale -->
 		<Row UnitType="UNIT_VALE_KNIGHT" TraitType="TRAIT_CIVILIZATION_UNIT_VALE_KNIGHT" Cost="180" Maintenance="3" BaseMoves="4" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="45" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_VALE_KNIGHT_NAME" Description="LOC_UNIT_VALE_KNIGHT_DESCRIPTION" PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_COMPOSITES" PrereqTech="TECH_STIRRUPS"/>
 		<!-- Hoster Tully leads the Riverlands -->
+		<Row UnitType="UNIT_BROTHERHOOD_WITHOUT_BANNERS" TraitType="TRAIT_CIVILIZATION_UNIT_BROTHERHOOD_WITHOUT_BANNERS" Cost="100" Maintenance="2" BaseMoves="2" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="36" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_MELEE" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_BROTHERHOOD_WITHOUT_BANNERS_NAME" Description="LOC_UNIT_BROTHERHOOD_WITHOUT_BANNERS_DESCRIPTION" PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_GUNPOWDER" PrereqTech="TECH_IRON_WORKING"/>
+		<Row UnitType="UNIT_BROTHERHOOD_WITHOUT_BANNERS_EXILE_KNIGHT" TraitType="TRAIT_DUMMY_UNIT_BROTHERHOOD_WITHOUT_BANNERS" Cost="100" Maintenance="2" BaseMoves="4" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="36" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_BROTHERHOOD_WITHOUT_BANNERS_EXILE_KNIGHT_NAME" Description="LOC_UNIT_BROTHERHOOD_WITHOUT_BANNERS_EXILE_KNIGHT_DESCRIPTION" PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_GUNPOWDER" PrereqTech="TECH_IRON_WORKING"/>
+		<Row UnitType="UNIT_BROTHERHOOD_WITHOUT_BANNERS_LONGBOW" TraitType="TRAIT_DUMMY_UNIT_BROTHERHOOD_WITHOUT_BANNERS" Cost="100" Maintenance="2" BaseMoves="2" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="25" RangedCombat="35" Range="3"FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_RANGED" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_BROTHERHOOD_WITHOUT_BANNERS_LONGBOW_NAME" Description="LOC_UNIT_BROTHERHOOD_WITHOUT_BANNERS_LONGBOW_DESCRIPTION" PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_GUNPOWDER" PrereqTech="TECH_IRON_WORKING"/>
+		<Row UnitType="UNIT_BROTHERHOOD_WITHOUT_BANNERS_WARRIOR_MONK_OF_MYR" TraitType="TRAIT_DUMMY_UNIT_BROTHERHOOD_WITHOUT_BANNERS" Cost="100" Maintenance="2" BaseMoves="2" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="36" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_MELEE" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_BROTHERHOOD_WITHOUT_BANNERS_WARRIOR_MONK_OF_MYR_NAME" Description="LOC_UNIT_BROTHERHOOD_WITHOUT_BANNERS_WARRIOR_MONK_OF_MYR_DESCRIPTION" PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_GUNPOWDER" PrereqTech="TECH_IRON_WORKING"/>
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</Units>
@@ -113,6 +137,8 @@
 		<!-- Mace Tyrell leads the Reach -->
 		<!-- Jon Arryn leads the Vale -->
 		<!-- Hoster Tully leads the Riverlands -->
+		<Row UnitAbilityType="ABILITY_BROTHERHOOD_WITHOUT_BANNERS" Name="LOC_ABILITY_BROTHERHOOD_WITHOUT_BANNERS_NAME" Description="LOC_ABILITY_BROTHERHOOD_WITHOUT_BANNERS_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_WARRIOR_MONK_OF_MYR_FEARLESS" Name="LOC_ABILITY_WARRIOR_MONK_OF_MYR_FEARLESS_NAME" Description="LOC_ABILITY_WARRIOR_MONK_OF_MYR_FEARLESS_DESCRIPTION"/>
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</UnitAbilities>
@@ -140,6 +166,22 @@
 		<!-- Mace Tyrell leads the Reach -->
 		<!-- Jon Arryn leads the Vale -->
 		<!-- Hoster Tully leads the Riverlands -->
+		<Row>
+			<UnitAbilityType>ABILITY_BROTHERHOOD_WITHOUT_BANNERS</UnitAbilityType>
+			<ModifierId>RANGER_IGNORE_FOREST_MOVEMENT_PENALTY</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_BROTHERHOOD_WITHOUT_BANNERS</UnitAbilityType>
+			<ModifierId>SENTRY_SEE_THROUGH_FEATURES</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_WARRIOR_MONK_OF_MYR_FEARLESS</UnitAbilityType>
+			<ModifierId>SAMURAI_NO_REDUCTION_DAMAGE</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_WARRIOR_MONK_OF_MYR_FEARLESS</UnitAbilityType>
+			<ModifierId>HT_MONK_NEGATIVE_COMBAT</ModifierId>
+		</Row>		
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</UnitAbilityModifiers>
@@ -178,6 +220,15 @@
 		<!-- Mace Tyrell leads the Reach -->
 		<!-- Jon Arryn leads the Vale -->
 		<!-- Hoster Tully leads the Riverlands -->
+		<Row>
+			<ModifierId>HT_MONK_NEGATIVE_COMBAT</ModifierId>
+			<ModifierType>MODIFIER_ALL_UNITS_ATTACH_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>VARU_ADJACENT_AT_WAR_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>HT_MONK_NEGATIVE_COMBAT_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</Modifiers>
@@ -224,6 +275,16 @@
 		<!-- Mace Tyrell leads the Reach -->
 		<!-- Jon Arryn leads the Vale -->
 		<!-- Hoster Tully leads the Riverlands -->
+		<Row>
+			<ModifierId>HT_MONK_NEGATIVE_COMBAT</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>HT_MONK_NEGATIVE_COMBAT_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>HT_MONK_NEGATIVE_COMBAT_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>-3</Value>
+		</Row>
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</ModifierArguments>
@@ -239,6 +300,7 @@
 		<!-- Mace Tyrell leads the Reach -->
 		<!-- Jon Arryn leads the Vale -->
 		<!-- Hoster Tully leads the Riverlands -->
+		<Row ModifierId="HT_MONK_NEGATIVE_COMBAT_MODIFIER" Context="Preview" Text="LOC_ABILITY_HT_MONK_NEGATIVE_COMBAT_MODIFIER_DESCRIPTION"/>
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</ModifierStrings>
@@ -280,6 +342,16 @@
 		<Row UnitType="UNIT_VALE_KNIGHT" AiType="UNITTYPE_CAVALRY"/>
 		<Row UnitType="UNIT_VALE_KNIGHT" AiType="UNITTYPE_LAND_COMBAT"/>
 		<!-- Hoster Tully leads the Riverlands -->
+		<Row UnitType="UNIT_BROTHERHOOD_WITHOUT_BANNERS_EXILE_KNIGHT" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_BROTHERHOOD_WITHOUT_BANNERS_EXILE_KNIGHT" AiType="UNITTYPE_CAVALRY"/>
+		<Row UnitType="UNIT_BROTHERHOOD_WITHOUT_BANNERS_EXILE_KNIGHT" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_BROTHERHOOD_WITHOUT_BANNERS_EXILE_KNIGHT" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_BROTHERHOOD_WITHOUT_BANNERS_WARRIOR_MONK_OF_MYR" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_BROTHERHOOD_WITHOUT_BANNERS_WARRIOR_MONK_OF_MYR" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_BROTHERHOOD_WITHOUT_BANNERS_WARRIOR_MONK_OF_MYR" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_BROTHERHOOD_WITHOUT_BANNERS_LONGBOW" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_BROTHERHOOD_WITHOUT_BANNERS_LONGBOW" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_BROTHERHOOD_WITHOUT_BANNERS_LONGBOW" AiType="UNITTYPE_LAND_COMBAT"/>
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</UnitAiInfos>
@@ -318,6 +390,9 @@
 		<!-- Jon Arryn leads the Vale -->
 		<Row Unit="UNIT_VALE_KNIGHT" UpgradeUnit="UNIT_TANK"/>
 		<!-- Hoster Tully leads the Riverlands -->
+		<Row Unit="UNIT_BROTHERHOOD_WITHOUT_BANNERS_EXILE_KNIGHT" UpgradeUnit="UNIT_TANK"/>
+		<Row Unit="UNIT_BROTHERHOOD_WITHOUT_BANNERS_WARRIOR_MONK_OF_MYR" UpgradeUnit="UNIT_MUSKETMAN"/>
+		<Row Unit="UNIT_BROTHERHOOD_WITHOUT_BANNERS_LONGBOW" UpgradeUnit="UNIT_FIELD_CANNON"/>
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</UnitUpgrades>
@@ -346,6 +421,11 @@
 		<Row UnitType="UNIT_THRALL" ImprovementType="IMPROVEMENT_OFFSHORE_OIL_RIG"/>
 		<Row UnitType="UNIT_THRALL" ImprovementType="IMPROVEMENT_BEACH_RESORT"/>
 		<Row UnitType="UNIT_THRALL" ImprovementType="IMPROVEMENT_FISHING_BOATS"/>
+		<Row ImprovementType="IMPROVEMENT_COLOSSAL_HEAD" UnitType="UNIT_THRALL"/>
+		<Row ImprovementType="IMPROVEMENT_ALCAZAR" UnitType="UNIT_THRALL"/>
+		<Row ImprovementType="IMPROVEMENT_MONASTERY" UnitType="UNIT_THRALL"/>
+		<Row ImprovementType="IMPROVEMENT_FISHERY" UnitType="UNIT_THRALL"/>
+		<Row ImprovementType="IMPROVEMENT_CITY_PARK" UnitType="UNIT_THRALL"/>
 	</Improvement_ValidBuildUnits>
 	<Technologies>
 		<!-- Balon Greyjoy leads the Ironborn -->

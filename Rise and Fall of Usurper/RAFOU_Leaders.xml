@@ -30,6 +30,9 @@
 		<Row Type="TRAIT_HAND_OF_THE_KING" Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_AGENDA_THE_NOBLE_HAND" Kind="KIND_TRAIT"/>
 		<!-- Hoster Tully leads the Riverlands -->
+		<Row Type="LEADER_HOSTER_TULLY" Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_ADVANTAGEOUS_BETROTHAL" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_LORD_TROUT" Kind="KIND_TRAIT"/>
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</Types>
@@ -82,6 +85,11 @@
 			<InheritFrom>LEADER_DEFAULT</InheritFrom>
 		</Row>
 		<!-- Hoster Tully leads the Riverlands -->
+		<Row>
+			<LeaderType>LEADER_HOSTER_TULLY</LeaderType>
+			<Name>LOC_LEADER_HOSTER_TULLY_NAME</Name>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+		</Row>
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</Leaders>
@@ -100,6 +108,7 @@
 		<!-- Jon Arryn leads the Vale -->
 		<Row LeaderType="LEADER_JON_ARRYN" Quote="LOC_LEADER_JON_ARRYN_QUOTE"/>
 		<!-- Hoster Tully leads the Riverlands -->
+		<Row LeaderType="LEADER_HOSTER_TULLY" Quote="LOC_LEADER_HOSTER_TULLY_QUOTE"/>
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</LeaderQuotes>
@@ -120,6 +129,7 @@
 		<!-- Jon Arryn leads the Vale -->
 		<Row LeaderType="LEADER_JON_ARRYN" TraitType="TRAIT_HAND_OF_THE_KING"/>
 		<!-- Hoster Tully leads the Riverlands -->
+		<Row LeaderType="LEADER_HOSTER_TULLY" TraitType="TRAIT_ADVANTAGEOUS_BETROTHAL"/>
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</LeaderTraits>
@@ -143,6 +153,8 @@
 		<Row Name="LOC_TRAIT_HAND_OF_THE_KING_NAME" TraitType="TRAIT_HAND_OF_THE_KING" Description="LOC_TRAIT_HAND_OF_THE_KING_DESCRIPTION"/>
 		<Row Name="LOC_PLACEHOLDER" TraitType="TRAIT_AGENDA_THE_NOBLE_HAND" Description="LOC_PLACEHOLDER"/>
 		<!-- Hoster Tully leads the Riverlands -->
+		<Row Name="LOC_TRAIT_ADVANTAGEOUS_BETROTHAL_NAME" TraitType="TRAIT_ADVANTAGEOUS_BETROTHAL" Description="LOC_TRAIT_ADVANTAGEOUS_BETROTHAL_DESCRIPTION"/>
+		<Row Name="LOC_PLACEHOLDER" TraitType="TRAIT_AGENDA_LORD_TROUT" Description="LOC_PLACEHOLDER"/>
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</Traits>

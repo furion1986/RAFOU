@@ -19,7 +19,7 @@ function LeaderHasTrait(sLeader, sTrait)
 	for tRow in GameInfo.LeaderTraits() do
 		if (tRow.LeaderType == sLeader and tRow.TraitType == sTrait) then return true end
 	end
-	return false
+	return false;
 end
 ----------Set Civilization Trait to The Westerlands----------
 local sHearMeRoar = "TRAIT_CIVILIZATION_HEAR_ME_ROAR";
