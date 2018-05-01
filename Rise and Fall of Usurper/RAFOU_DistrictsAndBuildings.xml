@@ -29,6 +29,8 @@
 		<Row Type="BUILDING_SOLAR_OF_TULLYS_DAUGHTER_TRADE_T2" Kind="KIND_BUILDING"/>
 		<Row Type="BUILDING_SOLAR_OF_TULLYS_DAUGHTER_TRADE_T3" Kind="KIND_BUILDING"/>		
 		<!-- Doran Martell leads Dorne -->
+		<Row Type="BUILDING_DORNISH_CANAL" Kind="KIND_BUILDING"/>
+		<Row Type="BUILDING_DORNISH_SPIDER_CANAL" Kind="KIND_BUILDING"/>		
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</Types>
 	
@@ -107,6 +109,8 @@
 		<Row BuildingType="BUILDING_SOLAR_OF_TULLYS_DAUGHTER_MILITARISTIC_T2" Name="LOC_BUILDING_SOLAR_OF_TULLYS_DAUGHTER_NAME" Description="LOC_BUILDING_SOLAR_OF_TULLYS_DAUGHTER_DESCRIPTION" PrereqDistrict="DISTRICT_CITY_CENTER" Cost="1" AdvisorType="ADVISOR_GENERIC" TraitType ="TRAIT_RAFOU_DUMMY_BUILDINGS"/>
 		<Row BuildingType="BUILDING_SOLAR_OF_TULLYS_DAUGHTER_MILITARISTIC_T3" Name="LOC_BUILDING_SOLAR_OF_TULLYS_DAUGHTER_NAME" Description="LOC_BUILDING_SOLAR_OF_TULLYS_DAUGHTER_DESCRIPTION" PrereqDistrict="DISTRICT_CITY_CENTER" Cost="1" AdvisorType="ADVISOR_GENERIC" TraitType ="TRAIT_RAFOU_DUMMY_BUILDINGS"/>		
 		<!-- Doran Martell leads Dorne -->
+		<Row BuildingType="BUILDING_DORNISH_CANAL" Name="LOC_BUILDING_DORNISH_CANAL_NAME" Description="LOC_BUILDING_DORNISH_CANAL_DESCRIPTION" PrereqDistrict="DISTRICT_CITY_CENTER" Cost="1" AdvisorType="ADVISOR_GENERIC" TraitType ="TRAIT_RAFOU_DUMMY_BUILDINGS"/>
+		<Row BuildingType="BUILDING_DORNISH_SPIDER_CANAL" Name="LOC_BUILDING_DORNISH_SPIDER_CANAL_NAME" Description="LOC_BUILDING_DORNISH_SPIDER_CANAL_DESCRIPTION" PrereqDistrict="DISTRICT_CITY_CENTER" Cost="1" AdvisorType="ADVISOR_GENERIC" TraitType ="TRAIT_RAFOU_DUMMY_BUILDINGS"/>
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</Buildings>
 
@@ -316,6 +320,115 @@
 			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_IDENTITY_PER_TURN</ModifierType>
 		</Row>
 		<!-- Doran Martell leads Dorne -->
+		<Row>
+			<ModifierId>TRAIT_DM_HAPPY_DESERT_FOOD</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DM_HAPPY_DESERT_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DM_HAPPY_DESERT_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DM_HAPPY_DESERT_HILL_FOOD</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DM_HAPPY_DESERT_HILL_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DM_HAPPY_DESERT_HILL_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DM_ECSTATIC_DESERT_FOOD</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DM_ECSTATIC_DESERT_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DM_ECSTATIC_DESERT_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DM_ECSTATIC_DESERT_HILL_FOOD</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DM_ECSTATIC_DESERT_HILL_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DM_ECSTATIC_DESERT_HILL_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
+		</Row>		
+		
+		<Row>
+			<ModifierId>TRAIT_DM_HAPPY_DESERT_FOOD_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>DM_PLOT_HAS_DESERT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DM_HAPPY_DESERT_PRODUCTION_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>DM_PLOT_HAS_DESERT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DM_HAPPY_DESERT_CULTURE_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>DM_PLOT_HAS_DESERT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DM_HAPPY_DESERT_HILL_FOOD_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>DM_PLOT_HAS_DESERT_HILL_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DM_HAPPY_DESERT_HILL_PRODUCTION_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>DM_PLOT_HAS_DESERT_HILL_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DM_HAPPY_DESERT_HILL_CULTURE_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>DM_PLOT_HAS_DESERT_HILL_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DM_ECSTATIC_DESERT_FOOD_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>DM_PLOT_HAS_DESERT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DM_ECSTATIC_DESERT_PRODUCTION_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>DM_PLOT_HAS_DESERT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DM_ECSTATIC_DESERT_CULTURE_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>DM_PLOT_HAS_DESERT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DM_ECSTATIC_DESERT_HILL_FOOD_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>DM_PLOT_HAS_DESERT_HILL_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DM_ECSTATIC_DESERT_HILL_PRODUCTION_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>DM_PLOT_HAS_DESERT_HILL_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DM_ECSTATIC_DESERT_HILL_CULTURE_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
+			<SubjectRequirementSetId>DM_PLOT_HAS_DESERT_HILL_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</Modifiers>
 	
@@ -443,6 +556,189 @@
 			<Value>100</Value>
 		</Row>		
 		<!-- Doran Martell leads Dorne -->
+		<Row>
+			<ModifierId>TRAIT_DM_HAPPY_DESERT_FOOD</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>TRAIT_DM_HAPPY_DESERT_FOOD_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DM_HAPPY_DESERT_PRODUCTION</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>TRAIT_DM_HAPPY_DESERT_PRODUCTION_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DM_HAPPY_DESERT_CULTURE</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>TRAIT_DM_HAPPY_DESERT_CULTURE_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DM_HAPPY_DESERT_HILL_FOOD</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>TRAIT_DM_HAPPY_DESERT_HILL_FOOD_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DM_HAPPY_DESERT_HILL_PRODUCTION</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>TRAIT_DM_HAPPY_DESERT_HILL_PRODUCTION_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DM_HAPPY_DESERT_HILL_CULTURE</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>TRAIT_DM_HAPPY_DESERT_HILL_CULTURE_MODIFIER</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_DM_HAPPY_DESERT_FOOD_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DM_HAPPY_DESERT_FOOD_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DM_HAPPY_DESERT_PRODUCTION_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DM_HAPPY_DESERT_PRODUCTION_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>	
+		<Row>
+			<ModifierId>TRAIT_DM_HAPPY_DESERT_CULTURE_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DM_HAPPY_DESERT_CULTURE_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>	
+		<Row>
+			<ModifierId>TRAIT_DM_HAPPY_DESERT_HILL_FOOD_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DM_HAPPY_DESERT_HILL_FOOD_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>	
+		<Row>
+			<ModifierId>TRAIT_DM_HAPPY_DESERT_HILL_PRODUCTION_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DM_HAPPY_DESERT_HILL_PRODUCTION_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>	
+		<Row>
+			<ModifierId>TRAIT_DM_HAPPY_DESERT_HILL_CULTURE_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DM_HAPPY_DESERT_HILL_CULTURE_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_DM_ECSTATIC_DESERT_FOOD</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>TRAIT_DM_ECSTATIC_DESERT_FOOD_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DM_ECSTATIC_DESERT_PRODUCTION</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>TRAIT_DM_ECSTATIC_DESERT_PRODUCTION_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DM_ECSTATIC_DESERT_CULTURE</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>TRAIT_DM_ECSTATIC_DESERT_CULTURE_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DM_ECSTATIC_DESERT_HILL_FOOD</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>TRAIT_DM_ECSTATIC_DESERT_HILL_FOOD_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DM_ECSTATIC_DESERT_HILL_PRODUCTION</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>TRAIT_DM_ECSTATIC_DESERT_HILL_PRODUCTION_MODIFIER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DM_ECSTATIC_DESERT_HILL_CULTURE</ModifierId>
+			<Name>ModifierId</Name>
+			<Value>TRAIT_DM_ECSTATIC_DESERT_HILL_CULTURE_MODIFIER</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_DM_ECSTATIC_DESERT_FOOD_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DM_ECSTATIC_DESERT_FOOD_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DM_ECSTATIC_DESERT_PRODUCTION_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DM_ECSTATIC_DESERT_PRODUCTION_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>	
+		<Row>
+			<ModifierId>TRAIT_DM_ECSTATIC_DESERT_CULTURE_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DM_ECSTATIC_DESERT_CULTURE_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>	
+		<Row>
+			<ModifierId>TRAIT_DM_ECSTATIC_DESERT_HILL_FOOD_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FOOD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DM_ECSTATIC_DESERT_HILL_FOOD_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>	
+		<Row>
+			<ModifierId>TRAIT_DM_ECSTATIC_DESERT_HILL_PRODUCTION_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DM_ECSTATIC_DESERT_HILL_PRODUCTION_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>	
+		<Row>
+			<ModifierId>TRAIT_DM_ECSTATIC_DESERT_HILL_CULTURE_MODIFIER</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DM_ECSTATIC_DESERT_HILL_CULTURE_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>		
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</ModifierArguments>
 
@@ -708,6 +1004,54 @@
 			<ModifierId>SOLAR_OF_TULLYS_DAUGHTER_CITIES_ALWAYS_LOYAL</ModifierId>
 		</Row>		
 		<!-- Doran Martell leads Dorne -->
+		<Row>
+			<BuildingType>BUILDING_DORNISH_CANAL</BuildingType>
+			<ModifierId>TRAIT_DM_HAPPY_DESERT_FOOD</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DORNISH_CANAL</BuildingType>
+			<ModifierId>TRAIT_DM_HAPPY_DESERT_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DORNISH_CANAL</BuildingType>
+			<ModifierId>TRAIT_DM_HAPPY_DESERT_CULTURE</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DORNISH_CANAL</BuildingType>
+			<ModifierId>TRAIT_DM_HAPPY_DESERT_HILL_FOOD</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DORNISH_CANAL</BuildingType>
+			<ModifierId>TRAIT_DM_HAPPY_DESERT_HILL_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DORNISH_CANAL</BuildingType>
+			<ModifierId>TRAIT_DM_HAPPY_DESERT_HILL_CULTURE</ModifierId>
+		</Row>		
+		<Row>
+			<BuildingType>BUILDING_DORNISH_SPIDER_CANAL</BuildingType>
+			<ModifierId>TRAIT_DM_ECSTATIC_DESERT_FOOD</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DORNISH_SPIDER_CANAL</BuildingType>
+			<ModifierId>TRAIT_DM_ECSTATIC_DESERT_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DORNISH_SPIDER_CANAL</BuildingType>
+			<ModifierId>TRAIT_DM_ECSTATIC_DESERT_CULTURE</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DORNISH_SPIDER_CANAL</BuildingType>
+			<ModifierId>TRAIT_DM_ECSTATIC_DESERT_HILL_FOOD</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DORNISH_SPIDER_CANAL</BuildingType>
+			<ModifierId>TRAIT_DM_ECSTATIC_DESERT_HILL_PRODUCTION</ModifierId>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_DORNISH_SPIDER_CANAL</BuildingType>
+			<ModifierId>TRAIT_DM_ECSTATIC_DESERT_HILL_CULTURE</ModifierId>
+		</Row>			
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</BuildingModifiers>
 	
@@ -725,8 +1069,12 @@
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
 		<Row>
-			<RequirementSetId>SOLAR_OF_TULLYS_DAUGHTER_REQUIREMENTS</RequirementSetId>
-			<RequirementSetType>REQUIREMENTSET_TEST_ANY</RequirementSetType>
+			<RequirementSetId>DM_PLOT_HAS_DESERT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>DM_PLOT_HAS_DESERT_HILL_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
 	</RequirementSets>
 	<RequirementSetRequirements>
@@ -741,6 +1089,14 @@
 		<Row>
 			<RequirementSetId>HT_CITY_HAS_WATERMILL</RequirementSetId>
 			<RequirementId>HT_REQUIRES_CITY_HAS_WATERMILL</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>DM_PLOT_HAS_DESERT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_DESERT</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>DM_PLOT_HAS_DESERT_HILL_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_HAS_DESERT_HILLS</RequirementId>
 		</Row>		
 	</RequirementSetRequirements>
 	<Requirements>

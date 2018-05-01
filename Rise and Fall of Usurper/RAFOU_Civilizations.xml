@@ -765,30 +765,6 @@
 		<!-- Doran Martell leads Dorne -->
 		<Row>
 			<TraitType>TRAIT_CIVILIZATION_UNBOWED_UNBENT_UNBROKEN</TraitType>
-			<ModifierId>TRAIT_DM_HAPPY_DESERT_FOOD</ModifierId>
-		</Row>
-		<Row>
-			<TraitType>TRAIT_CIVILIZATION_UNBOWED_UNBENT_UNBROKEN</TraitType>
-			<ModifierId>TRAIT_DM_HAPPY_DESERT_PRODUCTION</ModifierId>
-		</Row>
-		<Row>
-			<TraitType>TRAIT_CIVILIZATION_UNBOWED_UNBENT_UNBROKEN</TraitType>
-			<ModifierId>TRAIT_DM_HAPPY_DESERT_CULTURE</ModifierId>
-		</Row>
-		<Row>
-			<TraitType>TRAIT_CIVILIZATION_UNBOWED_UNBENT_UNBROKEN</TraitType>
-			<ModifierId>TRAIT_DM_HAPPY_DESERT_HILL_FOOD</ModifierId>
-		</Row>
-		<Row>
-			<TraitType>TRAIT_CIVILIZATION_UNBOWED_UNBENT_UNBROKEN</TraitType>
-			<ModifierId>TRAIT_DM_HAPPY_DESERT_HILL_PRODUCTION</ModifierId>
-		</Row>
-		<Row>
-			<TraitType>TRAIT_CIVILIZATION_UNBOWED_UNBENT_UNBROKEN</TraitType>
-			<ModifierId>TRAIT_DM_HAPPY_DESERT_HILL_CULTURE</ModifierId>
-		</Row>
-		<Row>
-			<TraitType>TRAIT_CIVILIZATION_UNBOWED_UNBENT_UNBROKEN</TraitType>
 			<ModifierId>TRAIT_DM_HOME_COMBAT_BONUS</ModifierId>
 		</Row>		
 		<!-- Rhaegar Targaryen leads the Crownlands -->
@@ -1166,66 +1142,14 @@
 		</Row>
 		<!-- Doran Martell leads Dorne -->
 		<Row>
-			<ModifierId>TRAIT_DM_HAPPY_DESERT_FOOD</ModifierId>
-			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
-			<OwnerRequirementSetId>DM_PLAYER_IS_HAPPY_LEAD</OwnerRequirementSetId>
+			<ModifierId>TRAIT_DM_HOME_COMBAT_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER</ModifierType>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_DM_HAPPY_DESERT_PRODUCTION</ModifierId>
-			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
-			<OwnerRequirementSetId>DM_PLAYER_IS_HAPPY_LEAD</OwnerRequirementSetId>
+			<ModifierId>DM_HOME_COMBAT_BONUS_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>DM_PLOT_IS_OWNER_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
-		<Row>
-			<ModifierId>TRAIT_DM_HAPPY_DESERT_CULTURE</ModifierId>
-			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
-			<OwnerRequirementSetId>DM_PLAYER_IS_HAPPY_LEAD</OwnerRequirementSetId>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_DM_HAPPY_DESERT_HILL_FOOD</ModifierId>
-			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
-			<OwnerRequirementSetId>DM_PLAYER_IS_HAPPY_LEAD</OwnerRequirementSetId>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_DM_HAPPY_DESERT_HILL_PRODUCTION</ModifierId>
-			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
-			<OwnerRequirementSetId>DM_PLAYER_IS_HAPPY_LEAD</OwnerRequirementSetId>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_DM_HAPPY_DESERT_HILL_CULTURE</ModifierId>
-			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
-			<OwnerRequirementSetId>DM_PLAYER_IS_HAPPY_LEAD</OwnerRequirementSetId>
-		</Row>
-		
-		<Row>
-			<ModifierId>TRAIT_DM_HAPPY_DESERT_FOOD_MODIFIER</ModifierId>
-			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
-			<SubjectRequirementSetId>DM_PLOT_HAS_DESERT_REQUIREMENTS</SubjectRequirementSetId>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_DM_HAPPY_DESERT_PRODUCTION_MODIFIER</ModifierId>
-			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
-			<SubjectRequirementSetId>DM_PLOT_HAS_DESERT_REQUIREMENTS</SubjectRequirementSetId>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_DM_HAPPY_DESERT_CULTURE_MODIFIER</ModifierId>
-			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
-			<SubjectRequirementSetId>DM_PLOT_HAS_DESERT_REQUIREMENTS</SubjectRequirementSetId>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_DM_HAPPY_DESERT_HILL_FOOD_MODIFIER</ModifierId>
-			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
-			<SubjectRequirementSetId>DM_PLOT_HAS_DESERT_HILL_REQUIREMENTS</SubjectRequirementSetId>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_DM_HAPPY_DESERT_HILL_PRODUCTION_MODIFIER</ModifierId>
-			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
-			<SubjectRequirementSetId>DM_PLOT_HAS_DESERT_HILL_REQUIREMENTS</SubjectRequirementSetId>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_DM_HAPPY_DESERT_HILL_CULTURE_MODIFIER</ModifierId>
-			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
-			<SubjectRequirementSetId>DM_PLOT_HAS_DESERT_HILL_REQUIREMENTS</SubjectRequirementSetId>
-		</Row>		
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</Modifiers>
 
@@ -2484,96 +2408,15 @@
 		</Row>
 		<!-- Doran Martell leads Dorne -->
 		<Row>
-			<ModifierId>TRAIT_DM_HAPPY_DESERT_FOOD</ModifierId>
+			<ModifierId>TRAIT_DM_HOME_COMBAT_BONUS</ModifierId>
 			<Name>ModifierId</Name>
-			<Value>TRAIT_DM_HAPPY_DESERT_FOOD_MODIFIER</Value>
+			<Value>DM_HOME_COMBAT_BONUS_MODIFIER</Value>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_DM_HAPPY_DESERT_PRODUCTION</ModifierId>
-			<Name>ModifierId</Name>
-			<Value>TRAIT_DM_HAPPY_DESERT_PRODUCTION_MODIFIER</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_DM_HAPPY_DESERT_CULTURE</ModifierId>
-			<Name>ModifierId</Name>
-			<Value>TRAIT_DM_HAPPY_DESERT_CULTURE_MODIFIER</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_DM_HAPPY_DESERT_HILL_FOOD</ModifierId>
-			<Name>ModifierId</Name>
-			<Value>TRAIT_DM_HAPPY_DESERT_HILL_FOOD_MODIFIER</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_DM_HAPPY_DESERT_HILL_PRODUCTION</ModifierId>
-			<Name>ModifierId</Name>
-			<Value>TRAIT_DM_HAPPY_DESERT_HILL_PRODUCTION_MODIFIER</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_DM_HAPPY_DESERT_HILL_CULTURE</ModifierId>
-			<Name>ModifierId</Name>
-			<Value>TRAIT_DM_HAPPY_DESERT_HILL_CULTURE_MODIFIER</Value>
-		</Row>
-
-		<Row>
-			<ModifierId>TRAIT_DM_HAPPY_DESERT_FOOD_MODIFIER</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_FOOD</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_DM_HAPPY_DESERT_FOOD_MODIFIER</ModifierId>
+			<ModifierId>DM_HOME_COMBAT_BONUS_MODIFIER</ModifierId>
 			<Name>Amount</Name>
-			<Value>1</Value>
+			<Value>10</Value>
 		</Row>
-		<Row>
-			<ModifierId>TRAIT_DM_HAPPY_DESERT_PRODUCTION_MODIFIER</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_PRODUCTION</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_DM_HAPPY_DESERT_PRODUCTION_MODIFIER</ModifierId>
-			<Name>Amount</Name>
-			<Value>1</Value>
-		</Row>	
-		<Row>
-			<ModifierId>TRAIT_DM_HAPPY_DESERT_CULTURE_MODIFIER</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_CULTURE</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_DM_HAPPY_DESERT_CULTURE_MODIFIER</ModifierId>
-			<Name>Amount</Name>
-			<Value>1</Value>
-		</Row>	
-		<Row>
-			<ModifierId>TRAIT_DM_HAPPY_DESERT_HILL_FOOD_MODIFIER</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_FOOD</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_DM_HAPPY_DESERT_HILL_FOOD_MODIFIER</ModifierId>
-			<Name>Amount</Name>
-			<Value>1</Value>
-		</Row>	
-		<Row>
-			<ModifierId>TRAIT_DM_HAPPY_DESERT_HILL_PRODUCTION_MODIFIER</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_PRODUCTION</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_DM_HAPPY_DESERT_HILL_PRODUCTION_MODIFIER</ModifierId>
-			<Name>Amount</Name>
-			<Value>1</Value>
-		</Row>	
-		<Row>
-			<ModifierId>TRAIT_DM_HAPPY_DESERT_HILL_CULTURE_MODIFIER</ModifierId>
-			<Name>YieldType</Name>
-			<Value>YIELD_CULTURE</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_DM_HAPPY_DESERT_HILL_CULTURE_MODIFIER</ModifierId>
-			<Name>Amount</Name>
-			<Value>1</Value>
-		</Row>			
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</ModifierArguments>
 
@@ -2582,6 +2425,7 @@
 		<Row ModifierId="TRAIT_RB_WALLS_CULTURE" Context="Preview" Text="LOC_TRAIT_RB_WALLS_CULTURE_DESCRIPTION"/>
 		<Row ModifierId="TRAIT_RB_CASTLE_CULTURE" Context="Preview" Text="LOC_TRAIT_RB_CASTLE_CULTURE_DESCRIPTION"/>
 		<Row ModifierId="TRAIT_RB_STAR_FORT_CULTURE" Context="Preview" Text="LOC_TRAIT_RB_STAR_FORT_CULTURE_DESCRIPTION"/>
+		<Row ModifierId="DM_HOME_COMBAT_BONUS_MODIFIER" Context="Preview" Text="LOC_DM_HOME_COMBAT_BONUS_DESCRIPTION"/>
 	</ModifierStrings>
 
 	<DynamicModifiers>
@@ -2707,6 +2551,21 @@
 		<Row CivilizationType="CIVILIZATION_THE_RIVERLANDS" CityName="LOC_CIVILIZATION_THE_RIVERLANDS_CITY_14" />
 		<Row CivilizationType="CIVILIZATION_THE_RIVERLANDS" CityName="LOC_CIVILIZATION_THE_RIVERLANDS_CITY_15" />
 		<!-- Doran Martell leads Dorne -->
+		<Row CivilizationType="CIVILIZATION_DORNE" CityName="LOC_CIVILIZATION_DORNE_CITY_1" />
+		<Row CivilizationType="CIVILIZATION_DORNE" CityName="LOC_CIVILIZATION_DORNE_CITY_2" />
+		<Row CivilizationType="CIVILIZATION_DORNE" CityName="LOC_CIVILIZATION_DORNE_CITY_3" />
+		<Row CivilizationType="CIVILIZATION_DORNE" CityName="LOC_CIVILIZATION_DORNE_CITY_4" />
+		<Row CivilizationType="CIVILIZATION_DORNE" CityName="LOC_CIVILIZATION_DORNE_CITY_5" />
+		<Row CivilizationType="CIVILIZATION_DORNE" CityName="LOC_CIVILIZATION_DORNE_CITY_6" />
+		<Row CivilizationType="CIVILIZATION_DORNE" CityName="LOC_CIVILIZATION_DORNE_CITY_7" />
+		<Row CivilizationType="CIVILIZATION_DORNE" CityName="LOC_CIVILIZATION_DORNE_CITY_8" />
+		<Row CivilizationType="CIVILIZATION_DORNE" CityName="LOC_CIVILIZATION_DORNE_CITY_9" />
+		<Row CivilizationType="CIVILIZATION_DORNE" CityName="LOC_CIVILIZATION_DORNE_CITY_10" />
+		<Row CivilizationType="CIVILIZATION_DORNE" CityName="LOC_CIVILIZATION_DORNE_CITY_11" />
+		<Row CivilizationType="CIVILIZATION_DORNE" CityName="LOC_CIVILIZATION_DORNE_CITY_12" />
+		<Row CivilizationType="CIVILIZATION_DORNE" CityName="LOC_CIVILIZATION_DORNE_CITY_13" />
+		<Row CivilizationType="CIVILIZATION_DORNE" CityName="LOC_CIVILIZATION_DORNE_CITY_14" />
+		<Row CivilizationType="CIVILIZATION_DORNE" CityName="LOC_CIVILIZATION_DORNE_CITY_15" />
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</CityNames>
 
@@ -2775,6 +2634,14 @@
 			<Color>19,19,197,255</Color>
 		</Row>
 		<!-- Doran Martell leads Dorne -->
+		<Row>
+			<Type>COLOR_PLAYER_DORNE_PRIMARY</Type>
+			<Color>234,128,7,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_DORNE_SECONDARY</Type>
+			<Color>201,28,28,255</Color>
+		</Row>
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</Colors>
 	<PlayerColors>
@@ -2835,6 +2702,13 @@
 			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
 		</Row>
 		<!-- Doran Martell leads Dorne -->
+		<Row>
+			<Type>LEADER_DORAN_MARTELL</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_DORNE_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_DORNE_SECONDARY</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>		
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</PlayerColors>
 
@@ -2868,6 +2742,7 @@
 	<StartBiasFeatures>
 		<!-- Eddard Stark leads the North -->
 		<Row CivilizationType="CIVILIZATION_THE_NORTH" FeatureType="FEATURE_FOREST" Tier="4"/>
+		<Row CivilizationType="CIVILIZATION_DORNE" FeatureType="FEATURE_FLOODPLAINS" Tier="3"/>
 	</StartBiasFeatures>
 	<StartBiasTerrains>
 		<!-- Balon Greyjoy leads the Ironborn -->
@@ -2885,6 +2760,8 @@
 		<Row CivilizationType="CIVILIZATION_THE_VALE" Tier="3" TerrainType="TERRAIN_TUNDRA_HILLS"/>
 		<!-- Hoster Tully leads the Riverlands -->
 		<!-- Doran Martell leads Dorne -->
+		<Row CivilizationType="CIVILIZATION_DORNE" Tier="2" TerrainType="TERRAIN_DESERT"/>
+		<Row CivilizationType="CIVILIZATION_DORNE" Tier="2" TerrainType="TERRAIN_DESERT_HILLS"/>
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</StartBiasTerrains>
 	<StartBiasRivers>
@@ -2980,6 +2857,10 @@
 		</Row>	
 		<Row>
 			<RequirementSetId>HT_PLOT_IS_RIVER_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>DM_PLOT_IS_OWNER_REQUIREMENTS</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
 	</RequirementSets>
@@ -3136,6 +3017,11 @@
 			<RequirementSetId>HT_PLOT_IS_RIVER_REQUIREMENTS</RequirementSetId>
 			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_RIVER</RequirementId>
 		</Row>
+		<!--DORNE-->
+		<Row>
+			<RequirementSetId>DM_PLOT_IS_OWNER_REQUIREMENTS</RequirementSetId>
+			<RequirementId>DM_UNIT_IN_OWNER_TERRITORY_REQUIREMENT</RequirementId>
+		</Row>
 	</RequirementSetRequirements>
 
 	<Requirements>
@@ -3188,6 +3074,11 @@
 			<RequirementId>HT_REQUIRES_DISTRICT_IS_AERODROME</RequirementId>
 			<RequirementType>REQUIREMENT_DISTRICT_TYPE_MATCHES</RequirementType>
 		</Row>
+		<!-- DORNE -->
+		<Row>
+            <RequirementId>DM_UNIT_IN_OWNER_TERRITORY_REQUIREMENT</RequirementId>
+            <RequirementType>REQUIREMENT_UNIT_IN_OWNER_TERRITORY</RequirementType>
+        </Row>
 	</Requirements>
 
 	<RequirementArguments>

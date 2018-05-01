@@ -35,6 +35,9 @@
 		<Row Type="TRAIT_ADVANTAGEOUS_BETROTHAL" Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_AGENDA_LORD_TROUT" Kind="KIND_TRAIT"/>
 		<!-- Doran Martell leads Dorne -->
+		<Row Type="LEADER_DORAN_MARTELL" Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_A_BIG_GAME_OF_CYVASSE" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_PRINCE_OF_DORNE" Kind="KIND_TRAIT"/>
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</Types>
 	
@@ -407,7 +410,7 @@
 			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_EXTRA_UNIT_COPY</ModifierType>
 		</Row>
 		<Row>
-		<ModifierId>TRAIT_MT_REDUCE_COMBAT_STRENGTH</ModifierId>
+			<ModifierId>TRAIT_MT_REDUCE_COMBAT_STRENGTH</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER</ModifierType>
 		</Row>
 		<Row>
