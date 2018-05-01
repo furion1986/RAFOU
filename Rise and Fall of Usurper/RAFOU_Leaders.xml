@@ -95,6 +95,11 @@
 			<InheritFrom>LEADER_DEFAULT</InheritFrom>
 		</Row>
 		<!-- Doran Martell leads Dorne -->
+		<Row>
+			<LeaderType>LEADER_DORAN_MARTELL</LeaderType>
+			<Name>LOC_LEADER_DORAN_MARTELL_NAME</Name>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+		</Row>
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</Leaders>
 
@@ -114,6 +119,7 @@
 		<!-- Hoster Tully leads the Riverlands -->
 		<Row LeaderType="LEADER_HOSTER_TULLY" Quote="LOC_LEADER_HOSTER_TULLY_QUOTE"/>
 		<!-- Doran Martell leads Dorne -->
+		<Row LeaderType="LEADER_DORAN_MARTELL" Quote="LOC_LEADER_DORAN_MARTELL_QUOTE"/>
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</LeaderQuotes>
 
@@ -136,6 +142,7 @@
 		<!-- Hoster Tully leads the Riverlands -->
 		<Row LeaderType="LEADER_HOSTER_TULLY" TraitType="TRAIT_ADVANTAGEOUS_BETROTHAL"/>
 		<!-- Doran Martell leads Dorne -->
+		<Row LeaderType="LEADER_DORAN_MARTELL" TraitType="TRAIT_A_BIG_GAME_OF_CYVASSE"/>
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</LeaderTraits>
 	<Traits>
@@ -162,6 +169,8 @@
 		<Row Name="LOC_TRAIT_ADVANTAGEOUS_BETROTHAL_NAME" TraitType="TRAIT_ADVANTAGEOUS_BETROTHAL" Description="LOC_TRAIT_ADVANTAGEOUS_BETROTHAL_DESCRIPTION"/>
 		<Row Name="LOC_PLACEHOLDER" TraitType="TRAIT_AGENDA_LORD_TROUT" Description="LOC_PLACEHOLDER"/>
 		<!-- Doran Martell leads Dorne -->
+		<Row Name="LOC_TRAIT_A_BIG_GAME_OF_CYVASSE_NAME" TraitType="TRAIT_A_BIG_GAME_OF_CYVASSE" Description="LOC_TRAIT_A_BIG_GAME_OF_CYVASSE_DESCRIPTION"/>
+		<Row Name="LOC_PLACEHOLDER" TraitType="TRAIT_AGENDA_PRINCE_OF_DORNE" Description="LOC_PLACEHOLDER"/>
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</Traits>
 	<TraitModifiers>
@@ -291,6 +300,18 @@
 		</Row-->
 		<!-- Hoster Tully leads the Riverlands -->
 		<!-- Doran Martell leads Dorne -->
+		<Row>
+			<TraitType>TRAIT_A_BIG_GAME_OF_CYVASSE</TraitType>
+			<ModifierId>TRAIT_DM_EARLY_SPY_POLITICAL_PHYLOSOPHY</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_A_BIG_GAME_OF_CYVASSE</TraitType>
+			<ModifierId>TRAIT_DM_SPY_INCREASE_OPERATION_LEVEL</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_A_BIG_GAME_OF_CYVASSE</TraitType>
+			<ModifierId>TRAIT_DM_SPY_INCREASE_OPERATION_SPEED</ModifierId>
+		</Row>		
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</TraitModifiers>
 	

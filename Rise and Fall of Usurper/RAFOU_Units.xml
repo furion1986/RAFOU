@@ -33,6 +33,7 @@
 		<Row Type="ABILITY_BROTHERHOOD_WITHOUT_BANNERS" Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_WARRIOR_MONK_OF_MYR_FEARLESS" Kind="KIND_ABILITY"/>
 		<!-- Doran Martell leads Dorne -->
+		<Row Kind="KIND_UNIT" Type="UNIT_SAND_SNAKE"/>
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</Types>
 	<Traits>
