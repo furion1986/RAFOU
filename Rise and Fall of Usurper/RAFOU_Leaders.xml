@@ -28,6 +28,7 @@
 		<!-- Jon Arryn leads the Vale -->
 		<Row Type="LEADER_JON_ARRYN" Kind="KIND_LEADER"/>
 		<Row Type="TRAIT_HAND_OF_THE_KING" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_BUILDING_CRESCENT_CHAMBER" Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_AGENDA_THE_NOBLE_HAND" Kind="KIND_TRAIT"/>
 		<!-- Hoster Tully leads the Riverlands -->
 		<Row Type="LEADER_HOSTER_TULLY" Kind="KIND_LEADER"/>
@@ -128,6 +129,7 @@
 		<Row LeaderType="LEADER_MACE_TYRELL" TraitType="TRAIT_LORD_PUFFFISH"/>
 		<!-- Jon Arryn leads the Vale -->
 		<Row LeaderType="LEADER_JON_ARRYN" TraitType="TRAIT_HAND_OF_THE_KING"/>
+		<Row LeaderType="LEADER_JON_ARRYN" TraitType="TRAIT_LEADER_BUILDING_CRESCENT_CHAMBER"/>
 		<!-- Hoster Tully leads the Riverlands -->
 		<Row LeaderType="LEADER_HOSTER_TULLY" TraitType="TRAIT_ADVANTAGEOUS_BETROTHAL"/>
 		<!-- Doran Martell leads Dorne -->
@@ -152,6 +154,7 @@
 		<!-- Jon Arryn leads the Vale -->
 		<Row Name="LOC_TRAIT_HAND_OF_THE_KING_NAME" TraitType="TRAIT_HAND_OF_THE_KING" Description="LOC_TRAIT_HAND_OF_THE_KING_DESCRIPTION"/>
 		<Row Name="LOC_PLACEHOLDER" TraitType="TRAIT_AGENDA_THE_NOBLE_HAND" Description="LOC_PLACEHOLDER"/>
+		<Row TraitType="TRAIT_LEADER_BUILDING_CRESCENT_CHAMBER" Name="LOC_BUILDING_CRESCENT_CHAMBER_NAME" Description="LOC_BUILDING_CRESCENT_CHAMBER_DESCRIPTION"/>
 		<!-- Hoster Tully leads the Riverlands -->
 		<Row Name="LOC_TRAIT_ADVANTAGEOUS_BETROTHAL_NAME" TraitType="TRAIT_ADVANTAGEOUS_BETROTHAL" Description="LOC_TRAIT_ADVANTAGEOUS_BETROTHAL_DESCRIPTION"/>
 		<Row Name="LOC_PLACEHOLDER" TraitType="TRAIT_AGENDA_LORD_TROUT" Description="LOC_PLACEHOLDER"/>

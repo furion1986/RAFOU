@@ -100,8 +100,7 @@ function OnLocalPlayerAnnexCityState(localPlayerID,citStateID, builtUnits:table,
 	for _, iCity in iPlayerCities:Members() do
 		CityManager.DestroyCity(iCity);
 	end
-	--Create Cities for Player
-	print("Check Point 01");	
+	--Create Cities for Player	
 	for i, iCity in ipairs(iCities) do
 		local iCityX = iCity.CityX;
 		local iCityY = iCity.CityY;
@@ -115,14 +114,11 @@ function OnLocalPlayerAnnexCityState(localPlayerID,citStateID, builtUnits:table,
 					iPlot:SetOwner(-1);
 					WorldBuilder.CityManager():SetPlotOwner(iPlot, city);
 				end
-				print("Plot Get...");
 				--Add Improvements
 				local iImprovement:number = iPlotImprovement.plotImprovement;
 				if iImprovement then
-					print(iImprovement);
 					WorldBuilder.MapManager():SetImprovementType(iPlot, iImprovement,localPlayerID);
 				end
-				print("Check Point 03");
 			end
 		end
 		--Set City Population
@@ -144,12 +140,12 @@ function OnLocalPlayerAnnexCityState(localPlayerID,citStateID, builtUnits:table,
 			end
 		end
 		--Place Buildings
-		local iCityBuildings = iCity.CityBuildings;
+		local iCityBuildings:table = iCity.CityBuildings;
 		if (iCityBuildings ~= nil) then
 			for i, iCityBuilding in ipairs(iCityBuildings) do
 				local buildingType = iCityBuilding.BType;
 				local pCityBuildQueue = city:GetBuildQueue();
-				pCityBuildQueue:CreateIncompleteBuilding(buildingType.Index, 100);
+				pCityBuildQueue:CreateIncompleteBuilding(GameInfo.Buildings[buildingType].Index, 100);
 			end
 		end
 		if (iLeader == "LEADER_MINOR_CIV_SCIENTIFIC" or iLeaderInfo.InheritFrom == "LEADER_MINOR_CIV_SCIENTIFIC") then
@@ -215,6 +211,7 @@ function OnLocalPlayerAnnexCityState(localPlayerID,citStateID, builtUnits:table,
 	pPlayer:GetTreasury():ChangeGoldBalance(-iAnnexCost);
 end
 LuaEvents.LocalPlayerAnnexCityState.Add(OnLocalPlayerAnnexCityState);
+
 ----------In Game Events----------
 function RVLOnLoadScreenClose()
 	Events.DistrictPillaged.Add(RVLOnDistrictPillaged);

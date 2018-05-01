@@ -848,27 +848,21 @@ function OnAnnexCityState(localPlayerID:number, cityStateID, pEnvoyTokens:number
 		local iPopulation :number= iCity:GetPopulation();
 		--Get Districts
 		local iDistricts = iCity:GetDistricts();
+		local pCityBuildings = iCity:GetBuildings();
 		local builtDistricts:table = {};
 		local builtBuildings:table = {};
 		for i, district in iDistricts:Members() do
-			if district.isBuilt then
-				local districtType:string = GameInfo.Districts[district:GetType()].DistrictType;
+			local districtInfo:table = GameInfo.Districts[district:GetType()];
+			local districtType:string = districtInfo.DistrictType;
+			if (iDistricts:HasDistrict(districtInfo.Index, true)) then				
 				if(districtType ~= "DISTRICT_CITY_CENTER") then
+				print("Adding "..districtType.." to table.");
 					local dLocX:number = district:GetX();
 					local dLocY:number = district:GetY();
 					table.insert(builtDistricts, {
 						DType=districtType,
 						DX=dLocX,
 						DY=dLocY});
-				end
-				--Get Buildings
-				for _,building in ipairs(district.Buildings) do
-					if building.isBuilt then
-						local pBuilding = GameInfo.Buildings[building.Type];
-						table.insert(builtBuildings, { 
-							BType	= pBuilding.BuildingType
-						});
-					end
 				end
 			end
 		end
@@ -884,6 +878,19 @@ function OnAnnexCityState(localPlayerID:number, cityStateID, pEnvoyTokens:number
 					cityPlot = iPlot, 
 					plotImprovement = iPlotImprovement
 				});
+				--Get Buildings
+				local kBuildingTypes:table = pCityBuildings:GetBuildingsAtLocation(plotID);
+				for _,building in ipairs(kBuildingTypes) do
+					local pBuilding = GameInfo.Buildings[building];
+					if (pCityBuildings:HasBuilding(pBuilding.Index)) then						
+						if (pBuilding.BuildingType ~= "BUILDING_PALACE") then
+							print("Adding "..pBuilding.BuildingType.." to table.");
+							table.insert(builtBuildings, { 
+								BType	= pBuilding.BuildingType
+							});
+						end
+					end
+				end
 			end
 		end
 		local iName = iCity:GetName();
@@ -912,7 +919,6 @@ function OnAnnexCityState(localPlayerID:number, cityStateID, pEnvoyTokens:number
 	LuaEvents.LocalPlayerAnnexCityState(localPlayerID,iPlayerID,builtUnits,iCities,pEnvoyTokens,iAnnexCost);
 	print("Annex Sent!");
 end
-
 
 -- ===========================================================================
 function AddCityStateRow( kCityState:table )
@@ -1955,7 +1961,8 @@ function Initialize()
 	LuaEvents.PartialScreenHooks_OpenCityStates.Add( OnOpenCityStates );
 	LuaEvents.PartialScreenHooks_CloseCityStates.Add( OnCloseCityStates );
 	LuaEvents.PartialScreenHooks_CloseAllExcept.Add( OnCloseAllExcept );
-	LuaEvents.WorldRankings_CloseCityStates.Add( OnClose );		
+	LuaEvents.WorldRankings_CloseCityStates.Add( OnClose );
+	LuaEvents.AI_Tully_AnnexCityState.Add(OnAnnexCityState);	
 
 	Resize();
 	m_mode = MODE.Overview;
