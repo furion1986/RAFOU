@@ -474,14 +474,20 @@
 		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_TYWIN_LANNISTER_ANY">
 			<Text>Your people are rich, your army is strong. You have my congratulations.</Text>
 		</Row>
-		<Row Tag="LOC_DIPLO_KUDO_LEADER_TYWIN_LANNISTER_REASON_ANY">
-			<Text>(You have high gold income and strong army)</Text>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_TYWIN_LANNISTER_REASON_AGENDA_HIGH_INCOME">
+			<Text>(You have high gold income.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_TYWIN_LANNISTER_REASON_AGENDA_HIGH_STANDING_ARMY">
+			<Text>(Your army is strong.)</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_TYWIN_LANNISTER_ANY">
 			<Text>You have no gold, no army. How would protect your people?</Text>
 		</Row>
-		<Row Tag="LOC_DIPLO_WARNING_LEADER_TYWIN_LANNISTER_REASON_ANY">
-			<Text>(You have low gold income or weak army)</Text>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_TYWIN_LANNISTER_REASON_AGENDA_HIGH_INCOME">
+			<Text>(You have low gold income.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_TYWIN_LANNISTER_REASON_AGENDA_LOW_STANDING_ARMY">
+			<Text>(Your army is weak.)</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_TYWIN_LANNISTER_ANY">
 			<Text>I believe you will find it beneficial to become our ally, don't you agree?</Text>
@@ -571,14 +577,20 @@
 		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_ROBERT_BARATHEON_ANY">
 			<Text>We share the same ideology, we train strong armies. I see you good friend to be.</Text>
 		</Row>
-		<Row Tag="LOC_DIPLO_KUDO_LEADER_ROBERT_BARATHEON_REASON_ANY">
-			<Text>(Your government is the same as theirs, and you have strong standing army.)</Text>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_ROBERT_BARATHEON_REASON_AGENDA_SAME_GOVERNMENT">
+			<Text>(Your government is the same as theirs.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_ROBERT_BARATHEON_REASON_AGENDA_HIGH_STANDING_ARMY">
+			<Text>(You have strong standing army.)</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_ROBERT_BARATHEON_ANY">
 			<Text>What you believe is a lie, and where's your army to defend your miserable little lie?</Text>
 		</Row>
-		<Row Tag="LOC_DIPLO_WARNING_LEADER_ROBERT_BARATHEON_REASON_ANY">
-			<Text>(Your government is different than theirs, and your standing army is weak.)</Text>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_ROBERT_BARATHEON_REASON_AGENDA_DIFFERENT_GOVERNMENT">
+			<Text>(Your government is different than theirs.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_ROBERT_BARATHEON_REASON_AGENDA_LOW_STANDING_ARMY">
+			<Text>(Your standing army is weak.)</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_ROBERT_BARATHEON_ANY">
 			<Text>Our houses will be strong and prosper by making alliances.</Text>

@@ -291,5 +291,75 @@
 		<Row Tag="LOC_TRAIT_LEADER_HOSTER_TULLY_DESCRIPTION">
 			<Text>Can Annex a City-State you are Suzerain of with [ICON_GOLD] Gold. Cost is determined by [ICON_CITIZEN] Population, [ICON_PRODUCTION] costs of Districts, Buildings and Units of the City-State.[NEWLINE]Annexed City-State will always have full Loyalty, keeps it's City-State type bonus to you when you annex it. Annexed City-State will also be considered as city originally founded by the Riverlands without Religious population, so that it cannot be Liberated nor trigger Casus Belli.</Text>
 		</Row>
+		<!-- Doran Martell leads Dorne -->
+		<Row Tag="LOC_UNIT_SAND_SNAKE_NAME">
+			<Text>Sand Snake</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_SAND_SNAKE_DESCRIPTION">
+			<Text>Bastard daughters of Prince Oberyn Martell. Replaces Pikeman.[NEWLINE]Upon spawn, each Sand Snake will randomly receive a unique promotion among "Walk in Shadow" (Stealth.), "Born Leader" (Increase friendly units [ICON_Strength] Combat Strength.), "Assassin" (+1 [ICON_Movement] Movement and can move after attack.), "Scholar" (Combat victories provide [ICON_SCIENCE] Science equal to 50% of the Combat Strength of the defeated unit and +5 points of [ICON_GREATSCIENTIST] Great Scientist.) and "Seduction" (Combat victories have chance to capture defeated unit and enslave as Builder.).</Text>
+		</Row>		
+		<Row Tag="LOC_IMPROVEMENT_WATER_GARDEN_NAME">
+			<Text>Water Garden</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_WATER_GARDEN_DESCRIPTION">
+			<Text>An improvement unique to Dorne. Must be placed on Desert tile, valid on Floodplain. Limited one Water Garden per city.[NEWLINE]+2 [ICON_CULTURE] Culture and +2 [ICON_Amenities] Amenities. Extra +2 [ICON_CULTURE] Culture from adjacent City Center or Government Plaza. [NEWLINE]+2 [ICON_GOLD] Gold if adjacent to river. +2 [ICON_GOLD] Gold from adjacent oasis.</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_DORAN_MARTELL_NAME">
+			<Text>Doran Martell</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_DORAN_MARTELL">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DORNE_NAME">
+			<Text>Dorne</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_DORNE_NAME">
+			<Text>Unbowed, Unbent, Unbroken</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_DORNE_DESCRIPTION">
+			<Text>Desert tiles including Floodplains in [ICON_Amenities] Happy cities yield extra +1 [ICON_FOOD] Food, [ICON_PRODUCTION] Production and [ICON_CULTURE] Culture.[NEWLINE]This effect doubles in [ICON_Amenities] Ecstatic cities.[NEWLINE]All units receive +10 [ICON_Strength] Combat Strength in home territory.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_DORAN_MARTELL_NAME">
+			<Text>A Big Game of Cyvasse</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_DORAN_MARTELL_DESCRIPTION">
+			<Text>Receives a free Spy (and extra spy capacity) with the Civil Service civic.[NEWLINE]Your Spy level is increased by 1 for offensive operations.</Text>
+		</Row>
+		<!-- Rhaegar Targaryen leads the Crownlands -->
+		<Row Tag="LOC_UNIT_TARGARYEN_DRAGON_NAME">
+			<Text>Targaryen Dragon</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_TARGARYEN_DRAGON_DESCRIPTION">
+			<Text>Mighty ancient era air units unique to The Crownlands. Unlocks at Mysticism.[NEWLINE]May only purchase with [ICON_Faith] Faith and extremely expensive to maintain. Targaryen Dragons will make enemy cities within 10 tiles loose 5 points of Loyalty per turn.</Text>
+		</Row>		
+		<Row Tag="LOC_DISTRICT_DRAGONPIT_NAME">
+			<Text>Dragonpit</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_DRAGONPIT_DESCRIPTION">
+			<Text>A district unique to The Crownlands which replaces Government Plaza and even cheaper. [NEWLINE]Dragonpit provides extra +2 points of [ICON_GreatMusician] Great Musician and 3 slots of aircraft for the dragons.</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_RHAEGAR_TARGARYEN_NAME">
+			<Text>Rhaegar Targaryen</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_RHAEGAR_TARGARYEN">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_THE_CROWNLANDS_NAME">
+			<Text>The Crownlands</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_THE_CROWNLANDS_NAME">
+			<Text>Fire and Blood</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_THE_CROWNLANDS_DESCRIPTION">
+			<Text>+100% Loyalty Pressure from your cities' [ICON_CITIZEN] Population.[NEWLINE] Cities with full Loyalty yield extra 25% [ICON_SCIENCE] Science, [ICON_CULTURE] Culture and [ICON_Faith] Faith.[NEWLINE]But The Crownlands may not produce Settlers. Settlers captured or obtained with any other methods will turn into Builders if Capital CIty is already founded.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_RHAEGAR_TARGARYEN_NAME">
+			<Text>The Silver Prince</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_RHAEGAR_TARGARYEN_DESCRIPTION">
+			<Text>+2 points of [ICON_GreatMusician] Great Musician from Capital City. +2 Slots of [ICON_GreatWork_Music] Great Works of Music to Palace. +1 Slot of [ICON_GreatWork_Music] Great Works of Music to each level of Government Plaza Building.[NEWLINE]Each [ICON_GreatWork_Music] Great Work of Music also yields +8 [ICON_Faith] Faith.</Text>
+		</Row>
 	</BaseGameText>
 </GameData>

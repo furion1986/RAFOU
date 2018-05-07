@@ -5,10 +5,14 @@
 	<Types>
 		<!-- THE REACH -->
 		<Row Type="IMPROVEMENT_ARBOR_WINERY" Kind="KIND_IMPROVEMENT"/>
+		<!-- DORNE -->
+		<Row Type="IMPROVEMENT_WATER_GARDEN" Kind="KIND_IMPROVEMENT"/>
 	</Types>
 	<Improvements>
 		<!-- THE REACH -->
 		<Row ImprovementType="IMPROVEMENT_ARBOR_WINERY" Name="LOC_IMPROVEMENT_ARBOR_WINERY_NAME" Description="LOC_IMPROVEMENT_ARBOR_WINERY_DESCRIPTION" Icon="ICON_IMPROVEMENT_ARBOR_WINERY" PlunderType="PLUNDER_GOLD" PlunderAmount="50" Buildable="true" RequiresAdjacentBonusOrLuxury="true" PrereqCivic="CIVIC_GAMES_RECREATION" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_ARBOR_WINERY"/>
+		<!-- DORNE -->
+		<Row ImprovementType="IMPROVEMENT_WATER_GARDEN" Name="LOC_IMPROVEMENT_WATER_GARDEN_NAME" Description="LOC_IMPROVEMENT_WATER_GARDEN_DESCRIPTION" Icon="ICON_IMPROVEMENT_WATER_GARDEN" PlunderType="PLUNDER_CULTURE" PlunderAmount="25" Buildable="true" PrereqTech="TECH_ENGINEERING" OnePerCity="true" Appeal="1" Housing="2" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_WATER_GARDEN"/>
 	</Improvements>
 	<Improvement_Adjacencies>
 		<Row ImprovementType="IMPROVEMENT_ARBOR_WINERY" YieldChangeId="ArborWinery_CultureLux_Early"/>
@@ -16,6 +20,9 @@
 		<Row ImprovementType="IMPROVEMENT_ARBOR_WINERY" YieldChangeId="ArborWinery_ProdBonus_Early"/>
 		<Row ImprovementType="IMPROVEMENT_ARBOR_WINERY" YieldChangeId="ArborWinery_ProdBonus_Late"/>
 		<Row ImprovementType="IMPROVEMENT_ARBOR_WINERY" YieldChangeId="ArborWinery_GoldLux"/>
+		<Row ImprovementType="IMPROVEMENT_WATER_GARDEN" YieldChangeId="WaterGarden_CItyCenterCulture"/>
+		<Row ImprovementType="IMPROVEMENT_WATER_GARDEN" YieldChangeId="WaterGarden_GovernmentCulture"/>
+		<Row ImprovementType="IMPROVEMENT_WATER_GARDEN" YieldChangeId="WaterGarden_OasisGold"/>
 	</Improvement_Adjacencies>
 	<Improvement_ValidTerrains>
 		<Row ImprovementType="IMPROVEMENT_ARBOR_WINERY" TerrainType="TERRAIN_DESERT"/>
@@ -28,21 +35,29 @@
 		<Row ImprovementType="IMPROVEMENT_ARBOR_WINERY" TerrainType="TERRAIN_PLAINS_HILLS"/>
 		<Row ImprovementType="IMPROVEMENT_ARBOR_WINERY" TerrainType="TERRAIN_GRASS_HILLS"/>
 		<Row ImprovementType="IMPROVEMENT_ARBOR_WINERY" TerrainType="TERRAIN_SNOW_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_WATER_GARDEN" TerrainType="TERRAIN_DESERT"/>
 	</Improvement_ValidTerrains>
+	<Improvement_ValidFeatures>
+		<Row ImprovementType="IMPROVEMENT_WATER_GARDEN" FeatureType="FEATURE_FLOODPLAINS"/>
+	</Improvement_ValidFeatures>
 	<Improvement_ValidBuildUnits>
 		<Row ImprovementType="IMPROVEMENT_ARBOR_WINERY" UnitType="UNIT_BUILDER"/>
+		<Row ImprovementType="IMPROVEMENT_WATER_GARDEN" UnitType="UNIT_BUILDER"/>
 	</Improvement_ValidBuildUnits>
 	<Improvement_YieldChanges>
 		<Row ImprovementType="IMPROVEMENT_ARBOR_WINERY" YieldType="YIELD_FOOD" YieldChange="1"/>
 		<Row ImprovementType="IMPROVEMENT_ARBOR_WINERY" YieldType="YIELD_GOLD" YieldChange="2"/>
 		<Row ImprovementType="IMPROVEMENT_ARBOR_WINERY" YieldType="YIELD_CULTURE" YieldChange="0"/>
 		<Row ImprovementType="IMPROVEMENT_ARBOR_WINERY" YieldType="YIELD_PRODUCTION" YieldChange="0"/>
+		<Row ImprovementType="IMPROVEMENT_WATER_GARDEN" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<Row ImprovementType="IMPROVEMENT_WATER_GARDEN" YieldType="YIELD_GOLD" YieldChange="0"/>
 	</Improvement_YieldChanges>
 	<Improvement_BonusYieldChanges>
 		<Row Id="500" ImprovementType="IMPROVEMENT_ARBOR_WINERY" YieldType="YIELD_CULTURE" BonusYieldChange="1" PrereqCivic="CIVIC_GUILDS"/>
 	</Improvement_BonusYieldChanges>
 	<Improvement_Tourism>
 		<Row ImprovementType="IMPROVEMENT_ARBOR_WINERY" TourismSource="TOURISMSOURCE_CULTURE" PrereqTech="TECH_FLIGHT" ScalingFactor="100"/>
+		<Row ImprovementType="IMPROVEMENT_WATER_GARDEN" TourismSource="TOURISMSOURCE_CULTURE" PrereqTech="TECH_FLIGHT" ScalingFactor="100"/>
 	</Improvement_Tourism>
 	<Adjacency_YieldChanges>
 		<Row ID="ArborWinery_CultureLux_Early" Description="Placeholder" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="1" AdjacentResourceClass="RESOURCECLASS_LUXURY" ObsoleteCivic="CIVIC_MERCANTILISM"/>
@@ -50,5 +65,46 @@
 		<Row ID="ArborWinery_ProdBonus_Early" Description="Placeholder" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="1" AdjacentResourceClass="RESOURCECLASS_BONUS" ObsoleteTech="TECH_MASS_PRODUCTION"/>
 		<Row ID="ArborWinery_ProdBonus_Late" Description="Placeholder" YieldType="YIELD_PRODUCTION" YieldChange="2" TilesRequired="1" AdjacentResourceClass="RESOURCECLASS_BONUS" PrereqTech="TECH_MASS_PRODUCTION"/>
 		<Row ID="ArborWinery_GoldLux" Description="Placeholder" YieldType="YIELD_GOLD" YieldChange="2" TilesRequired="1" AdjacentResourceClass="RESOURCECLASS_LUXURY" PrereqTech="TECH_ECONOMICS"/>
+		<Row ID="WaterGarden_CItyCenterCulture" Description="Placeholder" YieldType="YIELD_CULTURE" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_CITY_CENTER"/>
+		<Row ID="WaterGarden_GovernmentCulture" Description="Placeholder" YieldType="YIELD_CULTURE" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_GOVERNMENT"/>
+		<Row ID="WaterGarden_OasisGold" Description="Placeholder" YieldType="YIELD_GOLD" YieldChange="2" TilesRequired="1" AdjacentFeature="FEATURE_OASIS"/>
 	</Adjacency_YieldChanges>
+	<ImprovementModifiers>
+		<Row>
+			<ImprovementType>IMPROVEMENT_WATER_GARDEN</ImprovementType>
+			<ModifierId>WATERGARDEN_AMENITY</ModifierId>
+		</Row>
+		<Row>
+			<ImprovementType>IMPROVEMENT_WATER_GARDEN</ImprovementType>
+			<ModifierId>WATERGARDEN_RIVERADJACENCY_GOLD</ModifierId>
+		</Row>
+	</ImprovementModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>WATERGARDEN_AMENITY</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_IMPROVEMENT_AMENITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>WATERGARDEN_RIVERADJACENCY_GOLD</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_PLOT_ADJUST_PLOT_YIELDS</ModifierType>
+			<SubjectRequirementSetId>PLOT_ADJACENT_TO_RIVER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>WATERGARDEN_AMENITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>WATERGARDEN_RIVERADJACENCY_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>WATERGARDEN_RIVERADJACENCY_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+	</ModifierArguments>	
 </GameData>

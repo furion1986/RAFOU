@@ -34,8 +34,56 @@
 		<Row Type="ABILITY_WARRIOR_MONK_OF_MYR_FEARLESS" Kind="KIND_ABILITY"/>
 		<!-- Doran Martell leads Dorne -->
 		<Row Kind="KIND_UNIT" Type="UNIT_SAND_SNAKE"/>
+		<Row Type="PROMOTION_CLASS_SAND_SNAKE" Kind="KIND_PROMOTION_CLASS"/>
+		<Row Type="PROMOTION_WALK_IN_SHADOW" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_BORN_LEADER" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_ASSASSIN" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_SCHOLAR" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_SEDUCTION" Kind="KIND_PROMOTION"/>
+		<Row Type="ABILITY_SAND_SNAKE_STRENGTH" Kind="KIND_ABILITY"/>
 		<!-- Rhaegar Targaryen leads the Crownlands -->
+		<Row Kind="KIND_UNIT" Type="UNIT_TARGARYEN_DRAGON"/>
 	</Types>
+	<UnitPromotionClasses>
+		<Row PromotionClassType="PROMOTION_CLASS_SAND_SNAKE" Name="LOC_PROMOTION_CLASS_SAND_SNAKE_NAME"/>
+	</UnitPromotionClasses>
+	<UnitPromotions>
+		<Row UnitPromotionType="PROMOTION_WALK_IN_SHADOW" Name="LOC_PROMOTION_WALK_IN_SHADOW_NAME" Description="LOC_PROMOTION_WALK_IN_SHADOW_DESCRIPTION" Level="1" PromotionClass="PROMOTION_CLASS_SAND_SNAKE"/>
+		<Row UnitPromotionType="PROMOTION_BORN_LEADER" Name="LOC_PROMOTION_BORN_LEADER_NAME" Description="LOC_PROMOTION_BORN_LEADER_DESCRIPTION" Level="1" PromotionClass="PROMOTION_CLASS_SAND_SNAKE"/>
+		<Row UnitPromotionType="PROMOTION_ASSASSIN" Name="LOC_PROMOTION_ASSASSIN_NAME" Description="LOC_PROMOTION_ASSASSIN_DESCRIPTION" Level="1" PromotionClass="PROMOTION_CLASS_SAND_SNAKE"/>
+		<Row UnitPromotionType="PROMOTION_SCHOLAR" Name="LOC_PROMOTION_SCHOLAR_NAME" Description="LOC_PROMOTION_SCHOLAR_DESCRIPTION" Level="1" PromotionClass="PROMOTION_CLASS_SAND_SNAKE"/>
+		<Row UnitPromotionType="PROMOTION_SEDUCTION" Name="LOC_PROMOTION_SEDUCTION_NAME" Description="LOC_PROMOTION_SEDUCTION_DESCRIPTION" Level="1" PromotionClass="PROMOTION_CLASS_SAND_SNAKE"/>
+	</UnitPromotions>
+	<UnitPromotionModifiers>
+		<Row>
+			<UnitPromotionType>PROMOTION_WALK_IN_SHADOW</UnitPromotionType>
+			<ModifierId>CAMOUFLAGE_STEALTH</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_BORN_LEADER</UnitPromotionType>
+			<ModifierId>SS_COMBAT_STRENGTH_AOE_LAND</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_ASSASSIN</UnitPromotionType>
+			<ModifierId>FADE_BONUS_MOVE_AFTER_ATTACKING</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_ASSASSIN</UnitPromotionType>
+			<ModifierId>PURSUIT_BONUS_MOVEMENT</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_SCHOLAR</UnitPromotionType>
+			<ModifierId>SS_POST_COMBAT_SCIENCE</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_SCHOLAR</UnitPromotionType>
+			<ModifierId>SS_POST_COMBAT_GS</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_SEDUCTION</UnitPromotionType>
+			<ModifierId>CAPTURE_COMBAT_UNITS_AS_WORKERS</ModifierId>
+		</Row>		
+	</UnitPromotionModifiers>
 	<Traits>
 		<!--Unique trait for sellswords-->
 		<Row TraitType="TRAIT_DUMMY_UNIT_SELLSWORDS" Name="LOC_TRAIT_DUMMY_UNIT_SELLSWORDS_NAME" Description="LOC_TRAIT_DUMMY_UNIT_SELLSWORDS_DESCRIPTION"/>
@@ -100,7 +148,20 @@
 		<Row Type="ABILITY_BROTHERHOOD_WITHOUT_BANNERS" Tag="CLASS_BROTHERHOOD_WITHOUT_BANNERS"/>
 		<Row Type="ABILITY_WARRIOR_MONK_OF_MYR_FEARLESS" Tag="CLASS_BROTHERHOOD_WITHOUT_BANNERS_FEARLESS"/>
 		<!-- Doran Martell leads Dorne -->
+		<Row Type="UNIT_SAND_SNAKE" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="ABILITY_SAND_SNAKE_STRENGTH" Tag="CLASS_RECON"/>
+		<Row Type="ABILITY_SAND_SNAKE_STRENGTH" Tag="CLASS_MELEE"/>
+		<Row Type="ABILITY_SAND_SNAKE_STRENGTH" Tag="CLASS_RANGED"/>
+		<Row Type="ABILITY_SAND_SNAKE_STRENGTH" Tag="CLASS_SIEGE"/>
+		<Row Type="ABILITY_SAND_SNAKE_STRENGTH" Tag="CLASS_HEAVY_CAVALRY"/>
+		<Row Type="ABILITY_SAND_SNAKE_STRENGTH" Tag="CLASS_LIGHT_CAVALRY"/>
+		<Row Type="ABILITY_SAND_SNAKE_STRENGTH" Tag="CLASS_RANGED_CAVALRY"/>
+		<Row Type="ABILITY_SAND_SNAKE_STRENGTH" Tag="CLASS_ANTI_CAVALRY"/>
+		<Row Type="ABILITY_SAND_SNAKE_STRENGTH" Tag="CLASS_HEAVY_CHARIOT"/>
+		<Row Type="ABILITY_SAND_SNAKE_STRENGTH" Tag="CLASS_LIGHT_CHARIOT"/>
+		<Row Type="ABILITY_SAND_SNAKE_STRENGTH" Tag="CLASS_WARRIOR_MONK"/>
 		<!-- Rhaegar Targaryen leads the Crownlands -->
+		<Row Type="UNIT_TARGARYEN_DRAGON" Tag="CLASS_AIRCRAFT"/>
 	</TypeTags>
 	<Units>
 		<!-- Balon Greyjoy leads the Ironborn -->
@@ -125,7 +186,9 @@
 		<Row UnitType="UNIT_BROTHERHOOD_WITHOUT_BANNERS_LONGBOW" TraitType="TRAIT_DUMMY_UNIT_BROTHERHOOD_WITHOUT_BANNERS" Cost="100" Maintenance="2" BaseMoves="2" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="25" RangedCombat="35" Range="3"FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_RANGED" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_BROTHERHOOD_WITHOUT_BANNERS_LONGBOW_NAME" Description="LOC_UNIT_BROTHERHOOD_WITHOUT_BANNERS_LONGBOW_DESCRIPTION" PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_GUNPOWDER" PrereqTech="TECH_IRON_WORKING"/>
 		<Row UnitType="UNIT_BROTHERHOOD_WITHOUT_BANNERS_WARRIOR_MONK_OF_MYR" TraitType="TRAIT_DUMMY_UNIT_BROTHERHOOD_WITHOUT_BANNERS" Cost="100" Maintenance="2" BaseMoves="2" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="36" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_MELEE" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_BROTHERHOOD_WITHOUT_BANNERS_WARRIOR_MONK_OF_MYR_NAME" Description="LOC_UNIT_BROTHERHOOD_WITHOUT_BANNERS_WARRIOR_MONK_OF_MYR_DESCRIPTION" PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_GUNPOWDER" PrereqTech="TECH_IRON_WORKING"/>
 		<!-- Doran Martell leads Dorne -->
+		<Row UnitType="UNIT_SAND_SNAKE" TraitType="TRAIT_CIVILIZATION_UNIT_SAND_SNAKE" Cost="180" Maintenance="3" BaseMoves="2" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="40" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_ANTI_CAVALRY" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_SAND_SNAKE_NAME" Description="LOC_UNIT_SAND_SNAKE_DESCRIPTION" PurchaseYield="YIELD_GOLD" PrereqCivic="CIVIC_CIVIL_SERVICE"/>
 		<!-- Rhaegar Targaryen leads the Crownlands -->
+		<Row UnitType="UNIT_TARGARYEN_DRAGON" TraitType="TRAIT_CIVILIZATION_UNIT_TARGARYEN_DRAGON" Cost="300" Maintenance="12" BaseMoves="3" BaseSightRange="4" ZoneOfControl="false" Domain="DOMAIN_AIR" Combat="45" RangedCombat="45" Range="3" FormationClass="FORMATION_CLASS_AIR" PromotionClass="PROMOTION_CLASS_AIR_FIGHTER" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_TARGARYEN_DRAGON_NAME" Description="LOC_UNIT_TARGARYEN_DRAGON_DESCRIPTION" CanCapture="False" PurchaseYield="YIELD_FAITH" MustPurchase="TRUE" PseudoYieldType="PSEUDOYIELD_UNIT_AIR_COMBAT" IgnoreMoves="true" PrereqCivic="CIVIC_MYSTICISM" Stackable="TRUE" PrereqDistrict="DISTRICT_DRAGONPIT" CanTargetAir="TRUE"/>
 	</Units>
 	<UnitAbilities>
 		<!-- Balon Greyjoy leads the Ironborn -->
@@ -141,6 +204,7 @@
 		<Row UnitAbilityType="ABILITY_BROTHERHOOD_WITHOUT_BANNERS" Name="LOC_ABILITY_BROTHERHOOD_WITHOUT_BANNERS_NAME" Description="LOC_ABILITY_BROTHERHOOD_WITHOUT_BANNERS_DESCRIPTION"/>
 		<Row UnitAbilityType="ABILITY_WARRIOR_MONK_OF_MYR_FEARLESS" Name="LOC_ABILITY_WARRIOR_MONK_OF_MYR_FEARLESS_NAME" Description="LOC_ABILITY_WARRIOR_MONK_OF_MYR_FEARLESS_DESCRIPTION"/>
 		<!-- Doran Martell leads Dorne -->
+		<Row UnitAbilityType="ABILITY_SAND_SNAKE_STRENGTH" Name="LOC_ABILITY_SAND_SNAKE_STRENGTH_NAME" Description="LOC_ABILITY_SAND_SNAKE_STRENGTH_DESCRIPTION" Inactive="true"/>
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</UnitAbilities>
 	<UnitAbilityModifiers>
@@ -184,6 +248,10 @@
 			<ModifierId>HT_MONK_NEGATIVE_COMBAT</ModifierId>
 		</Row>		
 		<!-- Doran Martell leads Dorne -->
+		<Row>
+			<UnitAbilityType>ABILITY_SAND_SNAKE_STRENGTH</UnitAbilityType>
+			<ModifierId>SAND_SNAKE_STRENGTH_MODIFIER</ModifierId>
+		</Row>
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</UnitAbilityModifiers>
 	<Modifiers>
@@ -231,6 +299,23 @@
 			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
 		</Row>
 		<!-- Doran Martell leads Dorne -->
+		<Row>
+			<ModifierId>SS_POST_COMBAT_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_POST_COMBAT_YIELD</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>SS_POST_COMBAT_GS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_GREAT_PEOPLE_POINTS_PER_KILL</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>SS_COMBAT_STRENGTH_AOE_LAND</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
+			<SubjectRequirementSetId>SS_LAND_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>SAND_SNAKE_STRENGTH_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</Modifiers>
 	<ModifierArguments>
@@ -287,6 +372,36 @@
 			<Value>-3</Value>
 		</Row>
 		<!-- Doran Martell leads Dorne -->
+		<Row>
+			<ModifierId>SS_COMBAT_STRENGTH_AOE_LAND</ModifierId>
+			<Name>AbilityType</Name>
+			<Value>ABILITY_SAND_SNAKE_STRENGTH</Value>
+		</Row>
+		<Row>
+			<ModifierId>SAND_SNAKE_STRENGTH_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>SS_POST_COMBAT_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>SS_POST_COMBAT_SCIENCE</ModifierId>
+			<Name>PercentDefeatedStrength</Name>
+			<Value>50</Value>
+		</Row>
+		<Row>
+			<ModifierId>SS_POST_COMBAT_GS</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>SS_POST_COMBAT_GS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_SCIENTIST</Value>
+		</Row>
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</ModifierArguments>
 	<ModifierStrings>
@@ -303,6 +418,9 @@
 		<!-- Hoster Tully leads the Riverlands -->
 		<Row ModifierId="HT_MONK_NEGATIVE_COMBAT_MODIFIER" Context="Preview" Text="LOC_ABILITY_HT_MONK_NEGATIVE_COMBAT_MODIFIER_DESCRIPTION"/>
 		<!-- Doran Martell leads Dorne -->
+		<Row ModifierId="SAND_SNAKE_STRENGTH_MODIFIER" Context="Preview" Text="LOC_SAND_SNAKE_STRENGTH_MODIFIER_DESCRIPTION"/>
+		<Row ModifierId="SS_POST_COMBAT_SCIENCE" Context="Preview" Text="LOC_ABILITY_SAND_SNAKE_SCIENCE_DESCRIPTION"/>
+		<Row ModifierId="SS_POST_COMBAT_GS" Context="Preview" Text="LOC_ABILITY_SAND_SNAKE_SCIENTIST_DESCRIPTION"/>
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</ModifierStrings>
 	<UnitAiInfos>
@@ -354,7 +472,12 @@
 		<Row UnitType="UNIT_BROTHERHOOD_WITHOUT_BANNERS_LONGBOW" AiType="UNITTYPE_RANGED"/>
 		<Row UnitType="UNIT_BROTHERHOOD_WITHOUT_BANNERS_LONGBOW" AiType="UNITTYPE_LAND_COMBAT"/>
 		<!-- Doran Martell leads Dorne -->
+		<Row UnitType="UNIT_SAND_SNAKE" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_SAND_SNAKE" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_SAND_SNAKE" AiType="UNITTYPE_LAND_COMBAT"/>
 		<!-- Rhaegar Targaryen leads the Crownlands -->
+		<Row UnitType="UNIT_TARGARYEN_DRAGON" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_TARGARYEN_DRAGON" AiType="UNITTYPE_AIR"/>
 	</UnitAiInfos>
 	<UnitCaptures>
 		<!-- Balon Greyjoy leads the Ironborn -->
@@ -373,6 +496,7 @@
 		<Row CivUniqueUnitType="UNIT_VALE_KNIGHT" ReplacesUnitType="UNIT_KNIGHT"/>
 		<!-- Hoster Tully leads the Riverlands -->
 		<!-- Doran Martell leads Dorne -->
+		<Row CivUniqueUnitType="UNIT_SAND_SNAKE" ReplacesUnitType="UNIT_PIKEMAN"/>
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</UnitReplaces>
 	<UnitUpgrades>
@@ -395,6 +519,7 @@
 		<Row Unit="UNIT_BROTHERHOOD_WITHOUT_BANNERS_WARRIOR_MONK_OF_MYR" UpgradeUnit="UNIT_MUSKETMAN"/>
 		<Row Unit="UNIT_BROTHERHOOD_WITHOUT_BANNERS_LONGBOW" UpgradeUnit="UNIT_FIELD_CANNON"/>
 		<!-- Doran Martell leads Dorne -->
+		<Row Unit="UNIT_SAND_SNAKE" UpgradeUnit="UNIT_PIKE_AND_SHOT"/>
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</UnitUpgrades>
 	<Unit_BuildingPrereqs>
@@ -456,6 +581,10 @@
 		<!-- Jon Arryn leads the Vale -->
 		<!-- Hoster Tully leads the Riverlands -->
 		<!-- Doran Martell leads Dorne -->
+		<Row>
+			<RequirementSetId>SS_LAND_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</RequirementSets>
 	<RequirementSetRequirements>
@@ -499,6 +628,14 @@
 		<!-- Jon Arryn leads the Vale -->
 		<!-- Hoster Tully leads the Riverlands -->
 		<!-- Doran Martell leads Dorne -->
+		<Row>
+			<RequirementSetId>SS_LAND_REQUIREMENTS</RequirementSetId>
+			<RequirementId>AOE_REQUIRES_LAND_DOMAIN</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>SS_LAND_REQUIREMENTS</RequirementSetId>
+			<RequirementId>AOE_REQUIRES_LAND_ADJACENCY</RequirementId>
+		</Row>
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</RequirementSetRequirements>
 	<Requirements>

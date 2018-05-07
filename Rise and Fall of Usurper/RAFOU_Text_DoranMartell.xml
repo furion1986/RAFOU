@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<BaseGameText>
+		<Row Tag="LOC_CIVILIZATION_DORNE_DESCRIPTION">
+			<Text>Kingdom of Dorne</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DORNE_ADJECTIVE">
+			<Text>Dorne</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_A_BIG_GAME_OF_CYVASSE_NAME">
+			<Text>A Big Game of Cyvasse</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_A_BIG_GAME_OF_CYVASSE_DESCRIPTION">
+			<Text>Receives a free Spy (and extra spy capacity) with the Civil Service civic.[NEWLINE]Your Spy level is increased by 1 for offensive operations.</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_DORAN_MARTELL_QUOTE">
+			<Text>**</Text>
+		</Row>
+		
+		<Row Tag="LOC_BUILDING_DORNISH_CANAL_NAME">
+			<Text>Dornish Canal</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_DORNISH_CANAL_DESCRIPTION">
+			<Text>Dornish people developed such system to provide irrigation to desert lands.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_DORNISH_SPIDER_CANAL_NAME">
+			<Text>Dornish Spider Canal</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_DORNISH_SPIDER_CANAL_DESCRIPTION">
+			<Text>Dornish people developed such system to provide irrigation to desert lands.</Text>
+		</Row>
+
+		<Row Tag="LOC_ABILITY_SAND_SNAKE_STRENGTH_NAME">
+			<Text>Born Leader</Text>
+		</Row>	
+		<Row Tag="LOC_ABILITY_SAND_SNAKE_STRENGTH_DESCRIPTION">
+			<Text>+{1_Amount} Combat Strength from Sand Snake</Text>
+		</Row>			
+		<Row Tag="LOC_SAND_SNAKE_STRENGTH_MODIFIER_DESCRIPTION">
+			<Text>+{1_Amount} Combat Strength from Sand Snake</Text>
+		</Row>	
+		<Row Tag="LOC_ABILITY_SAND_SNAKE_SCIENCE_DESCRIPTION">
+			<Text>Gain [ICON_SCIENCE] Science on combat victory</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_SAND_SNAKE_SCIENTIST_DESCRIPTION">
+			<Text>Gain Points of [ICON_GreatScientist] Great Scientist on combat victory</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_CLASS_SAND_SNAKE_NAME">
+			<Text>Sand Snake Unique Promotions</Text>
+		</Row>
+		
+		<Row Tag="LOC_PROMOTION_WALK_IN_SHADOW_NAME">
+			<Text>Walk in Shadow</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_BORN_LEADER_NAME">
+			<Text>Born Leader</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_ASSASSIN_NAME">
+			<Text>Assassin</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_SCHOLAR_NAME">
+			<Text>Scholar</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_SEDUCTION_NAME">
+			<Text>Seduction</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_WALK_IN_SHADOW_DESCRIPTION">
+			<Text>Gains Stealth Ability.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_BORN_LEADER_DESCRIPTION">
+			<Text>Provides other units within 2 tiles +5 Combat Strength.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_ASSASSIN_DESCRIPTION">
+			<Text>Gains Hit and Run Ability</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_SCHOLAR_DESCRIPTION">
+			<Text>Combat victories provide Science equal to 50% of the Combat Strength of the defeated unit and +5 points of Great Scientist.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_SEDUCTION_DESCRIPTION">
+			<Text>Combat victories have chance to capture defeated unit and enslave as Builder.</Text>
+		</Row>		
+
+		<!--City Names-->
+		<Row Tag="LOC_CIVILIZATION_DORNE_CITY_1">
+			<Text>Sunspear</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DORNE_CITY_2">
+			<Text>Yronwood</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DORNE_CITY_3">
+			<Text>The Tor</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DORNE_CITY_4">
+			<Text>Starfell</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DORNE_CITY_5">
+			<Text>Blackmont</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DORNE_CITY_6">
+			<Text>Sandstone</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DORNE_CITY_7">
+			<Text>Hellholt</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DORNE_CITY_8">
+			<Text>Saltshore</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DORNE_CITY_9">
+			<Text>Godsgrace</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DORNE_CITY_10">
+			<Text>Lemonwood</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DORNE_CITY_11">
+			<Text>Wyl</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DORNE_CITY_12">
+			<Text>Kingsgrave</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DORNE_CITY_13">
+			<Text>Tower of Joy</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DORNE_CITY_14">
+			<Text>Water Gardens</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_DORNE_CITY_15">
+			<Text>Ghost Hill</Text>
+		</Row>
+		<!--CITIZEN NAMES-->
+		<Row Tag="LOC_CITIZEN_DORNE_MALE_1">
+			<Text>Oberyn Martell</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_DORNE_FEMALE_1">
+			<Text>Tyene Sand</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_DORNE_FEMALE_2">
+			<Text>Sarella Sand</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_DORNE_FEMALE_3">
+			<Text>Elia Sand</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_DORNE_FEMALE_4">
+			<Text>Obara Sand</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_DORNE_FEMALE_5">
+			<Text>Nymeria Sand</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_DORNE_FEMALE_6">
+			<Text>Dorea Sand</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_DORNE_FEMALE_7">
+			<Text>Loreza Sand</Text>
+		</Row>
+		<Row Tag="LOC_CITIZEN_DORNE_FEMALE_8">
+			<Text>Obella</Text>
+		</Row>
+		<!--Agendas-->
+
+		<!--PEDIA-->
+		<!--CIV-->
+		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_WATER_GARDEN_CHAPTER_HISTORY_PARA_1">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DORNE_CHAPTER_HISTORY_PARA_1">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DORNE_CHAPTER_HISTORY_PARA_2">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DORNE_CHAPTER_HISTORY_PARA_3">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DORNE_CHAPTER_HISTORY_PARA_4">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DORNE_CHAPTER_HISTORY_PARA_5">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DORNE_CHAPTER_HISTORY_PARA_6">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DORNE_CHAPTER_HISTORY_PARA_7">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DORNE_CHAPTER_HISTORY_PARA_8">
+			<Text>**</Text>
+		</Row>
+
+		<!--LEADER-->
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_DORAN_MARTELL_TITLE">
+			<Text>Doran Martell</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_DORAN_MARTELL_SUBTITLE">
+			<Text>Head of House Martell, the Prince of Dorne, and the Lord of Sunspear.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_DORAN_MARTELL_QUOTE">
+			<Text>"Words are like arrows, Arianne. Once loosed, you cannot call them back." - Doran Martell</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_DORAN_MARTELL_CHAPTER_HISTORY_PARA_1">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_DORAN_MARTELL_CHAPTER_HISTORY_PARA_2">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_DORAN_MARTELL_CHAPTER_HISTORY_PARA_3">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_DORAN_MARTELL_CHAPTER_HISTORY_PARA_4">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_DORAN_MARTELL_CHAPTER_HISTORY_PARA_5">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_DORAN_MARTELL_CHAPTER_HISTORY_PARA_6">
+			<Text>**</Text>
+		</Row>
+
+		<!--UNITS-->
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_BROTHERHOOD_WITHOUT_BANNER_CHAPTER_HISTORY_PARA_1">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_BROTHERHOOD_WITHOUT_BANNER_CHAPTER_HISTORY_PARA_2">
+			<Text>**</Text>
+		</Row>
+
+		<!--CIVINFO-->
+		<Row Tag="LOC_CIVINFO_DORNE_LOCATION">
+			<Text>The Riverlands</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_DORNE_SIZE">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_DORNE_POPULATION">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_CIVINFO_DORNE_CAPITAL">
+			<Text>Riverrun</Text>
+		</Row>
+
+		<!--DIPLO-->
+
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_DORAN_MARTELL_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_DORAN_MARTELL_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_DORAN_MARTELL_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_DORAN_MARTELL_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_DORAN_MARTELL_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_DORAN_MARTELL_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_DORAN_MARTELL_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_DORAN_MARTELL_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_DORAN_MARTELL_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_DORAN_MARTELL_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_DORAN_MARTELL_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_DORAN_MARTELL_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_DORAN_MARTELL_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_DORAN_MARTELL_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_DORAN_MARTELL_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_DORAN_MARTELL_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_GREETING_LEADER_DORAN_MARTELL_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_DORAN_MARTELL_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_DORAN_MARTELL_REASON_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_DORAN_MARTELL_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_DORAN_MARTELL_REASON_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_DORAN_MARTELL_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_DORAN_MARTELL_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_DORAN_MARTELL_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_DORAN_MARTELL_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_DORAN_MARTELL_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_DORAN_MARTELL_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_DORAN_MARTELL_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_DORAN_MARTELL_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_DORAN_MARTELL_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_DORAN_MARTELL_ANY">
+			<Text>**</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_DORAN_MARTELL_ANY">
+			<Text>**</Text>
+		</Row>
+		
+	</BaseGameText>
+</GameData>

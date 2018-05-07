@@ -13,7 +13,6 @@
 		<Row Type="LEADER_TYWIN_LANNISTER" Kind="KIND_LEADER"/>
 		<Row Type="TRAIT_HAMMER_AND_ANVIL" Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_AGENDA_THE_LANNISTERS_PAY_DEBTS" Kind="KIND_TRAIT"/>
-
 		<Row Type="ABILITY_MELEE_DEFEND" Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_CAVALRY_FLANKING" Kind="KIND_ABILITY"/>
 		<Row Type="ABILITY_RANGED_WOUNDED" Kind="KIND_ABILITY"/>
@@ -39,6 +38,9 @@
 		<Row Type="TRAIT_A_BIG_GAME_OF_CYVASSE" Kind="KIND_TRAIT"/>
 		<Row Type="TRAIT_AGENDA_PRINCE_OF_DORNE" Kind="KIND_TRAIT"/>
 		<!-- Rhaegar Targaryen leads the Crownlands -->
+		<Row Type="LEADER_RHAEGAR_TARGARYEN" Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_THE_SILVER_PRINCE" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_AGENDA_HARP_OVER_SWORD" Kind="KIND_TRAIT"/>
 	</Types>
 	
 	<TypeTags>
@@ -101,6 +103,11 @@
 			<InheritFrom>LEADER_DEFAULT</InheritFrom>
 		</Row>
 		<!-- Rhaegar Targaryen leads the Crownlands -->
+		<Row>
+			<LeaderType>LEADER_RHAEGAR_TARGARYEN</LeaderType>
+			<Name>LOC_LEADER_RHAEGAR_TARGARYEN_NAME</Name>
+			<InheritFrom>LEADER_DEFAULT</InheritFrom>
+		</Row>
 	</Leaders>
 
 	<LeaderQuotes>
@@ -121,6 +128,7 @@
 		<!-- Doran Martell leads Dorne -->
 		<Row LeaderType="LEADER_DORAN_MARTELL" Quote="LOC_LEADER_DORAN_MARTELL_QUOTE"/>
 		<!-- Rhaegar Targaryen leads the Crownlands -->
+		<Row LeaderType="LEADER_RHAEGAR_TARGARYEN" Quote="LOC_LEADER_RHAEGAR_TARGARYEN_QUOTE"/>
 	</LeaderQuotes>
 
 	<LeaderTraits>
@@ -144,6 +152,7 @@
 		<!-- Doran Martell leads Dorne -->
 		<Row LeaderType="LEADER_DORAN_MARTELL" TraitType="TRAIT_A_BIG_GAME_OF_CYVASSE"/>
 		<!-- Rhaegar Targaryen leads the Crownlands -->
+		<Row LeaderType="LEADER_RHAEGAR_TARGARYEN" TraitType="TRAIT_THE_SILVER_PRINCE"/>
 	</LeaderTraits>
 	<Traits>
 		<!-- Balon Greyjoy leads the Ironborn -->
@@ -172,6 +181,8 @@
 		<Row Name="LOC_TRAIT_A_BIG_GAME_OF_CYVASSE_NAME" TraitType="TRAIT_A_BIG_GAME_OF_CYVASSE" Description="LOC_TRAIT_A_BIG_GAME_OF_CYVASSE_DESCRIPTION"/>
 		<Row Name="LOC_PLACEHOLDER" TraitType="TRAIT_AGENDA_PRINCE_OF_DORNE" Description="LOC_PLACEHOLDER"/>
 		<!-- Rhaegar Targaryen leads the Crownlands -->
+		<Row Name="LOC_TRAIT_THE_SILVER_PRINCE_NAME" TraitType="TRAIT_THE_SILVER_PRINCE" Description="LOC_TRAIT_THE_SILVER_PRINCE_DESCRIPTION"/>
+		<Row Name="LOC_PLACEHOLDER" TraitType="TRAIT_AGENDA_HARP_OVER_SWORD" Description="LOC_PLACEHOLDER"/>
 	</Traits>
 	<TraitModifiers>
 		<!-- Balon Greyjoy leads the Ironborn -->
@@ -227,36 +238,36 @@
 		</Row>
 		<Row>
 			<TraitType>TRAIT_AGENDA_THE_LANNISTERS_PAY_DEBTS</TraitType>
-			<ModifierId>AGENDA_HIGH_INCOME</ModifierId>
+			<ModifierId>AGENDA_THE_LANNISTERS_PAY_DEBTS_HIGH_INCOME</ModifierId>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_AGENDA_THE_LANNISTERS_PAY_DEBTS</TraitType>
-			<ModifierId>AGENDA_LOW_INCOME</ModifierId>
+			<ModifierId>AGENDA_THE_LANNISTERS_PAY_DEBTS_LOW_INCOME</ModifierId>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_AGENDA_THE_LANNISTERS_PAY_DEBTS</TraitType>
-			<ModifierId>AGENDA_HIGH_STANDING_ARMY</ModifierId>
+			<ModifierId>AGENDA_THE_LANNISTERS_PAY_DEBTS_HIGH_STANDING_ARMY</ModifierId>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_AGENDA_THE_LANNISTERS_PAY_DEBTS</TraitType>
-			<ModifierId>AGENDA_LOW_STANDING_ARMY</ModifierId>
+			<ModifierId>AGENDA_THE_LANNISTERS_PAY_DEBTS_LOW_STANDING_ARMY</ModifierId>
 		</Row>
 		<!-- Robert Baratheon leads the Stormlands -->
 		<Row>
 			<TraitType>TRAIT_AGENDA_THE_STAG_KING</TraitType>
-			<ModifierId>AGENDA_SAME_GOVERNMENT</ModifierId>
+			<ModifierId>AGENDA_THE_STAG_KING_SAME_GOVERNMENT</ModifierId>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_AGENDA_THE_STAG_KING</TraitType>
-			<ModifierId>AGENDA_DIFFERENT_GOVERNMENT</ModifierId>
+			<ModifierId>AGENDA_THE_STAG_KING_DIFFERENT_GOVERNMENT</ModifierId>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_AGENDA_THE_STAG_KING</TraitType>
-			<ModifierId>AGENDA_HIGH_STANDING_ARMY</ModifierId>
+			<ModifierId>AGENDA_THE_STAG_KING_HIGH_STANDING_ARMY</ModifierId>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_AGENDA_THE_STAG_KING</TraitType>
-			<ModifierId>AGENDA_LOW_STANDING_ARMY</ModifierId>
+			<ModifierId>AGENDA_THE_STAG_KING_LOW_STANDING_ARMY</ModifierId>
 		</Row>
 		<!-- Mace Tyrell leads the Reach -->
 		<Row>
@@ -298,21 +309,78 @@
 			<TraitType>TRAIT_HAND_OF_THE_KING</TraitType>
 			<ModifierId>TRAIT_JA_DELEGATION_EXTRA_VIS</ModifierId>
 		</Row-->
+		<Row TraitType="TRAIT_AGENDA_THE_NOBLE_HAND" ModifierId="AGENDA_THE_NOBLE_HAND_FRIEND"/>
+		<Row TraitType="TRAIT_AGENDA_THE_NOBLE_HAND" ModifierId="AGENDA_THE_NOBLE_HAND_DENOUNCED_FRIEND"/>
+		<Row TraitType="TRAIT_AGENDA_THE_NOBLE_HAND" ModifierId="AGENDA_THE_NOBLE_HAND_TRADE"/>
 		<!-- Hoster Tully leads the Riverlands -->
+		<Row TraitType="TRAIT_AGENDA_LORD_TROUT" ModifierId="AGENDA_LORD_TROUT_NOT_COMPETING_MINORS"/>
+		<Row TraitType="TRAIT_AGENDA_LORD_TROUT" ModifierId="AGENDA_LORD_TROUT_COMPETING_MINORS"/>		
 		<!-- Doran Martell leads Dorne -->
 		<Row>
 			<TraitType>TRAIT_A_BIG_GAME_OF_CYVASSE</TraitType>
-			<ModifierId>TRAIT_DM_EARLY_SPY_POLITICAL_PHYLOSOPHY</ModifierId>
+			<ModifierId>TRAIT_DM_EARLY_SPY_CAPACITY_CIVIL_SERVICE</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_A_BIG_GAME_OF_CYVASSE</TraitType>
+			<ModifierId>TRAIT_DM_ADD_SPY_CIVIL_SERVICE</ModifierId>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_A_BIG_GAME_OF_CYVASSE</TraitType>
 			<ModifierId>TRAIT_DM_SPY_INCREASE_OPERATION_LEVEL</ModifierId>
 		</Row>
-		<Row>
-			<TraitType>TRAIT_A_BIG_GAME_OF_CYVASSE</TraitType>
-			<ModifierId>TRAIT_DM_SPY_INCREASE_OPERATION_SPEED</ModifierId>
-		</Row>		
+		<Row TraitType="TRAIT_AGENDA_PRINCE_OF_DORNE" ModifierId="AGENDA_PRINCE_OF_DORNE_HIGH_HAPPINESS"/>
+		<Row TraitType="TRAIT_AGENDA_PRINCE_OF_DORNE" ModifierId="AGENDA_PRINCE_OF_DORNE_LOW_HAPPINESS"/>	
 		<!-- Rhaegar Targaryen leads the Crownlands -->
+		<Row>
+			<TraitType>TRAIT_THE_SILVER_PRINCE</TraitType>
+			<ModifierId>TRAIT_RT_PALACE_GM_POINTS</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_THE_SILVER_PRINCE</TraitType>
+			<ModifierId>TRAIT_RT_PALACE_MUSIC_SLOTS</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_THE_SILVER_PRINCE</TraitType>
+			<ModifierId>TRAIT_RT_TALL_MUSIC_SLOTS</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_THE_SILVER_PRINCE</TraitType>
+			<ModifierId>TRAIT_RT_WIDE_MUSIC_SLOTS</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_THE_SILVER_PRINCE</TraitType>
+			<ModifierId>TRAIT_RT_CONQUEST_MUSIC_SLOTS</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_THE_SILVER_PRINCE</TraitType>
+			<ModifierId>TRAIT_RT_CITYSTATES_MUSIC_SLOTS</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_THE_SILVER_PRINCE</TraitType>
+			<ModifierId>TRAIT_RT_SPIES_MUSIC_SLOTS</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_THE_SILVER_PRINCE</TraitType>
+			<ModifierId>TRAIT_RT_FAITH_MUSIC_SLOTS</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_THE_SILVER_PRINCE</TraitType>
+			<ModifierId>TRAIT_RT_MILITARY_MUSIC_SLOTS</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_THE_SILVER_PRINCE</TraitType>
+			<ModifierId>TRAIT_RT_CULTURE_MUSIC_SLOTS</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_THE_SILVER_PRINCE</TraitType>
+			<ModifierId>TRAIT_RT_SCIENCE_MUSIC_SLOTS</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_THE_SILVER_PRINCE</TraitType>
+			<ModifierId>TRAIT_RT_MUSIC_FAITH</ModifierId>
+		</Row>
+		<Row TraitType="TRAIT_AGENDA_HARP_OVER_SWORD" ModifierId="AGENDA_HARP_OVER_SWORD_HIGH_CULTURE"/>
+		<Row TraitType="TRAIT_AGENDA_HARP_OVER_SWORD" ModifierId="AGENDA_HARP_OVER_SWORD_LOW_CULTURE"/>
 	</TraitModifiers>
 	
 	<!--DiplomaticVisibilitySources>
@@ -420,7 +488,47 @@
 			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
 			<SubjectRequirementSetId>REQUIREMENTS_OPPONENT_IS_WOUNDED</SubjectRequirementSetId>
 		</Row>
+		<Row>
+			<ModifierId>AGENDA_THE_LANNISTERS_PAY_DEBTS_HIGH_INCOME</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_HIGH_INCOME</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_THE_LANNISTERS_PAY_DEBTS_LOW_INCOME</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_LOW_INCOME</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_THE_LANNISTERS_PAY_DEBTS_HIGH_STANDING_ARMY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_HIGH_STANDING_ARMY</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_THE_LANNISTERS_PAY_DEBTS_LOW_STANDING_ARMY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_LOW_STANDING_ARMY</SubjectRequirementSetId>
+		</Row>		
 		<!-- Robert Baratheon leads the Stormlands -->
+		<Row>
+			<ModifierId>AGENDA_THE_STAG_KING_SAME_GOVERNMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>AGENDA_REQUIRE_PLAYER_HAS_SAME_GOVERNMENT</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_THE_STAG_KING_DIFFERENT_GOVERNMENT</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>AGENDA_REQUIRE_PLAYER_HAS_DIFFERENT_GOVERNMENT</SubjectRequirementSetId>
+		</Row>		
+		<Row>
+			<ModifierId>AGENDA_THE_STAG_KING_HIGH_STANDING_ARMY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_HIGH_STANDING_ARMY</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_THE_STAG_KING_LOW_STANDING_ARMY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_LOW_STANDING_ARMY</SubjectRequirementSetId>
+		</Row>		
 		<!-- Mace Tyrell leads the Reach -->
 		<Row>
 			<ModifierId>TRAIT_EXTRABUILDER</ModifierId>
@@ -476,10 +584,120 @@
 		<!--Row>
 			<ModifierId>TRAIT_JA_DELEGATION_EXTRA_VIS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADD_DIPLO_VISIBILITY</ModifierType>
-		</Row-->		
+		</Row-->
+		<Row>
+			<ModifierId>AGENDA_THE_NOBLE_HAND_FRIEND</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_DECLARED_FRIEND</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_THE_NOBLE_HAND_DENOUNCED_FRIEND</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_FRIEND_DENOUNCED</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_THE_NOBLE_HAND_TRADE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_TRADE_RELATIONS</ModifierType>
+			<OwnerRequirementSetId>ON_TURN_STARTED</OwnerRequirementSetId>
+			<SubjectRequirementSetId>PLAYER_IS_MAJOR_CIV_KNOWN_30_TURNS</SubjectRequirementSetId>
+		</Row>		
 		<!-- Hoster Tully leads the Riverlands -->
+		<Row>
+			<ModifierId>AGENDA_LORD_TROUT_NOT_COMPETING_MINORS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_NOT_COMPETING_MINORS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_LORD_TROUT_COMPETING_MINORS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_COMPETING_MINORS</SubjectRequirementSetId>
+		</Row>
 		<!-- Doran Martell leads Dorne -->
+		<Row>
+			<ModifierId>TRAIT_DM_EARLY_SPY_CAPACITY_CIVIL_SERVICE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_SPY</ModifierType>
+			<SubjectRequirementSetId>DM_PLAYER_HAS_CIVIL_SERVICE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DM_ADD_SPY_CIVIL_SERVICE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_GRANT_UNIT_IN_CAPITAL</ModifierType>
+			<RunOnce>true</RunOnce>
+			<Permanent>true</Permanent>
+			<OwnerRequirementsetId>DM_PLAYER_HAS_CIVIL_SERVICE_AND_CAPITAL</OwnerRequirementsetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DM_SPY_INCREASE_OPERATION_LEVEL</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_SPY_BONUS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_PRINCE_OF_DORNE_HIGH_HAPPINESS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_HIGH_HAPPINESS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_PRINCE_OF_DORNE_LOW_HAPPINESS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_LOW_HAPPINESS</SubjectRequirementSetId>
+		</Row>
 		<!-- Rhaegar Targaryen leads the Crownlands -->
+		<Row>
+			<ModifierId>TRAIT_RT_PALACE_GM_POINTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_PALACE_MUSIC_SLOTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_GREAT_WORK_SLOTS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_TALL_MUSIC_SLOTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_GREAT_WORK_SLOTS</ModifierType>			
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_WIDE_MUSIC_SLOTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_GREAT_WORK_SLOTS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_CONQUEST_MUSIC_SLOTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_GREAT_WORK_SLOTS</ModifierType>			
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_CITYSTATES_MUSIC_SLOTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_GREAT_WORK_SLOTS</ModifierType>		
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_SPIES_MUSIC_SLOTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_GREAT_WORK_SLOTS</ModifierType>			
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_FAITH_MUSIC_SLOTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_GREAT_WORK_SLOTS</ModifierType>		
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_MILITARY_MUSIC_SLOTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_GREAT_WORK_SLOTS</ModifierType>			
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_CULTURE_MUSIC_SLOTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_GREAT_WORK_SLOTS</ModifierType>			
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_SCIENCE_MUSIC_SLOTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_GREAT_WORK_SLOTS</ModifierType>			
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_MUSIC_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREATWORK_YIELD</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HARP_OVER_SWORD_HIGH_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_HIGH_CULTURE</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HARP_OVER_SWORD_LOW_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_LOW_CULTURE</SubjectRequirementSetId>
+		</Row>		
 	</Modifiers>
 	<ModifierArguments>
 		<!-- Balon Greyjoy leads the Ironborn -->
@@ -617,7 +835,127 @@
 			<Name>Amount</Name>
 			<Value>5</Value>
 		</Row>
+				<Row>
+			<ModifierId>AGENDA_THE_LANNISTERS_PAY_DEBTS_HIGH_INCOME</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>6</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_THE_LANNISTERS_PAY_DEBTS_HIGH_INCOME</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_KUDO_LEADER_TYWIN_LANNISTER_REASON_AGENDA_HIGH_INCOME</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_THE_LANNISTERS_PAY_DEBTS_HIGH_INCOME</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_DESCRIPTION_HIGH_INCOME</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_THE_LANNISTERS_PAY_DEBTS_LOW_INCOME</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>-6</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_THE_LANNISTERS_PAY_DEBTS_LOW_INCOME</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_WARNING_LEADER_TYWIN_LANNISTER_REASON_AGENDA_LOW_INCOME</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_THE_LANNISTERS_PAY_DEBTS_LOW_INCOME</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_DESCRIPTION_LOW_INCOME</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_THE_LANNISTERS_PAY_DEBTS_HIGH_STANDING_ARMY</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>6</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_THE_LANNISTERS_PAY_DEBTS_HIGH_STANDING_ARMY</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_KUDO_LEADER_TYWIN_LANNISTER_REASON_AGENDA_HIGH_STANDING_ARMY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_THE_LANNISTERS_PAY_DEBTS_HIGH_STANDING_ARMY</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_DESCRIPTION_HIGH_STANDING_ARMY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_THE_LANNISTERS_PAY_DEBTS_LOW_STANDING_ARMY</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>-6</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_THE_LANNISTERS_PAY_DEBTS_LOW_STANDING_ARMY</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_WARNING_LEADER_TYWIN_LANNISTER_REASON_AGENDA_LOW_STANDING_ARMY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_THE_LANNISTERS_PAY_DEBTS_LOW_STANDING_ARMY</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_DESCRIPTION_LOW_STANDING_ARMY</Value>
+		</Row>
 		<!-- Robert Baratheon leads the Stormlands -->
+		<Row>
+			<ModifierId>AGENDA_THE_STAG_KING_HIGH_STANDING_ARMY</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>6</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_THE_STAG_KING_HIGH_STANDING_ARMY</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_KUDO_LEADER_ROBERT_BARATHEON_REASON_AGENDA_HIGH_STANDING_ARMY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_THE_STAG_KING_HIGH_STANDING_ARMY</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_DESCRIPTION_HIGH_STANDING_ARMY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_THE_STAG_KING_LOW_STANDING_ARMY</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>-6</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_THE_STAG_KING_LOW_STANDING_ARMY</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_WARNING_LEADER_ROBERT_BARATHEON_REASON_AGENDA_LOW_STANDING_ARMY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_THE_STAG_KING_LOW_STANDING_ARMY</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_DESCRIPTION_LOW_STANDING_ARMY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_THE_STAG_KING_SAME_GOVERNMENT</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>6</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_THE_STAG_KING_SAME_GOVERNMENT</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_KUDO_LEADER_ROBERT_BARATHEON_REASON_AGENDA_SAME_GOVERNMENT</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_THE_STAG_KING_SAME_GOVERNMENT</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_DESCRIPTION_SAME_GOVERNMENT</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_THE_STAG_KING_DIFFERENT_GOVERNMENT</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>-6</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_THE_STAG_KING_DIFFERENT_GOVERNMENT</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_WARNING_LEADER_ROBERT_BARATHEON_REASON_AGENDA_DIFFERENT_GOVERNMENT</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_THE_STAG_KING_DIFFERENT_GOVERNMENT</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_DESCRIPTION_DIFFERENT_GOVERNMENT</Value>
+		</Row>		
 		<!-- Mace Tyrell leads the Reach -->
 		<Row>
 			<ModifierId>TRAIT_EXTRABUILDER</ModifierId>
@@ -657,12 +995,12 @@
 		<Row>
 			<ModifierId>AGENDA_TOO_FAT_TO_BATTLE_PEACE</ModifierId>
 			<Name>StatementKey</Name>
-			<Value>LOC_DIPLO_KUDO_LEADER_MACE_TYRELL_REASON_ANY</Value>
+			<Value>LOC_DIPLO_KUDO_LEADER_MACE_TYRELL_REASON_PEACE</Value>
 		</Row>
 		<Row>
 			<ModifierId>AGENDA_TOO_FAT_TO_BATTLE_PEACE</ModifierId>
 			<Name>SimpleModifierDescription</Name>
-			<Value>LOC_DIPLO_MODIFIER_PEACEKEEPER_NOT_WARMONGER</Value>
+			<Value>LOC_DIPLO_TOO_FAT_TO_BATTLE_NOT_WARMONGER</Value>
 		</Row>
 		<Row>
 			<ModifierId>AGENDA_TOO_FAT_TO_BATTLE_WAR</ModifierId>
@@ -672,12 +1010,12 @@
 		<Row>
 			<ModifierId>AGENDA_TOO_FAT_TO_BATTLE_WAR</ModifierId>
 			<Name>StatementKey</Name>
-			<Value>LOC_DIPLO_WARNING_LEADER_MACE_TYRELL_REASON_ANY</Value>
+			<Value>LOC_DIPLO_WARNING_LEADER_MACE_TYRELL_REASON_WAR</Value>
 		</Row>
 		<Row>
 			<ModifierId>AGENDA_TOO_FAT_TO_BATTLE_WAR</ModifierId>
 			<Name>SimpleModifierDescription</Name>
-			<Value>LOC_DIPLO_MODIFIER_PEACEKEEPER_WARMONGER</Value>
+			<Value>LOC_DIPLO_TOO_FAT_TO_BATTLE_WARMONGER</Value>
 		</Row>
 		<Row>
 			<ModifierId>AGENDA_TOO_FAT_TO_BATTLE_HIGH_POP</ModifierId>
@@ -687,12 +1025,12 @@
 		<Row>
 			<ModifierId>AGENDA_TOO_FAT_TO_BATTLE_HIGH_POP</ModifierId>
 			<Name>StatementKey</Name>
-			<Value>LOC_DIPLO_KUDO_LEADER_MACE_TYRELL_REASON_ANY</Value>
+			<Value>LOC_DIPLO_KUDO_LEADER_MACE_TYRELL_REASON_POPULATION</Value>
 		</Row>
 		<Row>
 			<ModifierId>AGENDA_TOO_FAT_TO_BATTLE_HIGH_POP</ModifierId>
 			<Name>SimpleModifierDescription</Name>
-			<Value>LOC_DIPLO_MODIFIER_DESCRIPTION_HIGH_POPULATION</Value>
+			<Value>LOC_DIPLO_TOO_FAT_TO_BATTLE_HIGH_POPULATION</Value>
 		</Row>
 		<Row>
 			<ModifierId>AGENDA_TOO_FAT_TO_BATTLE_LOW_POP</ModifierId>
@@ -702,12 +1040,12 @@
 		<Row>
 			<ModifierId>AGENDA_TOO_FAT_TO_BATTLE_LOW_POP</ModifierId>
 			<Name>StatementKey</Name>
-			<Value>LOC_DIPLO_WARNING_LEADER_MACE_TYRELL_REASON_ANY</Value>
+			<Value>LOC_DIPLO_WARNING_LEADER_MACE_TYRELL_REASON_POPULATION</Value>
 		</Row>
 		<Row>
 			<ModifierId>AGENDA_TOO_FAT_TO_BATTLE_LOW_POP</ModifierId>
 			<Name>SimpleModifierDescription</Name>
-			<Value>LOC_DIPLO_MODIFIER_DESCRIPTION_LOW_POPULATION</Value>
+			<Value>LOC_DIPLO_TOO_FAT_TO_BATTLE_LOW_POPULATION</Value>
 		</Row>
 		<!-- Jon Arryn leads the Vale -->
 		<Row>
@@ -751,9 +1089,394 @@
 			<Name>Source</Name>
 			<Value>SOURCE_DELEGATE_TRAIT</Value>
 		</Row-->
+		<Row>
+			<ModifierId>AGENDA_THE_NOBLE_HAND_FRIEND</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>12</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_THE_NOBLE_HAND_FRIEND</ModifierId>
+			<Name>ReductionTurns</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_THE_NOBLE_HAND_FRIEND</ModifierId>
+			<Name>ReductionValue</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_THE_NOBLE_HAND_FRIEND</ModifierId>
+			<Name>MessageThrottle</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_THE_NOBLE_HAND_FRIEND</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_KUDO_LEADER_JON_ARRYN_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_THE_NOBLE_HAND_FRIEND</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_THE_NOBLE_HAND_DECLARED_FRIEND</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_THE_NOBLE_HAND_DENOUNCED_FRIEND</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>-12</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_THE_NOBLE_HAND_DENOUNCED_FRIEND</ModifierId>
+			<Name>ReductionTurns</Name>
+			<Value>10</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_THE_NOBLE_HAND_DENOUNCED_FRIEND</ModifierId>
+			<Name>ReductionValue</Name>
+			<Value>-1</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_THE_NOBLE_HAND_DENOUNCED_FRIEND</ModifierId>
+			<Name>MessageThrottle</Name>
+			<Value>20</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_THE_NOBLE_HAND_DENOUNCED_FRIEND</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_WARNING_LEADER_JON_ARRYN_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_THE_NOBLE_HAND_DENOUNCED_FRIEND</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_THE_NOBLE_HAND_DENOUNCED_FRIEND</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_THE_NOBLE_HAND_TRADE</ModifierId>
+			<Name>TradeBonus</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_THE_NOBLE_HAND_TRADE</ModifierId>
+			<Name>NoTradePenalty</Name>
+			<Value>6</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_THE_NOBLE_HAND_TRADE</ModifierId>
+			<Name>BonusPerRoute</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_THE_NOBLE_HAND_TRADE</ModifierId>
+			<Name>OnlyInboundTrade</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_THE_NOBLE_HAND_TRADE</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_KUDO_LEADER_JON_ARRYN_REASON_TRADE</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_THE_NOBLE_HAND_TRADE</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_THE_NOBLE_HAND_TRADE</Value>
+		</Row>		
 		<!-- Hoster Tully leads the Riverlands -->
+		<Row>			
+			<ModifierId>AGENDA_LORD_TROUT_NOT_COMPETING_MINORS</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>12</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_LORD_TROUT_NOT_COMPETING_MINORS</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_KUDO_LEADER_HOSTER_TULLY_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_LORD_TROUT_NOT_COMPETING_MINORS</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_CITY_STATE_NOT_COMPETING</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_LORD_TROUT_COMPETING_MINORS</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>-6</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_LORD_TROUT_COMPETING_MINORS</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_WARNING_LEADER_HOSTER_TULLY_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_LORD_TROUT_COMPETING_MINORS</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_CITY_STATE_COMPETING</Value>
+		</Row>
 		<!-- Doran Martell leads Dorne -->
+		<Row>
+			<ModifierId>TRAIT_DM_EARLY_SPY_CAPACITY_CIVIL_SERVICE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DM_ADD_SPY_CIVIL_SERVICE</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_SPY</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DM_ADD_SPY_CIVIL_SERVICE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DM_ADD_SPY_CIVIL_SERVICE</ModifierId>
+			<Name>AllowUniqueOverride</Name>
+			<Value>false</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DM_SPY_INCREASE_OPERATION_LEVEL</ModifierId>
+			<Name>Offense</Name>
+			<Value>true</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_DM_SPY_INCREASE_OPERATION_LEVEL</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_PRINCE_OF_DORNE_HIGH_HAPPINESS</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>6</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_PRINCE_OF_DORNE_HIGH_HAPPINESS</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_KUDO_LEADER_DORAN_MARTELL_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_PRINCE_OF_DORNE_HIGH_HAPPINESS</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_DESCRIPTION_HIGH_HAPPINESS</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_PRINCE_OF_DORNE_LOW_HAPPINESS</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>-6</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_PRINCE_OF_DORNE_LOW_HAPPINESS</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_WARNING_LEADER_DORAN_MARTELL_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_PRINCE_OF_DORNE_LOW_HAPPINESS</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_DESCRIPTION_LOW_HAPPINESS</Value>
+		</Row>		
 		<!-- Rhaegar Targaryen leads the Crownlands -->
+		<Row>
+			<ModifierId>TRAIT_RT_PALACE_GM_POINTS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_MUSICIAN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_PALACE_GM_POINTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_PALACE_MUSIC_SLOTS</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_PALACE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_PALACE_MUSIC_SLOTS</ModifierId>
+			<Name>GreatWorkSlotType</Name>
+			<Value>GREATWORKSLOT_MUSIC</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_PALACE_MUSIC_SLOTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_TALL_MUSIC_SLOTS</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_GOV_TALL</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_TALL_MUSIC_SLOTS</ModifierId>
+			<Name>GreatWorkSlotType</Name>
+			<Value>GREATWORKSLOT_MUSIC</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_TALL_MUSIC_SLOTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_WIDE_MUSIC_SLOTS</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_GOV_WIDE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_WIDE_MUSIC_SLOTS</ModifierId>
+			<Name>GreatWorkSlotType</Name>
+			<Value>GREATWORKSLOT_MUSIC</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_WIDE_MUSIC_SLOTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_CONQUEST_MUSIC_SLOTS</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_GOV_CONQUEST</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_CONQUEST_MUSIC_SLOTS</ModifierId>
+			<Name>GreatWorkSlotType</Name>
+			<Value>GREATWORKSLOT_MUSIC</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_CONQUEST_MUSIC_SLOTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_CITYSTATES_MUSIC_SLOTS</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_GOV_CITYSTATES</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_CITYSTATES_MUSIC_SLOTS</ModifierId>
+			<Name>GreatWorkSlotType</Name>
+			<Value>GREATWORKSLOT_MUSIC</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_CITYSTATES_MUSIC_SLOTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_SPIES_MUSIC_SLOTS</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_GOV_SPIES</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_SPIES_MUSIC_SLOTS</ModifierId>
+			<Name>GreatWorkSlotType</Name>
+			<Value>GREATWORKSLOT_MUSIC</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_SPIES_MUSIC_SLOTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_FAITH_MUSIC_SLOTS</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_GOV_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_FAITH_MUSIC_SLOTS</ModifierId>
+			<Name>GreatWorkSlotType</Name>
+			<Value>GREATWORKSLOT_MUSIC</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_FAITH_MUSIC_SLOTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_MILITARY_MUSIC_SLOTS</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_GOV_MILITARY</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_MILITARY_MUSIC_SLOTS</ModifierId>
+			<Name>GreatWorkSlotType</Name>
+			<Value>GREATWORKSLOT_MUSIC</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_MILITARY_MUSIC_SLOTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_CULTURE_MUSIC_SLOTS</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_GOV_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_CULTURE_MUSIC_SLOTS</ModifierId>
+			<Name>GreatWorkSlotType</Name>
+			<Value>GREATWORKSLOT_MUSIC</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_CULTURE_MUSIC_SLOTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_SCIENCE_MUSIC_SLOTS</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_GOV_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_SCIENCE_MUSIC_SLOTS</ModifierId>
+			<Name>GreatWorkSlotType</Name>
+			<Value>GREATWORKSLOT_MUSIC</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_SCIENCE_MUSIC_SLOTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_MUSIC_FAITH</ModifierId>
+			<Name>GreatWorkObjectType</Name>
+			<Value>GREATWORKOBJECT_MUSIC</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_MUSIC_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_MUSIC_FAITH</ModifierId>
+			<Name>YieldChange</Name>
+			<Value>8</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HARP_OVER_SWORD_HIGH_CULTURE</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>6</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HARP_OVER_SWORD_HIGH_CULTURE</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_KUDO_LEADER_RHAEGAR_TARGARYEN_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HARP_OVER_SWORD_HIGH_CULTURE</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_DESCRIPTION_HIGH_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HARP_OVER_SWORD_LOW_CULTURE</ModifierId>
+			<Name>InitialValue</Name>
+			<Value>-6</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HARP_OVER_SWORD_LOW_CULTURE</ModifierId>
+			<Name>StatementKey</Name>
+			<Value>LOC_DIPLO_WARNING_LEADER_RHAEGAR_TARGARYEN_REASON_ANY</Value>
+		</Row>
+		<Row>
+			<ModifierId>AGENDA_HARP_OVER_SWORD_LOW_CULTURE</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_DESCRIPTION_LOW_CULTURE</Value>
+		</Row>		
 	</ModifierArguments>
 	<ModifierStrings>
 		<!-- Balon Greyjoy leads the Ironborn -->
@@ -765,7 +1488,15 @@
 		<!-- Tywin Lannister leads the Westerlands -->
 		<Row ModifierId="MELEE_DEFEND_BONUS" Context="Preview" Text="LOC_ABILITY_MELEE_DEFEND_BONUS_MODIFIER_DESCRIPTION"/>
 		<Row ModifierId="RANGED_WOUNDED_BONUS" Context="Preview" Text="LOC_ABILITY_RANGED_WOUNDED_BONUS_MODIFIER_DESCRIPTION"/>
+		<Row ModifierId="AGENDA_THE_LANNISTERS_PAY_DEBTS_HIGH_INCOME" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL" Context="Sample"/>
+		<Row ModifierId="AGENDA_THE_LANNISTERS_PAY_DEBTS_LOW_INCOME" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL" Context="Sample"/>
+		<Row ModifierId="AGENDA_THE_LANNISTERS_PAY_DEBTS_HIGH_STANDING_ARMY" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL" Context="Sample"/>
+		<Row ModifierId="AGENDA_THE_LANNISTERS_PAY_DEBTS_LOW_STANDING_ARMY" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL" Context="Sample"/>
 		<!-- Robert Baratheon leads the Stormlands -->
+		<Row ModifierId="AGENDA_THE_STAG_KING_SAME_GOVERNMENT" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL" Context="Sample"/>
+		<Row ModifierId="AGENDA_THE_STAG_KING_DIFFERENT_GOVERNMENT" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL" Context="Sample"/>
+		<Row ModifierId="AGENDA_THE_STAG_KING_HIGH_STANDING_ARMY" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL" Context="Sample"/>
+		<Row ModifierId="AGENDA_THE_STAG_KING_LOW_STANDING_ARMY" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL" Context="Sample"/>
 		<!-- Mace Tyrell leads the Reach -->
 		<Row ModifierId="MT_COMBAT_REDUCE_MODIFIER" Context="Preview" Text="LOC_PROMOTION_COMBAT_REDUCE_DESCRIPTION"/>
 		<Row ModifierId="AGENDA_TOO_FAT_TO_BATTLE_PEACE" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL" Context="Sample"/>
@@ -774,9 +1505,17 @@
 		<Row ModifierId="AGENDA_TOO_FAT_TO_BATTLE_LOW_POP" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL" Context="Sample"/>
 		<!-- Jon Arryn leads the Vale -->
 		<Row ModifierId="JONARRYN_DIPLOMATIC_DELEGATION" Context="Sample" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL"/>
+		<Row ModifierId="AGENDA_THE_NOBLE_HAND_FRIEND" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL" Context="Sample"/>
+		<Row ModifierId="AGENDA_THE_NOBLE_HAND_DENOUNCED_FRIEND" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL" Context="Sample"/>
 		<!-- Hoster Tully leads the Riverlands -->
+		<Row ModifierId="AGENDA_LORD_TROUT_NOT_COMPETING_MINORS" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL" Context="Sample"/>
+		<Row ModifierId="AGENDA_LORD_TROUT_COMPETING_MINORS" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL" Context="Sample"/>
 		<!-- Doran Martell leads Dorne -->
+		<Row ModifierId="AGENDA_PRINCE_OF_DORNE_HIGH_HAPPINESS" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL" Context="Sample"/>
+		<Row ModifierId="AGENDA_PRINCE_OF_DORNE_LOW_HAPPINESS" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL" Context="Sample"/>
 		<!-- Rhaegar Targaryen leads the Crownlands -->
+		<Row ModifierId="AGENDA_HARP_OVER_SWORD_HIGH_CULTURE" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL" Context="Sample"/>
+		<Row ModifierId="AGENDA_HARP_OVER_SWORD_LOW_CULTURE" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL" Context="Sample"/>
 	</ModifierStrings>
 
 	<!--AI Settings-->
@@ -812,9 +1551,29 @@
 		<Row ListType="MaceUnitBuilds"/>
 		<Row ListType="MaceDiplomacy"/>
 		<!-- Jon Arryn leads the Vale -->
+		<Row ListType="JonCivics"/>
+		<Row ListType="JonTechs"/>
+		<Row ListType="JonWonders"/>
+		<Row ListType="JonUnitBuilds"/>
+		<Row ListType="JonDiplomacy"/>		
 		<!-- Hoster Tully leads the Riverlands -->
+		<Row ListType="HosterCivics"/>
+		<Row ListType="HosterTechs"/>
+		<Row ListType="HosterWonders"/>
+		<Row ListType="HosterUnitBuilds"/>
+		<Row ListType="HosterDiplomacy"/>			
 		<!-- Doran Martell leads Dorne -->
+		<Row ListType="DoranCivics"/>
+		<Row ListType="DoranTechs"/>
+		<Row ListType="DoranWonders"/>
+		<Row ListType="DoranUnitBuilds"/>
+		<Row ListType="DoranDiplomacy"/>
 		<!-- Rhaegar Targaryen leads the Crownlands -->
+		<Row ListType="RhaegarCivics"/>
+		<Row ListType="RhaegarTechs"/>
+		<Row ListType="RhaegarWonders"/>
+		<Row ListType="RhaegarUnitBuilds"/>
+		<Row ListType="RhaegarDiplomacy"/>		
 	</AiListTypes>
 	<AiLists>
 		<!-- Balon Greyjoy leads the Ironborn -->
@@ -827,40 +1586,74 @@
 		<Row LeaderType="TRAIT_IRON_FLEET" ListType="BalonCivics" System="Civics"/>
 		<Row LeaderType="TRAIT_IRON_FLEET" ListType="BalonTechs" System="Technologies"/>
 		<Row LeaderType="TRAIT_IRON_FLEET" ListType="BalonUnitBuilds" System="UnitPromotionClasses"/>
+		<Row ListType="AlexanderPreferWar" AgendaType="TRAIT_AGENDA_IRON_PRICE" System="Strategies"/>
 		<!-- Eddard Stark leads the North -->
 		<Row ListType="EddardDiplomacy" System="DiplomaticActions" AgendaType="TRAIT_AGENDA_HONOR_AND_JUSTICE"/>
 		<Row LeaderType="TRAIT_THE_NORTH_REMEMBERS" ListType="EddardWonders" System="Buildings"/>
 		<Row LeaderType="TRAIT_THE_NORTH_REMEMBERS" ListType="EddardCivics" System="Civics"/>
 		<Row LeaderType="TRAIT_THE_NORTH_REMEMBERS" ListType="EddardTechs" System="Technologies"/>
 		<Row LeaderType="TRAIT_THE_NORTH_REMEMBERS" ListType="EddardUnitBuilds" System="UnitPromotionClasses"/>
+		<Row ListType="CityStateAllyInfluencePreference" AgendaType="TRAIT_AGENDA_HONOR_AND_JUSTICE" System="PseudoYields"/>
+		<Row ListType="CityStateAllyNoWarPreference" AgendaType="TRAIT_AGENDA_HONOR_AND_JUSTICE" System="DiplomaticActions"/>
 		<!-- Tywin Lannister leads the Westerlands -->
 		<Row ListType="TywinDiplomacy" System="DiplomaticActions" AgendaType="TRAIT_AGENDA_THE_LANNISTERS_PAY_DEBTS"/>
 		<Row LeaderType="TRAIT_HAMMER_AND_ANVIL" ListType="TywinWonders" System="Buildings"/>
 		<Row LeaderType="TRAIT_HAMMER_AND_ANVIL" ListType="TywinCivics" System="Civics"/>
 		<Row LeaderType="TRAIT_HAMMER_AND_ANVIL" ListType="TywinTechs" System="Technologies"/>
 		<Row LeaderType="TRAIT_HAMMER_AND_ANVIL" ListType="TywinUnitBuilds" System="UnitPromotionClasses"/>
+		<Row ListType="MoneyGrubberGoldPreference" AgendaType="TRAIT_AGENDA_THE_LANNISTERS_PAY_DEBTS" System="Yields"/>
 		<!-- Robert Baratheon leads the Stormlands -->
 		<Row ListType="RobertBDiplomacy" System="DiplomaticActions" AgendaType="TRAIT_AGENDA_THE_STAG_KING"/>
 		<Row LeaderType="TRAIT_THE_USURPER" ListType="RobertBWonders" System="Buildings"/>
 		<Row LeaderType="TRAIT_THE_USURPER" ListType="RobertBCivics" System="Civics"/>
 		<Row LeaderType="TRAIT_THE_USURPER" ListType="RobertBTechs" System="Technologies"/>
 		<Row LeaderType="TRAIT_THE_USURPER" ListType="RobertBUnitBuilds" System="UnitPromotionClasses"/>
+		<Row ListType="StandingArmyPseudoYields" AgendaType="TRAIT_AGENDA_THE_STAG_KING" System="PseudoYields"/>
+		<Row ListType="AlexanderPreferWar" AgendaType="TRAIT_AGENDA_THE_STAG_KING" System="Strategies"/>
 		<!-- Mace Tyrell leads the Reach -->
-		<Row ListType="MaceDiplomacy" System="DiplomaticActions" AgendaType="TRAIT_AGENDA_THE_STAG_KING"/>
+		<Row ListType="MaceDiplomacy" System="DiplomaticActions" AgendaType="TRAIT_AGENDA_TOO_FAT_TO_BATTLE"/>
 		<Row LeaderType="TRAIT_LORD_PUFFFISH" ListType="MaceWonders" System="Buildings"/>
 		<Row LeaderType="TRAIT_LORD_PUFFFISH" ListType="MaceCivics" System="Civics"/>
 		<Row LeaderType="TRAIT_LORD_PUFFFISH" ListType="MaceTechs" System="Technologies"/>
 		<Row LeaderType="TRAIT_LORD_PUFFFISH" ListType="MaceUnitBuilds" System="UnitPromotionClasses"/>
+		<Row ListType="PeacekeeperWarLimits" AgendaType="TRAIT_AGENDA_TOO_FAT_TO_BATTLE" System="DiplomaticActions"/>
 		<!-- Jon Arryn leads the Vale -->
+		<Row ListType="JonDiplomacy" System="DiplomaticActions" AgendaType="TRAIT_AGENDA_THE_NOBLE_HAND"/>
+		<Row LeaderType="TRAIT_HAND_OF_THE_KING" ListType="JonWonders" System="Buildings"/>
+		<Row LeaderType="TRAIT_HAND_OF_THE_KING" ListType="JonCivics" System="Civics"/>
+		<Row LeaderType="TRAIT_HAND_OF_THE_KING" ListType="JonTechs" System="Technologies"/>
+		<Row LeaderType="TRAIT_HAND_OF_THE_KING" ListType="JonUnitBuilds" System="UnitPromotionClasses"/>
+		<Row ListType="IronConfederacyDiplomacy" AgendaType="TRAIT_AGENDA_THE_NOBLE_HAND" System="DiplomaticActions"/>
+		<Row ListType="WilhelminaPseudoYields" AgendaType="TRAIT_AGENDA_THE_NOBLE_HAND" System="PseudoYields"/>
 		<!-- Hoster Tully leads the Riverlands -->
+		<Row ListType="HosterDiplomacy" System="DiplomaticActions" AgendaType="TRAIT_AGENDA_LORD_TROUT"/>
+		<Row LeaderType="TRAIT_ADVANTAGEOUS_BETROTHAL" ListType="HosterWonders" System="Buildings"/>
+		<Row LeaderType="TRAIT_ADVANTAGEOUS_BETROTHAL" ListType="HosterCivics" System="Civics"/>
+		<Row LeaderType="TRAIT_ADVANTAGEOUS_BETROTHAL" ListType="HosterTechs" System="Technologies"/>
+		<Row LeaderType="TRAIT_ADVANTAGEOUS_BETROTHAL" ListType="HosterUnitBuilds" System="UnitPromotionClasses"/>		
+		<Row ListType="CityStateAllyInfluencePreference" AgendaType="TRAIT_AGENDA_LORD_TROUT" System="PseudoYields"/>
+		<Row ListType="CityStateAllyNoWarPreference" AgendaType="TRAIT_AGENDA_LORD_TROUT" System="DiplomaticActions"/>
 		<!-- Doran Martell leads Dorne -->
+		<Row ListType="DoranDiplomacy" System="DiplomaticActions" AgendaType="TRAIT_AGENDA_PRINCE_OF_DORNE"/>
+		<Row LeaderType="TRAIT_A_BIG_GAME_OF_CYVASSE" ListType="DoranWonders" System="Buildings"/>
+		<Row LeaderType="TRAIT_A_BIG_GAME_OF_CYVASSE" ListType="DoranCivics" System="Civics"/>
+		<Row LeaderType="TRAIT_A_BIG_GAME_OF_CYVASSE" ListType="DoranTechs" System="Technologies"/>
+		<Row LeaderType="TRAIT_A_BIG_GAME_OF_CYVASSE" ListType="DoranUnitBuilds" System="UnitPromotionClasses"/>
+		<Row ListType="BlackQueenDiplomacyPreference" AgendaType="TRAIT_AGENDA_PRINCE_OF_DORNE" System="DiplomaticActions"/>		
 		<!-- Rhaegar Targaryen leads the Crownlands -->
+		<Row ListType="RhaegarDiplomacy" System="DiplomaticActions" AgendaType="TRAIT_AGENDA_HARP_OVER_SWORD"/>
+		<Row LeaderType="TRAIT_THE_SILVER_PRINCE" ListType="RhaegarWonders" System="Buildings"/>
+		<Row LeaderType="TRAIT_THE_SILVER_PRINCE" ListType="RhaegarCivics" System="Civics"/>
+		<Row LeaderType="TRAIT_THE_SILVER_PRINCE" ListType="RhaegarTechs" System="Technologies"/>
+		<Row LeaderType="TRAIT_THE_SILVER_PRINCE" ListType="RhaegarUnitBuilds" System="UnitPromotionClasses"/>
+		<Row ListType="AirpowerLoverAirpowerPreference" AgendaType="TRAIT_AGENDA_HARP_OVER_SWORD" System="PseudoYields"/>
+		<Row ListType="HarpOverSwordGreatMusician" AgendaType="TRAIT_AGENDA_HARP_OVER_SWORD" System="PseudoYields"/>
 	</AiLists>
 	<AiFavoredItems>
 		<!-- Balon Greyjoy leads the Ironborn -->
 		<!--Wonder Preference-->
 		<Row Item="BUILDING_GREAT_LIGHTHOUSE" ListType="BalonWonders"/>
-		<!--Row Item="BUILDING_HALICARNASSUS_MAUSOLEUM" ListType="BalonWonders"/-->
+		<Row Item="BUILDING_HALICARNASSUS_MAUSOLEUM" ListType="BalonWonders"/>
 		<Row Item="BUILDING_VENETIAN_ARSENAL" ListType="BalonWonders"/>
 		<!--Civic Preference-->
 		<Row Item="CIVIC_FOREIGN_TRADE" ListType="BalonCivics"/>
@@ -922,6 +1715,9 @@
 		<Row Item="TECH_BANKING" ListType="TywinTechs"/>
 		<!--Unit Preference-->
 		<Row Item="PROMOTION_CLASS_MELEE" ListType="TywinUnitBuilds" Value="1"/>
+		<!--Diplomatic Actions-->
+		<Row ListType="TywinDiplomacy" Favored="true" Item="DIPLOACTION_DECLARE_FORMAL_WAR"/>
+		<Row ListType="TywinDiplomacy" Favored="true" Item="DIPLOACTION_DECLARE_WAR_OF_RETRIBUTION"/>
 		<!-- Robert Baratheon leads the Stormlands -->
 		<!--Wonder Preference-->
 		<Row Item="BUILDING_CASTLE" ListType="RobertBWonders"/>
@@ -940,6 +1736,9 @@
 		<!--Unit Preference-->
 		<Row Item="PROMOTION_CLASS_MELEE" ListType="RobertBUnitBuilds" Value="1"/>
 		<Row Item="PROMOTION_CLASS_HEAVY_CAVALRY" ListType="RobertBUnitBuilds" Value="1"/>
+		<!--Diplomatic Actions-->
+		<Row ListType="RobertBDiplomacy" Favored="true" Item="DIPLOACTION_DECLARE_FORMAL_WAR"/>
+		<Row ListType="RobertBDiplomacy" Favored="true" Item="DIPLOACTION_DECLARE_IDEOLOGICAL_WAR"/>
 		<!-- Mace Tyrell leads the Reach -->
 		<!--Wonder Preference-->
 		<Row Item="BUILDING_TEMPLE_ARTEMIS" ListType="MaceWonders"/>
@@ -951,11 +1750,66 @@
 		<!--Tech Preference-->
 		<Row Item="TECH_IRRIGATION" ListType="MaceTechs"/>
 		<!--Unit Preference-->
-		<Row Item="PROMOTION_CLASS_NAVAL_RANGED" ListType="MaceUnitBuilds" Value="1"/>
+		<Row Item="PROMOTION_CLASS_NAVAL_MELEE" ListType="MaceUnitBuilds" Value="1"/>
 		<!-- Jon Arryn leads the Vale -->
+		<!--Wonder Preference-->
+		<Row Item="BUILDING_ORACLE" ListType="JonWonders"/>
+		<Row Item="BUILDING_POTALA_PALACE" ListType="JonWonders"/>
+		<Row Item="BUILDING_CRESCENT_CHAMBER" ListType="JonWonders"/>
+		<!--Civic Preference-->
+		<Row Item="CIVIC_EARLY_EMPIRE" ListType="JonCivics"/>
+		<Row Item="CIVIC_DEFENSIVE_TACTICS" ListType="JonCivics"/>
+		<!--Tech Preference-->
+		<Row Item="TECH_CASTLES" ListType="JonTechs"/>
+		<Row Item="TECH_APPRENTICESHIP" ListType="JonTechs"/>
+		<!--Unit Preference-->
+		<Row Item="PROMOTION_CLASS_HEAVY_CAVALRY" ListType="JonUnitBuilds" Value="1"/>
+		<!--Diplomatic Actions-->
+		<Row ListType="JonDiplomacy" Favored="true" Item="DIPLOACTION_DECLARE_FRIENDSHIP"/>
+		<Row ListType="JonDiplomacy" Favored="true" Item="DIPLOACTION_DIPLOMATIC_DELEGATION"/>
+		<Row ListType="JonDiplomacy" Favored="true" Item="DIPLOACTION_ALLIANCE"/>
 		<!-- Hoster Tully leads the Riverlands -->
+		<!--Wonder Preference-->
+		<Row Item="BUILDING_HANGING_GARDENS" ListType="HosterWonders"/>
+		<Row Item="BUILDING_ANGKOR_WAT" ListType="HosterWonders"/>
+		<!--Civic Preference-->
+		<Row Item="CIVIC_EARLY_EMPIRE" ListType="HosterCivics"/>
+		<Row Item="CIVIC_CIVIL_SERVICE" ListType="HosterCivics"/>
+		<!--Tech Preference-->
+		<Row Item="TECH_CASTLES" ListType="HosterTechs"/>
+		<Row Item="TECH_IRON_WORKING" ListType="HosterTechs"/>
+		<!--Unit Preference-->
+		<Row Item="PROMOTION_CLASS_MELEE" ListType="HosterUnitBuilds" Value="1"/>
+		<!--Diplomatic Actions-->
+		<Row ListType="HosterDiplomacy" Favored="true" Item="DIPLOACTION_DECLARE_FRIENDSHIP"/>
+		<Row ListType="HosterDiplomacy" Favored="true" Item="DIPLOACTION_GRANT_INFLUENCE_TOKEN"/>
 		<!-- Doran Martell leads Dorne -->
+		<!--Wonder Preference-->
+		<Row Item="BUILDING_PYRAMIDS" ListType="DoranWonders"/>
+		<Row Item="BUILDING_PETRA" ListType="DoranWonders"/>
+		<!--Civic Preference-->
+		<Row Item="CIVIC_EARLY_EMPIRE" ListType="DoranCivics"/>
+		<Row Item="CIVIC_CIVIL_SERVICE" ListType="DoranCivics"/>
+		<!--Tech Preference-->
+		<Row Item="TECH_MATHEMATICS" ListType="DoranTechs"/>
+		<Row Item="TECH_MASONRY" ListType="DoranTechs"/>
+		<!--Unit Preference-->
+		<Row Item="PROMOTION_CLASS_ANTI_CAVALRY" ListType="DoranUnitBuilds" Value="1"/>
+		<!--Diplomatic Actions-->	
 		<!-- Rhaegar Targaryen leads the Crownlands -->
+		<!--Wonder Preference-->
+		<Row Item="BUILDING_COLOSSEUM" ListType="RhaegarWonders"/>
+		<Row Item="BUILDING_BOLSHOI_THEATRE" ListType="RhaegarWonders"/>
+		<!--Civic Preference-->
+		<Row Item="CIVIC_MYSTICISM" ListType="RhaegarCivics"/>
+		<Row Item="CIVIC_GAMES_RECREATION" ListType="RhaegarCivics"/>
+		<Row Item="CIVIC_STATE_WORKFORCE" ListType="RhaegarCivics"/>
+		<!--Tech Preference-->
+		<Row Item="TECH_ASTROLOGY" ListType="RhaegarTechs"/>
+		<!--Unit Preference-->
+		<Row Item="PROMOTION_CLASS_AIR_FIGHTER" ListType="RhaegarUnitBuilds" Value="1"/>
+		<!--Diplomatic Actions-->
+		<Row ListType="HarpOverSwordGreatMusician" Item="PSEUDOYIELD_GPP_MUSICIAN" Value="50"/>
 	</AiFavoredItems>
 	<Agendas>
 		<!-- Balon Greyjoy leads the Ironborn -->
@@ -969,9 +1823,13 @@
 		<!-- Mace Tyrell leads the Reach -->
 		<Row AgendaType="AGENDA_TOO_FAT_TO_BATTLE" Description="LOC_AGENDA_TOO_FAT_TO_BATTLE_DESCRIPTION" Name="LOC_AGENDA_TOO_FAT_TO_BATTLE_NAME"/>
 		<!-- Jon Arryn leads the Vale -->
+		<Row AgendaType="AGENDA_THE_NOBLE_HAND" Description="LOC_AGENDA_THE_NOBLE_HAND_DESCRIPTION" Name="LOC_AGENDA_THE_NOBLE_HAND_NAME"/>
 		<!-- Hoster Tully leads the Riverlands -->
+		<Row AgendaType="AGENDA_LORD_TROUT" Description="LOC_AGENDA_LORD_TROUT_DESCRIPTION" Name="LOC_AGENDA_LORD_TROUT_NAME"/>
 		<!-- Doran Martell leads Dorne -->
+		<Row AgendaType="AGENDA_PRINCE_OF_DORNE" Description="LOC_AGENDA_PRINCE_OF_DORNE_DESCRIPTION" Name="LOC_AGENDA_PRINCE_OF_DORNE_NAME"/>
 		<!-- Rhaegar Targaryen leads the Crownlands -->
+		<Row AgendaType="AGENDA_HARP_OVER_SWORD" Description="LOC_AGENDA_HARP_OVER_SWORD_DESCRIPTION" Name="LOC_AGENDA_HARP_OVER_SWORD_NAME"/>
 	</Agendas>
 	<HistoricalAgendas>
 		<!-- Balon Greyjoy leads the Ironborn -->
@@ -985,9 +1843,13 @@
 		<!-- Mace Tyrell leads the Reach -->
 		<Row LeaderType="LEADER_MACE_TYRELL" AgendaType="AGENDA_TOO_FAT_TO_BATTLE"/>
 		<!-- Jon Arryn leads the Vale -->
+		<Row LeaderType="LEADER_JON_ARRYN" AgendaType="AGENDA_THE_NOBLE_HAND"/>
 		<!-- Hoster Tully leads the Riverlands -->
+		<Row LeaderType="LEADER_HOSTER_TULLY" AgendaType="AGENDA_LORD_TROUT"/>
 		<!-- Doran Martell leads Dorne -->
+		<Row LeaderType="LEADER_DORAN_MARTELL" AgendaType="AGENDA_PRINCE_OF_DORNE"/>
 		<!-- Rhaegar Targaryen leads the Crownlands -->
+		<Row LeaderType="LEADER_RHAEGAR_TARGARYEN" AgendaType="AGENDA_HARP_OVER_SWORD"/>
 	</HistoricalAgendas>
 	<AgendaTraits>
 		<!-- Balon Greyjoy leads the Ironborn -->
@@ -1001,9 +1863,13 @@
 		<!-- Mace Tyrell leads the Reach -->
 		<Row AgendaType="AGENDA_TOO_FAT_TO_BATTLE" TraitType="TRAIT_AGENDA_TOO_FAT_TO_BATTLE"/>
 		<!-- Jon Arryn leads the Vale -->
+		<Row AgendaType="AGENDA_THE_NOBLE_HAND" TraitType="TRAIT_AGENDA_THE_NOBLE_HAND"/>
 		<!-- Hoster Tully leads the Riverlands -->
+		<Row AgendaType="AGENDA_LORD_TROUT" TraitType="TRAIT_AGENDA_LORD_TROUT"/>
 		<!-- Doran Martell leads Dorne -->
+		<Row AgendaType="AGENDA_PRINCE_OF_DORNE" TraitType="TRAIT_AGENDA_PRINCE_OF_DORNE"/>
 		<!-- Rhaegar Targaryen leads the Crownlands -->
+		<Row AgendaType="AGENDA_HARP_OVER_SWORD" TraitType="TRAIT_AGENDA_HARP_OVER_SWORD"/>
 	</AgendaTraits>
 	<ExclusiveAgendas>
 		<!-- Balon Greyjoy leads the Ironborn -->
@@ -1020,9 +1886,14 @@
 		<Row AgendaOne="AGENDA_TOO_FAT_TO_BATTLE" AgendaTwo="AGENDA_POPULOUS"/>
 		<Row AgendaOne="AGENDA_TOO_FAT_TO_BATTLE" AgendaTwo="AGENDA_DARWINIST"/>
 		<!-- Jon Arryn leads the Vale -->
+		<Row AgendaOne="AGENDA_THE_NOBLE_HAND" AgendaTwo="AGENDA_DARWINIST"/>
 		<!-- Hoster Tully leads the Riverlands -->
+		<Row AgendaOne="AGENDA_LORD_TROUT" AgendaTwo="AGENDA_CITY_STATE_PROTECTOR"/>
 		<!-- Doran Martell leads Dorne -->
+		<Row AgendaOne="AGENDA_PRINCE_OF_DORNE" AgendaTwo="AGENDA_FUN_LOVING"/>
 		<!-- Rhaegar Targaryen leads the Crownlands -->
+		<Row AgendaOne="AGENDA_HARP_OVER_SWORD" AgendaTwo="AGENDA_AIRPOWER"/>
+		<Row AgendaOne="AGENDA_HARP_OVER_SWORD" AgendaTwo="AGENDA_CULTURED"/>
 	</ExclusiveAgendas>
 	<RequirementSets>
 		<!-- Tywin Lannister leads the Westerlands -->
@@ -1035,6 +1906,15 @@
 			<RequirementSetId>JA_PLAYER_DELEGATION_AND_BUILDING</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
+		<!-- Doran Martell leads Dorne -->
+		<Row>
+			<RequirementSetId>DM_PLAYER_HAS_CIVIL_SERVICE</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>DM_PLAYER_HAS_CIVIL_SERVICE_AND_CAPITAL</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>	
 	</RequirementSets>
 	<RequirementSetRequirements>
 		<!-- Tywin Lannister leads the Westerlands -->
@@ -1059,6 +1939,19 @@
 			<RequirementSetId>JA_PLAYER_DELEGATION_AND_BUILDING</RequirementSetId>
 			<RequirementId>REQUIRES_PLAYER_HAS_CRESCENT_CHAMBER</RequirementId>
 		</Row>
+		<!-- Doran Martell leads Dorne -->
+		<Row>
+			<RequirementSetId>DM_PLAYER_HAS_CIVIL_SERVICE</RequirementSetId>
+			<RequirementId>DM_REQUIRES_PLAYER_HAS_CIVIL_SERVICE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>DM_PLAYER_HAS_CIVIL_SERVICE_AND_CAPITAL</RequirementSetId>
+			<RequirementId>DM_REQUIRES_PLAYER_HAS_CIVIL_SERVICE</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>DM_PLAYER_HAS_CIVIL_SERVICE_AND_CAPITAL</RequirementSetId>
+			<RequirementId>REQUIRES_CAPITAL_CITY</RequirementId>
+		</Row>
 	</RequirementSetRequirements>
 	<Requirements>
 		<!-- Tywin Lannister leads the Westerlands -->
@@ -1072,12 +1965,23 @@
 			<RequirementId>REQUIRES_PLAYER_HAS_CRESCENT_CHAMBER</RequirementId>
 			<RequirementType>REQUIREMENT_PLAYER_HAS_BUILDING</RequirementType>
 		</Row>
+		<!-- Doran Martell leads Dorne -->
+		<Row>
+			<RequirementId>DM_REQUIRES_PLAYER_HAS_CIVIL_SERVICE</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_CIVIC</RequirementType>
+		</Row>
 	</Requirements>
 	<RequirementArguments>
 		<Row>
 			<RequirementId>REQUIRES_PLAYER_HAS_CRESCENT_CHAMBER</RequirementId>
 			<Name>BuildingType</Name>
 			<Value>BUILDING_CRESCENT_CHAMBER</Value>
+		</Row>
+		<!-- Doran Martell leads Dorne -->
+		<Row>
+			<RequirementId>DM_REQUIRES_PLAYER_HAS_CIVIL_SERVICE</RequirementId>
+			<Name>CivicType</Name>
+			<Value>CIVIC_CIVIL_SERVICE</Value>
 		</Row>
 	</RequirementArguments>
 </GameData>

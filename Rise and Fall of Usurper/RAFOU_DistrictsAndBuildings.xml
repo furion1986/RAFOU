@@ -32,6 +32,7 @@
 		<Row Type="BUILDING_DORNISH_CANAL" Kind="KIND_BUILDING"/>
 		<Row Type="BUILDING_DORNISH_SPIDER_CANAL" Kind="KIND_BUILDING"/>		
 		<!-- Rhaegar Targaryen leads the Crownlands -->
+		<Row Type="DISTRICT_DRAGONPIT" Kind="KIND_DISTRICT"/>
 	</Types>
 	
 	<Traits>
@@ -53,6 +54,7 @@
 		<Row CivUniqueDistrictType="DISTRICT_THE_TWIN_TOWERS" ReplacesDistrictType="DISTRICT_AQUEDUCT"/>
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
+		<Row CivUniqueDistrictType="DISTRICT_DRAGONPIT" ReplacesDistrictType="DISTRICT_GOVERNMENT"/>
 	</DistrictReplaces>
 	
 	<BuildingReplaces>
@@ -83,6 +85,7 @@
 		<Row DistrictType="DISTRICT_THE_TWIN_TOWERS" Name="LOC_DISTRICT_THE_TWIN_TOWERS_NAME" Description="LOC_DISTRICT_THE_TWIN_TOWERS_DESCRIPTION" PlunderType="NO_PLUNDER" AdvisorType="ADVISOR_GENERIC" Cost="27" RequiresPlacement="true" RequiresPopulation="false" Aqueduct="true" FreeEmbark="true" NoAdjacentCity="false" InternalOnly="false" ZOC="true" HitPoints="150" TradeEmbark="true" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="true" MilitaryDomain="DOMAIN_LAND" CityStrengthModifier="2" PrereqTech="TECH_CASTLES" TraitType="TRAIT_CIVILIZATION_DISTRICT_THE_TWIN_TOWERS"/>
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
+		<Row DistrictType="DISTRICT_DRAGONPIT" Name="LOC_DISTRICT_DRAGONPIT_NAME" Description="LOC_DISTRICT_DRAGONPIT_DESCRIPTION" PrereqCivic="CIVIC_STATE_WORKFORCE" PlunderType="PLUNDER_CULTURE" PlunderAmount="50" AdvisorType="ADVISOR_GENERIC" Cost="20" CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" CostProgressionParam1="25" Maintenance="1" RequiresPlacement="true" RequiresPopulation="true" Aqueduct="false" NoAdjacentCity="false" InternalOnly="false" ZOC="false" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false" CaptureRemovesDistrict="true" MilitaryDomain="DOMAIN_AIR" AirSlots="3" CityStrengthModifier="2" MaxPerPlayer="1" TraitType="TRAIT_CIVILIZATION_DISTRICT_DRAGONPIT"/>
 	</Districts>
 	
 	<Buildings>
@@ -138,6 +141,17 @@
 		<!-- Hoster Tully leads the Riverlands -->
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
+		<Row DistrictType="DISTRICT_THEATER" YieldChangeId="Dragonpit_Culture"/>
+		<Row DistrictType="DISTRICT_ACROPOLIS" YieldChangeId="Dragonpit_Culture"/>
+		<Row DistrictType="DISTRICT_HOLY_SITE" YieldChangeId="Dragonpit_Faith"/>
+		<Row DistrictType="DISTRICT_LAVRA" YieldChangeId="Dragonpit_Faith"/>
+		<Row DistrictType="DISTRICT_COMMERCIAL_HUB" YieldChangeId="Dragonpit_Gold"/>
+		<Row DistrictType="DISTRICT_HARBOR" YieldChangeId="Dragonpit_Gold"/>
+		<Row DistrictType="DISTRICT_ROYAL_NAVY_DOCKYARD" YieldChangeId="Dragonpit_Gold"/>
+		<Row DistrictType="DISTRICT_INDUSTRIAL_ZONE" YieldChangeId="Dragonpit_Production"/>
+		<Row DistrictType="DISTRICT_HANSA" YieldChangeId="Dragonpit_Production"/>
+		<Row DistrictType="DISTRICT_CAMPUS" YieldChangeId="Dragonpit_Science"/>
+		<Row DistrictType="DISTRICT_SEOWON" YieldChangeId="Dragonpit_Science"/>
 	</District_Adjacencies>
 	
 	<District_ValidTerrains>
@@ -160,6 +174,7 @@
 		<!-- Hoster Tully leads the Riverlands -->
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
+		<Row DistrictType="DISTRICT_DRAGONPIT" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN" PointsPerTurn="2"/>
 	</District_GreatPersonPoints>
 	
 	<District_TradeRouteYields>
@@ -174,8 +189,14 @@
 		<!-- Mace Tyrell leads the Reach -->
 		<!-- Jon Arryn leads the Vale -->
 		<!-- Hoster Tully leads the Riverlands -->
+		<Row DistrictType="DISTRICT_THE_TWIN_TOWERS" YieldType="YIELD_FOOD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="0"/>
+		<Row DistrictType="DISTRICT_THE_TWIN_TOWERS" YieldType="YIELD_PRODUCTION" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="0"/>
+		<Row DistrictType="DISTRICT_THE_TWIN_TOWERS" YieldType="YIELD_GOLD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="0" YieldChangeAsInternationalDestination="3"/>
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
+		<Row DistrictType="DISTRICT_DRAGONPIT" YieldType="YIELD_GOLD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="0" YieldChangeAsInternationalDestination="2"/>
+		<Row DistrictType="DISTRICT_DRAGONPIT" YieldType="YIELD_FOOD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="0"/>
+		<Row DistrictType="DISTRICT_DRAGONPIT" YieldType="YIELD_PRODUCTION" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="0"/>
 	</District_TradeRouteYields>
 	
 	<District_CitizenYieldChanges>
@@ -211,6 +232,11 @@
 		<!-- Hoster Tully leads the Riverlands -->
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
+		<Row ID="Dragonpit_Culture" Description="LOC_DISTRICT_GOVERNMENT_CULTURE" YieldType="YIELD_CULTURE" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_DRAGONPIT"/>
+		<Row ID="Dragonpit_Faith" Description="LOC_DISTRICT_GOVERNMENT_FAITH" YieldType="YIELD_FAITH" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_DRAGONPIT"/>
+		<Row ID="Dragonpit_Gold" Description="LOC_DISTRICT_GOVERNMENT_GOLD" YieldType="YIELD_GOLD" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_DRAGONPIT"/>
+		<Row ID="Dragonpit_Production" Description="LOC_DISTRICT_GOVERNMENT_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_DRAGONPIT"/>
+		<Row ID="Dragonpit_Science" Description="LOC_DISTRICT_GOVERNMENT_SCIENCE" YieldType="YIELD_SCIENCE" YieldChange="1" TilesRequired="1" AdjacentDistrict="DISTRICT_DRAGONPIT"/>
 	</Adjacency_YieldChanges>
 	
 	<BuildingPrereqs>
@@ -319,56 +345,7 @@
 			<ModifierId>SOLAR_OF_TULLYS_DAUGHTER_CITIES_ALWAYS_LOYAL</ModifierId>
 			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_IDENTITY_PER_TURN</ModifierType>
 		</Row>
-		<!-- Doran Martell leads Dorne -->
-		<Row>
-			<ModifierId>TRAIT_DM_HAPPY_DESERT_FOOD</ModifierId>
-			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_DM_HAPPY_DESERT_PRODUCTION</ModifierId>
-			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_DM_HAPPY_DESERT_CULTURE</ModifierId>
-			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_DM_HAPPY_DESERT_HILL_FOOD</ModifierId>
-			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_DM_HAPPY_DESERT_HILL_PRODUCTION</ModifierId>
-			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_DM_HAPPY_DESERT_HILL_CULTURE</ModifierId>
-			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_DM_ECSTATIC_DESERT_FOOD</ModifierId>
-			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_DM_ECSTATIC_DESERT_PRODUCTION</ModifierId>
-			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_DM_ECSTATIC_DESERT_CULTURE</ModifierId>
-			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_DM_ECSTATIC_DESERT_HILL_FOOD</ModifierId>
-			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_DM_ECSTATIC_DESERT_HILL_PRODUCTION</ModifierId>
-			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_DM_ECSTATIC_DESERT_HILL_CULTURE</ModifierId>
-			<ModifierType>MODIFIER_ALL_CITIES_ATTACH_MODIFIER</ModifierType>
-		</Row>		
-		
+		<!-- Doran Martell leads Dorne -->		
 		<Row>
 			<ModifierId>TRAIT_DM_HAPPY_DESERT_FOOD_MODIFIER</ModifierId>
 			<ModifierType>MODIFIER_CITY_PLOT_YIELDS_ADJUST_PLOT_YIELD</ModifierType>
@@ -430,8 +407,18 @@
 			<SubjectRequirementSetId>DM_PLOT_HAS_DESERT_HILL_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
 		<!-- Rhaegar Targaryen leads the Crownlands -->
+		<Row>
+			<ModifierId>RT_DISTRICT_GRANT_PLAYER_GOVERNOR_POINTS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ADJUST_GOVERNOR_POINTS</ModifierType>
+			<Permanent>true</Permanent>
+			<SubjectRequirementSetId>PLAYER_HAS_DRAGONPIT_DISTRICT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
 	</Modifiers>
-	
+	<GameModifiers>
+		<Row>
+			<ModifierId>RT_DISTRICT_GRANT_PLAYER_GOVERNOR_POINTS</ModifierId>
+		</Row>
+	</GameModifiers>
 	<ModifierArguments>
 		<!-- Balon Greyjoy leads the Ironborn -->
 		<Row>
@@ -557,37 +544,6 @@
 		</Row>		
 		<!-- Doran Martell leads Dorne -->
 		<Row>
-			<ModifierId>TRAIT_DM_HAPPY_DESERT_FOOD</ModifierId>
-			<Name>ModifierId</Name>
-			<Value>TRAIT_DM_HAPPY_DESERT_FOOD_MODIFIER</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_DM_HAPPY_DESERT_PRODUCTION</ModifierId>
-			<Name>ModifierId</Name>
-			<Value>TRAIT_DM_HAPPY_DESERT_PRODUCTION_MODIFIER</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_DM_HAPPY_DESERT_CULTURE</ModifierId>
-			<Name>ModifierId</Name>
-			<Value>TRAIT_DM_HAPPY_DESERT_CULTURE_MODIFIER</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_DM_HAPPY_DESERT_HILL_FOOD</ModifierId>
-			<Name>ModifierId</Name>
-			<Value>TRAIT_DM_HAPPY_DESERT_HILL_FOOD_MODIFIER</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_DM_HAPPY_DESERT_HILL_PRODUCTION</ModifierId>
-			<Name>ModifierId</Name>
-			<Value>TRAIT_DM_HAPPY_DESERT_HILL_PRODUCTION_MODIFIER</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_DM_HAPPY_DESERT_HILL_CULTURE</ModifierId>
-			<Name>ModifierId</Name>
-			<Value>TRAIT_DM_HAPPY_DESERT_HILL_CULTURE_MODIFIER</Value>
-		</Row>
-
-		<Row>
 			<ModifierId>TRAIT_DM_HAPPY_DESERT_FOOD_MODIFIER</ModifierId>
 			<Name>YieldType</Name>
 			<Value>YIELD_FOOD</Value>
@@ -646,37 +602,6 @@
 			<ModifierId>TRAIT_DM_HAPPY_DESERT_HILL_CULTURE_MODIFIER</ModifierId>
 			<Name>Amount</Name>
 			<Value>1</Value>
-		</Row>
-
-		<Row>
-			<ModifierId>TRAIT_DM_ECSTATIC_DESERT_FOOD</ModifierId>
-			<Name>ModifierId</Name>
-			<Value>TRAIT_DM_ECSTATIC_DESERT_FOOD_MODIFIER</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_DM_ECSTATIC_DESERT_PRODUCTION</ModifierId>
-			<Name>ModifierId</Name>
-			<Value>TRAIT_DM_ECSTATIC_DESERT_PRODUCTION_MODIFIER</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_DM_ECSTATIC_DESERT_CULTURE</ModifierId>
-			<Name>ModifierId</Name>
-			<Value>TRAIT_DM_ECSTATIC_DESERT_CULTURE_MODIFIER</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_DM_ECSTATIC_DESERT_HILL_FOOD</ModifierId>
-			<Name>ModifierId</Name>
-			<Value>TRAIT_DM_ECSTATIC_DESERT_HILL_FOOD_MODIFIER</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_DM_ECSTATIC_DESERT_HILL_PRODUCTION</ModifierId>
-			<Name>ModifierId</Name>
-			<Value>TRAIT_DM_ECSTATIC_DESERT_HILL_PRODUCTION_MODIFIER</Value>
-		</Row>
-		<Row>
-			<ModifierId>TRAIT_DM_ECSTATIC_DESERT_HILL_CULTURE</ModifierId>
-			<Name>ModifierId</Name>
-			<Value>TRAIT_DM_ECSTATIC_DESERT_HILL_CULTURE_MODIFIER</Value>
 		</Row>
 
 		<Row>
@@ -740,6 +665,11 @@
 			<Value>2</Value>
 		</Row>		
 		<!-- Rhaegar Targaryen leads the Crownlands -->
+		<Row>
+			<ModifierId>RT_DISTRICT_GRANT_PLAYER_GOVERNOR_POINTS</ModifierId>
+			<Name>Delta</Name>
+			<Value>1</Value>
+		</Row>		
 	</ModifierArguments>
 
 	<DistrictModifiers>
@@ -776,6 +706,10 @@
 		</Row>
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
+		<Row>
+			<DistrictType>DISTRICT_DRAGONPIT</DistrictType>
+			<ModifierId>GOVERNMENT_IDENTITY_PER_TURN_MODIFIER</ModifierId>
+		</Row>
 	</DistrictModifiers>
 	
 	<BuildingModifiers>
@@ -1006,51 +940,51 @@
 		<!-- Doran Martell leads Dorne -->
 		<Row>
 			<BuildingType>BUILDING_DORNISH_CANAL</BuildingType>
-			<ModifierId>TRAIT_DM_HAPPY_DESERT_FOOD</ModifierId>
+			<ModifierId>TRAIT_DM_HAPPY_DESERT_FOOD_MODIFIER</ModifierId>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_DORNISH_CANAL</BuildingType>
-			<ModifierId>TRAIT_DM_HAPPY_DESERT_PRODUCTION</ModifierId>
+			<ModifierId>TRAIT_DM_HAPPY_DESERT_PRODUCTION_MODIFIER</ModifierId>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_DORNISH_CANAL</BuildingType>
-			<ModifierId>TRAIT_DM_HAPPY_DESERT_CULTURE</ModifierId>
+			<ModifierId>TRAIT_DM_HAPPY_DESERT_CULTURE_MODIFIER</ModifierId>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_DORNISH_CANAL</BuildingType>
-			<ModifierId>TRAIT_DM_HAPPY_DESERT_HILL_FOOD</ModifierId>
+			<ModifierId>TRAIT_DM_HAPPY_DESERT_HILL_FOOD_MODIFIER</ModifierId>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_DORNISH_CANAL</BuildingType>
-			<ModifierId>TRAIT_DM_HAPPY_DESERT_HILL_PRODUCTION</ModifierId>
+			<ModifierId>TRAIT_DM_HAPPY_DESERT_HILL_PRODUCTION_MODIFIER</ModifierId>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_DORNISH_CANAL</BuildingType>
-			<ModifierId>TRAIT_DM_HAPPY_DESERT_HILL_CULTURE</ModifierId>
+			<ModifierId>TRAIT_DM_HAPPY_DESERT_HILL_CULTURE_MODIFIER</ModifierId>
 		</Row>		
 		<Row>
 			<BuildingType>BUILDING_DORNISH_SPIDER_CANAL</BuildingType>
-			<ModifierId>TRAIT_DM_ECSTATIC_DESERT_FOOD</ModifierId>
+			<ModifierId>TRAIT_DM_ECSTATIC_DESERT_FOOD_MODIFIER</ModifierId>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_DORNISH_SPIDER_CANAL</BuildingType>
-			<ModifierId>TRAIT_DM_ECSTATIC_DESERT_PRODUCTION</ModifierId>
+			<ModifierId>TRAIT_DM_ECSTATIC_DESERT_PRODUCTION_MODIFIER</ModifierId>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_DORNISH_SPIDER_CANAL</BuildingType>
-			<ModifierId>TRAIT_DM_ECSTATIC_DESERT_CULTURE</ModifierId>
+			<ModifierId>TRAIT_DM_ECSTATIC_DESERT_CULTURE_MODIFIER</ModifierId>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_DORNISH_SPIDER_CANAL</BuildingType>
-			<ModifierId>TRAIT_DM_ECSTATIC_DESERT_HILL_FOOD</ModifierId>
+			<ModifierId>TRAIT_DM_ECSTATIC_DESERT_HILL_FOOD_MODIFIER</ModifierId>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_DORNISH_SPIDER_CANAL</BuildingType>
-			<ModifierId>TRAIT_DM_ECSTATIC_DESERT_HILL_PRODUCTION</ModifierId>
+			<ModifierId>TRAIT_DM_ECSTATIC_DESERT_HILL_PRODUCTION_MODIFIER</ModifierId>
 		</Row>
 		<Row>
 			<BuildingType>BUILDING_DORNISH_SPIDER_CANAL</BuildingType>
-			<ModifierId>TRAIT_DM_ECSTATIC_DESERT_HILL_CULTURE</ModifierId>
+			<ModifierId>TRAIT_DM_ECSTATIC_DESERT_HILL_CULTURE_MODIFIER</ModifierId>
 		</Row>			
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</BuildingModifiers>
@@ -1076,6 +1010,10 @@
 			<RequirementSetId>DM_PLOT_HAS_DESERT_HILL_REQUIREMENTS</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_DRAGONPIT_DISTRICT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
 	</RequirementSets>
 	<RequirementSetRequirements>
 		<Row>
@@ -1089,7 +1027,7 @@
 		<Row>
 			<RequirementSetId>HT_CITY_HAS_WATERMILL</RequirementSetId>
 			<RequirementId>HT_REQUIRES_CITY_HAS_WATERMILL</RequirementId>
-		</Row>
+		</Row>			
 		<Row>
 			<RequirementSetId>DM_PLOT_HAS_DESERT_REQUIREMENTS</RequirementSetId>
 			<RequirementId>REQUIRES_PLOT_HAS_DESERT</RequirementId>
@@ -1097,6 +1035,10 @@
 		<Row>
 			<RequirementSetId>DM_PLOT_HAS_DESERT_HILL_REQUIREMENTS</RequirementSetId>
 			<RequirementId>REQUIRES_PLOT_HAS_DESERT_HILLS</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_DRAGONPIT_DISTRICT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>PLAYER_HAS_DRAGONPIT_DISTRICT_REQUIREMENT</RequirementId>
 		</Row>		
 	</RequirementSetRequirements>
 	<Requirements>
@@ -1111,6 +1053,10 @@
 		<Row>
 			<RequirementId>HT_REQUIRES_CITY_HAS_WATERMILL</RequirementId>
 			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>PLAYER_HAS_DRAGONPIT_DISTRICT_REQUIREMENT</RequirementId>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_DISTRICT</RequirementType>
 		</Row>		
 	</Requirements>
 	<RequirementArguments>
@@ -1128,6 +1074,11 @@
 			<RequirementId>HT_REQUIRES_CITY_HAS_WATERMILL</RequirementId>
 			<Name>BuildingType</Name>
 			<Value>BUILDING_WATER_MILL</Value>
-		</Row>		
+		</Row>
+		<Row>
+			<RequirementId>PLAYER_HAS_DRAGONPIT_DISTRICT_REQUIREMENT</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_DRAGONPIT</Value>
+		</Row>
 	</RequirementArguments>
 </GameData>

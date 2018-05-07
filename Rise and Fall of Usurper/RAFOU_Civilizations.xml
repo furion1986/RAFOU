@@ -47,7 +47,9 @@
 		<Row Type="TRAIT_CIVILIZATION_UNIT_SAND_SNAKE" Kind="KIND_TRAIT" />
 		<Row Type="TRAIT_CIVILIZATION_UNBOWED_UNBENT_UNBROKEN" Kind="KIND_TRAIT" />
 		<!-- Rhaegar Targaryen leads the Crownlands -->
-		
+		<Row Type="TRAIT_CIVILIZATION_DISTRICT_DRAGONPIT" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_UNIT_TARGARYEN_DRAGON" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_CIVILIZATION_FIRE_AND_BLOOD" Kind="KIND_TRAIT" />
 		<!--Declare New Unit Ability-->
 		<Row Kind="KIND_ABILITY" Type="ABILITY_ALL_MELEE_CAPTURE_WORKERS"/>
 	</Types>
@@ -134,6 +136,15 @@
 			<RandomCityNameDepth>5</RandomCityNameDepth>
 		</Row>
 		<!-- Rhaegar Targaryen leads the Crownlands -->
+		<Row>
+			<CivilizationType>CIVILIZATION_THE_CROWNLANDS</CivilizationType>
+			<Name>LOC_CIVILIZATION_THE_CROWNLANDS_NAME</Name>
+			<Description>LOC_CIVILIZATION_THE_CROWNLANDS_DESCRIPTION</Description>
+			<Adjective>LOC_CIVILIZATION_THE_CROWNLANDS_ADJECTIVE</Adjective>
+			<StartingCivilizationLevelType>CIVILIZATION_LEVEL_FULL_CIV</StartingCivilizationLevelType>
+			<Ethnicity>ETHNICITY_EURO</Ethnicity>
+			<RandomCityNameDepth>1</RandomCityNameDepth>
+		</Row>
 	</Civilizations>
 
 	<CivilizationLeaders>
@@ -154,6 +165,7 @@
 		<!-- Doran Martell leads Dorne -->
 		<Row CivilizationType="CIVILIZATION_DORNE" LeaderType="LEADER_DORAN_MARTELL" CapitalName="LOC_CIVILIZATION_DORNE_CITY_1" />
 		<!-- Rhaegar Targaryen leads the Crownlands -->
+		<Row CivilizationType="CIVILIZATION_THE_CROWNLANDS" LeaderType="LEADER_RHAEGAR_TARGARYEN" CapitalName="LOC_CIVILIZATION_THE_CROWNLANDS_CITY_1" />
 	</CivilizationLeaders>
 
 	<CivilizationTraits>
@@ -191,6 +203,9 @@
 		<Row CivilizationType="CIVILIZATION_DORNE" TraitType="TRAIT_CIVILIZATION_UNIT_SAND_SNAKE"/>
 		<Row CivilizationType="CIVILIZATION_DORNE" TraitType="TRAIT_CIVILIZATION_UNBOWED_UNBENT_UNBROKEN"/>		
 		<!-- Rhaegar Targaryen leads the Crownlands -->
+		<Row CivilizationType="CIVILIZATION_THE_CROWNLANDS" TraitType="TRAIT_CIVILIZATION_DISTRICT_DRAGONPIT"/>
+		<Row CivilizationType="CIVILIZATION_THE_CROWNLANDS" TraitType="TRAIT_CIVILIZATION_UNIT_TARGARYEN_DRAGON"/>
+		<Row CivilizationType="CIVILIZATION_THE_CROWNLANDS" TraitType="TRAIT_CIVILIZATION_FIRE_AND_BLOOD"/>			
 	</CivilizationTraits>
 
 	<CivilizationInfo>
@@ -235,6 +250,10 @@
 		<Row CivilizationType="CIVILIZATION_DORNE" SortIndex="30" Caption="LOC_CIVINFO_DORNE_POPULATION" Header="LOC_CIVINFO_POPULATION"/>
 		<Row CivilizationType="CIVILIZATION_DORNE" SortIndex="40" Caption="LOC_CIVINFO_DORNE_CAPITAL" Header="LOC_CIVINFO_CAPITAL"/>
 		<!-- Rhaegar Targaryen leads the Crownlands -->
+		<Row CivilizationType="CIVILIZATION_THE_CROWNLANDS" SortIndex="10" Caption="LOC_CIVINFO_THE_CROWNLANDS_LOCATION" Header="LOC_CIVINFO_LOCATION"/>
+		<Row CivilizationType="CIVILIZATION_THE_CROWNLANDS" SortIndex="20" Caption="LOC_CIVINFO_THE_CROWNLANDS_SIZE" Header="LOC_CIVINFO_SIZE"/>
+		<Row CivilizationType="CIVILIZATION_THE_CROWNLANDS" SortIndex="30" Caption="LOC_CIVINFO_THE_CROWNLANDS_POPULATION" Header="LOC_CIVINFO_POPULATION"/>
+		<Row CivilizationType="CIVILIZATION_THE_CROWNLANDS" SortIndex="40" Caption="LOC_CIVINFO_THE_CROWNLANDS_CAPITAL" Header="LOC_CIVINFO_CAPITAL"/>		
 	</CivilizationInfo>
 
 	<CivilizationCitizenNames>
@@ -310,15 +329,24 @@
 		<Row CivilizationType="CIVILIZATION_THE_RIVERLANDS" CitizenName="LOC_CITIZEN_THE_RIVERLANDS_FEMALE_5" Female="1"/>
 		<!-- Doran Martell leads Dorne -->
 		<Row CivilizationType="CIVILIZATION_DORNE" CitizenName="LOC_CITIZEN_DORNE_MALE_1" Female="0"/>
-		<Row CivilizationType="CIVILIZATION_DORNE" CitizenName="LOC_CITIZEN_DORNE_MALE_2" Female="0"/>
-		<Row CivilizationType="CIVILIZATION_DORNE" CitizenName="LOC_CITIZEN_DORNE_MALE_3" Female="0"/>
-		<Row CivilizationType="CIVILIZATION_DORNE" CitizenName="LOC_CITIZEN_DORNE_MALE_4" Female="0"/>
 		<Row CivilizationType="CIVILIZATION_DORNE" CitizenName="LOC_CITIZEN_DORNE_FEMALE_1" Female="1"/>
 		<Row CivilizationType="CIVILIZATION_DORNE" CitizenName="LOC_CITIZEN_DORNE_FEMALE_2" Female="1"/>
 		<Row CivilizationType="CIVILIZATION_DORNE" CitizenName="LOC_CITIZEN_DORNE_FEMALE_3" Female="1"/>
 		<Row CivilizationType="CIVILIZATION_DORNE" CitizenName="LOC_CITIZEN_DORNE_FEMALE_4" Female="1"/>
-		<Row CivilizationType="CIVILIZATION_DORNE" CitizenName="LOC_CITIZEN_DORNE_FEMALE_5" Female="1"/>		
+		<Row CivilizationType="CIVILIZATION_DORNE" CitizenName="LOC_CITIZEN_DORNE_FEMALE_5" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_DORNE" CitizenName="LOC_CITIZEN_DORNE_FEMALE_6" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_DORNE" CitizenName="LOC_CITIZEN_DORNE_FEMALE_7" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_DORNE" CitizenName="LOC_CITIZEN_DORNE_FEMALE_8" Female="1"/>		
 		<!-- Rhaegar Targaryen leads the Crownlands -->
+		<Row CivilizationType="CIVILIZATION_THE_CROWNLANDS" CitizenName="LOC_CITIZEN_THE_CROWNLANDS_MALE_1" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_THE_CROWNLANDS" CitizenName="LOC_CITIZEN_THE_CROWNLANDS_MALE_2" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_THE_CROWNLANDS" CitizenName="LOC_CITIZEN_THE_CROWNLANDS_MALE_3" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_THE_CROWNLANDS" CitizenName="LOC_CITIZEN_THE_CROWNLANDS_MALE_4" Female="0"/>
+		<Row CivilizationType="CIVILIZATION_THE_CROWNLANDS" CitizenName="LOC_CITIZEN_THE_CROWNLANDS_FEMALE_1" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_THE_CROWNLANDS" CitizenName="LOC_CITIZEN_THE_CROWNLANDS_FEMALE_2" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_THE_CROWNLANDS" CitizenName="LOC_CITIZEN_THE_CROWNLANDS_FEMALE_3" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_THE_CROWNLANDS" CitizenName="LOC_CITIZEN_THE_CROWNLANDS_FEMALE_4" Female="1"/>
+		<Row CivilizationType="CIVILIZATION_THE_CROWNLANDS" CitizenName="LOC_CITIZEN_THE_CROWNLANDS_FEMALE_5" Female="1"/>
 	</CivilizationCitizenNames>
 
 	<LoadingInfo>
@@ -339,6 +367,7 @@
 		<!-- Doran Martell leads Dorne -->
 		<Row LeaderType="LEADER_DORAN_MARTELL" PlayDawnOfManAudio="0" BackgroundImage="LEADER_DORAN_MARTELL_BACKGROUND" ForegroundImage="DORANMARTELL_Foreground"/>			
 		<!-- Rhaegar Targaryen leads the Crownlands -->
+		<Row LeaderType="LEADER_RHAEGAR_TARGARYEN" PlayDawnOfManAudio="0" BackgroundImage="LEADER_RHAEGAR_TARGARYEN_BACKGROUND" ForegroundImage="RHAEGARTARGARYEN_Foreground"/>	
 	</LoadingInfo>
 	<DiplomacyInfo>
 		<!-- Balon Greyjoy leads the Ironborn -->
@@ -358,6 +387,7 @@
 		<!-- Doran Martell leads Dorne -->
 		<Row Type="LEADER_DORAN_MARTELL" BackgroundImage="DORANMARTELL_Diplomacy"/>
 		<!-- Rhaegar Targaryen leads the Crownlands -->
+		<Row Type="LEADER_RHAEGAR_TARGARYEN" BackgroundImage="RHAEGARTARGARYEN_Diplomacy"/>
 	</DiplomacyInfo>
 
 	<TypeTags>
@@ -454,6 +484,9 @@
 		<Row TraitType="TRAIT_CIVILIZATION_UNIT_SAND_SNAKE" Name="LOC_UNIT_SAND_SNAKENAME" Description="LOC_UNIT_SAND_SNAKE_DESCRIPTION"/>
 		<Row TraitType="TRAIT_CIVILIZATION_UNBOWED_UNBENT_UNBROKEN" Name="LOC_TRAIT_CIVILIZATION_DORNE_NAME" Description="LOC_TRAIT_CIVILIZATION_DORNE_DESCRIPTION"/>
 		<!-- Rhaegar Targaryen leads the Crownlands -->
+		<Row TraitType="TRAIT_CIVILIZATION_DISTRICT_DRAGONPIT" Name="LOC_DISTRICT_DRAGONPIT_NAME" Description="LOC_DISTRICT_DISTRICT_DRAGONPIT_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_TARGARYEN_DRAGON" Name="LOC_UNIT_TARGARYEN_DRAGON_NAME" Description="LOC_UNIT_TARGARYEN_DRAGON_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_FIRE_AND_BLOOD" Name="LOC_TRAIT_CIVILIZATION_THE_CROWNLANDS_NAME" Description="LOC_TRAIT_CIVILIZATION_THE_CROWNLANDS_DESCRIPTION"/>
 	</Traits>
 
 	<TraitModifiers>
@@ -768,6 +801,26 @@
 			<ModifierId>TRAIT_DM_HOME_COMBAT_BONUS</ModifierId>
 		</Row>		
 		<!-- Rhaegar Targaryen leads the Crownlands -->
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_FIRE_AND_BLOOD</TraitType>
+			<ModifierId>TRAIT_RT_CITY_IDENTITY</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_FIRE_AND_BLOOD</TraitType>
+			<ModifierId>TRAIT_RT_FULL_LOYALTY_SCIENCE</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_FIRE_AND_BLOOD</TraitType>
+			<ModifierId>TRAIT_RT_FULL_LOYALTY_CULTURE</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_FIRE_AND_BLOOD</TraitType>
+			<ModifierId>TRAIT_RT_FULL_LOYALTY_FAITH</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_FIRE_AND_BLOOD</TraitType>
+			<ModifierId>TRAIT_RT_DISABLE_SETTLER</ModifierId>
+		</Row>		
 	</TraitModifiers>
 
 	<Modifiers>
@@ -1151,6 +1204,29 @@
 			<SubjectRequirementSetId>DM_PLOT_IS_OWNER_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
 		<!-- Rhaegar Targaryen leads the Crownlands -->
+		<Row>
+			<ModifierId>TRAIT_RT_CITY_IDENTITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_IDENTITY_PER_CITIZEN</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_FULL_LOYALTY_SCIENCE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>RT_FULL_LOYALTY_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_FULL_LOYALTY_CULTURE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>RT_FULL_LOYALTY_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_FULL_LOYALTY_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER</ModifierType>
+			<SubjectRequirementSetId>RT_FULL_LOYALTY_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_DISABLE_SETTLER</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_BUILD_DISABLED</ModifierType>
+		</Row>		
 	</Modifiers>
 
 	<ModifierArguments>
@@ -2418,6 +2494,46 @@
 			<Value>10</Value>
 		</Row>
 		<!-- Rhaegar Targaryen leads the Crownlands -->
+		<Row>
+			<ModifierId>TRAIT_RT_CITY_IDENTITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_FULL_LOYALTY_SCIENCE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_FULL_LOYALTY_SCIENCE</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_FULL_LOYALTY_CULTURE</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_FULL_LOYALTY_CULTURE</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>	
+		<Row>
+			<ModifierId>TRAIT_RT_FULL_LOYALTY_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_FULL_LOYALTY_FAITH</ModifierId>
+			<Name>Amount</Name>
+			<Value>25</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_DISABLE_SETTLER</ModifierId>
+			<Name>UnitType</Name>
+			<Value>UNIT_SETTLER</Value>
+		</Row>		
 	</ModifierArguments>
 
 	<ModifierStrings>
@@ -2567,6 +2683,7 @@
 		<Row CivilizationType="CIVILIZATION_DORNE" CityName="LOC_CIVILIZATION_DORNE_CITY_14" />
 		<Row CivilizationType="CIVILIZATION_DORNE" CityName="LOC_CIVILIZATION_DORNE_CITY_15" />
 		<!-- Rhaegar Targaryen leads the Crownlands -->
+		<Row CivilizationType="CIVILIZATION_THE_CROWNLANDS" CityName="LOC_CIVILIZATION_THE_CROWNLANDS_CITY_1" />
 	</CityNames>
 
 	<Colors>
@@ -2643,6 +2760,14 @@
 			<Color>201,28,28,255</Color>
 		</Row>
 		<!-- Rhaegar Targaryen leads the Crownlands -->
+		<Row>
+			<Type>COLOR_PLAYER_THE_CROWNLANDS_PRIMARY</Type>
+			<Color>4,4,4,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_THE_CROWNLANDS_SECONDARY</Type>
+			<Color>207,39,39,255</Color>
+		</Row>
 	</Colors>
 	<PlayerColors>
 		<!-- Balon Greyjoy leads the Ironborn -->
@@ -2710,6 +2835,13 @@
 			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
 		</Row>		
 		<!-- Rhaegar Targaryen leads the Crownlands -->
+		<Row>
+			<Type>LEADER_RHAEGAR_TARGARYEN</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_THE_CROWNLANDS_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_THE_CROWNLANDS_SECONDARY</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>
 	</PlayerColors>
 
 	<StartBiasResources>
@@ -2743,6 +2875,7 @@
 		<!-- Eddard Stark leads the North -->
 		<Row CivilizationType="CIVILIZATION_THE_NORTH" FeatureType="FEATURE_FOREST" Tier="4"/>
 		<Row CivilizationType="CIVILIZATION_DORNE" FeatureType="FEATURE_FLOODPLAINS" Tier="3"/>
+		<Row CivilizationType="CIVILIZATION_THE_CROWNLANDS" FeatureType="FEATURE_FOREST" Tier="3"/>
 	</StartBiasFeatures>
 	<StartBiasTerrains>
 		<!-- Balon Greyjoy leads the Ironborn -->
@@ -2763,9 +2896,11 @@
 		<Row CivilizationType="CIVILIZATION_DORNE" Tier="2" TerrainType="TERRAIN_DESERT"/>
 		<Row CivilizationType="CIVILIZATION_DORNE" Tier="2" TerrainType="TERRAIN_DESERT_HILLS"/>
 		<!-- Rhaegar Targaryen leads the Crownlands -->
+		<Row CivilizationType="CIVILIZATION_THE_CROWNLANDS" Tier="3" TerrainType="TERRAIN_COAST"/>
 	</StartBiasTerrains>
 	<StartBiasRivers>
 		<Row CivilizationType="CIVILIZATION_THE_RIVERLANDS" Tier="2"/>
+		<Row CivilizationType="CIVILIZATION_THE_CROWNLANDS" Tier="3"/>
 	</StartBiasRivers>
 	
 	<RequirementSets>
@@ -2861,6 +2996,10 @@
 		</Row>
 		<Row>
 			<RequirementSetId>DM_PLOT_IS_OWNER_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+		<Row>
+			<RequirementSetId>RT_FULL_LOYALTY_REQUIREMENTS</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
 		</Row>
 	</RequirementSets>
@@ -3021,6 +3160,11 @@
 		<Row>
 			<RequirementSetId>DM_PLOT_IS_OWNER_REQUIREMENTS</RequirementSetId>
 			<RequirementId>DM_UNIT_IN_OWNER_TERRITORY_REQUIREMENT</RequirementId>
+		</Row>
+		<!--THE CROWNLANDS-->
+		<Row>
+			<RequirementSetId>RT_FULL_LOYALTY_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_FULL_LOYALTY</RequirementId>
 		</Row>
 	</RequirementSetRequirements>
 
