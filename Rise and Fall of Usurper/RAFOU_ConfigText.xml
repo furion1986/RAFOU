@@ -110,7 +110,7 @@
 			<Text>Tywin Lannister</Text>
 		</Row>
 		<Row Tag="LOC_LOADING_INFO_LEADER_TYWIN_LANNISTER">
-			<Text>"When your enemies defy you, you must serve them steel and fire. When they go to their knees, however, you must help them back to their feet. Elsewise no man will ever bend the knee to you. And any man who must say ‘I am the king’ is no true king at all. Aerys never understood that, but you will. When I’ve won your war for you, we will restore the king’s peace and the king’s justice."-Tywin Lannister</Text>
+			<Text>"When your enemies defy you, you must serve them steel and fire. When they go to their knees, however, you must help them back to their feet. Elsewise no man will ever bend the knee to you. And any man who must say ‘I am the king’ is no true king at all. Aerys never understood that, but you will. When I’ve won your war for you, we will restore the king’s peace and the king’s justice." - Tywin Lannister</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_THE_WESTERLANDS_NAME">
 			<Text>The Westerlands</Text>
@@ -144,7 +144,7 @@
 			<Text>Robert Baratheon</Text>
 		</Row>
 		<Row Tag="LOC_LOADING_INFO_LEADER_ROBERT_BARATHEON">
-			<Text>"The gods be damned. It was a hollow victory they gave me. A crown ... it was the girl I prayed them for. Your sister, safe ... and mine again, as she was meant to be. I ask you, Ned, what good is it to wear a crown? The gods mock the prayers of kings and cowherds alike."-Robert Baratheon</Text>
+			<Text>"The gods be damned. It was a hollow victory they gave me. A crown ... it was the girl I prayed them for. Your sister, safe ... and mine again, as she was meant to be. I ask you, Ned, what good is it to wear a crown? The gods mock the prayers of kings and cowherds alike." - Robert Baratheon</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_THE_STORMLANDS_NAME">
 			<Text>The Stormlands</Text>
@@ -179,7 +179,7 @@
 			<Text>Mace Tyrell</Text>
 		</Row>
 		<Row Tag="LOC_LOADING_INFO_LEADER_MACE_TYRELL">
-			<Text>"There is no greater pleasure than to serve the King's Grace. If I was deemed worthy to join your royal council, you would find none more loyal or true."-Mace Tyrell</Text>
+			<Text>"There is no greater pleasure than to serve the King's Grace. If I was deemed worthy to join your royal council, you would find none more loyal or true." - Mace Tyrell</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_THE_REACH_NAME">
 			<Text>The Reach</Text>
@@ -220,7 +220,7 @@
 			<Text>Jon Arryn</Text>
 		</Row>
 		<Row Tag="LOC_LOADING_INFO_LEADER_JON_ARRYN">
-			<Text>"I need good men about me. Men like Jon Arryn."-Robert Baratheon to Eddard Stark</Text>
+			<Text>"I need good men about me. Men like Jon Arryn." - Robert Baratheon to Eddard Stark</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_THE_VALE_NAME">
 			<Text>The Vale</Text>
@@ -273,7 +273,7 @@
 			<Text>Hoster Tully</Text>
 		</Row>
 		<Row Tag="LOC_LOADING_INFO_LEADER_HOSTER_TULLY">
-			<Text>**</Text>
+			<Text>“Lord Hoster looked as noble as a king, my lady. Would that I had been given the chance to know him.” - Jeyne Westerling to Catelyn Stark</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_THE_RIVERLANDS_NAME">
 			<Text>The Riverlands</Text>
@@ -308,7 +308,7 @@
 			<Text>Doran Martell</Text>
 		</Row>
 		<Row Tag="LOC_LOADING_INFO_LEADER_DORAN_MARTELL">
-			<Text>**</Text>
+			<Text>"I am not blind, nor deaf. I know you all believe me weak, frightened, feeble. Your father knew me better. Oberyn was ever the viper. Deadly, dangerous, unpredictable. No man dared tread on him. I was the grass. Pleasant, complaisant, sweet-smelling, swaying with every breeze. Who fears to walk upon the grass? But it is the grass that hides the viper from his enemies and shelters him until he strikes." - Doran Martell</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_DORNE_NAME">
 			<Text>Dorne</Text>
@@ -331,7 +331,7 @@
 			<Text>Targaryen Dragon</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_TARGARYEN_DRAGON_DESCRIPTION">
-			<Text>Mighty ancient era air units unique to The Crownlands. Unlocks at Mysticism.[NEWLINE]May only purchase with [ICON_Faith] Faith and extremely expensive to maintain. Targaryen Dragons will make enemy cities within 10 tiles loose 5 points of Loyalty per turn.</Text>
+			<Text>Mighty ancient era air units unique to The Crownlands. Unlocks at Mysticism. May only purchase with [ICON_Faith] Faith and extremely expensive to maintain.[NEWLINE]At the beginning of each turn, Targaryen Dragons will make enemy cities within 6 tiles loose 5 points of Loyalty and all other enemy cities loose 1 point of Loyalty.</Text>
 		</Row>		
 		<Row Tag="LOC_DISTRICT_DRAGONPIT_NAME">
 			<Text>Dragonpit</Text>
@@ -343,7 +343,7 @@
 			<Text>Rhaegar Targaryen</Text>
 		</Row>
 		<Row Tag="LOC_LOADING_INFO_LEADER_RHAEGAR_TARGARYEN">
-			<Text>**</Text>
+			<Text>"Had any man ever been so beautiful? He was more than a man, though. His blood was the blood of old Valyria, the blood of dragons and gods." - thoughts of Cersei Lannister</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_THE_CROWNLANDS_NAME">
 			<Text>The Crownlands</Text>

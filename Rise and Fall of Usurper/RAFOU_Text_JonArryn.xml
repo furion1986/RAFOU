@@ -2,7 +2,7 @@
 <GameData>
 	<BaseGameText>
 		<Row Tag="LOC_CIVILIZATION_THE_VALE_DESCRIPTION">
-			<Text>Kingdom of The Vale</Text>
+			<Text>Vale of Arryn</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_THE_VALE_ADJECTIVE">
 			<Text>The Vale</Text>
@@ -108,33 +108,40 @@
 		<!--Agendas-->
 
 		<!--PEDIA-->
-		<!--CIV-->
-		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_DISTRICT_GATE_OF_THE_MOON_CHAPTER_HISTORY_PARA_1">
-			<Text>**</Text>
+		<!--DISTRICT-->
+		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_GATE_OF_THE_MOON_CHAPTER_HISTORY_PARA_1">
+			<Text>The Gates of the Moon was the first seat of House Arryn in the Vale. After the Battle of the Seven Stars, Artys I Arryn, the first King of Mountain and Vale, began construction of the large castle where his host had encamped below the Giant's Lance the night before his victory. The two eldest sons of Artys who followed him on the throne expanded the castle.</Text>
 		</Row>
+		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_GATE_OF_THE_MOON_CHAPTER_HISTORY_PARA_2">
+			<Text>While formidable, the Gates of the Moon was considered by some to not be suitable for kings, and the fourth Arryn monarch, Roland I, found it lacking in comparison to grand Casterly Rock and the Hightower. Roland considered dismantling his seat and starting anew, but he instead decided to build the Eyrie high on the Giant's Lance after wild clansmen descended from the Mountains of the Moon.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_GATE_OF_THE_MOON_CHAPTER_HISTORY_PARA_3">
+			<Text>The Gates of the Moon has since been used by House Arryn as their seat during winter, but when summer comes they return to the Eyrie. The Keepers of the Gates of the Moon have since held the castle for the Arryn kings and, after Aegon's Conquest, for the Arryn Wardens of the East.</Text>
+		</Row>
+		<!--CIV-->
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_VALE_CHAPTER_HISTORY_PARA_1">
-			<Text>**</Text>
+			<Text>The Vale of Arryn or the Vale is one of the constituent regions of the Seven Kingdoms of Westeros. It was formerly a sovereign nation ruled by the Kings of Mountain and Vale before Aegon's Conquest. The Mountains of the Moon surround the smaller Vale proper, although the valley's name is often applied to all of House Arryn's realm.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_VALE_CHAPTER_HISTORY_PARA_2">
-			<Text>**</Text>
+			<Text>The Vale is ruled by the Arryns from the castle known as the Eyrie. Notable houses of this region include Baelish, Belmore, Corbray, Egen, Grafton, Hersy, Hunter, Melcolm, Redfort, Royce, Templeton, and Waynwood. Bastards of noble origin raised in the Vale are given the surname Stone.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_VALE_CHAPTER_HISTORY_PARA_3">
-			<Text>**</Text>
+			<Text>The borders of the Vale are held to be the Bite to the north, the Bay of Crabs to the south, the Mountains of the Moon and then the riverlands to the west, and the narrow sea to the east. The Vale consists of various regions: the Vale of Arryn itself; the Mountains of the Moon; the snakewood; the Fingers; and the islands of the Three Sisters, the Paps, and Pebble.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_VALE_CHAPTER_HISTORY_PARA_4">
-			<Text>**</Text>
+			<Text>The Vale is located on the eastern shore of Westeros, a land of fertile soil, rivers, and lakes, protected by its largely impassable Mountains of the Moon. The Vale tends to be slightly isolated from the rest of Westeros. Its harsh winters make travel only possible through the mountains during warmer years, and rebellious mountain clans make travel even more dangerous. The Vale can be reached through the high road, which connects the Vale and the riverlands, and is protected by the Bloody Gate.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_VALE_CHAPTER_HISTORY_PARA_5">
-			<Text>**</Text>
+			<Text>The mountainous border of the Vale of Arryn proper appears to include the Bloody Gate in the west and the Eyrie and Longbow Hall to the north. The fertile lands within the valley include Ironoaks, Old Anchor, Redfort, and a peninsula containing the city of Gulltown and Runestone. The town of Wickenden is located along the Bay of Crabs, in the mountains south of the valley. Castles north of the Vale proper in the valleys of the Mountains of the Moon and the snakewood forest[3] include Coldwater, Heart's Home, Snakewood, and Strongsong.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_VALE_CHAPTER_HISTORY_PARA_6">
-			<Text>**</Text>
+			<Text>The Valemen, the people of the Vale, are known as reliable warriors steeped in honor and the worship of the Faith of the Seven. The knights of the Vale consider themselves the finest in the Seven Kingdoms, and the Valemen consider the Eyrie to be the most beautiful castle of the realm.[8] The island people of the Three Sisters are known as Sistermen.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_VALE_CHAPTER_HISTORY_PARA_7">
-			<Text>**</Text>
+			<Text>Some of the people living in the foothills of the Mountains of the Moon have rejected the authority of the Eyrie and live by their own rules. These mountain clans, such as the Black Ears and the Burned Men, are descendants of the First Men who raid unwary travelers and skirmish with the knights of the Vale.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_VALE_CHAPTER_HISTORY_PARA_8">
-			<Text>**</Text>
+			<Text>Wheat, corn, and barley is grown in the Vale. Not even in Highgarden do the pumpkins grow any larger nor is the fruit any sweeter. House Waxley is known for producing scented candles in Wickenden. The candles can be scented with nutmeg and other costly spices.</Text>
 		</Row>
 
 		<!--LEADER-->
@@ -142,36 +149,33 @@
 			<Text>Jon Arryn</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JON_ARRYN_SUBTITLE">
-			<Text>Head of House Arryn, Lord of the Eyrie, and Warden of the Vale.</Text>
+			<Text>Lord of the Eyrie, Defender of the Vale, Warden of the East, Hand of the King, Keeper of the Gates of the Moon</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JON_ARRYN_QUOTE">
 			<Text>"I need good men about me. Men like Jon Arryn." - Robert Baratheon</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JON_ARRYN_CHAPTER_HISTORY_PARA_1">
-			<Text>**</Text>
+			<Text>Jon had broad shoulders. Half of his teeth had fallen out by the time he married Lysa Tully. As a younger man he resembled Harrold Hardyng, who has blue eyes, blonde hair, and an aquiline nose. Lysa resented his poor breath.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JON_ARRYN_CHAPTER_HISTORY_PARA_2">
-			<Text>**</Text>
+			<Text>Jon had a reputation for being prudent, calming and wise, and kindly and trusting. He was cordial but not friendly toward Lord Stannis Baratheon. While in King's Landing, Lysa commissioned a double-edged longsword for Jon which he carried while sitting the Iron Throne in place of King Robert I Baratheon. Jon's blade has wings on its crossguard, a falcon-head pommel, and is engraved in silver to resemble mountain sky. Jon preferred functional armor, rather than jeweled and silvered plate.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JON_ARRYN_CHAPTER_HISTORY_PARA_3">
-			<Text>**</Text>
+			<Text>Jon was born as the eldest son of Lord Jasper Arryn. Not much is known about his youth or his parents. He had a younger brother, Ronnel, and a sister, Alys, who married Ser Elys Waynwood. Jon was Keeper of the Gates of the Moon while his father lived, and after his father's death he named his brother Ronnel and later his cousin Denys to that position. Because of the Vale mountain clans, Jon always traveled in strength when crossing the Mountains of the Moon.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JON_ARRYN_CHAPTER_HISTORY_PARA_4">
-			<Text>**</Text>
+			<Text>Jon's first wife was Jeyne Royce, but she died in childbed, their daughter stillborn. His second marriage was to Rowena Arryn, a cousin, who died of a winter chill during a childless marriage. Because he had no children, Jon's heir became his nephew, Elbert, the son of Ronnel.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JON_ARRYN_CHAPTER_HISTORY_PARA_5">
-			<Text>**</Text>
-		</Row>
-		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JON_ARRYN_CHAPTER_HISTORY_PARA_6">
-			<Text>**</Text>
+			<Text>Jon fostered Eddard Stark and Robert Baratheon as his wards in the Vale of Arryn. As they grew, the two boys became close companions and regarded the childless Jon as a second father. The only blade used by Robert was a hunting knife he received from Jon as a boy. Jon declined to foster the grandsons of Lord Walder Frey.</Text>
 		</Row>
 
 		<!--UNITS-->
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_VALE_KNIGHT_CHAPTER_HISTORY_PARA_1">
-			<Text>**</Text>
+			<Text>The tradition of knighthood is strong in the Vale. During the Andal invasion of Westeros, the Andals first landed in the Fingers. Legends claim that the first King of Mountain and Vale, Ser Artys I Arryn, was the Winged Knight.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_VALE_KNIGHT_CHAPTER_HISTORY_PARA_2">
-			<Text>**</Text>
+			<Text>The knights of the Vale are sent out in search of the Vale mountain clans on occasion. The lesser clansmen tend to be wiped out by these knights.</Text>
 		</Row>
 
 		<!--CIVINFO-->
@@ -179,10 +183,10 @@
 			<Text>The Vale</Text>
 		</Row>
 		<Row Tag="LOC_CIVINFO_THE_VALE_SIZE">
-			<Text>**</Text>
+			<Text>The borders of the Vale are held to be the Bite to the north, the Bay of Crabs to the south, the Mountains of the Moon and then the riverlands to the west, and the narrow sea to the east.</Text>
 		</Row>
 		<Row Tag="LOC_CIVINFO_THE_VALE_POPULATION">
-			<Text>**</Text>
+			<Text>The Valemen, the people of the Vale, are known as reliable warriors steeped in honor and the worship of the Faith of the Seven. The knights of the Vale consider themselves the finest in the Seven Kingdoms, and the Valemen consider the Eyrie to be the most beautiful castle of the realm. The island people of the Three Sisters are known as Sistermen.</Text>
 		</Row>
 		<Row Tag="LOC_CIVINFO_THE_VALE_CAPITAL">
 			<Text>The Eyrie</Text>

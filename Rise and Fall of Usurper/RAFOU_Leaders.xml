@@ -848,7 +848,7 @@
 		<Row>
 			<ModifierId>AGENDA_THE_LANNISTERS_PAY_DEBTS_HIGH_INCOME</ModifierId>
 			<Name>SimpleModifierDescription</Name>
-			<Value>LOC_DIPLO_MODIFIER_DESCRIPTION_HIGH_INCOME</Value>
+			<Value>LOC_DIPLO_TYWIN_DESCRIPTION_HIGH_INCOME</Value>
 		</Row>
 		<Row>
 			<ModifierId>AGENDA_THE_LANNISTERS_PAY_DEBTS_LOW_INCOME</ModifierId>
@@ -863,7 +863,7 @@
 		<Row>
 			<ModifierId>AGENDA_THE_LANNISTERS_PAY_DEBTS_LOW_INCOME</ModifierId>
 			<Name>SimpleModifierDescription</Name>
-			<Value>LOC_DIPLO_MODIFIER_DESCRIPTION_LOW_INCOME</Value>
+			<Value>LOC_DIPLO_TYWIN_DESCRIPTION_LOW_INCOME</Value>
 		</Row>
 		<Row>
 			<ModifierId>AGENDA_THE_LANNISTERS_PAY_DEBTS_HIGH_STANDING_ARMY</ModifierId>
@@ -878,7 +878,7 @@
 		<Row>
 			<ModifierId>AGENDA_THE_LANNISTERS_PAY_DEBTS_HIGH_STANDING_ARMY</ModifierId>
 			<Name>SimpleModifierDescription</Name>
-			<Value>LOC_DIPLO_MODIFIER_DESCRIPTION_HIGH_STANDING_ARMY</Value>
+			<Value>LOC_DIPLO_TYWIN_DESCRIPTION_HIGH_STANDING_ARMY</Value>
 		</Row>
 		<Row>
 			<ModifierId>AGENDA_THE_LANNISTERS_PAY_DEBTS_LOW_STANDING_ARMY</ModifierId>
@@ -893,7 +893,7 @@
 		<Row>
 			<ModifierId>AGENDA_THE_LANNISTERS_PAY_DEBTS_LOW_STANDING_ARMY</ModifierId>
 			<Name>SimpleModifierDescription</Name>
-			<Value>LOC_DIPLO_MODIFIER_DESCRIPTION_LOW_STANDING_ARMY</Value>
+			<Value>LOC_DIPLO_TYWIN_DESCRIPTION_LOW_STANDING_ARMY</Value>
 		</Row>
 		<!-- Robert Baratheon leads the Stormlands -->
 		<Row>
@@ -909,7 +909,7 @@
 		<Row>
 			<ModifierId>AGENDA_THE_STAG_KING_HIGH_STANDING_ARMY</ModifierId>
 			<Name>SimpleModifierDescription</Name>
-			<Value>LOC_DIPLO_MODIFIER_DESCRIPTION_HIGH_STANDING_ARMY</Value>
+			<Value>LOC_DIPLO_ROBERT_DESCRIPTION_HIGH_STANDING_ARMY</Value>
 		</Row>
 		<Row>
 			<ModifierId>AGENDA_THE_STAG_KING_LOW_STANDING_ARMY</ModifierId>
@@ -924,7 +924,7 @@
 		<Row>
 			<ModifierId>AGENDA_THE_STAG_KING_LOW_STANDING_ARMY</ModifierId>
 			<Name>SimpleModifierDescription</Name>
-			<Value>LOC_DIPLO_MODIFIER_DESCRIPTION_LOW_STANDING_ARMY</Value>
+			<Value>LOC_DIPLO_ROBERT_DESCRIPTION_LOW_STANDING_ARMY</Value>
 		</Row>
 		<Row>
 			<ModifierId>AGENDA_THE_STAG_KING_SAME_GOVERNMENT</ModifierId>
@@ -939,7 +939,7 @@
 		<Row>
 			<ModifierId>AGENDA_THE_STAG_KING_SAME_GOVERNMENT</ModifierId>
 			<Name>SimpleModifierDescription</Name>
-			<Value>LOC_DIPLO_MODIFIER_DESCRIPTION_SAME_GOVERNMENT</Value>
+			<Value>LOC_DIPLO_ROBERT_DESCRIPTION_SAME_GOVERNMENT</Value>
 		</Row>
 		<Row>
 			<ModifierId>AGENDA_THE_STAG_KING_DIFFERENT_GOVERNMENT</ModifierId>
@@ -954,7 +954,7 @@
 		<Row>
 			<ModifierId>AGENDA_THE_STAG_KING_DIFFERENT_GOVERNMENT</ModifierId>
 			<Name>SimpleModifierDescription</Name>
-			<Value>LOC_DIPLO_MODIFIER_DESCRIPTION_DIFFERENT_GOVERNMENT</Value>
+			<Value>LOC_DIPLO_ROBERT_DESCRIPTION_DIFFERENT_GOVERNMENT</Value>
 		</Row>		
 		<!-- Mace Tyrell leads the Reach -->
 		<Row>

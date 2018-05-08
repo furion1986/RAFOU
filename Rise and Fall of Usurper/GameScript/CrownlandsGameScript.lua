@@ -99,7 +99,7 @@ function RTOnPlayerTurnActivated(ePlayer:number, bFirstTimeThisTurn:boolean)
 	local pPlayerCities	:table = pPlayer:GetCities();
 	--Loop through cities
 	for _, pCity in pPlayerCities:Members() do
-		print("Looping through cities");
+		--print("Looping through cities");
 		local cityX = pCity:GetX();
 		local cityY = pCity:GetY();
 		--Find Dragons--
@@ -108,15 +108,17 @@ function RTOnPlayerTurnActivated(ePlayer:number, bFirstTimeThisTurn:boolean)
 			local iPlayerUnits = iPlayer:GetUnits();
 			for i, iUnit in iPlayerUnits:Members() do
 				local iUnitType = GameInfo.Units[iUnit:GetType()].UnitType;
-				print(iUnitType);
+				--print(iUnitType);
 				if (iUnitType == "UNIT_TARGARYEN_DRAGON") and (iUnit:GetOwner() ~= ePlayer) then
 					local unitX = iUnit:GetX();
 					local unitY = iUnit:GetY();
 					local distanceToCity = Map.GetPlotDistance(cityX, cityY ,unitX, unitY);
-					print(tostring(distanceToCity));
-					if distanceToCity <= 10 then
-						print("Dragon Makes City Loose Loyalty!");
+					--print(tostring(distanceToCity));
+					if distanceToCity <= 6 then
+						--print("Dragon Makes City Loose Loyalty!");
 						pCity:ChangeLoyalty(-5);
+					else
+						pCity:ChangeLoyalty(-1);
 					end
 				end
 			end
