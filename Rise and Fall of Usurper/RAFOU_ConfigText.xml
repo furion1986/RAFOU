@@ -12,7 +12,7 @@
 			<Text>Thrall</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_THRALL_DESCRIPTION">
-			<Text>Ironborns' unique builder unit. Cannot only be purchased with [ICON_Faith] Faith or captured through combat.[NEWLINE]Requires Captains Tavern in the city. Can embark after Astrology.</Text>
+			<Text>Ironborns' unique builder unit. Cannot only be purchased with [ICON_Faith] Faith or captured through combat.[NEWLINE]Requires Captains Tavern in the city. Can embark after Astrology. May not construct Farm.</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_CAPTAINS_TAVERN_NAME">
 			<Text>Captains Tavern</Text>
@@ -39,7 +39,7 @@
 			<Text>The Iron Fleet</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_BALON_GREYJOY_DESCRIPTION">
-			<Text>+1 [ICON_Movement] Movement and +5 [ICON_Strength] Combat Strength to all naval units.</Text>
+			<Text>+1 [ICON_Movement] Movement and +5 [ICON_Strength] Combat Strength to all naval units.[NEWLINE]+100% [ICON_PRODUCTION] Production to Harbor District.</Text>
 		</Row>
 		<!-- Eddard Stark leads the North -->
 		<Row Tag="LOC_UNIT_MOUNTAIN_CLAN_NAME">

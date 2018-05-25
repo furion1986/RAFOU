@@ -195,100 +195,109 @@
 		<!--DIPLO-->
 
 		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_JON_ARRYN_ANY">
-			<Text>**</Text>
+			<Text>A long lasting friendship makes us both strong. I must accept.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_JON_ARRYN_ANY">
-			<Text>**</Text>
+			<Text>ALthough I'm commonly friendly to people. You are not my kind.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_JON_ARRYN_ANY">
-			<Text>**</Text>
+			<Text>I wish you may find it fit to declare friendship with us.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_JON_ARRYN_ANY">
-			<Text>**</Text>
+			<Text>Yes! And I'm looking forward to our alliance soon.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_JON_ARRYN_ANY">
-			<Text>**</Text>
+			<Text>Loner dies in the long winter. Because the night is long and full of terrors. Why these words came to me?</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_JON_ARRYN_ANY">
-			<Text>**</Text>
+			<Text>Good, try us! Your army can't even reach my Gates of the Moon, I swear.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_JON_ARRYN_ANY">
-			<Text>**</Text>
+			<Text>Your existence just went beyond our line. Now I shall strike with the Knight of Vale, to end your tyranny.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_JON_ARRYN_ANY">
-			<Text>**</Text>
+			<Text>I will see to it that your trade delegation will reach Eyrie safe and warm. Our suggestion for him is not to look down on his way.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_JON_ARRYN_ANY">
-			<Text>**</Text>
+			<Text>We close our path up to Eyrie durion winter time. You may come next time.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_JON_ARRYN_ANY">
-			<Text>**</Text>
+			<Text>I've sent my trade delegations to you with our famous giant pumpinks and various fruit products. Hope you will enjoy them.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_JON_ARRYN_ANY">
-			<Text>**</Text>
+			<Text>Words are winds, but words are dangerous. There won't be any good result out of this.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_JON_ARRYN_ANY">
-			<Text>**</Text>
+			<Text>If you find it hard to keep friendly to others, I will find it difficult to deal with you.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_AGENDA_THE_NOBLE_HAND">
+			<Text>(You denounced their friend/you are not trading with them.)</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_JON_ARRYN_ANY">
-			<Text>**</Text>
+			<Text>You are speaking to Ser Jon Arryn, Lord of the Eyrie, Defender of the Vale, Warden of the East, Hand of the King, Keeper of the Gates of the Moon. I'm impressed that you made you way here, wasn't easy was it? How may I serve you?</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_JON_ARRYN_ANY">
-			<Text>**</Text>
+			<Text>Take a tour up the Eyrie please. You will see a view beyond your imagination. And would you like to maybe send a son to my place? I'm known as a good foster father.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_JON_ARRYN_ANY">
-			<Text>**</Text>
+			<Text>I would like to take a tour to your cities. Sometimes my cliffs, rocks and blue sky gets me bored.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_JON_ARRYN_ANY">
-			<Text>**</Text>
+			<Text>Tell me about your capital. Is it on a mountain? I believe no, Eyrie must be the only one castle that's crazy enough to settle on a summit.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_GREETING_LEADER_JON_ARRYN_ANY">
-			<Text>**</Text>
+			<Text>How may I serve you?</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_JON_ARRYN_ANY">
-			<Text>**</Text>
+			<Text>Friendship and alliance is the key point for survival. I'm glad you understand it.</Text>
 		</Row>
-		<Row Tag="LOC_DIPLO_KUDO_LEADER_JON_ARRYN_REASON_ANY">
-			<Text>**</Text>
+		<Row Tag="LOC_DIPLO_MODIFIER_THE_NOBLE_HAND_DECLARED_FRIEND">
+			<Text>Jon Arryn is glad to see you be friendly.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_JON_ARRYN_REASON_TRADE">
+			<Text>Trading makes both of us thrive. I'm glad you see to value in it.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_THE_NOBLE_HAND_TRADE">
+			<Text>Jon Arryn is glad to receive trade routes from you.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_JON_ARRYN_ANY">
-			<Text>**</Text>
+			<Text>Enemy to my friends are then my enemy.</Text>
 		</Row>
-		<Row Tag="LOC_DIPLO_WARNING_LEADER_JON_ARRYN_REASON_ANY">
-			<Text>**</Text>
+		<Row Tag="LOC_DIPLO_MODIFIER_THE_NOBLE_HAND_DENOUNCED_FRIEND">
+			<Text>Jon Arryn is angry that you denounced their friend.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_JON_ARRYN_ANY">
-			<Text>**</Text>
+			<Text>I'm honored to offer you our alliance. We can help each other on greater goals.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_JON_ARRYN_ANY">
-			<Text>**</Text>
+			<Text>War isn't my favorite means of diplomacy. Good you would consider some other methods to settle our problems.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_JON_ARRYN_ANY">
-			<Text>**</Text>
+			<Text>I'd ask Yohn. Seems he's unwilling to retreat at the moment.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_JON_ARRYN_ANY">
-			<Text>**</Text>
+			<Text>I wish you'd be happy with the terms. And let's deal with our matters more delicately next time.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_JON_ARRYN_ANY">
-			<Text>**</Text>
+			<Text>You may pass. But be careful about the mountain tribes.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_JON_ARRYN_ANY">
-			<Text>**</Text>
+			<Text>I don't believe our people welcome outlanders at the moment.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_JON_ARRYN_ANY">
-			<Text>**</Text>
+			<Text>Please allow my knights to pass. They are well disciplined and won't bother your people. You have my word.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_JON_ARRYN_ANY">
-			<Text>**</Text>
+			<Text>I consider this an agressive move. Shall we talk about it before "incidents" actually happen?</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_JON_ARRYN_ANY">
-			<Text>**</Text>
+			<Text>The death of the noble Hand, Jon Arryn, will unleash a madness on the land, a madness of pride and violence... I've made such a mistake...</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_JON_ARRYN_ANY">
-			<Text>**</Text>
+			<Text>No, thanks.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_JON_ARRYN_ANY">
-			<Text>**</Text>
+			<Text>Sounds good to me.</Text>
 		</Row>
 	</BaseGameText>
 </GameData>

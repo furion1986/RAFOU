@@ -14,7 +14,7 @@
 			<Text>Receives a free Spy (and extra spy capacity) with the Civil Service civic.[NEWLINE]Your Spy level is increased by 1 for offensive operations.</Text>
 		</Row>
 		<Row Tag="LOC_LEADER_DORAN_MARTELL_QUOTE">
-			<Text>**</Text>
+			<Text>I am not blind, nor deaf. I know you all believe me weak, frightened, feeble. Your father knew me better. Oberyn was ever the viper. Deadly, dangerous, unpredictable. No man dared tread on him. I was the grass. Pleasant, complaisant, sweet-smelling, swaying with every breeze. Who fears to walk upon the grass? But it is the grass that hides the viper from his enemies and shelters him until he strikes.</Text>
 		</Row>
 		
 		<Row Tag="LOC_BUILDING_DORNISH_CANAL_NAME">
@@ -159,31 +159,40 @@
 		<!--PEDIA-->
 		<!--CIV-->
 		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_WATER_GARDEN_CHAPTER_HISTORY_PARA_1">
-			<Text>**</Text>
+			<Text>The Water Gardens were raised by Maron Martell, Prince of Dorne, as a gift for his new bride, Princess Daenerys Targaryen, to mark the union of Dorne with the rest of the Seven Kingdoms. Daenerys began the tradition of hosting children at the Water Gardens, initially the kin of lords but eventually also smallfolk. The young Arianne Martell often played in the pools and fountains of the Water Gardens with Tyene Sand, Garin, Andrey Dalt, and Sylva Santagar. Sometimes they were joined by Nymeria Sand and Sarella Sand.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_WATER_GARDEN_CHAPTER_HISTORY_PARA_2">
+			<Text>The Gardens are located on a beach next to the Summer Sea, three leagues to the west of Sunspear on a coastal road. Pale pink marble paves the gardens and courtyard. Terraces overlooking the numerous pools and fountains of the Water Gardens, shaded by blood orange trees, can be reached via a fluted pillar gallery leading to a triple archway.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_WATER_GARDEN_CHAPTER_HISTORY_PARA_3">
+			<Text>The Water Gardens are pleasant in autumn: hot days, cool nights, the salt breeze blowing in from the sea, and fountains and pools to admire and play in. Children from all stations and areas of Dorne are sent to the Water Gardens to foster, where they play together at the beach, pools and fountains, and in the water.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DORNE_CHAPTER_HISTORY_PARA_1">
-			<Text>**</Text>
+			<Text>Dorne is the large peninsula which makes up the southernmost part of Westeros, and is one of the constituent regions of the Seven Kingdoms. The lords of the ruling House Nymeros Martell style themselves "Prince" and "Princess" in the Rhoynish fashion.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DORNE_CHAPTER_HISTORY_PARA_2">
-			<Text>**</Text>
+			<Text>The Martells rule from their capital, Sunspear, outside of which sprawls the shadow city. Notable houses include Allyrion, Blackmont, Dayne, Fowler, Jordayne, Qorgyle, Santagar, Toland, Uller, Vaith, Wyl, and Yronwood.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DORNE_CHAPTER_HISTORY_PARA_3">
-			<Text>**</Text>
+			<Text>Dorne is the hottest region of Westeros. The region is rocky, mountainous, arid and dry, and features the only desert on the continent. Dorne is bordered by the Sea of Dorne to the north, the islands known as the Stepstones to the east, and the Summer Sea to the south. Stretched between them is the mountain range known as the Red Mountains, which separates Dorne from the stormlands to the north and the Reach to the northwest and west. There are two major passes, the Boneway and the Prince's Pass, which go through the Red Mountains to the Dornish Marches of the stormlands. The Prince's Pass leads to Nightsong, while the Boneway leads to Summerhall. Sunspear and the Water Gardens, both controlled by the ruling House Martell, are located in southeastern Dorne.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DORNE_CHAPTER_HISTORY_PARA_4">
-			<Text>**</Text>
+			<Text>Most of Dorne south of the Red Mountains is an arid wasteland. Eastern Dorne largely consists of dry, stony soil ill-suited for agriculture, while western Dorne contains deserts of red and white sand. The lords of House Vaith, for instance, are known as the Lords of the Red Dunes,[5] while nobles of old who settled desert oases called themselves the Lords of the Wells.[4] Sand dogs live in the desert.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DORNE_CHAPTER_HISTORY_PARA_5">
-			<Text>**</Text>
+			<Text>Dorne's rivers provide some fertile lands and even during a long summer there is enough rain and other supplies of water to keep Dorne habitable. Inland water is almost as valuable as gold, and wells are jealously guarded. The major Dornish river is the Greenblood in southeastern Dorne, which is formed by the Vaith and the Scourge near Godsgrace. The trading port called Planky Town is located at the mouth of the Greenblood along the Summer Sea. The Brimstone in southern Dorne flows past the Hellholt to the Summer Sea. The Torentine has its source in the Red Mountains of western Dorne and ends at Starfall along the Summer Sea. The Wyl flows across the Boneway in northern Dorne to the Sea of Dorne. There is another river in northern Dorne which flows near Yronwood to the Sea of Dorne, but its name is as yet unknown. The southern coast is some four hundred leagues long. It is ridden with cliffs, whirlpools, and hidden shoals, with few safe landings.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DORNE_CHAPTER_HISTORY_PARA_6">
-			<Text>**</Text>
+			<Text>Dorne is the least populous of the Seven Kingdoms. Dornishmen differ both culturally and ethnically from other Westerosi due to the historical mass immigration of Rhoynish people and their relative isolation. Dornishmen have adopted many Rhoynish customs on top of their First Men and Andal origins. Dornishmen have a reputation for hot-bloodedness and sexual licentiousness, and are still viewed with some mistrust and rivalry by the people of the neighboring Dornish Marches and the Reach. Dornish bastards of noble origin are given the surname Sand. Dornish paint their silks instead of sewing coats of arms. Dorne contains septs for the Faith of the Seven and red temples for followers of R'hllor.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DORNE_CHAPTER_HISTORY_PARA_7">
-			<Text>**</Text>
+			<Text>Dorne provides many exotic products which are uncommon in the rest of the Seven Kingdoms. These products include olives, lemons, pomegranates, plums, cloth, spices, and blood oranges. Lemon orchards, and presumably other plants as well, are watered by a spider's web of canals. Because of the hot climate, in the deserts of Dorne water is most valueble, and every well is zealously guarded. Famous is also the use of spicy dragon peppers. The Dornish produce their own wines, often called "Dornish reds". These wines are generally sour, though they occasionally can be more rich of taste. Strongwines from Dorne are as dark as blood, with a sweet taste.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DORNE_CHAPTER_HISTORY_PARA_8">
-			<Text>**</Text>
+			<Text>Fabled are the sand steeds bred by the Dornish. These horses are slim and swift, with elegant heads, long necks, and flowing manes. They are considered to be the most beautiful horses in the Seven Kingdoms. Though they are smaller than regular warhorses and lightboned, unable to bear the weight of armor, they can run for near two days and a night before tiring, needing only a few drinks of water over the course of a day and a night. Dornish yew is used to make bows.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DORNE_CHAPTER_HISTORY_PARA_9">
+			<Text>In Sunspear's shadow city, numerous bazaars can be found. Before crossing the deep sands of the Dornish desert for the Prince's Pass, caravans take on supplies at Sunspear. Ships from across the narrow sea find the Planky Town a convenient harbor and come there to trade. As the port is located at the mouth of the Greenblood, often the orphans of the Greenblood come to trade, spreading the goods up and down the river.</Text>
 		</Row>
 
 		<!--LEADER-->
@@ -191,36 +200,33 @@
 			<Text>Doran Martell</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_DORAN_MARTELL_SUBTITLE">
-			<Text>Head of House Martell, the Prince of Dorne, and the Lord of Sunspear.</Text>
+			<Text>Prince of Dorne, Lord of Sunspear.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_DORAN_MARTELL_QUOTE">
 			<Text>"Words are like arrows, Arianne. Once loosed, you cannot call them back." - Doran Martell</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_DORAN_MARTELL_CHAPTER_HISTORY_PARA_1">
-			<Text>**</Text>
+			<Text>In his early fifties, Doran is a cautious, pensive, and subtle man. He is prone to think long on the matters before him, weighing every word and every action. He has a bad case of gout which has recently left him unable to walk, instead having to rely on his wheeled chair, or a palanquin, to move around. He appears to be much older than he is in truth. His body is soft and shapeless, and the gout has swollen and reddened the joints of his knees, toes, and hands. He covers his legs and feet with a blanket, blocking the sight of his gout.[6][7] Due to his gout, he only travels in a palanquin, and is rarely seen in public, as he does not want to appear weak in the eyes of his enemies.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_DORAN_MARTELL_CHAPTER_HISTORY_PARA_2">
-			<Text>**</Text>
+			<Text>While his bannermen might consider him weak, Doran has been focused for years on getting revenge for the murder of his sister, Elia, and her two young children during the sack of King's Landing during Robert's Rebellion in 283 AC. Because of the early deaths of his siblings Olyvar and Mors, the multiple miscarriages his mother suffered, and the difference in age with his surviving siblings, Elia and Oberyn, Doran was raised alone. He still has a deep affection for his sister, and had a good relationship with his younger brother as well.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_DORAN_MARTELL_CHAPTER_HISTORY_PARA_3">
-			<Text>**</Text>
+			<Text>Doran was the first born child of his parents, and thus heir to his mother, the Princess of Dorne. For years, he was an only child, as his mother had several miscarriages. While he would have four siblings, Mors and Olyvar, both died in the cradle. Doran spent several years of his childhood at the Water Gardens, and by the age of nine, he was a squire to Lord Gargalen at Salt Shore. While there, his mother gave birth to his sister, Elia. As Elia had been born one month premature, Doran was convinced that his sister too would die, as their brothers had done before, but she survived. A year later, Doran's brother Oberyn was born.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_DORAN_MARTELL_CHAPTER_HISTORY_PARA_4">
-			<Text>**</Text>
+			<Text>As a young man, Doran took a tour through the Free Cities. He visited Volantis and next went to Norvos, where he met his future wife, Lady Mellario. They fell in love and Mellario returned to Dorne with Doran, where they were betrothed and would soon after marry. Areo Hotah escorted Mellario and entered the service of House Martell. In 273 AC, when his mother, her consort, and Doran's two younger siblings traveled through the south of Seven Kingdoms on a quest to find suitable matches for Elia and Oberyn, Doran stayed behind as castellan of Sunspear, with Mellario. Although Mellario was high born enough to become his wife, most marriages between nobles in Westeros are political. A love match is very uncommon. In 276 AC, Doran and Mellario's first child, Arianne, was born. Around 279 AC, Doran inherited the rule of Dorne.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_DORAN_MARTELL_CHAPTER_HISTORY_PARA_5">
-			<Text>**</Text>
+			<Text>An unknown amount of time after his siblings had traveled to find suitable marriage candidates, Doran's brother Oberyn fought in a duel with Lord Edgar Yronwood. Due to Oberyn's high birth and young age, the two men had agreed to duel until first blood. Both men were injured, but when Oberyn's cuts healed, and Lord Edgar's festered, eventually resulting in his death, it was whispered Oberyn had fought with a poisoned blade. Doran acted swiftly, sending Oberyn into temporary exile.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_DORAN_MARTELL_CHAPTER_HISTORY_PARA_6">
-			<Text>**</Text>
-		</Row>
+			<Text>Doran's sister Elia Martell was betrothed to Crown Prince Rhaegar Targaryen in early 279 AC, and wed him a year later. She had two young children by Rhaegar, Rhaenys and Aegon. When Rhaegar disappeared with Lyanna Stark in 282 AC, not long after Aegon's birth, it started a chain of events leading to Robert's Rebellion, in which the north, and several houses from the stormlands and the Vale of Arryn (later joined by several houses from the riverlands) fought against the Iron Throne and House Targaryen. Doran was furious about the way Elia had been treated by Rhaegar, and as a consequence was slow to lend any aid to the Targaryens. After Rhaegar returned from the south to King's Landing, Doran agreed to send ten thousand Dornishmen to fight in the loyalist army, under the command of his uncle, Prince Lewyn Martell of the Kingsguard, understanding that Elia, as the wife to the crown prince, would one day become queen, and that her son Aegon would one day be king.</Text>
+		</Row>		
 
 		<!--UNITS-->
-		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_BROTHERHOOD_WITHOUT_BANNER_CHAPTER_HISTORY_PARA_1">
-			<Text>**</Text>
-		</Row>
-		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_BROTHERHOOD_WITHOUT_BANNER_CHAPTER_HISTORY_PARA_2">
-			<Text>**</Text>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SAND_SNAKE_CHAPTER_HISTORY_PARA_1">
+			<Text>The Sand Snakes are the bastard daughters of Prince Oberyn Martell. The collective name references the Dornish bastard surname, Sand, and their father's nickname, the Red Viper. Oberyn's eight daughters have been born to five different mothers. While they differ in appearance, they are said to all have their father's eyes in shape if not in color.</Text>
 		</Row>
 
 		<!--CIVINFO-->
@@ -228,13 +234,13 @@
 			<Text>The Riverlands</Text>
 		</Row>
 		<Row Tag="LOC_CIVINFO_DORNE_SIZE">
-			<Text>**</Text>
+			<Text>Dorne is the large peninsula which makes up the southernmost part of Westeros, and is one of the constituent regions of the Seven Kingdoms.</Text>
 		</Row>
 		<Row Tag="LOC_CIVINFO_DORNE_POPULATION">
-			<Text>**</Text>
+			<Text>Dorne is the least populous of the Seven Kingdoms. Dornishmen differ both culturally and ethnically from other Westerosi due to the historical mass immigration of Rhoynish people and their relative isolation. Dornishmen have adopted many Rhoynish customs on top of their First Men and Andal origins. Dornishmen have a reputation for hot-bloodedness and sexual licentiousness, and are still viewed with some mistrust and rivalry by the people of the neighboring Dornish Marches and the Reach. Dornish bastards of noble origin are given the surname Sand. Dornish paint their silks instead of sewing coats of arms.</Text>
 		</Row>
 		<Row Tag="LOC_CIVINFO_DORNE_CAPITAL">
-			<Text>Riverrun</Text>
+			<Text>Sunspear</Text>
 		</Row>
 
 		<!--DIPLO-->

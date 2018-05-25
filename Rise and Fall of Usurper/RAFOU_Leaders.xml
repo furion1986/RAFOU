@@ -188,16 +188,20 @@
 		<!-- Balon Greyjoy leads the Ironborn -->
 		<Row>
 			<TraitType>TRAIT_IRON_FLEET</TraitType>
-			<ModifierId>TRAIT_COMBAT_BONUS_NAVAL_WATER</ModifierId>
+			<ModifierId>TRAIT_BG_COMBAT_BONUS_NAVAL_WATER</ModifierId>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_IRON_FLEET</TraitType>
-			<ModifierId>TRAIT_PLAYER_UNITS_SEA_MOVEMENT</ModifierId>
+			<ModifierId>TRAIT_BG_PLAYER_UNITS_SEA_MOVEMENT</ModifierId>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_IRON_FLEET</TraitType>
-			<ModifierId>TRAIT_PLAYER_UNITS_EMBARKED_MOVEMENT</ModifierId>
+			<ModifierId>TRAIT_BG_PLAYER_UNITS_EMBARKED_MOVEMENT</ModifierId>
 		</Row>
+		<Row>
+			<TraitType>TRAIT_IRON_FLEET</TraitType>
+			<ModifierId>TRAIT_BG_BOOST_HARBOR_PRODUCTION</ModifierId>
+		</Row>		
 		<Row>
 			<TraitType>TRAIT_AGENDA_IRON_PRICE</TraitType>
 			<ModifierId>AGENDA_IRON_PRICE</ModifierId>
@@ -205,15 +209,15 @@
 		<!-- Eddard Stark leads the North -->
 		<Row>
 			<TraitType>TRAIT_THE_NORTH_REMEMBERS</TraitType>
-			<ModifierId>TRAIT_FAITH_PER_CITY_STATE_TRIBUTARY</ModifierId>
+			<ModifierId>TRAIT_ES_FAITH_PER_CITY_STATE_TRIBUTARY</ModifierId>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_THE_NORTH_REMEMBERS</TraitType>
-			<ModifierId>TRAIT_FAITH_PURCHASE_CIVILIANS</ModifierId>
+			<ModifierId>TRAIT_ES_FAITH_PURCHASE_CIVILIANS</ModifierId>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_THE_NORTH_REMEMBERS</TraitType>
-			<ModifierId>TRAIT_FAITH_PURCHASE_TRADERS</ModifierId>
+			<ModifierId>TRAIT_ES_FAITH_PURCHASE_TRADERS</ModifierId>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_AGENDA_HONOR_AND_JUSTICE</TraitType>
@@ -226,15 +230,15 @@
 		<!-- Tywin Lannister leads the Westerlands -->
 		<Row>
 			<TraitType>TRAIT_HAMMER_AND_ANVIL</TraitType>
-			<ModifierId>TRAIT_MELEE_DEFEND_BONUS</ModifierId>
+			<ModifierId>TRAIT_TL_MELEE_DEFEND_BONUS</ModifierId>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_HAMMER_AND_ANVIL</TraitType>
-			<ModifierId>TRAIT_CAVALRY_FLANKING_BONUS</ModifierId>
+			<ModifierId>TRAIT_TL_CAVALRY_FLANKING_BONUS</ModifierId>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_HAMMER_AND_ANVIL</TraitType>
-			<ModifierId>TRAIT_RANGED_WOUNDED_BONUS</ModifierId>
+			<ModifierId>TRAIT_TL_RANGED_WOUNDED_BONUS</ModifierId>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_AGENDA_THE_LANNISTERS_PAY_DEBTS</TraitType>
@@ -272,11 +276,11 @@
 		<!-- Mace Tyrell leads the Reach -->
 		<Row>
 			<TraitType>TRAIT_LORD_PUFFFISH</TraitType>
-			<ModifierId>TRAIT_EXTRABUILDER</ModifierId>
+			<ModifierId>TRAIT_MT_EXTRABUILDER</ModifierId>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_LORD_PUFFFISH</TraitType>
-			<ModifierId>TRAIT_EXTRASETTLER</ModifierId>
+			<ModifierId>TRAIT_MT_EXTRASETTLER</ModifierId>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_LORD_PUFFFISH</TraitType>
@@ -398,37 +402,41 @@
 		<!-- Tywin Lannister leads the Westerlands -->
 		<Row>
 			<UnitAbilityType>ABILITY_MELEE_DEFEND</UnitAbilityType>
-			<ModifierId>MELEE_DEFEND_BONUS</ModifierId>
+			<ModifierId>TL_MELEE_DEFEND_BONUS</ModifierId>
 		</Row>
 		<Row>
 			<UnitAbilityType>ABILITY_CAVALRY_FLANKING</UnitAbilityType>
-			<ModifierId>CAVALRY_FLANKING_BONUS</ModifierId>
+			<ModifierId>TL_CAVALRY_FLANKING_BONUS</ModifierId>
 		</Row>
 		<Row>
 			<UnitAbilityType>ABILITY_RANGED_WOUNDED</UnitAbilityType>
-			<ModifierId>RANGED_WOUNDED_BONUS</ModifierId>
+			<ModifierId>TL_RANGED_WOUNDED_BONUS</ModifierId>
 		</Row>
 	</UnitAbilityModifiers>
 	
 	<Modifiers>
 		<!-- Balon Greyjoy leads the Ironborn -->
 		<Row>
-			<ModifierId>TRAIT_COMBAT_BONUS_NAVAL_WATER</ModifierId>
+			<ModifierId>TRAIT_BG_COMBAT_BONUS_NAVAL_WATER</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER</ModifierType>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_PLAYER_UNITS_SEA_MOVEMENT</ModifierId>
+			<ModifierId>TRAIT_BG_PLAYER_UNITS_SEA_MOVEMENT</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_SEA_MOVEMENT</ModifierType>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_PLAYER_UNITS_EMBARKED_MOVEMENT</ModifierId>
+			<ModifierId>TRAIT_BG_PLAYER_UNITS_EMBARKED_MOVEMENT</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_EMBARKED_MOVEMENT</ModifierType>
 		</Row>
 		<Row>
-			<ModifierId>COMBAT_BONUS_NAVAL_WATER_MODIFIER</ModifierId>
+			<ModifierId>BG_COMBAT_BONUS_NAVAL_WATER_MODIFIER</ModifierId>
 			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
 			<OwnerRequirementSetId>REQUIREMENTS_UNIT_SEA_DOMAIN</OwnerRequirementSetId>
 		</Row>
+		<Row>
+			<ModifierId>TRAIT_BG_BOOST_HARBOR_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_DISTRICT_PRODUCTION</ModifierType>
+		</Row>		
 		<Row>
 			<ModifierId>AGENDA_IRON_PRICE</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_AGENDA_LAST_VIKING_KING</ModifierType>
@@ -437,16 +445,18 @@
 		</Row>
 		<!-- Eddard Stark leads the North -->
 		<Row>
-			<ModifierId>TRAIT_FAITH_PER_CITY_STATE_TRIBUTARY</ModifierId>
+			<ModifierId>TRAIT_ES_FAITH_PER_CITY_STATE_TRIBUTARY</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_YIELD_MODIFIER_PER_TRIBUTARY</ModifierType>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_FAITH_PURCHASE_CIVILIANS</ModifierId>
+			<ModifierId>TRAIT_ES_FAITH_PURCHASE_CIVILIANS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE</ModifierType>
+			<Permanent>true</Permanent>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_FAITH_PURCHASE_TRADERS</ModifierId>
+			<ModifierId>TRAIT_ES_FAITH_PURCHASE_TRADERS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ENABLE_UNIT_FAITH_PURCHASE</ModifierType>
+			<Permanent>true</Permanent>
 		</Row>
 		<Row>
 			<ModifierId>AGENDA_HONOR_AND_JUSTICE_FRIEND</ModifierId>
@@ -460,31 +470,31 @@
 		</Row>
 		<!-- Tywin Lannister leads the Westerlands -->
 		<Row>
-			<ModifierId>TRAIT_MELEE_DEFEND_BONUS</ModifierId>
+			<ModifierId>TRAIT_TL_MELEE_DEFEND_BONUS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
 			<Permanent>true</Permanent>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_CAVALRY_FLANKING_BONUS</ModifierId>
+			<ModifierId>TRAIT_TL_CAVALRY_FLANKING_BONUS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
 			<Permanent>true</Permanent>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_RANGED_WOUNDED_BONUS</ModifierId>
+			<ModifierId>TRAIT_TL_RANGED_WOUNDED_BONUS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
 			<Permanent>true</Permanent>
 		</Row>
 		<Row>
-			<ModifierId>MELEE_DEFEND_BONUS</ModifierId>
+			<ModifierId>TL_MELEE_DEFEND_BONUS</ModifierId>
 			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
 			<SubjectRequirementSetId>TL_UNIT_STRONG_WHEN_DEFENDING_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
 		<Row>
-			<ModifierId>CAVALRY_FLANKING_BONUS</ModifierId>
+			<ModifierId>TL_CAVALRY_FLANKING_BONUS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNIT_ADJUST_FLANKING_BONUS_MODIFIER</ModifierType>
 		</Row>
 		<Row>
-			<ModifierId>RANGED_WOUNDED_BONUS</ModifierId>
+			<ModifierId>TL_RANGED_WOUNDED_BONUS</ModifierId>
 			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
 			<SubjectRequirementSetId>REQUIREMENTS_OPPONENT_IS_WOUNDED</SubjectRequirementSetId>
 		</Row>
@@ -531,11 +541,11 @@
 		</Row>		
 		<!-- Mace Tyrell leads the Reach -->
 		<Row>
-			<ModifierId>TRAIT_EXTRABUILDER</ModifierId>
+			<ModifierId>TRAIT_MT_EXTRABUILDER</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_EXTRA_UNIT_COPY</ModifierType>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_EXTRASETTLER</ModifierId>
+			<ModifierId>TRAIT_MT_EXTRASETTLER</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNITS_ADJUST_EXTRA_UNIT_COPY</ModifierType>
 		</Row>
 		<Row>
@@ -702,25 +712,35 @@
 	<ModifierArguments>
 		<!-- Balon Greyjoy leads the Ironborn -->
 		<Row>
-			<ModifierId>TRAIT_COMBAT_BONUS_NAVAL_WATER</ModifierId>
+			<ModifierId>TRAIT_BG_COMBAT_BONUS_NAVAL_WATER</ModifierId>
 			<Name>ModifierId</Name>
-			<Value>COMBAT_BONUS_NAVAL_WATER_MODIFIER</Value>
+			<Value>BG_COMBAT_BONUS_NAVAL_WATER_MODIFIER</Value>
 		</Row>
 		<Row>
-			<ModifierId>COMBAT_BONUS_NAVAL_WATER_MODIFIER</ModifierId>
+			<ModifierId>BG_COMBAT_BONUS_NAVAL_WATER_MODIFIER</ModifierId>
 			<Name>Amount</Name>
 			<Value>5</Value>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_PLAYER_UNITS_SEA_MOVEMENT</ModifierId>
+			<ModifierId>TRAIT_BG_PLAYER_UNITS_SEA_MOVEMENT</ModifierId>
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_PLAYER_UNITS_EMBARKED_MOVEMENT</ModifierId>
+			<ModifierId>TRAIT_BG_PLAYER_UNITS_EMBARKED_MOVEMENT</ModifierId>
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>
+		<Row>
+			<ModifierId>TRAIT_BG_BOOST_HARBOR_PRODUCTION</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_HARBOR</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_BG_BOOST_HARBOR_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>100</Value>
+		</Row>		
 		<Row>
 			<ModifierId>AGENDA_IRON_PRICE</ModifierId>
 			<Name>StatementKey</Name>
@@ -729,22 +749,22 @@
 		</Row>
 		<!-- Eddard Stark leads the North -->
 		<Row>
-			<ModifierId>TRAIT_FAITH_PER_CITY_STATE_TRIBUTARY</ModifierId>
+			<ModifierId>TRAIT_ES_FAITH_PER_CITY_STATE_TRIBUTARY</ModifierId>
 			<Name>YieldType</Name>
 			<Value>YIELD_FAITH</Value>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_FAITH_PER_CITY_STATE_TRIBUTARY</ModifierId>
+			<ModifierId>TRAIT_ES_FAITH_PER_CITY_STATE_TRIBUTARY</ModifierId>
 			<Name>Amount</Name>
 			<Value>5</Value>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_FAITH_PURCHASE_CIVILIANS</ModifierId>
+			<ModifierId>TRAIT_ES_FAITH_PURCHASE_CIVILIANS</ModifierId>
 			<Name>Tag</Name>
 			<Value>CLASS_LANDCIVILIAN</Value>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_FAITH_PURCHASE_TRADERS</ModifierId>
+			<ModifierId>TRAIT_ES_FAITH_PURCHASE_TRADERS</ModifierId>
 			<Name>Tag</Name>
 			<Value>CLASS_TRADER</Value>
 		</Row>
@@ -806,32 +826,32 @@
 		</Row>
 		<!-- Tywin Lannister leads the Westerlands -->
 		<Row>
-			<ModifierId>TRAIT_MELEE_DEFEND_BONUS</ModifierId>
+			<ModifierId>TRAIT_TL_MELEE_DEFEND_BONUS</ModifierId>
 			<Name>AbilityType</Name>
 			<Value>ABILITY_MELEE_DEFEND</Value>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_CAVALRY_FLANKING_BONUS</ModifierId>
+			<ModifierId>TRAIT_TL_CAVALRY_FLANKING_BONUS</ModifierId>
 			<Name>AbilityType</Name>
 			<Value>ABILITY_CAVALRY_FLANKING</Value>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_RANGED_WOUNDED_BONUS</ModifierId>
+			<ModifierId>TRAIT_TL_RANGED_WOUNDED_BONUS</ModifierId>
 			<Name>AbilityType</Name>
 			<Value>ABILITY_RANGED_WOUNDED</Value>
 		</Row>
 		<Row>
-			<ModifierId>MELEE_DEFEND_BONUS</ModifierId>
+			<ModifierId>TL_MELEE_DEFEND_BONUS</ModifierId>
 			<Name>Amount</Name>
 			<Value>10</Value>
 		</Row>
 		<Row>
-			<ModifierId>CAVALRY_FLANKING_BONUS</ModifierId>
+			<ModifierId>TL_CAVALRY_FLANKING_BONUS</ModifierId>
 			<Name>Percent</Name>
 			<Value>50</Value>
 		</Row>
 		<Row>
-			<ModifierId>RANGED_WOUNDED_BONUS</ModifierId>
+			<ModifierId>TL_RANGED_WOUNDED_BONUS</ModifierId>
 			<Name>Amount</Name>
 			<Value>5</Value>
 		</Row>
@@ -958,22 +978,22 @@
 		</Row>		
 		<!-- Mace Tyrell leads the Reach -->
 		<Row>
-			<ModifierId>TRAIT_EXTRABUILDER</ModifierId>
+			<ModifierId>TRAIT_MT_EXTRABUILDER</ModifierId>
 			<Name>UnitType</Name>
 			<Value>UNIT_BUILDER</Value>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_EXTRABUILDER</ModifierId>
+			<ModifierId>TRAIT_MT_EXTRABUILDER</ModifierId>
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_EXTRASETTLER</ModifierId>
+			<ModifierId>TRAIT_MT_EXTRASETTLER</ModifierId>
 			<Name>UnitType</Name>
 			<Value>UNIT_SETTLER</Value>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_EXTRASETTLER</ModifierId>
+			<ModifierId>TRAIT_MT_EXTRASETTLER</ModifierId>
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>
@@ -1480,14 +1500,14 @@
 	</ModifierArguments>
 	<ModifierStrings>
 		<!-- Balon Greyjoy leads the Ironborn -->
-		<Row ModifierId="COMBAT_BONUS_NAVAL_WATER_MODIFIER" Text="LOC_PROMOTION_COMBAT_WATER_DESCRIPTION" Context="Preview"/>
+		<Row ModifierId="BG_COMBAT_BONUS_NAVAL_WATER_MODIFIER" Text="LOC_PROMOTION_COMBAT_WATER_DESCRIPTION" Context="Preview"/>
 		<Row ModifierId="AGENDA_IRON_PRICE" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL" Context="Sample"/>
 		<!-- Eddard Stark leads the North -->
 		<Row ModifierId="AGENDA_HONOR_AND_JUSTICE_FRIEND" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL" Context="Sample"/>
 		<Row ModifierId="AGENDA_HONOR_AND_JUSTICE_WAR" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL" Context="Sample"/>
 		<!-- Tywin Lannister leads the Westerlands -->
-		<Row ModifierId="MELEE_DEFEND_BONUS" Context="Preview" Text="LOC_ABILITY_MELEE_DEFEND_BONUS_MODIFIER_DESCRIPTION"/>
-		<Row ModifierId="RANGED_WOUNDED_BONUS" Context="Preview" Text="LOC_ABILITY_RANGED_WOUNDED_BONUS_MODIFIER_DESCRIPTION"/>
+		<Row ModifierId="TL_MELEE_DEFEND_BONUS" Context="Preview" Text="LOC_ABILITY_TL_MELEE_DEFEND_BONUS_MODIFIER_DESCRIPTION"/>
+		<Row ModifierId="TL_RANGED_WOUNDED_BONUS" Context="Preview" Text="LOC_ABILITY_TL_RANGED_WOUNDED_BONUS_MODIFIER_DESCRIPTION"/>
 		<Row ModifierId="AGENDA_THE_LANNISTERS_PAY_DEBTS_HIGH_INCOME" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL" Context="Sample"/>
 		<Row ModifierId="AGENDA_THE_LANNISTERS_PAY_DEBTS_LOW_INCOME" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL" Context="Sample"/>
 		<Row ModifierId="AGENDA_THE_LANNISTERS_PAY_DEBTS_HIGH_STANDING_ARMY" Text="LOC_TOOLTIP_SAMPLE_DIPLOMACY_ALL" Context="Sample"/>

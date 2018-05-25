@@ -14,7 +14,7 @@
 			<Text>Can Annex a City-State you are Suzerain of with [ICON_GOLD] Gold. Cost is determined by [ICON_CITIZEN] Population, [ICON_PRODUCTION] costs of Districts, Buildings and Units of the City-State.[NEWLINE]Annexed City-State will always have full Loyalty, keeps it's City State type bonus to you when you annex it. Annexed City-State will also be considered as city originally founded by the Riverlands without Religious population, so that it cannot be Liberated nor trigger Casus Belli.</Text>
 		</Row>
 		<Row Tag="LOC_LEADER_HOSTER_TULLY_QUOTE">
-			<Text>**</Text>
+			<Text>Little cat. My little cat. I watched for you...</Text>
 		</Row>
 		
 		<Row Tag="LOC_BUILDING_SOLAR_OF_TULLYS_DAUGHTER_NAME">
@@ -101,70 +101,68 @@
 		<!--Agendas-->
 
 		<!--PEDIA-->
-		<!--CIV-->
-		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_DISTRICT_THE_TWIN_TOWERS_CHAPTER_HISTORY_PARA_1">
-			<Text>**</Text>
+		<!--DISTRICT-->
+		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_THE_TWIN_TOWERS_CHAPTER_HISTORY_PARA_1">
+			<Text>The Twins, sometimes known as the Crossing, is the seat of House Frey in the northern riverlands. It is a fortified crossing of the Green Fork of the Trident and consists of two identical castles and a tower in the middle of their bridge. It is one of the most formidable strongholds of the Seven Kingdoms.</Text>
 		</Row>
+		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_THE_TWIN_TOWERS_CHAPTER_HISTORY_PARA_2">
+			<Text>The Freys have held the crossing of the Green Fork for six hundred years, beginning when a petty lord built a rickety wooden bridge over the narrowest portion of the river. It took the family three generations to complete the bridge in stone, after which they built timber keeps on each bank of the river. Since then, the Freys have grown wealthy by charging a heavy toll on all those who need to cross - a fact which irks many older or more powerful houses. The timber keeps have since been replaced by stone. These castles are what give the stronghold its name, for they are identical. Given their strong castle, strategic location, wealth, and numbers, the Freys are one of the most powerful bannerhouses sworn to House Tully, now able to raise about four thousand men.</Text>
+		</Row>
+		<!--CIV-->		
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_RIVERLANDS_CHAPTER_HISTORY_PARA_1">
-			<Text>**</Text>
+			<Text>The riverlands is a central region of the Seven Kingdoms of Westeros, consisting of the rich, fertile, and populous areas around the three forks of the Trident and the northern Blackwater Rush. At the time of Aegon's Conquest the riverlands and the Iron Islands were ruled by House Hoare, the Kings of the Isles and the Rivers, although native river kings ruled centuries earlier.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_RIVERLANDS_CHAPTER_HISTORY_PARA_2">
-			<Text>**</Text>
+			<Text>Because of their central position in Westeros and lack of natural boundaries, the riverlands have been a frequent battleground. The people of the riverlands are known as "rivermen" or occasionally "riverlanders", and they are a mixture of hardy warriors, peaceful fisherfolk and devout smallfolk. Their lords have a reputation for being notoriously quarrelsome, and are refered to as "river lords". Noble bastards born in the riverlands are given the surname Rivers.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_RIVERLANDS_CHAPTER_HISTORY_PARA_3">
-			<Text>**</Text>
+			<Text>The riverlands are ruled from Riverrun by House Tully, the Lords Paramount of the Trident. Notable houses of the region have included Blackwood, Bracken, Darry, Frey, Lothston, Mallister, Mooton, Mudd, Piper, Ryger, Strong, Vance, and Whent.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_RIVERLANDS_CHAPTER_HISTORY_PARA_4">
-			<Text>**</Text>
+			<Text>The riverlands encompass a region of plains, forests, hills, and endless rivers, and borders on every single kingdom except Dorne. Their northern border is near the swamplands of the Neck, the southernmost region of the north. To the east, the riverlands extend to the Vale of Arryn's Mountains of the Moon and Crackclaw Point in the crownlands. A stream forms part of the boundary between the riverlands and the crownlands, with the hills of House Wode in the former and the lands of House Hogg in the latter. To the south the riverlands border the crownlands and the Reach. The riverlands extend west to Ironman's Bay and the mountainous westerlands. The heavily fortified Golden Tooth guards the entrance to the riverlands but belongs itself to the westerlands. Some of the eastern hills of what are now the westerlands were once ruled by Kings of the Rivers and the Hills, such as the Mudds and Teagues. Some river kings also fought over territory with the Kings of the Reach to the south.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_RIVERLANDS_CHAPTER_HISTORY_PARA_5">
-			<Text>**</Text>
+			<Text>The riverlands are named for the number of rivers which are present. The Red Fork runs from its source in the western mountains to Riverrun where it combines with the Tumblestone and then runs to the east. The Blue Fork flows southeast from its sources near Seagard, while the Green Fork runs south from swamps in the Neck, near the kingsroad. The three forks come together a short distance from Lord Harroway's Town to form the Trident, which then pours into the Bay of Crabs at Saltpans. The northern Blackwater Rush and a river from the Gods Eye run through the southern riverlands.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_RIVERLANDS_CHAPTER_HISTORY_PARA_6">
-			<Text>**</Text>
+			<Text>The riverlands do not contain any major cities, but have a number towns, such as Fairmarket, Harrentown, Harroway, Maidenpool, Saltpans, and Stoney Sept. Their major castles include Darry, Harrenhal, Raventree Hall, Riverrun, Seagard, Stone Hedge, and the Twins. Additional noteworthy places in the riverlands are the old ruins at Oldstones, where in ancient times House Mudd had its castle, and the Gods Eye lake with the Isle of Faces in it. The Lady of the Leaves lives in a village hidden in trees, while a ghost is said to be at High Heart. The Quiet Isle is located at the mouth of the Trident.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_RIVERLANDS_CHAPTER_HISTORY_PARA_7">
-			<Text>**</Text>
-		</Row>
-		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_RIVERLANDS_CHAPTER_HISTORY_PARA_8">
-			<Text>**</Text>
+			<Text>The riverlands are rich and fertile and populous. The numerous rivers that run across their expanse are used for trading and the transport of goods. In times of peace fisherfolk in skiffs and grain barges pole downstream and merchants on floating ships sail on the rivers. With so much trade on the rivers, villagers will haul their grain and other goods to it to see it sold and carried elsewhere by the merchants. Wine can be made from small, tart grapes grown in the riverlands.</Text>
 		</Row>
 
 		<!--LEADER-->
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HOSTER_TULLY_TITLE">
-			<Text>Jon Arryn</Text>
+			<Text>Hoster Tully</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HOSTER_TULLY_SUBTITLE">
-			<Text>Head of House Arryn, Lord of the Eyrie, and Warden of the Vale.</Text>
+			<Text>Lord Paramount of the Trident, Lord of Riverrun.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HOSTER_TULLY_QUOTE">
-			<Text>"I need good men about me. Men like Jon Arryn." - Robert Baratheon</Text>
+			<Text>Little cat. My little cat. I watched for you...</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HOSTER_TULLY_CHAPTER_HISTORY_PARA_1">
-			<Text>**</Text>
+			<Text>In his youth Hoster was tall and broad, strong, with blue eyes and brown hair.  As he grew older, he became portly, and his hair and beard became streaked with grey. Stricken by illness since 296 AC, Hoster has lost weight and now appears to have shrunk. His hair and beard have gone white.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HOSTER_TULLY_CHAPTER_HISTORY_PARA_2">
-			<Text>**</Text>
+			<Text>Hoster has always been a proud man. When he was younger, he could never stay still, and was often traveling somewhere. Now aged, he enjoys watching the Red Fork and the Tumblestone from his solar in Riverrun's keep. Hoster's daughter, Catelyn Stark, does not believe he would be willing to father bastards.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HOSTER_TULLY_CHAPTER_HISTORY_PARA_3">
-			<Text>**</Text>
+			<Text>Hoster's armor is silver plate-and-mail, while his cloak and surcoat are blue and red. The crest atop his greathelm is a silver and bronze trout. His shield is massive oak-and-iron, and he also owns a hunting horn. When he was younger, Hoster often rode a brown gelding.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HOSTER_TULLY_CHAPTER_HISTORY_PARA_4">
-			<Text>**</Text>
+			<Text>Following the death of his father, Hoster inherited the rule to Riverrun, at some point in or after 264 AC. Following the Tully funeral customs, Hoster's father was sent down the Red Fork in a boat, which Hoster was to set aflame by firing a fire arrow. While Hoster missed his first shot, his second arrow found sail.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HOSTER_TULLY_CHAPTER_HISTORY_PARA_5">
-			<Text>**</Text>
-		</Row>
-		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HOSTER_TULLY_CHAPTER_HISTORY_PARA_6">
-			<Text>**</Text>
+			<Text>Lord Hoster wished to make advantageous marriages for his children. He betrothed his eldest daughter, Catelyn to Brandon Stark, the heir to Lord Rickard Stark of Winterfell, when she was only twelve years old. He began negotiations with Lord Tywin Lannister, aiming to betroth his younger daughter Lysa to Jaime Lannister, the heir to Casterly Rock. When Jaime spent a fortnight at Riverrun in his early teens, Hoster took care to seat him next to Lysa with every meal. By 281 AC, Tywin had invited Hoster to travel to King's Landing, where Tywin resided as Hand of the King, to discuss the dower. However, King Aerys II Targaryen named Jaime to his Kingsguard before the agreements were finalized, thereby preventing the betrothal from being made. When Tywin suggested his younger son, the deformed dwarf Tyrion, in Jaime's stead, Hoster declined, informing Tywin that he wanted a "whole man" for his daughter.</Text>
 		</Row>
 
 		<!--UNITS-->
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_BROTHERHOOD_WITHOUT_BANNER_CHAPTER_HISTORY_PARA_1">
-			<Text>**</Text>
+			<Text>The brotherhood without banners, also known as the knights of the hollow hill and the forgotten fellowship, is an outlaw group who initially fights Lannister rule in the name of King Robert I Baratheon. Led by the Lightning Lord, Beric Dondarrion, the group is founded in the riverlands by soldiers and nobles who were sent by the then-Hand of the King, Eddard Stark, to bring Gregor Clegane to justice. After they are ambushed while crossing a ford and nearly defeated, the group continues the fight as a guerrilla group. Their numbers increase as they are joined by defeated soldiers from other battles, deserters, and refugees from the War of the Five Kings.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_BROTHERHOOD_WITHOUT_BANNER_CHAPTER_HISTORY_PARA_2">
-			<Text>**</Text>
+			<Text>After reports of marauding raiders in the riverlands reach King's Landing, the Hand of the King, Lord Eddard Stark, sends out a force under the command of Lord Beric Dondarrion, including some of his own Stark men, to stop the marauders and bring them to justice. According to witnesses the raiders are led by a man of monstrous size, whom Ned Stark realizes can only be Ser Gregor Clegane. Beric, having the command of the party, leads his men into an ambush and is killed by Gregor in the battle at the Mummer's Ford. It is later revealed that Lord Tywin Lannister's intention with Gregor's raiding was to draw Eddard to them to be captured and exchanged for his son, Tyrion Lannister, who had been taken prisoner by Ned's wife, Catelyn. Because he had been wounded Eddard was unable to lead the party himself, and instead entrusted the leadership of the party to Beric.</Text>
 		</Row>
 
 		<!--CIVINFO-->
@@ -172,10 +170,10 @@
 			<Text>The Riverlands</Text>
 		</Row>
 		<Row Tag="LOC_CIVINFO_THE_RIVERLANDS_SIZE">
-			<Text>**</Text>
+			<Text>The riverlands is a central region of the Seven Kingdoms of Westeros, consisting of the rich, fertile, and populous areas around the three forks of the Trident and the northern Blackwater Rush.</Text>
 		</Row>
 		<Row Tag="LOC_CIVINFO_THE_RIVERLANDS_POPULATION">
-			<Text>**</Text>
+			<Text>The people of the riverlands are known as "rivermen" or occasionally "riverlanders", and they are a mixture of hardy warriors, peaceful fisherfolk and devout smallfolk.</Text>
 		</Row>
 		<Row Tag="LOC_CIVINFO_THE_RIVERLANDS_CAPITAL">
 			<Text>Riverrun</Text>
@@ -184,40 +182,40 @@
 		<!--DIPLO-->
 
 		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_HOSTER_TULLY_ANY">
-			<Text>**</Text>
+			<Text>I think it's a good idea. Come, sit next to my daughters.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_HOSTER_TULLY_ANY">
-			<Text>**</Text>
+			<Text>You have not proven to be true friend to the Riverlands yet. We will consider next time.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_HOSTER_TULLY_ANY">
-			<Text>**</Text>
+			<Text>Do you see my quarrelsome bannermen? We shouldn't do that. Instead, friendship maybe?</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_HOSTER_TULLY_ANY">
-			<Text>**</Text>
+			<Text>I know you are indeed a good friend!</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_HOSTER_TULLY_ANY">
-			<Text>**</Text>
+			<Text>Unfortunate... Do you, by any chance find one of my daughters... adorable?</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_HOSTER_TULLY_ANY">
-			<Text>**</Text>
+			<Text>The Riverlands is always prepared for a battle, we are always in one here and there. And as usual, we will survive.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_HOSTER_TULLY_ANY">
-			<Text>**</Text>
+			<Text>It may be brutal, but I find war is the only remaining way to resolve our conflict.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_HOSTER_TULLY_ANY">
-			<Text>**</Text>
+			<Text>Ah, a trade delegation. Of course, of course.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_HOSTER_TULLY_ANY">
-			<Text>**</Text>
+			<Text>You think I cannnot tell the difference between a trader and a spy in a trader's skin? Go home.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_HOSTER_TULLY_ANY">
-			<Text>**</Text>
+			<Text>We would like to send you a trade delegation with our fish products. From the rivers, taste different from those in the sea.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_HOSTER_TULLY_ANY">
-			<Text>**</Text>
+			<Text>This is rude.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_HOSTER_TULLY_ANY">
-			<Text>**</Text>
+			<Text>The key to House Tully's survival is through our allegiance to City-States. And we shall not tolerate those who interferes.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_HOSTER_TULLY_ANY">
 			<Text>**</Text>

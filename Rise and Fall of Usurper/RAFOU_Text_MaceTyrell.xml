@@ -221,6 +221,9 @@
 		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_MACE_TYRELL_ANY">
 			<Text>Look at your people. Starvation, poverty, all kinds of suffering. They need a new leader!</Text>
 		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_AGENDA_TOO_FAT_TO_BATTLE_WAR ">
+			<Text>(Your science output is woeful.)</Text>
+		</Row>		
 		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_MACE_TYRELL_ANY">
 			<Text>Welcom to the Reach, the fertile, rich home of my people. I am Mace Tyrell, Lord of Highgarden, Defender of the Marches, High Marshal of the Reach, Warden of the South, Lord Paramount of the Mander and High Steward of Highgarden. I hope you find your journey in the Reach pleasant.</Text>
 		</Row>

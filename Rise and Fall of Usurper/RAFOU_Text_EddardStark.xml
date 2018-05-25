@@ -220,7 +220,10 @@
 			<Text>I don't like the sound of it, you should reconsider what you say to north people.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_EDDARD_STARK_ANY">
-			<Text>You bear no honor with you. Even the Old God whispers to me about your evil. (Denounces You).</Text>
+			<Text>You bear no honor with you. Even the Old God whispers to me about your evil.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_AGENDA_HONOR_AND_JUSTICE_WAR">
+			<Text>(You have backstabbed a friend or declared a surprise war.)</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_EDDARD_STARK_ANY">
 			<Text>Welcome to the north. Our land is vast, wind is cold, people are tough. I wish you be faithful to the Old God. Yes, the trees that're staring at you.</Text>
@@ -241,13 +244,13 @@
 			<Text>Your are loyal to your friends. The north sees, the north remembers.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_KUDO_LEADER_EDDARD_STARK_REASON_ANY">
-			<Text>(You are friend to them)</Text>
+			<Text>Eddard Stark likes to be your friend.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_EDDARD_STARK_ANY">
 			<Text>What you've done isn't honorable, stop this folly.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_WARNING_LEADER_EDDARD_STARK_REASON_ANY">
-			<Text>(You have backstabbed a friend or declared a surprise war.)</Text>
+			<Text>Eddard Stark doesn't like to see you declaring surprise war or backstabbing your friend.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_EDDARD_STARK_ANY">
 			<Text>Alliance makes us stronger. Shall we make bonds of our houses?</Text>

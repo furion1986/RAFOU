@@ -456,6 +456,12 @@
 		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_TYWIN_LANNISTER_ANY">
 			<Text>What is the value of your people in this world? (Denounces You).</Text>
 		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_AGENDA_THE_LANNISTERS_PAY_DEBTS_LOW_INCOME">
+			<Text>(Your have low gold income.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_AGENDA_THE_LANNISTERS_PAY_DEBTS_LOW_STANDING_ARMY">
+			<Text>(Your have weak standing army.)</Text>
+		</Row>
 		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_TYWIN_LANNISTER_ANY">
 			<Text>Welcome to the Westerlands. Do visit your famous gold mines and trade with merchants in Lannisport. Make yourself at home here, and you will never want to leave.</Text>
 		</Row>
@@ -565,6 +571,12 @@
 		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_ROBERT_BARATHEON_ANY">
 			<Text>STOP THIS MADNESS, IN THE NAME OF YOUR KING! (Denounces You).</Text>
 		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_AGENDA_THE_STAG_KING_DIFFERENT_GOVERNMENT">
+			<Text>(Your have different government with theirs.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_AGENDA_THE_STAG_KING_LOW_STANDING_ARMY">
+			<Text>(Your have weak standing army.)</Text>
+		</Row>		
 		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_ROBERT_BARATHEON_ANY">
 			<Text>The Stormlands welcome you. I believe you've seen our mighty castles already. Laugh loud, this is how we make friends.</Text>
 		</Row>

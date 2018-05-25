@@ -175,7 +175,7 @@
 		<Row UnitType="UNIT_SELLSWORDS_PIKEMAN" BaseMoves="2" Cost="180" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_SELLSWORDS_PIKEMAN_NAME" Description="LOC_UNIT_SELLSWORDS_PIKEMAN_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_ANTI_CAVALRY" Maintenance="3" Combat="41" PrereqCivic="CIVIC_FEUDALISM" TraitType="TRAIT_DUMMY_UNIT_SELLSWORDS"/>
 		<Row UnitType="UNIT_SELLSWORDS_MARKSMAN" BaseMoves="2" Cost="180" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" Name="LOC_UNIT_SELLSWORDS_MARKSMAN_NAME" Description="LOC_UNIT_SELLSWORDS_MARKSMAN_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_RANGED" Maintenance="3" Combat="30" RangedCombat="40" Range="2" PrereqCivic="CIVIC_FEUDALISM" TraitType="TRAIT_DUMMY_UNIT_SELLSWORDS"/>
 		<!-- Robert Baratheon leads the Stormlands -->
-		<Row UnitType="UNIT_SQUIRE" TraitType="TRAIT_CIVILIZATION_UNIT_SQUIRE" BaseMoves="3" Cost="48" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_CIVILIAN" Name="LOC_UNIT_SQUIRE_NAME" Description="LOC_UNIT_SQUIRE_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY" Maintenance="1" CanCapture="False" PrereqCivic="CIVIC_MILITARY_TRADITION"/>
+		<Row UnitType="UNIT_SQUIRE" TraitType="TRAIT_CIVILIZATION_UNIT_SQUIRE" BaseMoves="4" Cost="48" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="false" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_CIVILIAN" Name="LOC_UNIT_SQUIRE_NAME" Description="LOC_UNIT_SQUIRE_DESCRIPTION" PurchaseYield="YIELD_GOLD" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY" Maintenance="1" CanCapture="False" PrereqCivic="CIVIC_MILITARY_TRADITION"/>
 		<!-- Mace Tyrell leads the Reach -->
 		<Row UnitType="UNIT_REDWYNE_FLEET" TraitType="TRAIT_CIVILIZATION_UNIT_REDWYNE_FLEET" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT"  PrereqCivic="CIVIC_NAVAL_TRADITION" MandatoryObsoleteTech="TECH_STEAM_POWER" Combat="40" Maintenance="3" PromotionClass="PROMOTION_CLASS_NAVAL_MELEE" PurchaseYield="YIELD_GOLD" Description="LOC_UNIT_REDWYNE_FLEET_DESCRIPTION" Name="LOC_UNIT_REDWYNE_FLEET_NAME" FormationClass="FORMATION_CLASS_NAVAL" Domain="DOMAIN_SEA" ZoneOfControl="true" BaseSightRange="3" AdvisorType="ADVISOR_CONQUEST" Cost="180" BaseMoves="4"/>
 		<!-- Jon Arryn leads the Vale -->
@@ -536,7 +536,6 @@
 	</Unit_BuildingPrereqs>
 	<Improvement_ValidBuildUnits>
 		<!-- Balon Greyjoy leads the Ironborn -->
-		<Row UnitType="UNIT_THRALL" ImprovementType="IMPROVEMENT_FARM"/>
 		<Row UnitType="UNIT_THRALL" ImprovementType="IMPROVEMENT_MINE"/>
 		<Row UnitType="UNIT_THRALL" ImprovementType="IMPROVEMENT_QUARRY"/>
 		<Row UnitType="UNIT_THRALL" ImprovementType="IMPROVEMENT_PASTURE"/>

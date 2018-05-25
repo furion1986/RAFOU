@@ -11,7 +11,7 @@
 			<Text>The Iron Fleet</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_IRON_FLEET_DESCRIPTION">
-			<Text>+1 [ICON_Movement] Movement and +5 [ICON_Strength] Combat Strength to all naval units.</Text>
+			<Text>+1 [ICON_Movement] Movement and +5 [ICON_Strength] Combat Strength to all naval units.[NEWLINE]+100% [ICON_PRODUCTION] Production to Harbor District.</Text>
 		</Row>
 		<Row Tag="LOC_LEADER_BALON_GREYJOY_QUOTE">
 			<Text>No man has ever died from bending his knee. He who kneels may rise again, blade in hand. He who will not kneel stays dead, stiff legs and all.</Text>
@@ -219,8 +219,8 @@
 			<Text>Now you have trouble. Keep an eye on your coast line. Though it won't help you too much...</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_BALON_GREYJOY_ANY">
-			<Text>Tell me where's your fleet? If I don't find them, I will plunder your coast. If I find them... My Iron Fleet will have some more Galleies. (Denounces You).</Text>
-		</Row>
+			<Text>Tell me where's your fleet? If I don't find them, I will plunder your coast. If I find them... My Iron Fleet will have some more Galleies.</Text>
+		</Row>		
 		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_BALON_GREYJOY_ANY">
 			<Text>What brings you here stranger? Though I complement your sailing skill, our young krakens can do much better.</Text>
 		</Row>
@@ -240,13 +240,13 @@
 			<Text>A strong navy you have. You are safe from my fleet for now.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_KUDO_LEADER_BALON_GREYJOY_REASON_ANY">
-			<Text>(You have strong navy)</Text>
+			<Text>Balon Greyjoy is awed by your mighty fleet.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_BALON_GREYJOY_ANY">
 			<Text>Guardless coast? Looking juicy...</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_WARNING_LEADER_BALON_GREYJOY_REASON_ANY">
-			<Text>(You have weak navy.)</Text>
+			<Text>Balon Greyjoy thinks your coast is too easy to raid.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_BALON_GREYJOY_ANY">
 			<Text>We shall fight together, agreed?</Text>

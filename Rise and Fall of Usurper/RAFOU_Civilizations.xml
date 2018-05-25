@@ -493,15 +493,15 @@
 		<!-- Balon Greyjoy leads the Ironborn -->
 		<Row>
 			<TraitType>TRAIT_CIVILIZATION_WE_DO_NOT_SOW</TraitType>
-			<ModifierId>TRAIT_COMBAT_CAPTURE_BUILDERS</ModifierId>
+			<ModifierId>TRAIT_BG_COMBAT_CAPTURE_BUILDERS</ModifierId>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_CIVILIZATION_WE_DO_NOT_SOW</TraitType>
-			<ModifierId>TRAIT_FARM_REDUCE_FOOD</ModifierId>
+			<ModifierId>TRAIT_BG_FARM_REDUCE_FOOD</ModifierId>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_CIVILIZATION_WE_DO_NOT_SOW</TraitType>
-			<ModifierId>TRAIT_FISHINGBOAT_INCREASE_FOOD</ModifierId>
+			<ModifierId>TRAIT_BG_FISHINGBOAT_INCREASE_FOOD</ModifierId>
 		</Row>
 		<!-- Eddard Stark leads the North -->
 		<Row>
@@ -826,7 +826,7 @@
 	<Modifiers>
 		<!-- Balon Greyjoy leads the Ironborn -->
 		<Row>
-			<ModifierId>TRAIT_COMBAT_CAPTURE_BUILDERS</ModifierId>
+			<ModifierId>TRAIT_BG_COMBAT_CAPTURE_BUILDERS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
 			<Permanent>true</Permanent>
 		</Row>
@@ -841,12 +841,12 @@
 			<Permanent>true</Permanent>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_FARM_REDUCE_FOOD</ModifierId>
+			<ModifierId>TRAIT_BG_FARM_REDUCE_FOOD</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
 			<SubjectRequirementSetId>BG_PLOT_IS_FARM_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_FISHINGBOAT_INCREASE_FOOD</ModifierId>
+			<ModifierId>TRAIT_BG_FISHINGBOAT_INCREASE_FOOD</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_PLOT_YIELD</ModifierType>
 			<SubjectRequirementSetId>PLOT_HAS_FISHINGBOATS_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>
@@ -1232,7 +1232,7 @@
 	<ModifierArguments>
 		<!-- Balon Greyjoy leads the Ironborn -->
 		<Row>
-			<ModifierId>TRAIT_COMBAT_CAPTURE_BUILDERS</ModifierId>
+			<ModifierId>TRAIT_BG_COMBAT_CAPTURE_BUILDERS</ModifierId>
 			<Name>AbilityType</Name>
 			<Value>ABILITY_ALL_MELEE_CAPTURE_WORKERS</Value>
 		</Row>
@@ -1257,22 +1257,22 @@
 			<Value>1</Value>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_FARM_REDUCE_FOOD</ModifierId>
+			<ModifierId>TRAIT_BG_FARM_REDUCE_FOOD</ModifierId>
 			<Name>YieldType</Name>
 			<Value>YIELD_FOOD</Value>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_FARM_REDUCE_FOOD</ModifierId>
+			<ModifierId>TRAIT_BG_FARM_REDUCE_FOOD</ModifierId>
 			<Name>Amount</Name>
 			<Value>-1</Value>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_FISHINGBOAT_INCREASE_FOOD</ModifierId>
+			<ModifierId>TRAIT_BG_FISHINGBOAT_INCREASE_FOOD</ModifierId>
 			<Name>YieldType</Name>
 			<Value>YIELD_FOOD</Value>
 		</Row>
 		<Row>
-			<ModifierId>TRAIT_FISHINGBOAT_INCREASE_FOOD</ModifierId>
+			<ModifierId>TRAIT_BG_FISHINGBOAT_INCREASE_FOOD</ModifierId>
 			<Name>Amount</Name>
 			<Value>1</Value>
 		</Row>
@@ -2869,6 +2869,8 @@
 		<!-- Jon Arryn leads the Vale -->
 		<!-- Hoster Tully leads the Riverlands -->
 		<!-- Doran Martell leads Dorne -->
+		<Row CivilizationType="CIVILIZATION_DORNE" Tier="2" ResourceType="RESOURCE_OLIVES"/>
+		<Row CivilizationType="CIVILIZATION_DORNE" Tier="3" ResourceType="RESOURCE_SPICES"/>
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 	</StartBiasResources>
 	<StartBiasFeatures>
@@ -2895,6 +2897,7 @@
 		<!-- Doran Martell leads Dorne -->
 		<Row CivilizationType="CIVILIZATION_DORNE" Tier="2" TerrainType="TERRAIN_DESERT"/>
 		<Row CivilizationType="CIVILIZATION_DORNE" Tier="2" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row CivilizationType="CIVILIZATION_DORNE" Tier="4" TerrainType="TERRAIN_COAST"/>
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 		<Row CivilizationType="CIVILIZATION_THE_CROWNLANDS" Tier="3" TerrainType="TERRAIN_COAST"/>
 	</StartBiasTerrains>
