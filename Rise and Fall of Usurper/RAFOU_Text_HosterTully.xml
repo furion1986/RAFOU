@@ -215,67 +215,70 @@
 			<Text>This is rude.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_HOSTER_TULLY_ANY">
-			<Text>The key to House Tully's survival is through our allegiance to City-States. And we shall not tolerate those who interferes.</Text>
+			<Text>The key to House Tully's survival is through our allegiance to the great houses. And we shall not tolerate those who interfere.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_AGENDA_LORD_TROUT_COMPETING_MINORS">
+			<Text>(You are competing with them for city-states.)</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_HOSTER_TULLY_ANY">
-			<Text>**</Text>
+			<Text>You are speaking to Hoster Tully, Lord Paramount of the Trident, Lord of Riverrun. Riverlands is a fertile region, we welcome you to sail along our rivers for trade.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_HOSTER_TULLY_ANY">
-			<Text>**</Text>
+			<Text>We sincerely invite you to visit our riverside city, listen to the water tumbling and enjoy our fine meal.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_HOSTER_TULLY_ANY">
-			<Text>**</Text>
+			<Text>I would like to visit your castles. I believe you won't toll me for passage, will you?</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_HOSTER_TULLY_ANY">
-			<Text>**</Text>
+			<Text>Tell me about your people. Are they hardworking?</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_GREETING_LEADER_HOSTER_TULLY_ANY">
-			<Text>**</Text>
+			<Text>Nice to see you again.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HOSTER_TULLY_ANY">
-			<Text>**</Text>
+			<Text>I'm pleased to see that you are staying away from the houses I favor. They will be part of my family one day.</Text>
 		</Row>
-		<Row Tag="LOC_DIPLO_KUDO_LEADER_HOSTER_TULLY_REASON_ANY">
-			<Text>**</Text>
+		<Row Tag="LOC_DIPLO_MODIFIER_CITY_STATE_NOT_COMPETING">
+			<Text>Hoster Tully is happy to see you're staying away from their city-states.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HOSTER_TULLY_ANY">
-			<Text>**</Text>
+			<Text>Nothing can change my arrangement for the betrothal with the houses I select. How could you believe your daughters be better than mine?</Text>
 		</Row>
-		<Row Tag="LOC_DIPLO_WARNING_LEADER_HOSTER_TULLY_REASON_ANY">
-			<Text>**</Text>
+		<Row Tag="LOC_DIPLO_MODIFIER_CITY_STATE_COMPETING">
+			<Text>Hoster Tully is angrey that you are competing with them for city-states.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_HOSTER_TULLY_ANY">
-			<Text>**</Text>
+			<Text>Great lord. Would you consider marry your son with my daughter? You see they are sweet and fertile. You will have a pack of grandchildren...</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_HOSTER_TULLY_ANY">
-			<Text>**</Text>
+			<Text>I see. My common folks are suffering. So be it.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_HOSTER_TULLY_ANY">
-			<Text>**</Text>
+			<Text>You should as my brother about this, see if he would ever agree...</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_HOSTER_TULLY_ANY">
-			<Text>**</Text>
+			<Text>Town after town disappeared. We should stop this tragedy, shall we?</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_HOSTER_TULLY_ANY">
-			<Text>**</Text>
+			<Text>You may use our bridges for crossing the rivers. Or take ferries if you prefer.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_HOSTER_TULLY_ANY">
-			<Text>**</Text>
+			<Text>There must be a toll. A good amount of gold, a promise, a foster son, or an arrangement for marriage.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_HOSTER_TULLY_ANY">
-			<Text>**</Text>
+			<Text>Although these greencloaked folks won't even care about your permission, but would you please grant them a passage?</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_HOSTER_TULLY_ANY">
-			<Text>**</Text>
+			<Text>Your soldiers are too close. What do you want?</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_HOSTER_TULLY_ANY">
-			<Text>**</Text>
+			<Text>That stripling ... wretched boy ... not speak that name to me, your duty ... your mother, she would ... Oh, gods forgive me, forgive me, forgive me.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_HOSTER_TULLY_ANY">
-			<Text>**</Text>
+			<Text>Not acceptable.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_HOSTER_TULLY_ANY">
-			<Text>**</Text>
+			<Text>It's a deal then.</Text>
 		</Row>
 		
 		<Row Tag="LOC_CITY_STATES_ANNEX_BUTTON">

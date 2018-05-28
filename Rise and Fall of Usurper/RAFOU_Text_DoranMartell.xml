@@ -246,100 +246,103 @@
 		<!--DIPLO-->
 
 		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_DORAN_MARTELL_ANY">
-			<Text>**</Text>
+			<Text>Dornish people are fierce but friendly. We like you.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_DORAN_MARTELL_ANY">
-			<Text>**</Text>
+			<Text>Be honest, then we shall accept you.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_DORAN_MARTELL_ANY">
-			<Text>**</Text>
+			<Text>You must have heard The Dornishman's Wife. Oh I don't mean we practice that, but you could have Dornish wife instead.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_DORAN_MARTELL_ANY">
-			<Text>**</Text>
+			<Text>Sunspear is your true friend now.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_DORAN_MARTELL_ANY">
-			<Text>**</Text>
+			<Text>Don't be silly. Chance will not come back.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_DORAN_MARTELL_ANY">
-			<Text>**</Text>
+			<Text>March as you wish. Let's see how long will your troops survive in the baking deserts.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_DORAN_MARTELL_ANY">
-			<Text>**</Text>
+			<Text>You might not have noticed, but "check"...</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_DORAN_MARTELL_ANY">
-			<Text>**</Text>
+			<Text>Trader is good. Wine for wine, lust for lust. I guarantee your delegation will enjoy the time here.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_DORAN_MARTELL_ANY">
-			<Text>**</Text>
+			<Text>Cyvasse, drinking, hot food, or in bed. At least your delegation should be good at one if he wishes to live in Dorne.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_DORAN_MARTELL_ANY">
-			<Text>**</Text>
+			<Text>I've sent a trade convoy to you with our famous fried snakes. Real vipers they were. The more poisonous, the tastier.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_DORAN_MARTELL_ANY">
-			<Text>**</Text>
+			<Text>Now the world knows what you are...</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_DORAN_MARTELL_ANY">
-			<Text>**</Text>
+			<Text>Are your people happy? Why wouldn't you keep them happy?</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_AGENDA_PRINCE_OF_DORNE_LOW_HAPPINESS">
+			<Text>(You are not keeping your people happy.)</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_DORAN_MARTELL_ANY">
-			<Text>**</Text>
+			<Text>Welcome to Dorne. I am Doran Martell, Prince of Dorne, Lord of Sunspear. Dorne is a beautiful place with vast desert but fertile oases. People sing, dance, and drink for their lives here. Come, and be happy.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_DORAN_MARTELL_ANY">
-			<Text>**</Text>
+			<Text>Come to my city, try some spicy desert food and sour wine. Enjoy the breeze at night on rooftops.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_DORAN_MARTELL_ANY">
-			<Text>**</Text>
+			<Text>I'm interested in foreign streets. The way people make living, the language they speak, and the food they serve. Intriguing...</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_DORAN_MARTELL_ANY">
-			<Text>**</Text>
+			<Text>Let's exchange some information about our capitals, while we are playing a game of cyvasse.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_GREETING_LEADER_DORAN_MARTELL_ANY">
-			<Text>**</Text>
+			<Text>Another hot day, isn't it?</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_DORAN_MARTELL_ANY">
-			<Text>**</Text>
+			<Text>Happy people are easier to rule. You understand it.</Text>
 		</Row>
-		<Row Tag="LOC_DIPLO_KUDO_LEADER_DORAN_MARTELL_REASON_ANY">
-			<Text>**</Text>
+		<Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_HIGH_HAPPINESS">
+			<Text>Doran Martell likes you keep your people happy.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_DORAN_MARTELL_ANY">
-			<Text>**</Text>
+			<Text>Complaint, riot, overturn. You should see the result of angry citizens. Don't you care?</Text>
 		</Row>
-		<Row Tag="LOC_DIPLO_WARNING_LEADER_DORAN_MARTELL_REASON_ANY">
-			<Text>**</Text>
+		<Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_LOW_HAPPINESS">
+			<Text>Doran Martell dislikes your unstable citizens.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_DORAN_MARTELL_ANY">
-			<Text>**</Text>
+			<Text>We find common interests, we make alliances. Simple logic.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_DORAN_MARTELL_ANY">
-			<Text>**</Text>
+			<Text>Now you know. There are only some more piles of bones in my desert. Nothing more.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_DORAN_MARTELL_ANY">
-			<Text>**</Text>
+			<Text>I'm just curious how many of your people will still be alive coming out of the desert. Leave the fun to me.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_DORAN_MARTELL_ANY">
-			<Text>**</Text>
+			<Text>There're enough "bones" in our Boneway. And we can't make broth with those. Let's stop producing more.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_DORAN_MARTELL_ANY">
-			<Text>**</Text>
+			<Text>Suggestions. Horses can do, but camels are better in desert. Especially for long distance travel.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_DORAN_MARTELL_ANY">
-			<Text>**</Text>
+			<Text>You have enough water? Any idea what sandstorm is? You are not prepared.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_DORAN_MARTELL_ANY">
-			<Text>**</Text>
+			<Text>We wish to pass, please.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_DORAN_MARTELL_ANY">
-			<Text>**</Text>
+			<Text>Tell your people to go back. Staying there, I will only see mummies next morning.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_DORAN_MARTELL_ANY">
-			<Text>**</Text>
+			<Text>Just promise me one thing, keep our culture, and keep my people happy...</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_DORAN_MARTELL_ANY">
-			<Text>**</Text>
+			<Text>There should be other probabilities.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_DORAN_MARTELL_ANY">
-			<Text>**</Text>
+			<Text>Just as I expected.</Text>
 		</Row>
 		
 	</BaseGameText>
