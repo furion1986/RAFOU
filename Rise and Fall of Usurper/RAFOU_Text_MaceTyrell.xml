@@ -94,7 +94,7 @@
 
 		<!--Unit Ability Descriptions-->
 		<Row Tag="LOC_PROMOTION_COMBAT_REDUCE_DESCRIPTION">
-			<Text>-{1_Amount} Combat Strength because Lord Puff Fish is too fat to battle.</Text>
+			<Text>{1_Amount} Combat Strength because Lord Puff Fish is too fat to battle.</Text>
 		</Row>
 
 		<!--Agendas-->

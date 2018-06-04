@@ -11,7 +11,7 @@
 			<Text>The Iron Fleet</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_IRON_FLEET_DESCRIPTION">
-			<Text>+1 [ICON_Movement] Movement and +5 [ICON_Strength] Combat Strength to all naval units.[NEWLINE]+100% [ICON_PRODUCTION] Production to Harbor District.</Text>
+			<Text>+1 [ICON_Movement] Movement and +5 [ICON_Strength] Combat Strength to all naval units.[NEWLINE]+100% [ICON_PRODUCTION] Production when constructing Harbor District.</Text>
 		</Row>
 		<Row Tag="LOC_LEADER_BALON_GREYJOY_QUOTE">
 			<Text>No man has ever died from bending his knee. He who kneels may rise again, blade in hand. He who will not kneel stays dead, stiff legs and all.</Text>

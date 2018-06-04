@@ -1213,7 +1213,7 @@
 		<Row>
 			<ModifierId>AGENDA_LORD_TROUT_NOT_COMPETING_MINORS</ModifierId>
 			<Name>SimpleModifierDescription</Name>
-			<Value>LOC_DIPLO_MODIFIER_CITY_STATE_NOT_COMPETING</Value>
+			<Value>LOC_DIPLO_LORD_TROUT_CITY_STATE_NOT_COMPETING</Value>
 		</Row>
 		<Row>
 			<ModifierId>AGENDA_LORD_TROUT_COMPETING_MINORS</ModifierId>
@@ -1228,7 +1228,7 @@
 		<Row>
 			<ModifierId>AGENDA_LORD_TROUT_COMPETING_MINORS</ModifierId>
 			<Name>SimpleModifierDescription</Name>
-			<Value>LOC_DIPLO_MODIFIER_CITY_STATE_COMPETING</Value>
+			<Value>LOC_DIPLO_LORD_TROUT_CITY_STATE_COMPETING</Value>
 		</Row>
 		<!-- Doran Martell leads Dorne -->
 		<Row>
@@ -1274,7 +1274,7 @@
 		<Row>
 			<ModifierId>AGENDA_PRINCE_OF_DORNE_HIGH_HAPPINESS</ModifierId>
 			<Name>SimpleModifierDescription</Name>
-			<Value>LOC_DIPLO_MODIFIER_DESCRIPTION_HIGH_HAPPINESS</Value>
+			<Value>LOC_DIPLO_PRINCE_OF_DORNE_DESCRIPTION_HIGH_HAPPINESS</Value>
 		</Row>
 		<Row>
 			<ModifierId>AGENDA_PRINCE_OF_DORNE_LOW_HAPPINESS</ModifierId>
@@ -1289,7 +1289,7 @@
 		<Row>
 			<ModifierId>AGENDA_PRINCE_OF_DORNE_LOW_HAPPINESS</ModifierId>
 			<Name>SimpleModifierDescription</Name>
-			<Value>LOC_DIPLO_MODIFIER_DESCRIPTION_LOW_HAPPINESS</Value>
+			<Value>LOC_DIPLO_PRINCE_OF_DORNE_DESCRIPTION_LOW_HAPPINESS</Value>
 		</Row>		
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 		<Row>
@@ -1480,7 +1480,7 @@
 		<Row>
 			<ModifierId>AGENDA_HARP_OVER_SWORD_HIGH_CULTURE</ModifierId>
 			<Name>SimpleModifierDescription</Name>
-			<Value>LOC_DIPLO_MODIFIER_DESCRIPTION_HIGH_CULTURE</Value>
+			<Value>LOC_DIPLO_HARP_OVER_SWORD_DESCRIPTION_HIGH_CULTURE</Value>
 		</Row>
 		<Row>
 			<ModifierId>AGENDA_HARP_OVER_SWORD_LOW_CULTURE</ModifierId>
@@ -1495,7 +1495,7 @@
 		<Row>
 			<ModifierId>AGENDA_HARP_OVER_SWORD_LOW_CULTURE</ModifierId>
 			<Name>SimpleModifierDescription</Name>
-			<Value>LOC_DIPLO_MODIFIER_DESCRIPTION_LOW_CULTURE</Value>
+			<Value>LOC_DIPLO_HARP_OVER_SWORD_DESCRIPTION_LOW_CULTURE</Value>
 		</Row>		
 	</ModifierArguments>
 	<ModifierStrings>
@@ -1593,7 +1593,8 @@
 		<Row ListType="RhaegarTechs"/>
 		<Row ListType="RhaegarWonders"/>
 		<Row ListType="RhaegarUnitBuilds"/>
-		<Row ListType="RhaegarDiplomacy"/>		
+		<Row ListType="RhaegarDiplomacy"/>
+		<Row ListType="HarpOverSwordGreatMusician"/>
 	</AiListTypes>
 	<AiLists>
 		<!-- Balon Greyjoy leads the Ironborn -->

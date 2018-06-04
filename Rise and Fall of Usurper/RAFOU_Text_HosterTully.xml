@@ -238,13 +238,13 @@
 		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HOSTER_TULLY_ANY">
 			<Text>I'm pleased to see that you are staying away from the houses I favor. They will be part of my family one day.</Text>
 		</Row>
-		<Row Tag="LOC_DIPLO_MODIFIER_CITY_STATE_NOT_COMPETING">
+		<Row Tag="LOC_DIPLO_LORD_TROUT_CITY_STATE_NOT_COMPETING">
 			<Text>Hoster Tully is happy to see you're staying away from their city-states.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HOSTER_TULLY_ANY">
 			<Text>Nothing can change my arrangement for the betrothal with the houses I select. How could you believe your daughters be better than mine?</Text>
 		</Row>
-		<Row Tag="LOC_DIPLO_MODIFIER_CITY_STATE_COMPETING">
+		<Row Tag="LOC_DIPLO_LORD_TROUT_CITY_STATE_COMPETING">
 			<Text>Hoster Tully is angrey that you are competing with them for city-states.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_HOSTER_TULLY_ANY">

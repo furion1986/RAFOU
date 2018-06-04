@@ -302,13 +302,13 @@
 		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_DORAN_MARTELL_ANY">
 			<Text>Happy people are easier to rule. You understand it.</Text>
 		</Row>
-		<Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_HIGH_HAPPINESS">
+		<Row Tag="LOC_DIPLO_PRINCE_OF_DORNE_DESCRIPTION_HIGH_HAPPINESS">
 			<Text>Doran Martell likes you keep your people happy.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_DORAN_MARTELL_ANY">
 			<Text>Complaint, riot, overturn. You should see the result of angry citizens. Don't you care?</Text>
 		</Row>
-		<Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_LOW_HAPPINESS">
+		<Row Tag="LOC_DIPLO_PRINCE_OF_DORNE_DESCRIPTION_LOW_HAPPINESS">
 			<Text>Doran Martell dislikes your unstable citizens.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_DORAN_MARTELL_ANY">

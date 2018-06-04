@@ -228,13 +228,13 @@
 		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_RHAEGAR_TARGARYEN_ANY">
 			<Text>I'm impressed on your unique culture. We should exchange our understandings.</Text>
 		</Row>
-		<Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_HIGH_CULTURE">
+		<Row Tag="LOC_DIPLO_HARP_OVER_SWORD_DESCRIPTION_HIGH_CULTURE">
 			<Text>Rhaegar is pleased to see you with high culture.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_RHAEGAR_TARGARYEN_ANY">
 			<Text>If your people don't sing for you, you must be a terrible leader.</Text>
 		</Row>
-		<Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_LOW_CULTURE">
+		<Row Tag="LOC_DIPLO_HARP_OVER_SWORD_DESCRIPTION_LOW_CULTURE">
 			<Text>Rhaegar is upset by your low culture.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_RHAEGAR_TARGARYEN_ANY">

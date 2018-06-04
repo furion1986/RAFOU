@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>315</build>
+		<revision>805</revision>
+	</m_Version>
+	<m_ClassName text="TileBase"/>
+	<m_PackageName text="landmarks/tilebases"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="DIS_CTY_PMGC_Base"/>
+			<m_ObjectName text="DIS_CTY_PMGC_Base"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_CTY_PMC_Base"/>
+			<m_ObjectName text="DIS_CTY_PMC_Base"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_CTY_PGC_Base"/>
+			<m_ObjectName text="DIS_CTY_PGC_Base"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_CTY_PC_Base"/>
+			<m_ObjectName text="DIS_CTY_PC_Base"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_CTY_MGC_Base"/>
+			<m_ObjectName text="DIS_CTY_MGC_Base"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_CTY_MC_Base"/>
+			<m_ObjectName text="DIS_CTY_MC_Base"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_CTY_GC_Base"/>
+			<m_ObjectName text="DIS_CTY_GC_Base"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_CTY_C_Base"/>
+			<m_ObjectName text="DIS_CTY_C_Base"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_REL_HEART_TREE_Base_01"/>
+			<m_ObjectName text="DIS_REL_HEART_TREE_Base_01"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_REL_HEART_TREE_Base_02"/>
+			<m_ObjectName text="DIS_REL_HEART_TREE_Base_02"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_REL_HEART_TREE_Base_03"/>
+			<m_ObjectName text="DIS_REL_HEART_TREE_Base_03"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_REL_HEART_TREE_Base_04"/>
+			<m_ObjectName text="DIS_REL_HEART_TREE_Base_04"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_REL_HT_TREE"/>
+			<m_ObjectName text="DIS_REL_HT_TREE"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_SELLSWORDS_CAMP_Base_01"/>
+			<m_ObjectName text="DIS_SELLSWORDS_CAMP_Base_01"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_SELLSWORDS_CAMP_Base_02"/>
+			<m_ObjectName text="DIS_SELLSWORDS_CAMP_Base_02"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_SELLSWORDS_CAMP_Base_03"/>
+			<m_ObjectName text="DIS_SELLSWORDS_CAMP_Base_03"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_SELLSWORDS_CAMP_Base_04"/>
+			<m_ObjectName text="DIS_SELLSWORDS_CAMP_Base_04"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_ARBOR_WINERY"/>
+			<m_ObjectName text="IMP_ARBOR_WINERY"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_ARBOR_WINERY_BLDG_A"/>
+			<m_ObjectName text="IMP_ARBOR_WINERY_BLDG_A"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_Bridge"/>
+			<m_ObjectName text="IMP_Bridge"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_RiverRock01"/>
+			<m_ObjectName text="IMP_RiverRock01"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_RiverRock04"/>
+			<m_ObjectName text="IMP_RiverRock04"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_WATER_GARDEN_TOPO"/>
+			<m_ObjectName text="IMP_WATER_GARDEN_TOPO"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMP_WATER_GARDEN"/>
+			<m_ObjectName text="IMP_WATER_GARDEN"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

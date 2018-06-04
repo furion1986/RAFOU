@@ -25,12 +25,39 @@
   <Dependency type="Dlc" title="DLC: Aztec Civilization Pack" id="02A8BDDE-67EA-4D38-9540-26E685E3156E" />
   <Dependency type="Dlc" title="Expansion1" id="1B28771A-C749-434B-9053-D1380C553DE9" />
 </Associations>]]></AssociationData>
+    <ModProperties>
+      <CustomProperties />
+    </ModProperties>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
     <OutputPath>.</OutputPath>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="ArtDefs\Buildings.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Civilizations.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Cultures.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Districts.artdef">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="ArtDefs\FallbackLeaders.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Improvements.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Landmarks.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Units.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ArtDefs\Unit_Bins.artdef">
       <SubType>Content</SubType>
     </Content>
     <Content Include="GameScript\CrownlandsGameScript.lua">
@@ -66,10 +93,19 @@
     <Content Include="UI\PartialScreens\CityStates.xml">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="XLPs\hero_buildings.xlp">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="XLPs\Icons.xlp">
       <SubType>Content</SubType>
     </Content>
     <Content Include="XLPs\LeaderFallbacks.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\tilebases.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\Units.xlp">
       <SubType>Content</SubType>
     </Content>
     <Folder Include="ArtDefs\" />

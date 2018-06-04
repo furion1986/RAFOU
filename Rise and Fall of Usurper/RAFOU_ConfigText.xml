@@ -39,7 +39,7 @@
 			<Text>The Iron Fleet</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_BALON_GREYJOY_DESCRIPTION">
-			<Text>+1 [ICON_Movement] Movement and +5 [ICON_Strength] Combat Strength to all naval units.[NEWLINE]+100% [ICON_PRODUCTION] Production to Harbor District.</Text>
+			<Text>+1 [ICON_Movement] Movement and +5 [ICON_Strength] Combat Strength to all naval units.[NEWLINE]+100% [ICON_PRODUCTION] Production when constructing Harbor District.</Text>
 		</Row>
 		<!-- Eddard Stark leads the North -->
 		<Row Tag="LOC_UNIT_MOUNTAIN_CLAN_NAME">
@@ -104,7 +104,7 @@
 			<Text>Sellswords Camp</Text>
 		</Row>
 		<Row Tag="LOC_DISTRICT_SELLSWORDS_CAMP_DESCRIPTION">
-			<Text>A district unique to Westerlands replacing Encampment. +2 [ICON_GOLD] Gold bonus if adjacent to a Commercial Hub district. +1 [ICON_GreatMerchant] Great Merchant point for each citizen working on Sellswords Camp.</Text>
+			<Text>A district unique to Westerlands replacing Encampment. +2 [ICON_GOLD] Gold bonus if adjacent to a Commercial Hub district. +2 [ICON_GreatMerchant] Great Merchant point for each citizen working on Sellswords Camp.</Text>
 		</Row>
 		<Row Tag="LOC_LEADER_TYWIN_LANNISTER_NAME">
 			<Text>Tywin Lannister</Text>
@@ -302,7 +302,7 @@
 			<Text>Water Garden</Text>
 		</Row>
 		<Row Tag="LOC_IMPROVEMENT_WATER_GARDEN_DESCRIPTION">
-			<Text>An improvement unique to Dorne. Must be placed on Desert tile, valid on Floodplain. Limited one Water Garden per city.[NEWLINE]+2 [ICON_CULTURE] Culture and +2 [ICON_Amenities] Amenities. Extra +2 [ICON_CULTURE] Culture from adjacent City Center or Government Plaza. [NEWLINE]+2 [ICON_GOLD] Gold if adjacent to river. +2 [ICON_GOLD] Gold from adjacent oasis.</Text>
+			<Text>An improvement unique to Dorne. Must be placed on flat Desert tile, valid on Floodplain. Limited one Water Garden per city.[NEWLINE]+2 [ICON_CULTURE] Culture and +2 [ICON_Amenities] Amenities. Extra +2 [ICON_CULTURE] Culture from adjacent City Center or Government Plaza. [NEWLINE]+2 [ICON_GOLD] Gold if adjacent to river. +2 [ICON_GOLD] Gold from adjacent oasis.</Text>
 		</Row>
 		<Row Tag="LOC_LEADER_DORAN_MARTELL_NAME">
 			<Text>Doran Martell</Text>
