@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_CIVILIZATION_THE_REACH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>河湾王国</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_THE_REACH_ADJECTIVE" Language="zh_Hans_CN">
+			<Text>河湾地</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LORD_PUFFFISH_NAME" Language="zh_Hans_CN">
+			<Text>充气鱼大人</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_LORD_PUFFFISH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>Receive a copy of Builder or Settler unit when produced one.[NEWLINE]But -3 [ICON_Strength] Combat Strength for all units.</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_MACE_TYRELL_QUOTE" Language="zh_Hans_CN">
+			<Text>Is there anything as pointless as a king without a kingdom? No, it's plain, the boy must abandon the riverlands, join his forces to Roose Bolton's once more, and throw all his strength against Moat Cailin. That is what I would do.</Text>
+		</Replace>
+
+		<!--City Names-->
+		<Replace Tag="LOC_CIVILIZATION_THE_REACH_CITY_1" Language="zh_Hans_CN">
+			<Text>高庭</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_THE_REACH_CITY_2" Language="zh_Hans_CN">
+			<Text>Ashford</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_THE_REACH_CITY_3" Language="zh_Hans_CN">
+			<Text>Tumbleton</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_THE_REACH_CITY_4" Language="zh_Hans_CN">
+			<Text>旧镇</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_THE_REACH_CITY_5" Language="zh_Hans_CN">
+			<Text>Cuy</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_THE_REACH_CITY_6" Language="zh_Hans_CN">
+			<Text>青亭岛</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_THE_REACH_CITY_7" Language="zh_Hans_CN">
+			<Text>Blackcrown</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_THE_REACH_CITY_8" Language="zh_Hans_CN">
+			<Text>Three Towers</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_THE_REACH_CITY_9" Language="zh_Hans_CN">
+			<Text>盾牌列岛</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_THE_REACH_CITY_10" Language="zh_Hans_CN">
+			<Text>Cider Hall</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_THE_REACH_CITY_11" Language="zh_Hans_CN">
+			<Text>Grassy Vale</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_THE_REACH_CITY_12" Language="zh_Hans_CN">
+			<Text>苦桥</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_THE_REACH_CITY_13" Language="zh_Hans_CN">
+			<Text>Brightwater Keep</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_THE_REACH_CITY_14" Language="zh_Hans_CN">
+			<Text>Old Oak</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_THE_REACH_CITY_15" Language="zh_Hans_CN">
+			<Text>角陵</Text>
+		</Replace>
+		<!--CITIZEN NAMES-->
+		<Replace Tag="LOC_CITIZEN_THE_REACH_MALE_1" Language="zh_Hans_CN">
+			<Text>Randyll Tarly</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_THE_REACH_MALE_2" Language="zh_Hans_CN">
+			<Text>Paxter Redwyne</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_THE_REACH_MALE_3" Language="zh_Hans_CN">
+			<Text>维拉斯·提利尔</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_THE_REACH_MALE_4" Language="zh_Hans_CN">
+			<Text>Leyton Hightower</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_THE_REACH_FEMALE_1" Language="zh_Hans_CN">
+			<Text>奥莲娜·提利尔</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_THE_REACH_FEMALE_2" Language="zh_Hans_CN">
+			<Text>玛格丽·提利尔</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_THE_REACH_FEMALE_3" Language="zh_Hans_CN">
+			<Text>Jeyne Beesbury</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_THE_REACH_FEMALE_4" Language="zh_Hans_CN">
+			<Text>Delena Florent</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_THE_REACH_FEMALE_5" Language="zh_Hans_CN">
+			<Text>珍妮·佛索威</Text>
+		</Replace>
+
+		<!--Unit Ability Descriptions-->
+		<Replace Tag="LOC_PROMOTION_COMBAT_REDUCE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>{1_Amount} Combat Strength because Lord Puff Fish is too fat to battle.</Text>
+		</Replace>
+
+		<!--Agendas-->
+		<Replace Tag="LOC_AGENDA_TOO_FAT_TO_BATTLE_NAME" Language="zh_Hans_CN">
+			<Text>Too Fat to Battle</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_TOO_FAT_TO_BATTLE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>Likes civilizations in peace and with high city populations.</Text>
+		</Replace>
+
+		<!--PEDIA-->
+		<!--CIV-->
+		<Replace Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_ARBOR_WINERY_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>In Westeros, most wines are produced in the south, and the Arbor is famed for its wines. The island produces both sweet and dry red wines, as well as white wines, the most well known of which is called "Arbor gold". The private stock of Runceford Redwyne, Lord of the Arbor, is strongwine with a dark purple color, and which is languorous and heady on the tongue.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_REACH_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>The Reach is one of the constituent regions of the Seven Kingdoms on the continent of Westeros. It was formerly a sovereign nation ruled by the Kings of the Reach before the War of Conquest. It is the second-largest of the kingdoms behind the north and is considered the most fertile and heavily-populated part of Westeros.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_REACH_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>The Reach is considered the home of chivalry in Westeros. It is the place where knighthood is looked upon with the greatest reverence and esteemed the most. It is also the place where the rules to tournaments are the most stringent and managed.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_REACH_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>The Reach is ruled from the castle of Highgarden by House Tyrell. Notable houses have included Ashford, Caswell, Crane, Florent, Fossoway, Gardener, Hightower, Merryweather, Mullendore, Oakheart, Redwyne, Rowan, Tarly, and Vyrwel. Noble bastards born in the Reach are given the surname Flowers.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_REACH_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+			<Text>The Reach is the most fertile part of Westeros and has numerous and well-populated villages and towns. The Sunset Sea is found to the west, while the hills of the westerlands are to the northwest and the Blackwater Rush of the riverlands is to the north. The Reach borders the crownlands to the northeast, while to the east and southeast are the stormlands and their Dornish Marches. South of the Reach are the Red Mountains of Dorne and the Summer Sea. The Roseroad links Oldtown with King's Landing by way of Highgarden, while the Ocean Road links Highgarden with Lannisport.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_REACH_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
+			<Text>The Reach is watered by the immense river Mander and its tributaries, including the Blueburn and the Cockleswhent. The Reach proper is centered around the Mander. Oldtown is located at the mouth of the Honeywine. The region also includes several islands, including the Shield Islands near the mouth of the Mander and the Arbor south of the Whispering Sound and the Redwyne Straits.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_REACH_CHAPTER_HISTORY_PARA_6" Language="zh_Hans_CN">
+			<Text>The Reach is the second wealthiest region in the Seven Kingdoms behind the westerlands, but it is the most fertile region. Among the products it produces are melons, fireplums, peaches, apples, and grapes. The Arbor is said to make the finest of wines, from dry fruity reds to a rich golden vintage. Woodharps made in Oldtown are highly sought after.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_REACH_CHAPTER_HISTORY_PARA_7" Language="zh_Hans_CN">
+			<Text>Before the War of Conquest, the golden coins of the Reach were known as hands. They still exist in some number, with each hand coin roughly half the value of a dragon coin.</Text>
+		</Replace>
+
+		<!--LEADER-->
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MACE_TYRELL_TITLE" Language="zh_Hans_CN">
+			<Text>Mace Tyrell</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MACE_TYRELL_SUBTITLE" Language="zh_Hans_CN">
+			<Text>Lord of Highgarden, Defender of the Marches, High Marshal of the Reach, Warden of the South, Lord Paramount of the Mander, High Steward of Highgarden.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MACE_TYRELL_QUOTE" Language="zh_Hans_CN">
+			<Text>Is there anything as pointless as a king without a kingdom? No, it's plain, the boy must abandon the riverlands, join his forces to Roose Bolton's once more, and throw all his strength against Moat Cailin. That is what I would do.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MACE_TYRELL_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>Mace is a handsome and once-powerful-looking man who has since turned to fat. He has curly brown hair and cuts his beard, which has white and grey specks in it, into a triangular shape. He is often red-faced. Cersei Lannister thinks of Mace as the same age as her father, Lord Tywin Lannister, although Mace is closer in age to her than to Tywin.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MACE_TYRELL_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>Mace has a generally jovial personality. He thinks himself a great warrior, although his reputation rests solely on the victory over Robert I Baratheon in the Battle of Ashford during Robert's Rebellion, which had largely been won by Mace's bannerman, Lord Randyll Tarly, before Mace even arrived at the battlefield, and the command Mace held during the siege of Storm's End later that war, which ended when Mace dipped his banners to Lord Eddard Stark. Mace is ambitious, wishing to see a grandchild of his on the Iron Throne. Despite that, his mother, Lady Olenna Tyrell, can easily hector him, and so influence his decisions. Mace is considered an oaf by his mother and by Cersei Lannister, and a fool by Prince Oberyn Martell and Cersei. His favorite son is Loras, the youngest, and his closest friend is Lord Paxter Redwyne, his brother-in-law. Mace has a great dislike for Dornishmen, especially Prince Oberyn Martell, who accidentally crippled Mace's heir, Willas.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MACE_TYRELL_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>Mace dresses in green velvet trimmed with sable, as well as a gold mantle over green.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MACE_TYRELL_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+			<Text>Mace became Lord of Highgarden once his father, Lord Luthor Tyrell, rode off a cliff while hawking.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MACE_TYRELL_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
+			<Text>During Robert's Rebellion, Mace was in command of troops from the Reach who marched against Lord Robert Baratheon of Storm's End. Mace is credited with defeating Robert in the Battle of Ashford, although the van under Lord Randyll Tarly achieved most of the victory before Mace's arrival at Ashford. He then led the siege of Storm's End, which was successfully held by Robert's brother, Stannis Baratheon. Mace and his closest bannerman, Lord Paxter Redwyne, surrendered to Robert's ally, Lord Eddard Stark, after the Sack of King's Landing.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MACE_TYRELL_CHAPTER_HISTORY_PARA_6" Language="zh_Hans_CN">
+			<Text>According to Oberyn Martell, Mace encouraged his heir, Willas Tyrell, to participate in tourneys before he was ready, leading to the accidental crippling of Willas by Oberyn. Some of the Iron Throne's debts under the new king, Robert I Baratheon, are owed to Lord Mace.</Text>
+		</Replace>
+
+		<!--UNITS-->
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_REDWYNE_FLEET_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>The Redwyne fleet is a fleet in the service of House Redwyne of the Arbor. The Redwynes have one of the three most powerful fleets of the Seven Kingdoms, the others being the Iron Fleet of the Iron Islands and the royal fleet of the Iron Throne. It is the largest fleet in Westeros. Lord Paxter Redwyne owns two hundred warships, while also serving the Redwynes are five times as many merchant carracks, wine cogs, trading galleys, and whalers. Paxter's galleas is the Arbor Queen.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_REDWYNE_FLEET_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>During the Andal invasion of Westeros, the Andals were prevented from landing in the Reach by the fleets of the Redwynes of the Arbor and the Hightowers of Oldtown. Redwyne galleys blockaded Storm's End during Robert's Rebellion. The smuggler Davos evaded the cordon, however, and delivered onions and salt fish to Stannis Baratheon and his starving garrison within the castle. During Greyjoy's Rebellion, warships from the Arbor served under Stannis when he smashed the Iron Fleet in the sea battle off Fair Isle.</Text>
+		</Replace>
+
+		<!--CIVINFO-->
+		<Replace Tag="LOC_CIVINFO_THE_REACH_LOCATION" Language="zh_Hans_CN">
+			<Text>河湾地</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_THE_REACH_SIZE" Language="zh_Hans_CN">
+			<Text>The Reach is the second-largest of the kingdoms</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_THE_REACH_POPULATION" Language="zh_Hans_CN">
+			<Text> The Reach is considered the most fertile and heavily-populated part of Westeros</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_THE_REACH_CAPITAL" Language="zh_Hans_CN">
+			<Text>高庭</Text>
+		</Replace>
+
+		<!--DIPLO-->
+
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_MACE_TYRELL_ANY" Language="zh_Hans_CN">
+			<Text>Friend? Yes, Friend!</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_MACE_TYRELL_ANY" Language="zh_Hans_CN">
+			<Text>I can loan you money, but I don't think we are close enough to make friends yet.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_MACE_TYRELL_ANY" Language="zh_Hans_CN">
+			<Text>There is no greater pleasure than to serve the King's Grace. If I was deemed worthy to join your royal council, you would find none more loyal or true.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_MACE_TYRELL_ANY" Language="zh_Hans_CN">
+			<Text>I will be at your service.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_MACE_TYRELL_ANY" Language="zh_Hans_CN">
+			<Text>You just rejected an offer from great wealth. Unwise, unwise...</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_MACE_TYRELL_ANY" Language="zh_Hans_CN">
+			<Text>No, no, no, no! I'm not ready for war, my people are not ready.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_MACE_TYRELL_ANY" Language="zh_Hans_CN">
+			<Text>You will have a chance to witness how the greatest fleet in Westeros fights. Oh, for your last time...</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_MACE_TYRELL_ANY" Language="zh_Hans_CN">
+			<Text>Your delegation is welcomed. And I promise you he will be so happy here that he won't answer your summon back.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_MACE_TYRELL_ANY" Language="zh_Hans_CN">
+			<Text>We don't accept messenger from savage people. Go back and never let me see your face again.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_MACE_TYRELL_ANY" Language="zh_Hans_CN">
+			<Text>I've sent envoy to you with my finest Arbor Gold, fresh fruits and golden coins of the Reach. I believe you will like them.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_MACE_TYRELL_ANY" Language="zh_Hans_CN">
+			<Text>There's nothing wrong with being wealthy. You're just jealous. Yes, you are!</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_MACE_TYRELL_ANY" Language="zh_Hans_CN">
+			<Text>Look at your people. Starvation, poverty, all kinds of suffering. They need a new leader!</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_AGENDA_TOO_FAT_TO_BATTLE_WAR " Language="zh_Hans_CN">
+			<Text>(Your science output is woeful.)</Text>
+		</Replace>		
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_MACE_TYRELL_ANY" Language="zh_Hans_CN">
+			<Text>Welcom to the Reach, the fertile, rich home of my people. I am Mace Tyrell, Lord of Highgarden, Defender of the Marches, High Marshal of the Reach, Warden of the South, Lord Paramount of the Mander and High Steward of Highgarden. I hope you find your journey in the Reach pleasant.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_MACE_TYRELL_ANY" Language="zh_Hans_CN">
+			<Text>Please do take a visit to our nearest city. Pick your favored fruit from our orchid and choos your favorite from our winery.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_MACE_TYRELL_ANY" Language="zh_Hans_CN">
+			<Text>Sure, sure. Let me see what might be the possibility for our trade.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_MACE_TYRELL_ANY" Language="zh_Hans_CN">
+			<Text>I think you might be interested in exchanging information. Maybe we can trade our food with your other goodies?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_MACE_TYRELL_ANY" Language="zh_Hans_CN">
+			<Text>How are you today?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_MACE_TYRELL_ANY" Language="zh_Hans_CN">
+			<Text>Look at you... Cities full of weathly noble people. You have my congratulations!</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_TOO_FAT_TO_BATTLE_NOT_WARMONGER" Language="zh_Hans_CN">
+			<Text>Mace Tyrell is happy to see you at peace</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_TOO_FAT_TO_BATTLE_HIGH_POPULATION" Language="zh_Hans_CN">
+			<Text>Mace Tyrell is happy to see you with high population</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_MACE_TYRELL_ANY" Language="zh_Hans_CN">
+			<Text>You are a disgrace to the world! Depleting your population for war? Why?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_TOO_FAT_TO_BATTLE_WARMONGER" Language="zh_Hans_CN">
+			<Text>Mace Tyrell is unhappy to see you at war</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_TOO_FAT_TO_BATTLE_LOW_POPULATION" Language="zh_Hans_CN">
+			<Text>Mace Tyrell is unhappy to see you with low population</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_MACE_TYRELL_ANY" Language="zh_Hans_CN">
+			<Text>Alliance makes us grow strong together. Will you agree?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_MACE_TYRELL_ANY" Language="zh_Hans_CN">
+			<Text>Finally... I'm never good at war. Let's look at the terms now.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_MACE_TYRELL_ANY" Language="zh_Hans_CN">
+			<Text>This is not over yet. I should at least win my money back.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_MACE_TYRELL_ANY" Language="zh_Hans_CN">
+			<Text>Please, let me have a break. My people wish to go home, harvest crops and brew wines instead of shedding blood here.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_MACE_TYRELL_ANY" Language="zh_Hans_CN">
+			<Text>Your people are welcome to have a tour to the Reach. Better with making some purchases of fruit and wine.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_MACE_TYRELL_ANY" Language="zh_Hans_CN">
+			<Text>I fear I see an Ironborn look in your eyes. I can't allow you enter our lands for now.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_MACE_TYRELL_ANY" Language="zh_Hans_CN">
+			<Text>Please allow my fleet to pass your territory. Merchant carracks, wine cogs, trading galleys, and whalers need protection. I believe you will understand.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_MACE_TYRELL_ANY" Language="zh_Hans_CN">
+			<Text>I hope your troops are there to clear out bandits. What do you say?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_MACE_TYRELL_ANY" Language="zh_Hans_CN">
+			<Text>Gold, yours. Food, yours. People, yours. Treat them well for me, please.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_MACE_TYRELL_ANY" Language="zh_Hans_CN">
+			<Text>This is robbery! I will not accept this insultation.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_MACE_TYRELL_ANY" Language="zh_Hans_CN">
+			<Text>That's a deal my friend!</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
