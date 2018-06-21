@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>315</build>
+		<revision>805</revision>
+	</m_Version>
+	<m_ClassName text="DynamicGeometry"/>
+	<m_PackageName text="landmarks/Walls"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="DIS_TTW_BASE_GATE"/>
+			<m_ObjectName text="DIS_TTW_BASE_GATE"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_TTW_BASE_TOWER"/>
+			<m_ObjectName text="DIS_TTW_BASE_TOWER"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_TTW_Bridge_Wall"/>
+			<m_ObjectName text="DIS_TTW_Bridge_Wall"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

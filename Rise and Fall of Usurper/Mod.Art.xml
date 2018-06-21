@@ -381,6 +381,7 @@
 		<Element>
 			<consumerName text="DynamicGeometry"/>
 			<relativeArtDefPaths>
+				<Element text="Walls.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="DynamicGeometry"/>
@@ -442,6 +443,7 @@
 		<Element>
 			<libraryName text="DynamicGeometry"/>
 			<relativePackagePaths>
+				<Element text="landmarks/Walls"/>
 			</relativePackagePaths>
 		</Element>
 		<Element>

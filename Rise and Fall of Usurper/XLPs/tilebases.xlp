@@ -105,6 +105,66 @@
 			<m_EntryID text="IMP_WATER_GARDEN"/>
 			<m_ObjectName text="IMP_WATER_GARDEN"/>
 		</Element>
+		<Element>
+			<m_EntryID text="DIS_GATE_OF_THE_MOON"/>
+			<m_ObjectName text="DIS_GATE_OF_THE_MOON"/>
+		</Element>
+		<Element>
+			<m_EntryID text="citywalls_med_gate_tilebase"/>
+			<m_ObjectName text="citywalls_med_gate_tilebase"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_Wall_Straight"/>
+			<m_ObjectName text="DIS_Wall_Straight"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_GOM_RE_Bld_LG_A_01"/>
+			<m_ObjectName text="DIS_GOM_RE_Bld_LG_A_01"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_GOM_RE_Bld_LG_A_02"/>
+			<m_ObjectName text="DIS_GOM_RE_Bld_LG_A_02"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_GOM_RE_Bld_MD_A_01"/>
+			<m_ObjectName text="DIS_GOM_RE_Bld_MD_A_01"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_GOM_RE_Bld_SM_A_01"/>
+			<m_ObjectName text="DIS_GOM_RE_Bld_SM_A_01"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_GOM_BannerA_Medieval"/>
+			<m_ObjectName text="DIS_GOM_BannerA_Medieval"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_TTW_IU_Bld_Tall_01"/>
+			<m_ObjectName text="DIS_TTW_IU_Bld_Tall_01"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_TTW_IU_Bld_Tall_02"/>
+			<m_ObjectName text="DIS_TTW_IU_Bld_Tall_02"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_TTW_IU_Bld_Tall_03"/>
+			<m_ObjectName text="DIS_TTW_IU_Bld_Tall_03"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_TTW_IU_Bld_Tall_04"/>
+			<m_ObjectName text="DIS_TTW_IU_Bld_Tall_04"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_TTW_IU_Bld_Tall_05"/>
+			<m_ObjectName text="DIS_TTW_IU_Bld_Tall_05"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_TTW_BASE_IND"/>
+			<m_ObjectName text="DIS_TTW_BASE_IND"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_TTW_BASE_MED"/>
+			<m_ObjectName text="DIS_TTW_BASE_MED"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

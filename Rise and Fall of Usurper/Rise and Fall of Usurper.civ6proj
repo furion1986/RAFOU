@@ -60,6 +60,9 @@
     <Content Include="ArtDefs\Unit_Bins.artdef">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="ArtDefs\Walls.artdef">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="GameScript\CrownlandsGameScript.lua">
       <SubType>Content</SubType>
     </Content>
@@ -106,6 +109,9 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="XLPs\Units.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\walls.xlp">
       <SubType>Content</SubType>
     </Content>
     <Folder Include="ArtDefs\" />
