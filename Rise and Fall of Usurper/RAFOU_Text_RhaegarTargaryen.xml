@@ -16,6 +16,25 @@
 		<Row Tag="LOC_LEADER_RHAEGAR_TARGARYEN_QUOTE">
 			<Text>He has a song. He is the prince that was promised, and his is the song of ice and fire. There must be one more. The dragon has three heads..</Text>
 		</Row>
+		
+		<Row Tag="LOC_DISTRICT_DP_CULTURE">
+			<Text>+{1_num} [ICON_Culture] Culture from the adjacent Dragonpit.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_DP_FAITH">
+			<Text>+{1_num} [ICON_Faith] Faith from the adjacent Dragonpit.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_DP_GOLD">
+			<Text>+{1_num} [ICON_Gold] Gold from the adjacent Dragonpit.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_DP_PRODUCTION">
+			<Text>+{1_num} [ICON_Production] Production from the adjacent Dragonpit.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_DP_SCIENCE">
+			<Text>+{1_num} [ICON_Science] Science from the adjacent Dragonpit.</Text>
+		</Row>
+		<Row Tag="LOC_DISTRICT_DRAGONPIT_SELFFAITH">
+			<Text>+{1_num} [ICON_Faith] Faith.</Text>
+		</Row>		
 
 		<!--City Names-->
 		<Row Tag="LOC_CIVILIZATION_THE_CROWNLANDS_CITY_1">

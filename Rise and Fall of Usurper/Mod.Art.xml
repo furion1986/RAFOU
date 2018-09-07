@@ -557,6 +557,7 @@
 			<relativePackagePaths>
 				<Element text="landmarks/hero_buildings"/>
 				<Element text="landmarks/tilebases"/>
+				<Element text="DIS_Government"/>
 			</relativePackagePaths>
 		</Element>
 		<Element>

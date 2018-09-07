@@ -3,17 +3,17 @@
 	<m_CookParams>
 		<m_Values>
 			<Element class="AssetObjects..ObjectValue">
-				<m_ObjectName text="TTW_Bridge.diffuse"/>
+				<m_ObjectName text="TTW_Bridge_B"/>
 				<m_eObjectType>TEXTURE</m_eObjectType>
 				<m_ParamName text="BaseColor"/>
 			</Element>
 			<Element class="AssetObjects..ObjectValue">
-				<m_ObjectName text="TTW_Bridge.normals"/>
+				<m_ObjectName text="TTW_Bridge_N"/>
 				<m_eObjectType>TEXTURE</m_eObjectType>
 				<m_ParamName text="Normal"/>
 			</Element>
 			<Element class="AssetObjects..ObjectValue">
-				<m_ObjectName text="TTW_Bridge.rawGI"/>
+				<m_ObjectName text="TTW_Bridge_AO"/>
 				<m_eObjectType>TEXTURE</m_eObjectType>
 				<m_ParamName text="AO"/>
 			</Element>

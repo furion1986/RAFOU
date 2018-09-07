@@ -208,7 +208,7 @@
 			<Text>Gate of the Moon</Text>
 		</Row>
 		<Row Tag="LOC_DISTRICT_GATE_OF_THE_MOON_DESCRIPTION">
-			<Text>A district unique to The Vale. Replaces Neighborhoods and unlocks earlier (Defensive Tactics). Must be placed on Hills. [NEWLINE]Keeps hill terrain original 2 [ICON_PRODUCTION] Production yield. Provide +5 [ICON_HOUSING] Housing regardless of tile appeal. [NEWLINE] A Gate of the Moon also functions as Encampment with 100 Hit Points and can initiate [ICON_Ranged] Ranged Strikes if city has Walls.</Text>
+			<Text>A district unique to The Vale. Unlocks at Defensive Tactics. Must be placed on Hills. [NEWLINE]Keeps hill terrain original 2 [ICON_PRODUCTION] Production yield. Provide +5 [ICON_HOUSING] Housing regardless of tile appeal. [NEWLINE] A Gate of the Moon also functions as Encampment with 100 Hit Points and can initiate [ICON_Ranged] Ranged Strikes if city has Walls.</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_CRESCENT_CHAMBER_NAME">
 			<Text>Crescent Chamber</Text>
@@ -337,7 +337,7 @@
 			<Text>Dragonpit</Text>
 		</Row>
 		<Row Tag="LOC_DISTRICT_DRAGONPIT_DESCRIPTION">
-			<Text>A district unique to The Crownlands which replaces Government Plaza and even cheaper. [NEWLINE]Dragonpit provides extra +2 points of [ICON_GreatMusician] Great Musician and 3 slots of aircraft for the dragons.</Text>
+			<Text>An early district unique to The Crownlands which provides major adjacency bonus to other districts and +4 [ICON_Faith] Faith. [NEWLINE]Dragonpit provides extra +2 points of [ICON_GreatMusician] Great Musician ,3 slots of aircraft and unlocks Targaryen Dragon.</Text>
 		</Row>
 		<Row Tag="LOC_LEADER_RHAEGAR_TARGARYEN_NAME">
 			<Text>Rhaegar Targaryen</Text>
@@ -353,7 +353,7 @@
 		</Row>
 
 		<Row Tag="LOC_TRAIT_CIVILIZATION_THE_CROWNLANDS_DESCRIPTION">
-			<Text>+100% Loyalty Pressure from your cities' [ICON_CITIZEN] Population.[NEWLINE] Cities with full Loyalty yield extra 25% [ICON_SCIENCE] Science, [ICON_CULTURE] Culture and [ICON_Faith] Faith.[NEWLINE]But The Crownlands may not produce Settlers. Settlers captured or obtained with any other methods will turn into Builders if Capital CIty is already founded.</Text>
+			<Text>+100% Loyalty Pressure from your cities' [ICON_CITIZEN] Population.[NEWLINE] Cities with full Loyalty yield extra 25% [ICON_SCIENCE] Science, [ICON_CULTURE] Culture and [ICON_Faith] Faith.[NEWLINE]But The Crownlands may not produce Settlers. Settlers captured or obtained with any other method will turn into Builders if Capital CIty is already founded.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_RHAEGAR_TARGARYEN_NAME">
 			<Text>The Silver Prince</Text>

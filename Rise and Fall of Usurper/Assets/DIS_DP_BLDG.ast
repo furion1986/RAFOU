@@ -1,0 +1,2521 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..AssetInstance>
+	<m_BehaviorData>
+		<m_behaviorDataSets>
+			<m_animationBindings>
+				<m_Bindings/>
+			</m_animationBindings>
+			<m_timelineBindings>
+				<m_Bindings>
+					<Element>
+						<m_SlotName text="WORKED_A"/>
+						<m_TimelineName text="WORKED_A"/>
+					</Element>
+				</m_Bindings>
+			</m_timelineBindings>
+			<m_timelines>
+				<m_Timelines>
+					<Element>
+						<m_Name text="WORKED_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text=""/>
+						<m_fDuration>0.122222</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="1"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Brazier_Fire"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="Fire07"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>-1.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="2"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Brazier_Fire"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="Fire06"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>-1.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="3"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Brazier_Fire"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="Fire05"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>-1.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="4"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Brazier_Fire"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="Fire04"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>-1.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="5"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Brazier_Fire"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="Fire03"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>-1.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="6"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Brazier_Fire"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="Fire02"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>-1.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="7"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Brazier_Fire"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="Fire01"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>-1.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="8"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_GreatLightHouse_Fire"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="PitFire"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>-1.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+						</m_Triggers>
+					</Element>
+				</m_Timelines>
+			</m_timelines>
+			<m_attachmentPoints>
+				<m_Points>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text=""/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text=""/>
+									<m_BLPPackage text=""/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text=""/>
+									<m_CollectionIsLocked>false</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="OPTIONAL"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="TerrainTags"/>
+									<m_ArtDefPath text=""/>
+									<m_CollectionIsLocked>false</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="TerrainType"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="RandomizeAnims"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>4.156527</x>
+							<y>-5.538282</y>
+							<z>-1.914262</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_orientation>
+						<m_Name text="Fire01"/>
+						<m_BoneName text="Base"/>
+						<m_ModelInstanceName text="DIS_DP_ANY_BLDG"/>
+						<m_scale>0.300000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text=""/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text=""/>
+									<m_BLPPackage text=""/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text=""/>
+									<m_CollectionIsLocked>false</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="OPTIONAL"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="TerrainTags"/>
+									<m_ArtDefPath text=""/>
+									<m_CollectionIsLocked>false</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="TerrainType"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="RandomizeAnims"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>4.156525</x>
+							<y>-4.986557</y>
+							<z>3.119375</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_orientation>
+						<m_Name text="Fire02"/>
+						<m_BoneName text="Base"/>
+						<m_ModelInstanceName text="DIS_DP_ANY_BLDG"/>
+						<m_scale>0.300000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text=""/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text=""/>
+									<m_BLPPackage text=""/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text=""/>
+									<m_CollectionIsLocked>false</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="OPTIONAL"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="TerrainTags"/>
+									<m_ArtDefPath text=""/>
+									<m_CollectionIsLocked>false</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="TerrainType"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="RandomizeAnims"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>4.156526</x>
+							<y>-0.787725</y>
+							<z>5.789796</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_orientation>
+						<m_Name text="Fire03"/>
+						<m_BoneName text="Base"/>
+						<m_ModelInstanceName text="DIS_DP_ANY_BLDG"/>
+						<m_scale>0.300000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text=""/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text=""/>
+									<m_BLPPackage text=""/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text=""/>
+									<m_CollectionIsLocked>false</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="OPTIONAL"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="TerrainTags"/>
+									<m_ArtDefPath text=""/>
+									<m_CollectionIsLocked>false</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="TerrainType"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="RandomizeAnims"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>4.156528</x>
+							<y>4.060419</y>
+							<z>4.175607</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_orientation>
+						<m_Name text="Fire04"/>
+						<m_BoneName text="Base"/>
+						<m_ModelInstanceName text="DIS_DP_ANY_BLDG"/>
+						<m_scale>0.300000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text=""/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text=""/>
+									<m_BLPPackage text=""/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text=""/>
+									<m_CollectionIsLocked>false</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="OPTIONAL"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="TerrainTags"/>
+									<m_ArtDefPath text=""/>
+									<m_CollectionIsLocked>false</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="TerrainType"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="RandomizeAnims"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>4.156528</x>
+							<y>5.759177</y>
+							<z>-0.568622</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_orientation>
+						<m_Name text="Fire05"/>
+						<m_BoneName text="Base"/>
+						<m_ModelInstanceName text="DIS_DP_ANY_BLDG"/>
+						<m_scale>0.300000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text=""/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text=""/>
+									<m_BLPPackage text=""/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text=""/>
+									<m_CollectionIsLocked>false</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="OPTIONAL"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="TerrainTags"/>
+									<m_ArtDefPath text=""/>
+									<m_CollectionIsLocked>false</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="TerrainType"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="RandomizeAnims"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>4.156528</x>
+							<y>3.092465</y>
+							<z>-4.900670</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_orientation>
+						<m_Name text="Fire06"/>
+						<m_BoneName text="Base"/>
+						<m_ModelInstanceName text="DIS_DP_ANY_BLDG"/>
+						<m_scale>0.300000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text=""/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text=""/>
+									<m_BLPPackage text=""/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text=""/>
+									<m_CollectionIsLocked>false</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="OPTIONAL"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="TerrainTags"/>
+									<m_ArtDefPath text=""/>
+									<m_CollectionIsLocked>false</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="TerrainType"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="RandomizeAnims"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>4.156526</x>
+							<y>-1.894358</y>
+							<z>-5.637232</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_orientation>
+						<m_Name text="Fire07"/>
+						<m_BoneName text="Base"/>
+						<m_ModelInstanceName text="DIS_DP_ANY_BLDG"/>
+						<m_scale>0.300000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text=""/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text=""/>
+									<m_BLPPackage text=""/>
+									<m_LibraryName text=""/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text=""/>
+									<m_CollectionIsLocked>false</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="OPTIONAL"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="TerrainTags"/>
+									<m_ArtDefPath text=""/>
+									<m_CollectionIsLocked>false</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="TerrainType"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="RandomizeAnims"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>0.000002</x>
+							<y>-0.132283</y>
+							<z>0.090061</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>1.570796</y>
+							<z>0.000000</z>
+						</m_orientation>
+						<m_Name text="PitFire"/>
+						<m_BoneName text="Base"/>
+						<m_ModelInstanceName text="DIS_DP_ANY_BLDG"/>
+						<m_scale>0.500000</m_scale>
+					</Element>
+				</m_Points>
+			</m_attachmentPoints>
+			<m_stateSet/>
+		</m_behaviorDataSets>
+		<m_behaviorInstances/>
+		<m_dsgName text="Standard_Landmark"/>
+		<m_referenceGeometryNames/>
+	</m_BehaviorData>
+	<m_GeometrySet>
+		<m_ModelInstances>
+			<Element>
+				<m_Name text="DIS_DP_ANY_BLDG"/>
+				<m_GeoName text="DIS_DP_BLDG"/>
+				<m_GroupStates>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DIS_DP_BOWL_STANDARD"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="defaultMat.001"/>
+						<m_MeshName text="DIS_DP_BOWL#M"/>
+						<m_StateName text="Worked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DIS_DP_BOWL_STANDARD"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="defaultMat.001"/>
+						<m_MeshName text="DIS_DP_BOWL#M"/>
+						<m_StateName text="Unworked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DIS_DP_BOWL_STANDARD"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultBurnMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="defaultMat.001"/>
+						<m_MeshName text="DIS_DP_BOWL#M"/>
+						<m_StateName text="Pillaged"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DIS_DP_BOWL_STANDARD"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="defaultMat.001"/>
+						<m_MeshName text="DIS_DP_BOWL#M"/>
+						<m_StateName text="Construction"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DIS_DP_BOWL_STANDARD"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="defaultMat.001"/>
+						<m_MeshName text="DIS_DP_BOWL#M"/>
+						<m_StateName text="Unbuilt"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DIS_DP_COL_STANDARD"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="defaultMat.002"/>
+						<m_MeshName text="DIS_DP_COL#M"/>
+						<m_StateName text="Worked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DIS_DP_COL_STANDARD"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="defaultMat.002"/>
+						<m_MeshName text="DIS_DP_COL#M"/>
+						<m_StateName text="Unworked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DIS_DP_COL_STANDARD"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultBurnMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="defaultMat.002"/>
+						<m_MeshName text="DIS_DP_COL#M"/>
+						<m_StateName text="Pillaged"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DIS_DP_COL_STANDARD"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="defaultMat.002"/>
+						<m_MeshName text="DIS_DP_COL#M"/>
+						<m_StateName text="Construction"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DIS_DP_COL_STANDARD"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="defaultMat.002"/>
+						<m_MeshName text="DIS_DP_COL#M"/>
+						<m_StateName text="Unbuilt"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DIS_DP_DOME_STANDARD"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="initialShadingGroup.002"/>
+						<m_MeshName text="DIS_DP_DOME#M"/>
+						<m_StateName text="Worked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DIS_DP_DOME_STANDARD"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="initialShadingGroup.002"/>
+						<m_MeshName text="DIS_DP_DOME#M"/>
+						<m_StateName text="Unworked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DIS_DP_DOME_STANDARD"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultBurnMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="initialShadingGroup.002"/>
+						<m_MeshName text="DIS_DP_DOME#M"/>
+						<m_StateName text="Pillaged"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DIS_DP_DOME_STANDARD"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="initialShadingGroup.002"/>
+						<m_MeshName text="DIS_DP_DOME#M"/>
+						<m_StateName text="Construction"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DIS_DP_DOME_STANDARD"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="initialShadingGroup.002"/>
+						<m_MeshName text="DIS_DP_DOME#M"/>
+						<m_StateName text="Unbuilt"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DIS_DP_HEAD_STANDARD"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="defaultMat.004"/>
+						<m_MeshName text="DIS_DP_HEAD01#M"/>
+						<m_StateName text="Worked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DIS_DP_HEAD_STANDARD"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="defaultMat.004"/>
+						<m_MeshName text="DIS_DP_HEAD01#M"/>
+						<m_StateName text="Unworked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DIS_DP_HEAD_STANDARD"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultBurnMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="defaultMat.004"/>
+						<m_MeshName text="DIS_DP_HEAD01#M"/>
+						<m_StateName text="Pillaged"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DIS_DP_HEAD_STANDARD"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="defaultMat.004"/>
+						<m_MeshName text="DIS_DP_HEAD01#M"/>
+						<m_StateName text="Construction"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DIS_DP_HEAD_STANDARD"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="defaultMat.004"/>
+						<m_MeshName text="DIS_DP_HEAD01#M"/>
+						<m_StateName text="Unbuilt"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DIS_DP_HEAD_STANDARD"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="defaultMat.004"/>
+						<m_MeshName text="DIS_DP_HEAD01#M.001"/>
+						<m_StateName text="Worked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DIS_DP_HEAD_STANDARD"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="defaultMat.004"/>
+						<m_MeshName text="DIS_DP_HEAD01#M.001"/>
+						<m_StateName text="Unworked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DIS_DP_HEAD_STANDARD"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultBurnMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="defaultMat.004"/>
+						<m_MeshName text="DIS_DP_HEAD01#M.001"/>
+						<m_StateName text="Pillaged"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DIS_DP_HEAD_STANDARD"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="defaultMat.004"/>
+						<m_MeshName text="DIS_DP_HEAD01#M.001"/>
+						<m_StateName text="Construction"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DIS_DP_HEAD_STANDARD"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="defaultMat.004"/>
+						<m_MeshName text="DIS_DP_HEAD01#M.001"/>
+						<m_StateName text="Unbuilt"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DIS_DP_HEAD_STANDARD"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="defaultMat.004"/>
+						<m_MeshName text="DIS_DP_HEAD01#M.002"/>
+						<m_StateName text="Worked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DIS_DP_HEAD_STANDARD"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="defaultMat.004"/>
+						<m_MeshName text="DIS_DP_HEAD01#M.002"/>
+						<m_StateName text="Unworked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DIS_DP_HEAD_STANDARD"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultBurnMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="defaultMat.004"/>
+						<m_MeshName text="DIS_DP_HEAD01#M.002"/>
+						<m_StateName text="Pillaged"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DIS_DP_HEAD_STANDARD"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="defaultMat.004"/>
+						<m_MeshName text="DIS_DP_HEAD01#M.002"/>
+						<m_StateName text="Construction"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DIS_DP_HEAD_STANDARD"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="defaultMat.004"/>
+						<m_MeshName text="DIS_DP_HEAD01#M.002"/>
+						<m_StateName text="Unbuilt"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DIS_DP_HEAD_STANDARD"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="defaultMat.004"/>
+						<m_MeshName text="DIS_DP_HEAD01#M.003"/>
+						<m_StateName text="Worked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DIS_DP_HEAD_STANDARD"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="defaultMat.004"/>
+						<m_MeshName text="DIS_DP_HEAD01#M.003"/>
+						<m_StateName text="Unworked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DIS_DP_HEAD_STANDARD"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultBurnMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="defaultMat.004"/>
+						<m_MeshName text="DIS_DP_HEAD01#M.003"/>
+						<m_StateName text="Pillaged"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DIS_DP_HEAD_STANDARD"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="defaultMat.004"/>
+						<m_MeshName text="DIS_DP_HEAD01#M.003"/>
+						<m_StateName text="Construction"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DIS_DP_HEAD_STANDARD"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="defaultMat.004"/>
+						<m_MeshName text="DIS_DP_HEAD01#M.003"/>
+						<m_StateName text="Unbuilt"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DIS_DP_HEAD_STANDARD"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="defaultMat.004"/>
+						<m_MeshName text="DIS_DP_HEAD01#M.004"/>
+						<m_StateName text="Worked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DIS_DP_HEAD_STANDARD"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="defaultMat.004"/>
+						<m_MeshName text="DIS_DP_HEAD01#M.004"/>
+						<m_StateName text="Unworked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DIS_DP_HEAD_STANDARD"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultBurnMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="defaultMat.004"/>
+						<m_MeshName text="DIS_DP_HEAD01#M.004"/>
+						<m_StateName text="Pillaged"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DIS_DP_HEAD_STANDARD"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="defaultMat.004"/>
+						<m_MeshName text="DIS_DP_HEAD01#M.004"/>
+						<m_StateName text="Construction"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DIS_DP_HEAD_STANDARD"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="defaultMat.004"/>
+						<m_MeshName text="DIS_DP_HEAD01#M.004"/>
+						<m_StateName text="Unbuilt"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DIS_DP_HEAD_STANDARD"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="defaultMat.004"/>
+						<m_MeshName text="DIS_DP_HEAD01#M.005"/>
+						<m_StateName text="Worked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DIS_DP_HEAD_STANDARD"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="defaultMat.004"/>
+						<m_MeshName text="DIS_DP_HEAD01#M.005"/>
+						<m_StateName text="Unworked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DIS_DP_HEAD_STANDARD"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultBurnMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="defaultMat.004"/>
+						<m_MeshName text="DIS_DP_HEAD01#M.005"/>
+						<m_StateName text="Pillaged"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DIS_DP_HEAD_STANDARD"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="defaultMat.004"/>
+						<m_MeshName text="DIS_DP_HEAD01#M.005"/>
+						<m_StateName text="Construction"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DIS_DP_HEAD_STANDARD"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="defaultMat.004"/>
+						<m_MeshName text="DIS_DP_HEAD01#M.005"/>
+						<m_StateName text="Unbuilt"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DIS_DP_HEAD_STANDARD"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="defaultMat.004"/>
+						<m_MeshName text="DIS_DP_HEAD01#M.006"/>
+						<m_StateName text="Worked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DIS_DP_HEAD_STANDARD"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="defaultMat.004"/>
+						<m_MeshName text="DIS_DP_HEAD01#M.006"/>
+						<m_StateName text="Unworked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DIS_DP_HEAD_STANDARD"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultBurnMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="defaultMat.004"/>
+						<m_MeshName text="DIS_DP_HEAD01#M.006"/>
+						<m_StateName text="Pillaged"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DIS_DP_HEAD_STANDARD"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="defaultMat.004"/>
+						<m_MeshName text="DIS_DP_HEAD01#M.006"/>
+						<m_StateName text="Construction"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DIS_DP_HEAD_STANDARD"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="defaultMat.004"/>
+						<m_MeshName text="DIS_DP_HEAD01#M.006"/>
+						<m_StateName text="Unbuilt"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DIS_DP_WALL_STANDARD"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="defaultMat.003"/>
+						<m_MeshName text="DIS_DP_WALL#M"/>
+						<m_StateName text="Worked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DIS_DP_WALL_STANDARD"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="defaultMat.003"/>
+						<m_MeshName text="DIS_DP_WALL#M"/>
+						<m_StateName text="Unworked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DIS_DP_WALL_STANDARD"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultBurnMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="defaultMat.003"/>
+						<m_MeshName text="DIS_DP_WALL#M"/>
+						<m_StateName text="Pillaged"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DIS_DP_WALL_STANDARD"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="defaultMat.003"/>
+						<m_MeshName text="DIS_DP_WALL#M"/>
+						<m_StateName text="Construction"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DIS_DP_WALL_STANDARD"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="defaultMat.003"/>
+						<m_MeshName text="DIS_DP_WALL#M"/>
+						<m_StateName text="Unbuilt"/>
+					</Element>
+				</m_GroupStates>
+			</Element>
+		</m_ModelInstances>
+	</m_GeometrySet>
+	<m_CookParams>
+		<m_Values>
+			<Element class="AssetObjects..ObjectValue">
+				<m_ObjectName text=""/>
+				<m_eObjectType>GEOMETRY</m_eObjectType>
+				<m_ParamName text="Obstruction Profile"/>
+			</Element>
+			<Element class="AssetObjects..ObjectValue">
+				<m_ObjectName text=""/>
+				<m_eObjectType>TEXTURE</m_eObjectType>
+				<m_ParamName text="AO"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>0.300000</m_fValue>
+				<m_ParamName text="BurnHeight"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>1.200000</m_fValue>
+				<m_ParamName text="GradientScale"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>0.200000</m_fValue>
+				<m_ParamName text="BurnEdgeBlend"/>
+			</Element>
+			<Element class="AssetObjects..BoolValue">
+				<m_bValue>true</m_bValue>
+				<m_ParamName text="Obstruction Profile AutoGenerate"/>
+			</Element>
+			<Element class="AssetObjects..BoolValue">
+				<m_bValue>true</m_bValue>
+				<m_ParamName text="CastShadows"/>
+			</Element>
+			<Element class="AssetObjects..BoolValue">
+				<m_bValue>true</m_bValue>
+				<m_ParamName text="CastAO"/>
+			</Element>
+			<Element class="AssetObjects..RGBValue">
+				<m_r>255.000000</m_r>
+				<m_g>255.000000</m_g>
+				<m_b>255.000000</m_b>
+				<m_ParamName text="SnowColor"/>
+			</Element>
+			<Element class="AssetObjects..Coord2DValue">
+				<m_x>0.200000</m_x>
+				<m_y>0.800000</m_y>
+				<m_ParamName text="SnowNoiseThreshold"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>0.050000</m_fValue>
+				<m_ParamName text="SnowUVScale"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>0.000000</m_fValue>
+				<m_ParamName text="SnowMetalness"/>
+			</Element>
+			<Element class="AssetObjects..BoolValue">
+				<m_bValue>true</m_bValue>
+				<m_ParamName text="SnowOn"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>1.000000</m_fValue>
+				<m_ParamName text="SnowGloss"/>
+			</Element>
+			<Element class="AssetObjects..StringValue">
+				<m_Value text="AREA"/>
+				<m_ParamName text="CullingMode"/>
+			</Element>
+			<Element class="AssetObjects..BoolValue">
+				<m_bValue>false</m_bValue>
+				<m_ParamName text="OB Autogen Includes Decals"/>
+			</Element>
+		</m_Values>
+	</m_CookParams>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>315</build>
+		<revision>805</revision>
+	</m_Version>
+	<m_ParticleEffects/>
+	<m_Geometries/>
+	<m_Animations/>
+	<m_Materials/>
+	<m_ClassName text="TileBase"/>
+	<m_DataFiles/>
+	<m_Name text="DIS_DP_BLDG"/>
+	<m_Description text=""/>
+	<m_Tags/>
+	<m_Groups/>
+</AssetObjects..AssetInstance>
+

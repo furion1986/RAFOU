@@ -165,6 +165,14 @@
 			<m_EntryID text="DIS_TTW_BASE_MED"/>
 			<m_ObjectName text="DIS_TTW_BASE_MED"/>
 		</Element>
+		<Element>
+			<m_EntryID text="DIS_DP_ANY_BASE"/>
+			<m_ObjectName text="DIS_DP_ANY_BASE"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DIS_DP_BLDG"/>
+			<m_ObjectName text="DIS_DP_BLDG"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

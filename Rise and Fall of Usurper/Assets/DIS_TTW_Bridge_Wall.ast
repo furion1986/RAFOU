@@ -6,18 +6,153 @@
 				<m_Bindings/>
 			</m_animationBindings>
 			<m_timelineBindings>
-				<m_Bindings/>
+				<m_Bindings>
+					<Element>
+						<m_SlotName text="WORKED_A"/>
+						<m_TimelineName text="WORKED_A"/>
+					</Element>
+				</m_Bindings>
 			</m_timelineBindings>
 			<m_timelines>
-				<m_Timelines/>
+				<m_Timelines>
+					<Element>
+						<m_Name text="WORKED_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text=""/>
+						<m_fDuration>1.000000</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="1"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Brazier_Fire"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="Brazier01"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>-1.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="2"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Brazier_Fire"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="Brazier02"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>-1.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="3"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Brazier_Fire"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="Brazier03"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>-1.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="4"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Brazier_Fire"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="Brazier04"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>-1.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+						</m_Triggers>
+					</Element>
+				</m_Timelines>
 			</m_timelines>
 			<m_attachmentPoints>
-				<m_Points/>
+				<m_Points>
+					<Element>
+						<m_CookParams>
+							<m_Values/>
+						</m_CookParams>
+						<m_position>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_orientation>
+						<m_Name text="Brazier01"/>
+						<m_BoneName text="Brazier01"/>
+						<m_ModelInstanceName text="TwinTowerBridge"/>
+						<m_scale>0.300000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values/>
+						</m_CookParams>
+						<m_position>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_orientation>
+						<m_Name text="Brazier02"/>
+						<m_BoneName text="Brazier02"/>
+						<m_ModelInstanceName text="TwinTowerBridge"/>
+						<m_scale>0.300000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values/>
+						</m_CookParams>
+						<m_position>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_orientation>
+						<m_Name text="Brazier03"/>
+						<m_BoneName text="Brazier03"/>
+						<m_ModelInstanceName text="TwinTowerBridge"/>
+						<m_scale>0.300000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values/>
+						</m_CookParams>
+						<m_position>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_orientation>
+						<m_Name text="Brazier04"/>
+						<m_BoneName text="Brazier04"/>
+						<m_ModelInstanceName text="TwinTowerBridge"/>
+						<m_scale>0.300000</m_scale>
+					</Element>
+				</m_Points>
 			</m_attachmentPoints>
 			<m_stateSet/>
 		</m_behaviorDataSets>
 		<m_behaviorInstances/>
-		<m_dsgName text=""/>
+		<m_dsgName text="Standard_Landmark"/>
 		<m_referenceGeometryNames/>
 	</m_BehaviorData>
 	<m_GeometrySet>
@@ -247,8 +382,8 @@
 								</Element>
 							</m_Values>
 						</m_Values>
-						<m_GroupName text="Stone"/>
-						<m_MeshName text="TTW_Bridge#M"/>
+						<m_GroupName text="defaultMat"/>
+						<m_MeshName text="Bridge#M"/>
 						<m_StateName text="Worked"/>
 					</Element>
 					<Element>
@@ -280,8 +415,8 @@
 								</Element>
 							</m_Values>
 						</m_Values>
-						<m_GroupName text="Stone"/>
-						<m_MeshName text="TTW_Bridge#M"/>
+						<m_GroupName text="defaultMat"/>
+						<m_MeshName text="Bridge#M"/>
 						<m_StateName text="Unworked"/>
 					</Element>
 					<Element>
@@ -313,8 +448,8 @@
 								</Element>
 							</m_Values>
 						</m_Values>
-						<m_GroupName text="Stone"/>
-						<m_MeshName text="TTW_Bridge#M"/>
+						<m_GroupName text="defaultMat"/>
+						<m_MeshName text="Bridge#M"/>
 						<m_StateName text="Pillaged"/>
 					</Element>
 					<Element>
@@ -346,8 +481,8 @@
 								</Element>
 							</m_Values>
 						</m_Values>
-						<m_GroupName text="Stone"/>
-						<m_MeshName text="TTW_Bridge#M"/>
+						<m_GroupName text="defaultMat"/>
+						<m_MeshName text="Bridge#M"/>
 						<m_StateName text="Construction"/>
 					</Element>
 					<Element>
@@ -379,8 +514,668 @@
 								</Element>
 							</m_Values>
 						</m_Values>
-						<m_GroupName text="Stone"/>
-						<m_MeshName text="TTW_Bridge#M"/>
+						<m_GroupName text="defaultMat"/>
+						<m_MeshName text="Bridge#M"/>
+						<m_StateName text="Unbuilt"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="IMP_Colossal_Heads"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="IMP_Colossal_Heads"/>
+						<m_MeshName text="IMP_Colossal_Heads_Brazier_Sm#M"/>
+						<m_StateName text="Worked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="IMP_Colossal_Heads"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="IMP_Colossal_Heads"/>
+						<m_MeshName text="IMP_Colossal_Heads_Brazier_Sm#M"/>
+						<m_StateName text="Unworked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="IMP_Colossal_Heads"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultBurnMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="IMP_Colossal_Heads"/>
+						<m_MeshName text="IMP_Colossal_Heads_Brazier_Sm#M"/>
+						<m_StateName text="Pillaged"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="IMP_Colossal_Heads"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="IMP_Colossal_Heads"/>
+						<m_MeshName text="IMP_Colossal_Heads_Brazier_Sm#M"/>
+						<m_StateName text="Construction"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="IMP_Colossal_Heads"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="IMP_Colossal_Heads"/>
+						<m_MeshName text="IMP_Colossal_Heads_Brazier_Sm#M"/>
+						<m_StateName text="Unbuilt"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="IMP_Colossal_Heads"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="IMP_Colossal_Heads"/>
+						<m_MeshName text="IMP_Colossal_Heads_Brazier_Sm#M.001"/>
+						<m_StateName text="Worked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="IMP_Colossal_Heads"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="IMP_Colossal_Heads"/>
+						<m_MeshName text="IMP_Colossal_Heads_Brazier_Sm#M.001"/>
+						<m_StateName text="Unworked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="IMP_Colossal_Heads"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultBurnMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="IMP_Colossal_Heads"/>
+						<m_MeshName text="IMP_Colossal_Heads_Brazier_Sm#M.001"/>
+						<m_StateName text="Pillaged"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="IMP_Colossal_Heads"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="IMP_Colossal_Heads"/>
+						<m_MeshName text="IMP_Colossal_Heads_Brazier_Sm#M.001"/>
+						<m_StateName text="Construction"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="IMP_Colossal_Heads"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="IMP_Colossal_Heads"/>
+						<m_MeshName text="IMP_Colossal_Heads_Brazier_Sm#M.001"/>
+						<m_StateName text="Unbuilt"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="IMP_Colossal_Heads"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="IMP_Colossal_Heads"/>
+						<m_MeshName text="IMP_Colossal_Heads_Brazier_Sm#M.002"/>
+						<m_StateName text="Worked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="IMP_Colossal_Heads"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="IMP_Colossal_Heads"/>
+						<m_MeshName text="IMP_Colossal_Heads_Brazier_Sm#M.002"/>
+						<m_StateName text="Unworked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="IMP_Colossal_Heads"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultBurnMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="IMP_Colossal_Heads"/>
+						<m_MeshName text="IMP_Colossal_Heads_Brazier_Sm#M.002"/>
+						<m_StateName text="Pillaged"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="IMP_Colossal_Heads"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="IMP_Colossal_Heads"/>
+						<m_MeshName text="IMP_Colossal_Heads_Brazier_Sm#M.002"/>
+						<m_StateName text="Construction"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="IMP_Colossal_Heads"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="IMP_Colossal_Heads"/>
+						<m_MeshName text="IMP_Colossal_Heads_Brazier_Sm#M.002"/>
+						<m_StateName text="Unbuilt"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="IMP_Colossal_Heads"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="IMP_Colossal_Heads"/>
+						<m_MeshName text="IMP_Colossal_Heads_Brazier_Sm#M.003"/>
+						<m_StateName text="Worked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="IMP_Colossal_Heads"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="IMP_Colossal_Heads"/>
+						<m_MeshName text="IMP_Colossal_Heads_Brazier_Sm#M.003"/>
+						<m_StateName text="Unworked"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="IMP_Colossal_Heads"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultBurnMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="IMP_Colossal_Heads"/>
+						<m_MeshName text="IMP_Colossal_Heads_Brazier_Sm#M.003"/>
+						<m_StateName text="Pillaged"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="IMP_Colossal_Heads"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="IMP_Colossal_Heads"/>
+						<m_MeshName text="IMP_Colossal_Heads_Brazier_Sm#M.003"/>
+						<m_StateName text="Construction"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="IMP_Colossal_Heads"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="Visible"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="FOW/DefaultMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="FOWMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text=""/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="BurnMaterial"/>
+								</Element>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="DefaultSnowMaterial"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="SnowMaterial"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="IMP_Colossal_Heads"/>
+						<m_MeshName text="IMP_Colossal_Heads_Brazier_Sm#M.003"/>
 						<m_StateName text="Unbuilt"/>
 					</Element>
 				</m_GroupStates>

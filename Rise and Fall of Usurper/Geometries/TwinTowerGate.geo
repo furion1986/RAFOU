@@ -11,6 +11,19 @@
 </m_Version>
 <m_Meshes>
 <Element>
+<m_Name text="TTW_FOUNDATION#M"/>
+<m_Groups>
+<Element>
+<m_Name text="initialShadingGroup.001"/>
+<m_nFirstPrim>0</m_nFirstPrim>
+<m_nPrims>1280</m_nPrims>
+</Element>
+</m_Groups>
+<m_nBoundBoneCount>1</m_nBoundBoneCount>
+<m_nPrimitiveCount>1280</m_nPrimitiveCount>
+<m_nVertexCount>706</m_nVertexCount>
+</Element>
+<Element>
 <m_Name text="TTW_TW_RETOPO#M"/>
 <m_Groups>
 <Element>

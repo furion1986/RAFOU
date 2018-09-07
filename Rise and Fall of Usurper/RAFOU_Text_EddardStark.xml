@@ -16,6 +16,10 @@
 		<Row Tag="LOC_LEADER_EDDARD_STARK_QUOTE">
 			<Text>The winters are hard, but the Starks will endure. We always have.</Text>
 		</Row>
+		
+		<Row Tag="LOC_DISTRICT_HEART_TREE_FOREST_FAITH">
+			<Text>+{1_num} [ICON_Faith] Faith from adjacent Forest.</Text>
+		</Row>
 
 		<!--City Names-->
 		<Row Tag="LOC_CIVILIZATION_THE_NORTH_CITY_1">

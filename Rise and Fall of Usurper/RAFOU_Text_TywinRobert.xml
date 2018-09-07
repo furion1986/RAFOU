@@ -32,6 +32,10 @@
 		<Row Tag="LOC_LEADER_ROBERT_BARATHEON_QUOTE">
 			<Text>I swear to you, I was never so alive as when I was winning this throne, or so dead as now that I've won it.</Text>
 		</Row>
+		
+		<Row Tag="LOC_DISTRICT_SELLSWORDS_CAMP_COMMERCIAL_HUB_GOLD">
+			<Text>+{1_num} [ICON_Gold] Gold from the adjacent Commercial Hub.</Text>
+		</Row>		
 
 		<!--City Names-->
 		<Row Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_1">
