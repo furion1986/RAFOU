@@ -33,6 +33,10 @@
 			<m_EntryID text="SellswordsPikeman_Armor"/>
 			<m_ObjectName text="SellswordsPikeman_Armor"/>
 		</Element>
+		<Element>
+			<m_EntryID text="TargaryenDragon"/>
+			<m_ObjectName text="TargaryenDragon"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>
