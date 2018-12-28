@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_CIVILIZATION_DORNE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>Kingdom of Dorne</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DORNE_ADJECTIVE" Language="zh_Hans_CN">
+			<Text>Dorne</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_A_BIG_GAME_OF_CYVASSE_NAME" Language="zh_Hans_CN">
+			<Text>A Big Game of Cyvasse</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_A_BIG_GAME_OF_CYVASSE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>Receives a free Spy (and extra spy capacity) with the Civil Service civic.[NEWLINE]Your Spy level is increased by 1 for offensive operations.</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_DORAN_MARTELL_QUOTE" Language="zh_Hans_CN">
+			<Text>I am not blind, nor deaf. I know you all believe me weak, frightened, feeble. Your father knew me better. Oberyn was ever the viper. Deadly, dangerous, unpredictable. No man dared tread on him. I was the grass. Pleasant, complaisant, sweet-smelling, swaying with every breeze. Who fears to walk upon the grass? But it is the grass that hides the viper from his enemies and shelters him until he strikes.</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_BUILDING_DORNISH_CANAL_NAME" Language="zh_Hans_CN">
+			<Text>Dornish Canal</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_DORNISH_CANAL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>Dornish people developed such system to provide irrigation to desert lands.</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_DORNISH_SPIDER_CANAL_NAME" Language="zh_Hans_CN">
+			<Text>Dornish Spider Canal</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_DORNISH_SPIDER_CANAL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>Dornish people developed such system to provide irrigation to desert lands.</Text>
+		</Replace>
+
+		<Replace Tag="LOC_ABILITY_SAND_SNAKE_STRENGTH_NAME" Language="zh_Hans_CN">
+			<Text>Born Leader</Text>
+		</Replace>	
+		<Replace Tag="LOC_ABILITY_SAND_SNAKE_STRENGTH_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+{1_Amount} Combat Strength from Sand Snake</Text>
+		</Replace>			
+		<Replace Tag="LOC_SAND_SNAKE_STRENGTH_MODIFIER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+{1_Amount} Combat Strength from Sand Snake</Text>
+		</Replace>	
+		<Replace Tag="LOC_ABILITY_SAND_SNAKE_SCIENCE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>Gain [ICON_SCIENCE] Science on combat victory</Text>
+		</Replace>
+		<Replace Tag="LOC_ABILITY_SAND_SNAKE_SCIENTIST_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>Gain Points of [ICON_GreatScientist] Great Scientist on combat victory</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_CLASS_SAND_SNAKE_NAME" Language="zh_Hans_CN">
+			<Text>Sand Snake Unique Promotions</Text>
+		</Replace>
+		
+		<Replace Tag="LOC_PROMOTION_WALK_IN_SHADOW_NAME" Language="zh_Hans_CN">
+			<Text>Walk in Shadow</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BORN_LEADER_NAME" Language="zh_Hans_CN">
+			<Text>Born Leader</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ASSASSIN_NAME" Language="zh_Hans_CN">
+			<Text>Assassin</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_SCHOLAR_NAME" Language="zh_Hans_CN">
+			<Text>Scholar</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_SEDUCTION_NAME" Language="zh_Hans_CN">
+			<Text>Seduction</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_WALK_IN_SHADOW_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>Gains Stealth Ability.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_BORN_LEADER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>Provides other units within 2 tiles +5 Combat Strength.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_ASSASSIN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>Gains Hit and Run Ability</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_SCHOLAR_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>Combat victories provide Science equal to 50% of the Combat Strength of the defeated unit and +5 points of Great Scientist.</Text>
+		</Replace>
+		<Replace Tag="LOC_PROMOTION_SEDUCTION_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>Combat victories have chance to capture defeated unit and enslave as Builder.</Text>
+		</Replace>		
+
+		<!--City Names-->
+		<Replace Tag="LOC_CIVILIZATION_DORNE_CITY_1" Language="zh_Hans_CN">
+			<Text>Sunspear</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DORNE_CITY_2" Language="zh_Hans_CN">
+			<Text>Yronwood</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DORNE_CITY_3" Language="zh_Hans_CN">
+			<Text>The Tor</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DORNE_CITY_4" Language="zh_Hans_CN">
+			<Text>Starfell</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DORNE_CITY_5" Language="zh_Hans_CN">
+			<Text>Blackmont</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DORNE_CITY_6" Language="zh_Hans_CN">
+			<Text>Sandstone</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DORNE_CITY_7" Language="zh_Hans_CN">
+			<Text>Hellholt</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DORNE_CITY_8" Language="zh_Hans_CN">
+			<Text>Saltshore</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DORNE_CITY_9" Language="zh_Hans_CN">
+			<Text>Godsgrace</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DORNE_CITY_10" Language="zh_Hans_CN">
+			<Text>Lemonwood</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DORNE_CITY_11" Language="zh_Hans_CN">
+			<Text>Wyl</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DORNE_CITY_12" Language="zh_Hans_CN">
+			<Text>Kingsgrave</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DORNE_CITY_13" Language="zh_Hans_CN">
+			<Text>Tower of Joy</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DORNE_CITY_14" Language="zh_Hans_CN">
+			<Text>Water Gardens</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_DORNE_CITY_15" Language="zh_Hans_CN">
+			<Text>Ghost Hill</Text>
+		</Replace>
+		<!--CITIZEN NAMES-->
+		<Replace Tag="LOC_CITIZEN_DORNE_MALE_1" Language="zh_Hans_CN">
+			<Text>Oberyn Martell</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DORNE_FEMALE_1" Language="zh_Hans_CN">
+			<Text>Tyene Sand</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DORNE_FEMALE_2" Language="zh_Hans_CN">
+			<Text>Sarella Sand</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DORNE_FEMALE_3" Language="zh_Hans_CN">
+			<Text>Elia Sand</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DORNE_FEMALE_4" Language="zh_Hans_CN">
+			<Text>Obara Sand</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DORNE_FEMALE_5" Language="zh_Hans_CN">
+			<Text>Nymeria Sand</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DORNE_FEMALE_6" Language="zh_Hans_CN">
+			<Text>Dorea Sand</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DORNE_FEMALE_7" Language="zh_Hans_CN">
+			<Text>Loreza Sand</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_DORNE_FEMALE_8" Language="zh_Hans_CN">
+			<Text>Obella</Text>
+		</Replace>
+		<!--Agendas-->
+
+		<!--PEDIA-->
+		<!--CIV-->
+		<Replace Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_WATER_GARDEN_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>The Water Gardens were raised by Maron Martell, Prince of Dorne, as a gift for his new bride, Princess Daenerys Targaryen, to mark the union of Dorne with the rest of the Seven Kingdoms. Daenerys began the tradition of hosting children at the Water Gardens, initially the kin of lords but eventually also smallfolk. The young Arianne Martell often played in the pools and fountains of the Water Gardens with Tyene Sand, Garin, Andrey Dalt, and Sylva Santagar. Sometimes they were joined by Nymeria Sand and Sarella Sand.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_WATER_GARDEN_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>The Gardens are located on a beach next to the Summer Sea, three leagues to the west of Sunspear on a coastal road. Pale pink marble paves the gardens and courtyard. Terraces overlooking the numerous pools and fountains of the Water Gardens, shaded by blood orange trees, can be reached via a fluted pillar gallery leading to a triple archway.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_WATER_GARDEN_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>The Water Gardens are pleasant in autumn: hot days, cool nights, the salt breeze blowing in from the sea, and fountains and pools to admire and play in. Children from all stations and areas of Dorne are sent to the Water Gardens to foster, where they play together at the beach, pools and fountains, and in the water.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DORNE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>Dorne is the large peninsula which makes up the southernmost part of Westeros, and is one of the constituent regions of the Seven Kingdoms. The lords of the ruling House Nymeros Martell style themselves "Prince" and "Princess" in the Rhoynish fashion.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DORNE_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>The Martells rule from their capital, Sunspear, outside of which sprawls the shadow city. Notable houses include Allyrion, Blackmont, Dayne, Fowler, Jordayne, Qorgyle, Santagar, Toland, Uller, Vaith, Wyl, and Yronwood.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DORNE_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>Dorne is the hottest region of Westeros. The region is rocky, mountainous, arid and dry, and features the only desert on the continent. Dorne is bordered by the Sea of Dorne to the north, the islands known as the Stepstones to the east, and the Summer Sea to the south. Stretched between them is the mountain range known as the Red Mountains, which separates Dorne from the stormlands to the north and the Reach to the northwest and west. There are two major passes, the Boneway and the Prince's Pass, which go through the Red Mountains to the Dornish Marches of the stormlands. The Prince's Pass leads to Nightsong, while the Boneway leads to Summerhall. Sunspear and the Water Gardens, both controlled by the ruling House Martell, are located in southeastern Dorne.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DORNE_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+			<Text>Most of Dorne south of the Red Mountains is an arid wasteland. Eastern Dorne largely consists of dry, stony soil ill-suited for agriculture, while western Dorne contains deserts of red and white sand. The lords of House Vaith, for instance, are known as the Lords of the Red Dunes,[5] while nobles of old who settled desert oases called themselves the Lords of the Wells.[4] Sand dogs live in the desert.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DORNE_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
+			<Text>Dorne's rivers provide some fertile lands and even during a long summer there is enough rain and other supplies of water to keep Dorne habitable. Inland water is almost as valuable as gold, and wells are jealously guarded. The major Dornish river is the Greenblood in southeastern Dorne, which is formed by the Vaith and the Scourge near Godsgrace. The trading port called Planky Town is located at the mouth of the Greenblood along the Summer Sea. The Brimstone in southern Dorne flows past the Hellholt to the Summer Sea. The Torentine has its source in the Red Mountains of western Dorne and ends at Starfall along the Summer Sea. The Wyl flows across the Boneway in northern Dorne to the Sea of Dorne. There is another river in northern Dorne which flows near Yronwood to the Sea of Dorne, but its name is as yet unknown. The southern coast is some four hundred leagues long. It is ridden with cliffs, whirlpools, and hidden shoals, with few safe landings.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DORNE_CHAPTER_HISTORY_PARA_6" Language="zh_Hans_CN">
+			<Text>Dorne is the least populous of the Seven Kingdoms. Dornishmen differ both culturally and ethnically from other Westerosi due to the historical mass immigration of Rhoynish people and their relative isolation. Dornishmen have adopted many Rhoynish customs on top of their First Men and Andal origins. Dornishmen have a reputation for hot-bloodedness and sexual licentiousness, and are still viewed with some mistrust and rivalry by the people of the neighboring Dornish Marches and the Reach. Dornish bastards of noble origin are given the surname Sand. Dornish paint their silks instead of sewing coats of arms. Dorne contains septs for the Faith of the Seven and red temples for followers of R'hllor.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DORNE_CHAPTER_HISTORY_PARA_7" Language="zh_Hans_CN">
+			<Text>Dorne provides many exotic products which are uncommon in the rest of the Seven Kingdoms. These products include olives, lemons, pomegranates, plums, cloth, spices, and blood oranges. Lemon orchards, and presumably other plants as well, are watered by a spider's web of canals. Because of the hot climate, in the deserts of Dorne water is most valueble, and every well is zealously guarded. Famous is also the use of spicy dragon peppers. The Dornish produce their own wines, often called "Dornish reds". These wines are generally sour, though they occasionally can be more rich of taste. Strongwines from Dorne are as dark as blood, with a sweet taste.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DORNE_CHAPTER_HISTORY_PARA_8" Language="zh_Hans_CN">
+			<Text>Fabled are the sand steeds bred by the Dornish. These horses are slim and swift, with elegant heads, long necks, and flowing manes. They are considered to be the most beautiful horses in the Seven Kingdoms. Though they are smaller than regular warhorses and lightboned, unable to bear the weight of armor, they can run for near two days and a night before tiring, needing only a few drinks of water over the course of a day and a night. Dornish yew is used to make bows.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DORNE_CHAPTER_HISTORY_PARA_9" Language="zh_Hans_CN">
+			<Text>In Sunspear's shadow city, numerous bazaars can be found. Before crossing the deep sands of the Dornish desert for the Prince's Pass, caravans take on supplies at Sunspear. Ships from across the narrow sea find the Planky Town a convenient harbor and come there to trade. As the port is located at the mouth of the Greenblood, often the orphans of the Greenblood come to trade, spreading the goods up and down the river.</Text>
+		</Replace>
+
+		<!--LEADER-->
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_DORAN_MARTELL_TITLE" Language="zh_Hans_CN">
+			<Text>Doran Martell</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_DORAN_MARTELL_SUBTITLE" Language="zh_Hans_CN">
+			<Text>Prince of Dorne, Lord of Sunspear.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_DORAN_MARTELL_QUOTE" Language="zh_Hans_CN">
+			<Text>"Words are like arrows, Arianne. Once loosed, you cannot call them back." - Doran Martell</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_DORAN_MARTELL_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>In his early fifties, Doran is a cautious, pensive, and subtle man. He is prone to think long on the matters before him, weighing every word and every action. He has a bad case of gout which has recently left him unable to walk, instead having to rely on his wheeled chair, or a palanquin, to move around. He appears to be much older than he is in truth. His body is soft and shapeless, and the gout has swollen and reddened the joints of his knees, toes, and hands. He covers his legs and feet with a blanket, blocking the sight of his gout.[6][7] Due to his gout, he only travels in a palanquin, and is rarely seen in public, as he does not want to appear weak in the eyes of his enemies.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_DORAN_MARTELL_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>While his bannermen might consider him weak, Doran has been focused for years on getting revenge for the murder of his sister, Elia, and her two young children during the sack of King's Landing during Robert's Rebellion in 283 AC. Because of the early deaths of his siblings Olyvar and Mors, the multiple miscarriages his mother suffered, and the difference in age with his surviving siblings, Elia and Oberyn, Doran was raised alone. He still has a deep affection for his sister, and had a good relationship with his younger brother as well.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_DORAN_MARTELL_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>Doran was the first born child of his parents, and thus heir to his mother, the Princess of Dorne. For years, he was an only child, as his mother had several miscarriages. While he would have four siblings, Mors and Olyvar, both died in the cradle. Doran spent several years of his childhood at the Water Gardens, and by the age of nine, he was a squire to Lord Gargalen at Salt Shore. While there, his mother gave birth to his sister, Elia. As Elia had been born one month premature, Doran was convinced that his sister too would die, as their brothers had done before, but she survived. A year later, Doran's brother Oberyn was born.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_DORAN_MARTELL_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+			<Text>As a young man, Doran took a tour through the Free Cities. He visited Volantis and next went to Norvos, where he met his future wife, Lady Mellario. They fell in love and Mellario returned to Dorne with Doran, where they were betrothed and would soon after marry. Areo Hotah escorted Mellario and entered the service of House Martell. In 273 AC, when his mother, her consort, and Doran's two younger siblings traveled through the south of Seven Kingdoms on a quest to find suitable matches for Elia and Oberyn, Doran stayed behind as castellan of Sunspear, with Mellario. Although Mellario was high born enough to become his wife, most marriages between nobles in Westeros are political. A love match is very uncommon. In 276 AC, Doran and Mellario's first child, Arianne, was born. Around 279 AC, Doran inherited the rule of Dorne.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_DORAN_MARTELL_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
+			<Text>An unknown amount of time after his siblings had traveled to find suitable marriage candidates, Doran's brother Oberyn fought in a duel with Lord Edgar Yronwood. Due to Oberyn's high birth and young age, the two men had agreed to duel until first blood. Both men were injured, but when Oberyn's cuts healed, and Lord Edgar's festered, eventually resulting in his death, it was whispered Oberyn had fought with a poisoned blade. Doran acted swiftly, sending Oberyn into temporary exile.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_DORAN_MARTELL_CHAPTER_HISTORY_PARA_6" Language="zh_Hans_CN">
+			<Text>Doran's sister Elia Martell was betrothed to Crown Prince Rhaegar Targaryen in early 279 AC, and wed him a year later. She had two young children by Rhaegar, Rhaenys and Aegon. When Rhaegar disappeared with Lyanna Stark in 282 AC, not long after Aegon's birth, it started a chain of events leading to Robert's Rebellion, in which the north, and several houses from the stormlands and the Vale of Arryn (later joined by several houses from the riverlands) fought against the Iron Throne and House Targaryen. Doran was furious about the way Elia had been treated by Rhaegar, and as a consequence was slow to lend any aid to the Targaryens. After Rhaegar returned from the south to King's Landing, Doran agreed to send ten thousand Dornishmen to fight in the loyalist army, under the command of his uncle, Prince Lewyn Martell of the Kingsguard, understanding that Elia, as the wife to the crown prince, would one day become queen, and that her son Aegon would one day be king.</Text>
+		</Replace>		
+
+		<!--UNITS-->
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SAND_SNAKE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>The Sand Snakes are the bastard daughters of Prince Oberyn Martell. The collective name references the Dornish bastard surname, Sand, and their father's nickname, the Red Viper. Oberyn's eight daughters have been born to five different mothers. While they differ in appearance, they are said to all have their father's eyes in shape if not in color.</Text>
+		</Replace>
+
+		<!--CIVINFO-->
+		<Replace Tag="LOC_CIVINFO_DORNE_LOCATION" Language="zh_Hans_CN">
+			<Text>The Riverlands</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_DORNE_SIZE" Language="zh_Hans_CN">
+			<Text>Dorne is the large peninsula which makes up the southernmost part of Westeros, and is one of the constituent regions of the Seven Kingdoms.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_DORNE_POPULATION" Language="zh_Hans_CN">
+			<Text>Dorne is the least populous of the Seven Kingdoms. Dornishmen differ both culturally and ethnically from other Westerosi due to the historical mass immigration of Rhoynish people and their relative isolation. Dornishmen have adopted many Rhoynish customs on top of their First Men and Andal origins. Dornishmen have a reputation for hot-bloodedness and sexual licentiousness, and are still viewed with some mistrust and rivalry by the people of the neighboring Dornish Marches and the Reach. Dornish bastards of noble origin are given the surname Sand. Dornish paint their silks instead of sewing coats of arms.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_DORNE_CAPITAL" Language="zh_Hans_CN">
+			<Text>Sunspear</Text>
+		</Replace>
+
+		<!--DIPLO-->
+
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_DORAN_MARTELL_ANY" Language="zh_Hans_CN">
+			<Text>Dornish people are fierce but friendly. We like you.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_DORAN_MARTELL_ANY" Language="zh_Hans_CN">
+			<Text>Be honest, then we shall accept you.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_DORAN_MARTELL_ANY" Language="zh_Hans_CN">
+			<Text>You must have heard The Dornishman's Wife. Oh I don't mean we practice that, but you could have Dornish wife instead.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_DORAN_MARTELL_ANY" Language="zh_Hans_CN">
+			<Text>Sunspear is your true friend now.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_DORAN_MARTELL_ANY" Language="zh_Hans_CN">
+			<Text>Don't be silly. Chance will not come back.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_DORAN_MARTELL_ANY" Language="zh_Hans_CN">
+			<Text>March as you wish. Let's see how long will your troops survive in the baking deserts.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_DORAN_MARTELL_ANY" Language="zh_Hans_CN">
+			<Text>You might not have noticed, but "check"...</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_DORAN_MARTELL_ANY" Language="zh_Hans_CN">
+			<Text>Trader is good. Wine for wine, lust for lust. I guarantee your delegation will enjoy the time here.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_DORAN_MARTELL_ANY" Language="zh_Hans_CN">
+			<Text>Cyvasse, drinking, hot food, or in bed. At least your delegation should be good at one if he wishes to live in Dorne.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_DORAN_MARTELL_ANY" Language="zh_Hans_CN">
+			<Text>I've sent a trade convoy to you with our famous fried snakes. Real vipers they were. The more poisonous, the tastier.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_DORAN_MARTELL_ANY" Language="zh_Hans_CN">
+			<Text>Now the world knows what you are...</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_DORAN_MARTELL_ANY" Language="zh_Hans_CN">
+			<Text>Are your people happy? Why wouldn't you keep them happy?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_AGENDA_PRINCE_OF_DORNE_LOW_HAPPINESS" Language="zh_Hans_CN">
+			<Text>(You are not keeping your people happy.)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_DORAN_MARTELL_ANY" Language="zh_Hans_CN">
+			<Text>Welcome to Dorne. I am Doran Martell, Prince of Dorne, Lord of Sunspear. Dorne is a beautiful place with vast desert but fertile oases. People sing, dance, and drink for their lives here. Come, and be happy.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_DORAN_MARTELL_ANY" Language="zh_Hans_CN">
+			<Text>Come to my city, try some spicy desert food and sour wine. Enjoy the breeze at night on rooftops.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_DORAN_MARTELL_ANY" Language="zh_Hans_CN">
+			<Text>I'm interested in foreign streets. The way people make living, the language they speak, and the food they serve. Intriguing...</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_DORAN_MARTELL_ANY" Language="zh_Hans_CN">
+			<Text>Let's exchange some information about our capitals, while we are playing a game of cyvasse.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_DORAN_MARTELL_ANY" Language="zh_Hans_CN">
+			<Text>Another hot day, isn't it?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_DORAN_MARTELL_ANY" Language="zh_Hans_CN">
+			<Text>Happy people are easier to rule. You understand it.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_PRINCE_OF_DORNE_DESCRIPTION_HIGH_HAPPINESS" Language="zh_Hans_CN">
+			<Text>Doran Martell likes you keep your people happy.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_DORAN_MARTELL_ANY" Language="zh_Hans_CN">
+			<Text>Complaint, riot, overturn. You should see the result of angry citizens. Don't you care?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_PRINCE_OF_DORNE_DESCRIPTION_LOW_HAPPINESS" Language="zh_Hans_CN">
+			<Text>Doran Martell dislikes your unstable citizens.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_DORAN_MARTELL_ANY" Language="zh_Hans_CN">
+			<Text>We find common interests, we make alliances. Simple logic.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_DORAN_MARTELL_ANY" Language="zh_Hans_CN">
+			<Text>Now you know. There are only some more piles of bones in my desert. Nothing more.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_DORAN_MARTELL_ANY" Language="zh_Hans_CN">
+			<Text>I'm just curious how many of your people will still be alive coming out of the desert. Leave the fun to me.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_DORAN_MARTELL_ANY" Language="zh_Hans_CN">
+			<Text>There're enough "bones" in our Boneway. And we can't make broth with those. Let's stop producing more.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_DORAN_MARTELL_ANY" Language="zh_Hans_CN">
+			<Text>Suggestions. Horses can do, but camels are better in desert. Especially for long distance travel.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_DORAN_MARTELL_ANY" Language="zh_Hans_CN">
+			<Text>You have enough water? Any idea what sandstorm is? You are not prepared.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_DORAN_MARTELL_ANY" Language="zh_Hans_CN">
+			<Text>We wish to pass, please.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_DORAN_MARTELL_ANY" Language="zh_Hans_CN">
+			<Text>Tell your people to go back. Staying there, I will only see mummies next morning.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_DORAN_MARTELL_ANY" Language="zh_Hans_CN">
+			<Text>Just promise me one thing, keep our culture, and keep my people happy...</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_DORAN_MARTELL_ANY" Language="zh_Hans_CN">
+			<Text>There should be other probabilities.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_DORAN_MARTELL_ANY" Language="zh_Hans_CN">
+			<Text>Just as I expected.</Text>
+		</Replace>
+		
+	</LocalizedText>
+</GameData>
