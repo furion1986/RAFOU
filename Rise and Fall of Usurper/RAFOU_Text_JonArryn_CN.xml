@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_CIVILIZATION_THE_VALE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>Vale of Arryn</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_THE_VALE_ADJECTIVE" Language="zh_Hans_CN">
+			<Text>The Vale</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_HAND_OF_THE_KING_NAME" Language="zh_Hans_CN">
+			<Text>Hand of the King</Text>
+		</Replace>
+		<Replace Tag="LOC_TRAIT_HAND_OF_THE_KING_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>All International [ICON_TradeRoute] Trade Routes From/To the Vale yield extra +1 [ICON_CULTURE] Culture. All [ICON_TradeRoute] Trade Routes From/To an ally of the Vale yield extra +2 [ICON_CULTURE] Culture.[NEWLINE]Has Crescent Chamber unique building. +1 [ICON_CULTURE] Culture and allowing extra +5 relationship points from another civilization if you have sent Delegation or Resident Embassy to them.</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_JON_ARRYN_QUOTE" Language="zh_Hans_CN">
+			<Text>"Jon Arryn was a wise man and a good Hand." - Eddard Stark to Rebert Baratheon</Text>
+		</Replace>
+
+		<!--City Names-->
+		<Replace Tag="LOC_CIVILIZATION_THE_VALE_CITY_1" Language="zh_Hans_CN">
+			<Text>The Eyrie</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_THE_VALE_CITY_2" Language="zh_Hans_CN">
+			<Text>The Bloody Gate</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_THE_VALE_CITY_3" Language="zh_Hans_CN">
+			<Text>Culltown</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_THE_VALE_CITY_4" Language="zh_Hans_CN">
+			<Text>Oldtown</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_THE_VALE_CITY_5" Language="zh_Hans_CN">
+			<Text>Coldwater Burn</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_THE_VALE_CITY_6" Language="zh_Hans_CN">
+			<Text>The Fingers</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_THE_VALE_CITY_7" Language="zh_Hans_CN">
+			<Text>Sisterton</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_THE_VALE_CITY_8" Language="zh_Hans_CN">
+			<Text>Breakwater</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_THE_VALE_CITY_9" Language="zh_Hans_CN">
+			<Text>Grey Glen</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_THE_VALE_CITY_10" Language="zh_Hans_CN">
+			<Text>Heart's Home</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_THE_VALE_CITY_11" Language="zh_Hans_CN">
+			<Text>Ironoaks</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_THE_VALE_CITY_12" Language="zh_Hans_CN">
+			<Text>Longbow Hall</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_THE_VALE_CITY_13" Language="zh_Hans_CN">
+			<Text>Newkeep</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_THE_VALE_CITY_14" Language="zh_Hans_CN">
+			<Text>Old Anchor</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_THE_VALE_CITY_15" Language="zh_Hans_CN">
+			<Text>Runestone</Text>
+		</Replace>
+		<!--CITIZEN NAMES-->
+		<Replace Tag="LOC_CITIZEN_THE_VALE_MALE_1" Language="zh_Hans_CN">
+			<Text>Yohn Royce</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_THE_VALE_MALE_2" Language="zh_Hans_CN">
+			<Text>Harrold Hardyng</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_THE_VALE_MALE_3" Language="zh_Hans_CN">
+			<Text>Robin Arryn</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_THE_VALE_MALE_4" Language="zh_Hans_CN">
+			<Text>Jon Redfort</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_THE_VALE_FEMALE_1" Language="zh_Hans_CN">
+			<Text>Mya Stone</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_THE_VALE_FEMALE_2" Language="zh_Hans_CN">
+			<Text>Lysa Arryn</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_THE_VALE_FEMALE_3" Language="zh_Hans_CN">
+			<Text>Myranda Royce</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_THE_VALE_FEMALE_4" Language="zh_Hans_CN">
+			<Text>Anya Waynwood</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_THE_VALE_FEMALE_5" Language="zh_Hans_CN">
+			<Text>Chella</Text>
+		</Replace>
+
+		<!--Diplomatics-->
+		<Replace Tag="LOC_DIPLO_MODIFIER_JA_DELEGATION" Language="zh_Hans_CN">
+			<Text>Our delegation tells them the story about our Crescent Chamber</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_DELEGATE_TRAIT" Language="zh_Hans_CN">
+			<Text>Jon Arryn's delegation</Text>
+		</Replace>
+		<Replace Tag="LOC_VIZSOURCE_ACTION_DELEGATE_TRAIT" Language="zh_Hans_CN">
+			<Text>Play as Jon Arryn and send a delegation or establish an embassy.</Text>
+		</Replace>
+		<Replace Tag="LOC_GOSSIP_SOURCE_DELEGATE_TRAIT" Language="zh_Hans_CN">
+			<Text>Your delegate, {1_Name}, sent a raven back to Crescent Chamber informing you that</Text>
+		</Replace>
+		<!--Agendas-->
+
+		<!--PEDIA-->
+		<!--DISTRICT-->
+		<Replace Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_GATE_OF_THE_MOON_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>The Gates of the Moon was the first seat of House Arryn in the Vale. After the Battle of the Seven Stars, Artys I Arryn, the first King of Mountain and Vale, began construction of the large castle where his host had encamped below the Giant's Lance the night before his victory. The two eldest sons of Artys who followed him on the throne expanded the castle.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_GATE_OF_THE_MOON_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>While formidable, the Gates of the Moon was considered by some to not be suitable for kings, and the fourth Arryn monarch, Roland I, found it lacking in comparison to grand Casterly Rock and the Hightower. Roland considered dismantling his seat and starting anew, but he instead decided to build the Eyrie high on the Giant's Lance after wild clansmen descended from the Mountains of the Moon.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_GATE_OF_THE_MOON_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>The Gates of the Moon has since been used by House Arryn as their seat during winter, but when summer comes they return to the Eyrie. The Keepers of the Gates of the Moon have since held the castle for the Arryn kings and, after Aegon's Conquest, for the Arryn Wardens of the East.</Text>
+		</Replace>
+		<!--CIV-->
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_VALE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>The Vale of Arryn or the Vale is one of the constituent regions of the Seven Kingdoms of Westeros. It was formerly a sovereign nation ruled by the Kings of Mountain and Vale before Aegon's Conquest. The Mountains of the Moon surround the smaller Vale proper, although the valley's name is often applied to all of House Arryn's realm.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_VALE_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>The Vale is ruled by the Arryns from the castle known as the Eyrie. Notable houses of this region include Baelish, Belmore, Corbray, Egen, Grafton, Hersy, Hunter, Melcolm, Redfort, Royce, Templeton, and Waynwood. Bastards of noble origin raised in the Vale are given the surname Stone.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_VALE_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>The borders of the Vale are held to be the Bite to the north, the Bay of Crabs to the south, the Mountains of the Moon and then the riverlands to the west, and the narrow sea to the east. The Vale consists of various regions: the Vale of Arryn itself; the Mountains of the Moon; the snakewood; the Fingers; and the islands of the Three Sisters, the Paps, and Pebble.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_VALE_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+			<Text>The Vale is located on the eastern shore of Westeros, a land of fertile soil, rivers, and lakes, protected by its largely impassable Mountains of the Moon. The Vale tends to be slightly isolated from the rest of Westeros. Its harsh winters make travel only possible through the mountains during warmer years, and rebellious mountain clans make travel even more dangerous. The Vale can be reached through the high road, which connects the Vale and the riverlands, and is protected by the Bloody Gate.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_VALE_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
+			<Text>The mountainous border of the Vale of Arryn proper appears to include the Bloody Gate in the west and the Eyrie and Longbow Hall to the north. The fertile lands within the valley include Ironoaks, Old Anchor, Redfort, and a peninsula containing the city of Gulltown and Runestone. The town of Wickenden is located along the Bay of Crabs, in the mountains south of the valley. Castles north of the Vale proper in the valleys of the Mountains of the Moon and the snakewood forest[3] include Coldwater, Heart's Home, Snakewood, and Strongsong.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_VALE_CHAPTER_HISTORY_PARA_6" Language="zh_Hans_CN">
+			<Text>The Valemen, the people of the Vale, are known as reliable warriors steeped in honor and the worship of the Faith of the Seven. The knights of the Vale consider themselves the finest in the Seven Kingdoms, and the Valemen consider the Eyrie to be the most beautiful castle of the realm.[8] The island people of the Three Sisters are known as Sistermen.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_VALE_CHAPTER_HISTORY_PARA_7" Language="zh_Hans_CN">
+			<Text>Some of the people living in the foothills of the Mountains of the Moon have rejected the authority of the Eyrie and live by their own rules. These mountain clans, such as the Black Ears and the Burned Men, are descendants of the First Men who raid unwary travelers and skirmish with the knights of the Vale.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_VALE_CHAPTER_HISTORY_PARA_8" Language="zh_Hans_CN">
+			<Text>Wheat, corn, and barley is grown in the Vale. Not even in Highgarden do the pumpkins grow any larger nor is the fruit any sweeter. House Waxley is known for producing scented candles in Wickenden. The candles can be scented with nutmeg and other costly spices.</Text>
+		</Replace>
+
+		<!--LEADER-->
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JON_ARRYN_TITLE" Language="zh_Hans_CN">
+			<Text>Jon Arryn</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JON_ARRYN_SUBTITLE" Language="zh_Hans_CN">
+			<Text>Lord of the Eyrie, Defender of the Vale, Warden of the East, Hand of the King, Keeper of the Gates of the Moon</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JON_ARRYN_QUOTE" Language="zh_Hans_CN">
+			<Text>"I need good men about me. Men like Jon Arryn." - Robert Baratheon</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JON_ARRYN_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>Jon had broad shoulders. Half of his teeth had fallen out by the time he married Lysa Tully. As a younger man he resembled Harrold Hardyng, who has blue eyes, blonde hair, and an aquiline nose. Lysa resented his poor breath.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JON_ARRYN_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>Jon had a reputation for being prudent, calming and wise, and kindly and trusting. He was cordial but not friendly toward Lord Stannis Baratheon. While in King's Landing, Lysa commissioned a double-edged longsword for Jon which he carried while sitting the Iron Throne in place of King Robert I Baratheon. Jon's blade has wings on its crossguard, a falcon-head pommel, and is engraved in silver to resemble mountain sky. Jon preferred functional armor, rather than jeweled and silvered plate.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JON_ARRYN_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>Jon was born as the eldest son of Lord Jasper Arryn. Not much is known about his youth or his parents. He had a younger brother, Ronnel, and a sister, Alys, who married Ser Elys Waynwood. Jon was Keeper of the Gates of the Moon while his father lived, and after his father's death he named his brother Ronnel and later his cousin Denys to that position. Because of the Vale mountain clans, Jon always traveled in strength when crossing the Mountains of the Moon.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JON_ARRYN_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+			<Text>Jon's first wife was Jeyne Royce, but she died in childbed, their daughter stillborn. His second marriage was to Replaceena Arryn, a cousin, who died of a winter chill during a childless marriage. Because he had no children, Jon's heir became his nephew, Elbert, the son of Ronnel.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JON_ARRYN_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
+			<Text>Jon fostered Eddard Stark and Robert Baratheon as his wards in the Vale of Arryn. As they grew, the two boys became close companions and regarded the childless Jon as a second father. The only blade used by Robert was a hunting knife he received from Jon as a boy. Jon declined to foster the grandsons of Lord Walder Frey.</Text>
+		</Replace>
+
+		<!--UNITS-->
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_VALE_KNIGHT_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>The tradition of knighthood is strong in the Vale. During the Andal invasion of Westeros, the Andals first landed in the Fingers. Legends claim that the first King of Mountain and Vale, Ser Artys I Arryn, was the Winged Knight.</Text>
+		</Replace>
+		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_VALE_KNIGHT_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>The knights of the Vale are sent out in search of the Vale mountain clans on occasion. The lesser clansmen tend to be wiped out by these knights.</Text>
+		</Replace>
+
+		<!--CIVINFO-->
+		<Replace Tag="LOC_CIVINFO_THE_VALE_LOCATION" Language="zh_Hans_CN">
+			<Text>The Vale</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_THE_VALE_SIZE" Language="zh_Hans_CN">
+			<Text>The borders of the Vale are held to be the Bite to the north, the Bay of Crabs to the south, the Mountains of the Moon and then the riverlands to the west, and the narrow sea to the east.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_THE_VALE_POPULATION" Language="zh_Hans_CN">
+			<Text>The Valemen, the people of the Vale, are known as reliable warriors steeped in honor and the worship of the Faith of the Seven. The knights of the Vale consider themselves the finest in the Seven Kingdoms, and the Valemen consider the Eyrie to be the most beautiful castle of the realm. The island people of the Three Sisters are known as Sistermen.</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_THE_VALE_CAPITAL" Language="zh_Hans_CN">
+			<Text>The Eyrie</Text>
+		</Replace>
+
+		<!--DIPLO-->
+
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_JON_ARRYN_ANY" Language="zh_Hans_CN">
+			<Text>A long lasting friendship makes us both strong. I must accept.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_JON_ARRYN_ANY" Language="zh_Hans_CN">
+			<Text>ALthough I'm commonly friendly to people. You are not my kind.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_JON_ARRYN_ANY" Language="zh_Hans_CN">
+			<Text>I wish you may find it fit to declare friendship with us.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_JON_ARRYN_ANY" Language="zh_Hans_CN">
+			<Text>Yes! And I'm looking forward to our alliance soon.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_JON_ARRYN_ANY" Language="zh_Hans_CN">
+			<Text>Loner dies in the long winter. Because the night is long and full of terrors. Why these words came to me?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_JON_ARRYN_ANY" Language="zh_Hans_CN">
+			<Text>Good, try us! Your army can't even reach my Gates of the Moon, I swear.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_JON_ARRYN_ANY" Language="zh_Hans_CN">
+			<Text>Your existence just went beyond our line. Now I shall strike with the Knight of Vale, to end your tyranny.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_JON_ARRYN_ANY" Language="zh_Hans_CN">
+			<Text>I will see to it that your trade delegation will reach Eyrie safe and warm. Our suggestion for him is not to look down on his way.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_JON_ARRYN_ANY" Language="zh_Hans_CN">
+			<Text>We close our path up to Eyrie durion winter time. You may come next time.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_JON_ARRYN_ANY" Language="zh_Hans_CN">
+			<Text>I've sent my trade delegations to you with our famous giant pumpinks and various fruit products. Hope you will enjoy them.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_JON_ARRYN_ANY" Language="zh_Hans_CN">
+			<Text>Words are winds, but words are dangerous. There won't be any good result out of this.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_JON_ARRYN_ANY" Language="zh_Hans_CN">
+			<Text>If you find it hard to keep friendly to others, I will find it difficult to deal with you.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_AGENDA_THE_NOBLE_HAND" Language="zh_Hans_CN">
+			<Text>(You denounced their friend/you are not trading with them.)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_JON_ARRYN_ANY" Language="zh_Hans_CN">
+			<Text>You are speaking to Ser Jon Arryn, Lord of the Eyrie, Defender of the Vale, Warden of the East, Hand of the King, Keeper of the Gates of the Moon. I'm impressed that you made you way here, wasn't easy was it? How may I serve you?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_JON_ARRYN_ANY" Language="zh_Hans_CN">
+			<Text>Take a tour up the Eyrie please. You will see a view beyond your imagination. And would you like to maybe send a son to my place? I'm known as a good foster father.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_JON_ARRYN_ANY" Language="zh_Hans_CN">
+			<Text>I would like to take a tour to your cities. Sometimes my cliffs, rocks and blue sky gets me bored.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_JON_ARRYN_ANY" Language="zh_Hans_CN">
+			<Text>Tell me about your capital. Is it on a mountain? I believe no, Eyrie must be the only one castle that's crazy enough to settle on a summit.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_GREETING_LEADER_JON_ARRYN_ANY" Language="zh_Hans_CN">
+			<Text>How may I serve you?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_JON_ARRYN_ANY" Language="zh_Hans_CN">
+			<Text>Friendship and alliance is the key point for survival. I'm glad you understand it.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_THE_NOBLE_HAND_DECLARED_FRIEND" Language="zh_Hans_CN">
+			<Text>Jon Arryn is glad to see you be friendly.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_KUDO_LEADER_JON_ARRYN_REASON_TRADE" Language="zh_Hans_CN">
+			<Text>Trading makes both of us thrive. I'm glad you see to value in it.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_THE_NOBLE_HAND_TRADE" Language="zh_Hans_CN">
+			<Text>Jon Arryn is glad to receive trade routes from you.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_JON_ARRYN_ANY" Language="zh_Hans_CN">
+			<Text>Enemy to my friends are then my enemy.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MODIFIER_THE_NOBLE_HAND_DENOUNCED_FRIEND" Language="zh_Hans_CN">
+			<Text>Jon Arryn is angry that you denounced their friend.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_JON_ARRYN_ANY" Language="zh_Hans_CN">
+			<Text>I'm honored to offer you our alliance. We can help each other on greater goals.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_JON_ARRYN_ANY" Language="zh_Hans_CN">
+			<Text>War isn't my favorite means of diplomacy. Good you would consider some other methods to settle our problems.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_JON_ARRYN_ANY" Language="zh_Hans_CN">
+			<Text>I'd ask Yohn. Seems he's unwilling to retreat at the moment.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_JON_ARRYN_ANY" Language="zh_Hans_CN">
+			<Text>I wish you'd be happy with the terms. And let's deal with our matters more delicately next time.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_JON_ARRYN_ANY" Language="zh_Hans_CN">
+			<Text>You may pass. But be careful about the mountain tribes.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_JON_ARRYN_ANY" Language="zh_Hans_CN">
+			<Text>I don't believe our people welcome outlanders at the moment.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_JON_ARRYN_ANY" Language="zh_Hans_CN">
+			<Text>Please allow my knights to pass. They are well disciplined and won't bother your people. You have my word.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_JON_ARRYN_ANY" Language="zh_Hans_CN">
+			<Text>I consider this an agressive move. Shall we talk about it before "incidents" actually happen?</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_JON_ARRYN_ANY" Language="zh_Hans_CN">
+			<Text>The death of the noble Hand, Jon Arryn, will unleash a madness on the land, a madness of pride and violence... I've made such a mistake...</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_JON_ARRYN_ANY" Language="zh_Hans_CN">
+			<Text>No, thanks.</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_JON_ARRYN_ANY" Language="zh_Hans_CN">
+			<Text>Sounds good to me.</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>
