@@ -12,7 +12,7 @@
 			<Text>Thrall</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_THRALL_DESCRIPTION">
-			<Text>Ironborns' unique builder unit. Cannot only be purchased with [ICON_Faith] Faith or captured through combat.[NEWLINE]Requires Captains Tavern in the city. Can embark after Astrology. May not construct Farm.</Text>
+			<Text>Ironborns' unique builder unit. Can only be purchased with [ICON_Faith] Faith or captured through combat.[NEWLINE]Requires Captains Tavern in the city. Can embark after Astrology. May not construct Farm.</Text>
 		</Row>
 		<Row Tag="LOC_BUILDING_CAPTAINS_TAVERN_NAME">
 			<Text>Captains Tavern</Text>
@@ -337,7 +337,7 @@
 			<Text>Dragonpit</Text>
 		</Row>
 		<Row Tag="LOC_DISTRICT_DRAGONPIT_DESCRIPTION">
-			<Text>An early district unique to The Crownlands which provides major adjacency bonus to other districts and +4 [ICON_Faith] Faith. [NEWLINE]Dragonpit provides extra +2 points of [ICON_GreatMusician] Great Musician ,3 slots of aircraft and unlocks Targaryen Dragon.</Text>
+			<Text>An early district unique to The Crownlands which provides major adjacency bonus to other districts and +4 [ICON_Faith] Faith. [NEWLINE]Dragonpit provides extra +2 points of [ICON_GreatMusician] Great Musician, 3 slots of aircraft and unlocks Targaryen Dragon.</Text>
 		</Row>
 		<Row Tag="LOC_LEADER_RHAEGAR_TARGARYEN_NAME">
 			<Text>Rhaegar Targaryen</Text>

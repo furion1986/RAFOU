@@ -117,10 +117,10 @@
 								<m_eType>ASSET_FX</m_eType>
 								<m_Name text="2"/>
 								<m_Description text=""/>
-								<m_FXName text="FX_Brazier_Fire"/>
+								<m_FXName text="FX_PIL_Fire_Med_01"/>
 								<m_CollectionName text=""/>
 								<m_AttachmentPointName text="FX_Fire"/>
-								<m_fStartTime>1.666667</m_fStartTime>
+								<m_fStartTime>0.493113</m_fStartTime>
 								<m_fDuration>2.000000</m_fDuration>
 								<m_nTrackIndex>0</m_nTrackIndex>
 							</Element>
@@ -131,7 +131,7 @@
 								<m_FXName text="2"/>
 								<m_CollectionName text=""/>
 								<m_AttachmentPointName text=""/>
-								<m_fStartTime>2.742857</m_fStartTime>
+								<m_fStartTime>0.908147</m_fStartTime>
 								<m_fDuration>0.000000</m_fDuration>
 								<m_nTrackIndex>0</m_nTrackIndex>
 							</Element>
@@ -142,7 +142,29 @@
 								<m_FXName text="Crouching_Tiger_Fire"/>
 								<m_CollectionName text=""/>
 								<m_AttachmentPointName text=""/>
-								<m_fStartTime>2.714286</m_fStartTime>
+								<m_fStartTime>0.904369</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="12"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Brazier_Fire"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_Fire"/>
+								<m_fStartTime>0.685950</m_fStartTime>
+								<m_fDuration>1.700000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>TRANSFER</m_eType>
+								<m_Name text="13"/>
+								<m_Description text=""/>
+								<m_FXName text="12"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.909090</m_fStartTime>
 								<m_fDuration>0.000000</m_fDuration>
 								<m_nTrackIndex>0</m_nTrackIndex>
 							</Element>
@@ -158,10 +180,10 @@
 								<m_eType>ASSET_FX</m_eType>
 								<m_Name text="3"/>
 								<m_Description text=""/>
-								<m_FXName text="FX_Brazier_Fire"/>
+								<m_FXName text="FX_PIL_Fire_Med_01"/>
 								<m_CollectionName text=""/>
 								<m_AttachmentPointName text="FX_Fire"/>
-								<m_fStartTime>1.666667</m_fStartTime>
+								<m_fStartTime>0.509642</m_fStartTime>
 								<m_fDuration>2.000000</m_fDuration>
 								<m_nTrackIndex>0</m_nTrackIndex>
 							</Element>
@@ -169,10 +191,10 @@
 								<m_eType>TRANSFER</m_eType>
 								<m_Name text="9"/>
 								<m_Description text=""/>
-								<m_FXName text="0"/>
+								<m_FXName text="3"/>
 								<m_CollectionName text=""/>
 								<m_AttachmentPointName text=""/>
-								<m_fStartTime>2.742857</m_fStartTime>
+								<m_fStartTime>0.916411</m_fStartTime>
 								<m_fDuration>0.000000</m_fDuration>
 								<m_nTrackIndex>0</m_nTrackIndex>
 							</Element>
@@ -183,7 +205,29 @@
 								<m_FXName text="Crouching_Tiger_Fire"/>
 								<m_CollectionName text=""/>
 								<m_AttachmentPointName text=""/>
-								<m_fStartTime>2.714286</m_fStartTime>
+								<m_fStartTime>0.912633</m_fStartTime>
+								<m_fDuration>0.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="14"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_Brazier_Fire"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="FX_Fire"/>
+								<m_fStartTime>0.702479</m_fStartTime>
+								<m_fDuration>1.700000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>TRANSFER</m_eType>
+								<m_Name text="15"/>
+								<m_Description text=""/>
+								<m_FXName text="14"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text=""/>
+								<m_fStartTime>0.917354</m_fStartTime>
 								<m_fDuration>0.000000</m_fDuration>
 								<m_nTrackIndex>0</m_nTrackIndex>
 							</Element>
@@ -240,7 +284,7 @@
 								<m_eType>ASSET_FX</m_eType>
 								<m_Name text="11"/>
 								<m_Description text=""/>
-								<m_FXName text="FX_Brazier_Fire"/>
+								<m_FXName text="FX_PIL_Fire_Sml_01"/>
 								<m_CollectionName text=""/>
 								<m_AttachmentPointName text="FX_Fire"/>
 								<m_fStartTime>4.529897</m_fStartTime>

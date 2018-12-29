@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- RAFOU_Icons_Units -->
+<!-- Author: Furion -->
+<!-- DateCreated: 12/17/2018 8:21:09 PM -->
+<GameData>
+	<IconTextureAtlases>
+		<!--UNIT ICONS-->
+		<Row Filename="ICON_ASOIAF_UNITS_22" IconsPerColumn="4" IconsPerRow="4" IconSize="22" Name="ICON_ATLAS_ASOIAF_UNITS"/>
+		<Row Filename="ICON_ASOIAF_UNITS_32" IconsPerColumn="4" IconsPerRow="4" IconSize="32" Name="ICON_ATLAS_ASOIAF_UNITS"/>
+		<Row Filename="ICON_ASOIAF_UNITS_38" IconsPerColumn="4" IconsPerRow="4" IconSize="38" Name="ICON_ATLAS_ASOIAF_UNITS"/>
+		<Row Filename="ICON_ASOIAF_UNITS_50" IconsPerColumn="4" IconsPerRow="4" IconSize="50" Name="ICON_ATLAS_ASOIAF_UNITS"/>
+		<Row Filename="ICON_ASOIAF_UNITS_80" IconsPerColumn="4" IconsPerRow="4" IconSize="80" Name="ICON_ATLAS_ASOIAF_UNITS"/>
+		<Row Filename="ICON_ASOIAF_UNITS_256" IconsPerColumn="4" IconsPerRow="4" IconSize="256" Name="ICON_ATLAS_ASOIAF_UNITS"/>
+		<!--UNIT PORTRAITS-->
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<!--UNIT ICONS-->
+		<Row Name="ICON_UNIT_IRON_LONGSHIP" Atlas="ICON_ATLAS_ASOIAF_UNITS" Index="4"/>
+		<Row Name="ICON_UNIT_THRALL" Atlas="ICON_ATLAS_ASOIAF_UNITS" Index="0"/>
+		<Row Name="ICON_UNIT_MOUNTAIN_CLAN" Atlas="ICON_ATLAS_ASOIAF_UNITS" Index="8"/>
+		<Row Name="ICON_UNIT_SELLSWORDS" Atlas="ICON_ATLAS_ASOIAF_UNITS" Index="1"/>
+		<Row Name="ICON_UNIT_SELLSWORDS_SWORDSMAN" Atlas="ICON_ATLAS_ASOIAF_UNITS" Index="2"/>
+		<Row Name="ICON_UNIT_SELLSWORDS_PIKEMAN" Atlas="ICON_ATLAS_ASOIAF_UNITS" Index="5"/>
+		<Row Name="ICON_UNIT_SELLSWORDS_MARKSMAN" Atlas="ICON_ATLAS_ASOIAF_UNITS" Index="6"/>
+		<Row Name="ICON_UNIT_SQUIRE" Atlas="ICON_ATLAS_ASOIAF_UNITS" Index="9"/>
+		<Row Name="ICON_UNIT_REDWYNE_FLEET" Atlas="ICON_ATLAS_ASOIAF_UNITS" Index="7"/>
+		<Row Name="ICON_UNIT_VALE_KNIGHT" Atlas="ICON_ATLAS_ASOIAF_UNITS" Index="10"/>
+		<Row Name="ICON_UNIT_BROTHERHOOD_WITHOUT_BANNERS" Atlas="ICON_ATLAS_ASOIAF_UNITS" Index="12"/>
+		<Row Name="ICON_UNIT_BROTHERHOOD_WITHOUT_BANNERS_LONGBOW" Atlas="ICON_ATLAS_ASOIAF_UNITS" Index="14"/>
+		<Row Name="ICON_UNIT_BROTHERHOOD_WITHOUT_BANNERS_EXILE_KNIGHT" Atlas="ICON_ATLAS_ASOIAF_UNITS" Index="15"/>
+		<Row Name="ICON_UNIT_BROTHERHOOD_WITHOUT_BANNERS_WARRIOR_MONK_OF_MYR" Atlas="ICON_ATLAS_ASOIAF_UNITS" Index="13"/>
+		<Row Name="ICON_UNIT_SAND_SNAKE" Atlas="ICON_ATLAS_ASOIAF_UNITS" Index="3"/>
+		<Row Name="ICON_UNIT_TARGARYEN_DRAGON" Atlas="ICON_ATLAS_ASOIAF_UNITS" Index="11"/>
+		<!--UNIT PORTRAITS-->
+	</IconDefinitions>
+</GameData>

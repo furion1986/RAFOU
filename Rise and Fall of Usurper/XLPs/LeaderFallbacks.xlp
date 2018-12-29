@@ -10,20 +10,28 @@
 	<m_PackageName text="LeaderFallbacks"/>
 	<m_Entries>
 		<Element>
-			<m_EntryID text="FALLBACK_NEUTRAL_BALONGREYJOY"/>
-			<m_ObjectName text="FALLBACK_NEUTRAL_BALONGREYJOY"/>
+			<m_EntryID text="Fallback_Neutral_Balon"/>
+			<m_ObjectName text="Fallback_Neutral_Balon"/>
 		</Element>
 		<Element>
 			<m_EntryID text="FALLBACK_NEUTRAL_EDDARDSTARK"/>
 			<m_ObjectName text="FALLBACK_NEUTRAL_EDDARDSTARK"/>
 		</Element>
 		<Element>
-			<m_EntryID text="FALLBACK_NEUTRAL_ROBERTBARATHEON"/>
+			<m_EntryID text="Fallback_Neutral_Tywin"/>
+			<m_ObjectName text="Fallback_Neutral_Tywin"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Fallback_Neutral_Robert"/>
 			<m_ObjectName text="Fallback_Neutral_Robert"/>
 		</Element>
 		<Element>
-			<m_EntryID text="FALLBACK_NEUTRAL_TYWINLANNISTER"/>
-			<m_ObjectName text="Fallback_Neutral_Tywin"/>
+			<m_EntryID text="Fallback_Neutral_Mace"/>
+			<m_ObjectName text="Fallback_Neutral_Mace"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Fallback_Neutral_Jon_Arryn"/>
+			<m_ObjectName text="Fallback_Neutral_Jon_Arryn"/>
 		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>

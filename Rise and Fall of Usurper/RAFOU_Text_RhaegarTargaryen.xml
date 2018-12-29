@@ -34,7 +34,51 @@
 		</Row>
 		<Row Tag="LOC_DISTRICT_DRAGONPIT_SELFFAITH">
 			<Text>+{1_num} [ICON_Faith] Faith.</Text>
-		</Row>		
+		</Row>
+
+		<Row Tag="LOC_PROMOTION_DRAH_KAH_RIS_NAME">
+			<Text>drah-KAH-ris</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_HARDENED_DRAGON_SCALE_NAME">
+			<Text>Obsidian Scale</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_SHIP_BURNER_NAME">
+			<Text>Burner</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_STRONG_WINGS_NAME">
+			<Text>Strong Wings</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_A_DEEP_BREATH_NAME">
+			<Text>Take a Deep Breath!</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_LEGENDARY_REGENERATION_NAME">
+			<Text>Legendary Regeneration</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_BLACK_DREAD_NAME">
+			<Text>Black Dread</Text>
+		</Row>
+		
+		<Row Tag="LOC_PROMOTION_DRAH_KAH_RIS_DESCRIPTION">
+			<Text>+12 [ICON_Strength] Combat Strength vs. land units.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_HARDENED_DRAGON_SCALE_DESCRIPTION">
+			<Text>+15 [ICON_Strength] Combat Strength when defending vs. anti-air.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_SHIP_BURNER_DESCRIPTION">
+			<Text>+17 [ICON_Strength] Combat Strength vs. naval units.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_STRONG_WINGS_DESCRIPTION">
+			<Text>+2 [ICON_Range] Range.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_A_DEEP_BREATH_DESCRIPTION">
+			<Text>+12 [ICON_Strength] Combat Strength.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_LEGENDARY_REGENERATION_DESCRIPTION">
+			<Text>Heal while patrolling or deployed.</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_BLACK_DREAD_DESCRIPTION">
+			<Text>+17 [ICON_Strength] Combat Strength.</Text>
+		</Row>			
 
 		<!--City Names-->
 		<Row Tag="LOC_CIVILIZATION_THE_CROWNLANDS_CITY_1">

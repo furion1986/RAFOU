@@ -1,12 +1,13 @@
 Starting AssetCooker...
+OPENCL ACCELERATION IS NOT AVAILABLE!  Your cooks will be SLOOOOWWW!  Please inform an engineer.
 XLP cook starting...
-C:\Users\Furion\Documents\Firaxis ModBuddy\Civilization VI\RAFOU\Rise and Fall of Usurper\XLPs\walls.xlp
-Opened output file: C:\Users\Furion\Documents\My Games\Sid Meier's Civilization VI\Mods\Rise and Fall of Usurper\Platforms\MacOS\BLPs/landmarks/Walls.blp    For XLP: 'C:\Users\Furion\Documents\Firaxis ModBuddy\Civilization VI\RAFOU\Rise and Fall of Usurper\XLPs\walls.xlp'
+D:\MyDocuments\Firaxis ModBuddy\Civilization VI\RAFOU\Rise and Fall of Usurper\XLPs\walls.xlp
+Opened output file: D:\MyDocuments\My Games\Sid Meier's Civilization VI\Mods\Rise and Fall of Usurper\Platforms\MacOS\BLPs/landmarks/Walls.blp    For XLP: 'D:\MyDocuments\Firaxis ModBuddy\Civilization VI\RAFOU\Rise and Fall of Usurper\XLPs\walls.xlp'
 Starting 'landmarks/Walls'
-Load finished for: 'landmarks/Walls' in 0.816 seconds
+Load finished for: 'landmarks/Walls' in 0.805 seconds
 Asset 'DIS_TTW_BASE_GATE', Timeline 'PILLAGED_A', Trigger '1': , FXName : 'FX_PIL_Fire_Med_01' Attachment Point '' doesn't exist in the asset.
-Cook finished for: 'landmarks/Walls' in 0.099 seconds
-Disk write finished for: 'landmarks/Walls' in 0.130 seconds
-Cleanup finished for: 'landmarks/Walls' in 0.019 seconds
+Cook finished for: 'landmarks/Walls' in 0.105 seconds
+Disk write finished for: 'landmarks/Walls' in 0.144 seconds
+Cleanup finished for: 'landmarks/Walls' in 0.023 seconds
 XLP cook completed with success.
-Cook completed in 1.272 seconds
+Cook completed in 1.104 seconds

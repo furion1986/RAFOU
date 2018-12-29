@@ -12,8 +12,8 @@
     <SupportsSinglePlayer>true</SupportsSinglePlayer>
     <SupportsMultiplayer>true</SupportsMultiplayer>
     <SupportsHotSeat>true</SupportsHotSeat>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><Criteria>LeaderCriteria</Criteria><File>RAFOU_Civilizations.xml</File><File>RAFOU_DistrictsAndBuildings.xml</File><File>RAFOU_Leaders.xml</File><File>RAFOU_Units.xml</File><File>RAFOU_Improvements.xml</File></UpdateDatabase><UpdateText id="Text"><Criteria>LeaderCriteria</Criteria><File>RAFOU_ConfigText.xml</File><File>RAFOU_Text_BalonGreyjoy.xml</File><File>RAFOU_Text_EddardStark.xml</File><File>RAFOU_Text_TywinRobert.xml</File><File>RAFOU_Text_MaceTyrell.xml</File><File>RAFOU_Text_JonArryn.xml</File><File>RAFOU_Text_HosterTully.xml</File><File>RAFOU_Text_DoranMartell.xml</File><File>RAFOU_Text_RhaegarTargaryen.xml</File></UpdateText><UpdateIcons id="Icons"><Criteria>LeaderCriteria</Criteria><File>RAFOU_Icons_Civilizations.xml</File></UpdateIcons><UpdateArt id="Art"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><AddGameplayScripts id="AddGameplayScripts"><Criteria>LeaderCriteria</Criteria><File>GameScript/LannisterBaratheonGameScript.lua</File><File>GameScript/RiverlandsGameScript.lua</File><File>GameScript/DorneGameScript.lua</File><File>GameScript/CrownlandsGameScript.lua</File></AddGameplayScripts><AddUserInterfaces id="AddUserInterfaces"><Properties><Context>InGame</Context></Properties><Criteria>LeaderCriteria</Criteria><File>GameScript/RAFOU_Interface.xml</File></AddUserInterfaces><ImportFiles id="ImportFiles"><Criteria>LeaderCriteria</Criteria><File>GameScript/RAFOU_Interface.lua</File><File>UI/PartialScreens/CityStates.xml</File><File>UI/PartialScreens/CityStates.lua</File></ImportFiles></InGameActions>]]></InGameActionData>
-    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config"><File>RAFOU_Config.xml</File></UpdateDatabase><UpdateText id="ConfigText"><File>RAFOU_ConfigText.xml</File></UpdateText><UpdateIcons id="ConfigIcons"><File>RAFOU_Icons_Civilizations.xml</File></UpdateIcons><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="Gameplay"><Criteria>LeaderCriteria</Criteria><File>RAFOU_Civilizations.xml</File><File>RAFOU_DistrictsAndBuildings.xml</File><File>RAFOU_Leaders.xml</File><File>RAFOU_Units.xml</File><File>RAFOU_Improvements.xml</File></UpdateDatabase><UpdateText id="Text"><Criteria>LeaderCriteria</Criteria><File>RAFOU_ConfigText.xml</File><File>RAFOU_Text_BalonGreyjoy.xml</File><File>RAFOU_Text_EddardStark.xml</File><File>RAFOU_Text_TywinRobert.xml</File><File>RAFOU_Text_MaceTyrell.xml</File><File>RAFOU_Text_JonArryn.xml</File><File>RAFOU_Text_HosterTully.xml</File><File>RAFOU_Text_DoranMartell.xml</File><File>RAFOU_Text_RhaegarTargaryen.xml</File></UpdateText><UpdateIcons id="Icons"><Criteria>LeaderCriteria</Criteria><File>RAFOU_Icons_Civilizations.xml</File><File>RAFOU_Icons_Units.xml</File><File>RAFOU_Icons_DBI.xml</File></UpdateIcons><UpdateArt id="Art"><Criteria>LeaderCriteria</Criteria><File>(Mod Art Dependency File)</File></UpdateArt><AddGameplayScripts id="AddGameplayScripts"><Criteria>LeaderCriteria</Criteria><File>GameScript/LannisterBaratheonGameScript.lua</File><File>GameScript/RiverlandsGameScript.lua</File><File>GameScript/DorneGameScript.lua</File><File>GameScript/CrownlandsGameScript.lua</File></AddGameplayScripts><AddUserInterfaces id="AddUserInterfaces"><Properties><Context>InGame</Context></Properties><Criteria>LeaderCriteria</Criteria><File>GameScript/RAFOU_Interface.xml</File></AddUserInterfaces><ImportFiles id="ImportFiles"><Criteria>LeaderCriteria</Criteria><File>GameScript/RAFOU_Interface.lua</File><File>UI/PartialScreens/CityStates.xml</File><File>UI/PartialScreens/CityStates.lua</File></ImportFiles></InGameActions>]]></InGameActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="Config"><File>RAFOU_Config.xml</File></UpdateDatabase><UpdateText id="ConfigText"><File>RAFOU_ConfigText.xml</File></UpdateText><UpdateIcons id="ConfigIcons"><File>RAFOU_Icons_Civilizations.xml</File><File>RAFOU_Icons_Units.xml</File><File>RAFOU_Icons_DBI.xml</File></UpdateIcons><UpdateArt id="ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
     <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="LeaderCriteria"><LeaderPlayable>Players:Expansion1_Players::LEADER_BALON_GREYJOY,LEADER_EDDARD_STARK,LEADER_TYWIN_LANNISTER,LEADER_ROBERT_BARATHEON,LEADER_MACE_TYRELL,LEADER_JON_ARRYN,LEADER_HOSTER_TULLY,LEADER_DORAN_MARTELL,LEADER_RHAEGAR_TARGARYEN</LeaderPlayable></Criteria></ActionCriteria>]]></ActionCriteriaData>
     <AssemblyName>Rise and Fall of Usurper</AssemblyName>
     <RootNamespace>Rise and Fall of Usurper</RootNamespace>
@@ -54,6 +54,9 @@
     <Content Include="ArtDefs\Landmarks.artdef">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="ArtDefs\Leaders.artdef">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="ArtDefs\Units.artdef">
       <SubType>Content</SubType>
     </Content>
@@ -76,6 +79,12 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="GameScript\RiverlandsGameScript.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="RAFOU_Icons_DBI.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="RAFOU_Icons_Units.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="RAFOU_Text_DoranMartell.xml">
@@ -105,7 +114,19 @@
     <Content Include="XLPs\LeaderFallbacks.xlp">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="XLPs\leader_balon.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\Shell_Loading.xlp">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="XLPs\tilebases.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\UILeaders.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\UI_LeaderScenes.xlp">
       <SubType>Content</SubType>
     </Content>
     <Content Include="XLPs\Units.xlp">

@@ -37,6 +37,50 @@
 			<m_EntryID text="TargaryenDragon"/>
 			<m_ObjectName text="TargaryenDragon"/>
 		</Element>
+		<Element>
+			<m_EntryID text="Brotherhood_Archer_Root"/>
+			<m_ObjectName text="Brotherhood_Archer_Root"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Brotherhood_Knight_Root"/>
+			<m_ObjectName text="Brotherhood_Knight_Root"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Brotherhood_Monk_Root"/>
+			<m_ObjectName text="Brotherhood_Monk_Root"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Brotherhood_Monk_Sword"/>
+			<m_ObjectName text="Knight_Sword"/>
+		</Element>
+		<Element>
+			<m_EntryID text="RedwyneFleetA"/>
+			<m_ObjectName text="RedwyneFleetA"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Sandsnake_ArmorA"/>
+			<m_ObjectName text="Sandsnake_ArmorA"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Sandsnake_ArmorB"/>
+			<m_ObjectName text="Sandsnake_ArmorB"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Sandsnake_ArmorC"/>
+			<m_ObjectName text="Sandsnake_ArmorC"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ValeKnight_ArmorA"/>
+			<m_ObjectName text="ValeKnight_ArmorA"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ValeKnight_HelmA"/>
+			<m_ObjectName text="ValeKnight_HelmA"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IronLongshipA"/>
+			<m_ObjectName text="IronLongshipA"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

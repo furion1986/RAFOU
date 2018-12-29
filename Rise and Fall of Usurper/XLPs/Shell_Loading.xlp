@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>315</build>
+		<revision>805</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UI/Shell_Loading"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="Leader_Balon_Greyjoy_Foreground"/>
+			<m_ObjectName text="Leader_Balon_Greyjoy_Foreground"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_EDDARD_STARK_Foreground"/>
+			<m_ObjectName text="EDDARDSTARK_Foreground"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Dorne_background"/>
+			<m_ObjectName text="Dorne_background"/>
+		</Element>
+		<Element>
+			<m_EntryID text="KingsLanding_background"/>
+			<m_ObjectName text="KingsLanding_background"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TheIronIslands_background"/>
+			<m_ObjectName text="TheIronIslands_background"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TheNorth_background"/>
+			<m_ObjectName text="TheNorth_background"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TheReach_background"/>
+			<m_ObjectName text="TheReach_background"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TheRiverlands_background"/>
+			<m_ObjectName text="TheRiverlands_background"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TheStormlands_background"/>
+			<m_ObjectName text="TheStormlands_background"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TheVale_background"/>
+			<m_ObjectName text="TheVale_background"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TheWesternland_background"/>
+			<m_ObjectName text="TheWesternland_background"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TYWINLANNISTER_Foreground"/>
+			<m_ObjectName text="TYWINLANNISTER_Foreground"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ROBERTBARATHEON_Foreground"/>
+			<m_ObjectName text="ROBERTBARATHEON_Foreground"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Leader_Mace_Tyrell_Foreground"/>
+			<m_ObjectName text="Leader_Mace_Tyrell_Foreground"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Leader_Jon_Arryn_Foreground"/>
+			<m_ObjectName text="Leader_Jon_Arryn_Foreground"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

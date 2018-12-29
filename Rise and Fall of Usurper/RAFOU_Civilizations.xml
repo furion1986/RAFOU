@@ -351,43 +351,43 @@
 
 	<LoadingInfo>
 		<!-- Balon Greyjoy leads the Ironborn -->
-		<Row LeaderType="LEADER_BALON_GREYJOY" PlayDawnOfManAudio="0" BackgroundImage="LEADER_BALON_GREYJOY_Background" ForegroundImage="LEADER_BALON_GREYJOY_Foreground"/>
+		<Row LeaderType="LEADER_BALON_GREYJOY" PlayDawnOfManAudio="0" BackgroundImage="TheIronIslands_background" ForegroundImage="Leader_Balon_Greyjoy_Foreground"/>
 		<!-- Eddard Stark leads the North -->
-		<Row LeaderType="LEADER_EDDARD_STARK" PlayDawnOfManAudio="0" BackgroundImage="LEADER_EDDARD_STARK_Background" ForegroundImage="LEADER_EDDARD_STARK_Foreground"/>
+		<Row LeaderType="LEADER_EDDARD_STARK" PlayDawnOfManAudio="0" BackgroundImage="TheNorth_background" ForegroundImage="LEADER_EDDARD_STARK_Foreground"/>
 		<!-- Tywin Lannister leads the Westerlands -->
-		<Row LeaderType="LEADER_TYWIN_LANNISTER" PlayDawnOfManAudio="0" BackgroundImage="LEADER_TYWIN_LANNISTER_BACKGROUND" ForegroundImage="TYWINLANNISTER_Foreground"/>
+		<Row LeaderType="LEADER_TYWIN_LANNISTER" PlayDawnOfManAudio="0" BackgroundImage="TheWesternland_background" ForegroundImage="TYWINLANNISTER_Foreground"/>
 		<!-- Robert Baratheon leads the Stormlands -->
-		<Row LeaderType="LEADER_ROBERT_BARATHEON" PlayDawnOfManAudio="0" BackgroundImage="LEADER_ROBERT_BARATHEON_BACKGROUND" ForegroundImage="ROBERTBARATHEON_Foreground"/>
+		<Row LeaderType="LEADER_ROBERT_BARATHEON" PlayDawnOfManAudio="0" BackgroundImage="TheStormlands_background" ForegroundImage="ROBERTBARATHEON_Foreground"/>
 		<!-- Mace Tyrell leads the Reach -->
-		<Row LeaderType="LEADER_MACE_TYRELL" PlayDawnOfManAudio="0" BackgroundImage="LEADER_MACE_TYRELL_BACKGROUND" ForegroundImage="MACETYRELL_Foreground"/>
+		<Row LeaderType="LEADER_MACE_TYRELL" PlayDawnOfManAudio="0" BackgroundImage="TheReach_background" ForegroundImage="Leader_Mace_Tyrell_Foreground"/>
 		<!-- Jon Arryn leads the Vale -->
-		<Row LeaderType="LEADER_JON_ARRYN" PlayDawnOfManAudio="0" BackgroundImage="LEADER_JON_ARRYN_BACKGROUND" ForegroundImage="JONARRYN_Foreground"/>
+		<Row LeaderType="LEADER_JON_ARRYN" PlayDawnOfManAudio="0" BackgroundImage="TheVale_background" ForegroundImage="Leader_Jon_Arryn_Foreground"/>
 		<!-- Hoster Tully leads the Riverlands -->
-		<Row LeaderType="LEADER_HOSTER_TULLY" PlayDawnOfManAudio="0" BackgroundImage="LEADER_HOSTER_TULLY_BACKGROUND" ForegroundImage="HOSTERTULLY_Foreground"/>		
+		<Row LeaderType="LEADER_HOSTER_TULLY" PlayDawnOfManAudio="0" BackgroundImage="TheRiverlands_background" ForegroundImage="HOSTERTULLY_Foreground"/>		
 		<!-- Doran Martell leads Dorne -->
-		<Row LeaderType="LEADER_DORAN_MARTELL" PlayDawnOfManAudio="0" BackgroundImage="LEADER_DORAN_MARTELL_BACKGROUND" ForegroundImage="DORANMARTELL_Foreground"/>			
+		<Row LeaderType="LEADER_DORAN_MARTELL" PlayDawnOfManAudio="0" BackgroundImage="Dorne_background" ForegroundImage="DORANMARTELL_Foreground"/>			
 		<!-- Rhaegar Targaryen leads the Crownlands -->
-		<Row LeaderType="LEADER_RHAEGAR_TARGARYEN" PlayDawnOfManAudio="0" BackgroundImage="LEADER_RHAEGAR_TARGARYEN_BACKGROUND" ForegroundImage="RHAEGARTARGARYEN_Foreground"/>	
+		<Row LeaderType="LEADER_RHAEGAR_TARGARYEN" PlayDawnOfManAudio="0" BackgroundImage="KingsLanding_background" ForegroundImage="RHAEGARTARGARYEN_Foreground"/>	
 	</LoadingInfo>
 	<DiplomacyInfo>
 		<!-- Balon Greyjoy leads the Ironborn -->
-		<Row Type="LEADER_BALON_GREYJOY" BackgroundImage="BALONGREYJOY_Diplomacy"/>
+		<Row Type="LEADER_BALON_GREYJOY" BackgroundImage="BalonGreyjoy_Diplomacy"/>
 		<!-- Eddard Stark leads the North -->
-		<Row Type="LEADER_EDDARD_STARK" BackgroundImage="LEADER_EDDARD_STARK_Diplomacy"/>
+		<Row Type="LEADER_EDDARD_STARK" BackgroundImage="EddardStark_Diplomacy"/>
 		<!-- Tywin Lannister leads the Westerlands -->
-		<Row Type="LEADER_TYWIN_LANNISTER" BackgroundImage="TYWINLANNISTER_Diplomacy"/>
+		<Row Type="LEADER_TYWIN_LANNISTER" BackgroundImage="TywinLannister_Diplomacy"/>
 		<!-- Robert Baratheon leads the Stormlands -->
-		<Row Type="LEADER_ROBERT_BARATHEON" BackgroundImage="ROBERTBARATHEON_Diplomacy"/>
+		<Row Type="LEADER_ROBERT_BARATHEON" BackgroundImage="RobertBaratheon_Diplomacy"/>
 		<!-- Mace Tyrell leads the Reach -->
-		<Row Type="LEADER_MACE_TYRELL" BackgroundImage="MACETYRELL_Diplomacy"/>
+		<Row Type="LEADER_MACE_TYRELL" BackgroundImage="MaceTyrell_Diplomacy"/>
 		<!-- Jon Arryn leads the Vale -->
-		<Row Type="LEADER_JON_ARRYN" BackgroundImage="JONARRYN_Diplomacy"/>
+		<Row Type="LEADER_JON_ARRYN" BackgroundImage="JonArryn_Diplomacy"/>
 		<!-- Hoster Tully leads the Riverlands -->
-		<Row Type="LEADER_HOSTER_TULLY" BackgroundImage="HOSTERTULLY_Diplomacy"/>
+		<Row Type="LEADER_HOSTER_TULLY" BackgroundImage="HosterTully_Diplomacy"/>
 		<!-- Doran Martell leads Dorne -->
-		<Row Type="LEADER_DORAN_MARTELL" BackgroundImage="DORANMARTELL_Diplomacy"/>
+		<Row Type="LEADER_DORAN_MARTELL" BackgroundImage="DoranMartell_Diplomacy"/>
 		<!-- Rhaegar Targaryen leads the Crownlands -->
-		<Row Type="LEADER_RHAEGAR_TARGARYEN" BackgroundImage="RHAEGARTARGARYEN_Diplomacy"/>
+		<Row Type="LEADER_RHAEGAR_TARGARYEN" BackgroundImage="RhaegarTargaryen_Diplomacy"/>
 	</DiplomacyInfo>
 
 	<TypeTags>

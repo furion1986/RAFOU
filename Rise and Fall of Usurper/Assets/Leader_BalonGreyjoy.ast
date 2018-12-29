@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..AssetInstance>
+	<m_BehaviorData>
+		<m_behaviorDataSets>
+			<m_animationBindings>
+				<m_Bindings>
+					<Element>
+						<m_SlotName text="NEUTRAL_IDLE_A"/>
+						<m_AnimationName text="Balon_Idle_Bake_anim"/>
+					</Element>
+					<Element>
+						<m_SlotName text="01_FIRST_MEET"/>
+						<m_AnimationName text="Balon_Idle_Bake_anim"/>
+					</Element>
+					<Element>
+						<m_SlotName text="02_DECLARE_WAR_FROM_HUMAN"/>
+						<m_AnimationName text="Balon_Idle_Bake_anim"/>
+					</Element>
+					<Element>
+						<m_SlotName text="03_DECLARE_WAR_FROM_AI"/>
+						<m_AnimationName text="Balon_Idle_Bake_anim"/>
+					</Element>
+					<Element>
+						<m_SlotName text="04_KUDOS"/>
+						<m_AnimationName text="Balon_Idle_Bake_anim"/>
+					</Element>
+					<Element>
+						<m_SlotName text="05_WARNING"/>
+						<m_AnimationName text="Balon_Idle_Bake_anim"/>
+					</Element>
+					<Element>
+						<m_SlotName text="06_DEFEAT"/>
+						<m_AnimationName text="Balon_Idle_Bake_anim"/>
+					</Element>
+					<Element>
+						<m_SlotName text="DECLARE_WAR_A"/>
+						<m_AnimationName text="Balon_Idle_Bake_anim"/>
+					</Element>
+					<Element>
+						<m_SlotName text="HAPPY_IDLE_A"/>
+						<m_AnimationName text="Balon_Idle_Bake_anim"/>
+					</Element>
+					<Element>
+						<m_SlotName text="HAPPY_NEGATIVE_A"/>
+						<m_AnimationName text="Balon_Idle_Bake_anim"/>
+					</Element>
+					<Element>
+						<m_SlotName text="HAPPY_NEGATIVE_B"/>
+						<m_AnimationName text="Balon_Idle_Bake_anim"/>
+					</Element>
+					<Element>
+						<m_SlotName text="HAPPY_POSITIVE_A"/>
+						<m_AnimationName text="Balon_Idle_Bake_anim"/>
+					</Element>
+					<Element>
+						<m_SlotName text="HAPPY_POSITIVE_B"/>
+						<m_AnimationName text="Balon_Idle_Bake_anim"/>
+					</Element>
+					<Element>
+						<m_SlotName text="HAPPY_TO_ENRAGED"/>
+						<m_AnimationName text="Balon_Idle_Bake_anim"/>
+					</Element>
+					<Element>
+						<m_SlotName text="HAPPY_TO_NEUTRAL"/>
+						<m_AnimationName text="Balon_Idle_Bake_anim"/>
+					</Element>
+					<Element>
+						<m_SlotName text="NEUTRAL_NEGATIVE_A"/>
+						<m_AnimationName text="Balon_Idle_Bake_anim"/>
+					</Element>
+					<Element>
+						<m_SlotName text="NEUTRAL_NEGATIVE_B"/>
+						<m_AnimationName text="Balon_Idle_Bake_anim"/>
+					</Element>
+					<Element>
+						<m_SlotName text="NEUTRAL_POSITIVE_A"/>
+						<m_AnimationName text="Balon_Idle_Bake_anim"/>
+					</Element>
+					<Element>
+						<m_SlotName text="NEUTRAL_POSITIVE_B"/>
+						<m_AnimationName text="Balon_Idle_Bake_anim"/>
+					</Element>
+					<Element>
+						<m_SlotName text="NEUTRAL_TO_ENRAGED"/>
+						<m_AnimationName text="Balon_Idle_Bake_anim"/>
+					</Element>
+					<Element>
+						<m_SlotName text="NEUTRAL_TO_HAPPY"/>
+						<m_AnimationName text="Balon_Idle_Bake_anim"/>
+					</Element>
+					<Element>
+						<m_SlotName text="NEUTRAL_TO_UNHAPPY"/>
+						<m_AnimationName text="Balon_Idle_Bake_anim"/>
+					</Element>
+					<Element>
+						<m_SlotName text="UNHAPPY_IDLE_A"/>
+						<m_AnimationName text="Balon_Idle_Bake_anim"/>
+					</Element>
+					<Element>
+						<m_SlotName text="UNHAPPY_NEGATIVE_A"/>
+						<m_AnimationName text="Balon_Idle_Bake_anim"/>
+					</Element>
+					<Element>
+						<m_SlotName text="UNHAPPY_NEGATIVE_B"/>
+						<m_AnimationName text="Balon_Idle_Bake_anim"/>
+					</Element>
+					<Element>
+						<m_SlotName text="UNHAPPY_POSITIVE_A"/>
+						<m_AnimationName text="Balon_Idle_Bake_anim"/>
+					</Element>
+					<Element>
+						<m_SlotName text="UNHAPPY_POSITIVE_B"/>
+						<m_AnimationName text="Balon_Idle_Bake_anim"/>
+					</Element>
+					<Element>
+						<m_SlotName text="UNHAPPY_TO_ENRAGED"/>
+						<m_AnimationName text="Balon_Idle_Bake_anim"/>
+					</Element>
+					<Element>
+						<m_SlotName text="UNHAPPY_TO_NEUTRAL"/>
+						<m_AnimationName text="Balon_Idle_Bake_anim"/>
+					</Element>
+				</m_Bindings>
+			</m_animationBindings>
+			<m_timelineBindings>
+				<m_Bindings/>
+			</m_timelineBindings>
+			<m_timelines>
+				<m_Timelines/>
+			</m_timelines>
+			<m_attachmentPoints>
+				<m_Points/>
+			</m_attachmentPoints>
+			<m_stateSet/>
+		</m_behaviorDataSets>
+		<m_behaviorInstances/>
+		<m_dsgName text="Standard_Leader"/>
+		<m_referenceGeometryNames/>
+	</m_BehaviorData>
+	<m_GeometrySet>
+		<m_ModelInstances>
+			<Element>
+				<m_Name text="LEAD_GERM_Barbarossa_Camera"/>
+				<m_GeoName text="LEAD_GERM_Barbarossa_Camera"/>
+				<m_GroupStates/>
+			</Element>
+			<Element>
+				<m_Name text="Root"/>
+				<m_GeoName text="Leader_BalonGreyjoy"/>
+				<m_GroupStates>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Balon_Belt"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>false</m_bValue>
+									<m_ParamName text="RecalculateNormals"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="defaultMat.006"/>
+						<m_MeshName text="BalonBelt#M"/>
+						<m_StateName text="Default"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Balon_Body"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>false</m_bValue>
+									<m_ParamName text="RecalculateNormals"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="defaultMat.001"/>
+						<m_MeshName text="BalonBody#M"/>
+						<m_StateName text="Default"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Balon_Cloth"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>false</m_bValue>
+									<m_ParamName text="RecalculateNormals"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="defaultMat"/>
+						<m_MeshName text="BalonCloth#M"/>
+						<m_StateName text="Default"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Balon_Hair"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>false</m_bValue>
+									<m_ParamName text="RecalculateNormals"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="phong1SG"/>
+						<m_MeshName text="BaloneHair#M"/>
+						<m_StateName text="Default"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Balon_MouthEye"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>false</m_bValue>
+									<m_ParamName text="RecalculateNormals"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="BeardMouth"/>
+						<m_MeshName text="BalonMouth#M"/>
+						<m_StateName text="Default"/>
+					</Element>
+					<Element>
+						<m_Values>
+							<m_Values>
+								<Element class="AssetObjects..ObjectValue">
+									<m_ObjectName text="Balon_Pants"/>
+									<m_eObjectType>MATERIAL</m_eObjectType>
+									<m_ParamName text="Material"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>false</m_bValue>
+									<m_ParamName text="RecalculateNormals"/>
+								</Element>
+							</m_Values>
+						</m_Values>
+						<m_GroupName text="defaultMat.004"/>
+						<m_MeshName text="BalonPants#M"/>
+						<m_StateName text="Default"/>
+					</Element>
+				</m_GroupStates>
+			</Element>
+		</m_ModelInstances>
+	</m_GeometrySet>
+	<m_CookParams>
+		<m_Values>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>0.000000</m_fValue>
+				<m_ParamName text="EnvironmentRotationX"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>0.000000</m_fValue>
+				<m_ParamName text="EnvironmentRotationY"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>0.000000</m_fValue>
+				<m_ParamName text="EnvironmentRotationZ"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>3.000000</m_fValue>
+				<m_ParamName text="AOPower"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>1.000000</m_fValue>
+				<m_ParamName text="AOScale"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>10.000000</m_fValue>
+				<m_ParamName text="AORadius"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>0.000000</m_fValue>
+				<m_ParamName text="BloomStrength"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>1.000000</m_fValue>
+				<m_ParamName text="BloomThreshold"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>1.000000</m_fValue>
+				<m_ParamName text="ExtraExposureRange"/>
+			</Element>
+			<Element class="AssetObjects..ObjectValue">
+				<m_ObjectName text=""/>
+				<m_eObjectType>TEXTURE</m_eObjectType>
+				<m_ParamName text="GrainTexture"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>0.350000</m_fValue>
+				<m_ParamName text="GrainStrength"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>1.000000</m_fValue>
+				<m_ParamName text="VelocityScale"/>
+			</Element>
+		</m_Values>
+	</m_CookParams>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>315</build>
+		<revision>805</revision>
+	</m_Version>
+	<m_ParticleEffects/>
+	<m_Geometries/>
+	<m_Animations/>
+	<m_Materials/>
+	<m_ClassName text="Leader"/>
+	<m_DataFiles/>
+	<m_Name text="Leader_BalonGreyjoy"/>
+	<m_Description text=""/>
+	<m_Tags/>
+	<m_Groups/>
+</AssetObjects..AssetInstance>
+

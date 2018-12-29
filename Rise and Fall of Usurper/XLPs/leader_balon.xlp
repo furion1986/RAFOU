@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>315</build>
+		<revision>805</revision>
+	</m_Version>
+	<m_ClassName text="Leader"/>
+	<m_PackageName text="leaders/leader_balon"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="Leader_Balon_Greyjoy"/>
+			<m_ObjectName text="Leader_BalonGreyjoy"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Leader_EddardStark"/>
+			<m_ObjectName text="Leader_EddardStark"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Leader_Robert_Baratheon"/>
+			<m_ObjectName text="Leader_Robert_Baratheon"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Leader_Tywin_Lannister"/>
+			<m_ObjectName text="Leader_Tywin_Lannister"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Leader_MaceTyrell"/>
+			<m_ObjectName text="Leader_MaceTyrell"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Leader_JonArryn"/>
+			<m_ObjectName text="Leader_JonArryn"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

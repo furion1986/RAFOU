@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconTextureAtlases>
+		<!--BUILDING ICON-->
+		<Row Filename="Icon_RAFOU_Buildings_32" IconsPerColumn="1" IconsPerRow="5" IconSize="32" Name="ICON_ATLAS_BUILDING_RAFOU"/>
+		<Row Filename="Icon_RAFOU_Buildings_38" IconsPerColumn="1" IconsPerRow="5" IconSize="38" Name="ICON_ATLAS_BUILDING_RAFOU"/>
+		<Row Filename="Icon_RAFOU_Buildings_50" IconsPerColumn="1" IconsPerRow="5" IconSize="50" Name="ICON_ATLAS_BUILDING_RAFOU"/>
+		<Row Filename="Icon_RAFOU_Buildings_80" IconsPerColumn="1" IconsPerRow="5" IconSize="80" Name="ICON_ATLAS_BUILDING_RAFOU"/>
+		<Row Filename="Icon_RAFOU_Buildings_128" IconsPerColumn="1" IconsPerRow="5" IconSize="128" Name="ICON_ATLAS_BUILDING_RAFOU"/>
+		<Row Filename="Icon_RAFOU_Buildings_256" IconsPerColumn="1" IconsPerRow="5" IconSize="256" Name="ICON_ATLAS_BUILDING_RAFOU"/>
+		<!--DISTRICTS ICON-->
+		<Row Filename="Icon_RAFOU_Districts_32" IconsPerColumn="1" IconsPerRow="5" IconSize="32" Name="ICON_ATLAS_DISTRICT_RAFOU"/>
+		<Row Filename="Icon_RAFOU_Districts_38" IconsPerColumn="1" IconsPerRow="5" IconSize="38" Name="ICON_ATLAS_DISTRICT_RAFOU"/>
+		<Row Filename="Icon_RAFOU_Districts_50" IconsPerColumn="1" IconsPerRow="5" IconSize="50" Name="ICON_ATLAS_DISTRICT_RAFOU"/>
+		<Row Filename="Icon_RAFOU_Districts_80" IconsPerColumn="1" IconsPerRow="5" IconSize="80" Name="ICON_ATLAS_DISTRICT_RAFOU"/>
+		<Row Filename="Icon_RAFOU_Districts_128" IconsPerColumn="1" IconsPerRow="5" IconSize="128" Name="ICON_ATLAS_DISTRICT_RAFOU"/>
+		<Row Filename="Icon_RAFOU_Districts_256" IconsPerColumn="1" IconsPerRow="5" IconSize="256" Name="ICON_ATLAS_DISTRICT_RAFOU"/>
+		<!--IMPROVEMENTS ICON-->
+		<Row Filename="Icon_RAFOU_Improvements_38" IconsPerColumn="1" IconsPerRow="2" IconSize="38" Name="ICON_ATLAS_IMPROVEMENTS_RAFOU"/>
+		<Row Filename="Icon_RAFOU_Improvements_50" IconsPerColumn="1" IconsPerRow="2" IconSize="50" Name="ICON_ATLAS_IMPROVEMENTS_RAFOU"/>
+		<Row Filename="Icon_RAFOU_Improvements_80" IconsPerColumn="1" IconsPerRow="2" IconSize="80" Name="ICON_ATLAS_IMPROVEMENTS_RAFOU"/>
+		<Row Filename="Icon_RAFOU_Improvements_256" IconsPerColumn="1" IconsPerRow="2" IconSize="256" Name="ICON_ATLAS_IMPROVEMENTS_RAFOU"/>		
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<!--BUILDING ICON-->
+		<Row Name="ICON_BUILDING_CAPTAINS_TAVERN" Atlas="ICON_ATLAS_BUILDING_RAFOU" Index="0"/>
+		<Row Name="ICON_BUILDING_JOUSTING_ARENA" Atlas="ICON_ATLAS_BUILDING_RAFOU" Index="1"/>
+		<Row Name="ICON_BUILDING_CRESCENT_CHAMBER" Atlas="ICON_ATLAS_BUILDING_RAFOU" Index="2"/>
+		<Row Name="ICON_BUILDING_SOLAR_OF_TULLYS_DAUGHTER_SCIENCE_T2" Atlas="ICON_ATLAS_BUILDING_RAFOU" Index="3"/>
+		<Row Name="ICON_BUILDING_SOLAR_OF_TULLYS_DAUGHTER_SCIENCE_T3" Atlas="ICON_ATLAS_BUILDING_RAFOU" Index="3"/>
+		<Row Name="ICON_BUILDING_SOLAR_OF_TULLYS_DAUGHTER_RELIGIOUS_T2" Atlas="ICON_ATLAS_BUILDING_RAFOU" Index="3"/>
+		<Row Name="ICON_BUILDING_SOLAR_OF_TULLYS_DAUGHTER_RELIGIOUS_T3" Atlas="ICON_ATLAS_BUILDING_RAFOU" Index="3"/>
+		<Row Name="ICON_BUILDING_SOLAR_OF_TULLYS_DAUGHTER_CULTURAL_T2" Atlas="ICON_ATLAS_BUILDING_RAFOU" Index="3"/>
+		<Row Name="ICON_BUILDING_SOLAR_OF_TULLYS_DAUGHTER_CULTURAL_T3" Atlas="ICON_ATLAS_BUILDING_RAFOU" Index="3"/>
+		<Row Name="ICON_BUILDING_SOLAR_OF_TULLYS_DAUGHTER_INDUSTRIAL_T2" Atlas="ICON_ATLAS_BUILDING_RAFOU" Index="3"/>
+		<Row Name="ICON_BUILDING_SOLAR_OF_TULLYS_DAUGHTER_INDUSTRIAL_T3" Atlas="ICON_ATLAS_BUILDING_RAFOU" Index="3"/>
+		<Row Name="ICON_BUILDING_SOLAR_OF_TULLYS_DAUGHTER_MILITARISTIC_T2" Atlas="ICON_ATLAS_BUILDING_RAFOU" Index="3"/>
+		<Row Name="ICON_BUILDING_SOLAR_OF_TULLYS_DAUGHTER_MILITARISTIC_T3" Atlas="ICON_ATLAS_BUILDING_RAFOU" Index="3"/>
+		<Row Name="ICON_BUILDING_SOLAR_OF_TULLYS_DAUGHTER_TRADE_T2" Atlas="ICON_ATLAS_BUILDING_RAFOU" Index="3"/>
+		<Row Name="ICON_BUILDING_SOLAR_OF_TULLYS_DAUGHTER_TRADE_T3" Atlas="ICON_ATLAS_BUILDING_RAFOU" Index="3"/>
+		<Row Name="ICON_BUILDING_DORNISH_CANAL" Atlas="ICON_ATLAS_BUILDING_RAFOU" Index="4"/>
+		<Row Name="ICON_BUILDING_DORNISH_SPIDER_CANAL" Atlas="ICON_ATLAS_BUILDING_RAFOU" Index="4"/>
+		<!--DISTRICTS ICON-->
+		<Row Name="ICON_DISTRICT_HEART_TREE" Atlas="ICON_ATLAS_DISTRICT_RAFOU" Index="0"/>
+		<Row Name="ICON_DISTRICT_SELLSWORDS_CAMP" Atlas="ICON_ATLAS_DISTRICT_RAFOU" Index="1"/>
+		<Row Name="ICON_DISTRICT_GATE_OF_THE_MOON" Atlas="ICON_ATLAS_DISTRICT_RAFOU" Index="2"/>
+		<Row Name="ICON_DISTRICT_THE_TWIN_TOWERS" Atlas="ICON_ATLAS_DISTRICT_RAFOU" Index="3"/>
+		<Row Name="ICON_DISTRICT_DRAGONPIT" Atlas="ICON_ATLAS_DISTRICT_RAFOU" Index="4"/>
+		<!--IMPROVEMENTS ICON-->
+		<Row Name="ICON_IMPROVEMENT_ARBOR_WINERY" Atlas="ICON_ATLAS_IMPROVEMENTS_RAFOU" Index="0"/>
+		<Row Name="ICON_IMPROVEMENT_WATER_GARDEN" Atlas="ICON_ATLAS_IMPROVEMENTS_RAFOU" Index="1"/>
+	</IconDefinitions>
+</GameData>

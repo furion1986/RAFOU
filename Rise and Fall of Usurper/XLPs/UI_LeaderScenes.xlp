@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>315</build>
+		<revision>805</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UI_LeaderScenes"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="BalonGreyjoy_Diplomacy"/>
+			<m_ObjectName text="BalonGreyjoy_Diplomacy"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DoranMartell_Diplomacy"/>
+			<m_ObjectName text="DoranMartell_Diplomacy"/>
+		</Element>
+		<Element>
+			<m_EntryID text="EddardStark_Diplomacy"/>
+			<m_ObjectName text="EddardStark_Diplomacy"/>
+		</Element>
+		<Element>
+			<m_EntryID text="HosterTully_Diplomacy"/>
+			<m_ObjectName text="HosterTully_Diplomacy"/>
+		</Element>
+		<Element>
+			<m_EntryID text="JonArryn_Diplomacy"/>
+			<m_ObjectName text="JonArryn_Diplomacy"/>
+		</Element>
+		<Element>
+			<m_EntryID text="MaceTyrell_Diplomacy"/>
+			<m_ObjectName text="MaceTyrell_Diplomacy"/>
+		</Element>
+		<Element>
+			<m_EntryID text="RhaegarTargaryen_Diplomacy"/>
+			<m_ObjectName text="RhaegarTargaryen_Diplomacy"/>
+		</Element>
+		<Element>
+			<m_EntryID text="RobertBaratheon_Diplomacy"/>
+			<m_ObjectName text="RobertBaratheon_Diplomacy"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TywinLannister_Diplomacy"/>
+			<m_ObjectName text="TywinLannister_Diplomacy"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

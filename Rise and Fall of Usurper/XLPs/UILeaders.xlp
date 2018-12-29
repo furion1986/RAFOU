@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>315</build>
+		<revision>805</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UILeaders"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="Leader_Balon_Greyjoy_Neutral"/>
+			<m_ObjectName text="Leader_Balon_Greyjoy_Neutral"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_EDDARD_STARK_NEUTRAL"/>
+			<m_ObjectName text="LEADER_EDDARD_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_TYWIN_LANNISTER_NEUTRAL"/>
+			<m_ObjectName text="LEADER_TYWIN_LANNISTER_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="LEADER_ROBERT_BARATHEON_NEUTRAL"/>
+			<m_ObjectName text="LEADER_ROBERT_BARATHEON_NEUTRAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Leader_Mace_Tyrell_Neutral"/>
+			<m_ObjectName text="Leader_Mace_Tyrell_Neutral"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Leader_Jon_Arryn_Neutral"/>
+			<m_ObjectName text="Leader_Jon_Arryn_Neutral"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

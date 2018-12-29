@@ -43,9 +43,20 @@
 		<Row Type="ABILITY_SAND_SNAKE_STRENGTH" Kind="KIND_ABILITY"/>
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 		<Row Kind="KIND_UNIT" Type="UNIT_TARGARYEN_DRAGON"/>
+		<!-- Unique Promotions for Dragon -->
+		<Row Type="PROMOTION_CLASS_DRAGON" Kind="KIND_PROMOTION_CLASS"/>
+		<!--Dragon-->
+		<Row Type="PROMOTION_DRAH_KAH_RIS" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_HARDENED_DRAGON_SCALE" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_SHIP_BURNER" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_STRONG_WINGS" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_A_DEEP_BREATH" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_LEGENDARY_REGENERATION" Kind="KIND_PROMOTION"/>
+		<Row Type="PROMOTION_BLACK_DREAD" Kind="KIND_PROMOTION"/>
 	</Types>
 	<UnitPromotionClasses>
 		<Row PromotionClassType="PROMOTION_CLASS_SAND_SNAKE" Name="LOC_PROMOTION_CLASS_SAND_SNAKE_NAME"/>
+		<Row PromotionClassType="PROMOTION_CLASS_DRAGON" Name="LOC_PROMOTION_CLASS_DRAGON_NAME"/>
 	</UnitPromotionClasses>
 	<UnitPromotions>
 		<Row UnitPromotionType="PROMOTION_WALK_IN_SHADOW" Name="LOC_PROMOTION_WALK_IN_SHADOW_NAME" Description="LOC_PROMOTION_WALK_IN_SHADOW_DESCRIPTION" Level="1" PromotionClass="PROMOTION_CLASS_SAND_SNAKE"/>
@@ -53,7 +64,24 @@
 		<Row UnitPromotionType="PROMOTION_ASSASSIN" Name="LOC_PROMOTION_ASSASSIN_NAME" Description="LOC_PROMOTION_ASSASSIN_DESCRIPTION" Level="1" PromotionClass="PROMOTION_CLASS_SAND_SNAKE"/>
 		<Row UnitPromotionType="PROMOTION_SCHOLAR" Name="LOC_PROMOTION_SCHOLAR_NAME" Description="LOC_PROMOTION_SCHOLAR_DESCRIPTION" Level="1" PromotionClass="PROMOTION_CLASS_SAND_SNAKE"/>
 		<Row UnitPromotionType="PROMOTION_SEDUCTION" Name="LOC_PROMOTION_SEDUCTION_NAME" Description="LOC_PROMOTION_SEDUCTION_DESCRIPTION" Level="1" PromotionClass="PROMOTION_CLASS_SAND_SNAKE"/>
+		<!-- Rhaegar Targaryen leads the Crownlands -->
+		<Row UnitPromotionType="PROMOTION_DRAH_KAH_RIS" Name="LOC_PROMOTION_DRAH_KAH_RIS_NAME" Description="LOC_PROMOTION_DRAH_KAH_RIS_DESCRIPTION" Level="1" Column="1" PromotionClass="PROMOTION_CLASS_DRAGON"/>
+		<Row UnitPromotionType="PROMOTION_HARDENED_DRAGON_SCALE" Name="LOC_PROMOTION_HARDENED_DRAGON_SCALE_NAME" Description="LOC_PROMOTION_HARDENED_DRAGON_SCALE_DESCRIPTION" Level="1" Column="3" PromotionClass="PROMOTION_CLASS_DRAGON"/>
+		<Row UnitPromotionType="PROMOTION_SHIP_BURNER" Name="LOC_PROMOTION_SHIP_BURNER_NAME" Description="LOC_PROMOTION_SHIP_BURNER_DESCRIPTION" Level="2" Column="1" PromotionClass="PROMOTION_CLASS_DRAGON"/>
+		<Row UnitPromotionType="PROMOTION_STRONG_WINGS" Name="LOC_PROMOTION_STRONG_WINGS_NAME" Description="LOC_PROMOTION_STRONG_WINGS_DESCRIPTION" Level="2" Column="3" PromotionClass="PROMOTION_CLASS_DRAGON"/>
+		<Row UnitPromotionType="PROMOTION_A_DEEP_BREATH" Name="LOC_PROMOTION_A_DEEP_BREATH_NAME" Description="LOC_PROMOTION_A_DEEP_BREATH_DESCRIPTION" Level="3" Column="1" PromotionClass="PROMOTION_CLASS_DRAGON"/>
+		<Row UnitPromotionType="PROMOTION_LEGENDARY_REGENERATION" Name="LOC_PROMOTION_LEGENDARY_REGENERATION_NAME" Description="LOC_PROMOTION_LEGENDARY_REGENERATION_DESCRIPTION" Level="3" Column="3" PromotionClass="PROMOTION_CLASS_DRAGON"/>
+		<Row UnitPromotionType="PROMOTION_BLACK_DREAD" Name="LOC_PROMOTION_BLACK_DREAD_NAME" Description="LOC_PROMOTION_BLACK_DREAD_DESCRIPTION" Level="4" Column="2" PromotionClass="PROMOTION_CLASS_DRAGON"/>
 	</UnitPromotions>
+	<UnitPromotionPrereqs>
+		<!--Recon-->
+		<Row UnitPromotion="PROMOTION_SHIP_BURNER" PrereqUnitPromotion="PROMOTION_DRAH_KAH_RIS"/>
+		<Row UnitPromotion="PROMOTION_STRONG_WINGS" PrereqUnitPromotion="PROMOTION_HARDENED_DRAGON_SCALE"/>
+		<Row UnitPromotion="PROMOTION_A_DEEP_BREATH" PrereqUnitPromotion="PROMOTION_SHIP_BURNER"/>
+		<Row UnitPromotion="PROMOTION_LEGENDARY_REGENERATION" PrereqUnitPromotion="PROMOTION_STRONG_WINGS"/>
+		<Row UnitPromotion="PROMOTION_BLACK_DREAD" PrereqUnitPromotion="PROMOTION_A_DEEP_BREATH"/>
+		<Row UnitPromotion="PROMOTION_BLACK_DREAD" PrereqUnitPromotion="PROMOTION_LEGENDARY_REGENERATION"/>
+	</UnitPromotionPrereqs>
 	<UnitPromotionModifiers>
 		<Row>
 			<UnitPromotionType>PROMOTION_WALK_IN_SHADOW</UnitPromotionType>
@@ -82,6 +110,35 @@
 		<Row>
 			<UnitPromotionType>PROMOTION_SEDUCTION</UnitPromotionType>
 			<ModifierId>CAPTURE_COMBAT_UNITS_AS_WORKERS</ModifierId>
+		</Row>		
+		<!-- Rhaegar Targaryen leads the Crownlands -->
+		<Row>
+			<UnitPromotionType>PROMOTION_DRAH_KAH_RIS</UnitPromotionType>
+			<ModifierId>DRAGON_BONUS_TO_LAND</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_HARDENED_DRAGON_SCALE</UnitPromotionType>
+			<ModifierId>DRAGON_BONUS_ANTIAIR</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_SHIP_BURNER</UnitPromotionType>
+			<ModifierId>DRAGON_BONUS_TO_NAVAL</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_STRONG_WINGS</UnitPromotionType>
+			<ModifierId>DRAGON_BONUS_RANGE</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_A_DEEP_BREATH</UnitPromotionType>
+			<ModifierId>DRAGON_BONUS_ANY</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_LEGENDARY_REGENERATION</UnitPromotionType>
+			<ModifierId>DRAGON_BONUS_HEALTH</ModifierId>
+		</Row>
+		<Row>
+			<UnitPromotionType>PROMOTION_BLACK_DREAD</UnitPromotionType>
+			<ModifierId>DRAGON_BONUS_AGAIN</ModifierId>
 		</Row>		
 	</UnitPromotionModifiers>
 	<Traits>
@@ -183,12 +240,12 @@
 		<!-- Hoster Tully leads the Riverlands -->
 		<Row UnitType="UNIT_BROTHERHOOD_WITHOUT_BANNERS" TraitType="TRAIT_CIVILIZATION_UNIT_BROTHERHOOD_WITHOUT_BANNERS" Cost="100" Maintenance="2" BaseMoves="2" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="36" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_MELEE" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_BROTHERHOOD_WITHOUT_BANNERS_NAME" Description="LOC_UNIT_BROTHERHOOD_WITHOUT_BANNERS_DESCRIPTION" PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_GUNPOWDER" PrereqTech="TECH_IRON_WORKING"/>
 		<Row UnitType="UNIT_BROTHERHOOD_WITHOUT_BANNERS_EXILE_KNIGHT" TraitType="TRAIT_DUMMY_UNIT_BROTHERHOOD_WITHOUT_BANNERS" Cost="100" Maintenance="2" BaseMoves="4" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="36" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_HEAVY_CAVALRY" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_BROTHERHOOD_WITHOUT_BANNERS_EXILE_KNIGHT_NAME" Description="LOC_UNIT_BROTHERHOOD_WITHOUT_BANNERS_EXILE_KNIGHT_DESCRIPTION" PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_GUNPOWDER" PrereqTech="TECH_IRON_WORKING"/>
-		<Row UnitType="UNIT_BROTHERHOOD_WITHOUT_BANNERS_LONGBOW" TraitType="TRAIT_DUMMY_UNIT_BROTHERHOOD_WITHOUT_BANNERS" Cost="100" Maintenance="2" BaseMoves="2" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="25" RangedCombat="35" Range="3"FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_RANGED" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_BROTHERHOOD_WITHOUT_BANNERS_LONGBOW_NAME" Description="LOC_UNIT_BROTHERHOOD_WITHOUT_BANNERS_LONGBOW_DESCRIPTION" PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_GUNPOWDER" PrereqTech="TECH_IRON_WORKING"/>
+		<Row UnitType="UNIT_BROTHERHOOD_WITHOUT_BANNERS_LONGBOW" TraitType="TRAIT_DUMMY_UNIT_BROTHERHOOD_WITHOUT_BANNERS" Cost="100" Maintenance="2" BaseMoves="2" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="25" RangedCombat="35" Range="3" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_RANGED" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_BROTHERHOOD_WITHOUT_BANNERS_LONGBOW_NAME" Description="LOC_UNIT_BROTHERHOOD_WITHOUT_BANNERS_LONGBOW_DESCRIPTION" PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_GUNPOWDER" PrereqTech="TECH_IRON_WORKING"/>
 		<Row UnitType="UNIT_BROTHERHOOD_WITHOUT_BANNERS_WARRIOR_MONK_OF_MYR" TraitType="TRAIT_DUMMY_UNIT_BROTHERHOOD_WITHOUT_BANNERS" Cost="100" Maintenance="2" BaseMoves="2" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="36" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_MELEE" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_BROTHERHOOD_WITHOUT_BANNERS_WARRIOR_MONK_OF_MYR_NAME" Description="LOC_UNIT_BROTHERHOOD_WITHOUT_BANNERS_WARRIOR_MONK_OF_MYR_DESCRIPTION" PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_GUNPOWDER" PrereqTech="TECH_IRON_WORKING"/>
 		<!-- Doran Martell leads Dorne -->
 		<Row UnitType="UNIT_SAND_SNAKE" TraitType="TRAIT_CIVILIZATION_UNIT_SAND_SNAKE" Cost="180" Maintenance="3" BaseMoves="2" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" Combat="40" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_ANTI_CAVALRY" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_SAND_SNAKE_NAME" Description="LOC_UNIT_SAND_SNAKE_DESCRIPTION" PurchaseYield="YIELD_GOLD" PrereqCivic="CIVIC_CIVIL_SERVICE"/>
 		<!-- Rhaegar Targaryen leads the Crownlands -->
-		<Row UnitType="UNIT_TARGARYEN_DRAGON" TraitType="TRAIT_CIVILIZATION_UNIT_TARGARYEN_DRAGON" Cost="300" Maintenance="12" BaseMoves="3" BaseSightRange="4" ZoneOfControl="false" Domain="DOMAIN_AIR" Combat="45" RangedCombat="45" Range="3" FormationClass="FORMATION_CLASS_AIR" PromotionClass="PROMOTION_CLASS_AIR_FIGHTER" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_TARGARYEN_DRAGON_NAME" Description="LOC_UNIT_TARGARYEN_DRAGON_DESCRIPTION" CanCapture="False" PurchaseYield="YIELD_FAITH" MustPurchase="TRUE" PseudoYieldType="PSEUDOYIELD_UNIT_AIR_COMBAT" IgnoreMoves="true" PrereqCivic="CIVIC_MYSTICISM" Stackable="TRUE" PrereqDistrict="DISTRICT_DRAGONPIT" CanTargetAir="TRUE"/>
+		<Row UnitType="UNIT_TARGARYEN_DRAGON" TraitType="TRAIT_CIVILIZATION_UNIT_TARGARYEN_DRAGON" Cost="300" Maintenance="12" BaseMoves="3" BaseSightRange="4" ZoneOfControl="false" Domain="DOMAIN_AIR" Combat="30" RangedCombat="45" Range="3" FormationClass="FORMATION_CLASS_AIR" PromotionClass="PROMOTION_CLASS_DRAGON" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_TARGARYEN_DRAGON_NAME" Description="LOC_UNIT_TARGARYEN_DRAGON_DESCRIPTION" CanCapture="False" PurchaseYield="YIELD_FAITH" MustPurchase="TRUE" PseudoYieldType="PSEUDOYIELD_UNIT_AIR_COMBAT" IgnoreMoves="true" PrereqCivic="CIVIC_MYSTICISM" Stackable="TRUE" PrereqDistrict="DISTRICT_DRAGONPIT" CanTargetAir="TRUE"/>
 	</Units>
 	<UnitAbilities>
 		<!-- Balon Greyjoy leads the Ironborn -->
@@ -317,6 +374,37 @@
 			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
 		</Row>
 		<!-- Rhaegar Targaryen leads the Crownlands -->
+		<Row>
+			<ModifierId>DRAGON_BONUS_TO_LAND</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>CLOSE_AIR_SUPPORT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>DRAGON_BONUS_TO_NAVAL</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>TORPEDO_BOMBER_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>DRAGON_BONUS_RANGE</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_ATTACK_RANGE</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>DRAGON_BONUS_ANTIAIR</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+			<SubjectRequirementSetId>EVASIVE_MANEUVERS_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>DRAGON_BONUS_ANY</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>DRAGON_BONUS_AGAIN</ModifierId>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>DRAGON_BONUS_HEALTH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_UNIT_GRANT_HEAL_AFTER_ACTION</ModifierType>
+		</Row>		
 	</Modifiers>
 	<ModifierArguments>
 		<!-- Balon Greyjoy leads the Ironborn -->
@@ -403,6 +491,36 @@
 			<Value>GREAT_PERSON_CLASS_SCIENTIST</Value>
 		</Row>
 		<!-- Rhaegar Targaryen leads the Crownlands -->
+		<Row>
+			<ModifierId>DRAGON_BONUS_TO_LAND</ModifierId>
+			<Name>Amount</Name>
+			<Value>12</Value>
+		</Row>
+		<Row>
+			<ModifierId>DRAGON_BONUS_TO_NAVAL</ModifierId>
+			<Name>Amount</Name>
+			<Value>17</Value>
+		</Row>
+		<Row>
+			<ModifierId>DRAGON_BONUS_ANTIAIR</ModifierId>
+			<Name>Amount</Name>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>DRAGON_BONUS_RANGE</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>DRAGON_BONUS_ANY</ModifierId>
+			<Name>Amount</Name>
+			<Value>12</Value>
+		</Row>
+		<Row>
+			<ModifierId>DRAGON_BONUS_AGAIN</ModifierId>
+			<Name>Amount</Name>
+			<Value>17</Value>
+		</Row>		
 	</ModifierArguments>
 	<ModifierStrings>
 		<!-- Balon Greyjoy leads the Ironborn -->
@@ -422,6 +540,11 @@
 		<Row ModifierId="SS_POST_COMBAT_SCIENCE" Context="Preview" Text="LOC_ABILITY_SAND_SNAKE_SCIENCE_DESCRIPTION"/>
 		<Row ModifierId="SS_POST_COMBAT_GS" Context="Preview" Text="LOC_ABILITY_SAND_SNAKE_SCIENTIST_DESCRIPTION"/>
 		<!-- Rhaegar Targaryen leads the Crownlands -->
+		<Row ModifierId="DRAGON_BONUS_TO_LAND" Context="Preview" Text="+{1_Amount} {LOC_PROMOTION_DRAH_KAH_RIS_NAME} {LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT}"/>
+		<Row ModifierId="DRAGON_BONUS_TO_NAVAL" Context="Preview" Text="+{1_Amount} {LOC_PROMOTION_SHIP_BURNER_NAME} {LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT}"/>
+		<Row ModifierId="DRAGON_BONUS_ANTIAIR" Context="Preview" Text="+{1_Amount} {LOC_PROMOTION_HARDENED_DRAGON_SCALE_NAME} {LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT}"/>
+		<Row ModifierId="DRAGON_BONUS_ANY" Context="Preview" Text="+{1_Amount} {LOC_PROMOTION_A_DEEP_BREATH_NAME} {LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT}"/>
+		<Row ModifierId="DRAGON_BONUS_AGAIN" Context="Preview" Text="+{1_Amount} {LOC_PROMOTION_BLACK_DREAD_NAME} {LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT}"/>
 	</ModifierStrings>
 	<UnitAiInfos>
 		<!-- Balon Greyjoy leads the Ironborn -->
