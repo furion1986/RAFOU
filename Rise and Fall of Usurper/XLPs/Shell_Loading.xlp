@@ -69,6 +69,10 @@
 			<m_EntryID text="Leader_Jon_Arryn_Foreground"/>
 			<m_ObjectName text="Leader_Jon_Arryn_Foreground"/>
 		</Element>
+		<Element>
+			<m_EntryID text="Leader_HosterTully_Foreground"/>
+			<m_ObjectName text="Leader_HosterTully_Foreground"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

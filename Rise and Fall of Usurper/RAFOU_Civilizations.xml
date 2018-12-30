@@ -363,7 +363,7 @@
 		<!-- Jon Arryn leads the Vale -->
 		<Row LeaderType="LEADER_JON_ARRYN" PlayDawnOfManAudio="0" BackgroundImage="TheVale_background" ForegroundImage="Leader_Jon_Arryn_Foreground"/>
 		<!-- Hoster Tully leads the Riverlands -->
-		<Row LeaderType="LEADER_HOSTER_TULLY" PlayDawnOfManAudio="0" BackgroundImage="TheRiverlands_background" ForegroundImage="HOSTERTULLY_Foreground"/>		
+		<Row LeaderType="LEADER_HOSTER_TULLY" PlayDawnOfManAudio="0" BackgroundImage="TheRiverlands_background" ForegroundImage="Leader_HosterTully_Foreground"/>		
 		<!-- Doran Martell leads Dorne -->
 		<Row LeaderType="LEADER_DORAN_MARTELL" PlayDawnOfManAudio="0" BackgroundImage="Dorne_background" ForegroundImage="DORANMARTELL_Foreground"/>			
 		<!-- Rhaegar Targaryen leads the Crownlands -->

@@ -33,6 +33,10 @@
 			<m_EntryID text="Fallback_Neutral_Jon_Arryn"/>
 			<m_ObjectName text="Fallback_Neutral_Jon_Arryn"/>
 		</Element>
+		<Element>
+			<m_EntryID text="Fallback_Neutral_HosterTully"/>
+			<m_ObjectName text="Fallback_Neutral_HosterTully"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

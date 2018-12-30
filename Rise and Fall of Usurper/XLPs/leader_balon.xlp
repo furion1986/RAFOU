@@ -33,6 +33,10 @@
 			<m_EntryID text="Leader_JonArryn"/>
 			<m_ObjectName text="Leader_JonArryn"/>
 		</Element>
+		<Element>
+			<m_EntryID text="Leader_HosterTully"/>
+			<m_ObjectName text="Leader_HosterTully"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>
