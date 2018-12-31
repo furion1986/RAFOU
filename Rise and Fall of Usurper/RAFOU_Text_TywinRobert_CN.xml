@@ -2,107 +2,107 @@
 <GameData>
 	<LocalizedText>
 		<Replace Tag="LOC_CIVILIZATION_THE_WESTERLANDS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Kingdom of The Westerlands</Text>
+			<Text>西境王国</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_WESTERLANDS_ADJECTIVE" Language="zh_Hans_CN">
-			<Text>The Westerlands</Text>
+			<Text>西境之民</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_HAMMER_AND_ANVIL_NAME" Language="zh_Hans_CN">
-			<Text>Hammer and Anvil</Text>
+			<Text>铁锤和铁砧</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_HAMMER_AND_ANVIL_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>+10 [ICON_Strength] Combat Strength to Melee and Anti-Cavalry units when defending. +50% Flanking Bonus to Light and Heavy Cavalry units. +5 [ICON_Strength] Combat Strength to Ranged and Siege units when attacking wounded unit.</Text>
+			<Text>近战和抗骑兵单位在防御时+10 [ICON_Strength] 战斗力。远程和攻城单位在攻击受伤单位时+5 [ICON_Strength] 战斗力。轻重骑兵单位获得50%夹击加成。</Text>
 		</Replace>
 		<Replace Tag="LOC_LEADER_TYWIN_LANNISTER_QUOTE" Language="zh_Hans_CN">
-			<Text>Some battles are won with swords and spears, others with quills and ravens.</Text>
+			<Text>有些战斗是用剑和枪打赢的，还有一些用的是笔和乌鸦打赢的。</Text>
 		</Replace>
 		
 		<Replace Tag="LOC_CIVILIZATION_THE_STORMLANDS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Kingdom of The Stormlands</Text>
+			<Text>风暴王国</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_STORMLANDS_ADJECTIVE" Language="zh_Hans_CN">
-			<Text>The Stormlands</Text>
+			<Text>风暴之民</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_THE_USURPER_NAME" Language="zh_Hans_CN">
-			<Text>The Usurper</Text>
+			<Text>篡夺者</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_THE_USURPER_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Upon major civilization city conquered by Robert Baratheon, grant a free Technology or Civic that the conquered city owner already has and is available to Robert Baratheon.</Text>
+			<Text>征服主流文明的城市后获得一个免费科技或人文。 获得的科技和人文将从，被征服城市原所属文明已有的，并且您当前可研究的科技人文中随机抽取。</Text>
 		</Replace>
 		<Replace Tag="LOC_LEADER_ROBERT_BARATHEON_QUOTE" Language="zh_Hans_CN">
-			<Text>I swear to you, I was never so alive as when I was winning this throne, or so dead as now that I've won it.</Text>
+			<Text>跟你发誓，赢得王位的时候我感到从未有过的活力，可坐上王位之后是从未想过的死气沉沉。</Text>
 		</Replace>
 		
 		<Replace Tag="LOC_DISTRICT_SELLSWORDS_CAMP_COMMERCIAL_HUB_GOLD" Language="zh_Hans_CN">
-			<Text>+{1_num} [ICON_Gold] Gold from the adjacent Commercial Hub.</Text>
+			<Text>从相邻的商业中心获得+{1_num} [ICON_Gold] 金币。</Text>
 		</Replace>		
 
 		<!--City Names-->
 		<Replace Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_1" Language="zh_Hans_CN">
-			<Text>Casterly Rock</Text>
+			<Text>凯岩城</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_2" Language="zh_Hans_CN">
-			<Text>Ashemark</Text>
+			<Text>烙印城</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_3" Language="zh_Hans_CN">
-			<Text>Banefort</Text>
+			<Text>祸垒</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_4" Language="zh_Hans_CN">
-			<Text>Castamere</Text>
+			<Text>卡斯特梅城</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_5" Language="zh_Hans_CN">
-			<Text>Clegane's Keep</Text>
+			<Text>克里冈堡</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_6" Language="zh_Hans_CN">
-			<Text>Cornfield</Text>
+			<Text>玉米城</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_7" Language="zh_Hans_CN">
-			<Text>Crag</Text>
+			<Text>峭岩城</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_8" Language="zh_Hans_CN">
-			<Text>Crakehall</Text>
+			<Text>秧鸡厅</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_9" Language="zh_Hans_CN">
-			<Text>Deep Den</Text>
+			<Text>深穴城</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_10" Language="zh_Hans_CN">
-			<Text>Faircastle</Text>
+			<Text>仙女城</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_11" Language="zh_Hans_CN">
-			<Text>Feastfires</Text>
+			<Text>宴火镇</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_12" Language="zh_Hans_CN">
-			<Text>Golden Tooth</Text>
+			<Text>金牙城</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_13" Language="zh_Hans_CN">
-			<Text>Greenfield</Text>
+			<Text>绿地城</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_14" Language="zh_Hans_CN">
-			<Text>Hornvale</Text>
+			<Text>角谷城</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_15" Language="zh_Hans_CN">
-			<Text>Kayce</Text>
+			<Text>凯切镇</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_16" Language="zh_Hans_CN">
-			<Text>Lannisport</Text>
+			<Text>兰尼斯港</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_17" Language="zh_Hans_CN">
-			<Text>Oxcross</Text>
+			<Text>牛津镇</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_18" Language="zh_Hans_CN">
-			<Text>Riverspring</Text>
+			<Text>河泉城</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_19" Language="zh_Hans_CN">
-			<Text>Sarsfield</Text>
+			<Text>萨斯菲尔德城</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_20" Language="zh_Hans_CN">
-			<Text>Silverhill</Text>
+			<Text>银山城</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_21" Language="zh_Hans_CN">
-			<Text>Tarbeck Hall</Text>
+			<Text>塔贝克厅</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_WESTERLANDS_CITY_22" Language="zh_Hans_CN">
-			<Text>Wyndhall</Text>
+			<Text>狭厅</Text>
 		</Replace>		
 		<!--CITIZEN NAMES-->
 		<Replace Tag="LOC_CITIZEN_THE_WESTERLANDS_MALE_1" Language="zh_Hans_CN">
