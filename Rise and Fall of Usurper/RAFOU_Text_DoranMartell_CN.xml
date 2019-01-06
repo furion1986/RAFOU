@@ -2,23 +2,26 @@
 <GameData>
 	<LocalizedText>
 		<Replace Tag="LOC_CIVILIZATION_DORNE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Kingdom of Dorne</Text>
+			<Text>多恩王国 </Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_DORNE_ADJECTIVE" Language="zh_Hans_CN">
-			<Text>Dorne</Text>
+			<Text>多恩</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_A_BIG_GAME_OF_CYVASSE_NAME" Language="zh_Hans_CN">
-			<Text>A Big Game of Cyvasse</Text>
+			<Text>一盘大席瓦斯棋</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_A_BIG_GAME_OF_CYVASSE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Receives a free Spy (and extra spy capacity) with the Civil Service civic.[NEWLINE]Your Spy level is increased by 1 for offensive operations.</Text>
+			<Text>于行政事务获得一名免费间谍(以及额外的间谍名额)。[NEWLINE]你的间谍执行攻击性任务时成功等级加1。</Text>
 		</Replace>
 		<Replace Tag="LOC_LEADER_DORAN_MARTELL_QUOTE" Language="zh_Hans_CN">
 			<Text>I am not blind, nor deaf. I know you all believe me weak, frightened, feeble. Your father knew me better. Oberyn was ever the viper. Deadly, dangerous, unpredictable. No man dared tread on him. I was the grass. Pleasant, complaisant, sweet-smelling, swaying with every breeze. Who fears to walk upon the grass? But it is the grass that hides the viper from his enemies and shelters him until he strikes.</Text>
 		</Replace>
 		
+		<Replace Tag="LOC_DM_HOME_COMBAT_BONUS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>来自玩家领土的+{1_Amount}战斗力 (不屈不挠)</Text>
+		</Replace>	
 		<Replace Tag="LOC_BUILDING_DORNISH_CANAL_NAME" Language="zh_Hans_CN">
-			<Text>Dornish Canal</Text>
+			<Text>多恩运河</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_DORNISH_CANAL_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>Dornish people developed such system to provide irrigation to desert lands.</Text>

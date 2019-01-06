@@ -574,6 +574,7 @@
 				<Element text="UILeaders"/>
 				<Element text="UI/Shell_Loading"/>
 				<Element text="UI_LeaderScenes"/>
+				<Element text="UI_HistoricMoments"/>
 			</relativePackagePaths>
 		</Element>
 		<Element>

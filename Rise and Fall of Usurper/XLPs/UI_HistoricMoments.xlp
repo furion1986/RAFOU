@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>315</build>
+		<revision>805</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="UI_HistoricMoments"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="HM_GatesOfTheMoon"/>
+			<m_ObjectName text="HM_GatesOfTheMoon"/>
+		</Element>
+		<Element>
+			<m_EntryID text="HM_IronLongship"/>
+			<m_ObjectName text="HM_IronLongship"/>
+		</Element>
+		<Element>
+			<m_EntryID text="HM_MountainClan"/>
+			<m_ObjectName text="HM_MountainClan"/>
+		</Element>
+		<Element>
+			<m_EntryID text="HM_ValeKnights"/>
+			<m_ObjectName text="HM_ValeKnights"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

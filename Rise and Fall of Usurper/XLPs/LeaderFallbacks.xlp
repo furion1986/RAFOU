@@ -37,6 +37,14 @@
 			<m_EntryID text="Fallback_Neutral_HosterTully"/>
 			<m_ObjectName text="Fallback_Neutral_HosterTully"/>
 		</Element>
+		<Element>
+			<m_EntryID text="Fallback_Neutral_DoranMartell"/>
+			<m_ObjectName text="Fallback_Neutral_DoranMartell"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Fallback_Neutral_Rhaegar_Targaryen"/>
+			<m_ObjectName text="Fallback_Neutral_Rhaegar_Targaryen"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

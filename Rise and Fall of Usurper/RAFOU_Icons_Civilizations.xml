@@ -15,6 +15,15 @@
 		<Row Filename="RAFOU_ICONS_CIVILIZATIONS_80" IconsPerColumn="3" IconsPerRow="3" IconSize="80" Name="ICON_ATLAS_RAFOU_CIVS"/>
 		<Row Filename="RAFOU_ICONS_CIVILIZATIONS_128" IconsPerColumn="3" IconsPerRow="3" IconSize="128" Name="ICON_ATLAS_RAFOU_CIVS"/>
 		<Row Filename="RAFOU_ICONS_CIVILIZATIONS_256" IconsPerColumn="3" IconsPerRow="3" IconSize="256" Name="ICON_ATLAS_RAFOU_CIVS"/>
+		<!--LEADER ICON-->
+		<Row Filename="ICONS_RAFOU_LEADERS_32" IconsPerColumn="3" IconsPerRow="3" IconSize="32" Name="ICON_ATLAS_RAFOU_LEADERS"/>
+		<Row Filename="ICONS_RAFOU_LEADERS_45" IconsPerColumn="3" IconsPerRow="3" IconSize="45" Name="ICON_ATLAS_RAFOU_LEADERS"/>
+		<Row Filename="ICONS_RAFOU_LEADERS_48" IconsPerColumn="3" IconsPerRow="3" IconSize="48" Name="ICON_ATLAS_RAFOU_LEADERS"/>
+		<Row Filename="ICONS_RAFOU_LEADERS_50" IconsPerColumn="3" IconsPerRow="3" IconSize="50" Name="ICON_ATLAS_RAFOU_LEADERS"/>
+		<Row Filename="ICONS_RAFOU_LEADERS_55" IconsPerColumn="3" IconsPerRow="3" IconSize="55" Name="ICON_ATLAS_RAFOU_LEADERS"/>
+		<Row Filename="ICONS_RAFOU_LEADERS_64" IconsPerColumn="3" IconsPerRow="3" IconSize="64" Name="ICON_ATLAS_RAFOU_LEADERS"/>
+		<Row Filename="ICONS_RAFOU_LEADERS_80" IconsPerColumn="3" IconsPerRow="3" IconSize="80" Name="ICON_ATLAS_RAFOU_LEADERS"/>
+		<Row Filename="ICONS_RAFOU_LEADERS_256" IconsPerColumn="3" IconsPerRow="3" IconSize="256" Name="ICON_ATLAS_RAFOU_LEADERS"/>
 	</IconTextureAtlases>
 	<IconDefinitions>
 		<!--CIVILIZATION ICON-->
@@ -27,5 +36,15 @@
 		<Row Name="ICON_CIVILIZATION_THE_RIVERLANDS" Atlas="ICON_ATLAS_RAFOU_CIVS" Index="7"/>
 		<Row Name="ICON_CIVILIZATION_DORNE" Atlas="ICON_ATLAS_RAFOU_CIVS" Index="8"/>
 		<Row Name="ICON_CIVILIZATION_THE_CROWNLANDS" Atlas="ICON_ATLAS_RAFOU_CIVS" Index="5"/>
+		<!--LEADER ICON-->
+		<Row Name="ICON_LEADER_BALON_GREYJOY" Atlas="ICON_ATLAS_RAFOU_LEADERS" Index="0"/>
+		<Row Name="ICON_LEADER_EDDARD_STARK" Atlas="ICON_ATLAS_RAFOU_LEADERS" Index="1"/>
+		<Row Name="ICON_LEADER_TYWIN_LANNISTER" Atlas="ICON_ATLAS_RAFOU_LEADERS" Index="3"/>
+		<Row Name="ICON_LEADER_ROBERT_BARATHEON" Atlas="ICON_ATLAS_RAFOU_LEADERS" Index="4"/>
+		<Row Name="ICON_LEADER_MACE_TYRELL" Atlas="ICON_ATLAS_RAFOU_LEADERS" Index="2"/>
+		<Row Name="ICON_LEADER_JON_ARRYN" Atlas="ICON_ATLAS_RAFOU_LEADERS" Index="6"/>
+		<Row Name="ICON_LEADER_HOSTER_TULLY" Atlas="ICON_ATLAS_RAFOU_LEADERS" Index="7"/>
+		<Row Name="ICON_LEADER_DORAN_MARTELL" Atlas="ICON_ATLAS_RAFOU_LEADERS" Index="8"/>
+		<Row Name="ICON_LEADER_RHAEGAR_TARGARYEN" Atlas="ICON_ATLAS_RAFOU_LEADERS" Index="5"/>
 	</IconDefinitions>
 </GameData>

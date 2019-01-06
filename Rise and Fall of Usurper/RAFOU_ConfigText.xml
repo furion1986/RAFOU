@@ -353,7 +353,7 @@
 		</Row>
 
 		<Row Tag="LOC_TRAIT_CIVILIZATION_THE_CROWNLANDS_DESCRIPTION">
-			<Text>+100% Loyalty Pressure from your cities' [ICON_CITIZEN] Population.[NEWLINE] Cities with full Loyalty yield extra 25% [ICON_SCIENCE] Science, [ICON_CULTURE] Culture and [ICON_Faith] Faith.[NEWLINE]But The Crownlands may not produce Settlers. Settlers captured or obtained with any other method will turn into Builders if Capital CIty is already founded.</Text>
+			<Text>+100% Loyalty Pressure from your cities' [ICON_CITIZEN] Population.[NEWLINE] Cities with full Loyalty yield extra 25% [ICON_SCIENCE] Science, [ICON_CULTURE] Culture and [ICON_Faith] Faith.[NEWLINE]But The Crownlands may not produce Settlers. Settlers captured or obtained with any other method will turn into Builders if Capital City is already founded.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_RHAEGAR_TARGARYEN_NAME">
 			<Text>The Silver Prince</Text>

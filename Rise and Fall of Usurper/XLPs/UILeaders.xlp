@@ -37,6 +37,14 @@
 			<m_EntryID text="Leader_HosterTully_Neutral"/>
 			<m_ObjectName text="Leader_HosterTully_Neutral"/>
 		</Element>
+		<Element>
+			<m_EntryID text="Leader_Doran_Martell_Neutral"/>
+			<m_ObjectName text="Leader_Doran_Martell_Neutral"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Leader_Rhaegar_Targaryen_Neutral"/>
+			<m_ObjectName text="Leader_Rhaegar_Targaryen_Neutral"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

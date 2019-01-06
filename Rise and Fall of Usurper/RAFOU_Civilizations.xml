@@ -365,9 +365,9 @@
 		<!-- Hoster Tully leads the Riverlands -->
 		<Row LeaderType="LEADER_HOSTER_TULLY" PlayDawnOfManAudio="0" BackgroundImage="TheRiverlands_background" ForegroundImage="Leader_HosterTully_Foreground"/>		
 		<!-- Doran Martell leads Dorne -->
-		<Row LeaderType="LEADER_DORAN_MARTELL" PlayDawnOfManAudio="0" BackgroundImage="Dorne_background" ForegroundImage="DORANMARTELL_Foreground"/>			
+		<Row LeaderType="LEADER_DORAN_MARTELL" PlayDawnOfManAudio="0" BackgroundImage="Dorne_background" ForegroundImage="Leader_Doran_Martell_Foreground"/>			
 		<!-- Rhaegar Targaryen leads the Crownlands -->
-		<Row LeaderType="LEADER_RHAEGAR_TARGARYEN" PlayDawnOfManAudio="0" BackgroundImage="KingsLanding_background" ForegroundImage="RHAEGARTARGARYEN_Foreground"/>	
+		<Row LeaderType="LEADER_RHAEGAR_TARGARYEN" PlayDawnOfManAudio="0" BackgroundImage="KingsLanding_background" ForegroundImage="Leader_Rhaegar_Targaryen_Foreground"/>	
 	</LoadingInfo>
 	<DiplomacyInfo>
 		<!-- Balon Greyjoy leads the Ironborn -->

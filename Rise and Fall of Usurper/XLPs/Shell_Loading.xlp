@@ -73,6 +73,14 @@
 			<m_EntryID text="Leader_HosterTully_Foreground"/>
 			<m_ObjectName text="Leader_HosterTully_Foreground"/>
 		</Element>
+		<Element>
+			<m_EntryID text="Leader_Doran_Martell_Foreground"/>
+			<m_ObjectName text="Leader_Doran_Martell_Foreground"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Leader_Rhaegar_Targaryen_Foreground"/>
+			<m_ObjectName text="Leader_Rhaegar_Targaryen_Foreground"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

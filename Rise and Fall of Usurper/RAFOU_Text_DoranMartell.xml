@@ -17,6 +17,9 @@
 			<Text>I am not blind, nor deaf. I know you all believe me weak, frightened, feeble. Your father knew me better. Oberyn was ever the viper. Deadly, dangerous, unpredictable. No man dared tread on him. I was the grass. Pleasant, complaisant, sweet-smelling, swaying with every breeze. Who fears to walk upon the grass? But it is the grass that hides the viper from his enemies and shelters him until he strikes.</Text>
 		</Row>
 		
+		<Row Tag="LOC_DM_HOME_COMBAT_BONUS_DESCRIPTION">
+			<Text>+{1_Amount} Combat Strength in home territory (Unbowed, Unbent, Unbroken)</Text>
+		</Row>	
 		<Row Tag="LOC_BUILDING_DORNISH_CANAL_NAME">
 			<Text>Dornish Canal</Text>
 		</Row>

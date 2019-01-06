@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<MomentIllustrations>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_IRON_LONGSHIP" Texture="HM_IronLongship"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_MOUNTAIN_CLAN" Texture="HM_MountainClan"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_VALE_KNIGHT" Texture="HM_ValeKnights"/>
+		
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_DISTRICT" MomentDataType="MOMENT_DATA_DISTRICT" GameDataType="DISTRICT_GATE_OF_THE_MOON" Texture="HM_GatesOfTheMoon"/>
+	</MomentIllustrations>
+</GameData>

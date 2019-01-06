@@ -149,6 +149,62 @@
 			<m_EntryID text="Icon_RAFOU_Improvements_80"/>
 			<m_ObjectName text="Icon_RAFOU_Improvements_80"/>
 		</Element>
+		<Element>
+			<m_EntryID text="RAFOIAF_UnitPortraits_200"/>
+			<m_ObjectName text="RAFOIAF_UnitPortraits_200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="RAFOIAF_UnitPortraits_256"/>
+			<m_ObjectName text="RAFOIAF_UnitPortraits_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="RAFOIAF_UnitPortraits_38"/>
+			<m_ObjectName text="RAFOIAF_UnitPortraits_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="RAFOIAF_UnitPortraits_50"/>
+			<m_ObjectName text="RAFOIAF_UnitPortraits_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="RAFOIAF_UnitPortraits_70"/>
+			<m_ObjectName text="RAFOIAF_UnitPortraits_70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="RAFOIAF_UnitPortraits_95"/>
+			<m_ObjectName text="RAFOIAF_UnitPortraits_95"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICONS_RAFOU_LEADERS_45"/>
+			<m_ObjectName text="ICONS_RAFOU_LEADERS_135"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICONS_RAFOU_LEADERS_256"/>
+			<m_ObjectName text="ICONS_RAFOU_LEADERS_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICONS_RAFOU_LEADERS_32"/>
+			<m_ObjectName text="ICONS_RAFOU_LEADERS_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICONS_RAFOU_LEADERS_48"/>
+			<m_ObjectName text="ICONS_RAFOU_LEADERS_48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICONS_RAFOU_LEADERS_50"/>
+			<m_ObjectName text="ICONS_RAFOU_LEADERS_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICONS_RAFOU_LEADERS_55"/>
+			<m_ObjectName text="ICONS_RAFOU_LEADERS_55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICONS_RAFOU_LEADERS_64"/>
+			<m_ObjectName text="ICONS_RAFOU_LEADERS_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICONS_RAFOU_LEADERS_80"/>
+			<m_ObjectName text="ICONS_RAFOU_LEADERS_80"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>
