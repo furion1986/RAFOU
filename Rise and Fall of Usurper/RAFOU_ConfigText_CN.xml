@@ -3,363 +3,363 @@
 	<LocalizedText>
 		<!-- Balon Greyjoy leads the Ironborn -->
 		<Replace Tag="LOC_UNIT_IRON_LONGSHIP_NAME" Language="zh_Hans_CN">
-			<Text>Iron Longship</Text>
+			<Text>铁民长船</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_IRON_LONGSHIP_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>Ironborns' unique Classical era unit. High mobility ships designed specially for pilliaging. Can capture enemy ships. Cannot be seen unless adjacent to it.</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_THRALL_NAME" Language="zh_Hans_CN">
-			<Text>Thrall</Text>
+			<Text>盐奴</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_THRALL_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>Ironborns' unique builder unit. Cannot only be purchased with [ICON_Faith] Faith or captured through combat.[NEWLINE]Requires Captains Tavern in the city. Can embark after Astrology. May not construct Farm.</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_CAPTAINS_TAVERN_NAME" Language="zh_Hans_CN">
-			<Text>Captains Tavern</Text>
+			<Text>船长酒馆</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_CAPTAINS_TAVERN_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>A building unique to Ironborn that replaces Watermill.[NEWLINE]Unlocks at Sailing Technology. Does not have river adjacency requirement. Provide +2  [ICON_Housing] Housing in the city. Provide a [ICON_GREATADMIRAL] Great Admiral point.[NEWLINE]Fishing Boats gain +2 [ICON_Faith] Faith, +1 [ICON_GOLD] Gold,and +1 [ICON_PRODUCTION] Production.[NEWLINE]Grant a Thrall unit int the city upon completion.</Text>
 		</Replace>
 		<Replace Tag="LOC_LEADER_BALON_GREYJOY_NAME" Language="zh_Hans_CN">
-			<Text>Balon Greyjoy</Text>
+			<Text>巴隆·葛雷乔伊</Text>
 		</Replace>
 		<Replace Tag="LOC_LOADING_INFO_LEADER_BALON_GREYJOY" Language="zh_Hans_CN">
 			<Text>"I am the Greyjoy, Lord Reaper of Pyke, King of Salt and Rock, Son of the Sea Wind, and no man gives me a crown. I pay the iron price. I will take my crown, as Urron Redhand did five thousand years ago." - Balon Greyjoy</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_IRONBORN_NAME" Language="zh_Hans_CN">
-			<Text>The Ironborns</Text>
+			<Text>铁民</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_IRONBORN_NAME" Language="zh_Hans_CN">
-			<Text>We Do Not Sow</Text>
+			<Text>强取胜于苦耕</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_IRONBORN_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>Fishing Boats +1 [ICON_FOOD] Food but Farms -1 [ICON_FOOD] Food.[NEWLINE]All land and naval melee units can capture defeated enemy civilization combat units and convert them to Thralls.</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_BALON_GREYJOY_NAME" Language="zh_Hans_CN">
-			<Text>The Iron Fleet</Text>
+			<Text>铁舰队</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_BALON_GREYJOY_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>+1 [ICON_Movement] Movement and +5 [ICON_Strength] Combat Strength to all naval units.[NEWLINE]+100% [ICON_PRODUCTION] Production when constructing Harbor District.</Text>
 		</Replace>
 		<!-- Eddard Stark leads the North -->
 		<Replace Tag="LOC_UNIT_MOUNTAIN_CLAN_NAME" Language="zh_Hans_CN">
-			<Text>Mountain Clan</Text>
+			<Text>山地氏族</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_MOUNTAIN_CLAN_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>The North's unique ancient era recon unit. Replaces Scout.[NEWLINE]Has combat strength bonus on Tundra and Snow terrains.</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_HEART_TREE_NAME" Language="zh_Hans_CN">
-			<Text>Godswood</Text>
+			<Text>神木林</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_HEART_TREE_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>A district unqiue to The North that replaces Holy Site.[NEWLINE]Gain +1 [ICON_Faith] Faith for each forest adjacent to it. [NEWLINE]Provides +1 [ICON_Science] Science to forest tiles in the city.[NEWLINE]+1 [ICON_Envoy] Envoy upon completion of Godswood.</Text>
 		</Replace>
 		<Replace Tag="LOC_LEADER_EDDARD_STARK_NAME" Language="zh_Hans_CN">
-			<Text>Eddard Stark</Text>
+			<Text>艾德·史塔克</Text>
 		</Replace>
 		<Replace Tag="LOC_LOADING_INFO_LEADER_EDDARD_STARK" Language="zh_Hans_CN">
 			<Text>"The blood of the First Men still flows in the veins of the Starks, and we hold to the belief that the man who passes the sentence should swing the sword. If you would take a man’s life, you owe it to him to look into his eyes and hear his final words. And if you cannot bear to do that, then perhaps the man does not deserve to die." - Eddard Stark</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_NORTH_NAME" Language="zh_Hans_CN">
-			<Text>The North</Text>
+			<Text>北境</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_THE_NORTH_NAME" Language="zh_Hans_CN">
-			<Text>Winter Is Coming</Text>
+			<Text>凛冬将至</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_THE_NORTH_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>All Tundra and Snow tiles in territory yield extra +1 [ICON_Food] Food, +1 [ICON_Production] Production and +1 [ICON_Culture] Culture.</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_EDDARD_STARK_NAME" Language="zh_Hans_CN">
-			<Text>The North Remembers</Text>
+			<Text>北境不忘</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_EDDARD_STARK_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>+5% [ICON_Faith] Faith per city-state you are the Suzerain of. Can purchase civilians and traders with [ICON_Faith] Faith.</Text>
 		</Replace>
 		<!-- Tywin Lannister leads the Westerlands -->
 		<Replace Tag="LOC_UNIT_SELLSWORDS_NAME" Language="zh_Hans_CN">
-			<Text>Sellswords</Text>
+			<Text>雇佣兵</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SELLSWORDS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>The Westerlands' unique Medieval era units. Randomly spawn Swordsman, Pikeman or Marksman on purchase and can move instantly.[NEWLINE]Combat victories provide [ICON_GOLD] Gold equal to 75% of the [ICON_Strength] Combat Strength of the defeated unit.</Text>
+			<Text>西境独特的中世纪单位。购买后随机出现剑士，枪兵或者弩手中的一种，并且可以立刻行动。[NEWLINE]战斗胜利会获得相当于所战胜单位 75% [ICON_Strength]战斗力的[ICON_GOLD]金钱。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SELLSWORDS_SWORDSMAN_NAME" Language="zh_Hans_CN">
-			<Text>Sellswords Swordsman</Text>
+			<Text>雇佣剑士</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SELLSWORDS_SWORDSMAN_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Melee class Sellswords unit. Combat victories provide [ICON_GOLD] Gold equal to 75% of the [ICON_Strength] Combat Strength of the defeated unit.</Text>
+			<Text>近战类型雇佣兵。战斗胜利会获得相当于所战胜单位75%[ICON_Strength]战斗力的[ICON_GOLD]金钱。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SELLSWORDS_PIKEMAN_NAME" Language="zh_Hans_CN">
-			<Text>Sellswords Pikeman</Text>
+			<Text>雇佣枪兵</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SELLSWORDS_PIKEMAN_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Anit-Cavalry class Sellswords unit. Combat victories provide [ICON_GOLD] Gold equal to 75% of the [ICON_Strength] Combat Strength of the defeated unit.</Text>
+			<Text>反骑类型雇佣兵。战斗胜利会获得相当于所战胜单位75%[ICON_Strength]战斗力的[ICON_GOLD]金钱。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SELLSWORDS_MARKSMAN_NAME" Language="zh_Hans_CN">
-			<Text>Sellswords Marksman</Text>
+			<Text>雇佣弩手</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SELLSWORDS_MARKSMAN_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Ranged class Sellswords unit. Combat victories provide [ICON_GOLD] Gold equal to 75% of the [ICON_Strength] Combat Strength of the defeated unit.</Text>
+			<Text>远程类型雇佣兵。战斗胜利会获得相当于所战胜单位75%[ICON_Strength]战斗力的[ICON_GOLD]金钱。</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_SELLSWORDS_CAMP_NAME" Language="zh_Hans_CN">
-			<Text>Sellswords Camp</Text>
+			<Text>雇佣兵营帐</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_SELLSWORDS_CAMP_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>A district unique to Westerlands replacing Encampment. +2 [ICON_GOLD] Gold bonus if adjacent to a Commercial Hub district. +2 [ICON_GreatMerchant] Great Merchant point for each citizen working on Sellswords Camp.</Text>
 		</Replace>
 		<Replace Tag="LOC_LEADER_TYWIN_LANNISTER_NAME" Language="zh_Hans_CN">
-			<Text>Tywin Lannister</Text>
+			<Text>泰温·兰尼斯特</Text>
 		</Replace>
 		<Replace Tag="LOC_LOADING_INFO_LEADER_TYWIN_LANNISTER" Language="zh_Hans_CN">
-			<Text>"When your enemies defy you, you must serve them steel and fire. When they go to their knees, however, you must help them back to their feet. Elsewise no man will ever bend the knee to you. And any man who must say ‘I am the king’ is no true king at all. Aerys never understood that, but you will. When I’ve won your war for you, we will restore the king’s peace and the king’s justice." - Tywin Lannister</Text>
+			<Text>“当有人起而向你挑战，你应该坚决地回以铁与血；当他们屈膝臣服时，你则要亲手把他们扶起来，否则就再没有人愿意归顺。还有，任何大声声明‘我是国王！’的人，根本当不了真正的王者。伊里斯就是不明白这点才败亡的，我要你牢牢记取他的教训。请你放心，我会替你平定国家，恢复国王的律法和尊严，一统江山。”——泰温·兰尼斯特</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_WESTERLANDS_NAME" Language="zh_Hans_CN">
-			<Text>The Westerlands</Text>
+			<Text>西境</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_THE_WESTERLANDS_NAME" Language="zh_Hans_CN">
-			<Text>Hear Me Roar</Text>
+			<Text>听我怒吼</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_THE_WESTERLANDS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>All Mines over resources yield +2 [ICON_GOLD] Gold. Completing Mines trigger culture bombs. [NEWLINE]20% discount to all [ICON_GOLD] Gold purchases.</Text>
+			<Text>所有在资源上建设的矿场产出 +2 [ICON_GOLD] 金钱。 建设矿场会触发文化炸弹。 [NEWLINE][ICON_GOLD]金钱购买单位和建筑便宜20%。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_TYWIN_LANNISTER_NAME" Language="zh_Hans_CN">
-			<Text>Hammer and Anvil</Text>
+			<Text>铁锤与铁砧</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_TYWIN_LANNISTER_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>+10 [ICON_Strength] Combat Strength to Melee and Anti-Cavalry units when defending. +50% Flanking Bonus to Light and Heavy Cavalry units. +5 [ICON_Strength] Combat Strength to Ranged and Siege units when attacking wounded unit.</Text>
+			<Text>近战与反骑单位防御时获得 +10 [ICON_Strength] 战斗力。轻骑兵和重骑兵获得 +50% 夹击加成。远程和攻城单位对受伤单位获得 +5 [ICON_Strength] 战斗力。</Text>
 		</Replace>
 		<!-- Robert Baratheon leads the Stormlands -->
 		<Replace Tag="LOC_UNIT_SQUIRE_NAME" Language="zh_Hans_CN">
-			<Text>Squire</Text>
+			<Text>侍从</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SQUIRE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>The Stormlands' unique support unit. Provide +9 [ICON_Strength] Combat Strength and +1 [ICON_Movement] Movement to Warrior and Swordsman in the same tile.</Text>
+			<Text>风暴地独特的支援单位。为所属同一格的勇士和剑客提供 +9 [ICON_Strength] 战斗力和 +1 [ICON_Movement] 移动力。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_JOUSTING_ARENA_NAME" Language="zh_Hans_CN">
-			<Text>Jousting Arena</Text>
+			<Text>马上比武场</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_JOUSTING_ARENA_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>A building unique to Stormlands replacing Stable. Other than standard Stable yields, Jousting Arena provides extra +1 [ICON_Amenities] Amenity and Pastures in the territory of cities with Jousting Arena gain +2 [ICON_CULTURE] Culture. [NEWLINE]May not be built in an Encampment district that already has a Barracks.</Text>
+			<Text>风暴地独特的建筑，替代马厩。除了普通马厩的产出外，马上比武场还提供额外 +1 [ICON_Amenities] 宜居度。城市境内的牧场产出 +2 [ICON_CULTURE] 文化。 [NEWLINE]不能在拥有兵营的军事驻地中建造。</Text>
 		</Replace>
 		<Replace Tag="LOC_LEADER_ROBERT_BARATHEON_NAME" Language="zh_Hans_CN">
-			<Text>Robert Baratheon</Text>
+			<Text>劳伯·拜拉席恩</Text>
 		</Replace>
 		<Replace Tag="LOC_LOADING_INFO_LEADER_ROBERT_BARATHEON" Language="zh_Hans_CN">
-			<Text>"The gods be damned. It was a hollow victory they gave me. A crown ... it was the girl I prayed them for. Your sister, safe ... and mine again, as she was meant to be. I ask you, Ned, what good is it to wear a crown? The gods mock the prayers of kings and cowherds alike." - Robert Baratheon</Text>
+			<Text>“诸神都该死，我只求得到你妹妹，他们却硬塞给我一顶狗屁王冠……赢得战争又如何？我只要她平平安安……重回我的怀抱，一切都和原本一样。奈德，我问你，当国王有什么好？管你是国王还是放牛郎，诸神不都一样嘲弄你么？”——劳伯·拜拉席恩</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_STORMLANDS_NAME" Language="zh_Hans_CN">
-			<Text>The Stormlands</Text>
+			<Text>风暴地</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_THE_STORMLANDS_NAME" Language="zh_Hans_CN">
-			<Text>Ours Is the Fury</Text>
+			<Text>怒火燎原</Text>
 		</Replace>
 
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_THE_STORMLANDS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>+100% [ICON_Production] Production when building Ancient Walls, Medieval Walls and Renaissance Walls. [NEWLINE]Self founded cities grant Ancient Walls immediately even without Masonary Technology. [NEWLINE]Ancient Walls yield extra +1 [ICON_CULTURE] Culture, Medieval Walls yield extra +2 [ICON_CULTURE] Culture, and Renaissance Walls yield extra +4 [ICON_CULTURE] Culture. [NEWLINE]+10 [ICON_Strength] City Defense Strength with walls.</Text>
+			<Text>建设远古城墙，中世纪城墙和文艺复兴城墙时 +100% [ICON_Production] 生产力。 [NEWLINE]通过移民新建立的城市立即获得远古城墙（即使没有研发石工术）。[NEWLINE]远古城墙额外产出 +1 [ICON_CULTURE] 文化，中世纪城墙额外产出 +2 [ICON_CULTURE] 文化，文艺复兴城墙额外产出 +4 [ICON_CULTURE] 文化。 [NEWLINE]拥有城墙的城市获得 +10 [ICON_Strength] 城市防御力。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_ROBERT_BARATHEON_NAME" Language="zh_Hans_CN">
-			<Text>The Usurper</Text>
+			<Text>簒夺者</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_ROBERT_BARATHEON_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Upon major civilization city conquered by Robert Baratheon, grant a free [ICON_SCIENCE] Technology or [ICON_CULTURE] Civic that the conquered city owner already has and is available to Robert Baratheon.</Text>
+			<Text>劳伯·拜拉席恩在攻占主流文明城市时会获得一项对方已研发完成并且劳伯当前可研发的 [ICON_SCIENCE] 科技或者 [ICON_CULTURE] 市政。</Text>
 		</Replace>
 		<!-- Mace Tyrell leads the Reach -->
 		<Replace Tag="LOC_UNIT_REDWYNE_FLEET_NAME" Language="zh_Hans_CN">
-			<Text>Redwyne's Fleet</Text>
+			<Text>雷德温舰队</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_REDWYNE_FLEET_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>The Reach's unique naval melee unit. Replaces Caravel. Unlocks earlier at Naval Tradition Civic. Cheaper but also weaker.[NEWLINE]Can reveal stealth units.</Text>
+			<Text>河湾地独特的海军近战单位，替代轻快帆船。于更早期的海军传统解锁，更廉价不过也较为脆弱。[NEWLINE]可以探测潜行单位。</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_ARBOR_WINERY_NAME" Language="zh_Hans_CN">
-			<Text>Arbor Winery</Text>
+			<Text>青亭岛酒庄</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_ARBOR_WINERY_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>An improvement unique to The Reach. Must be placed next to luxury or bonus resources. +1 [ICON_FOOD] Food and +2 [ICON_GOLD] Gold. [NEWLINE] +1 [ICON_CULTURE] Culture from each adjacent  luxury resource. Extra +1 [ICON_CULTURE] Culture from each adjacent luxury resource after Mercantilism Civic.[NEWLINE]+1 [ICON_PRODUCTION] Production from each adjacent bonus resource. Extra +1 [ICON_PRODUCTION] Production from each adjacent bonus resource after Mass Production Technology.[NEWLINE]+2 [ICON_GOLD] Gold from each adjacent luxury resource after Economics Technology.</Text>
+			<Text>河湾地独特的改良设施。必须放置在奖励或者奢侈资源旁。+1 [ICON_FOOD] 食物，+2 [ICON_GOLD] 金币。 [NEWLINE] 从相邻的奢侈资源获得+1 [ICON_CULTURE] 文化。 研发重商主义人文后从相邻的奢侈资源获得额外 +1 [ICON_CULTURE] 文化。[NEWLINE]从相邻的奖励资源获得+1 [ICON_PRODUCTION] 生产力。研发大规模生产科技后从相邻的奖励资源获得额外+1 [ICON_PRODUCTION] 生产力。[NEWLINE]研发经济学科研后从相邻的奢侈资源获得+2 [ICON_GOLD] 金币。</Text>
 		</Replace>
 		<Replace Tag="LOC_LEADER_MACE_TYRELL_NAME" Language="zh_Hans_CN">
-			<Text>Mace Tyrell</Text>
+			<Text>梅斯·提利尔</Text>
 		</Replace>
 		<Replace Tag="LOC_LOADING_INFO_LEADER_MACE_TYRELL" Language="zh_Hans_CN">
 			<Text>"There is no greater pleasure than to serve the King's Grace. If I was deemed worthy to join your royal council, you would find none more loyal or true." - Mace Tyrell</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_REACH_NAME" Language="zh_Hans_CN">
-			<Text>The Reach</Text>
+			<Text>河湾地</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_THE_REACH_NAME" Language="zh_Hans_CN">
-			<Text>Growing Strong</Text>
+			<Text>生生不息</Text>
 		</Replace>
 
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_THE_REACH_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>All Farms yield  +1 Extra [ICON_SCIENCE] Science from adjacent Campus, +1 [ICON_CULTURE] Culture from adjacent Theater Squre, +1 [ICON_Faith] Faith from adjacent Holy Site, +2 [ICON_GOLD] Gold from adjacent Commercial Hub or Harbor, and +1 [ICON_PRODUCTION] Production from adjacent Industrial Zone.</Text>
+			<Text>农场从相邻的学院获得+1 Extra [ICON_SCIENCE] 科研，从相邻的剧院广场获得+1 [ICON_CULTURE] 文化，从相邻的圣地获得+1 [ICON_Faith] 信仰，从相邻的商业中心或港口获得+2 [ICON_GOLD] 金币， 从相邻的工业区获得+1 [ICON_PRODUCTION] 生产力。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_MACE_TYRELL_NAME" Language="zh_Hans_CN">
-			<Text>Lord Puff Fish</Text>
+			<Text>充气鱼大人</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_MACE_TYRELL_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Receive a copy of Builder or Settler unit when produced one.[NEWLINE]But -3 [ICON_Strength] Combat Strength for all units.</Text>
+			<Text>每训练一个建造者或者开拓者，便会获得第二个建造者或者开拓者。[NEWLINE]然而所有军事单位-3 [ICON_Strength] 战斗力。</Text>
 		</Replace>
 		<!-- Jon Arryn leads the Vale -->
 		<Replace Tag="LOC_UNIT_VALE_KNIGHT_NAME" Language="zh_Hans_CN">
-			<Text>Knights of the Vale</Text>
+			<Text>谷地骑士</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_VALE_KNIGHT_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>The Vale's unique Heavy Cavalry unit. Replaces Knightsl. Has 45 [ICON_Strength] Combat Strength instead of 48, but gains +10 [ICON_Strength] Combat Strength on hill tiles and gain [ICON_CULTURE] from defeating enemies.</Text>
+			<Text>艾林谷独特的重骑兵单位，替代骑士。拥有45点 [ICON_Strength] 战斗力而不是48点，然而在丘陵上作战获得+10 [ICON_Strength] 战斗力并且能通过击败敌人获得 [ICON_CULTURE] 文化。</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_GATE_OF_THE_MOON_NAME" Language="zh_Hans_CN">
-			<Text>Gate of the Moon</Text>
+			<Text>月门堡</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_GATE_OF_THE_MOON_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>A district unique to The Vale. Unlocks at Defensive Tactics. Must be placed on Hills. [NEWLINE]Keeps hill terrain original 2 [ICON_PRODUCTION] Production yield. Provide +5 [ICON_HOUSING] Housing regardless of tile appeal. [NEWLINE] A Gate of the Moon also functions as Encampment with 100 Hit Points and can initiate [ICON_Ranged] Ranged Strikes if city has Walls.</Text>
+			<Text>艾林谷独特的城区，于防御战术解锁。必须建造在丘陵上。[NEWLINE]在保有丘陵地块原始2 [ICON_PRODUCTION] 生产力的同时提供无视吸引力的+5 [ICON_HOUSING] 住房。[NEWLINE]月门堡相当于小型军事要塞，拥有100点生命值，并且在所属城市拥有城墙后可进行 [ICON_Ranged] 城区轰炸攻击。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_CRESCENT_CHAMBER_NAME" Language="zh_Hans_CN">
-			<Text>Crescent Chamber</Text>
+			<Text>新月大厅</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_CRESCENT_CHAMBER_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>A building unique to Jon Arryn. Must build in Capital City. [NEWLINE]+1 [ICON_CULTURE] Culture. Crescent Chamber also earns extra +5 relationship points from another civilization if you have sent Delegation or Resident Embassy to them.</Text>
+			<Text>琼恩·艾林独特的建筑，必须在首都建造。[NEWLINE]+1 [ICON_CULTURE] 文化。 新月大厅也使得琼恩·艾林在派遣代表团或者建立大使馆的文明处获得额外+5的关系点数。</Text>
 		</Replace>
 		<Replace Tag="LOC_LEADER_JON_ARRYN_NAME" Language="zh_Hans_CN">
-			<Text>Jon Arryn</Text>
+			<Text>琼恩·艾林</Text>
 		</Replace>
 		<Replace Tag="LOC_LOADING_INFO_LEADER_JON_ARRYN" Language="zh_Hans_CN">
 			<Text>"I need good men about me. Men like Jon Arryn." - Robert Baratheon to Eddard Stark</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_VALE_NAME" Language="zh_Hans_CN">
-			<Text>The Vale</Text>
+			<Text>艾林谷</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_THE_VALE_NAME" Language="zh_Hans_CN">
-			<Text>As High As Honor</Text>
+			<Text>高如荣耀</Text>
 		</Replace>
 
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_THE_VALE_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>Mountains provide extra standard adjacency bonus to Campus and Holy Site; standard adjacency bonus to Commercial Hub, Theater Squre and Industrial Zone. [NEWLINE]All units ignore [ICON_Movement] Movement penalty from Hills.</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_JON_ARRYN_NAME" Language="zh_Hans_CN">
-			<Text>Hand of the King</Text>
+			<Text>国王之手</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_JON_ARRYN_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>All International [ICON_TradeRoute] Trade Routes From/To the Vale yield extra +1 [ICON_CULTURE] Culture. All [ICON_TradeRoute] Trade Routes From/To an ally of the Vale yield extra +2 [ICON_CULTURE] Culture.[NEWLINE]Has Crescent Chamber unique building. +1 [ICON_CULTURE] Culture and allowing extra +5 relationship points from another civilization if you have sent Delegation or Resident Embassy to them.</Text>
+			<Text>所有来往艾林谷城市的国际[ICON_TradeRoute] 商路提供额外+1 [ICON_CULTURE] 文化。 所有来往于艾林谷的同盟的 [ICON_TradeRoute] 商路提供额外+2 [ICON_CULTURE] 文化。[NEWLINE]可建造独特建筑新月大厅。+1 [ICON_CULTURE] 文化。 新月大厅也使得琼恩·艾林在派遣代表团或者建立大使馆的文明处获得额外+5的关系点数。</Text>
 		</Replace>
 		<!-- Hoster Tully Leads the Riverlands -->
 		<Replace Tag="LOC_UNIT_BROTHERHOOD_WITHOUT_BANNERS_NAME" Language="zh_Hans_CN">
-			<Text>Brotherhood without Banners</Text>
+			<Text>无旗兄弟会</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_BROTHERHOOD_WITHOUT_BANNERS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>A group of outlaws founded in the Riverlands.[NEWLINE]Has the ability to move freely in forest and jungle without movement penalty. Can also see through these features.[NEWLINE]Upon spawn, randomly picked from one of these three types:[NEWLINE]Exile Knight: Heavy Cavalry class. Longbowman: Ranged class with 3 [ICON_RANGED] attack range. Warrior Monk of Myr: Melee class. Doesn't lose [ICON_Strength] combat strength when they take damage. Horrifies adjacent enemies (-2 [ICON_Strength] combat strength) with aflame sword.</Text>
+			<Text>在河间地成立的法外团体。[NEWLINE]可自由在森林和雨林中行动，并且不被遮挡视野。[NEWLINE]训练或购买后随机从三种类型中选取：[NEWLINE]流亡骑士：重骑兵类型；长弓手：3 [ICON_RANGED] 射程的远程单位；密尔武僧：近战单位，受伤不会损失[ICON_Strength] 战斗力。通过燃烧的长剑惊吓对手，使得相邻的敌对单位-2[ICON_Strength] 战斗力。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_BROTHERHOOD_WITHOUT_BANNERS_EXILE_KNIGHT_NAME" Language="zh_Hans_CN">
-			<Text>Exile Knight</Text>
+			<Text>流亡骑士</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_BROTHERHOOD_WITHOUT_BANNERS_EXILE_KNIGHT_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Heavy Cavalry class.</Text>
+			<Text>重骑兵类型。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_BROTHERHOOD_WITHOUT_BANNERS_LONGBOW_NAME" Language="zh_Hans_CN">
-			<Text>Longbowman</Text>
+			<Text>长弓手</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_BROTHERHOOD_WITHOUT_BANNERS_LONGBOW_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Ranged class with 3 [ICON_RANGED] attack range. </Text>
+			<Text>3 [ICON_RANGED] 射程的远程单位。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_BROTHERHOOD_WITHOUT_BANNERS_WARRIOR_MONK_OF_MYR_NAME" Language="zh_Hans_CN">
-			<Text>Warrior Monk of Myr</Text>
+			<Text>密尔武僧</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_BROTHERHOOD_WITHOUT_BANNERS_WARRIOR_MONK_OF_MYR_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Melee class. Doesn't lose [ICON_Strength] combat strength when they take damage. Horrifies adjacent enemies (-2 [ICON_Strength] combat strength) with aflame sword.</Text>
+			<Text>近战单位，受伤不会损失[ICON_Strength] 战斗力。通过燃烧的长剑惊吓对手，使得相邻的敌对单位-2[ICON_Strength] 战斗力。</Text>
 		</Replace>		
 		<Replace Tag="LOC_DISTRICT_THE_TWIN_TOWERS_NAME" Language="zh_Hans_CN">
-			<Text>The Twin Towers</Text>
+			<Text>双塔城</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_THE_TWIN_TOWERS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>A district unique to The Riverlands. Replaces Aqueduct but unlocks later (Castles).[NEWLINE]A Twin Tower receives yield copies from City Center buildings. It also functions as Encampment with 150 Hit Points and can initiate [ICON_Ranged] Ranged Strikes if city has Walls.[NEWLINE]Yet if a Twin Tower is pillaged, the city will loose -100 Loyalty.</Text>
+			<Text>河间地的特殊城区，替代引水渠然而解锁更晚（城堡科技）。[NEWLINE]双塔城复制城市中心的建筑产出作为其城区产出。拥有150点生命值并且在所属城市拥有城墙后可进行 [ICON_Ranged] 城区轰炸攻击。[NEWLINE]然而一旦双塔城遭到劫掠，所属城市将损失100点忠诚点数。</Text>
 		</Replace>
 		<Replace Tag="LOC_LEADER_HOSTER_TULLY_NAME" Language="zh_Hans_CN">
-			<Text>Hoster Tully</Text>
+			<Text>霍斯特·徒利</Text>
 		</Replace>
 		<Replace Tag="LOC_LOADING_INFO_LEADER_HOSTER_TULLY" Language="zh_Hans_CN">
 			<Text>“Lord Hoster looked as noble as a king, my lady. Would that I had been given the chance to know him.” - Jeyne Westerling to Catelyn Stark</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_RIVERLANDS_NAME" Language="zh_Hans_CN">
-			<Text>The Riverlands</Text>
+			<Text>河间地</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_THE_RIVERLANDS_NAME" Language="zh_Hans_CN">
-			<Text>Family, Duy, Honor</Text>
+			<Text>家族，责任，荣誉</Text>
 		</Replace>
 
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_THE_RIVERLANDS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>City Center and Specialty Districts adjacent to river +1 [ICON_PRODUCTION] Production and +1 [ICON_HOUSING] Housing.[NEWLINE]Cities with [ICON_GOVERNOR] Governor have +10% [ICON_CITIZEN] increase of growth and +10% [ICON_GOLD] Gold.</Text>
+			<Text>沿河的城市中心和专业城区获得+1 [ICON_PRODUCTION] 生产力和+1 [ICON_HOUSING] 住房。[NEWLINE]派驻 [ICON_GOVERNOR] 总督的城市获得+10% [ICON_CITIZEN] 成长率和+10% [ICON_GOLD] 金钱。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_HOSTER_TULLY_NAME" Language="zh_Hans_CN">
-			<Text>Advantageous Betrothal</Text>
+			<Text>有利可图的婚约</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_HOSTER_TULLY_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Can Annex a City-State you are Suzerain of with [ICON_GOLD] Gold. Cost is determined by [ICON_CITIZEN] Population, [ICON_PRODUCTION] costs of Districts, Buildings and Units of the City-State.[NEWLINE]Annexed City-State will always have full Loyalty, keeps it's City-State type bonus to you when you annex it. Annexed City-State will also be considered as city originally founded by the Riverlands without Religious population, so that it cannot be Liberated nor trigger Casus Belli.</Text>
+			<Text>可使用 [ICON_GOLD] 金币吞并已成为其宗主国的城邦。吞并所需费用根据城邦的 [ICON_CITIZEN] 人口，已建成的城区，建筑和单位的 [ICON_PRODUCTION] 造价来决定。[NEWLINE]被吞并的城邦忠诚度始终为最大，并且根据吞并时的使者数量给与相应的城邦类型奖励。被吞并的城邦会被认为是河间地无信仰的原生城市，无法被解放或者触发战争理由和紧急事件。</Text>
 		</Replace>
 		<!-- Doran Martell leads Dorne -->
 		<Replace Tag="LOC_UNIT_SAND_SNAKE_NAME" Language="zh_Hans_CN">
-			<Text>Sand Snake</Text>
+			<Text>沙蛇</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_SAND_SNAKE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Bastard daughters of Prince Oberyn Martell. Replaces Pikeman.[NEWLINE]Upon spawn, each Sand Snake will randomly receive a unique promotion among "Walk in Shadow" (Stealth.), "Born Leader" (Increase friendly units [ICON_Strength] Combat Strength.), "Assassin" (+1 [ICON_Movement] Movement and can move after attack.), "Scholar" (Combat victories provide [ICON_SCIENCE] Science equal to 50% of the Combat Strength of the defeated unit and +5 points of [ICON_GREATSCIENTIST] Great Scientist.) and "Seduction" (Combat victories have chance to capture defeated unit and enslave as Builder.).</Text>
+			<Text>奥柏伦·马泰尔亲王的私生女，替代长矛兵。[NEWLINE]训练或购买后随机获得一种特殊晋升：“暗影步”(潜行)，“天生领袖” (增加友军的 [ICON_Strength] 战斗力)， “刺客”(+1 [ICON_Movement] 移动力并且能在移动后攻击)， “学者”(战斗胜利会获得相当于所战胜单位75%战斗力的 [ICON_SCIENCE] 科研以及+5 [ICON_GREATSCIENTIST] 大科学家点数)以及“魅惑”(战斗胜利会捕获单位成为建造者)。</Text>
 		</Replace>		
 		<Replace Tag="LOC_IMPROVEMENT_WATER_GARDEN_NAME" Language="zh_Hans_CN">
-			<Text>Water Garden</Text>
+			<Text>流水花园</Text>
 		</Replace>
 		<Replace Tag="LOC_IMPROVEMENT_WATER_GARDEN_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>An improvement unique to Dorne. Must be placed on flat Desert tile, valid on Floodplain. Limited one Water Garden per city.[NEWLINE]+2 [ICON_CULTURE] Culture and +2 [ICON_Amenities] Amenities. Extra +2 [ICON_CULTURE] Culture from adjacent City Center or Government Plaza. [NEWLINE]+2 [ICON_GOLD] Gold if adjacent to river. +2 [ICON_GOLD] Gold from adjacent oasis.</Text>
+			<Text>多恩的特殊改良设施。必须在沙漠平地上建造，可建造在冲击平原上。 每座城市限定一座流水花园。[NEWLINE]+2 [ICON_CULTURE] 文化，+2 [ICON_Amenities] 宜居度。如与城市中心或政府广场相邻额外+2 [ICON_CULTURE] 文化。 [NEWLINE]沿河则+2 [ICON_GOLD] 金币。如与绿洲相邻则+2 [ICON_GOLD] 金币。</Text>
 		</Replace>
 		<Replace Tag="LOC_LEADER_DORAN_MARTELL_NAME" Language="zh_Hans_CN">
-			<Text>Doran Martell</Text>
+			<Text>道朗·马泰尔</Text>
 		</Replace>
 		<Replace Tag="LOC_LOADING_INFO_LEADER_DORAN_MARTELL" Language="zh_Hans_CN">
 			<Text>"I am not blind, nor deaf. I know you all believe me weak, frightened, feeble. Your father knew me better. Oberyn was ever the viper. Deadly, dangerous, unpredictable. No man dared tread on him. I was the grass. Pleasant, complaisant, sweet-smelling, swaying with every breeze. Who fears to walk upon the grass? But it is the grass that hides the viper from his enemies and shelters him until he strikes." - Doran Martell</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_DORNE_NAME" Language="zh_Hans_CN">
-			<Text>Dorne</Text>
+			<Text>多恩</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_DORNE_NAME" Language="zh_Hans_CN">
-			<Text>Unbowed, Unbent, Unbroken</Text>
+			<Text>不屈不挠</Text>
 		</Replace>
 
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_DORNE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Desert tiles including Floodplains in [ICON_Amenities] Happy cities yield extra +1 [ICON_FOOD] Food, [ICON_PRODUCTION] Production and [ICON_CULTURE] Culture.[NEWLINE]This effect doubles in [ICON_Amenities] Ecstatic cities.[NEWLINE]All units receive +10 [ICON_Strength] Combat Strength in home territory.</Text>
+			<Text>[ICON_Amenities] 快乐城市所属的沙漠地格（包括冲击平原）+1 [ICON_FOOD] 食物， [ICON_PRODUCTION] 生产力和 [ICON_CULTURE] 文化。[NEWLINE]这个效果在 [ICON_Amenities] 狂喜城市中翻倍。[NEWLINE]所有军事单位在国土内作战获得+10 [ICON_Strength] 战斗力。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_DORAN_MARTELL_NAME" Language="zh_Hans_CN">
-			<Text>A Big Game of Cyvasse</Text>
+			<Text>一盘大席瓦斯棋</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_DORAN_MARTELL_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Receives a free Spy (and extra spy capacity) with the Civil Service civic.[NEWLINE]Your Spy level is increased by 1 for offensive operations.</Text>
+			<Text>于行政事务获得一名免费间谍(以及额外的间谍名额)。[NEWLINE]你的间谍执行攻击性任务时成功等级加1。</Text>
 		</Replace>
 		<!-- Rhaegar Targaryen leads the Crownlands -->
 		<Replace Tag="LOC_UNIT_TARGARYEN_DRAGON_NAME" Language="zh_Hans_CN">
-			<Text>Targaryen Dragon</Text>
+			<Text>坦格利安巨龙</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_TARGARYEN_DRAGON_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Mighty ancient era air units unique to The Crownlands. Unlocks at Mysticism. May only purchase with [ICON_Faith] Faith and extremely expensive to maintain.[NEWLINE]At the beginning of each turn, Targaryen Dragons will make enemy cities within 6 tiles loose 5 points of Loyalty and all other enemy cities loose 1 point of Loyalty.</Text>
+			<Text>王领独特的强大远古空中单位。于神秘主义解锁。只能在拥有龙穴的城市通过 [ICON_Faith] 信仰购买，维护费异常昂贵。[NEWLINE]在每回合开始，坦格利安巨龙会直接削减6格内的非王领城市5点忠诚度，全地图范围所有非王领城市1点忠诚度（无视忠诚压力）。</Text>
 		</Replace>		
 		<Replace Tag="LOC_DISTRICT_DRAGONPIT_NAME" Language="zh_Hans_CN">
-			<Text>Dragonpit</Text>
+			<Text>龙穴</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_DRAGONPIT_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>An early district unique to The Crownlands which provides major adjacency bonus to other districts and +4 [ICON_Faith] Faith. [NEWLINE]Dragonpit provides extra +2 points of [ICON_GreatMusician] Great Musician ,3 slots of aircraft and unlocks Targaryen Dragon.</Text>
+			<Text>王领独特的早期城区，提供等同于政府广场的相邻奖励，+6 [ICON_Faith] 信仰，+2 [ICON_HOUSING] 住房。[NEWLINE]龙穴提供额外+4 [ICON_GreatMusician] 大音乐家点数，3个空军停机位并解锁坦格利安巨龙。</Text>
 		</Replace>
 		<Replace Tag="LOC_LEADER_RHAEGAR_TARGARYEN_NAME" Language="zh_Hans_CN">
-			<Text>Rhaegar Targaryen</Text>
+			<Text>雷加·坦格利安</Text>
 		</Replace>
 		<Replace Tag="LOC_LOADING_INFO_LEADER_RHAEGAR_TARGARYEN" Language="zh_Hans_CN">
 			<Text>"Had any man ever been so beautiful? He was more than a man, though. His blood was the blood of old Valyria, the blood of dragons and gods." - thoughts of Cersei Lannister</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_CROWNLANDS_NAME" Language="zh_Hans_CN">
-			<Text>The Crownlands</Text>
+			<Text>王领</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_THE_CROWNLANDS_NAME" Language="zh_Hans_CN">
-			<Text>Fire and Blood</Text>
+			<Text>血火同源</Text>
 		</Replace>
 
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_THE_CROWNLANDS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>+100% Loyalty Pressure from your cities' [ICON_CITIZEN] Population.[NEWLINE] Cities with full Loyalty yield extra 25% [ICON_SCIENCE] Science, [ICON_CULTURE] Culture and [ICON_Faith] Faith.[NEWLINE]But The Crownlands may not produce Settlers. Settlers captured or obtained with any other method will turn into Builders if Capital CIty is already founded.</Text>
+			<Text>所有城市 [ICON_CITIZEN] 人口产生+100%忠诚压力。[NEWLINE] 满忠诚值的城市获得额外25%的 [ICON_SCIENCE] 科研， [ICON_CULTURE] 文化和 [ICON_Faith] 信仰。[NEWLINE]然而王领无法训练开拓者，或者通过任何手段获得除了初始首都之外的开拓者。如君临已经建立，捕获的（或通过其他方式获得的）开拓者会自动转换为建造者。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_RHAEGAR_TARGARYEN_NAME" Language="zh_Hans_CN">
-			<Text>The Silver Prince</Text>
+			<Text>银王子</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_RHAEGAR_TARGARYEN_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>+2 points of [ICON_GreatMusician] Great Musician from Capital City. +2 Slots of [ICON_GreatWork_Music] Great Works of Music to Palace. +1 Slot of [ICON_GreatWork_Music] Great Works of Music to each level of Government Plaza Building.[NEWLINE]Each [ICON_GreatWork_Music] Great Work of Music also yields +8 [ICON_Faith] Faith.</Text>
+			<Text>首都获得+4 [ICON_GreatMusician] 大音乐家点数。宫殿提供+4 [ICON_GreatWork_Music] 音乐巨作槽。每一级政府广场建筑提供+2 [ICON_GreatWork_Music] 音乐巨作槽。[NEWLINE]Each [ICON_GreatWork_Music] 音乐巨作额外产出+8 [ICON_Faith] 信仰。</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

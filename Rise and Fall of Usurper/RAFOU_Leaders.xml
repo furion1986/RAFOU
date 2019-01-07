@@ -1300,7 +1300,7 @@
 		<Row>
 			<ModifierId>TRAIT_RT_PALACE_GM_POINTS</ModifierId>
 			<Name>Amount</Name>
-			<Value>2</Value>
+			<Value>4</Value>
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_RT_PALACE_MUSIC_SLOTS</ModifierId>
@@ -1315,7 +1315,7 @@
 		<Row>
 			<ModifierId>TRAIT_RT_PALACE_MUSIC_SLOTS</ModifierId>
 			<Name>Amount</Name>
-			<Value>2</Value>
+			<Value>4</Value>
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_RT_TALL_MUSIC_SLOTS</ModifierId>
@@ -1330,7 +1330,7 @@
 		<Row>
 			<ModifierId>TRAIT_RT_TALL_MUSIC_SLOTS</ModifierId>
 			<Name>Amount</Name>
-			<Value>1</Value>
+			<Value>2</Value>
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_RT_WIDE_MUSIC_SLOTS</ModifierId>
@@ -1345,7 +1345,7 @@
 		<Row>
 			<ModifierId>TRAIT_RT_WIDE_MUSIC_SLOTS</ModifierId>
 			<Name>Amount</Name>
-			<Value>1</Value>
+			<Value>2</Value>
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_RT_CONQUEST_MUSIC_SLOTS</ModifierId>
@@ -1360,7 +1360,7 @@
 		<Row>
 			<ModifierId>TRAIT_RT_CONQUEST_MUSIC_SLOTS</ModifierId>
 			<Name>Amount</Name>
-			<Value>1</Value>
+			<Value>2</Value>
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_RT_CITYSTATES_MUSIC_SLOTS</ModifierId>
@@ -1375,7 +1375,7 @@
 		<Row>
 			<ModifierId>TRAIT_RT_CITYSTATES_MUSIC_SLOTS</ModifierId>
 			<Name>Amount</Name>
-			<Value>1</Value>
+			<Value>2</Value>
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_RT_SPIES_MUSIC_SLOTS</ModifierId>
@@ -1390,7 +1390,7 @@
 		<Row>
 			<ModifierId>TRAIT_RT_SPIES_MUSIC_SLOTS</ModifierId>
 			<Name>Amount</Name>
-			<Value>1</Value>
+			<Value>2</Value>
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_RT_FAITH_MUSIC_SLOTS</ModifierId>
@@ -1405,7 +1405,7 @@
 		<Row>
 			<ModifierId>TRAIT_RT_FAITH_MUSIC_SLOTS</ModifierId>
 			<Name>Amount</Name>
-			<Value>1</Value>
+			<Value>2</Value>
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_RT_MILITARY_MUSIC_SLOTS</ModifierId>
@@ -1420,7 +1420,7 @@
 		<Row>
 			<ModifierId>TRAIT_RT_MILITARY_MUSIC_SLOTS</ModifierId>
 			<Name>Amount</Name>
-			<Value>1</Value>
+			<Value>2</Value>
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_RT_CULTURE_MUSIC_SLOTS</ModifierId>
@@ -1435,7 +1435,7 @@
 		<Row>
 			<ModifierId>TRAIT_RT_CULTURE_MUSIC_SLOTS</ModifierId>
 			<Name>Amount</Name>
-			<Value>1</Value>
+			<Value>2</Value>
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_RT_SCIENCE_MUSIC_SLOTS</ModifierId>
@@ -1450,7 +1450,7 @@
 		<Row>
 			<ModifierId>TRAIT_RT_SCIENCE_MUSIC_SLOTS</ModifierId>
 			<Name>Amount</Name>
-			<Value>1</Value>
+			<Value>2</Value>
 		</Row>
 		<Row>
 			<ModifierId>TRAIT_RT_MUSIC_FAITH</ModifierId>
