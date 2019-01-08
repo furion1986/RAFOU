@@ -267,7 +267,7 @@
 			<Text>The Twin Towers</Text>
 		</Row>
 		<Row Tag="LOC_DISTRICT_THE_TWIN_TOWERS_DESCRIPTION">
-			<Text>A district unique to The Riverlands. Replaces Aqueduct but unlocks later (Castles).[NEWLINE]A Twin Tower receives yield copies from City Center buildings. It also functions as Encampment with 150 Hit Points and can initiate [ICON_Ranged] Ranged Strikes if city has Walls.[NEWLINE]Yet if a Twin Tower is pillaged, the city will loose -100 Loyalty.</Text>
+			<Text>A district unique to The Riverlands. Replaces Aqueduct but unlocks later (Castles).[NEWLINE]A Twin Tower receives yield copies from City Center buildings. It also functions as Encampment with 150 Hit Points and can initiate [ICON_Ranged] Ranged Strikes if city has Walls.[NEWLINE]Yet if a Twin Tower is pillaged by enemy unit entering it, the city will loose -100 Loyalty.</Text>
 		</Row>
 		<Row Tag="LOC_LEADER_HOSTER_TULLY_NAME">
 			<Text>Hoster Tully</Text>

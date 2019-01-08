@@ -230,7 +230,7 @@
 		</Replace>
 
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_THE_VALE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Mountains provide extra standard adjacency bonus to Campus and Holy Site; standard adjacency bonus to Commercial Hub, Theater Squre and Industrial Zone. [NEWLINE]All units ignore [ICON_Movement] Movement penalty from Hills.</Text>
+			<Text>山脉地格对学院和圣地提供额外相邻奖励；对商业中心，剧院广场和工业区提供标准相邻奖励。[NEWLINE]所有单位在丘陵地格上 [ICON_Movement] 如履平地。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_JON_ARRYN_NAME" Language="zh_Hans_CN">
 			<Text>国王之手</Text>
@@ -267,7 +267,7 @@
 			<Text>双塔城</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_THE_TWIN_TOWERS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>河间地的特殊城区，替代引水渠然而解锁更晚（城堡科技）。[NEWLINE]双塔城复制城市中心的建筑产出作为其城区产出。拥有150点生命值并且在所属城市拥有城墙后可进行 [ICON_Ranged] 城区轰炸攻击。[NEWLINE]然而一旦双塔城遭到劫掠，所属城市将损失100点忠诚点数。</Text>
+			<Text>河间地的特殊城区，替代引水渠然而解锁更晚（城堡科技）。[NEWLINE]双塔城复制城市中心的建筑产出作为其城区产出。拥有150点生命值并且在所属城市拥有城墙后可进行 [ICON_Ranged] 城区轰炸攻击。[NEWLINE]然而一旦双塔城因为敌方单位进入而遭到劫掠，所属城市将损失100点忠诚点数。</Text>
 		</Replace>
 		<Replace Tag="LOC_LEADER_HOSTER_TULLY_NAME" Language="zh_Hans_CN">
 			<Text>霍斯特·徒利</Text>

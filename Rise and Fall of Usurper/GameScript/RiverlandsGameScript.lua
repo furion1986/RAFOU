@@ -68,9 +68,20 @@ function RVLOnDistrictPillaged(ownerPlayerID, districtID, cityID, x, y, district
 	--print("District Pillaged: "..tostring(districtType));
 	local twinTower = GameInfo.Districts["DISTRICT_THE_TWIN_TOWERS"];
 	if (twinTower) then
+		local isEnemyInPlot = false;
 		local eTwinTower = twinTower.Index;
+		local ePlot = Map.GetPlot(x, y);
+		if ePlot:GetUnitCount() >= 1 then
+			local eUnits = Units.GetUnitsInPlot(ePlot);
+			for i, eUnit in ipairs(eUnits) do
+				local unitOwner = eUnit:GetOwner();
+				if unitOwner:GetDiplomacy():IsAtWarWith(Players[ownerPlayerID]) then
+					isEnemyInPlot = true;
+				end
+			end
+		end
 		--print("DISTRICT_THE_TWIN_TOWERS id is: "..eTwinTower);
-		if (districtType == eTwinTower) then
+		if (districtType == eTwinTower and isEneyInPlot == true) then
 			local pPlayer = Players[ownerPlayerID];
 			local pCity = CityManager.GetCity(ownerPlayerID, cityID);
 			--print(pCity:GetName());
