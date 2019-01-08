@@ -179,7 +179,7 @@
 			<Text>梅斯·提利尔</Text>
 		</Replace>
 		<Replace Tag="LOC_LOADING_INFO_LEADER_MACE_TYRELL" Language="zh_Hans_CN">
-			<Text>"There is no greater pleasure than to serve the King's Grace. If I was deemed worthy to join your royal council, you would find none more loyal or true." - Mace Tyrell</Text>
+			<Text>“无上之荣光莫过于为陛下效劳。臣愿以此绵薄之躯顾问于陛下之御前会议，肝脑涂地，在所不惜。”——梅斯·提利尔</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_REACH_NAME" Language="zh_Hans_CN">
 			<Text>河湾地</Text>
@@ -220,7 +220,7 @@
 			<Text>琼恩·艾林</Text>
 		</Replace>
 		<Replace Tag="LOC_LOADING_INFO_LEADER_JON_ARRYN" Language="zh_Hans_CN">
-			<Text>"I need good men about me. Men like Jon Arryn." - Robert Baratheon to Eddard Stark</Text>
+			<Text>“我需要好人在我身边。像琼恩·艾林这样的老好人。”——劳伯·拜拉席恩对艾德·史塔克说</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_VALE_NAME" Language="zh_Hans_CN">
 			<Text>艾林谷</Text>
@@ -273,7 +273,7 @@
 			<Text>霍斯特·徒利</Text>
 		</Replace>
 		<Replace Tag="LOC_LOADING_INFO_LEADER_HOSTER_TULLY" Language="zh_Hans_CN">
-			<Text>“Lord Hoster looked as noble as a king, my lady. Would that I had been given the chance to know him.” - Jeyne Westerling to Catelyn Stark</Text>
+			<Text>“霍斯特大人高贵得就像是一位君王，我的女士。我会有机会拜见他老人家吗。”——简妮·维斯特林对凯特琳·史塔克说</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_RIVERLANDS_NAME" Language="zh_Hans_CN">
 			<Text>河间地</Text>
@@ -308,7 +308,7 @@
 			<Text>道朗·马泰尔</Text>
 		</Replace>
 		<Replace Tag="LOC_LOADING_INFO_LEADER_DORAN_MARTELL" Language="zh_Hans_CN">
-			<Text>"I am not blind, nor deaf. I know you all believe me weak, frightened, feeble. Your father knew me better. Oberyn was ever the viper. Deadly, dangerous, unpredictable. No man dared tread on him. I was the grass. Pleasant, complaisant, sweet-smelling, swaying with every breeze. Who fears to walk upon the grass? But it is the grass that hides the viper from his enemies and shelters him until he strikes." - Doran Martell</Text>
+			<Text>“我不瞎也不聋。我知道你们以为我软弱无能、担惊受怕、人见人欺，但你们的父亲了解我更深。奥柏伦无愧于毒蛇之名，危险致命、变化叵测，没人敢踩他；我则是那随风摇摆的青草，殷勤柔顺、和蔼芬芳。谁会惧怕青草呢？但正是青草掩蔽了毒蛇的行踪，青草是毒蛇的保护伞，掩护他扑杀敌人。”——道朗·马泰尔</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_DORNE_NAME" Language="zh_Hans_CN">
 			<Text>多恩</Text>
@@ -343,7 +343,7 @@
 			<Text>雷加·坦格利安</Text>
 		</Replace>
 		<Replace Tag="LOC_LOADING_INFO_LEADER_RHAEGAR_TARGARYEN" Language="zh_Hans_CN">
-			<Text>"Had any man ever been so beautiful? He was more than a man, though. His blood was the blood of old Valyria, the blood of dragons and gods." - thoughts of Cersei Lannister</Text>
+			<Text>“雷加王子的英勇无可置疑，却很少参加比武竞技。他不若劳勃或詹姆·兰尼斯特这般喜欢金铁之声，只在必要时才动刀剑，并把那当成世界所赋予的任务。他武艺出众，因为做每样事都出众，那是他的天性，但未能从打斗中获得喜乐。人们说他钟爱竖琴远甚于长枪。”——巴利斯坦·赛尔弥回忆道</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_CROWNLANDS_NAME" Language="zh_Hans_CN">
 			<Text>王领</Text>
