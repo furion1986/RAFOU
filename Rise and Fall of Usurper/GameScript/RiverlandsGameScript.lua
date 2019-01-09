@@ -75,13 +75,14 @@ function RVLOnDistrictPillaged(ownerPlayerID, districtID, cityID, x, y, district
 			local eUnits = Units.GetUnitsInPlot(ePlot);
 			for i, eUnit in ipairs(eUnits) do
 				local unitOwner = eUnit:GetOwner();
-				if unitOwner:GetDiplomacy():IsAtWarWith(Players[ownerPlayerID]) then
+				local eOwner = Players[unitOwner];
+				if eOwner:GetDiplomacy():IsAtWarWith(ownerPlayerID) then
 					isEnemyInPlot = true;
 				end
 			end
 		end
 		--print("DISTRICT_THE_TWIN_TOWERS id is: "..eTwinTower);
-		if (districtType == eTwinTower and isEneyInPlot == true) then
+		if (districtType == eTwinTower and isEnemyInPlot == true) then
 			local pPlayer = Players[ownerPlayerID];
 			local pCity = CityManager.GetCity(ownerPlayerID, cityID);
 			--print(pCity:GetName());

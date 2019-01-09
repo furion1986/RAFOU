@@ -27,7 +27,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="Stepwell_Pillaged"/>
+										<m_ElementName text="WaterGarden_Pillaged"/>
 										<m_RootCollectionName text="Improvements"/>
 										<m_ArtDefPath text="StrategicView.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -52,7 +52,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="Stepwell"/>
+										<m_ElementName text="WaterGarden"/>
 										<m_RootCollectionName text="Improvements"/>
 										<m_ArtDefPath text="StrategicView.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -151,10 +151,10 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="Plantation_Pillaged"/>
+										<m_ElementName text="ArborWinery_Pillaged"/>
 										<m_RootCollectionName text="Improvements"/>
 										<m_ArtDefPath text="StrategicView.artdef"/>
-										<m_CollectionIsLocked>false</m_CollectionIsLocked>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
 										<m_TemplateName text="StrategicView"/>
 										<m_ParamName text="XrefName"/>
 									</Element>
@@ -176,10 +176,10 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="Plantation"/>
+										<m_ElementName text="ArborWinery"/>
 										<m_RootCollectionName text="Improvements"/>
 										<m_ArtDefPath text="StrategicView.artdef"/>
-										<m_CollectionIsLocked>false</m_CollectionIsLocked>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
 										<m_TemplateName text="StrategicView"/>
 										<m_ParamName text="XrefName"/>
 									</Element>

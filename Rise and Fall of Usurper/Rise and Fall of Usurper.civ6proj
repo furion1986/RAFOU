@@ -57,6 +57,9 @@
     <Content Include="ArtDefs\Leaders.artdef">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="ArtDefs\StrategicView.artdef">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="ArtDefs\Units.artdef">
       <SubType>Content</SubType>
     </Content>
@@ -148,6 +151,15 @@
       <SubType>Content</SubType>
     </Content>
     <Content Include="XLPs\Shell_Loading.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\StrategicView_Buildings.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\StrategicView_Districts.xlp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XLPs\StrategicView_Improvements.xlp">
       <SubType>Content</SubType>
     </Content>
     <Content Include="XLPs\tilebases.xlp">

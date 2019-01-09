@@ -2,284 +2,287 @@
 <GameData>
 	<LocalizedText>
 		<Replace Tag="LOC_CIVILIZATION_IRONBORN_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Kingdom of Iron Islands</Text>
+			<Text>铁群岛王国</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_IRONBORN_ADJECTIVE" Language="zh_Hans_CN">
-			<Text>Ironborn</Text>
+			<Text>铁民</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_IRON_FLEET_NAME" Language="zh_Hans_CN">
-			<Text>The Iron Fleet</Text>
+			<Text>铁舰队</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_IRON_FLEET_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>+1 [ICON_Movement] Movement and +5 [ICON_Strength] Combat Strength to all naval units.[NEWLINE]+100% [ICON_PRODUCTION] Production when constructing Harbor District.</Text>
+			<Text>海军和出海单位+1 [ICON_Movement] 移动力。 海军 +5 [ICON_Strength] 战斗力。[NEWLINE]建造港口城区时+100% [ICON_PRODUCTION] 生产力。</Text>
 		</Replace>
 		<Replace Tag="LOC_LEADER_BALON_GREYJOY_QUOTE" Language="zh_Hans_CN">
-			<Text>No man has ever died from bending his knee. He who kneels may rise again, blade in hand. He who will not kneel stays dead, stiff legs and all.</Text>
+			<Text>没有人因为下跪而死，下跪的人依然可以再站起来，重新拿起利刃。因为不愿下跪而死只能一了百了，再无机会。</Text>
 		</Replace>
 		
 		<!--City Names-->
-		<Replace Tag="LOC_CIVILIZATION_IRONBORN_CITY_1" Language="zh_Hans_CN">
-			<Text>Pyke</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_IRONBORN_CITY_1">
+			<Text>派克城</Text>
 		</Replace>
-		<Replace Tag="LOC_CIVILIZATION_IRONBORN_CITY_2" Language="zh_Hans_CN">
-			<Text>Hammerhorn</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_IRONBORN_CITY_2">
+			<Text>战锤角</Text>
 		</Replace>
-		<Replace Tag="LOC_CIVILIZATION_IRONBORN_CITY_3" Language="zh_Hans_CN">
-			<Text>Corpse Lake</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_IRONBORN_CITY_3">
+			<Text>尸骸湖</Text>
 		</Replace>
-		<Replace Tag="LOC_CIVILIZATION_IRONBORN_CITY_4" Language="zh_Hans_CN">
-			<Text>Crow Spike Keep</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_IRONBORN_CITY_4">
+			<Text>鸦刺堡</Text>
 		</Replace>
-		<Replace Tag="LOC_CIVILIZATION_IRONBORN_CITY_5" Language="zh_Hans_CN">
-			<Text>Downdelving</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_IRONBORN_CITY_5">
+			<Text>深钻厅</Text>
 		</Replace>
-		<Replace Tag="LOC_CIVILIZATION_IRONBORN_CITY_6" Language="zh_Hans_CN">
+		<Replace Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_IRONBORN_CITY_6">
 			<Text>Pebbleton</Text>
 		</Replace>
-		<Replace Tag="LOC_CIVILIZATION_IRONBORN_CITY_7" Language="zh_Hans_CN">
-			<Text>Sealskin Point</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_IRONBORN_CITY_7">
+			<Text>海豹皮角</Text>
 		</Replace>
-		<Replace Tag="LOC_CIVILIZATION_IRONBORN_CITY_8" Language="zh_Hans_CN">
-			<Text>Shatterstone</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_IRONBORN_CITY_8">
+			<Text>碎石堡</Text>
 		</Replace>
-		<Replace Tag="LOC_CIVILIZATION_IRONBORN_CITY_9" Language="zh_Hans_CN">
-			<Text>Ten Towers</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_IRONBORN_CITY_9">
+			<Text>十塔城</Text>
 		</Replace>
-		<Replace Tag="LOC_CIVILIZATION_IRONBORN_CITY_10" Language="zh_Hans_CN">
-			<Text>Saltcliffe</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_IRONBORN_CITY_10">
+			<Text>盐崖岛</Text>
 		</Replace>
-		<Replace Tag="LOC_CIVILIZATION_IRONBORN_CITY_11" Language="zh_Hans_CN">
-			<Text>Harlaw</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_IRONBORN_CITY_11">
+			<Text>哈洛尔岛</Text>
 		</Replace>
-		<Replace Tag="LOC_CIVILIZATION_IRONBORN_CITY_12" Language="zh_Hans_CN">
-			<Text>Blacktyde</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_IRONBORN_CITY_12">
+			<Text>黑潮岛</Text>
 		</Replace>
-		<Replace Tag="LOC_CIVILIZATION_IRONBORN_CITY_13" Language="zh_Hans_CN">
-			<Text>Orkmont</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_IRONBORN_CITY_13">
+			<Text>橡岛</Text>
 		</Replace>
-		<Replace Tag="LOC_CIVILIZATION_IRONBORN_CITY_14" Language="zh_Hans_CN">
-			<Text>Lonely Light</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_IRONBORN_CITY_14">
+			<Text>孤灯堡</Text>
 		</Replace>
-		<Replace Tag="LOC_CIVILIZATION_IRONBORN_CITY_15" Language="zh_Hans_CN">
-			<Text>Lordsport</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_CIVILIZATION_IRONBORN_CITY_15">
+			<Text>君王港</Text>
 		</Replace>
 		
 		<!--CITIZEN NAMES-->
-		<Replace Tag="LOC_CITIZEN_IRONBORN_MALE_1" Language="zh_Hans_CN">
-			<Text>Dagmer</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_CITIZEN_IRONBORN_MALE_1">
+			<Text>达格摩</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_IRONBORN_MALE_2" Language="zh_Hans_CN">
-			<Text>Maron Botley</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_CITIZEN_IRONBORN_MALE_2">
+			<Text>马伦·波特利</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_IRONBORN_MALE_3" Language="zh_Hans_CN">
-			<Text>Dagon Codd</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_CITIZEN_IRONBORN_MALE_3">
+			<Text>达衮·考德</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_IRONBORN_MALE_4" Language="zh_Hans_CN">
-			<Text>Gevin Harlaw</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_CITIZEN_IRONBORN_MALE_4">
+			<Text>吉文·哈尔洛</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_IRONBORN_FEMALE_1" Language="zh_Hans_CN">
-			<Text>Asha Greyjoy</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_CITIZEN_IRONBORN_FEMALE_1">
+			<Text>阿莎·葛雷乔伊</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_IRONBORN_FEMALE_2" Language="zh_Hans_CN">
-			<Text>Alannys Harlaw</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_CITIZEN_IRONBORN_FEMALE_2">
+			<Text>亚拉妮丝·哈尔洛</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_IRONBORN_FEMALE_3" Language="zh_Hans_CN">
-			<Text>Gysella Goodbrother</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_CITIZEN_IRONBORN_FEMALE_3">
+			<Text>洁西拉·古柏勒</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_IRONBORN_FEMALE_4" Language="zh_Hans_CN">
-			<Text>Helya</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_CITIZEN_IRONBORN_FEMALE_4">
+			<Text>海莉亚</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_IRONBORN_FEMALE_5" Language="zh_Hans_CN">
-			<Text>Sylas Sourmouth</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_CITIZEN_IRONBORN_FEMALE_5">
+			<Text>“臭嘴”西拉斯</Text>
 		</Replace>
 		
 		<!--Unit Ability Descriptions-->
-		<Replace Tag="LOC_PROMOTION_COMBAT_WATER_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>+{1_Amount} Combat Strength for Naval Units</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_PROMOTION_COMBAT_WATER_DESCRIPTION">
+			<Text>海军单位+{1_Amount}战斗力</Text>
 		</Replace>
-		<Replace Tag="LOC_CAPTURE_COMBAT_UNITS_AS_THRALLS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Can Capture Enemy Units as Thralls upon Combat Victory</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_CAPTURE_COMBAT_UNITS_AS_THRALLS_DESCRIPTION">
+			<Text>能通过战斗胜利俘获盐奴单位</Text>
 		</Replace>
 		
 		<!--Agendas-->
 
-		<Replace Tag="LOC_AGENDA_IRON_PRICE_NAME" Language="zh_Hans_CN">
-			<Text>Pay the Iron Price</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_AGENDA_IRON_PRICE_NAME">
+			<Text>付铁钱</Text>
 		</Replace>
-		<Replace Tag="LOC_AGENDA_IRON_PRICE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Builds a large navy and respects civilizations who follow his lead. Does not like civilizations with a weak navy.</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_AGENDA_IRON_PRICE_DESCRIPTION">
+			<Text>尝试建立强大的海军并且尊敬与他志同道合的文明。讨厌海军羸弱的文明。</Text>
 		</Replace>
 		
 		<!--PEDIA-->
 		<!--CIV-->
-		<Replace Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_CAPTAINS_TAVERN_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
-			<Text>The ironborn are fierce men of the sea, and their naval supremacy was once unmatched, their dark legacy of raids and pillage of the hinterlands of the western and southern regions granting them, to this day, a fearsome reputation. The finger dance is a game played by the Ironborn of the Iron Islands. It is played by at least two people who throw a hand axe at each other. One must catch the axe or leap over it without missing a step. The name comes from the fact that the game usually ends with a dancer losing one or more of his fingers. The Taverns of Captains are where Ironborn "lose" their fingers...</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_CAPTAINS_TAVERN_CHAPTER_HISTORY_PARA_1">
+			<Text>铁民是生性好斗，他们在辉煌时期曾拥有无以伦比的海军优势，并一直有着劫掠东方和南方内陆的黑色传统。这也使得铁民在七国内的恶名一直流传到今日。手指舞是铁民之间流行的一个危险游戏。这个游戏至少需要两个人参与。参与者将互相投掷短柄斧，被投掷者必须接住或者躲过回旋飞来的斧子，但不得挪动半步。这种游戏被称为手指舞，因为通常某个参与者丢掉至少一根手指后才会结束。你在船长之家会找到相当多的手指……</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_IRONBORN_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
-			<Text>The ironborn are the natives of the Iron Islands in the Sunset Sea off the western coast of Westeros. They are also known as ironmen, especially by those they raid. The men from the green lands of Westeros also call them squids because the isles are ruled by House Greyjoy, whose sigil is a kraken.</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_IRONBORN_CHAPTER_HISTORY_PARA_1">
+			<Text>铁种，是生活在维斯特洛大陆西海岸日落之海中铁群岛原住民的自称，尤指那些以劫掠和海盗为生的人。他们还有一种较为正式的称谓叫做“铁民”。 居住在“青绿之地”的维斯特洛人又称他们为“鱿鱼”，得名于铁民当前统治家族葛雷乔伊的家徽。</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_IRONBORN_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
-			<Text>The Iron Islands were settled by the First Men many thousands of years ago. (Although the priests of the Drowned God claim the ironborn came from beneath the oceans, and are more kin to fish and merlings than the rest of mankind; and Archmaester Haereg once theorized that the ancestors of the ironborn came from a land west of the Sunset Sea.) Somewhat isolated from the rest of Westeros, the ironborn did not take up the worship of the old gods of the forest, instead creating their own religion based around the Drowned God. Their Seastone Chair, carved from oily black stone, is said to have been found on the shores of Old Wyk when they arrived. When the Andals overran Westeros and conquered the Iron Islands, they intermingled with the natives. While a few locals converted to the Faith of the Seven, it did not fully take hold and worship of the Drowned God continued.</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_IRONBORN_CHAPTER_HISTORY_PARA_2">
+			<Text>先民在数千年前便来到了铁群岛定居。由于在一定程度上与维斯特洛大陆隔绝，铁民并没有信仰来自森林之子的旧神，而是基于淹神和海石之位发展出了他们自己的宗教。据铁民传说海石之位在他们到达老威克岛时便矗立在海岸上。安达尔人横扫维斯特洛并征服铁群岛后与当地民族融合。虽然有少数当地人转而信仰七神，但大多数仍继续他们对淹神的崇拜。</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_IRONBORN_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
-			<Text>The ironborn of antiquity were ruled by local rock kings and salt kings, and the High Kings of the Iron Islands were chosen by kingsmoot. Beginning with the reign of Urron Greyiron, however, the ironmen were ruled by hereditary dynasties from first House Greyiron and later House Hoare.</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_IRONBORN_CHAPTER_HISTORY_PARA_3">
+			<Text>古代的铁民由本地的磐岩王和海盐王所统治，后来通过选王会选出自己的铁群岛至高王。从乌伦·葛雷艾恩开始，铁群岛之王的头衔变为家族世袭。葛雷艾恩家族之后统治铁群岛的另一个王朝是霍尔家族。</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_IRONBORN_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
-			<Text>The ironborn control over the lands of the Sunset Sea waxed and waned over millenia. Three Hoares ruled over the riverlands as Kings of the Isles and the Rivers. After the War of Conquest, however, the ironborn were thrown back to their islands with Harren the Black and all his line extinguished.</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_IRONBORN_CHAPTER_HISTORY_PARA_4">
+			<Text>他们统治着河间地和维斯特洛西海岸的大部分地方。但在征服战争后，黑心赫伦和他的整个家族被消灭，铁民也被打回到他们的岛上。</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_IRONBORN_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
-			<Text>Guided by House Greyjoy, the ironborn have been mostly-peaceful subjects of the Lord of the Seven Kingdoms and the Iron Throne for almost three hundred years, aside from reaving by Lords Dalton and Dagon Greyjoy. In 289 AC the ironborn revolted in Greyjoy's Rebellion in an attempt to restore the Old Way, but they were crushed by King Robert I Baratheon.</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_IRONBORN_CHAPTER_HISTORY_PARA_5">
+			<Text>铁民在七大王国的统治下维持了三百年的和平，直到篡夺者战争结束六年后，巴隆·葛雷乔伊大王发起叛乱以求恢复古道。当然结果还是被我们的胖劳伯狠狠教育了一番。</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_IRONBORN_CHAPTER_HISTORY_PARA_6" Language="zh_Hans_CN">
-			<Text>Archmaester Haereg recorded the history of the ironmen in his exhaustive History of the Ironborn, while Archmaester Hake also wrote of their history. Some maesters believe the blood of Cape Kraken's people is closer to that of the ironmen than the northmen.</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_IRONBORN_CHAPTER_HISTORY_PARA_6">
+			<Text>博士海瑞格著有一本《铁种史》，但其中的很多内容被后世学者认为来自主观臆断，经不起推敲。博士哈克也著有相关的论述。一些学士认为生活在海怪角的居民在血缘上更接近铁民而非北境人。</Text>
 		</Replace>
 		<!--LEADER-->
-		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BALON_GREYJOY_TITLE" Language="zh_Hans_CN">
-			<Text>Balon Greyjoy</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BALON_GREYJOY_TITLE">
+			<Text>巴隆·葛雷乔伊</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BALON_GREYJOY_SUBTITLE" Language="zh_Hans_CN">
-			<Text>Head of House Greyjoy, Lord of Iron Islands, the Captain of the Great Kraken</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BALON_GREYJOY_SUBTITLE">
+			<Text>葛雷乔伊家族的家主，铁群岛领主，“泓洋巨怪号”船长</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BALON_GREYJOY_QUOTE" Language="zh_Hans_CN">
-			<Text>No man has ever died from bending his knee. He who kneels may rise again, blade in hand. He who will not kneel stays dead, stiff legs and all.</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BALON_GREYJOY_QUOTE">
+			<Text>没有人因为下跪而死，下跪的人依然可以再站起来，重新拿起利刃。因为不愿下跪而死只能一了百了，再无机会。</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BALON_GREYJOY_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
-			<Text>Balon is the eldest surviving son of Quellon Greyjoy, Lord of the Iron Islands, and a lady of House Sunderly. It is not clear when he was born.</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BALON_GREYJOY_CHAPTER_HISTORY_PARA_1">
+			<Text>巴隆是科伦·葛雷乔伊大王和他来自桑德利家族的妻子所生的最年长的儿子。其生年不明。</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BALON_GREYJOY_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
-			<Text>Balon learned to sail when still young and was a very skilled captain. Balon scaled the Flint Cliffs to the Blind Lord's haunted tower when he was ten. By his thirteenth year, he had become an expert oarsman. At fifteen he sailed with Dagmer Cleftjaw to the Stepstones on a reaving, killing his first man and taking his first two salt wives there. By seventeen he captained his own longship.[1] Later he often went raiding and was known for his fierceness and fearlessness.</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BALON_GREYJOY_CHAPTER_HISTORY_PARA_2">
+			<Text>巴隆自幼学习航海技术，成为了一名经验丰富的船长。十岁时，他爬上菲林特悬崖，进入盲眼领主的鬼塔。十五岁时，他随“裂腭”达格摩去石阶列岛，参加夏季的掠夺行动。在那里，他首开杀戒，并带回了头两个盐妾；十七岁时，巴隆拥有了自己的长船。自那以后，巴隆常驾着长船四处劫掠，他的勇猛和无畏无人不知。</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BALON_GREYJOY_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
-			<Text>Balon and two of his brothers, Euron and Victarion, wanted their father Quellon to join Robert's Rebellion. Quellon was peaceful and cautious, however, and desired neutrality. After Crown Prince Rhaegar Targaryen was slain in the Battle of the Trident, Quellon was convinced by his sons to join the rebellion or else gain nothing from the war. The ironmen's contribution to the war turned out to be minimal. Quellon was slain fighting the longships of the Shield Islands in a battle at the Mander, after which Balon brought the Greyjoy ships back to Pyke so he could claim the Seastone Chair.</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BALON_GREYJOY_CHAPTER_HISTORY_PARA_3">
+			<Text>篡夺者战争爆发后科伦大王没有参战，也拒绝任何要求他出兵的邀请。他的身体开始衰弱，不断被胃痛折磨，甚至每晚睡觉前也要喝一杯罂粟花奶止痛。他的儿子们都渴求赢得光荣和财富，他们不断催促父亲参战，而当雷加王子死于三叉戟河之役后，科伦大王终于同意支持劳勃·拜拉席恩，出兵进攻河湾地。他留下了大部分军队防守铁群岛，以免兰尼斯特家族偷袭他的老巢。可是他的远征没有带来很多战果，只抓到了好几个渔民和商人，接着就在盾牌列岛遭到迎头痛击，铁民损失了十数条船，死者当中也包括了科伦大王。此时战争已经结束，他的儿子巴隆决定撤回群屿并继承了海石之位。</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BALON_GREYJOY_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
-			<Text>When Balon returned to Pyke he found out his younger brother, Urrigon, had died of gangrene after being injured in the finger dance. The maester at Pyke had tried to save the hand of the boy, but his potions had failed and the fourteen-year-old Urrigon lost his life instead. Balon commanded the same treatment be used on the maester, who died along with Balon's stepmother.</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BALON_GREYJOY_CHAPTER_HISTORY_PARA_4">
+			<Text>巴隆继承父亲的王位后返回派克岛，此时他得知自己的兄弟乌尔刚在练习手指舞的时候不慎受伤，因感染而死，年仅十四岁。学士曾经试图用自己的医术挽救乌尔，却反而要了他的性命。巴隆砍去了学士的手，并命令他用相同的办法医治自己，学士不久便死去。此后罗宾·葛雷乔伊的生母也因难产而死。</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BALON_GREYJOY_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
-			<Text>Balon is married to Alannys Harlaw, who gave him three sons and a daughter: Rodrik, Maron, Asha, and Theon.</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_BALON_GREYJOY_CHAPTER_HISTORY_PARA_5">
+			<Text>巴隆迎娶亚拉妮丝·哈尔洛为妻，共生三儿一女：罗德利克，马伦，阿莎和席恩。</Text>
 		</Replace>
 		
 		<!--UNITS-->
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_IRON_LONGSHIP_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
-			<Text>The Iron Fleet is the largest grouping of longships from the Iron Islands. They number one hundred, and unlike other ironborn ships they belong to the Seastone Chair. It is one of the three most powerful fleets of Westeros, along with the royal fleet of the crownlands and the Redwyne fleet of the Arbor.</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_IRON_LONGSHIP_CHAPTER_HISTORY_PARA_1">
+			<Text>铁舰队是铁群岛最大的长船集群。他们为数一百。铁舰队是维斯特洛大陆三支最强舰队之一，与王领的皇家舰队，雷德温家族的青亭岛舰队齐名。</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_IRON_LONGSHIP_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
-			<Text>Each ship of the Iron Fleet is captained and crewed by people of various islands. The ships, while smaller than the war dromonds of the mainland, are three times the size of a standard longship of the Isles. The fleet's commander, the Lord Captain of the Iron Fleet, is Victarion Greyjoy.</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_IRON_LONGSHIP_CHAPTER_HISTORY_PARA_2">
+			<Text>铁舰队的船上的船员来自各个岛屿。尽管船只的尺寸小于大陆的大帆船，他们还是有普通长船的三倍大。铁舰队的指挥官被称为铁舰队司令。现任的司令是维克塔利昂·葛雷乔伊。</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_THRALL_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
-			<Text>Thralls of the ironborn may only be obtained by paying the "iron price" (capturing them by raiding) under the Old Way. They are not slaves since they may not be sold and they may not be obtained by paying the "gold price." Their children may be free if they are drowned to the Drowned God. Thralls are used for farming and mining, activities which the ironmen consider unsuitable for free men.</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_PEDIA_UNITS_PAGE_UNIT_THRALL_CHAPTER_HISTORY_PARA_1">
+			<Text>盐奴，是铁群岛上以契约束缚的仆人。只有通过古道提倡的“支付铁钱”的方式（在侵袭中俘获），才可以获得他们作自己的奴仆。他们不被视作奴隶，因为他们不能被贩卖，也不能通过“支付金钱”来获取。如果他们选择献身于淹神，那么他们的孩子将获得自由。</Text>
 		</Replace>
 		<!--CIVINFO-->
-		<Replace Tag="LOC_CIVINFO_IRONBORN_LOCATION" Language="zh_Hans_CN">
-			<Text>Iron Islands</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_CIVINFO_IRONBORN_LOCATION">
+			<Text>铁群岛</Text>
 		</Replace>
-		<Replace Tag="LOC_CIVINFO_IRONBORN_SIZE" Language="zh_Hans_CN">
-			<Text>The Iron Islands is an archipelago in Ironman's Bay, located in the Sunset Sea off the western coast of Westeros.</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_CIVINFO_IRONBORN_SIZE">
+			<Text>铁群岛位于铁民湾，在维斯特洛大陆西境的日落之海中，向东可直抵三叉戟河与颈泽。群岛主要由三十一个岛组成，包括七个主岛，包括派克岛, 大威克岛, 老威克岛, 哈尔洛岛, 盐崖岛, 黑潮岛和橡岛。</Text>
 		</Replace>
-		<Replace Tag="LOC_CIVINFO_IRONBORN_POPULATION" Language="zh_Hans_CN">
-			<Text>The inhabitants of these harsh isles are known as ironmen, especially by the rest of Westeros, but they also call themselves the ironborn.</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_CIVINFO_IRONBORN_POPULATION">
+			<Text>在群岛贫瘠的土地上，居住着一个天性独立、凶猛甚至于残暴的族群，大陆住民称他们为铁民，他们则自称为铁种。</Text>
 		</Replace>
-		<Replace Tag="LOC_CIVINFO_IRONBORN_CAPITAL" Language="zh_Hans_CN">
-			<Text>Pyke</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_CIVINFO_IRONBORN_CAPITAL">
+			<Text>派克城</Text>
 		</Replace>
 		
 		<!--DIPLO-->
 
-		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_BALON_GREYJOY_ANY" Language="zh_Hans_CN">
-			<Text>We will accept your friendship. We shall enjoy the feasts in the Drowned God's watery halls.</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_BALON_GREYJOY_ANY">
+			<Text>我们接受你的友谊。我们将一同在淹神的宫殿中欢宴。</Text>
 		</Replace>
-		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_BALON_GREYJOY_ANY" Language="zh_Hans_CN">
-			<Text>You are not following The Old Way. Friendship is not accepted.</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_BALON_GREYJOY_ANY">
+			<Text>你不遵循古道，铁民不与你为伍。</Text>
 		</Replace>
-		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_BALON_GREYJOY_ANY" Language="zh_Hans_CN">
-			<Text>The Drowned God praises you. Let us officially declare our friendship.</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_BALON_GREYJOY_ANY">
+			<Text>淹神眷顾你。让我们成为友邦共同发展。</Text>
 		</Replace>
-		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_BALON_GREYJOY_ANY" Language="zh_Hans_CN">
-			<Text>Very good.</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_BALON_GREYJOY_ANY">
+			<Text>很好。</Text>
 		</Replace>
-		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_BALON_GREYJOY_ANY" Language="zh_Hans_CN">
-			<Text>Unwise decision.</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_BALON_GREYJOY_ANY">
+			<Text>愚蠢的决定。</Text>
 		</Replace>
-		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_BALON_GREYJOY_ANY" Language="zh_Hans_CN">
-			<Text>Interesting... Now face my Iron Fleet and be prepared for your rest of life as my Thrall!</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_BALON_GREYJOY_ANY">
+			<Text>这是你自找的……现在感受我的铁舰队的威力，准备好下半辈子以我的盐奴身份为生吧！</Text>
 		</Replace>
-		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_BALON_GREYJOY_ANY" Language="zh_Hans_CN">
-			<Text>Don't ask me why, I've paid my Iron Prices...</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_BALON_GREYJOY_ANY">
+			<Text>别问为什么，我来付铁钱了……</Text>
 		</Replace>
-		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_BALON_GREYJOY_ANY" Language="zh_Hans_CN">
-			<Text>We have received your trade delegation, served with bread and salt.</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_BALON_GREYJOY_ANY">
+			<Text>您的使团已经到达，正在享用派克城的盐与面包。</Text>
 		</Replace>
-		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_BALON_GREYJOY_ANY" Language="zh_Hans_CN">
-			<Text>Trade? I guess you will not be happy to see my Iron Prices.</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_BALON_GREYJOY_ANY">
+			<Text>交易？让我想想你是不是乐意我用铁钱？</Text>
 		</Replace>
-		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_BALON_GREYJOY_ANY" Language="zh_Hans_CN">
-			<Text>Fear not, my fleet is here for trading. This time...</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_BALON_GREYJOY_ANY">
+			<Text>别怕，这次我的舰队只是来经商的。这次……</Text>
 		</Replace>
-		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_BALON_GREYJOY_ANY" Language="zh_Hans_CN">
-			<Text>Now you have trouble. Keep an eye on your coast line. Though it won't help you too much...</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_BALON_GREYJOY_ANY">
+			<Text>你麻烦大了。盯紧你的海岸线，不过大概也没什么用……</Text>
 		</Replace>
-		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_BALON_GREYJOY_ANY" Language="zh_Hans_CN">
-			<Text>Tell me where's your fleet? If I don't find them, I will plunder your coast. If I find them... My Iron Fleet will have some more Galleies.</Text>
-		</Replace>		
-		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_BALON_GREYJOY_ANY" Language="zh_Hans_CN">
-			<Text>What brings you here stranger? Though I complement your sailing skill, our young krakens can do much better.</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_BALON_GREYJOY_ANY">
+			<Text>你的舰队在哪？你没让我找到他们，你的海岸就会被我劫掠。如果让我找到他们了……我的铁舰队又会多几艘船了。(谴责了您).</Text>
 		</Replace>
-		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_BALON_GREYJOY_ANY" Language="zh_Hans_CN">
-			<Text>You might want to try some different style of lodging. Hope you sleep well with the music of waves.</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_AGENDA_IRON_PRICE">
+			<Text>(你的海军不堪一击。)</Text>
 		</Replace>
-		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_BALON_GREYJOY_ANY" Language="zh_Hans_CN">
-			<Text>Fine, that's not too bad a deal.</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_LEADER_BALON_GREYJOY_ANY">
+			<Text>什么风把你吹来的陌生人？我非常赞赏你的航海技术，大概能和我们的小海怪崽子一较高下吧……</Text>
 		</Replace>
-		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_BALON_GREYJOY_ANY" Language="zh_Hans_CN">
-			<Text>Tell me of your capital. And you wish it's not a coastal one.</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_BALON_GREYJOY_ANY">
+			<Text>你可能会对不同风格的住宿感兴趣。希望你能在浪涛声中睡个好觉。</Text>
 		</Replace>
-		<Replace Tag="LOC_DIPLO_GREETING_LEADER_BALON_GREYJOY_ANY" Language="zh_Hans_CN">
-			<Text>What is it?</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_BALON_GREYJOY_ANY">
+			<Text>好吧，这交易很合理。</Text>
 		</Replace>
-		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_BALON_GREYJOY_ANY" Language="zh_Hans_CN">
-			<Text>A strong navy you have. You are safe from my fleet for now.</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_BALON_GREYJOY_ANY">
+			<Text>让我听听你首都的故事。哦，希望她不在海边。</Text>
 		</Replace>
-		<Replace Tag="LOC_DIPLO_KUDO_LEADER_BALON_GREYJOY_REASON_ANY" Language="zh_Hans_CN">
-			<Text>Balon Greyjoy is awed by your mighty fleet.</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_GREETING_LEADER_BALON_GREYJOY_ANY">
+			<Text>干嘛来了？</Text>
 		</Replace>
-		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_BALON_GREYJOY_ANY" Language="zh_Hans_CN">
-			<Text>Guardless coast? Looking juicy...</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_KUDO_EXIT_LEADER_BALON_GREYJOY_ANY">
+			<Text>你有一支强大的海军。你暂时是安全的。</Text>
 		</Replace>
-		<Replace Tag="LOC_DIPLO_WARNING_LEADER_BALON_GREYJOY_REASON_ANY" Language="zh_Hans_CN">
-			<Text>Balon Greyjoy thinks your coast is too easy to raid.</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_KUDO_LEADER_BALON_GREYJOY_REASON_ANY">
+			<Text>巴隆赞叹于您强大的舰队。</Text>
 		</Replace>
-		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_BALON_GREYJOY_ANY" Language="zh_Hans_CN">
-			<Text>We shall fight together, agreed?</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_WARNING_EXIT_LEADER_BALON_GREYJOY_ANY">
+			<Text>毫无防备的海岸线？让人垂涎欲滴啊……</Text>
 		</Replace>
-		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_BALON_GREYJOY_ANY" Language="zh_Hans_CN">
-			<Text>Let's put it on a pause, fishing season is starting.</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_WARNING_LEADER_BALON_GREYJOY_REASON_ANY">
+			<Text>巴隆认为劫掠你的海岸易如反掌。</Text>
 		</Replace>
-		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_BALON_GREYJOY_ANY" Language="zh_Hans_CN">
-			<Text>Not yet.</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_BALON_GREYJOY_ANY">
+			<Text>我们将共同作战，如何？</Text>
 		</Replace>
-		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_BALON_GREYJOY_ANY" Language="zh_Hans_CN">
-			<Text>No man has ever died from bending his knee. He who kneels may rise again, blade in hand.</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_BALON_GREYJOY_ANY">
+			<Text>让我们暂时休战，捕鱼季节已经来临了。</Text>
 		</Replace>
-		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_BALON_GREYJOY_ANY" Language="zh_Hans_CN">
-			<Text>Just for passing by, no fishing our resource, no sleeping our women.</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_BALON_GREYJOY_ANY">
+			<Text>没那么容易。</Text>
 		</Replace>
-		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_BALON_GREYJOY_ANY" Language="zh_Hans_CN">
-			<Text>The Drowned God doesn't like you. Better not pass or your ship will sink.</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_BALON_GREYJOY_ANY">
+			<Text>没有人因为下跪而死，下跪的人依然可以再站起来，重新拿起利刃。</Text>
 		</Replace>
-		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_BALON_GREYJOY_ANY" Language="zh_Hans_CN">
-			<Text>I promise my people will not pillage your land, so would you provide them a passage?</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_BALON_GREYJOY_ANY">
+			<Text>只给你路过，不准捕捞我们的海产，不许偷我们的女人暖床。</Text>
 		</Replace>
-		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_BALON_GREYJOY_ANY" Language="zh_Hans_CN">
-			<Text>I see the rigs of your junk wood. What is this about?</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_BALON_GREYJOY_ANY">
+			<Text>淹神蔑视你。最好不要进入我们的水域，不然你有的将只是沉船。</Text>
 		</Replace>
-		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_BALON_GREYJOY_ANY" Language="zh_Hans_CN">
-			<Text>What is dead may never die, but rises again, harder and stronger.</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_BALON_GREYJOY_ANY">
+			<Text>我保证我的人民不会劫掠你的土地，那么能不能让我通过一下？</Text>
 		</Replace>
-		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_BALON_GREYJOY_ANY" Language="zh_Hans_CN">
-			<Text>Not a chance.</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_BALON_GREYJOY_ANY">
+			<Text>我都能看见你那些破木头上挂的烂布了。你这是干什么？</Text>
 		</Replace>
-		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_BALON_GREYJOY_ANY" Language="zh_Hans_CN">
-			<Text>Looking good.</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_BALON_GREYJOY_ANY">
+			<Text>逝者不死，必将再起，其势更烈。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_BALON_GREYJOY_ANY">
+			<Text>想都别想。</Text>
+		</Replace>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_BALON_GREYJOY_ANY">
+			<Text>看着不错。</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

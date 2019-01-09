@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>315</build>
+		<revision>805</revision>
+	</m_Version>
+	<m_ClassName text="StrategicView_Sprite"/>
+	<m_PackageName text="strategicview/strategicview_districts"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="Districts_Dragonpit_Pillaged_Revealed"/>
+			<m_ObjectName text="Districts_Dragonpit_Pillaged_Revealed"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Districts_Dragonpit_Pillaged_Visible"/>
+			<m_ObjectName text="Districts_Dragonpit_Pillaged_Visible"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Districts_Dragonpit_Revealed"/>
+			<m_ObjectName text="Districts_Dragonpit_Revealed"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Districts_Dragonpit_UnderConstruction_Revealed"/>
+			<m_ObjectName text="Districts_Dragonpit_UnderConstruction_Revealed"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Districts_Dragonpit_UnderConstruction_Visible"/>
+			<m_ObjectName text="Districts_Dragonpit_UnderConstruction_Visible"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Districts_Dragonpit_Visible"/>
+			<m_ObjectName text="Districts_Dragonpit_Visible"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Districts_GatesOfTheMoon_Pillaged_Revealed"/>
+			<m_ObjectName text="Districts_GatesOfTheMoon_Pillaged_Revealed"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Districts_GatesOfTheMoon_Pillaged_Visible"/>
+			<m_ObjectName text="Districts_GatesOfTheMoon_Pillaged_Visible"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Districts_GatesOfTheMoon_Revealed"/>
+			<m_ObjectName text="Districts_GatesOfTheMoon_Revealed"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Districts_GatesOfTheMoon_UnderConstruction_Revealed"/>
+			<m_ObjectName text="Districts_GatesOfTheMoon_UnderConstruction_Revealed"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Districts_GatesOfTheMoon_UnderConstruction_Visible"/>
+			<m_ObjectName text="Districts_GatesOfTheMoon_UnderConstruction_Visible"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Districts_GatesOfTheMoon_Visible"/>
+			<m_ObjectName text="Districts_GatesOfTheMoon_Visible"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Districts_Godswood_Pillaged_Revealed"/>
+			<m_ObjectName text="Districts_Godswood_Pillaged_Revealed"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Districts_Godswood_Pillaged_Visible"/>
+			<m_ObjectName text="Districts_Godswood_Pillaged_Visible"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Districts_Godswood_Revealed"/>
+			<m_ObjectName text="Districts_Godswood_Revealed"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Districts_Godswood_UnderConstruction_Revealed"/>
+			<m_ObjectName text="Districts_Godswood_UnderConstruction_Revealed"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Districts_Godswood_UnderConstruction_Visible"/>
+			<m_ObjectName text="Districts_Godswood_UnderConstruction_Visible"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Districts_Godswood_Visible"/>
+			<m_ObjectName text="Districts_Godswood_Visible"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Districts_SellswordsCamp_Pillaged_Revealed"/>
+			<m_ObjectName text="Districts_SellswordsCamp_Pillaged_Revealed"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Districts_SellswordsCamp_Pillaged_Visible"/>
+			<m_ObjectName text="Districts_SellswordsCamp_Pillaged_Visible"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Districts_SellswordsCamp_Revealed"/>
+			<m_ObjectName text="Districts_SellswordsCamp_Revealed"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Districts_SellswordsCamp_UnderConstruction_Revealed"/>
+			<m_ObjectName text="Districts_SellswordsCamp_UnderConstruction_Revealed"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Districts_SellswordsCamp_UnderConstruction_Visible"/>
+			<m_ObjectName text="Districts_SellswordsCamp_UnderConstruction_Visible"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Districts_SellswordsCamp_Visible"/>
+			<m_ObjectName text="Districts_SellswordsCamp_Visible"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Districts_TwinTowers_Pillaged_Revealed"/>
+			<m_ObjectName text="Districts_TwinTowers_Pillaged_Revealed"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Districts_TwinTowers_Pillaged_Visible"/>
+			<m_ObjectName text="Districts_TwinTowers_Pillaged_Visible"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Districts_TwinTowers_Revealed"/>
+			<m_ObjectName text="Districts_TwinTowers_Revealed"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Districts_TwinTowers_UnderConstruction_Revealed"/>
+			<m_ObjectName text="Districts_TwinTowers_UnderConstruction_Revealed"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Districts_TwinTowers_UnderConstruction_Visible"/>
+			<m_ObjectName text="Districts_TwinTowers_UnderConstruction_Visible"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Districts_TwinTowers_Visible"/>
+			<m_ObjectName text="Districts_TwinTowers_Visible"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

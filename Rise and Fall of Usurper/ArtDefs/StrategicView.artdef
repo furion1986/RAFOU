@@ -59,7 +59,7 @@
 				<m_Fields>
 					<m_Values>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text="Improvements_Airstrip_Visible"/>
+							<m_EntryName text="Improvement_ArborWinery_Visible"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
 							<m_XLPPath text="StrategicView_Improvements.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_improvements"/>
@@ -77,7 +77,7 @@
 							<m_ParamName text="Visible_BottomRight"/>
 						</Element>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text="Improvements_Airstrip_Revealed"/>
+							<m_EntryName text="Improvement_ArborWinery_Revealed"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
 							<m_XLPPath text="StrategicView_Improvements.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_improvements"/>
@@ -104,7 +104,7 @@
 				<m_Fields>
 					<m_Values>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text="Improvements_Airstrip_Pillaged_Visible"/>
+							<m_EntryName text="Improvement_ArborWinery_Pillaged_Visible"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
 							<m_XLPPath text="StrategicView_Improvements.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_improvements"/>
@@ -122,7 +122,7 @@
 							<m_ParamName text="Visible_BottomRight"/>
 						</Element>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text="Improvements_Airstrip_Pillaged_Revealed"/>
+							<m_EntryName text="Improvement_ArborWinery_Pillaged_Revealed"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
 							<m_XLPPath text="StrategicView_Improvements.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_improvements"/>
@@ -149,7 +149,7 @@
 				<m_Fields>
 					<m_Values>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text="Improvements_BeachResort_Visible"/>
+							<m_EntryName text="Improvement_WaterGarden_Visible"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
 							<m_XLPPath text="StrategicView_Improvements.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_improvements"/>
@@ -167,7 +167,7 @@
 							<m_ParamName text="Visible_BottomRight"/>
 						</Element>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text="Improvements_BeachResort_Revealed"/>
+							<m_EntryName text="Improvement_WaterGarden_Revealed"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
 							<m_XLPPath text="StrategicView_Improvements.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_improvements"/>
@@ -194,7 +194,7 @@
 				<m_Fields>
 					<m_Values>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text="Improvements_BeachResort_Pillaged_Visible"/>
+							<m_EntryName text="Improvement_WaterGarden_Pillaged_Visible"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
 							<m_XLPPath text="StrategicView_Improvements.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_improvements"/>
@@ -212,7 +212,7 @@
 							<m_ParamName text="Visible_BottomRight"/>
 						</Element>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text="Improvements_BeachResort_Pillaged_Revealed"/>
+							<m_EntryName text="Improvement_WaterGarden_Pillaged_Revealed"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
 							<m_XLPPath text="StrategicView_Improvements.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_improvements"/>
@@ -483,7 +483,7 @@
 				<m_Fields>
 					<m_Values>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text="Districts_HolySite_Visible"/>
+							<m_EntryName text="Districts_Godswood_Visible"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
 							<m_XLPPath text="StrategicView_Districts.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_districts"/>
@@ -501,7 +501,7 @@
 							<m_ParamName text="Visible_BottomRight"/>
 						</Element>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text="Districts_HolySite_Revealed"/>
+							<m_EntryName text="Districts_Godswood_Revealed"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
 							<m_XLPPath text="StrategicView_Districts.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_districts"/>
@@ -528,7 +528,7 @@
 				<m_Fields>
 					<m_Values>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text="Districts_Encampment_Visible"/>
+							<m_EntryName text="Districts_SellswordsCamp_Visible"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
 							<m_XLPPath text="StrategicView_Districts.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_districts"/>
@@ -546,7 +546,7 @@
 							<m_ParamName text="Visible_BottomRight"/>
 						</Element>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text="Districts_Encampment_Revealed"/>
+							<m_EntryName text="Districts_SellswordsCamp_Revealed"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
 							<m_XLPPath text="StrategicView_Districts.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_districts"/>
@@ -573,7 +573,7 @@
 				<m_Fields>
 					<m_Values>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text="Districts_Aerodrome_Visible"/>
+							<m_EntryName text="Districts_Dragonpit_Visible"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
 							<m_XLPPath text="StrategicView_Districts.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_districts"/>
@@ -591,7 +591,7 @@
 							<m_ParamName text="Visible_BottomRight"/>
 						</Element>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text="Districts_Aerodrome_Revealed"/>
+							<m_EntryName text="Districts_Dragonpit_Revealed"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
 							<m_XLPPath text="StrategicView_Districts.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_districts"/>
@@ -618,7 +618,7 @@
 				<m_Fields>
 					<m_Values>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text="Districts_Aqueduct_Visible"/>
+							<m_EntryName text="Districts_TwinTowers_Visible"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
 							<m_XLPPath text="StrategicView_Districts.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_districts"/>
@@ -636,7 +636,7 @@
 							<m_ParamName text="Visible_BottomRight"/>
 						</Element>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text="Districts_Aqueduct_Revealed"/>
+							<m_EntryName text="Districts_TwinTowers_Revealed"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
 							<m_XLPPath text="StrategicView_Districts.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_districts"/>
@@ -663,7 +663,7 @@
 				<m_Fields>
 					<m_Values>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text="Districts_Neighborhood_Visible"/>
+							<m_EntryName text="Districts_GatesOfTheMoon_Visible"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
 							<m_XLPPath text="StrategicView_Districts.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_districts"/>
@@ -681,7 +681,7 @@
 							<m_ParamName text="Visible_BottomRight"/>
 						</Element>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text="Districts_Neighborhood_Revealed"/>
+							<m_EntryName text="Districts_GatesOfTheMoon_Revealed"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
 							<m_XLPPath text="StrategicView_Districts.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_districts"/>
@@ -708,7 +708,7 @@
 				<m_Fields>
 					<m_Values>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text="Districts_Aerodrome_Pillaged_Visible"/>
+							<m_EntryName text="Districts_Dragonpit_Pillaged_Visible"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
 							<m_XLPPath text="StrategicView_Districts.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_districts"/>
@@ -726,7 +726,7 @@
 							<m_ParamName text="Visible_BottomRight"/>
 						</Element>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text="Districts_Aerodrome_Pillaged_Revealed"/>
+							<m_EntryName text="Districts_Dragonpit_Pillaged_Revealed"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
 							<m_XLPPath text="StrategicView_Districts.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_districts"/>
@@ -753,7 +753,7 @@
 				<m_Fields>
 					<m_Values>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text="Districts_Aerodrome_UnderConstruction_Visible"/>
+							<m_EntryName text="Districts_Dragonpit_UnderConstruction_Visible"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
 							<m_XLPPath text="StrategicView_Districts.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_districts"/>
@@ -771,7 +771,7 @@
 							<m_ParamName text="Visible_BottomRight"/>
 						</Element>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text="Districts_Aerodrome_UnderConstruction_Revealed"/>
+							<m_EntryName text="Districts_Dragonpit_UnderConstruction_Revealed"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
 							<m_XLPPath text="StrategicView_Districts.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_districts"/>
@@ -798,7 +798,7 @@
 				<m_Fields>
 					<m_Values>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text="Districts_Aqueduct_Pillaged_Visible"/>
+							<m_EntryName text="Districts_TwinTowers_Pillaged_Visible"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
 							<m_XLPPath text="StrategicView_Districts.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_districts"/>
@@ -816,7 +816,7 @@
 							<m_ParamName text="Visible_BottomRight"/>
 						</Element>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text="Districts_Aqueduct_Pillaged_Revealed"/>
+							<m_EntryName text="Districts_TwinTowers_Pillaged_Revealed"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
 							<m_XLPPath text="StrategicView_Districts.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_districts"/>
@@ -843,7 +843,7 @@
 				<m_Fields>
 					<m_Values>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text="Districts_Aqueduct_UnderConstruction_Visible"/>
+							<m_EntryName text="Districts_TwinTowers_UnderConstruction_Visible"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
 							<m_XLPPath text="StrategicView_Districts.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_districts"/>
@@ -861,7 +861,7 @@
 							<m_ParamName text="Visible_BottomRight"/>
 						</Element>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text="Districts_Aqueduct_UnderConstruction_Revealed"/>
+							<m_EntryName text="Districts_TwinTowers_UnderConstruction_Revealed"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
 							<m_XLPPath text="StrategicView_Districts.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_districts"/>
@@ -888,7 +888,7 @@
 				<m_Fields>
 					<m_Values>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text="Districts_Encampment_Pillaged_Visible"/>
+							<m_EntryName text="Districts_SellswordsCamp_Pillaged_Visible"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
 							<m_XLPPath text="StrategicView_Districts.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_districts"/>
@@ -906,7 +906,7 @@
 							<m_ParamName text="Visible_BottomRight"/>
 						</Element>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text="Districts_Encampment_Pillaged_Revealed"/>
+							<m_EntryName text="Districts_SellswordsCamp_Pillaged_Revealed"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
 							<m_XLPPath text="StrategicView_Districts.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_districts"/>
@@ -933,7 +933,7 @@
 				<m_Fields>
 					<m_Values>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text="Districts_Encampment_UnderConstruction_Visible"/>
+							<m_EntryName text="Districts_SellswordsCamp_UnderConstruction_Visible"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
 							<m_XLPPath text="StrategicView_Districts.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_districts"/>
@@ -951,7 +951,7 @@
 							<m_ParamName text="Visible_BottomRight"/>
 						</Element>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text="Districts_Encampment_UnderConstruction_Revealed"/>
+							<m_EntryName text="Districts_SellswordsCamp_UnderConstruction_Revealed"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
 							<m_XLPPath text="StrategicView_Districts.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_districts"/>
@@ -978,7 +978,7 @@
 				<m_Fields>
 					<m_Values>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text="Districts_HolySite_Pillaged_Visible"/>
+							<m_EntryName text="Districts_Godswood_Pillaged_Visible"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
 							<m_XLPPath text="StrategicView_Districts.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_districts"/>
@@ -996,7 +996,7 @@
 							<m_ParamName text="Visible_BottomRight"/>
 						</Element>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text="Districts_HolySite_Pillaged_Revealed"/>
+							<m_EntryName text="Districts_Godswood_Pillaged_Revealed"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
 							<m_XLPPath text="StrategicView_Districts.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_districts"/>
@@ -1023,7 +1023,7 @@
 				<m_Fields>
 					<m_Values>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text="Districts_HolySite_UnderConstruction_Visible"/>
+							<m_EntryName text="Districts_Godswood_UnderConstruction_Visible"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
 							<m_XLPPath text="StrategicView_Districts.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_districts"/>
@@ -1041,7 +1041,7 @@
 							<m_ParamName text="Visible_BottomRight"/>
 						</Element>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text="Districts_HolySite_UnderConstruction_Revealed"/>
+							<m_EntryName text="Districts_Godswood_UnderConstruction_Revealed"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
 							<m_XLPPath text="StrategicView_Districts.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_districts"/>
@@ -1068,7 +1068,7 @@
 				<m_Fields>
 					<m_Values>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text="Districts_Neighborhood_Pillaged_Visible"/>
+							<m_EntryName text="Districts_GatesOfTheMoon_Pillaged_Visible"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
 							<m_XLPPath text="StrategicView_Districts.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_districts"/>
@@ -1086,7 +1086,7 @@
 							<m_ParamName text="Visible_BottomRight"/>
 						</Element>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text="Districts_Neighborhood_Pillaged_Revealed"/>
+							<m_EntryName text="Districts_GatesOfTheMoon_Pillaged_Revealed"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
 							<m_XLPPath text="StrategicView_Districts.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_districts"/>
@@ -1113,7 +1113,7 @@
 				<m_Fields>
 					<m_Values>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text="Districts_Neighborhood_UnderConstruction_Visible"/>
+							<m_EntryName text="Districts_GatesOfTheMoon_UnderConstruction_Visible"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
 							<m_XLPPath text="StrategicView_Districts.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_districts"/>
@@ -1131,7 +1131,7 @@
 							<m_ParamName text="Visible_BottomRight"/>
 						</Element>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text="Districts_Neighborhood_UnderConstruction_Revealed"/>
+							<m_EntryName text="Districts_GatesOfTheMoon_UnderConstruction_Revealed"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
 							<m_XLPPath text="StrategicView_Districts.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_districts"/>
@@ -1991,7 +1991,7 @@
 				<m_Fields>
 					<m_Values>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text="Buildings_CityCenter_WaterMill_Visible"/>
+							<m_EntryName text="Building_CaptainsTavern_Visible"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
 							<m_XLPPath text="StrategicView_Buildings.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_buildings"/>
@@ -2009,7 +2009,7 @@
 							<m_ParamName text="Visible_BottomRight"/>
 						</Element>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text="Buildings_CityCenter_WaterMill_Revealed"/>
+							<m_EntryName text="Building_CaptainsTavern_Revealed"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
 							<m_XLPPath text="StrategicView_Buildings.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_buildings"/>
@@ -2036,7 +2036,7 @@
 				<m_Fields>
 					<m_Values>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text="Buildings_CityCenter_WaterMill_UnderConstruction_Visible"/>
+							<m_EntryName text="Building_CaptainsTavern_UnderConstruction_Visible"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
 							<m_XLPPath text="StrategicView_Buildings.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_buildings"/>
@@ -2054,7 +2054,7 @@
 							<m_ParamName text="Visible_BottomRight"/>
 						</Element>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text="Buildings_CityCenter_WaterMill_UnderConstruction_Revealed"/>
+							<m_EntryName text="Building_CaptainsTavern_UnderConstruction_Revealed"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
 							<m_XLPPath text="StrategicView_Buildings.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_buildings"/>
@@ -2081,7 +2081,7 @@
 				<m_Fields>
 					<m_Values>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text="Buildings_CityCenter_WaterMill_Pillaged_Visible"/>
+							<m_EntryName text="Building_CaptainsTavern_Pillaged_Visible"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
 							<m_XLPPath text="StrategicView_Buildings.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_buildings"/>
@@ -2099,7 +2099,7 @@
 							<m_ParamName text="Visible_BottomRight"/>
 						</Element>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text="Buildings_CityCenter_WaterMill_Pillaged_Revealed"/>
+							<m_EntryName text="Building_CaptainsTavern_Pillaged_Revealed"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
 							<m_XLPPath text="StrategicView_Buildings.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_buildings"/>
@@ -2126,7 +2126,7 @@
 				<m_Fields>
 					<m_Values>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text="Buildings_Encampment_MilitaryAcademy_Visible"/>
+							<m_EntryName text="Building_JoustingArena_Visible"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
 							<m_XLPPath text="StrategicView_Buildings.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_buildings"/>
@@ -2144,7 +2144,7 @@
 							<m_ParamName text="Visible_BottomRight"/>
 						</Element>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text="Buildings_Encampment_MilitaryAcademy_Revealed"/>
+							<m_EntryName text="Building_JoustingArena_Revealed"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
 							<m_XLPPath text="StrategicView_Buildings.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_buildings"/>
@@ -2171,7 +2171,7 @@
 				<m_Fields>
 					<m_Values>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text="Buildings_Encampment_MilitaryAcademy_Pillaged_Visible"/>
+							<m_EntryName text="Building_JoustingArena_Pillaged_Visible"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
 							<m_XLPPath text="StrategicView_Buildings.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_buildings"/>
@@ -2189,7 +2189,7 @@
 							<m_ParamName text="Visible_BottomRight"/>
 						</Element>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text="Buildings_Encampment_MilitaryAcademy_Pillaged_Revealed"/>
+							<m_EntryName text="Building_JoustingArena_Pillaged_Revealed"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
 							<m_XLPPath text="StrategicView_Buildings.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_buildings"/>
@@ -2216,7 +2216,7 @@
 				<m_Fields>
 					<m_Values>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text="Buildings_Encampment_MilitaryAcademy_UnderConstruction_Visible"/>
+							<m_EntryName text="Building_JoustingArena_UnderConstruction_Visible"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
 							<m_XLPPath text="StrategicView_Buildings.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_buildings"/>
@@ -2234,7 +2234,7 @@
 							<m_ParamName text="Visible_BottomRight"/>
 						</Element>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text="Buildings_Encampment_MilitaryAcademy_UnderConstruction_Revealed"/>
+							<m_EntryName text="Building_JoustingArena_UnderConstruction_Revealed"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
 							<m_XLPPath text="StrategicView_Buildings.xlp"/>
 							<m_BLPPackage text="strategicview/strategicview_buildings"/>
@@ -2441,11 +2441,11 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="Stable"/>
+										<m_ElementName text="JoustingArena"/>
 										<m_RootCollectionName text="BuildingEntries"/>
 										<m_ArtDefPath text="StrategicView.artdef"/>
-										<m_CollectionIsLocked>false</m_CollectionIsLocked>
-										<m_TemplateName text=""/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="StrategicView"/>
 										<m_ParamName text="ArtDefEntry"/>
 									</Element>
 								</m_Values>
@@ -2456,7 +2456,7 @@
 						</Element>
 					</Element>
 				</m_ChildCollections>
-				<m_Name text="Stable"/>
+				<m_Name text="JoustingArena"/>
 				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>
@@ -2504,11 +2504,11 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="Stable_UnderConstruction"/>
+										<m_ElementName text="JoustingArena_UnderConstruction"/>
 										<m_RootCollectionName text="BuildingEntries"/>
 										<m_ArtDefPath text="StrategicView.artdef"/>
-										<m_CollectionIsLocked>false</m_CollectionIsLocked>
-										<m_TemplateName text=""/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="StrategicView"/>
 										<m_ParamName text="ArtDefEntry"/>
 									</Element>
 								</m_Values>
@@ -2519,7 +2519,7 @@
 						</Element>
 					</Element>
 				</m_ChildCollections>
-				<m_Name text="Stable_UnderConstruction"/>
+				<m_Name text="JoustingArena_UnderConstruction"/>
 				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>
@@ -2567,11 +2567,11 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="Stable_Pillaged"/>
+										<m_ElementName text="JoustingArena_Pillaged"/>
 										<m_RootCollectionName text="BuildingEntries"/>
 										<m_ArtDefPath text="StrategicView.artdef"/>
-										<m_CollectionIsLocked>false</m_CollectionIsLocked>
-										<m_TemplateName text=""/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="StrategicView"/>
 										<m_ParamName text="ArtDefEntry"/>
 									</Element>
 								</m_Values>
@@ -2582,7 +2582,7 @@
 						</Element>
 					</Element>
 				</m_ChildCollections>
-				<m_Name text="Stable_Pillaged"/>
+				<m_Name text="JoustingArena_Pillaged"/>
 				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>

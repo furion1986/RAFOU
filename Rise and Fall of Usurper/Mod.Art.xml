@@ -37,6 +37,7 @@
 				<Element text="Buildings.artdef"/>
 				<Element text="Cultures.artdef"/>
 				<Element text="Civilizations.artdef"/>
+				<Element text="Improvements.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="CityBuildings"/>
@@ -75,6 +76,7 @@
 		<Element>
 			<consumerName text="StrategicView_Sprite"/>
 			<relativeArtDefPaths>
+				<Element text="StrategicView.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="StrategicView_Sprite"/>
@@ -522,6 +524,9 @@
 		<Element>
 			<libraryName text="StrategicView_Sprite"/>
 			<relativePackagePaths>
+				<Element text="strategicview/strategicview_buildings"/>
+				<Element text="strategicview/strategicview_districts"/>
+				<Element text="strategicview/strategicview_improvements"/>
 			</relativePackagePaths>
 		</Element>
 		<Element>

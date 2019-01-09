@@ -52,10 +52,10 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="Watermill_UnderConstruction"/>
+										<m_ElementName text="CaptainsTavern_UnderConstruction"/>
 										<m_RootCollectionName text="Buildings"/>
 										<m_ArtDefPath text="StrategicView.artdef"/>
-										<m_CollectionIsLocked>false</m_CollectionIsLocked>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
 										<m_TemplateName text="StrategicView"/>
 										<m_ParamName text="XrefName"/>
 									</Element>
@@ -77,10 +77,10 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="Watermill"/>
+										<m_ElementName text="CaptainsTavern"/>
 										<m_RootCollectionName text="Buildings"/>
 										<m_ArtDefPath text="StrategicView.artdef"/>
-										<m_CollectionIsLocked>false</m_CollectionIsLocked>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
 										<m_TemplateName text="StrategicView"/>
 										<m_ParamName text="XrefName"/>
 									</Element>
@@ -102,10 +102,10 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="Watermill_Pillaged"/>
+										<m_ElementName text="CaptainsTavern_Pillaged"/>
 										<m_RootCollectionName text="Buildings"/>
 										<m_ArtDefPath text="StrategicView.artdef"/>
-										<m_CollectionIsLocked>false</m_CollectionIsLocked>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
 										<m_TemplateName text="StrategicView"/>
 										<m_ParamName text="XrefName"/>
 									</Element>
@@ -169,7 +169,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="Stable_UnderConstruction"/>
+										<m_ElementName text="JoustingArena_UnderConstruction"/>
 										<m_RootCollectionName text="Buildings"/>
 										<m_ArtDefPath text="StrategicView.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -194,7 +194,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="Stable"/>
+										<m_ElementName text="JoustingArena"/>
 										<m_RootCollectionName text="Buildings"/>
 										<m_ArtDefPath text="StrategicView.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>
@@ -219,7 +219,7 @@
 							<m_Fields>
 								<m_Values>
 									<Element class="AssetObjects..ArtDefReferenceValue">
-										<m_ElementName text="Stable_Pillaged"/>
+										<m_ElementName text="JoustingArena_Pillaged"/>
 										<m_RootCollectionName text="Buildings"/>
 										<m_ArtDefPath text="StrategicView.artdef"/>
 										<m_CollectionIsLocked>true</m_CollectionIsLocked>

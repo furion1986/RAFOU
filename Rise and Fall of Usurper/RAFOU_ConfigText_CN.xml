@@ -6,25 +6,25 @@
 			<Text>铁民长船</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_IRON_LONGSHIP_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Ironborns' unique Classical era unit. High mobility ships designed specially for pilliaging. Can capture enemy ships. Cannot be seen unless adjacent to it.</Text>
+			<Text>铁民的古典时代特殊单位。高机动性的劫掠型船只。能通过战胜俘获敌方文明船只。只有近身时才可见。</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_THRALL_NAME" Language="zh_Hans_CN">
 			<Text>盐奴</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_THRALL_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Ironborns' unique builder unit. Cannot only be purchased with [ICON_Faith] Faith or captured through combat.[NEWLINE]Requires Captains Tavern in the city. Can embark after Astrology. May not construct Farm.</Text>
+			<Text>铁民的特殊工人单位。只能通过[ICON_Faith]信仰购买或者近战单位战胜敌方文明单位俘获。[NEWLINE]需求城市建成船长之家建筑。在研发占星术后可下海航行。无法修建农田。</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_CAPTAINS_TAVERN_NAME" Language="zh_Hans_CN">
 			<Text>船长酒馆</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_CAPTAINS_TAVERN_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>A building unique to Ironborn that replaces Watermill.[NEWLINE]Unlocks at Sailing Technology. Does not have river adjacency requirement. Provide +2  [ICON_Housing] Housing in the city. Provide a [ICON_GREATADMIRAL] Great Admiral point.[NEWLINE]Fishing Boats gain +2 [ICON_Faith] Faith, +1 [ICON_GOLD] Gold,and +1 [ICON_PRODUCTION] Production.[NEWLINE]Grant a Thrall unit int the city upon completion.</Text>
+			<Text>铁民的特殊建筑，替代水磨坊。[NEWLINE]提前于风帆航行解锁。不需要沿河即可建造。为城市提供 +2 [ICON_Housing] 住房， 提供 +1 [ICON_GREATADMIRAL] 海军统帅点数。[NEWLINE]所在城市渔船额外获得 +2 [ICON_Faith] 信仰， +1 [ICON_GOLD] 金钱，以及 +1 [ICON_PRODUCTION] 生产力。[NEWLINE]建成时所在城市获得一个盐奴单位。</Text>
 		</Replace>
 		<Replace Tag="LOC_LEADER_BALON_GREYJOY_NAME" Language="zh_Hans_CN">
 			<Text>巴隆·葛雷乔伊</Text>
 		</Replace>
 		<Replace Tag="LOC_LOADING_INFO_LEADER_BALON_GREYJOY" Language="zh_Hans_CN">
-			<Text>"I am the Greyjoy, Lord Reaper of Pyke, King of Salt and Rock, Son of the Sea Wind, and no man gives me a crown. I pay the iron price. I will take my crown, as Urron Redhand did five thousand years ago." - Balon Greyjoy</Text>
+			<Text>“我是派克岛掠夺者之首，海盐王与磐岩王，海风之子，我不需任何人施舍王冠，我付出铁钱，亲自夺取，就和五千年前的‘血手’乌伦一样。”——巴隆·葛雷乔伊</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_IRONBORN_NAME" Language="zh_Hans_CN">
 			<Text>铁民</Text>
@@ -33,32 +33,32 @@
 			<Text>强取胜于苦耕</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_IRONBORN_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Fishing Boats +1 [ICON_FOOD] Food but Farms -1 [ICON_FOOD] Food.[NEWLINE]All land and naval melee units can capture defeated enemy civilization combat units and convert them to Thralls.</Text>
+			<Text>渔船 +1 [ICON_FOOD] 食物，然而农田-1 [ICON_FOOD] 食物。[NEWLINE]能通过近战单位战胜敌方文明单位俘获盐奴。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_BALON_GREYJOY_NAME" Language="zh_Hans_CN">
 			<Text>铁舰队</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_BALON_GREYJOY_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>+1 [ICON_Movement] Movement and +5 [ICON_Strength] Combat Strength to all naval units.[NEWLINE]+100% [ICON_PRODUCTION] Production when constructing Harbor District.</Text>
+			<Text>海军和出海单位+1 [ICON_Movement] 移动力。 海军 +5 [ICON_Strength] 战斗力。[NEWLINE]建造港口城区时+100% [ICON_PRODUCTION] 生产力。</Text>
 		</Replace>
 		<!-- Eddard Stark leads the North -->
 		<Replace Tag="LOC_UNIT_MOUNTAIN_CLAN_NAME" Language="zh_Hans_CN">
 			<Text>山地氏族</Text>
 		</Replace>
 		<Replace Tag="LOC_UNIT_MOUNTAIN_CLAN_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>The North's unique ancient era recon unit. Replaces Scout.[NEWLINE]Has combat strength bonus on Tundra and Snow terrains.</Text>
+			<Text>北境远古时代特殊侦查单位。在冻土和雪地上获得战斗力加成。</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_HEART_TREE_NAME" Language="zh_Hans_CN">
 			<Text>神木林</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_HEART_TREE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>A district unqiue to The North that replaces Holy Site.[NEWLINE]Gain +1 [ICON_Faith] Faith for each forest adjacent to it. [NEWLINE]Provides +1 [ICON_Science] Science to forest tiles in the city.[NEWLINE]+1 [ICON_Envoy] Envoy upon completion of Godswood.</Text>
+			<Text>北境特殊城区，替代圣地。[NEWLINE]每有一片邻近的森林地格获得 +1 [ICON_Faith] 信仰。[NEWLINE]为所在城市的森林地格提供 +1 [ICON_Science] 科研。建成神木林时获得 +1 [ICON_Envoy] 使者。</Text>
 		</Replace>
 		<Replace Tag="LOC_LEADER_EDDARD_STARK_NAME" Language="zh_Hans_CN">
 			<Text>艾德·史塔克</Text>
 		</Replace>
 		<Replace Tag="LOC_LOADING_INFO_LEADER_EDDARD_STARK" Language="zh_Hans_CN">
-			<Text>"The blood of the First Men still flows in the veins of the Starks, and we hold to the belief that the man who passes the sentence should swing the sword. If you would take a man’s life, you owe it to him to look into his eyes and hear his final words. And if you cannot bear to do that, then perhaps the man does not deserve to die." - Eddard Stark</Text>
+			<Text>"史塔克家族的人体内仍流有‘先民’的血液，我们相信判决死刑的人必须亲自动手。如果你要取人性命，至少应该注视他的双眼，聆听他的临终遗言，倘若你做不到这点，那么或许他罪不至死，统治者若是躲在幕后，付钱给刽子手执行，很快就会忘记死亡为何物。" - 艾德·史塔克</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_NORTH_NAME" Language="zh_Hans_CN">
 			<Text>北境</Text>
@@ -67,13 +67,13 @@
 			<Text>凛冬将至</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_THE_NORTH_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>All Tundra and Snow tiles in territory yield extra +1 [ICON_Food] Food, +1 [ICON_Production] Production and +1 [ICON_Culture] Culture.</Text>
+			<Text>所有国境内的冻土和雪地地格额外产出 +1 [ICON_Food] 食物， +1 [ICON_Production] 生产力和 +1 [ICON_Culture] 文化。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_EDDARD_STARK_NAME" Language="zh_Hans_CN">
 			<Text>北境不忘</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_EDDARD_STARK_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>+5% [ICON_Faith] Faith per city-state you are the Suzerain of. Can purchase civilians and traders with [ICON_Faith] Faith.</Text>
+			<Text>每成为一个城邦的宗主国获得 +5% [ICON_Faith] 信仰产出。能够使用 [ICON_Faith] 信仰购买平民和商队单位。</Text>
 		</Replace>
 		<!-- Tywin Lannister leads the Westerlands -->
 		<Replace Tag="LOC_UNIT_SELLSWORDS_NAME" Language="zh_Hans_CN">
@@ -104,7 +104,7 @@
 			<Text>雇佣兵营帐</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_SELLSWORDS_CAMP_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>A district unique to Westerlands replacing Encampment. +2 [ICON_GOLD] Gold bonus if adjacent to a Commercial Hub district. +2 [ICON_GreatMerchant] Great Merchant point for each citizen working on Sellswords Camp.</Text>
+			<Text>西境独特的城区，替代军事驻地。 临近商业中心时 +2 [ICON_GOlD] 金钱。 每个在雇佣兵营帐工作的市民产生 +2 [ICON_GreatMerchant] 大商人点数。</Text>
 		</Replace>
 		<Replace Tag="LOC_LEADER_TYWIN_LANNISTER_NAME" Language="zh_Hans_CN">
 			<Text>泰温·兰尼斯特</Text>

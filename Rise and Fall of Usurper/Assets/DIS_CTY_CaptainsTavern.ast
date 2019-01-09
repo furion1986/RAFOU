@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<AssetObjects:AssetInstance>
+<AssetObjects..AssetInstance>
 	<m_BehaviorData>
 		<m_behaviorDataSets>
 			<m_animationBindings>
@@ -41,7 +41,7 @@
 					<Element>
 						<m_CookParams>
 							<m_Values>
-								<Element class="AssetObjects:BLPEntryValue">
+								<Element class="AssetObjects..BLPEntryValue">
 									<m_EntryName text=""/>
 									<m_XLPClass text="TileBase"/>
 									<m_XLPPath text=""/>
@@ -49,11 +49,11 @@
 									<m_LibraryName text="TileBase"/>
 									<m_ParamName text="Asset"/>
 								</Element>
-								<Element class="AssetObjects:StringValue">
+								<Element class="AssetObjects..StringValue">
 									<m_Value text="NONE"/>
 									<m_ParamName text="ConnectionType"/>
 								</Element>
-								<Element class="AssetObjects:ArtDefReferenceValue">
+								<Element class="AssetObjects..ArtDefReferenceValue">
 									<m_ElementName text="DON'T CARE"/>
 									<m_RootCollectionName text="ResourceTags"/>
 									<m_ArtDefPath text=""/>
@@ -61,15 +61,15 @@
 									<m_TemplateName text=""/>
 									<m_ParamName text="ResourceType"/>
 								</Element>
-								<Element class="AssetObjects:StringValue">
+								<Element class="AssetObjects..StringValue">
 									<m_Value text="Pivot Height"/>
 									<m_ParamName text="TerrainFollowMode"/>
 								</Element>
-								<Element class="AssetObjects:StringValue">
+								<Element class="AssetObjects..StringValue">
 									<m_Value text="OPTIONAL"/>
 									<m_ParamName text="Cull Mode"/>
 								</Element>
-								<Element class="AssetObjects:ArtDefReferenceValue">
+								<Element class="AssetObjects..ArtDefReferenceValue">
 									<m_ElementName text="DON'T CARE"/>
 									<m_RootCollectionName text="TerrainTags"/>
 									<m_ArtDefPath text=""/>
@@ -77,7 +77,7 @@
 									<m_TemplateName text=""/>
 									<m_ParamName text="TerrainType"/>
 								</Element>
-								<Element class="AssetObjects:BoolValue">
+								<Element class="AssetObjects..BoolValue">
 									<m_bValue>true</m_bValue>
 									<m_ParamName text="RandomizeAnims"/>
 								</Element>
@@ -98,6 +98,246 @@
 						<m_ModelInstanceName text="CaptainsTavern"/>
 						<m_scale>1.000000</m_scale>
 					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text="DIS_HBR_Fish_Table"/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text="tilebases_fallback.xlp"/>
+									<m_BLPPackage text="landmarks/tilebases"/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text=""/>
+									<m_CollectionIsLocked>false</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="OPTIONAL"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="TerrainTags"/>
+									<m_ArtDefPath text=""/>
+									<m_CollectionIsLocked>false</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="TerrainType"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="RandomizeAnims"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>14.575439</x>
+							<y>0.327404</y>
+							<z>0.033947</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_orientation>
+						<m_Name text="B1"/>
+						<m_BoneName text="CaptainsTavern"/>
+						<m_ModelInstanceName text="CaptainsTavern"/>
+						<m_scale>1.000000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text="DIS_HBR_Lg_Fish_Bin"/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text="tilebases.xlp"/>
+									<m_BLPPackage text="landmarks/tilebases"/>
+									<m_LibraryName text="TileBase"/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text=""/>
+									<m_CollectionIsLocked>false</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="OPTIONAL"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="TerrainTags"/>
+									<m_ArtDefPath text=""/>
+									<m_CollectionIsLocked>false</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="TerrainType"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="RandomizeAnims"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>17.007496</x>
+							<y>-4.308609</y>
+							<z>-0.000003</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_orientation>
+						<m_Name text="B2"/>
+						<m_BoneName text="CaptainsTavern"/>
+						<m_ModelInstanceName text="CaptainsTavern"/>
+						<m_scale>1.000000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text="IMP_Camp_AN_Barrels"/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text="tilebases.xlp"/>
+									<m_BLPPackage text="landmarks/tilebases"/>
+									<m_LibraryName text=""/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text=""/>
+									<m_CollectionIsLocked>false</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="OPTIONAL"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="TerrainTags"/>
+									<m_ArtDefPath text=""/>
+									<m_CollectionIsLocked>false</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="TerrainType"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="RandomizeAnims"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>12.782879</x>
+							<y>-3.837273</y>
+							<z>-0.000001</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_orientation>
+						<m_Name text="B3"/>
+						<m_BoneName text="CaptainsTavern"/>
+						<m_ModelInstanceName text="CaptainsTavern"/>
+						<m_scale>1.000000</m_scale>
+					</Element>
+					<Element>
+						<m_CookParams>
+							<m_Values>
+								<Element class="AssetObjects..BLPEntryValue">
+									<m_EntryName text="DIS_PRD_Barrel"/>
+									<m_XLPClass text="TileBase"/>
+									<m_XLPPath text="tilebases.xlp"/>
+									<m_BLPPackage text="landmarks/tilebases"/>
+									<m_LibraryName text=""/>
+									<m_ParamName text="Asset"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="NONE"/>
+									<m_ParamName text="ConnectionType"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="ResourceTags"/>
+									<m_ArtDefPath text=""/>
+									<m_CollectionIsLocked>false</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="ResourceType"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="Pivot Height"/>
+									<m_ParamName text="TerrainFollowMode"/>
+								</Element>
+								<Element class="AssetObjects..StringValue">
+									<m_Value text="OPTIONAL"/>
+									<m_ParamName text="Cull Mode"/>
+								</Element>
+								<Element class="AssetObjects..ArtDefReferenceValue">
+									<m_ElementName text="DON'T CARE"/>
+									<m_RootCollectionName text="TerrainTags"/>
+									<m_ArtDefPath text=""/>
+									<m_CollectionIsLocked>false</m_CollectionIsLocked>
+									<m_TemplateName text=""/>
+									<m_ParamName text="TerrainType"/>
+								</Element>
+								<Element class="AssetObjects..BoolValue">
+									<m_bValue>true</m_bValue>
+									<m_ParamName text="RandomizeAnims"/>
+								</Element>
+							</m_Values>
+						</m_CookParams>
+						<m_position>
+							<x>23.773607</x>
+							<y>5.707983</y>
+							<z>-0.000005</z>
+						</m_position>
+						<m_orientation>
+							<x>0.000000</x>
+							<y>0.000000</y>
+							<z>0.000000</z>
+						</m_orientation>
+						<m_Name text="B4"/>
+						<m_BoneName text="CaptainsTavern"/>
+						<m_ModelInstanceName text="CaptainsTavern"/>
+						<m_scale>1.000000</m_scale>
+					</Element>
 				</m_Points>
 			</m_attachmentPoints>
 			<m_stateSet/>
@@ -115,26 +355,26 @@
 					<Element>
 						<m_Values>
 							<m_Values>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="CT_Default"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="Material"/>
 								</Element>
-								<Element class="AssetObjects:BoolValue">
+								<Element class="AssetObjects..BoolValue">
 									<m_bValue>true</m_bValue>
 									<m_ParamName text="Visible"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="FOW/DefaultMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="FOWMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text=""/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="BurnMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="DefaultSnowMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
@@ -148,26 +388,26 @@
 					<Element>
 						<m_Values>
 							<m_Values>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="CT_Default"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="Material"/>
 								</Element>
-								<Element class="AssetObjects:BoolValue">
+								<Element class="AssetObjects..BoolValue">
 									<m_bValue>true</m_bValue>
 									<m_ParamName text="Visible"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="FOW/DefaultMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="FOWMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text=""/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="BurnMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="DefaultSnowMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
@@ -181,26 +421,26 @@
 					<Element>
 						<m_Values>
 							<m_Values>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="CT_Default"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="Material"/>
 								</Element>
-								<Element class="AssetObjects:BoolValue">
+								<Element class="AssetObjects..BoolValue">
 									<m_bValue>true</m_bValue>
 									<m_ParamName text="Visible"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="FOW/DefaultMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="FOWMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="DefaultBurnMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="BurnMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="DefaultSnowMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
@@ -214,26 +454,26 @@
 					<Element>
 						<m_Values>
 							<m_Values>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="CT_Default"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="Material"/>
 								</Element>
-								<Element class="AssetObjects:BoolValue">
+								<Element class="AssetObjects..BoolValue">
 									<m_bValue>false</m_bValue>
 									<m_ParamName text="Visible"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="FOW/DefaultMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="FOWMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text=""/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="BurnMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="DefaultSnowMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
@@ -247,26 +487,26 @@
 					<Element>
 						<m_Values>
 							<m_Values>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="CT_Default"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="Material"/>
 								</Element>
-								<Element class="AssetObjects:BoolValue">
+								<Element class="AssetObjects..BoolValue">
 									<m_bValue>false</m_bValue>
 									<m_ParamName text="Visible"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="FOW/DefaultMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="FOWMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text=""/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="BurnMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="DefaultSnowMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
@@ -280,26 +520,26 @@
 					<Element>
 						<m_Values>
 							<m_Values>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="CT_Default"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="Material"/>
 								</Element>
-								<Element class="AssetObjects:BoolValue">
+								<Element class="AssetObjects..BoolValue">
 									<m_bValue>true</m_bValue>
 									<m_ParamName text="Visible"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="FOW/DefaultMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="FOWMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text=""/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="BurnMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="DefaultSnowMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
@@ -313,26 +553,26 @@
 					<Element>
 						<m_Values>
 							<m_Values>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="CT_Default"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="Material"/>
 								</Element>
-								<Element class="AssetObjects:BoolValue">
+								<Element class="AssetObjects..BoolValue">
 									<m_bValue>true</m_bValue>
 									<m_ParamName text="Visible"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="FOW/DefaultMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="FOWMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text=""/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="BurnMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="DefaultSnowMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
@@ -346,26 +586,26 @@
 					<Element>
 						<m_Values>
 							<m_Values>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="CT_Default"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="Material"/>
 								</Element>
-								<Element class="AssetObjects:BoolValue">
+								<Element class="AssetObjects..BoolValue">
 									<m_bValue>true</m_bValue>
 									<m_ParamName text="Visible"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="FOW/DefaultMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="FOWMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="DefaultBurnMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="BurnMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="DefaultSnowMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
@@ -379,26 +619,26 @@
 					<Element>
 						<m_Values>
 							<m_Values>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="CT_Default"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="Material"/>
 								</Element>
-								<Element class="AssetObjects:BoolValue">
+								<Element class="AssetObjects..BoolValue">
 									<m_bValue>false</m_bValue>
 									<m_ParamName text="Visible"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="FOW/DefaultMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="FOWMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text=""/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="BurnMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="DefaultSnowMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
@@ -412,26 +652,26 @@
 					<Element>
 						<m_Values>
 							<m_Values>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="CT_Default"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="Material"/>
 								</Element>
-								<Element class="AssetObjects:BoolValue">
+								<Element class="AssetObjects..BoolValue">
 									<m_bValue>false</m_bValue>
 									<m_ParamName text="Visible"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="FOW/DefaultMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="FOWMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text=""/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="BurnMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="DefaultSnowMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
@@ -445,26 +685,26 @@
 					<Element>
 						<m_Values>
 							<m_Values>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="CT_Default"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="Material"/>
 								</Element>
-								<Element class="AssetObjects:BoolValue">
+								<Element class="AssetObjects..BoolValue">
 									<m_bValue>true</m_bValue>
 									<m_ParamName text="Visible"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="FOW/DefaultMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="FOWMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text=""/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="BurnMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="DefaultSnowMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
@@ -478,26 +718,26 @@
 					<Element>
 						<m_Values>
 							<m_Values>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="CT_Default"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="Material"/>
 								</Element>
-								<Element class="AssetObjects:BoolValue">
+								<Element class="AssetObjects..BoolValue">
 									<m_bValue>true</m_bValue>
 									<m_ParamName text="Visible"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="FOW/DefaultMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="FOWMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text=""/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="BurnMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="DefaultSnowMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
@@ -511,26 +751,26 @@
 					<Element>
 						<m_Values>
 							<m_Values>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="CT_Default"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="Material"/>
 								</Element>
-								<Element class="AssetObjects:BoolValue">
+								<Element class="AssetObjects..BoolValue">
 									<m_bValue>true</m_bValue>
 									<m_ParamName text="Visible"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="FOW/DefaultMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="FOWMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="DefaultBurnMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="BurnMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="DefaultSnowMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
@@ -544,26 +784,26 @@
 					<Element>
 						<m_Values>
 							<m_Values>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="CT_Default"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="Material"/>
 								</Element>
-								<Element class="AssetObjects:BoolValue">
+								<Element class="AssetObjects..BoolValue">
 									<m_bValue>false</m_bValue>
 									<m_ParamName text="Visible"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="FOW/DefaultMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="FOWMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text=""/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="BurnMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="DefaultSnowMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
@@ -577,26 +817,26 @@
 					<Element>
 						<m_Values>
 							<m_Values>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="CT_Default"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="Material"/>
 								</Element>
-								<Element class="AssetObjects:BoolValue">
+								<Element class="AssetObjects..BoolValue">
 									<m_bValue>false</m_bValue>
 									<m_ParamName text="Visible"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="FOW/DefaultMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="FOWMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text=""/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="BurnMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="DefaultSnowMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
@@ -610,26 +850,26 @@
 					<Element>
 						<m_Values>
 							<m_Values>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="CT_Default"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="Material"/>
 								</Element>
-								<Element class="AssetObjects:BoolValue">
+								<Element class="AssetObjects..BoolValue">
 									<m_bValue>true</m_bValue>
 									<m_ParamName text="Visible"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="FOW/DefaultMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="FOWMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text=""/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="BurnMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="DefaultSnowMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
@@ -643,26 +883,26 @@
 					<Element>
 						<m_Values>
 							<m_Values>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="CT_Default"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="Material"/>
 								</Element>
-								<Element class="AssetObjects:BoolValue">
+								<Element class="AssetObjects..BoolValue">
 									<m_bValue>true</m_bValue>
 									<m_ParamName text="Visible"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="FOW/DefaultMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="FOWMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text=""/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="BurnMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="DefaultSnowMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
@@ -676,26 +916,26 @@
 					<Element>
 						<m_Values>
 							<m_Values>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="CT_Default"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="Material"/>
 								</Element>
-								<Element class="AssetObjects:BoolValue">
+								<Element class="AssetObjects..BoolValue">
 									<m_bValue>true</m_bValue>
 									<m_ParamName text="Visible"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="FOW/DefaultMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="FOWMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="DefaultBurnMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="BurnMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="DefaultSnowMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
@@ -709,26 +949,26 @@
 					<Element>
 						<m_Values>
 							<m_Values>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="CT_Default"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="Material"/>
 								</Element>
-								<Element class="AssetObjects:BoolValue">
+								<Element class="AssetObjects..BoolValue">
 									<m_bValue>false</m_bValue>
 									<m_ParamName text="Visible"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="FOW/DefaultMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="FOWMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text=""/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="BurnMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="DefaultSnowMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
@@ -742,26 +982,26 @@
 					<Element>
 						<m_Values>
 							<m_Values>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="CT_Default"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="Material"/>
 								</Element>
-								<Element class="AssetObjects:BoolValue">
+								<Element class="AssetObjects..BoolValue">
 									<m_bValue>false</m_bValue>
 									<m_ParamName text="Visible"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="FOW/DefaultMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="FOWMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text=""/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="BurnMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="DefaultSnowMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
@@ -775,26 +1015,26 @@
 					<Element>
 						<m_Values>
 							<m_Values>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="CT_Default"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="Material"/>
 								</Element>
-								<Element class="AssetObjects:BoolValue">
+								<Element class="AssetObjects..BoolValue">
 									<m_bValue>true</m_bValue>
 									<m_ParamName text="Visible"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="FOW/DefaultMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="FOWMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text=""/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="BurnMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="DefaultSnowMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
@@ -808,26 +1048,26 @@
 					<Element>
 						<m_Values>
 							<m_Values>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="CT_Default"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="Material"/>
 								</Element>
-								<Element class="AssetObjects:BoolValue">
+								<Element class="AssetObjects..BoolValue">
 									<m_bValue>true</m_bValue>
 									<m_ParamName text="Visible"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="FOW/DefaultMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="FOWMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text=""/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="BurnMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="DefaultSnowMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
@@ -841,26 +1081,26 @@
 					<Element>
 						<m_Values>
 							<m_Values>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="CT_Default"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="Material"/>
 								</Element>
-								<Element class="AssetObjects:BoolValue">
+								<Element class="AssetObjects..BoolValue">
 									<m_bValue>true</m_bValue>
 									<m_ParamName text="Visible"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="FOW/DefaultMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="FOWMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="DefaultBurnMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="BurnMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="DefaultSnowMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
@@ -874,26 +1114,26 @@
 					<Element>
 						<m_Values>
 							<m_Values>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="CT_Default"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="Material"/>
 								</Element>
-								<Element class="AssetObjects:BoolValue">
+								<Element class="AssetObjects..BoolValue">
 									<m_bValue>false</m_bValue>
 									<m_ParamName text="Visible"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="FOW/DefaultMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="FOWMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text=""/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="BurnMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="DefaultSnowMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
@@ -907,26 +1147,26 @@
 					<Element>
 						<m_Values>
 							<m_Values>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="CT_Default"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="Material"/>
 								</Element>
-								<Element class="AssetObjects:BoolValue">
+								<Element class="AssetObjects..BoolValue">
 									<m_bValue>false</m_bValue>
 									<m_ParamName text="Visible"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="FOW/DefaultMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="FOWMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text=""/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="BurnMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="DefaultSnowMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
@@ -940,26 +1180,26 @@
 					<Element>
 						<m_Values>
 							<m_Values>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="CT_Default"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="Material"/>
 								</Element>
-								<Element class="AssetObjects:BoolValue">
+								<Element class="AssetObjects..BoolValue">
 									<m_bValue>true</m_bValue>
 									<m_ParamName text="Visible"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="FOW/DefaultMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="FOWMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text=""/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="BurnMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="DefaultSnowMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
@@ -973,26 +1213,26 @@
 					<Element>
 						<m_Values>
 							<m_Values>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="CT_Default"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="Material"/>
 								</Element>
-								<Element class="AssetObjects:BoolValue">
+								<Element class="AssetObjects..BoolValue">
 									<m_bValue>true</m_bValue>
 									<m_ParamName text="Visible"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="FOW/DefaultMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="FOWMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text=""/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="BurnMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="DefaultSnowMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
@@ -1006,26 +1246,26 @@
 					<Element>
 						<m_Values>
 							<m_Values>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="CT_Default"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="Material"/>
 								</Element>
-								<Element class="AssetObjects:BoolValue">
+								<Element class="AssetObjects..BoolValue">
 									<m_bValue>true</m_bValue>
 									<m_ParamName text="Visible"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="FOW/DefaultMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="FOWMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="DefaultBurnMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="BurnMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="DefaultSnowMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
@@ -1039,26 +1279,26 @@
 					<Element>
 						<m_Values>
 							<m_Values>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="CT_Default"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="Material"/>
 								</Element>
-								<Element class="AssetObjects:BoolValue">
+								<Element class="AssetObjects..BoolValue">
 									<m_bValue>false</m_bValue>
 									<m_ParamName text="Visible"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="FOW/DefaultMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="FOWMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text=""/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="BurnMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="DefaultSnowMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
@@ -1072,26 +1312,26 @@
 					<Element>
 						<m_Values>
 							<m_Values>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="CT_Default"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="Material"/>
 								</Element>
-								<Element class="AssetObjects:BoolValue">
+								<Element class="AssetObjects..BoolValue">
 									<m_bValue>false</m_bValue>
 									<m_ParamName text="Visible"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="FOW/DefaultMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="FOWMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text=""/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="BurnMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="DefaultSnowMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
@@ -1105,26 +1345,26 @@
 					<Element>
 						<m_Values>
 							<m_Values>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="CT_Default"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="Material"/>
 								</Element>
-								<Element class="AssetObjects:BoolValue">
+								<Element class="AssetObjects..BoolValue">
 									<m_bValue>true</m_bValue>
 									<m_ParamName text="Visible"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="FOW/DefaultMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="FOWMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text=""/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="BurnMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="DefaultSnowMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
@@ -1138,26 +1378,26 @@
 					<Element>
 						<m_Values>
 							<m_Values>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="CT_Default"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="Material"/>
 								</Element>
-								<Element class="AssetObjects:BoolValue">
+								<Element class="AssetObjects..BoolValue">
 									<m_bValue>true</m_bValue>
 									<m_ParamName text="Visible"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="FOW/DefaultMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="FOWMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text=""/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="BurnMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="DefaultSnowMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
@@ -1171,26 +1411,26 @@
 					<Element>
 						<m_Values>
 							<m_Values>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="CT_Default"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="Material"/>
 								</Element>
-								<Element class="AssetObjects:BoolValue">
+								<Element class="AssetObjects..BoolValue">
 									<m_bValue>true</m_bValue>
 									<m_ParamName text="Visible"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="FOW/DefaultMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="FOWMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="DefaultBurnMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="BurnMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="DefaultSnowMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
@@ -1204,26 +1444,26 @@
 					<Element>
 						<m_Values>
 							<m_Values>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="CT_Default"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="Material"/>
 								</Element>
-								<Element class="AssetObjects:BoolValue">
+								<Element class="AssetObjects..BoolValue">
 									<m_bValue>false</m_bValue>
 									<m_ParamName text="Visible"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="FOW/DefaultMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="FOWMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text=""/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="BurnMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="DefaultSnowMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
@@ -1237,26 +1477,26 @@
 					<Element>
 						<m_Values>
 							<m_Values>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="CT_Default"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="Material"/>
 								</Element>
-								<Element class="AssetObjects:BoolValue">
+								<Element class="AssetObjects..BoolValue">
 									<m_bValue>false</m_bValue>
 									<m_ParamName text="Visible"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="FOW/DefaultMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="FOWMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text=""/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="BurnMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="DefaultSnowMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
@@ -1270,26 +1510,26 @@
 					<Element>
 						<m_Values>
 							<m_Values>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="CT_Base_Default"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="Material"/>
 								</Element>
-								<Element class="AssetObjects:BoolValue">
+								<Element class="AssetObjects..BoolValue">
 									<m_bValue>true</m_bValue>
 									<m_ParamName text="Visible"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="FOW/DefaultMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="FOWMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text=""/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="BurnMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="DefaultSnowMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
@@ -1303,26 +1543,26 @@
 					<Element>
 						<m_Values>
 							<m_Values>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="CT_Base_Default"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="Material"/>
 								</Element>
-								<Element class="AssetObjects:BoolValue">
+								<Element class="AssetObjects..BoolValue">
 									<m_bValue>true</m_bValue>
 									<m_ParamName text="Visible"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="FOW/DefaultMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="FOWMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text=""/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="BurnMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="DefaultSnowMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
@@ -1336,26 +1576,26 @@
 					<Element>
 						<m_Values>
 							<m_Values>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="CT_Base_Default"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="Material"/>
 								</Element>
-								<Element class="AssetObjects:BoolValue">
+								<Element class="AssetObjects..BoolValue">
 									<m_bValue>true</m_bValue>
 									<m_ParamName text="Visible"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="FOW/DefaultMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="FOWMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="DefaultBurnMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="BurnMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="DefaultSnowMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
@@ -1369,26 +1609,26 @@
 					<Element>
 						<m_Values>
 							<m_Values>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="CT_Base_Default"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="Material"/>
 								</Element>
-								<Element class="AssetObjects:BoolValue">
+								<Element class="AssetObjects..BoolValue">
 									<m_bValue>true</m_bValue>
 									<m_ParamName text="Visible"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="FOW/DefaultMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="FOWMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text=""/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="BurnMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="DefaultSnowMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
@@ -1402,26 +1642,26 @@
 					<Element>
 						<m_Values>
 							<m_Values>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="CT_Base_Default"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="Material"/>
 								</Element>
-								<Element class="AssetObjects:BoolValue">
+								<Element class="AssetObjects..BoolValue">
 									<m_bValue>true</m_bValue>
 									<m_ParamName text="Visible"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="FOW/DefaultMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="FOWMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text=""/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="BurnMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="DefaultSnowMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
@@ -1435,26 +1675,26 @@
 					<Element>
 						<m_Values>
 							<m_Values>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="CT_Base_Default"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="Material"/>
 								</Element>
-								<Element class="AssetObjects:BoolValue">
+								<Element class="AssetObjects..BoolValue">
 									<m_bValue>true</m_bValue>
 									<m_ParamName text="Visible"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="FOW/DefaultMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="FOWMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text=""/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="BurnMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="DefaultSnowMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
@@ -1468,26 +1708,26 @@
 					<Element>
 						<m_Values>
 							<m_Values>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="CT_Base_Default"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="Material"/>
 								</Element>
-								<Element class="AssetObjects:BoolValue">
+								<Element class="AssetObjects..BoolValue">
 									<m_bValue>true</m_bValue>
 									<m_ParamName text="Visible"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="FOW/DefaultMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="FOWMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text=""/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="BurnMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="DefaultSnowMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
@@ -1501,26 +1741,26 @@
 					<Element>
 						<m_Values>
 							<m_Values>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="CT_Base_Default"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="Material"/>
 								</Element>
-								<Element class="AssetObjects:BoolValue">
+								<Element class="AssetObjects..BoolValue">
 									<m_bValue>true</m_bValue>
 									<m_ParamName text="Visible"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="FOW/DefaultMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="FOWMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="DefaultBurnMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="BurnMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="DefaultSnowMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
@@ -1534,26 +1774,26 @@
 					<Element>
 						<m_Values>
 							<m_Values>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="CT_Base_Default"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="Material"/>
 								</Element>
-								<Element class="AssetObjects:BoolValue">
+								<Element class="AssetObjects..BoolValue">
 									<m_bValue>true</m_bValue>
 									<m_ParamName text="Visible"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="FOW/DefaultMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="FOWMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text=""/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="BurnMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="DefaultSnowMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
@@ -1567,26 +1807,26 @@
 					<Element>
 						<m_Values>
 							<m_Values>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="CT_Base_Default"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="Material"/>
 								</Element>
-								<Element class="AssetObjects:BoolValue">
+								<Element class="AssetObjects..BoolValue">
 									<m_bValue>true</m_bValue>
 									<m_ParamName text="Visible"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="FOW/DefaultMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="FOWMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text=""/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="BurnMaterial"/>
 								</Element>
-								<Element class="AssetObjects:ObjectValue">
+								<Element class="AssetObjects..ObjectValue">
 									<m_ObjectName text="DefaultSnowMaterial"/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="SnowMaterial"/>
@@ -1603,72 +1843,72 @@
 	</m_GeometrySet>
 	<m_CookParams>
 		<m_Values>
-			<Element class="AssetObjects:ObjectValue">
+			<Element class="AssetObjects..ObjectValue">
 				<m_ObjectName text=""/>
 				<m_eObjectType>GEOMETRY</m_eObjectType>
 				<m_ParamName text="Obstruction Profile"/>
 			</Element>
-			<Element class="AssetObjects:ObjectValue">
+			<Element class="AssetObjects..ObjectValue">
 				<m_ObjectName text=""/>
 				<m_eObjectType>TEXTURE</m_eObjectType>
 				<m_ParamName text="AO"/>
 			</Element>
-			<Element class="AssetObjects:FloatValue">
+			<Element class="AssetObjects..FloatValue">
 				<m_fValue>0.300000</m_fValue>
 				<m_ParamName text="BurnHeight"/>
 			</Element>
-			<Element class="AssetObjects:FloatValue">
+			<Element class="AssetObjects..FloatValue">
 				<m_fValue>1.200000</m_fValue>
 				<m_ParamName text="GradientScale"/>
 			</Element>
-			<Element class="AssetObjects:FloatValue">
+			<Element class="AssetObjects..FloatValue">
 				<m_fValue>0.200000</m_fValue>
 				<m_ParamName text="BurnEdgeBlend"/>
 			</Element>
-			<Element class="AssetObjects:BoolValue">
+			<Element class="AssetObjects..BoolValue">
 				<m_bValue>true</m_bValue>
 				<m_ParamName text="Obstruction Profile AutoGenerate"/>
 			</Element>
-			<Element class="AssetObjects:BoolValue">
+			<Element class="AssetObjects..BoolValue">
 				<m_bValue>true</m_bValue>
 				<m_ParamName text="CastShadows"/>
 			</Element>
-			<Element class="AssetObjects:BoolValue">
+			<Element class="AssetObjects..BoolValue">
 				<m_bValue>true</m_bValue>
 				<m_ParamName text="CastAO"/>
 			</Element>
-			<Element class="AssetObjects:RGBValue">
+			<Element class="AssetObjects..RGBValue">
 				<m_r>255.000000</m_r>
 				<m_g>255.000000</m_g>
 				<m_b>255.000000</m_b>
 				<m_ParamName text="SnowColor"/>
 			</Element>
-			<Element class="AssetObjects:Coord2DValue">
+			<Element class="AssetObjects..Coord2DValue">
 				<m_x>0.200000</m_x>
 				<m_y>0.800000</m_y>
 				<m_ParamName text="SnowNoiseThreshold"/>
 			</Element>
-			<Element class="AssetObjects:FloatValue">
+			<Element class="AssetObjects..FloatValue">
 				<m_fValue>0.050000</m_fValue>
 				<m_ParamName text="SnowUVScale"/>
 			</Element>
-			<Element class="AssetObjects:FloatValue">
+			<Element class="AssetObjects..FloatValue">
 				<m_fValue>0.000000</m_fValue>
 				<m_ParamName text="SnowMetalness"/>
 			</Element>
-			<Element class="AssetObjects:BoolValue">
+			<Element class="AssetObjects..BoolValue">
 				<m_bValue>true</m_bValue>
 				<m_ParamName text="SnowOn"/>
 			</Element>
-			<Element class="AssetObjects:FloatValue">
+			<Element class="AssetObjects..FloatValue">
 				<m_fValue>1.000000</m_fValue>
 				<m_ParamName text="SnowGloss"/>
 			</Element>
-			<Element class="AssetObjects:StringValue">
+			<Element class="AssetObjects..StringValue">
 				<m_Value text="PIVOT"/>
 				<m_ParamName text="CullingMode"/>
 			</Element>
-			<Element class="AssetObjects:BoolValue">
+			<Element class="AssetObjects..BoolValue">
 				<m_bValue>false</m_bValue>
 				<m_ParamName text="OB Autogen Includes Decals"/>
 			</Element>
@@ -1677,8 +1917,8 @@
 	<m_Version>
 		<major>4</major>
 		<minor>0</minor>
-		<build>260</build>
-		<revision>754</revision>
+		<build>315</build>
+		<revision>805</revision>
 	</m_Version>
 	<m_ParticleEffects/>
 	<m_Geometries/>
@@ -1692,6 +1932,5 @@
 		<Element text="TileBase"/>
 	</m_Tags>
 	<m_Groups/>
-</AssetObjects:AssetInstance>
+</AssetObjects..AssetInstance>
 
- 

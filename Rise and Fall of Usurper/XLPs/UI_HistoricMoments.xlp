@@ -25,6 +25,22 @@
 			<m_EntryID text="HM_ValeKnights"/>
 			<m_ObjectName text="HM_ValeKnights"/>
 		</Element>
+		<Element>
+			<m_EntryID text="HM_Godswood"/>
+			<m_ObjectName text="HM_Godswood"/>
+		</Element>
+		<Element>
+			<m_EntryID text="HM_JoustingArena"/>
+			<m_ObjectName text="HM_JoustingArena"/>
+		</Element>
+		<Element>
+			<m_EntryID text="HM_SellswordCamp"/>
+			<m_ObjectName text="HM_SellswordCamp"/>
+		</Element>
+		<Element>
+			<m_EntryID text="HM_Sellswords"/>
+			<m_ObjectName text="HM_Sellswords"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

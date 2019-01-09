@@ -220,6 +220,9 @@
 		</Row>
 		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_BALON_GREYJOY_ANY">
 			<Text>Tell me where's your fleet? If I don't find them, I will plunder your coast. If I find them... My Iron Fleet will have some more Galleies.</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_AGENDA_IRON_PRICE">
+			<Text>(Your navy is weak.)</Text>
 		</Row>		
 		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_BALON_GREYJOY_ANY">
 			<Text>What brings you here stranger? Though I complement your sailing skill, our young krakens can do much better.</Text>
