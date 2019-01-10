@@ -4,10 +4,10 @@ XLP cook starting...
 D:\MyDocuments\Firaxis ModBuddy\Civilization VI\RAFOU\Rise and Fall of Usurper\XLPs\walls.xlp
 Opened output file: D:\MyDocuments\My Games\Sid Meier's Civilization VI\Mods\Rise and Fall of Usurper\Platforms\MacOS\BLPs/landmarks/Walls.blp    For XLP: 'D:\MyDocuments\Firaxis ModBuddy\Civilization VI\RAFOU\Rise and Fall of Usurper\XLPs\walls.xlp'
 Starting 'landmarks/Walls'
-Load finished for: 'landmarks/Walls' in 0.797 seconds
+Load finished for: 'landmarks/Walls' in 0.772 seconds
 Asset 'DIS_TTW_BASE_GATE', Timeline 'PILLAGED_A', Trigger '1': , FXName : 'FX_PIL_Fire_Med_01' Attachment Point '' doesn't exist in the asset.
-Cook finished for: 'landmarks/Walls' in 0.120 seconds
-Disk write finished for: 'landmarks/Walls' in 0.166 seconds
-Cleanup finished for: 'landmarks/Walls' in 0.020 seconds
+Cook finished for: 'landmarks/Walls' in 0.124 seconds
+Disk write finished for: 'landmarks/Walls' in 0.126 seconds
+Cleanup finished for: 'landmarks/Walls' in 0.017 seconds
 XLP cook completed with success.
-Cook completed in 1.125 seconds
+Cook completed in 1.062 seconds

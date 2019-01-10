@@ -6,10 +6,46 @@
 				<m_Bindings/>
 			</m_animationBindings>
 			<m_timelineBindings>
-				<m_Bindings/>
+				<m_Bindings>
+					<Element>
+						<m_SlotName text="PILLAGED_A"/>
+						<m_TimelineName text="PILLAGED_A"/>
+					</Element>
+				</m_Bindings>
 			</m_timelineBindings>
 			<m_timelines>
-				<m_Timelines/>
+				<m_Timelines>
+					<Element>
+						<m_Name text="PILLAGED_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text=""/>
+						<m_fDuration>0.050000</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="1"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_PIL_Fire_Lrg_01"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="TREE003"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>-1.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="2"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_PIL_Fire_Lrg_01"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="ROCK0014"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>-1.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+						</m_Triggers>
+					</Element>
+				</m_Timelines>
 			</m_timelines>
 			<m_attachmentPoints>
 				<m_Points>

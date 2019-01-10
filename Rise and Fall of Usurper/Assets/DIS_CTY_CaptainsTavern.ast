@@ -11,6 +11,10 @@
 						<m_SlotName text="WORKED_A"/>
 						<m_TimelineName text="WORKED_A"/>
 					</Element>
+					<Element>
+						<m_SlotName text="PILLAGED_A"/>
+						<m_TimelineName text="PILLAGED_A"/>
+					</Element>
 				</m_Bindings>
 			</m_timelineBindings>
 			<m_timelines>
@@ -28,6 +32,25 @@
 								<m_FXName text="FXm_Chimney_Smoke_Sml_01"/>
 								<m_CollectionName text=""/>
 								<m_AttachmentPointName text="Fx_Smoke001"/>
+								<m_fStartTime>0.000000</m_fStartTime>
+								<m_fDuration>-1.000000</m_fDuration>
+								<m_nTrackIndex>0</m_nTrackIndex>
+							</Element>
+						</m_Triggers>
+					</Element>
+					<Element>
+						<m_Name text="PILLAGED_A"/>
+						<m_Description text=""/>
+						<m_AnimationName text=""/>
+						<m_fDuration>0.055556</m_fDuration>
+						<m_Triggers>
+							<Element>
+								<m_eType>ASSET_FX</m_eType>
+								<m_Name text="2"/>
+								<m_Description text=""/>
+								<m_FXName text="FX_PIL_Fire_Med_01"/>
+								<m_CollectionName text=""/>
+								<m_AttachmentPointName text="B1"/>
 								<m_fStartTime>0.000000</m_fStartTime>
 								<m_fDuration>-1.000000</m_fDuration>
 								<m_nTrackIndex>0</m_nTrackIndex>
@@ -226,7 +249,7 @@
 									<m_XLPClass text="TileBase"/>
 									<m_XLPPath text="tilebases.xlp"/>
 									<m_BLPPackage text="landmarks/tilebases"/>
-									<m_LibraryName text=""/>
+									<m_LibraryName text="TileBase"/>
 									<m_ParamName text="Asset"/>
 								</Element>
 								<Element class="AssetObjects..StringValue">
@@ -286,7 +309,7 @@
 									<m_XLPClass text="TileBase"/>
 									<m_XLPPath text="tilebases.xlp"/>
 									<m_BLPPackage text="landmarks/tilebases"/>
-									<m_LibraryName text=""/>
+									<m_LibraryName text="TileBase"/>
 									<m_ParamName text="Asset"/>
 								</Element>
 								<Element class="AssetObjects..StringValue">

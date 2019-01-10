@@ -5151,7 +5151,7 @@
 									<m_ParamName text="FOWMaterial"/>
 								</Element>
 								<Element class="AssetObjects..ObjectValue">
-									<m_ObjectName text="DefaultBurnMaterial"/>
+									<m_ObjectName text=""/>
 									<m_eObjectType>MATERIAL</m_eObjectType>
 									<m_ParamName text="BurnMaterial"/>
 								</Element>
