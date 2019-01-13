@@ -1,293 +1,293 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
 	<LocalizedText>
-		<Replace Tag="LOC_CIVILIZATION_THE_CReplaceNLANDS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>The CReplacenlands</Text>
+		<Replace Tag="LOC_CIVILIZATION_THE_CROWNLANDS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>王领</Text>
 		</Replace>
-		<Replace Tag="LOC_CIVILIZATION_THE_CReplaceNLANDS_ADJECTIVE" Language="zh_Hans_CN">
-			<Text>The CReplacenlands</Text>
+		<Replace Tag="LOC_CIVILIZATION_THE_CROWNLANDS_ADJECTIVE" Language="zh_Hans_CN">
+			<Text>王领子民</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_THE_SILVER_PRINCE_NAME" Language="zh_Hans_CN">
-			<Text>The Silver Prince</Text>
+			<Text>银王子</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_THE_SILVER_PRINCE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>+2 points of [ICON_GreatMusician] Great Musician from Capital City. +2 Slots of [ICON_GreatWork_Music] Great Works of Music to Palace. +1 Slot of [ICON_GreatWork_Music] Great Works of Music to each level of Government Plaza Building.[NEWLINE]Each [ICON_GreatWork_Music] Great Work of Music also yields +8 [ICON_Faith] Faith.</Text>
+			<Text>首都获得+4 [ICON_GreatMusician] 大音乐家点数。宫殿提供+4 [ICON_GreatWork_Music] 音乐巨作槽。每一级政府广场建筑提供+2 [ICON_GreatWork_Music] 音乐巨作槽。[NEWLINE]Each [ICON_GreatWork_Music] 音乐巨作额外产出+8 [ICON_Faith] 信仰。</Text>
 		</Replace>
 		<Replace Tag="LOC_LEADER_RHAEGAR_TARGARYEN_QUOTE" Language="zh_Hans_CN">
-			<Text>He has a song. He is the prince that was promised, and his is the song of ice and fire. There must be one more. The dragon has three heads..</Text>
+			<Text>他已经有了一首歌，他就是预言中的王子，他的歌便是冰与火之歌。还有一个，龙有三个头。</Text>
 		</Replace>
 		
 		<Replace Tag="LOC_DISTRICT_DP_CULTURE" Language="zh_Hans_CN">
-			<Text>+{1_num} [ICON_Culture] Culture from the adjacent Dragonpit.</Text>
+			<Text>+{1_num} [ICON_Culture] 文化来自相邻的龙穴</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_DP_FAITH" Language="zh_Hans_CN">
-			<Text>+{1_num} [ICON_Faith] Faith from the adjacent Dragonpit.</Text>
+			<Text>+{1_num} [ICON_Faith] 信仰来自相邻的龙穴</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_DP_GOLD" Language="zh_Hans_CN">
-			<Text>+{1_num} [ICON_Gold] Gold from the adjacent Dragonpit.</Text>
+			<Text>+{1_num} [ICON_Gold] 黄金来自相邻的龙穴</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_DP_PRODUCTION" Language="zh_Hans_CN">
-			<Text>+{1_num} [ICON_Production] Production from the adjacent Dragonpit.</Text>
+			<Text>+{1_num} [ICON_Production] 产能来自相邻的龙穴</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_DP_SCIENCE" Language="zh_Hans_CN">
-			<Text>+{1_num} [ICON_Science] Science from the adjacent Dragonpit.</Text>
+			<Text>+{1_num} [ICON_Science] 科研来自相邻的龙穴</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_DRAGONPIT_SELFFAITH" Language="zh_Hans_CN">
-			<Text>+{1_num} [ICON_Faith] Faith.</Text>
+			<Text>+{1_num} [ICON_Faith] 信仰</Text>
 		</Replace>		
 
 		<!--City Names-->
-		<Replace Tag="LOC_CIVILIZATION_THE_CReplaceNLANDS_CITY_1" Language="zh_Hans_CN">
-			<Text>King's Landing</Text>
+		<Replace Tag="LOC_CIVILIZATION_THE_CROWNLANDS_CITY_1" Language="zh_Hans_CN">
+			<Text>君临</Text>
 		</Replace>
 		<!--CITIZEN NAMES-->
-		<Replace Tag="LOC_CITIZEN_THE_CReplaceNLANDS_MALE_1" Language="zh_Hans_CN">
-			<Text>Marston Waters</Text>
+		<Replace Tag="LOC_CITIZEN_THE_CROWNLANDS_MALE_1" Language="zh_Hans_CN">
+			<Text>马斯森·维水</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_THE_CReplaceNLANDS_MALE_2" Language="zh_Hans_CN">
-			<Text>Tyrion Tanner</Text>
+		<Replace Tag="LOC_CITIZEN_THE_CROWNLANDS_MALE_2" Language="zh_Hans_CN">
+			<Text>提利昂·制革匠</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_THE_CReplaceNLANDS_MALE_3" Language="zh_Hans_CN">
-			<Text>Addam Velaryon</Text>
+		<Replace Tag="LOC_CITIZEN_THE_CROWNLANDS_MALE_3" Language="zh_Hans_CN">
+			<Text>亚当·瓦列利安</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_THE_CReplaceNLANDS_MALE_4" Language="zh_Hans_CN">
-			<Text>Bartimos Celtigar</Text>
+		<Replace Tag="LOC_CITIZEN_THE_CROWNLANDS_MALE_4" Language="zh_Hans_CN">
+			<Text>巴提摩斯·赛提加</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_THE_CReplaceNLANDS_FEMALE_1" Language="zh_Hans_CN">
-			<Text>Maia Stokeworth</Text>
+		<Replace Tag="LOC_CITIZEN_THE_CROWNLANDS_FEMALE_1" Language="zh_Hans_CN">
+			<Text>玛雅·史铎克渥斯</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_THE_CReplaceNLANDS_FEMALE_2" Language="zh_Hans_CN">
-			<Text>Rosey</Text>
+		<Replace Tag="LOC_CITIZEN_THE_CROWNLANDS_FEMALE_2" Language="zh_Hans_CN">
+			<Text>萝希</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_THE_CReplaceNLANDS_FEMALE_3" Language="zh_Hans_CN">
-			<Text>Annara Farring</Text>
+		<Replace Tag="LOC_CITIZEN_THE_CROWNLANDS_FEMALE_3" Language="zh_Hans_CN">
+			<Text>安娜娜·法林</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_THE_CReplaceNLANDS_FEMALE_4" Language="zh_Hans_CN">
-			<Text>Alyssa Velaryon</Text>
+		<Replace Tag="LOC_CITIZEN_THE_CROWNLANDS_FEMALE_4" Language="zh_Hans_CN">
+			<Text>阿莱莎·瓦列利安</Text>
 		</Replace>
-		<Replace Tag="LOC_CITIZEN_THE_CReplaceNLANDS_FEMALE_5" Language="zh_Hans_CN">
-			<Text>Jeyne Waters</Text>
+		<Replace Tag="LOC_CITIZEN_THE_CROWNLANDS_FEMALE_5" Language="zh_Hans_CN">
+			<Text>简妮·维水</Text>
 		</Replace>
 		<!--Agendas-->
 
 		<!--PEDIA-->
 		<!--DISTRICTS-->
 		<Replace Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_DRAGONPIT_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
-			<Text>The Dragonpit is a huge, cavernous building that sits atop Rhaenys's hill in King's Landing.</Text>
+			<Text>龙穴是位于君临的雷妮丝丘陵顶部的一个巨大的巢穴状建筑。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_DRAGONPIT_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
-			<Text>The Targaryens would keep their dragons within the building. Thirty knights could ride abreast into its entrance. No pit dragon ever reached the size of the dragons who were raised before the construction of the building. When living dragons still nested beneath the dome light would shine through the windows at night.</Text>
+			<Text>坦格利安家族曾在这里圈养他们的龙。龙穴的大门可让三十个骑士骑着马并排进入。被圈养在龙穴里的龙从未长到那些在龙穴建成之前的龙的大小。当龙穴的穹顶下还有龙的时候，夜里会有火光透出窗户。</Text>
 		</Replace>		
 		<Replace Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_DRAGONPIT_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
-			<Text>The Dragonpit's huge dome has collapsed within and its bronze or iron doors have been sealed for more than a century. It is a ruin, blackened by fire.</Text>
+			<Text>其巨大的穹顶已从内部坍塌，而青铜的大门也已关闭了一个世纪以上。它成了一个被火焰熏黑的废墟。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_DRAGONPIT_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
-			<Text>Prior to the Dragonpit, a great Sept was built on Rhaeny's Hill known as the Sept of Remembrance which used to be the main Sept in King's Landing. During the Faith Militant uprising, Maegor the Cruel, mounted on Balerion the Black Dread, incinerated the Great Sept with dragonflame and later decreed that a large domed structure would be built on the hill for Targaryens to house its royal dragons. Because Maegor had killed all those who had built the Red Keep to hide its secrets, many fled rather than work on the Dragonpit. Maegor had to use city prisoners, with supervisors from Myr and Volantis.</Text>
+			<Text>在龙穴建立之前，雷妮丝丘陵上的圣堂就是众所周知的思怀圣堂，它曾经是君临城最重要的圣堂。在教团武装起事中，残酷的梅葛一世骑着贝勒里恩，人称“黑死神”的巨龙，用龙焰焚烧了思怀圣堂。战争结束之后梅葛下令筑造一座巨大的穹顶结构的建筑用于圈养坦格利安王朝的龙。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_DRAGONPIT_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
-			<Text>King Aegon II's coronation took place in the Dragonpit. Later during the Targaryen civil war known as the Dance of the Dragons after King's Landing was captured by Queen Rhaenyra, the Dragonpit was destroyed during the Storming of the Dragonpit. When ten's of thousands of crazed and starving smallfolk led by the deranged Shepherd stormed the dragonpit to kill the dragons within. Five Targaryen dragons (Shrykos, Morghul, Tyraxes, Dreamfyre and Syrax) and thousands of smallfolk were killed. The dragonpit was reduced to flaming ruins.</Text>
+			<Text>在坦格利安家族内战血龙狂舞后期，君临一度被雷妮拉女王占领，龙穴在“冲击龙穴”中被摧毁。当时由先知牧羊人领导的数万疯狂而饥饿的平民闯入龙穴，杀死了羁留其中的巨龙，斯里科斯、莫古尔、泰雷克休、梦火，以及随后到来的叙拉克斯先后死去，数千平民也丢了命，而龙穴仅余下燃烧的废墟。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_DRAGONPIT_CHAPTER_HISTORY_PARA_6" Language="zh_Hans_CN">
-			<Text>During the Great Spring Sickness so many people died so quickly that there was no time to bury the bodies. Instead they were piled up in the Dragonpit and when the corpses were 10 feet deep the Hand of the King, Lord Brynden Rivers, ordered the pyromancers to burn them. The light of the fires shone through the windows and by night citizens could see the dark green glow of wildfire all through King's Landing.</Text>
+			<Text>在春季大瘟疫期间，许多人在短时期内死亡，由于没有时间来焚烧，尸体被堆在龙穴中。当尸体堆到10尺深时，国王之手, 布林登·河文公爵, 命令火术士们将其烧毁。在夜里，整个君临的市民都能看见野火的暗绿色火光透过龙穴的窗户照耀出来。</Text>
 		</Replace>		
 		<!--CIV-->
-		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_CReplaceNLANDS_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
-			<Text>The cReplacenlands is one of the nine constituent regions of the Seven Kingdoms of Westeros. It was never a sovereign nation, instead being contested by river kings, Storm Kings, and local petty kings until Aegon the Conqueror seized control of the area during his Wars of Conquest and made it his primary foothold on the continent. Since then, the cReplacenlands have been ruled directly by the cReplacen on the Iron Throne, first House Targaryen and, after Robert's Rebellion, House Baratheon. Bastards of noble origin raised in the cReplacenlands are given the surname Waters.</Text>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_CROWNLANDS_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>王领是组成维斯特洛大陆的九个行政区域之一。这片区域在历史上从没有存在过一个独立的政权，而是处于河间地、风暴地等诸多势力的争夺之下，直到征服者伊耿于此登陆开始征服维斯特洛，并以此作为他的主要根据地以及后来的王都为止。</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_CReplaceNLANDS_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
-			<Text>The cReplacenlands are based around Blackwater Bay, with the capital of King's Landing built where the Blackwater Rush meets the bay. King's Landing, the largest city in Westeros, contains the Great Sept of Baelor and the Red Keep, the home of House Baratheon of King's Landing. Settlements north of King's Landing include Antlers (seat of House Buckwell), Rosby (seat of House Rosby), Stokeworth (seat of House Stokeworth), and Duskendale (seat of House Rykker), the region's secondary port. Farther north are Rook's Rest (seat of House Staunton) and Crackclaw Point, a rugged peninsula of insular folk whose castles include the Dyre Den (seat of House Brune), BReplacenhollow (another seat of House Brune), and the Whispers (formerly of House Crabb). North of Crackclaw Point are the Bay of Crabs and the Vale of Arryn.</Text>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_CROWNLANDS_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>王领现在直辖于铁王座,处于谷地的南面，河间地的东南，西境之东，河湾地和风暴地的北面。王领所辖地域不大，主要由黑水湾沿岸及其岛屿构成，北起蟹爪半岛，南至马赛岬，呈一个弧形。七大王国的首都君临位于弧形的中段，同时也是黑水河注入黑水湾的河口所在。</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_CReplaceNLANDS_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
-			<Text>The cReplacenlands are bordered to the northwest and west by the riverlands. A stream forms part of the boundary between the two regions, with the hills of House Wode in the riverlands and the lands of House Hogg in the cReplacenlands. An unnamed river flows south from Gods Eye into the Blackwater Rush in the western cReplacenlands. Southwest of King's Landing are hills around Tumbleton in the Reach.</Text>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_CROWNLANDS_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>作为首都，君临与其他王国其他区域都有道路相连。国王大道向南连接起风息堡，向北穿过河间地和北境最终到达长城上的黑城堡，中间在十字路口客栈还有岔路山谷大道向东通向谷地，以及河间大道向西通往奔流城和西境。黄金大道从君临出发，经过河湾地一直向西延伸到凯岩城。玫瑰大道则从君临开始，朝西南通过河湾地直达旧镇。</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_CReplaceNLANDS_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
-			<Text>South of King's Landing is the kingswood, the royal hunting forest, and the stormlands. The Wendwater flows through the kingswood into the bay. East of the kingswood is Massey's Hook, another peninsula that with Crackclaw Point forms the inlet of Blackwater Bay. Castles on Massey's Hook include Stonedance (seat of House Massey) and Sharp Point (seat of House Bar Emmon).</Text>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_CROWNLANDS_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+			<Text>王领中除王都君临外最重要的封地就是扼住黑水湾口的龙石岛，它是通往君临的海上补给线上的要冲，通常册封给铁王座的继承人——龙石岛亲王。龙石岛的领主通常还管理着黑水湾内及其附近的潮头岛、蟹岛等岛屿。</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_CReplaceNLANDS_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
-			<Text>Islands within Blackwater Bay include Dragonstone (another seat of House Baratheon), Driftmark (seat of House Velaryon), and Claw Isle (seat of House Celtigar). Also sworn to the Baratheons of Dragonstone is Sweetport Sound (seat of House Sunglass). Massey's Hook is separated from Driftmark by the Gullet. East of Blackwater Bay is the narReplace sea.</Text>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_CROWNLANDS_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
+			<Text>王领境内地势平坦，几乎没有山脉，只有君临城内有三座知名的丘陵。除了在君临入海的黑水河之外也没有什么重要的河流。君临以南还有一片名叫御林的森林。</Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_CReplaceNLANDS_CHAPTER_HISTORY_PARA_6" Language="zh_Hans_CN">
-			<Text>The kingsroad connects King's Landing with Storm's End to the south and the crossroads to the north, while the capital is connected to Lannisport by the goldroad and to Highgarden by the roseroad. With the exception of Crackclaw Point, the land is largely flat. Lying in the middle portion of Westeros, the cReplacenlands possess a temperate climate.</Text>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_CROWNLANDS_CHAPTER_HISTORY_PARA_6" Language="zh_Hans_CN">
+			<Text></Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_CReplaceNLANDS_CHAPTER_HISTORY_PARA_7" Language="zh_Hans_CN">
-			<Text>The metropolis of King's Landing is the driving force of the region, with the largest population and harbor in the realm. Trade and taxes flow into the capital from every corner of the realm acknowledging the Iron Throne, and many foreign vessels ply their wares as well. Virtually every craft and trade is practiced here, from metalsmithing and shipbuilding to alchemy. Elsewhere, fishing and farming are the norm, with a smattering of the common professions.</Text>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_CROWNLANDS_CHAPTER_HISTORY_PARA_7" Language="zh_Hans_CN">
+			<Text></Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_CReplaceNLANDS_CHAPTER_HISTORY_PARA_8" Language="zh_Hans_CN">
-			<Text>Along the kingsroad north of the capital, a traveler goes "past woods and orchards and neatly tended fields, through small villages, cReplaceded market towns, and stout holdfasts."</Text>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_CROWNLANDS_CHAPTER_HISTORY_PARA_8" Language="zh_Hans_CN">
+			<Text></Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_CReplaceNLANDS_CHAPTER_HISTORY_PARA_9" Language="zh_Hans_CN">
-			<Text>In the Age of Heroes, the petty kings of House Darklyn ruled much of the future cReplacenlands, from Duskendale to Crackclaw Point. Although neighboring realms forced them to swear fealty and their lands changed hands many times over the years, the Darklyns remained one of the more influential houses of the region. In the days of the Hundred Kingdoms, the mouth of the Blackwater was claimed by the Darklyns, the Masseys of Stonedance, and the river kings of Houses Mudd, Fisher, Bracken, Blackwood, and Hook. Two centuries before the Doom of Valyria, Valyrians settled Dragonstone and built a citadel as the westernmost outpost of the Valyrian Freehold, becoming another power in the region. In time, the middle of the narReplace sea came to be controlled by the dragons of House Targaryen of Dragonstone, as well as the ships of House Velaryon of Driftmark and House Celtigar of Claw Isle.</Text>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_CROWNLANDS_CHAPTER_HISTORY_PARA_9" Language="zh_Hans_CN">
+			<Text></Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_CReplaceNLANDS_CHAPTER_HISTORY_PARA_10" Language="zh_Hans_CN">
-			<Text>It was at the mouth of the Blackwater Rush, the later site of King's Landing, where Aegon Targaryen and his sisters, Visenya and Rhaenys, landed with their initial army. At that time the petty lords of the region had been subjugated by Harren the Black. Rosby and Stokeworth surrendered to Visenya and Rhaenys without fighting, while Aegon and his half-brother Orys Baratheon defeated the Darklyns and Mootons. Massey's Hook and the southern shore of the Blackwater Rush were controlled by the Storm Kings of House Durrandon, but the Bar Emmons and Masseys allied with Aegon the Conqueror against King Argilac the Arrogant.</Text>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_CROWNLANDS_CHAPTER_HISTORY_PARA_10" Language="zh_Hans_CN">
+			<Text></Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_CReplaceNLANDS_CHAPTER_HISTORY_PARA_11" Language="zh_Hans_CN">
-			<Text>Since the Conquest, the cReplacenlands houses have historically been a strong source of support for House Targaryen, with Crackclaw Point being particularly fierce supporters. The Conqueror's councillors included several cReplacenlands men, including Crispian Celtigar, Daemon Velaryon, and Tristan Massey. Nobles from the region such as Qarlton Chelsted, a Hayford lord, and several Targaryens have served as Hand of the King, and even smallfolk of the region are near enough to catch the royal eye for such service, such as Rossart and presumably Septons Barth and Murmison. Nobles and smallfolk alike also provide much of the manpower for the City Watch of King's Landing. The Kingsguard has also included many men of the cReplacenlands, such as Duncan the Tall, Donnel of Duskendale, the Cargyll twins, Ser Rickard Thorne, at least six men of Crackclaw Point, and seven Darklyn knights.</Text>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_CROWNLANDS_CHAPTER_HISTORY_PARA_11" Language="zh_Hans_CN">
+			<Text></Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_CReplaceNLANDS_CHAPTER_HISTORY_PARA_12" Language="zh_Hans_CN">
-			<Text>At the start of the Dance of the Dragons, the Velaryons, supporters of Queen Rhaenyra Targaryen and the blacks, used their fleet to seal the Gullet and blockade King's Landing. King Aegon II Targaryen's supporters, the greens, retaliated by sacking Duskendale and Rook's Rest. The greens later broke the blockade with the Battle in the Gullet and sacked Driftmark. Rhaenyra was eventually fed to Aegon II's dragon, Sunfyre, at Dragonstone. At the end of the war, the Lads defeated Lord Borros Baratheon in the Battle of the Kingsroad.</Text>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_CROWNLANDS_CHAPTER_HISTORY_PARA_12" Language="zh_Hans_CN">
+			<Text></Text>
 		</Replace>
-		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_CReplaceNLANDS_CHAPTER_HISTORY_PARA_13" Language="zh_Hans_CN">
-			<Text>The Defiance of Duskendale, a rising by the Darklyns during the reign of King Aerys II Targaryen, was a sign that even the normally loyal cReplacenlands were losing respect for the dragonlords. Later, the outlaws of the Kingswood Brotherhood robbed nobles in the forest before being suppressed by the Kingsguard.</Text>
+		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_CROWNLANDS_CHAPTER_HISTORY_PARA_13" Language="zh_Hans_CN">
+			<Text></Text>
 		</Replace>		
 
 		<!--LEADER-->
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_RHAEGAR_TARGARYEN_TITLE" Language="zh_Hans_CN">
-			<Text>Rhaegar Targaryen</Text>
+			<Text>雷加·坦格利安</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_RHAEGAR_TARGARYEN_SUBTITLE" Language="zh_Hans_CN">
-			<Text>Prince of Dragonstone.</Text>
+			<Text>龙石岛王子</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_RHAEGAR_TARGARYEN_QUOTE" Language="zh_Hans_CN">
-			<Text>He has a song. He is the prince that was promised, and his is the song of ice and fire. There must be one more. The dragon has three heads.</Text>
+			<Text>他已经有了一首歌，他就是预言中的王子，他的歌便是冰与火之歌。还有一个，龙有三个头。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_RHAEGAR_TARGARYEN_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
-			<Text>Prince Rhaegar Targaryen was the firstborn son of King Aerys II Targaryen and his sister-wife, Queen Rhaella. As heir-apparent, he was the Prince of Dragonstone and cReplacen prince for the Iron Throne. Rhaegar was popular with the smallfolk during his lifetime, but he died in Robert's Rebellion which was triggered in part by his abduction of Lyanna Stark. He was slain in single combat by Robert Baratheon at the ruby ford during the battle of the Trident. Rhaegar was the elder brother of the exiled last members of House Targaryen, Prince Viserys and Princess Daenerys.</Text>
+			<Text>雷加·坦格利安王子是“疯王”伊里斯的长子、王储、七大王国的继承人，龙石岛亲王。由于涉嫌拐走莱安娜·史塔克（劳勃声称是绑架），他引发了一场波及七国的战乱，最终导致了坦格利安王朝覆灭。在战争期间，雷加本人在红宝石滩死于同劳勃的单挑之中。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_RHAEGAR_TARGARYEN_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
-			<Text>Rhaegar owned night-black plate armor, with the three-headed dragon of House Targaryen decorated in rubies on its breastplate, and underneath the plate he wore golden ringmail. Rhaegar decorated his helm with gold, orange, and red silken streamers resembling flames.</Text>
+			<Text>雷加高而英俊，有着一双靛蓝色的眼眸和银发。很多人认为雷加英俊。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_RHAEGAR_TARGARYEN_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
-			<Text>Rhaegar was an intelligent young man, who excelled at anything to which he put his mind, and grew to be a great knight and a skilled musician. The latter, however, held his preference; men said Rhaegar loved his silver-stringed harp more than he loved his lance. Jorah Mormont has described Rhaegar as valiant, honorable, and noble while Barristan Selmy has called him determined, deliberate, dutiful, and single-minded. The cReplacen prince was said to have been uninterested in the play of other children as a boy, but bookish "to a fault". He learned to read at such an early age that people jested that his mother Rhaella had swallowed some books and a candle during her pregnancy. Later in life, however, Rhaegar did acquire several trusted and loyal companions. Rhaegar was deeply affected by "the shadow of Summerhall", because he was "born in grief" and was considered melancholic at times. At the same time, Summerhall was also Rhaegar's favorite place.</Text>
+			<Text>雷加极为聪明，擅长任何他想做的事，他被视为是一个有天赋的乐师及强大的骑士。“盛夏厅的阴影”始终缠绕着他，因为他在“悲哀中出生”，他有时被认为性格忧郁。他喜欢安静、独处，喜欢看书。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_RHAEGAR_TARGARYEN_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
-			<Text>The prince was well-loved by the people of the Seven Kingdoms during his lifetime and is still fondly remembered to this day. While Robert Baratheon despises Rhaegar and accuses him of having raped Lyanna Stark, the only thought of Eddard Stark, Lyanna's brother, is he did not think Rhaegar frequented brothels. Jaime Lannister remembers the iron tones of Rhaegar's voice. Barristan Selmy, who served three kings, thinks that Rhaegar would have been better than any of them. His sister, Daenerys, is frequently compared to Rhaegar as a compliment. People who had romantic feelings toward Rhaegar include Cersei Lannister and Jon Connington.</Text>
+			<Text>尽管劳勃痛恨雷加。但是很多人对雷加的带有敬意，坦格利安的支持者们更甚。甚至是劳勃的挚友奈德·史塔克。詹姆仍记得雷加钢铁般的声音。巴利斯坦·赛尔弥爵士曾经效忠过三代国王，但是认为雷加强于其中任何一人。丹妮莉丝常常被与雷加相提并论作为称赞。篡夺者战争的发起人之一，艾德·史塔克，劳勃的挚友，对雷加保持着中立的观点。有很多人对雷加有爱慕之情，比如瑟曦·兰尼斯特和琼恩·克林顿。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_RHAEGAR_TARGARYEN_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
-			<Text>Prince Rhaegar was the firstborn son of King Aerys II Targaryen and Queen Rhaella. He was born at Summerhall in 259 AC, on the same day as the great tragedy there. As a child he read obsessively, to the point that jests were made about his habits. He became a noted warrior later in life, although he did not initially seem inclined to martial habits. However, apparently by something he had read, Rhaegar became motivated to become a warrior.[NEWLINE]At the age of seventeen, Rhaegar was knighted, and from all reports grew into a highly skilled and capable fighter, always distinguishing himself well at tournaments, although he seldom entered the lists - he never loved the song of swords the way that men like Robert Baratheon or Jaime Lannister did.[NEWLINE]Rhaegar's squires were Myles Mooton and Richard Lonmouth, and after he knighted them they remained close companions. Jon Connington, whom he had squired with, was a good friend to Rhaegar as well. Returning from a trip to Dorne, Rhaegar once visited the Connington seat of Griffin's Roost. His songs brought the castle's women to tears, while Lord Armond Connington sought House Targaryen's support against rival House Morrigen. Rhaegar's closest and oldest friend, however, was Ser Arthur Dayne, the Sword of the Morning, trusting him more than Ser Barristan Selmy.[NEWLINE]Rhaegar often liked to visit the ruins of Summerhall with only his harp and when he returned he sang songs of such beauty they could reduce women to tears. Although Rhaegar was often dour, private and bookish, Cersei Lannister noted at the tournament in honor of Viserys's birth in Lannisport in 276 AC that the smallfolk cheered for Lord Tywin Lannister twice as much as for King Aerys II, but only half as loudly for Tywin as for Rhaegar. Rhaegar fought well in the tourney besting a dozen skilled knights, among them Barristan Selmy, Gerion, and Tygett Lannister but was defeated in the champion's tilt by his friend Arthur Dayne. Aerys refused Tywin's offer at the tourney to betroth Cersei to Rhaegar. Rhaegar defeated Arthur in the tourney at Storm's End.[NEWLINE]Rhaegar was born at a time when the Targaryen's had declined, and once he came of age, there was no sister, or anyone else of their bloodline, available for him to marry. King Aerys sent his first cousin, Lord Steffon Baratheon, to seek a bride for Rhaegar. Despite Valyrian blood still being present in Essos, Steffon could not find appropriate females of noble-enough birth for Rhaegar to wed.[NEWLINE]After this in early 279 AC, Rhaegar was formally betrothed to the Dornish princess, Elia Martell, the younger sister of Doran Martell, Prince of Dorne. They married the following year in 280 AC, a lavish ceremony was held at the Great Sept of Baelor. His father did not attend the wedding as he was paranoid about an assassination attempt and nor did he permit the young Prince Viserys to attend. Rhaegar and his father's relationship was straining at this point, and he and his new bride took up residence on Dragonstone instead of King's Landing. Rhaegar and Elia had their first child, a girl named Rhaenys, in 280 AC. When the babe was presented at court, Rhaegar's mother, Queen Rhaella, embraced her grandchild warmly while King Aerys remarked: "she smells Dornish". The relationship between Aerys and Rhaegar became more and more estranged.[NEWLINE]Elia and Rhaegar had a son they named Aegon. Elia, due to her delicate health, was bed-ridden for half a year after giving birth to Rhaenys and nearly died giving birth to Aegon, after which the maesters told Rhaegar she would be unable to have any more children.[NEWLINE]Maester Aemon, whom Rhaegar corresponded with via raven messages, remembers that Rhaegar believed his child Aegon to be the prince that was promised.[NEWLINE]When Lord Tywin resigned his position as Hand of the King and left court, the new focus of King Aerys's mistrust and paranoia was his own son and heir, Prince Rhaegar. At court, there was gReplaceing tension between factions loyal to the king and to the prince. Grand Maester Pycelle dispatched a letter to the Citadel, writing that tensions and division at court strongly resembled those before the Dance of the Dragons. Pycelle was fearful a civil war would break out unless some accord could be reached that would satisfy both factions.</Text>
+			<Text>雷加王子是伊里斯二世和蕾拉王后的长子，生于259AC年，和盛夏厅的悲剧发生是同一天。他小时候痴迷于读书，以致于人们常以此来开玩笑。在某个时刻，当他读到了一些东西后，忽然立志成为一名战士。当他用心训练后很快精于此道。十七岁的时候，他成为骑士，从所有的资料来看，他是一个非常厉害，技巧熟练的战士，比赛的时候总是很引人注目。他不常常参加比武。他从未像詹姆·兰尼斯特或者劳勃·拜拉席恩那样乐于使刀弄剑。人们说比起长矛来，雷加更喜欢他的竖琴。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_RHAEGAR_TARGARYEN_CHAPTER_HISTORY_PARA_6" Language="zh_Hans_CN">
-			<Text>In either 280 AC or 281 AC, Lord Walter Whent announced a tourney would be held at Harrenhal to rival any previous tournament. It is believed by some that the tourney was secretly arranged and financed by Prince Rhaegar, as a pretext, so Rhaegar could meet up with the great lords of the realm to discuss arranging a Great Council and the removal of his father. The tournament was announced by Walter shortly after his brother, Ser Oswell of the Kingsguard, visited his older brother. When Lord Varys alerted Aerys II to this possibility, the king decided to attend the tourney. During the great tourney at Harrenhal, Rhaegar seemed unstoppable and defeated even Ser Arthur Dayne. Taking the winter rose cReplacen for the queen of love and beauty, he revealed his interest in Lyanna Stark by passing over his wife, Princess Elia of Dorne, and setting it in Lyanna's lap. Eddard Stark later recalled that moment as "when all the smiles died". The next year, Rhaegar seemingly kidnapped Lyanna, for reasons unknown. This act ultimately triggered Robert's Rebellion and the downfall of the Targaryen dynasty.</Text>
+			<Text>雷加的侍从是米斯·慕顿和瑞卡德·隆莫斯，在他亲手册封他们为骑士之后，他们仍然是关系亲近的朋友。琼恩·克林顿伯爵也是雷加好友，但雷加最亲近也是最长久的朋友是亚瑟·戴恩爵士。</Text>
 		</Replace>
 
 		<!--UNITS-->
 		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_TARGARYEN_DRAGON_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
-			<Text>Dragons are magical creatures, which existed on the continents of Westeros and Essos, but are considered to have been extinct for almost one hundred and fifty years. The only remaining traces of the dragons are skeletal remains and dragon eggs which are thought to have turned to stone.</Text>
+			<Text>龙是一种魔法物种，生活在维斯特洛和厄斯索斯，不过人们相信龙已在150多年前灭绝。现存与龙相关的线索只剩龙骨架和几颗很可能已经变成化石的龙蛋。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_TARGARYEN_DRAGON_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
-			<Text>Dragons are scaled, reptilian creatures. They have four limbs: two wings, which are used as forelegs like bats and pterosaurs, and two rear legs.  Dragons have strong jaws, sharp teeth and claws, leathery wings and long necks and tails, with horns upon their heads. As young hatchlings, they are around the size of a cat. Provided it has food and freedom, a dragon never stops gReplaceing. A dragon given such freedom can reach a span width of twenty feet within a year and a half. Dragons which are locked up, e.g., the Targaryen dragons housed in the Dragonpit in King's Landing, do not gReplace as large as dragons left free to fly as they wish. Although increasing age means increasing size, a larger size is not always an indication of a higher age (e.g., the younger Meraxes was larger than the older Vhagar). Balerion, the largest Targaryen dragon, was large enough to swallow an aurochs or a mammoth from Ibben whole. The polished skulls of the Targaryen dragons look like glittering onyx, and their teeth like curved daggers of black diamond. Dragonbones are black due to their high iron content.</Text>
+			<Text>龙是一种全身覆鳞片、双翼双足的爬行动物。它们的前爪形成皮质的双翼，就像蝙蝠一样，而非像有些“冰与火之歌”的插图把它们画成有四条腿和一对独立的翅膀。龙有尖牙和利爪、皮质的双翼、纤长的脖颈和尾巴，沿着脊背长有许多尖刺。刚孵化的时候，幼崽仅有小猫一般大，但是成年的龙能够长大到一口吞下整只猛犸象。坦格利安家族死去的龙的头骨黑如玛瑙，牙齿犹如黑钻石制成的弯刀。由于含铁量很高，所以龙的骨骼呈现黑色。龙骨是一种备受追捧的制作材料。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_TARGARYEN_DRAGON_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
-			<Text>It is said that dragons are fire made flesh. Great heat emanates from dragons' bodies, to the point that they steam during cold nights. Dragons only eat cooked meat, and use the extremely hot flame which they breathe to cook their meat before eating it. Dragonbone is as strong as steel, but lighter and far more flexible. The dragon's bones are utterly impervious to fire. A dragon's scales are largely, but not entirely, impervious to flame as well, and serve as protection for the more vulnerable flesh and musculature beneath. As a dragon ages, its scales thicken and gReplace harder, affording even more protection, leaving dragons nearly immune to fire, although they can still be wounded by dragonflame (e.g., Moondancer's eyes being blinded by Sunfyre's fire during the Dance of the Dragons). Similarly, as dragons age, the fires they breath become hotter and fiercer. Where a hatchling's flame can set straw aflame, the flames of older dragons, like Balerion and Vhagar in the fullness of their power, could melt steel and stone. The lifespan of dragons is many times that of a human. Balerion, the largest and oldest Targaryen dragon, already alive when House Targaryen relocated from Valyria to Dragonstone in 128 BC died of old age in 94 AC[17] during the reign of King Jaehaerys I Targaryen, near two hundred years of age. Dragons are believed to be intrinsically tied to magic in the world. Since the death of the last dragon in 153 AC, summers grew shorter and the winters colder and crueler, while magical spells became less powerful.</Text>
+			<Text>龙的鳞片在很大程度上不受火焰影响，并不是完全耐受，但鳞片保护之下的肌肉组织是脆弱的。随着龙年龄的增长，龙的鳞片变得越来越厚越来越硬，给予巨龙更强的保护。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_TARGARYEN_DRAGON_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
-			<Text>Historians, like Septon Barth, Grand Maester Munkun, and Maester Thomax, hold markedly divergent views on the mating habits of dragons. Dragons lay large, scaled eggs to reproduce. According to Archmaester Gyldayn, and agreed upon by Maester Yandel, the ability of a dragon to lay eggs is proof that said dragon is female. When a dragon is never observed to have laid eggs, this is taking as proof that it must have been male. However, according to Septon Barth and Maester Aemon, dragons have no fixed gender, but are “now one and now the other, as changeable as flame”, Septon Barth believes that dragons can change sex at need, but Maester Anson believes this to be erroneous, and states in his Truth that Barth's statement is simply a misunderstood esoteric metaphor. Dragons believed to be female, e.g., Syrax, Dreamfyre, Tessarion, and Meleys, are referred to as a she-dragon. The dragon Caraxes has thusfar been referred to as both male and female. Traditionally, Targaryen princes received a dragon's egg in their cradle, allowing them to bond with the dragons as soon as the eggs hatched. Un-hatched eggs can become fossilized at an old age.</Text>
+			<Text>龙会散发热气，到了寒冷的夜里尤其明显，仿佛全身都在冒烟。龙在进食之前喜欢先用龙焰将食物烤熟。龙鳞也不能完全免受烈焰的影响，只是很大程度上，幼龙很容易被火焰烫伤。同时它们的龙焰也会随着年龄的增加变的越来越炽热，越来越猛烈。一只幼龙可以喷出点燃秸秆的火焰，贝勒里恩或瓦格哈尔在盛年时喷出的龙焰则可以融化钢铁和石头。据说龙的血肉由火构成。</Text>
 		</Replace>		
 
 		<!--CIVINFO-->
-		<Replace Tag="LOC_CIVINFO_THE_CReplaceNLANDS_LOCATION" Language="zh_Hans_CN">
-			<Text>The CReplacenlands</Text>
+		<Replace Tag="LOC_CIVINFO_THE_CROWNLANDS_LOCATION" Language="zh_Hans_CN">
+			<Text>王领</Text>
 		</Replace>
-		<Replace Tag="LOC_CIVINFO_THE_CReplaceNLANDS_SIZE" Language="zh_Hans_CN">
-			<Text>The cReplacenlands are based around Blackwater Bay, with the capital of King's Landing built where the Blackwater Rush meets the bay. King's Landing, the largest city in Westeros, contains the Great Sept of Baelor and the Red Keep, the home of House Baratheon of King's Landing.</Text>
+		<Replace Tag="LOC_CIVINFO_THE_CROWNLANDS_SIZE" Language="zh_Hans_CN">
+			<Text>王领现在直辖于铁王座,处于谷地的南面，河间地的东南，西境之东，河湾地和风暴地的北面。</Text>
 		</Replace>
-		<Replace Tag="LOC_CIVINFO_THE_CReplaceNLANDS_POPULATION" Language="zh_Hans_CN">
-			<Text>The metropolis of King's Landing is the driving force of the region, with the largest population and harbor in the realm.</Text>
+		<Replace Tag="LOC_CIVINFO_THE_CROWNLANDS_POPULATION" Language="zh_Hans_CN">
+			<Text>王领所辖地域不大，主要由黑水湾沿岸及其岛屿构成，北起蟹爪半岛，南至马赛岬，呈一个弧形。</Text>
 		</Replace>
-		<Replace Tag="LOC_CIVINFO_THE_CReplaceNLANDS_CAPITAL" Language="zh_Hans_CN">
-			<Text>King's Landing</Text>
+		<Replace Tag="LOC_CIVINFO_THE_CROWNLANDS_CAPITAL" Language="zh_Hans_CN">
+			<Text>君临</Text>
 		</Replace>
 
 		<!--DIPLO-->
 
 		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_RHAEGAR_TARGARYEN_ANY" Language="zh_Hans_CN">
-			<Text>I appreciate your loyalty.</Text>
+			<Text>我接受你的忠诚。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_RHAEGAR_TARGARYEN_ANY" Language="zh_Hans_CN">
-			<Text>I hear things about your comments on my father. I don't like it.</Text>
+			<Text>我听过你是如何评论我父亲的。我不喜欢它。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_RHAEGAR_TARGARYEN_ANY" Language="zh_Hans_CN">
-			<Text>I propse instead of swords, how about sit down together and battle with harps?</Text>
+			<Text>不如我们放下剑，坐下来用竖琴比试一番。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_RHAEGAR_TARGARYEN_ANY" Language="zh_Hans_CN">
-			<Text>I should sing for today.</Text>
+			<Text>我真应该用歌声来纪念这一天。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_RHAEGAR_TARGARYEN_ANY" Language="zh_Hans_CN">
-			<Text>Let me work on another composing and come back...</Text>
+			<Text>让我来做个曲再回来...</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_RHAEGAR_TARGARYEN_ANY" Language="zh_Hans_CN">
-			<Text>I will require a sword and armor. It seems I must be a warrior.</Text>
+			<Text>拿我的剑和盔甲来。看来我注定要成为一个战士。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_RHAEGAR_TARGARYEN_ANY" Language="zh_Hans_CN">
-			<Text>When the battle's done I mean to call a council. Changes will be made. I meant to do it long ago, but ... well, it does no good to speak of roads not taken. We shall talk when I return.</Text>
+			<Text>当战斗结束时我将召集议会。有些事需要做出一些改变。我很久以前就打算这么做了，但是...好吧，现在谈这些也没用。等我回来再说吧。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_RHAEGAR_TARGARYEN_ANY" Language="zh_Hans_CN">
-			<Text>Tributes well received.</Text>
+			<Text>你会收到礼物的</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_RHAEGAR_TARGARYEN_ANY" Language="zh_Hans_CN">
-			<Text>I don't think it's a good idea to have your men put some crazy ideas into my father's head.</Text>
+			<Text>我不认为让你的人把一些疯狂的想法灌输我父亲的脑袋里是个好主意。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_RHAEGAR_TARGARYEN_ANY" Language="zh_Hans_CN">
-			<Text>I've semt a royal envoy to you. And he will play my new song in your dinning hall for me.</Text>
+			<Text>我派了一位皇家特使给你。他将在你的餐厅演奏我的新歌。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_RHAEGAR_TARGARYEN_ANY" Language="zh_Hans_CN">
-			<Text>And I will call this treason.</Text>
+			<Text>我会认为你这是叛国罪。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_RHAEGAR_TARGARYEN_ANY" Language="zh_Hans_CN">
-			<Text>Ruling isn't only about power. Your people should like you. Your people should create great works for you.</Text>
+			<Text>统治靠的不仅仅是力量。你的人民应当喜欢你。你的人应该为你创造出伟大的作品。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_AGENDA_HARP_OVER_SWORD_LOW_CULTURE" Language="zh_Hans_CN">
-			<Text>(You have low culture.)</Text>
+			<Text>(你的文化很low)</Text>
 		</Replace>		
 		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_RHAEGAR_TARGARYEN_ANY" Language="zh_Hans_CN">
-			<Text>Greetings stranger. You are speaking to Ser Rhaegar Targaryen, Prince of Dragonstone. Common folks also call me Silver prince. I am more a singer than warrior. Maybe I am better than any of the bards in your realm.</Text>
+			<Text>你好陌生人。我是龙石岛王子，雷加·坦格利安。人们也称我为银王子。我比战士更像一名歌手。也许我比你领土的任何一个吟游诗人都好。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_RHAEGAR_TARGARYEN_ANY" Language="zh_Hans_CN">
-			<Text>I will show you the way to Red Keep. Please ignore my father. He's always threatening people with "burn them all" mumbles recently.</Text>
+			<Text>我将告诉你去红堡的路。请不要在意我的父亲。他最近总是喃喃自语说要“烧掉他们所有人”。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_RHAEGAR_TARGARYEN_ANY" Language="zh_Hans_CN">
-			<Text>How is your realm looking? I should probably sing a song for it.</Text>
+			<Text>你的领土怎么样？我应该为它唱一首歌。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_RHAEGAR_TARGARYEN_ANY" Language="zh_Hans_CN">
-			<Text>Tell me about your throne. Is it spiky? Mine hurts me when I sat on it.</Text>
+			<Text>告诉我你的王座。它尖锐么？当我坐我的王座上时，曾被刺了一下。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_GREETING_LEADER_RHAEGAR_TARGARYEN_ANY" Language="zh_Hans_CN">
 			<Text>Sȳz naejot ūndegon ao.</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_RHAEGAR_TARGARYEN_ANY" Language="zh_Hans_CN">
-			<Text>I'm impressed on your unique culture. We should exchange our understandings.</Text>
+			<Text>我对你独特的文化印象深刻。我们应该加深我们的交流。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_HARP_OVER_SWORD_DESCRIPTION_HIGH_CULTURE" Language="zh_Hans_CN">
-			<Text>Rhaegar is pleased to see you with high culture.</Text>
+			<Text>雷加·坦格利安喜欢你的高文化</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_RHAEGAR_TARGARYEN_ANY" Language="zh_Hans_CN">
-			<Text>If your people don't sing for you, you must be a terrible leader.</Text>
+			<Text>如果你的人不为歌颂你，那你一定是个可怕的领导者。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_HARP_OVER_SWORD_DESCRIPTION_LOW_CULTURE" Language="zh_Hans_CN">
-			<Text>Rhaegar is upset by your low culture.</Text>
+			<Text>雷加·坦格利安觉得你的文化很low</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_RHAEGAR_TARGARYEN_ANY" Language="zh_Hans_CN">
-			<Text>A ture dragon has three heads. We need alliances for being strong.</Text>
+			<Text>正如一条真龙有三个头。我们也需要联盟以保持强大。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_RHAEGAR_TARGARYEN_ANY" Language="zh_Hans_CN">
-			<Text>Knee, and you will find me very forgiving.</Text>
+			<Text>跪下，然后你会获得我的宽恕。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_RHAEGAR_TARGARYEN_ANY" Language="zh_Hans_CN">
-			<Text>This time, I really agree with my father on burning you all.</Text>
+			<Text>这一次，我真的非常同意我父亲，你们所有人都应该被烧死。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_RHAEGAR_TARGARYEN_ANY" Language="zh_Hans_CN">
-			<Text>I'd rather being a singer than a warrior. I propose an end to our conflict and get back on table for the matters.</Text>
+			<Text>我宁愿做一个歌手而不是一个战士。我建议尽快结束我们的冲突并重新讨论这些问题。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_RHAEGAR_TARGARYEN_ANY" Language="zh_Hans_CN">
-			<Text>You may pass. But don't get too close to the Dragonpit. Dragons aren't very friendly to strangers.</Text>
+			<Text>你可以通过。但是不要太靠近龙穴。龙对陌生人不是很友好。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_RHAEGAR_TARGARYEN_ANY" Language="zh_Hans_CN">
-			<Text>Our dragons see your people as food. For you own safety, no.</Text>
+			<Text>我们的龙会将你的人视为食物的。为了你的安全，我无法同意。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_RHAEGAR_TARGARYEN_ANY" Language="zh_Hans_CN">
-			<Text>On behalf of the King, I demand you open your border for us. Land and air.</Text>
+			<Text>我代表国王要求你为我们开放边界。不仅仅是陆地，还有空中的。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_RHAEGAR_TARGARYEN_ANY" Language="zh_Hans_CN">
-			<Text>Your army out there is considered an act of treason. Do you want to make it official?</Text>
+			<Text>你会因为送来的军队被认为是叛国罪的。你是认真的么？</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_RHAEGAR_TARGARYEN_ANY" Language="zh_Hans_CN">
-			<Text>He has a song. He is the prince that was promised, and his is the song of ice and fire. I've lost him, I...</Text>
+			<Text>他已经有了一首歌，他就是预言中的王子，他的歌便是冰与火之歌。我不再是他，我...</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_RHAEGAR_TARGARYEN_ANY" Language="zh_Hans_CN">
-			<Text>We are not agreed.</Text>
+			<Text>我无法接受。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_RHAEGAR_TARGARYEN_ANY" Language="zh_Hans_CN">
-			<Text>Generous offer. We accpet.</Text>
+			<Text>慷慨的报价。我接受了。</Text>
 		</Replace>
 		
 	</LocalizedText>

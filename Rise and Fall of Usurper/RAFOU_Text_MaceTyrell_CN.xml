@@ -2,293 +2,293 @@
 <GameData>
 	<LocalizedText>
 		<Replace Tag="LOC_CIVILIZATION_THE_REACH_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Kingdom of The Reach</Text>
+			<Text>河湾地王国</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_REACH_ADJECTIVE" Language="zh_Hans_CN">
-			<Text>The Reach</Text>
+			<Text>河湾地人</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LORD_PUFFFISH_NAME" Language="zh_Hans_CN">
-			<Text>Lord Puff Fish</Text>
+			<Text>充气鱼大人</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LORD_PUFFFISH_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Receive a copy of Builder or Settler unit when produced one.[NEWLINE]But -3 [ICON_Strength] Combat Strength for all units.</Text>
+			<Text>每训练一个建造者或者开拓者，便会获得第二个建造者或者开拓者。[NEWLINE]然而所有军事单位-3 [ICON_Strength] 战斗力。</Text>
 		</Replace>
 		<Replace Tag="LOC_LEADER_MACE_TYRELL_QUOTE" Language="zh_Hans_CN">
-			<Text>Is there anything as pointless as a king without a kingdom? No, it's plain, the boy must abandon the riverlands, join his forces to Roose Bolton's once more, and thReplace all his strength against Moat Cailin. That is what I would do.</Text>
+			<Text>还有什么会比没有国土的君王更没有意义的事？没有，这很明显，这孩子必须放弃河间地，再次加入卢斯·波顿的军队，然后将它的所有力量都投入到卡林湾。换成我就会这么做。</Text>
 		</Replace>
 
 		<!--City Names-->
 		<Replace Tag="LOC_CIVILIZATION_THE_REACH_CITY_1" Language="zh_Hans_CN">
-			<Text>Highgarden</Text>
+			<Text>高庭</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_REACH_CITY_2" Language="zh_Hans_CN">
-			<Text>Ashford</Text>
+			<Text>岑树滩</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_REACH_CITY_3" Language="zh_Hans_CN">
-			<Text>Tumbleton</Text>
+			<Text>腾石镇</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_REACH_CITY_4" Language="zh_Hans_CN">
-			<Text>Oldtown</Text>
+			<Text>旧镇</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_REACH_CITY_5" Language="zh_Hans_CN">
-			<Text>Cuy</Text>
+			<Text>库伊镇</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_REACH_CITY_6" Language="zh_Hans_CN">
-			<Text>The Arbor</Text>
+			<Text>青亭岛</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_REACH_CITY_7" Language="zh_Hans_CN">
-			<Text>BlackcReplacen</Text>
+			<Text>黑冠城</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_REACH_CITY_8" Language="zh_Hans_CN">
-			<Text>Three Towers</Text>
+			<Text>三塔堡</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_REACH_CITY_9" Language="zh_Hans_CN">
-			<Text>Shield Islands</Text>
+			<Text>盾牌列岛</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_REACH_CITY_10" Language="zh_Hans_CN">
-			<Text>Cider Hall</Text>
+			<Text>果酒厅</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_REACH_CITY_11" Language="zh_Hans_CN">
-			<Text>Grassy Vale</Text>
+			<Text>绿谷城</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_REACH_CITY_12" Language="zh_Hans_CN">
-			<Text>Bitterbridge</Text>
+			<Text>苦桥</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_REACH_CITY_13" Language="zh_Hans_CN">
-			<Text>Brightwater Keep</Text>
+			<Text>亮水城</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_REACH_CITY_14" Language="zh_Hans_CN">
-			<Text>Old Oak</Text>
+			<Text>古橡城</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_REACH_CITY_15" Language="zh_Hans_CN">
-			<Text>Horn Hill</Text>
+			<Text>角陵</Text>
 		</Replace>
 		<!--CITIZEN NAMES-->
 		<Replace Tag="LOC_CITIZEN_THE_REACH_MALE_1" Language="zh_Hans_CN">
-			<Text>Randyll Tarly</Text>
+			<Text>蓝道·塔利</Text>
 		</Replace>
 		<Replace Tag="LOC_CITIZEN_THE_REACH_MALE_2" Language="zh_Hans_CN">
-			<Text>Paxter Redwyne</Text>
+			<Text>派克斯特·雷德温</Text>
 		</Replace>
 		<Replace Tag="LOC_CITIZEN_THE_REACH_MALE_3" Language="zh_Hans_CN">
-			<Text>Willas Tyrell</Text>
+			<Text>维拉斯·提利尔</Text>
 		</Replace>
 		<Replace Tag="LOC_CITIZEN_THE_REACH_MALE_4" Language="zh_Hans_CN">
-			<Text>Leyton Hightower</Text>
+			<Text>雷顿·海塔尔</Text>
 		</Replace>
 		<Replace Tag="LOC_CITIZEN_THE_REACH_FEMALE_1" Language="zh_Hans_CN">
-			<Text>Olenna Tyrell</Text>
+			<Text>奥莲娜·提利尔</Text>
 		</Replace>
 		<Replace Tag="LOC_CITIZEN_THE_REACH_FEMALE_2" Language="zh_Hans_CN">
-			<Text>Margaery Tyrell</Text>
+			<Text>玛格丽·提利尔</Text>
 		</Replace>
 		<Replace Tag="LOC_CITIZEN_THE_REACH_FEMALE_3" Language="zh_Hans_CN">
-			<Text>Jeyne Beesbury</Text>
+			<Text>简妮·毕斯柏里</Text>
 		</Replace>
 		<Replace Tag="LOC_CITIZEN_THE_REACH_FEMALE_4" Language="zh_Hans_CN">
-			<Text>Delena Florent</Text>
+			<Text>狄丽娜·佛罗伦</Text>
 		</Replace>
 		<Replace Tag="LOC_CITIZEN_THE_REACH_FEMALE_5" Language="zh_Hans_CN">
-			<Text>Jeyne Fossoway</Text>
+			<Text>简妮·佛索威</Text>
 		</Replace>
 
 		<!--Unit Ability Descriptions-->
 		<Replace Tag="LOC_PROMOTION_COMBAT_REDUCE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>{1_Amount} Combat Strength because Lord Puff Fish is too fat to battle.</Text>
+			<Text>充气鱼胖到难以战斗， {1_Amount} 战斗力 </Text>
 		</Replace>
 
 		<!--Agendas-->
 		<Replace Tag="LOC_AGENDA_TOO_FAT_TO_BATTLE_NAME" Language="zh_Hans_CN">
-			<Text>Too Fat to Battle</Text>
+			<Text>肥胖无力</Text>
 		</Replace>
 		<Replace Tag="LOC_AGENDA_TOO_FAT_TO_BATTLE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Likes civilizations in peace and with high city populations.</Text>
+			<Text>喜欢和平以及高人口的文明</Text>
 		</Replace>
 
 		<!--PEDIA-->
 		<!--CIV-->
 		<Replace Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_ARBOR_WINERY_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
-			<Text>In Westeros, most wines are produced in the south, and the Arbor is famed for its wines. The island produces both sweet and dry red wines, as well as white wines, the most well known of which is called "Arbor gold". The private stock of Runceford Redwyne, Lord of the Arbor, is strongwine with a dark purple color, and which is languorous and heady on the tongue.</Text>
+			<Text>青亭島的葡萄酒是全維斯特洛最好的。這裏產的紅葡萄酒非比尋常。青亭島也生產金色葡萄酒。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_REACH_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
-			<Text>The Reach is one of the constituent regions of the Seven Kingdoms on the continent of Westeros. It was formerly a sovereign nation ruled by the Kings of the Reach before the War of Conquest. It is the second-largest of the kingdoms behind the north and is considered the most fertile and heavily-populated part of Westeros.</Text>
+			<Text>河湾地是维斯特洛大陆南部一个地域的泛称，在伊耿征服七国之前，这里曾是独立的河湾王国领土。河湾地的地域面积仅次于北境，得名于流经其上的曼德河及其诸多支流。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_REACH_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
-			<Text>The Reach is considered the home of chivalry in Westeros. It is the place where knighthood is looked upon with the greatest reverence and esteemed the most. It is also the place where the rules to tournaments are the most stringent and managed.</Text>
+			<Text>河湾地地势开阔、灌溉便利、土壤肥沃，因而农业发达，果蔬遍野，鲜花满园，被誉为七国之粮仓。富饶的河湾地亦养育了全大陆最多的人口。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_REACH_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
-			<Text>The Reach is ruled from the castle of Highgarden by House Tyrell. Notable houses have included Ashford, Caswell, Crane, Florent, Fossoway, Gardener, Hightower, Merryweather, Mullendore, Oakheart, Redwyne, Replacean, Tarly, and Vyrwel. Noble bastards born in the Reach are given the surname Flowers.</Text>
+			<Text>河湾地亦是维斯特洛骑士精神的发源之地，民风尚武，重视荣誉，骑士享有着无上的尊崇和荣耀。河湾人的比武竞技较之他处更加的严格与正规。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_REACH_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
-			<Text>The Reach is the most fertile part of Westeros and has numerous and well-populated villages and towns. The Sunset Sea is found to the west, while the hills of the westerlands are to the northwest and the Blackwater Rush of the riverlands is to the north. The Reach borders the cReplacenlands to the northeast, while to the east and southeast are the stormlands and their Dornish Marches. South of the Reach are the Red Mountains of Dorne and the Summer Sea. The Roseroad links Oldtown with King's Landing by way of Highgarden, while the Ocean Road links Highgarden with Lannisport.</Text>
+			<Text>河湾地是整个维斯特洛大陆上最肥沃的土地，养育了数量众多、人口稠密的村庄与城镇。河湾地的行政疆域是沿袭自历史上河湾王国的统治疆域，核心区域是沿曼德河流域的河湾区。西临日落之海；其北部边界大致沿秧鸡厅-玉米城-银厅一线，此线往北是为西境；以黑水河为界与河间地、王领南北相隔；东南方向则以赤红山脉为天然分界线与多恩接壤。多恩边疆地西部的一部分领土（角陵）亦位于河湾地中。而东面则是多恩边疆地的东部部分，属于风暴地。其境亦内有盾牌列岛和青亭岛等岛屿，以及低语湾和雷德温海峡。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_REACH_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
-			<Text>The Reach is watered by the immense river Mander and its tributaries, including the Blueburn and the Cockleswhent. The Reach proper is centered around the Mander. Oldtown is located at the mouth of the Honeywine. The region also includes several islands, including the Shield Islands near the mouth of the Mander and the Arbor south of the Whispering Sound and the Redwyne Straits.</Text>
+			<Text>在整个维斯特洛，河湾地的富裕程度仅次于富产黄金的西境，农业则冠绝七国。河湾地盛产甜瓜、葡萄、蜜桃、苹果等。青亭岛出产的金色果酒更是誉满天下，旧镇的特产木竖琴亦广受欢迎。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_REACH_CHAPTER_HISTORY_PARA_6" Language="zh_Hans_CN">
-			<Text>The Reach is the second wealthiest region in the Seven Kingdoms behind the westerlands, but it is the most fertile region. Among the products it produces are melons, fireplums, peaches, apples, and grapes. The Arbor is said to make the finest of wines, from dry fruity reds to a rich golden vintage. Woodharps made in Oldtown are highly sought after.</Text>
+			<Text>在征服者战争之前，河湾地通行的货币是金手币，至今仍有少量流通，但其价值只有金龙的一半。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_REACH_CHAPTER_HISTORY_PARA_7" Language="zh_Hans_CN">
-			<Text>Before the War of Conquest, the golden coins of the Reach were known as hands. They still exist in some number, with each hand coin roughly half the value of a dragon coin.</Text>
+			<Text>据一份半官方资料显示，河湾地总兵力约80000~100000。河湾地更常见的是板甲，而诸如北境等地常见的是皮甲。河湾地海军力量主要包括青亭岛的雷德温舰队，以及盾牌列岛和其他海岸领主的船只。</Text>
 		</Replace>
 
 		<!--LEADER-->
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MACE_TYRELL_TITLE" Language="zh_Hans_CN">
-			<Text>Mace Tyrell</Text>
+			<Text>梅斯·提利尔</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MACE_TYRELL_SUBTITLE" Language="zh_Hans_CN">
-			<Text>Lord of Highgarden, Defender of the Marches, High Marshal of the Reach, Warden of the South, Lord Paramount of the Mander, High Steward of Highgarden.</Text>
+			<Text>高庭公爵、南境守护者、边疆守护者、河湾至高统领。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MACE_TYRELL_QUOTE" Language="zh_Hans_CN">
-			<Text>Is there anything as pointless as a king without a kingdom? No, it's plain, the boy must abandon the riverlands, join his forces to Roose Bolton's once more, and thReplace all his strength against Moat Cailin. That is what I would do.</Text>
+			<Text>还有什么会比没有国土的君王更没有意义的事？没有，这很明显，这孩子必须放弃河间地，再次加入卢斯·波顿的军队，然后将它的所有力量都投入到卡林湾。换成我就会这么做。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MACE_TYRELL_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
-			<Text>Mace is a handsome and once-powerful-looking man who has since turned to fat. He has curly bReplacen hair and cuts his beard, which has white and grey specks in it, into a triangular shape. He is often red-faced. Cersei Lannister thinks of Mace as the same age as her father, Lord Tywin Lannister, although Mace is closer in age to her than to Tywin.</Text>
+			<Text>他是一个未老先衰，繁琐而又缺乏政治手腕的人。被人戏称为“充气鱼大人”。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MACE_TYRELL_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
-			<Text>Mace has a generally jovial personality. He thinks himself a great warrior, although his reputation rests solely on the victory over Robert I Baratheon in the Battle of Ashford during Robert's Rebellion, which had largely been won by Mace's bannerman, Lord Randyll Tarly, before Mace even arrived at the battlefield, and the command Mace held during the siege of Storm's End later that war, which ended when Mace dipped his banners to Lord Eddard Stark. Mace is ambitious, wishing to see a grandchild of his on the Iron Throne. Despite that, his mother, Lady Olenna Tyrell, can easily hector him, and so influence his decisions. Mace is considered an oaf by his mother and by Cersei Lannister, and a fool by Prince Oberyn Martell and Cersei. His favorite son is Loras, the youngest, and his closest friend is Lord Paxter Redwyne, his brother-in-law. Mace has a great dislike for Dornishmen, especially Prince Oberyn Martell, who accidentally crippled Mace's heir, Willas.</Text>
+			<Text>他唯一的战绩只有风息堡之围。虽然他极力想利用白杨滩之战来引证他的战略才能, 但事实上他在这场战役中根本没有任何贡献，由蓝道·塔利带领的先锋军在他的大军还未到达战场前就已取得了胜利。 他不及其他家庭成员睿智，他虽担任提利尔大家族的领袖，但有名无实。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MACE_TYRELL_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
-			<Text>Mace dresses in green velvet trimmed with sable, as well as a gold mantle over green.</Text>
+			<Text>梅斯一直梦想他的女儿能成为王后。当蓝礼·拜拉席恩和洛拉斯·提利尔提出一个将蓝礼加冕为王并将玛格丽·提利尔嫁给他的计划时，梅斯表示了支持，同时他自己也可以成为蓝礼一世的御前首相。然而，在这段婚姻圆满之前，蓝礼国王就在风息堡被杀害。梅斯率领他的军队至苦桥来计划他和他儿子的下一次行动。在培提尔·贝里席的游说下，提利尔家族接受了乔佛里·拜拉席恩和兰尼斯特家族的联盟邀请。梅斯本人的部队也加盟了泰温在黑水大战打败史坦尼斯一战。他得到的奖赏为御前会议中的海政大臣一席。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MACE_TYRELL_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
-			<Text>Mace became Lord of Highgarden once his father, Lord Luthor Tyrell, rode off a cliff while hawking.</Text>
+			<Text>在审判提利昂·兰尼斯特谋杀乔佛里的庭上，梅斯是三位法官之一。由于他的女儿玛格丽在案发时与乔佛里同饮一杯被下了毒的酒，由此梅斯希望能判提利昂死罪。他不知道的是，正是他自己的母亲奥莲娜·雷德温毒死了乔佛里。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MACE_TYRELL_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
-			<Text>During Robert's Rebellion, Mace was in command of troops from the Reach who marched against Lord Robert Baratheon of Storm's End. Mace is credited with defeating Robert in the Battle of Ashford, although the van under Lord Randyll Tarly achieved most of the victory before Mace's arrival at Ashford. He then led the siege of Storm's End, which was successfully held by Robert's brother, Stannis Baratheon. Mace and his closest bannerman, Lord Paxter Redwyne, surrendered to Robert's ally, Lord Eddard Stark, after the Sack of King's Landing.</Text>
+			<Text>梅斯受命于摄政太后瑟曦·兰尼斯特前去攻打风息堡，其实太后此举是为了让他离开君临。他走之后，瑟曦开始捏造关于玛格丽的通奸一案。结果瑟曦和玛格丽都因为不忠而被教会囚禁。当梅斯收到君临传来的消息之后，他立刻放弃了围城，班师回朝。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MACE_TYRELL_CHAPTER_HISTORY_PARA_6" Language="zh_Hans_CN">
-			<Text>According to Oberyn Martell, Mace encouraged his heir, Willas Tyrell, to participate in tourneys before he was ready, leading to the accidental crippling of Willas by Oberyn. Some of the Iron Throne's debts under the new king, Robert I Baratheon, are owed to Lord Mace.</Text>
+			<Text>梅斯抵达君临，发现玛格丽和她的表亲们已经被释放。由于对她们不利的证据十分微弱，她们在先到达君临的梅斯的封臣蓝道·塔利的监护下得到了假释。塔利立下了神圣的誓言，保证会在审判将她们送回教会。瑟曦·兰尼斯特被剥夺了摄政的权力；她的叔叔凯冯·兰尼斯特来到君临，成为托曼·拜拉席恩的摄政王。</Text>
 		</Replace>
 
 		<!--UNITS-->
 		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_REDWYNE_FLEET_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
-			<Text>The Redwyne fleet is a fleet in the service of House Redwyne of the Arbor. The Redwynes have one of the three most powerful fleets of the Seven Kingdoms, the others being the Iron Fleet of the Iron Islands and the royal fleet of the Iron Throne. It is the largest fleet in Westeros. Lord Paxter Redwyne owns two hundred warships, while also serving the Redwynes are five times as many merchant carracks, wine cogs, trading galleys, and whalers. Paxter's galleas is the Arbor Queen.</Text>
+			<Text>雷德温舰队（Redwyne fleet）效忠于青亭岛的雷德温家族。雷德温家族拥有七大王国最为强大的三支舰队之一，另外两支分别是铁群岛的铁舰队和铁王座的王家舰队.</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_REDWYNE_FLEET_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
-			<Text>During the Andal invasion of Westeros, the Andals were prevented from landing in the Reach by the fleets of the Redwynes of the Arbor and the Hightowers of Oldtown. Redwyne galleys blockaded Storm's End during Robert's Rebellion. The smuggler Davos evaded the cordon, however, and delivered onions and salt fish to Stannis Baratheon and his starving garrison within the castle. During Greyjoy's Rebellion, warships from the Arbor served under Stannis when he smashed the Iron Fleet in the sea battle off Fair Isle.</Text>
+			<Text>它是维斯特洛规模最大的舰队。[2]派克斯特·雷德温伯爵拥有两百艘战舰，与此同时还有五倍于此数目的商用大帆船、运酒平底船、贸易划桨船和捕鲸船服役于雷德温家族。派克斯特的三桅划桨战舰是青亭女王号。</Text>
 		</Replace>
 
 		<!--CIVINFO-->
 		<Replace Tag="LOC_CIVINFO_THE_REACH_LOCATION" Language="zh_Hans_CN">
-			<Text>The Reach</Text>
+			<Text>河湾地</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVINFO_THE_REACH_SIZE" Language="zh_Hans_CN">
-			<Text>The Reach is the second-largest of the kingdoms</Text>
+			<Text>河湾地的地域面积仅次于北境，得名于流经其上的曼德河及其诸多支流。</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVINFO_THE_REACH_POPULATION" Language="zh_Hans_CN">
-			<Text> The Reach is considered the most fertile and heavily-populated part of Westeros</Text>
+			<Text>河湾地是整个维斯特洛大陆上最肥沃的土地，养育了数量众多、人口稠密的村庄与城镇。</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVINFO_THE_REACH_CAPITAL" Language="zh_Hans_CN">
-			<Text>Highgarden</Text>
+			<Text>高庭</Text>
 		</Replace>
 
 		<!--DIPLO-->
 
 		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_MACE_TYRELL_ANY" Language="zh_Hans_CN">
-			<Text>Friend? Yes, Friend!</Text>
+			<Text>朋友？太棒了！我的朋友！</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_MACE_TYRELL_ANY" Language="zh_Hans_CN">
-			<Text>I can loan you money, but I don't think we are close enough to make friends yet.</Text>
+			<Text>我可以借你钱，但是我不认为我们之间可以亲密到成为朋友。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_MACE_TYRELL_ANY" Language="zh_Hans_CN">
-			<Text>There is no greater pleasure than to serve the King's Grace. If I was deemed worthy to join your royal council, you would find none more loyal or true.</Text>
+			<Text>没有什么会比为国王的恩典效力让人感到高兴的了。如果我有幸能加入你的皇家委员会，你会发现什么是真正的更忠诚。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_MACE_TYRELL_ANY" Language="zh_Hans_CN">
-			<Text>I will be at your service.</Text>
+			<Text>很乐意为你效劳。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_MACE_TYRELL_ANY" Language="zh_Hans_CN">
-			<Text>You just rejected an offer from great wealth. Unwise, unwise...</Text>
+			<Text>你拒绝了一份可以带来巨额财富的提议，这实在是太不明智了。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_MACE_TYRELL_ANY" Language="zh_Hans_CN">
-			<Text>No, no, no, no! I'm not ready for war, my people are not ready.</Text>
+			<Text>不不不不不，我还没准备好要战斗，我的人民也是。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_MACE_TYRELL_ANY" Language="zh_Hans_CN">
-			<Text>You will have a chance to witness how the greatest fleet in Westeros fights. Oh, for your last time...</Text>
+			<Text>您将有幸目睹维斯特洛最伟大的舰队时如何战斗。这也将是你的最后一次。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_MACE_TYRELL_ANY" Language="zh_Hans_CN">
-			<Text>Your delegation is welcomed. And I promise you he will be so happy here that he won't answer your summon back.</Text>
+			<Text>我会热烈的欢迎你的使团，以至于他们都不想离开这里。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_MACE_TYRELL_ANY" Language="zh_Hans_CN">
-			<Text>We don't accept messenger from savage people. Go back and never let me see your face again.</Text>
+			<Text>我们不接受来自野蛮人的使者。滚回去，永远不要让我再看到你的脸。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_MACE_TYRELL_ANY" Language="zh_Hans_CN">
-			<Text>I've sent envoy to you with my finest Arbor Gold, fresh fruits and golden coins of the Reach. I believe you will like them.</Text>
+			<Text>我给你送去了最上等的青亭島黄金葡萄酒，新鲜的水果以及河湾地的金币。我相信你会喜欢的。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_MACE_TYRELL_ANY" Language="zh_Hans_CN">
-			<Text>There's nothing wrong with being wealthy. You're just jealous. Yes, you are!</Text>
+			<Text>财富是没有错的。你只是在嫉妒。是的，你就是！</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_MACE_TYRELL_ANY" Language="zh_Hans_CN">
-			<Text>Look at your people. Starvation, poverty, all kinds of suffering. They need a new leader!</Text>
+			<Text>看看你的子民。饥饿，贫穷，忍受着各种苦难。他们需要一位新的领导者！</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_AGENDA_TOO_FAT_TO_BATTLE_WAR " Language="zh_Hans_CN">
-			<Text>(Your science output is woeful.)</Text>
+			<Text>(你的科技落后)</Text>
 		</Replace>		
 		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_MACE_TYRELL_ANY" Language="zh_Hans_CN">
-			<Text>Welcom to the Reach, the fertile, rich home of my people. I am Mace Tyrell, Lord of Highgarden, Defender of the Marches, High Marshal of the Reach, Warden of the South, Lord Paramount of the Mander and High Steward of Highgarden. I hope you find your journey in the Reach pleasant.</Text>
+			<Text>欢迎来到河湾地，这里肥沃，富裕的家园。而我是高庭公爵、南境守护者、边疆守护者、河湾至高统领，梅斯·提利尔。我希望你在河湾地有个愉快的旅程。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_MACE_TYRELL_ANY" Language="zh_Hans_CN">
-			<Text>Please do take a visit to our nearest city. Pick your favored fruit from our orchid and choos your favorite from our winery.</Text>
+			<Text>请访问我们最近的城市。从我们的兰花中挑选您最喜欢的水果，或者去酿酒厂中挑选您最喜欢的酒。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_MACE_TYRELL_ANY" Language="zh_Hans_CN">
-			<Text>Sure, sure. Let me see what might be the possibility for our trade.</Text>
+			<Text>好的好的，让我们看我们有什么可以交易的。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_MACE_TYRELL_ANY" Language="zh_Hans_CN">
-			<Text>I think you might be interested in exchanging information. Maybe we can trade our food with your other goodies?</Text>
+			<Text>我想你应该会对交换信息感兴趣。或者用我们的食物和你的产品做个交易</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_GREETING_LEADER_MACE_TYRELL_ANY" Language="zh_Hans_CN">
-			<Text>How are you today?</Text>
+			<Text>你今天咋样？</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_MACE_TYRELL_ANY" Language="zh_Hans_CN">
-			<Text>Look at you... Cities full of weathly noble people. You have my congratulations!</Text>
+			<Text>看看着...充满富裕贵族的城市。这实在是太棒了！</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_TOO_FAT_TO_BATTLE_NOT_WARMONGER" Language="zh_Hans_CN">
-			<Text>Mace Tyrell is happy to see you at peace</Text>
+			<Text>梅斯·提利尔为你正处于和平之中感到高兴</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_TOO_FAT_TO_BATTLE_HIGH_POPULATION" Language="zh_Hans_CN">
-			<Text>Mace Tyrell is happy to see you with high population</Text>
+			<Text>梅斯·提利尔的城市人口众多感到高兴</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_MACE_TYRELL_ANY" Language="zh_Hans_CN">
-			<Text>You are a disgrace to the world! Depleting your population for war? Why?</Text>
+			<Text>你是对世界的耻辱！耗尽你的子民去参加战争？为什么？！</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_TOO_FAT_TO_BATTLE_WARMONGER" Language="zh_Hans_CN">
-			<Text>Mace Tyrell is unhappy to see you at war</Text>
+			<Text>梅斯·提利尔对你处于战争中感到不悦</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_TOO_FAT_TO_BATTLE_LOW_POPULATION" Language="zh_Hans_CN">
-			<Text>Mace Tyrell is unhappy to see you with low population</Text>
+			<Text>梅斯·提利尔对人口稀少的你感到不悦</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_MACE_TYRELL_ANY" Language="zh_Hans_CN">
-			<Text>Alliance makes us gReplace strong together. Will you agree?</Text>
+			<Text>联盟会让我们变得更加强大，你说呢？</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_MACE_TYRELL_ANY" Language="zh_Hans_CN">
-			<Text>Finally... I'm never good at war. Let's look at the terms now.</Text>
+			<Text>终于...我从来就不擅长战争，让我们看看条约吧。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_MACE_TYRELL_ANY" Language="zh_Hans_CN">
-			<Text>This is not over yet. I should at least win my money back.</Text>
+			<Text>这还远远没有结束！我终于可以夺回我失去的财富了！</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_MACE_TYRELL_ANY" Language="zh_Hans_CN">
-			<Text>Please, let me have a break. My people wish to go home, harvest crops and brew wines instead of shedding blood here.</Text>
+			<Text>拜托，让我们停一下吧。我的人民希望回家，收获庄稼和酿造葡萄酒，而不是在这里流血。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_MACE_TYRELL_ANY" Language="zh_Hans_CN">
-			<Text>Your people are welcome to have a tour to the Reach. Better with making some purchases of fruit and wine.</Text>
+			<Text>欢迎您的人民参观河湾地。我推荐他们购买水果和葡萄酒。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_MACE_TYRELL_ANY" Language="zh_Hans_CN">
-			<Text>I fear I see an Ironborn look in your eyes. I can't allow you enter our lands for now.</Text>
+			<Text>我在你的眼中看到了铁民的影子。我不能允许你通过我们的领土。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_MACE_TYRELL_ANY" Language="zh_Hans_CN">
-			<Text>Please allow my fleet to pass your territory. Merchant carracks, wine cogs, trading galleys, and whalers need protection. I believe you will understand.</Text>
+			<Text>请允许我的船队通过你的领土。商船，酒架，交易厨房和捕鲸者需要保护。我相信能理解。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_MACE_TYRELL_ANY" Language="zh_Hans_CN">
-			<Text>I hope your troops are there to clear out bandits. What do you say?</Text>
+			<Text>我希望你的部队只是在那里清除土匪。我说对了么？</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_MACE_TYRELL_ANY" Language="zh_Hans_CN">
-			<Text>Gold, yours. Food, yours. People, yours. Treat them well for me, please.</Text>
+			<Text>黄金，是你的。食物，是你的。人民，也是你的了。请给好好对待他们。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_MACE_TYRELL_ANY" Language="zh_Hans_CN">
-			<Text>This is robbery! I will not accept this insultation.</Text>
+			<Text>这简直是抢劫！我是不会接受这种交易的！</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_MACE_TYRELL_ANY" Language="zh_Hans_CN">
-			<Text>That's a deal my friend!</Text>
+			<Text>就这么说定了！我的朋友！</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

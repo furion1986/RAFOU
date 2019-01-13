@@ -14,7 +14,7 @@
 			<Text>于行政事务获得一名免费间谍(以及额外的间谍名额)。[NEWLINE]你的间谍执行攻击性任务时成功等级加1。</Text>
 		</Replace>
 		<Replace Tag="LOC_LEADER_DORAN_MARTELL_QUOTE" Language="zh_Hans_CN">
-			<Text>I am not blind, nor deaf. I know you all believe me weak, frightened, feeble. Your father knew me better. Oberyn was ever the viper. Deadly, dangerous, unpredictable. No man dared tread on him. I was the grass. Pleasant, complaisant, sweet-smelling, swaying with every breeze. Who fears to walk upon the grass? But it is the grass that hides the viper from his enemies and shelters him until he strikes.</Text>
+			<Text>我不瞎也不聋。我知道你们以为我软弱无能、担惊受怕、人见人欺，但你们的父亲了解我更深。奥柏伦无愧于毒蛇之名，危险致命、变化叵测，没人敢踩他；我则是那随风摇摆的青草，殷勤柔顺、和蔼芬芳。谁会惧怕青草呢？但正是青草掩蔽了毒蛇的行踪，青草是毒蛇的保护伞，掩护他扑杀敌人。</Text>
 		</Replace>
 		
 		<Replace Tag="LOC_DM_HOME_COMBAT_BONUS_DESCRIPTION" Language="zh_Hans_CN">
@@ -24,328 +24,328 @@
 			<Text>多恩运河</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_DORNISH_CANAL_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Dornish people developed such system to provide irrigation to desert lands.</Text>
+			<Text>多恩人民用以灌溉沙漠的发明</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_DORNISH_SPIDER_CANAL_NAME" Language="zh_Hans_CN">
-			<Text>Dornish Spider Canal</Text>
+			<Text>多恩运河</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_DORNISH_SPIDER_CANAL_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Dornish people developed such system to provide irrigation to desert lands.</Text>
+			<Text>多恩人民用以灌溉沙漠的发明</Text>
 		</Replace>
 
 		<Replace Tag="LOC_ABILITY_SAND_SNAKE_STRENGTH_NAME" Language="zh_Hans_CN">
-			<Text>Born Leader</Text>
+			<Text>天生领袖</Text>
 		</Replace>	
 		<Replace Tag="LOC_ABILITY_SAND_SNAKE_STRENGTH_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>+{1_Amount} Combat Strength from Sand Snake</Text>
+			<Text>来自沙蛇的 {1_Amount} 战斗力</Text>
 		</Replace>			
 		<Replace Tag="LOC_SAND_SNAKE_STRENGTH_MODIFIER_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>+{1_Amount} Combat Strength from Sand Snake</Text>
+			<Text>来自沙蛇的 {1_Amount} 战斗力</Text>
 		</Replace>	
 		<Replace Tag="LOC_ABILITY_SAND_SNAKE_SCIENCE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Gain [ICON_SCIENCE] Science on combat victory</Text>
+			<Text>获得相当于所战胜单位75%战斗力的 [ICON_SCIENCE] 科研</Text>
 		</Replace>
 		<Replace Tag="LOC_ABILITY_SAND_SNAKE_SCIENTIST_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Gain Points of [ICON_GreatScientist] Great Scientist on combat victory</Text>
+			<Text>消灭单位获得 5 [ICON_GREATSCIENTIST] 大科学家点数</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_CLASS_SAND_SNAKE_NAME" Language="zh_Hans_CN">
-			<Text>Sand Snake Unique Promotions</Text>
+			<Text>沙蛇独特晋升</Text>
 		</Replace>
 		
 		<Replace Tag="LOC_PROMOTION_WALK_IN_SHADOW_NAME" Language="zh_Hans_CN">
-			<Text>Walk in Shadow</Text>
+			<Text>暗影步</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_BORN_LEADER_NAME" Language="zh_Hans_CN">
-			<Text>Born Leader</Text>
+			<Text>天生领袖</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ASSASSIN_NAME" Language="zh_Hans_CN">
-			<Text>Assassin</Text>
+			<Text>刺客</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SCHOLAR_NAME" Language="zh_Hans_CN">
-			<Text>Scholar</Text>
+			<Text>学者</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SEDUCTION_NAME" Language="zh_Hans_CN">
-			<Text>Seduction</Text>
+			<Text>魅惑</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_WALK_IN_SHADOW_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Gains Stealth Ability.</Text>
+			<Text>获得隐形</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_BORN_LEADER_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Provides other units within 2 tiles +5 Combat Strength.</Text>
+			<Text>为2格范围内的单位 +5 战斗力</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_ASSASSIN_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Gains Hit and Run Ability</Text>
+			<Text>获得一击脱离能力</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SCHOLAR_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Combat victories provide Science equal to 50% of the Combat Strength of the defeated unit and +5 points of Great Scientist.</Text>
+			<Text>战斗胜利会获得相当于所战胜单位75%战斗力的 [ICON_SCIENCE] 科研以及+5 [ICON_GREATSCIENTIST] 大科学家点数</Text>
 		</Replace>
 		<Replace Tag="LOC_PROMOTION_SEDUCTION_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Combat victories have chance to capture defeated unit and enslave as Builder.</Text>
+			<Text>战斗胜利会捕获单位成为建造者</Text>
 		</Replace>		
 
 		<!--City Names-->
 		<Replace Tag="LOC_CIVILIZATION_DORNE_CITY_1" Language="zh_Hans_CN">
-			<Text>Sunspear</Text>
+			<Text>阳戟城</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_DORNE_CITY_2" Language="zh_Hans_CN">
-			<Text>Yronwood</Text>
+			<Text>伊伦伍德城</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_DORNE_CITY_3" Language="zh_Hans_CN">
-			<Text>The Tor</Text>
+			<Text>索罗斯</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_DORNE_CITY_4" Language="zh_Hans_CN">
-			<Text>Starfell</Text>
+			<Text>星坠城</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_DORNE_CITY_5" Language="zh_Hans_CN">
-			<Text>Blackmont</Text>
+			<Text>布莱蒙城</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_DORNE_CITY_6" Language="zh_Hans_CN">
-			<Text>Sandstone</Text>
+			<Text>沙石城</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_DORNE_CITY_7" Language="zh_Hans_CN">
-			<Text>Hellholt</Text>
+			<Text>狱门堡</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_DORNE_CITY_8" Language="zh_Hans_CN">
-			<Text>Saltshore</Text>
+			<Text>盐海岸</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_DORNE_CITY_9" Language="zh_Hans_CN">
-			<Text>Godsgrace</Text>
+			<Text>神恩城</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_DORNE_CITY_10" Language="zh_Hans_CN">
-			<Text>Lemonwood</Text>
+			<Text>柠檬林</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_DORNE_CITY_11" Language="zh_Hans_CN">
-			<Text>Wyl</Text>
+			<Text>韦尔城</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_DORNE_CITY_12" Language="zh_Hans_CN">
-			<Text>Kingsgrave</Text>
+			<Text>王冢城</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_DORNE_CITY_13" Language="zh_Hans_CN">
-			<Text>Tower of Joy</Text>
+			<Text>极乐塔</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_DORNE_CITY_14" Language="zh_Hans_CN">
-			<Text>Water Gardens</Text>
+			<Text>流水花园</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_DORNE_CITY_15" Language="zh_Hans_CN">
-			<Text>Ghost Hill</Text>
+			<Text>魂丘</Text>
 		</Replace>
 		<!--CITIZEN NAMES-->
 		<Replace Tag="LOC_CITIZEN_DORNE_MALE_1" Language="zh_Hans_CN">
-			<Text>Oberyn Martell</Text>
+			<Text>奥柏伦·马泰尔</Text>
 		</Replace>
 		<Replace Tag="LOC_CITIZEN_DORNE_FEMALE_1" Language="zh_Hans_CN">
-			<Text>Tyene Sand</Text>
+			<Text>特蕾妮·沙德</Text>
 		</Replace>
 		<Replace Tag="LOC_CITIZEN_DORNE_FEMALE_2" Language="zh_Hans_CN">
-			<Text>Sarella Sand</Text>
+			<Text>萨蕾拉·沙德</Text>
 		</Replace>
 		<Replace Tag="LOC_CITIZEN_DORNE_FEMALE_3" Language="zh_Hans_CN">
-			<Text>Elia Sand</Text>
+			<Text>伊莉亚·沙德</Text>
 		</Replace>
 		<Replace Tag="LOC_CITIZEN_DORNE_FEMALE_4" Language="zh_Hans_CN">
-			<Text>Obara Sand</Text>
+			<Text>奧芭婭·沙德</Text>
 		</Replace>
 		<Replace Tag="LOC_CITIZEN_DORNE_FEMALE_5" Language="zh_Hans_CN">
-			<Text>Nymeria Sand</Text>
+			<Text>娜梅莉亚·沙德</Text>
 		</Replace>
 		<Replace Tag="LOC_CITIZEN_DORNE_FEMALE_6" Language="zh_Hans_CN">
-			<Text>Dorea Sand</Text>
+			<Text>多娜·沙德</Text>
 		</Replace>
 		<Replace Tag="LOC_CITIZEN_DORNE_FEMALE_7" Language="zh_Hans_CN">
-			<Text>Loreza Sand</Text>
+			<Text>萝芮·沙德</Text>
 		</Replace>
 		<Replace Tag="LOC_CITIZEN_DORNE_FEMALE_8" Language="zh_Hans_CN">
-			<Text>Obella</Text>
+			<Text>奥贝娜</Text>
 		</Replace>
 		<!--Agendas-->
 
 		<!--PEDIA-->
 		<!--CIV-->
 		<Replace Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_WATER_GARDEN_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
-			<Text>The Water Gardens were raised by Maron Martell, Prince of Dorne, as a gift for his new bride, Princess Daenerys Targaryen, to mark the union of Dorne with the rest of the Seven Kingdoms. Daenerys began the tradition of hosting children at the Water Gardens, initially the kin of lords but eventually also smallfolk. The young Arianne Martell often played in the pools and fountains of the Water Gardens with Tyene Sand, Garin, Andrey Dalt, and Sylva Santagar. Sometimes they were joined by Nymeria Sand and Sarella Sand.</Text>
+			<Text>马隆·马泰尔亲王筑起这座花园，作为礼物送给他的坦格利安新娘丹妮莉丝，标志着多恩与铁王座的结合。[2]阳台俯视着数量众多的水池与喷泉，血橙树投下阴影，淡粉色的大理石地板铺满了花园与庭院，经过一排雕纹的梁柱，穿越优雅的拱门。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_WATER_GARDEN_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
-			<Text>The Gardens are located on a beach next to the Summer Sea, three leagues to the west of Sunspear on a coastal road. Pale pink marble paves the gardens and courtyard. Terraces overlooking the numerous pools and fountains of the Water Gardens, shaded by blood orange trees, can be reached via a fluted pillar gallery leading to a triple archway.</Text>
+			<Text>它是一座由喷泉和花园构成的宫殿。它位于阳戟城以西三里格的海滩边，一条滨海道路将它们分开。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_WATER_GARDEN_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
-			<Text>The Water Gardens are pleasant in autumn: hot days, cool nights, the salt breeze blowing in from the sea, and fountains and pools to admire and play in. Children from all stations and areas of Dorne are sent to the Water Gardens to foster, where they play together at the beach, pools and fountains, and in the water.</Text>
+			<Text>那里的秋天十分爽朗。白天炎热，夜晚清凉，海上吹来阵阵咸涩的风，还有喷泉和水池。[2]那里也有很多儿童，出身高贵的男孩女孩。贵族家庭与来自多恩各地、各阶层的家庭都会将孩子送来流水花园抚养。在这里，孩子们可以一起在沙滩、水池、喷泉里玩耍。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DORNE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
-			<Text>Dorne is the large peninsula which makes up the southernmost part of Westeros, and is one of the constituent regions of the Seven Kingdoms. The lords of the ruling House Nymeros Martell style themselves "Prince" and "Princess" in the Rhoynish fashion.</Text>
+			<Text>多恩是維斯特洛最南端的巨大半島，也是七大王國之一。它的首都是陽戟城。多恩的統治者馬泰爾家族依然按照洛伊拿人的方式自稱「親王」和「公主」。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DORNE_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
-			<Text>The Martells rule from their capital, Sunspear, outside of which sprawls the shadow city. Notable houses include Allyrion, Blackmont, Dayne, Fowler, Jordayne, Qorgyle, Santagar, Toland, Uller, Vaith, Wyl, and Yronwood.</Text>
+			<Text></Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DORNE_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
-			<Text>Dorne is the hottest region of Westeros. The region is rocky, mountainous, arid and dry, and features the only desert on the continent. Dorne is bordered by the Sea of Dorne to the north, the islands known as the Stepstones to the east, and the Summer Sea to the south. Stretched between them is the mountain range known as the Red Mountains, which separates Dorne from the stormlands to the north and the Reach to the northwest and west. There are two major passes, the Boneway and the Prince's Pass, which go through the Red Mountains to the Dornish Marches of the stormlands. The Prince's Pass leads to Nightsong, while the Boneway leads to Summerhall. Sunspear and the Water Gardens, both controlled by the ruling House Martell, are located in southeastern Dorne.</Text>
+			<Text>多恩是維斯特洛最炎熱的地區，它多石、多山、乾旱而貧瘠，並且擁有大陸上唯一的沙漠。多恩的邊界北至多恩海，東至石階列島，南至夏日之海。延伸於它們之間的赤紅山脈是將多恩和七大王國的其他地區分隔開來的陸上屏障。赤紅山脈中只有兩條主要通道用於連接多恩和大陸的其餘部分：石路隘口和親王隘口。親王隘口通到河灣地，而骨路的出口位於盛夏廳附近。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DORNE_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
-			<Text>Most of Dorne south of the Red Mountains is an arid wasteland. Eastern Dorne largely consists of dry, stony soil ill-suited for agriculture, while western Dorne contains deserts of red and white sand. The lords of House Vaith, for instance, are known as the Lords of the Red Dunes,[5] while nobles of old who settled desert oases called themselves the Lords of the Wells.[4] Sand dogs live in the desert.</Text>
+			<Text></Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DORNE_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
-			<Text>Dorne's rivers provide some fertile lands and even during a long summer there is enough rain and other supplies of water to keep Dorne habitable. Inland water is almost as valuable as gold, and wells are jealously guarded. The major Dornish river is the Greenblood in southeastern Dorne, which is formed by the Vaith and the Scourge near Godsgrace. The trading port called Planky Town is located at the mouth of the Greenblood along the Summer Sea. The Brimstone in southern Dorne flows past the Hellholt to the Summer Sea. The Torentine has its source in the Red Mountains of western Dorne and ends at Starfall along the Summer Sea. The Wyl flows across the Boneway in northern Dorne to the Sea of Dorne. There is another river in northern Dorne which flows near Yronwood to the Sea of Dorne, but its name is as yet unknown. The southern coast is some four hundred leagues long. It is ridden with cliffs, whirlpools, and hidden shoals, with few safe landings.</Text>
+			<Text>多恩是有河流流經的區域土地肥沃，而且即使在長夏也有足夠的雨水和其他水源供給，保證多恩仍適合人類居住。[1]在多恩，陸地水和金子一樣值錢，水井也被嚴密看守着。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DORNE_CHAPTER_HISTORY_PARA_6" Language="zh_Hans_CN">
-			<Text>Dorne is the least populous of the Seven Kingdoms. Dornishmen differ both culturally and ethnically from other Westerosi due to the historical mass immigration of Rhoynish people and their relative isolation. Dornishmen have adopted many Rhoynish customs on top of their First Men and Andal origins. Dornishmen have a reputation for hot-bloodedness and sexual licentiousness, and are still viewed with some mistrust and rivalry by the people of the neighboring Dornish Marches and the Reach. Dornish bastards of noble origin are given the surname Sand. Dornish paint their silks instead of sewing coats of arms. Dorne contains septs for the Faith of the Seven and red temples for followers of R'hllor.</Text>
+			<Text>多恩是七大王國中人口最少的。由於歷史上洛伊拿人的大遷移，加上相對隔絕，多恩人與其他維斯特洛人在文化和種族上都有明顯不同。多恩人在他們原有的安達爾人基礎上，接受了許多洛伊拿人的習俗。多恩人以熱血、性開放著稱，而且一貫受到多恩邊疆地人們的猜疑和敵視。多恩的私生子被冠以「沙德」的姓氏。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DORNE_CHAPTER_HISTORY_PARA_7" Language="zh_Hans_CN">
-			<Text>Dorne provides many exotic products which are uncommon in the rest of the Seven Kingdoms. These products include olives, lemons, pomegranates, plums, cloth, spices, and blood oranges. Lemon orchards, and presumably other plants as well, are watered by a spider's web of canals. Because of the hot climate, in the deserts of Dorne water is most valueble, and every well is zealously guarded. Famous is also the use of spicy dragon peppers. The Dornish produce their own wines, often called "Dornish reds". These wines are generally sour, though they occasionally can be more rich of taste. Strongwines from Dorne are as dark as blood, with a sweet taste.</Text>
+			<Text>多恩出產許多七大王國其他地區少有的物產，尤其是柑橘類水果和多恩特有的酒。檸檬、橄欖和石榴也主要產自多恩。這些作物很多需要運河引導溪水和河水來灌溉。多恩也出產著名的沙馬，這是一種纖細但迅捷的馬，連着跑上兩天也不會累，僅產於多恩。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DORNE_CHAPTER_HISTORY_PARA_8" Language="zh_Hans_CN">
-			<Text>Fabled are the sand steeds bred by the Dornish. These horses are slim and swift, with elegant heads, long necks, and flowing manes. They are considered to be the most beautiful horses in the Seven Kingdoms. Though they are smaller than regular warhorses and lightboned, unable to bear the weight of armor, they can run for near two days and a night before tiring, needing only a few drinks of water over the course of a day and a night. Dornish yew is used to make bows.</Text>
+			<Text>來自自由貿易城邦（如瓦蘭提斯）的船在位於綠血河河口的板條鎮的碼頭停靠，之後貨物就可以轉為陸運。貿易車隊先在陽戟城補充供給，然後穿越廣闊的沙漠向親王隘口進發。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_DORNE_CHAPTER_HISTORY_PARA_9" Language="zh_Hans_CN">
-			<Text>In Sunspear's shadow city, numerous bazaars can be found. Before crossing the deep sands of the Dornish desert for the Prince's Pass, caravans take on supplies at Sunspear. Ships from across the narrow sea find the Planky Town a convenient harbor and come there to trade. As the port is located at the mouth of the Greenblood, often the orphans of the Greenblood come to trade, spreading the goods up and down the river.</Text>
+			<Text></Text>
 		</Replace>
 
 		<!--LEADER-->
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_DORAN_MARTELL_TITLE" Language="zh_Hans_CN">
-			<Text>Doran Martell</Text>
+			<Text>道朗·马泰尔</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_DORAN_MARTELL_SUBTITLE" Language="zh_Hans_CN">
-			<Text>Prince of Dorne, Lord of Sunspear.</Text>
+			<Text>多恩亲王，阳戟城领主</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_DORAN_MARTELL_QUOTE" Language="zh_Hans_CN">
-			<Text>"Words are like arrows, Arianne. Once loosed, you cannot call them back." - Doran Martell</Text>
+			<Text>"言出如箭, 亚莲恩。一旦说出，就不可收回。" - 道朗·马泰尔</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_DORAN_MARTELL_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
-			<Text>In his early fifties, Doran is a cautious, pensive, and subtle man. He is prone to think long on the matters before him, weighing every word and every action. He has a bad case of gout which has recently left him unable to walk, instead having to rely on his wheeled chair, or a palanquin, to move around. He appears to be much older than he is in truth. His body is soft and shapeless, and the gout has swollen and reddened the joints of his knees, toes, and hands. He covers his legs and feet with a blanket, blocking the sight of his gout.[6][7] Due to his gout, he only travels in a palanquin, and is rarely seen in public, as he does not want to appear weak in the eyes of his enemies.</Text>
+			<Text>道朗亲王是一个谨慎、沉静的人，从不将情绪外露。他痛风很严重，行走困难。他试图在五王之战保持中立的姿态，但是已经显露出为其被杀害的妹妹伊莉亚·马泰尔复仇的渴望。他很少在公共场合露面，由于痛风的原因，他不想因此在他的敌人面前显得软弱。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_DORAN_MARTELL_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
-			<Text>While his bannermen might consider him weak, Doran has been focused for years on getting revenge for the murder of his sister, Elia, and her two young children during the sack of King's Landing during Robert's Rebellion in 283 AC. Because of the early deaths of his siblings Olyvar and Mors, the multiple miscarriages his mother suffered, and the difference in age with his surviving siblings, Elia and Oberyn, Doran was raised alone. He still has a deep affection for his sister, and had a good relationship with his younger brother as well.</Text>
+			<Text></Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_DORAN_MARTELL_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
-			<Text>Doran was the first born child of his parents, and thus heir to his mother, the Princess of Dorne. For years, he was an only child, as his mother had several miscarriages. While he would have four siblings, Mors and Olyvar, both died in the cradle. Doran spent several years of his childhood at the Water Gardens, and by the age of nine, he was a squire to Lord Gargalen at Salt Shore. While there, his mother gave birth to his sister, Elia. As Elia had been born one month premature, Doran was convinced that his sister too would die, as their brothers had done before, but she survived. A year later, Doran's brother Oberyn was born.</Text>
+			<Text>道朗出生于248AC。他的母亲以自己的方式统治多恩，他是她的长子，也是她的继承人。由于奥利法和莫尔斯的早夭，以及和其他兄弟姐妹的年龄差距，道朗独自长大。这可能促成了他不愿意表达内心的倾向。他曾在盐海岸作侍从。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_DORAN_MARTELL_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
-			<Text>As a young man, Doran took a tour through the Free Cities. He visited Volantis and next went to Norvos, where he met his future wife, Lady Mellario. They fell in love and Mellario returned to Dorne with Doran, where they were betrothed and would soon after marry. Areo Hotah escorted Mellario and entered the service of House Martell. In 273 AC, when his mother, her consort, and Doran's two younger siblings traveled through the south of Seven Kingdoms on a quest to find suitable matches for Elia and Oberyn, Doran stayed behind as castellan of Sunspear, with Mellario. Although Mellario was high born enough to become his wife, most marriages between nobles in Westeros are political. A love match is very uncommon. In 276 AC, Doran and Mellario's first child, Arianne, was born. Around 279 AC, Doran inherited the rule of Dorne.</Text>
+			<Text>他在自由贸易城邦旅行的时候遇见了他的妻子诺佛斯的梅拉莉欧。他们相爱并结婚了[4]。尽管梅拉莉欧的出身足够成为他的妻子，但是在维斯特洛大部分贵族的婚姻是政治联姻，为爱结合是很少见的。这对夫妻有三个孩子。虽然他们因真心相爱而结婚，但是他们的婚姻生活并不愉快。梅拉莉欧没法适应多恩的气候。在崔斯丹出生后不久，昆廷被送走，作为安德斯·伊伦伍德的守卫和侍从来培养。这样做的目的是为了在埃德加·伊伦伍德因与奥柏伦的决斗受伤致死后，与伊伦伍德保持和平。梅拉莉欧不同意这种做法，回到了诺佛斯。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_DORAN_MARTELL_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
-			<Text>An unknown amount of time after his siblings had traveled to find suitable marriage candidates, Doran's brother Oberyn fought in a duel with Lord Edgar Yronwood. Due to Oberyn's high birth and young age, the two men had agreed to duel until first blood. Both men were injured, but when Oberyn's cuts healed, and Lord Edgar's festered, eventually resulting in his death, it was whispered Oberyn had fought with a poisoned blade. Doran acted swiftly, sending Oberyn into temporary exile.</Text>
+			<Text>道朗五十几岁被痛风严重困扰，几乎不能走路，通常只能困于轮椅之中。他将大量时间花费在流水花园——马泰尔家的避暑花园中，看着孩子们在这里玩耍。他避免见到平民，只会见亲信的大臣和顾问，避免自己的虚弱被敌人察觉。道朗的母亲在劳勃叛乱期间或者结束不久后去世了，道朗接任了她的位子。马泰尔家族与坦格利安家族结盟，并在战争期间一直支持坦格利安家族。因为伊莉亚被杀害，奥柏伦希望道朗为韦赛里斯征集军队，他是君临沦陷之后坦格利安家族幸存的继承人，但是道朗另有打算。在和琼恩·艾林谈判后，事情暂时被搁置，但是人们怀疑包括道朗在内的马泰尔家人仍对兰尼斯特家充满恨意。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_DORAN_MARTELL_CHAPTER_HISTORY_PARA_6" Language="zh_Hans_CN">
-			<Text>Doran's sister Elia Martell was betrothed to Crown Prince Rhaegar Targaryen in early 279 AC, and wed him a year later. She had two young children by Rhaegar, Rhaenys and Aegon. When Rhaegar disappeared with Lyanna Stark in 282 AC, not long after Aegon's birth, it started a chain of events leading to Robert's Rebellion, in which the north, and several houses from the stormlands and the Vale of Arryn (later joined by several houses from the riverlands) fought against the Iron Throne and House Targaryen. Doran was furious about the way Elia had been treated by Rhaegar, and as a consequence was slow to lend any aid to the Targaryens. After Rhaegar returned from the south to King's Landing, Doran agreed to send ten thousand Dornishmen to fight in the loyalist army, under the command of his uncle, Prince Lewyn Martell of the Kingsguard, understanding that Elia, as the wife to the crown prince, would one day become queen, and that her son Aegon would one day be king.</Text>
+			<Text>道朗和他的弟弟奥柏伦暗中策划多年，来终结劳勃·拜拉席恩的统治，并摧毁兰尼斯特家族。奥柏伦曾去往布拉佛斯，韦赛里斯·坦格利安和丹妮莉丝·坦格利安在那里被 威廉·戴瑞爵士收留，他们在布拉佛斯海王的见证下立下密约，承诺韦赛里斯在成年后会娶亚莲恩·马泰尔为妻[4][7]，以换取多恩的支持，起兵夺回铁王座。与这个阴谋相关的关键人物还有瓦里斯，伊利里欧·摩帕提斯，琼恩·克林顿和黄金团的司令米斯·托因爵士。他们最初的计划是，在卓戈卡奥娶了丹妮莉丝并进军维斯特洛之后，黄金团和多恩也加入其中，三支军队就此联手。然而这要等到瓦里斯用计将铁王座的争夺陷入混乱之后再进行，一旦他泄露了劳勃·拜拉席恩的继承人们并不是他的亲生儿女这个秘密，必将引起众人与强大的兰尼斯特家族的斗争，等到两败俱伤时，卓戈卡奥，多恩和黄金团的联军将趁此袭击胜利一方的残存势力然后夺取铁王座。但是，这个计划因韦赛里斯·坦格利安和卓戈卡奥的死而没有实现。</Text>
 		</Replace>		
 
 		<!--UNITS-->
 		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_SAND_SNAKE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
-			<Text>The Sand Snakes are the bastard daughters of Prince Oberyn Martell. The collective name references the Dornish bastard surname, Sand, and their father's nickname, the Red Viper. Oberyn's eight daughters have been born to five different mothers. While they differ in appearance, they are said to all have their father's eyes in shape if not in color.</Text>
+			<Text>沙蛇是红毒蛇奥柏伦·马泰尔和众多女人的私生女儿的统称。他女儿中的一些人是高贵的女人血统所生，同时亦有身份卑微的妓女所生。不管她们母亲的出生血统和外貌有何差异，她们都被人称作是有父亲那样眼睛。</Text>
 		</Replace>
 
 		<!--CIVINFO-->
 		<Replace Tag="LOC_CIVINFO_DORNE_LOCATION" Language="zh_Hans_CN">
-			<Text>The Riverlands</Text>
+			<Text>河间地</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVINFO_DORNE_SIZE" Language="zh_Hans_CN">
-			<Text>Dorne is the large peninsula which makes up the southernmost part of Westeros, and is one of the constituent regions of the Seven Kingdoms.</Text>
+			<Text>多恩是維斯特洛最南端的巨大半島，也是七大王國之一。</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVINFO_DORNE_POPULATION" Language="zh_Hans_CN">
-			<Text>Dorne is the least populous of the Seven Kingdoms. Dornishmen differ both culturally and ethnically from other Westerosi due to the historical mass immigration of Rhoynish people and their relative isolation. Dornishmen have adopted many Rhoynish customs on top of their First Men and Andal origins. Dornishmen have a reputation for hot-bloodedness and sexual licentiousness, and are still viewed with some mistrust and rivalry by the people of the neighboring Dornish Marches and the Reach. Dornish bastards of noble origin are given the surname Sand. Dornish paint their silks instead of sewing coats of arms.</Text>
+			<Text>多恩是七大王國中人口最少的[2]。由於歷史上洛伊拿人的大遷移，加上相對隔絕，多恩人與其他維斯特洛人在文化和種族上都有明顯不同。多恩人在他們原有的安達爾人基礎上，接受了許多洛伊拿人的習俗。多恩人以熱血、性開放著稱，而且一貫受到多恩邊疆地人們的猜疑和敵視。</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVINFO_DORNE_CAPITAL" Language="zh_Hans_CN">
-			<Text>Sunspear</Text>
+			<Text>阳戟城</Text>
 		</Replace>
 
 		<!--DIPLO-->
 
 		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_DORAN_MARTELL_ANY" Language="zh_Hans_CN">
-			<Text>Dornish people are fierce but friendly. We like you.</Text>
+			<Text>多恩人民热血友善，我们欢迎您。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_DORAN_MARTELL_ANY" Language="zh_Hans_CN">
-			<Text>Be honest, then we shall accept you.</Text>
+			<Text>如果您能真诚点的话，我们也许还有的谈。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_DORAN_MARTELL_ANY" Language="zh_Hans_CN">
-			<Text>You must have heard The Dornishman's Wife. Oh I don't mean we practice that, but you could have Dornish wife instead.</Text>
+			<Text>您一定听说过我们多恩人民的妻子是多么的优秀。啊，我不是在暗示什么，我是说也许您会希望借此机会结识几位优秀的多恩女性。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_DORAN_MARTELL_ANY" Language="zh_Hans_CN">
-			<Text>Sunspear is your true friend now.</Text>
+			<Text>这一刻，阳戟城已是您忠诚的伙伴。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_DORAN_MARTELL_ANY" Language="zh_Hans_CN">
-			<Text>Don't be silly. Chance will not come back.</Text>
+			<Text>您在犹豫什么？错失的机会是不会再回来的。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_DORAN_MARTELL_ANY" Language="zh_Hans_CN">
-			<Text>March as you wish. Let's see how long will your troops survive in the baking deserts.</Text>
+			<Text>如你所愿。让我们看看你的不对在炙烤的沙漠中能存活多久。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_DORAN_MARTELL_ANY" Language="zh_Hans_CN">
-			<Text>You might not have noticed, but "check"...</Text>
+			<Text>虽然还没正式通知您，不过猜猜看您会发现什么。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_DORAN_MARTELL_ANY" Language="zh_Hans_CN">
-			<Text>Trader is good. Wine for wine, lust for lust. I guarantee your delegation will enjoy the time here.</Text>
+			<Text>多么的美好的提议。美酒，美人。我保证贵国代表团会舍不得离开的。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_DORAN_MARTELL_ANY" Language="zh_Hans_CN">
-			<Text>Cyvasse, drinking, hot food, or in bed. At least your delegation should be good at one if he wishes to live in Dorne.</Text>
+			<Text>席瓦斯，饮酒，美食，亦或者是床上功夫，如果你对代表团想前往多恩的话，那么他至少得擅长其中一个。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_DORAN_MARTELL_ANY" Language="zh_Hans_CN">
-			<Text>I've sent a trade convoy to you with our famous fried snakes. Real vipers they were. The more poisonous, the tastier.</Text>
+			<Text>我向您送去了一堆装满着炸蛇派的车队。那可是真正的毒蛇做出来的，蛇越毒吃起来越棒。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_DORAN_MARTELL_ANY" Language="zh_Hans_CN">
-			<Text>Now the world knows what you are...</Text>
+			<Text>世界会知道你的所为的</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_DORAN_MARTELL_ANY" Language="zh_Hans_CN">
-			<Text>Are your people happy? Why wouldn't you keep them happy?</Text>
+			<Text>您的人民过得开心么？那么您为何还如此碌碌无为呢？</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_AGENDA_PRINCE_OF_DORNE_LOW_HAPPINESS" Language="zh_Hans_CN">
-			<Text>(You are not keeping your people happy.)</Text>
+			<Text>(您的人民很开心)</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_DORAN_MARTELL_ANY" Language="zh_Hans_CN">
-			<Text>Welcome to Dorne. I am Doran Martell, Prince of Dorne, Lord of Sunspear. Dorne is a beautiful place with vast desert but fertile oases. People sing, dance, and drink for their lives here. Come, and be happy.</Text>
+			<Text>欢迎来到多恩。我是道朗·马泰尔，多恩的亲王，阳戟城领主。多恩是一个美丽的地方，拥有广阔的沙漠和肥沃的绿洲。 人们在这里唱歌，跳舞，喝酒。 来吧，快乐吧。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_DORAN_MARTELL_ANY" Language="zh_Hans_CN">
-			<Text>Come to my city, try some spicy desert food and sour wine. Enjoy the breeze at night on rooftops.</Text>
+			<Text>欢迎来到我的城市，来尝尝我们沙漠辛辣的事物以及可口的美酒。还有那屋顶上那沁人的微风。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_DORAN_MARTELL_ANY" Language="zh_Hans_CN">
-			<Text>I'm interested in foreign streets. The way people make living, the language they speak, and the food they serve. Intriguing...</Text>
+			<Text>我对外国街道很感兴趣。人们生活的方式，所说的语言，以及他们的食物。如此的耐人寻味</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_DORAN_MARTELL_ANY" Language="zh_Hans_CN">
-			<Text>Let's exchange some information about our capitals, while we are playing a game of cyvasse.</Text>
+			<Text>来盘昆特(划掉)席瓦斯吧，顺便我们可以交换一下关于咱们首都的信息。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_GREETING_LEADER_DORAN_MARTELL_ANY" Language="zh_Hans_CN">
-			<Text>Another hot day, isn't it?</Text>
+			<Text>哇哦，又一个炎炎夏日。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_DORAN_MARTELL_ANY" Language="zh_Hans_CN">
-			<Text>Happy people are easier to rule. You understand it.</Text>
+			<Text>使人民快乐才能更好的统治他们，你懂的。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_PRINCE_OF_DORNE_DESCRIPTION_HIGH_HAPPINESS" Language="zh_Hans_CN">
-			<Text>Doran Martell likes you keep your people happy.</Text>
+			<Text>道朗·马泰尔对您让人民保持快乐的行为表示敬意。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_DORAN_MARTELL_ANY" Language="zh_Hans_CN">
 			<Text>Complaint, riot, overturn. You should see the result of angry citizens. Don't you care?</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_PRINCE_OF_DORNE_DESCRIPTION_LOW_HAPPINESS" Language="zh_Hans_CN">
-			<Text>Doran Martell dislikes your unstable citizens.</Text>
+			<Text>道朗·马泰尔不喜欢您的市民惶惶不安的表情。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_DORAN_MARTELL_ANY" Language="zh_Hans_CN">
-			<Text>We find common interests, we make alliances. Simple logic.</Text>
+			<Text>我们有共同的利益，所以我们建立了联盟。逻辑清晰，简单明了。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_DORAN_MARTELL_ANY" Language="zh_Hans_CN">
-			<Text>Now you know. There are only some more piles of bones in my desert. Nothing more.</Text>
+			<Text>现在你知道了。我的沙漠中所有的仅仅是一堆骨头而已。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_DORAN_MARTELL_ANY" Language="zh_Hans_CN">
-			<Text>I'm just curious how many of your people will still be alive coming out of the desert. Leave the fun to me.</Text>
+			<Text>我很好奇你们有多少人能活着从沙漠里出来。让我来猜猜。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_DORAN_MARTELL_ANY" Language="zh_Hans_CN">
-			<Text>There're enough "bones" in our Boneway. And we can't make broth with those. Let's stop producing more.</Text>
+			<Text>骨路之上的亡骸已经够多了，让我们停止产生更多的无用之物吧。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_DORAN_MARTELL_ANY" Language="zh_Hans_CN">
-			<Text>Suggestions. Horses can do, but camels are better in desert. Especially for long distance travel.</Text>
+			<Text>这只是一个小小的建议。您当然可以骑马，但骆驼在沙漠中的表现更好。特别适合长途旅行。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_DORAN_MARTELL_ANY" Language="zh_Hans_CN">
-			<Text>You have enough water? Any idea what sandstorm is? You are not prepared.</Text>
+			<Text>你准备了足够的水吗？不知道什么是沙尘暴？不，你还没有准备好通过这里。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_DORAN_MARTELL_ANY" Language="zh_Hans_CN">
-			<Text>We wish to pass, please.</Text>
+			<Text>我们想要借道此处，还请通融一下。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_DORAN_MARTELL_ANY" Language="zh_Hans_CN">
-			<Text>Tell your people to go back. Staying there, I will only see mummies next morning.</Text>
+			<Text>告诉你的人回去。留在那里，他们只会变成木乃伊。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_DORAN_MARTELL_ANY" Language="zh_Hans_CN">
-			<Text>Just promise me one thing, keep our culture, and keep my people happy...</Text>
+			<Text>请最后答应我一件事，保留我们多恩的文化，让人民过得幸福。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_DORAN_MARTELL_ANY" Language="zh_Hans_CN">
-			<Text>There should be other probabilities.</Text>
+			<Text>这场交易应还有其他的可能性。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_DORAN_MARTELL_ANY" Language="zh_Hans_CN">
-			<Text>Just as I expected.</Text>
+			<Text>我所期待的一样，这是个好买卖。</Text>
 		</Replace>
 		
 	</LocalizedText>
