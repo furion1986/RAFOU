@@ -785,6 +785,10 @@
 		</Row>
 		<Row>
 			<TraitType>TRAIT_CIVILIZATION_FAMILY_DUTY_HONOR</TraitType>
+			<ModifierId>TRAIT_HT_GOVERNMENT_RIVER_PRODUCTION</ModifierId>
+		</Row>		
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_FAMILY_DUTY_HONOR</TraitType>
 			<ModifierId>TRAIT_HT_SPECIALTY_RIVER_HOUSING</ModifierId>
 		</Row>
 		<Row>
@@ -1177,6 +1181,11 @@
 			<ModifierId>TRAIT_HT_AERODROME_RIVER_PRODUCTION</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE</ModifierType>
 			<SubjectRequirementSetId>HT_PLOT_IS_RIVER_AERODOME_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HT_GOVERNMENT_RIVER_PRODUCTION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE</ModifierType>
+			<SubjectRequirementSetId>HT_PLOT_IS_RIVER_GOVERNMENT_REQUIREMENTS</SubjectRequirementSetId>
 		</Row>		
 		<Row>
 			<ModifierId>TRAIT_HT_SPECIALTY_RIVER_HOUSING</ModifierId>
@@ -2461,7 +2470,17 @@
 			<ModifierId>TRAIT_HT_AERODROME_RIVER_PRODUCTION</ModifierId>
 			<Name>YieldType</Name>
 			<Value>YIELD_PRODUCTION</Value>
-		</Row>			
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HT_GOVERNMENT_RIVER_PRODUCTION</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_HT_GOVERNMENT_RIVER_PRODUCTION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_PRODUCTION</Value>
+		</Row>		
 		<Row>
 			<ModifierId>TRAIT_HT_SPECIALTY_RIVER_HOUSING</ModifierId>
 			<Name>Amount</Name>
@@ -2851,8 +2870,8 @@
 		<Row CivilizationType="CIVILIZATION_IRONBORN" Tier="2" ResourceType="RESOURCE_WHALES"/>
 		<Row CivilizationType="CIVILIZATION_IRONBORN" Tier="3" ResourceType="RESOURCE_PEARLS"/>
 		<!-- Eddard Stark leads the North -->
-		<Row CivilizationType="CIVILIZATION_THE_NORTH" Tier="4" ResourceType="RESOURCE_DEER"/>
-		<Row CivilizationType="CIVILIZATION_THE_NORTH" Tier="4" ResourceType="RESOURCE_FURS"/>
+		<!--Row CivilizationType="CIVILIZATION_THE_NORTH" Tier="4" ResourceType="RESOURCE_DEER"/-->
+		<!--Row CivilizationType="CIVILIZATION_THE_NORTH" Tier="4" ResourceType="RESOURCE_FURS"/-->
 		<!-- Tywin Lannister leads the Westerlands -->
 		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" Tier="2" ResourceType="RESOURCE_IRON"/>
 		<Row CivilizationType="CIVILIZATION_THE_WESTERLANDS" Tier="2" ResourceType="RESOURCE_SILVER"/>
@@ -2875,7 +2894,7 @@
 	</StartBiasResources>
 	<StartBiasFeatures>
 		<!-- Eddard Stark leads the North -->
-		<Row CivilizationType="CIVILIZATION_THE_NORTH" FeatureType="FEATURE_FOREST" Tier="4"/>
+		<!--Row CivilizationType="CIVILIZATION_THE_NORTH" FeatureType="FEATURE_FOREST" Tier="4"/-->
 		<Row CivilizationType="CIVILIZATION_DORNE" FeatureType="FEATURE_FLOODPLAINS" Tier="3"/>
 		<Row CivilizationType="CIVILIZATION_THE_CROWNLANDS" FeatureType="FEATURE_FOREST" Tier="3"/>
 	</StartBiasFeatures>
@@ -2992,7 +3011,11 @@
 		<Row>
 			<RequirementSetId>HT_PLOT_IS_RIVER_AERODOME_REQUIREMENTS</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
-		</Row>	
+		</Row>
+		<Row>
+			<RequirementSetId>HT_PLOT_IS_RIVER_GOVERNMENT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>			
 		<Row>
 			<RequirementSetId>HT_PLOT_IS_RIVER_REQUIREMENTS</RequirementSetId>
 			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
@@ -3154,7 +3177,15 @@
 		<Row>
 			<RequirementSetId>HT_PLOT_IS_RIVER_AERODOME_REQUIREMENTS</RequirementSetId>
 			<RequirementId>HT_REQUIRES_DISTRICT_IS_AERODROME</RequirementId>
-		</Row>			
+		</Row>
+		<Row>
+			<RequirementSetId>HT_PLOT_IS_RIVER_GOVERNMENT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_RIVER</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>HT_PLOT_IS_RIVER_GOVERNMENT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>HT_REQUIRES_DISTRICT_IS_GOVERNMENT</RequirementId>
+		</Row>		
 		<Row>
 			<RequirementSetId>HT_PLOT_IS_RIVER_REQUIREMENTS</RequirementSetId>
 			<RequirementId>REQUIRES_PLOT_ADJACENT_TO_RIVER</RequirementId>
@@ -3221,6 +3252,10 @@
 			<RequirementId>HT_REQUIRES_DISTRICT_IS_AERODROME</RequirementId>
 			<RequirementType>REQUIREMENT_DISTRICT_TYPE_MATCHES</RequirementType>
 		</Row>
+		<Row>
+			<RequirementId>HT_REQUIRES_DISTRICT_IS_GOVERNMENT</RequirementId>
+			<RequirementType>REQUIREMENT_DISTRICT_TYPE_MATCHES</RequirementType>
+		</Row>		
 		<!-- DORNE -->
 		<Row>
             <RequirementId>DM_UNIT_IN_OWNER_TERRITORY_REQUIREMENT</RequirementId>
@@ -3287,6 +3322,11 @@
 			<RequirementId>HT_REQUIRES_DISTRICT_IS_AERODROME</RequirementId>
 			<Name>DistrictType</Name>
 			<Value>DISTRICT_AERODROME</Value>
+		</Row>
+		<Row>
+			<RequirementId>HT_REQUIRES_DISTRICT_IS_GOVERNMENT</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_GOVERNMENT</Value>
 		</Row>
 	</RequirementArguments>
 </GameData>

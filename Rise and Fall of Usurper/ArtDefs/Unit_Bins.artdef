@@ -961,7 +961,7 @@
 													<m_Fields>
 														<m_Values>
 															<Element class="AssetObjects..BLPEntryValue">
-																<m_EntryName text="WarriorHorseman_HorseArmorA"/>
+																<m_EntryName text="Knight_European_HorseArmor_A"/>
 																<m_XLPClass text="Unit"/>
 																<m_XLPPath text="Units.xlp"/>
 																<m_BLPPackage text="units/units"/>
@@ -980,7 +980,7 @@
 												</Element>
 											</Element>
 										</m_ChildCollections>
-										<m_Name text="TheStormlands"/>
+										<m_Name text="Any"/>
 										<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 									</Element>
 								</Element>

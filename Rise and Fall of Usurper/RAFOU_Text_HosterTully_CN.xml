@@ -2,293 +2,298 @@
 <GameData>
 	<LocalizedText>
 		<Replace Tag="LOC_CIVILIZATION_THE_RIVERLANDS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Kingdom of The Riverlands</Text>
+			<Text>河间地王国</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_RIVERLANDS_ADJECTIVE" Language="zh_Hans_CN">
-			<Text>The Riverlands</Text>
+			<Text>三河人</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_ADVANTAGEOUS_BETROTHAL_NAME" Language="zh_Hans_CN">
-			<Text>Advantageous Betrothal</Text>
+			<Text>有利可图的婚约</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_ADVANTAGEOUS_BETROTHAL_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Can Annex a City-State you are Suzerain of with [ICON_GOLD] Gold. Cost is determined by [ICON_CITIZEN] Population, [ICON_PRODUCTION] costs of Districts, Buildings and Units of the City-State.[NEWLINE]Annexed City-State will always have full Loyalty, keeps it's City State type bonus to you when you annex it. Annexed City-State will also be considered as city originally founded by the Riverlands without Religious population, so that it cannot be Liberated nor trigger Casus Belli.</Text>
+			<Text>可使用 [ICON_GOLD] 金币吞并已成为其宗主国的城邦。吞并所需费用根据城邦的 [ICON_CITIZEN] 人口，已建成的城区，建筑和单位的 [ICON_PRODUCTION] 造价来决定。[NEWLINE]被吞并的城邦忠诚度始终为最大，并且根据吞并时的使者数量给与相应的城邦类型奖励。被吞并的城邦会被认为是河间地无信仰的原生城市，无法被解放或者触发战争理由和紧急事件。</Text>
 		</Replace>
 		<Replace Tag="LOC_LEADER_HOSTER_TULLY_QUOTE" Language="zh_Hans_CN">
-			<Text>Little cat. My little cat. I watched for you...</Text>
+			<Text>我可爱的小猫咪，我会一直看着你们的</Text>
 		</Replace>
 		
 		<Replace Tag="LOC_BUILDING_SOLAR_OF_TULLYS_DAUGHTER_NAME" Language="zh_Hans_CN">
-			<Text>Solar of Tully's Daughter</Text>
+			<Text>徒利女儿的会客室</Text>
 		</Replace>
 		<Replace Tag="LOC_BUILDING_SOLAR_OF_TULLYS_DAUGHTER_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Tully's Daughter married to the lord of City-State. This solar provides the City-State's bonus to Hoster Tully when it was annexed.</Text>
+			<Text>成功吞并城邦之后会客室将提供城邦原有加成。</Text>
 		</Replace>		
 
 		<!--City Names-->
 		<Replace Tag="LOC_CIVILIZATION_THE_RIVERLANDS_CITY_1" Language="zh_Hans_CN">
-			<Text>Riverrun</Text>
+			<Text>奔流城</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_RIVERLANDS_CITY_2" Language="zh_Hans_CN">
-			<Text>Harrenhal</Text>
+			<Text>赫伦堡</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_RIVERLANDS_CITY_3" Language="zh_Hans_CN">
-			<Text>The Twins</Text>
+			<Text>孪河城</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_RIVERLANDS_CITY_4" Language="zh_Hans_CN">
-			<Text>Darry</Text>
+			<Text>戴瑞城</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_RIVERLANDS_CITY_5" Language="zh_Hans_CN">
-			<Text>Raventree</Text>
+			<Text>鸦树城</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_RIVERLANDS_CITY_6" Language="zh_Hans_CN">
-			<Text>Stone Hedge</Text>
+			<Text>石篱城</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_RIVERLANDS_CITY_7" Language="zh_Hans_CN">
-			<Text>Saltpans</Text>
+			<Text>盐场镇</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_RIVERLANDS_CITY_8" Language="zh_Hans_CN">
-			<Text>Castle Lychester</Text>
+			<Text>莱彻斯特堡</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_RIVERLANDS_CITY_9" Language="zh_Hans_CN">
-			<Text>Seagard</Text>
+			<Text>海疆城</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_RIVERLANDS_CITY_10" Language="zh_Hans_CN">
-			<Text>Maidenpool</Text>
+			<Text>女泉镇</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_RIVERLANDS_CITY_11" Language="zh_Hans_CN">
-			<Text>Pinkmaiden</Text>
+			<Text>红粉城</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_RIVERLANDS_CITY_12" Language="zh_Hans_CN">
-			<Text>Willow Wood</Text>
+			<Text>柳木城</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_RIVERLANDS_CITY_13" Language="zh_Hans_CN">
-			<Text>Acorn Hall</Text>
+			<Text>橡果厅</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_RIVERLANDS_CITY_14" Language="zh_Hans_CN">
-			<Text>Atranta</Text>
+			<Text>亚兰城</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_RIVERLANDS_CITY_15" Language="zh_Hans_CN">
-			<Text>Wayfarer's Rest</Text>
+			<Text>旅息城</Text>
 		</Replace>
 		<!--CITIZEN NAMES-->
 		<Replace Tag="LOC_CITIZEN_THE_RIVERLANDS_MALE_1" Language="zh_Hans_CN">
-			<Text>Brynden Tully</Text>
+			<Text>布林登·徒利</Text>
 		</Replace>
 		<Replace Tag="LOC_CITIZEN_THE_RIVERLANDS_MALE_2" Language="zh_Hans_CN">
-			<Text>Edmure Tully</Text>
+			<Text>艾德慕·徒利</Text>
 		</Replace>
 		<Replace Tag="LOC_CITIZEN_THE_RIVERLANDS_MALE_3" Language="zh_Hans_CN">
-			<Text>Walda Rivers</Text>
+			<Text>瓦妲·河文</Text>
 		</Replace>
 		<Replace Tag="LOC_CITIZEN_THE_RIVERLANDS_MALE_4" Language="zh_Hans_CN">
-			<Text>Patrek Mallister</Text>
+			<Text>派崔克·梅利斯特</Text>
 		</Replace>
 		<Replace Tag="LOC_CITIZEN_THE_RIVERLANDS_FEMALE_1" Language="zh_Hans_CN">
-			<Text>Betha Blackwood</Text>
+			<Text>贝丝·布莱伍德</Text>
 		</Replace>
 		<Replace Tag="LOC_CITIZEN_THE_RIVERLANDS_FEMALE_2" Language="zh_Hans_CN">
-			<Text>Jeyne Darry</Text>
+			<Text>简妮·戴瑞</Text>
 		</Replace>
 		<Replace Tag="LOC_CITIZEN_THE_RIVERLANDS_FEMALE_3" Language="zh_Hans_CN">
-			<Text>Roslin Frey</Text>
+			<Text>萝丝琳·佛雷</Text>
 		</Replace>
 		<Replace Tag="LOC_CITIZEN_THE_RIVERLANDS_FEMALE_4" Language="zh_Hans_CN">
-			<Text>Leslyn Haigh</Text>
+			<Text>勒斯林·海伊</Text>
 		</Replace>
 		<Replace Tag="LOC_CITIZEN_THE_RIVERLANDS_FEMALE_5" Language="zh_Hans_CN">
-			<Text>Shella Whent</Text>
+			<Text>希拉·河安</Text>
 		</Replace>
 		<!--Agendas-->
-
+		<Replace Tag="LOC_AGENDA_LORD_TROUT_NAME" Language="zh_Hans_CN">
+			<Text>鳟鱼大人</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_LORD_TROUT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>喜欢不与他们竞争城邦宗主权的文明。厌恶与他们争夺城邦同盟的文明。</Text>
+		</Replace>		
 		<!--PEDIA-->
 		<!--DISTRICT-->
 		<Replace Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_THE_TWIN_TOWERS_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
-			<Text>The Twins, sometimes known as the Crossing, is the seat of House Frey in the northern riverlands. It is a fortified crossing of the Green Fork of the Trident and consists of two identical castles and a tower in the middle of their bridge. It is one of the most formidable strongholds of the Seven Kingdoms.</Text>
+			<Text>孪河城，又称河渡口，是佛雷家族在渡河口处的要塞，位于河间地。包括两座位于绿叉河两岸的城堡，和一座连接它们的石拱桥。拱桥宽到可以让两辆四轮马车并排通过，并被一座在桥中间叫做卫河塔的塔楼守护。要从北境到西河间地，此处是绿叉河上下几百里内唯一的渡河点，正好坐落在从临冬城到奔流城的大路上。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_THE_TWIN_TOWERS_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
-			<Text>The Freys have held the crossing of the Green Fork for six hundred years, beginning when a petty lord built a rickety wooden bridge over the narrowest portion of the river. It took the family three generations to complete the bridge in stone, after which they built timber keeps on each bank of the river. Since then, the Freys have grown wealthy by charging a heavy toll on all those who need to cross - a fact which irks many older or more powerful houses. The timber keeps have since been replaced by stone. These castles are what give the stronghold its name, for they are identical. Given their strong castle, strategic location, wealth, and numbers, the Freys are one of the most powerful bannerhouses sworn to House Tully, now able to raise about four thousand men.</Text>
+			<Text>孪河城是佛雷家族600年以来的家堡，他们靠收取高昂的过桥费变得富裕，因为孪河城是数天的路程以内唯一过河的途径。由于佛雷家族富裕且人丁兴旺，他们是徒利家族最有权势的封臣之一，有能力召集4000人的军队。</Text>
 		</Replace>
 		<!--CIV-->		
 		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_RIVERLANDS_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
-			<Text>The riverlands is a central region of the Seven Kingdoms of Westeros, consisting of the rich, fertile, and populous areas around the three forks of the Trident and the northern Blackwater Rush. At the time of Aegon's Conquest the riverlands and the Iron Islands were ruled by House Hoare, the Kings of the Isles and the Rivers, although native river kings ruled centuries earlier.</Text>
+			<Text>河間地是維斯特洛大陸的中部地區，包括三叉戟河的諸多支流之間的肥沃土地。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_RIVERLANDS_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
-			<Text>Because of their central position in Westeros and lack of natural boundaries, the riverlands have been a frequent battleground. The people of the riverlands are known as "rivermen" or occasionally "riverlanders", and they are a mixture of hardy warriors, peaceful fisherfolk and devout smallfolk. Their lords have a reputation for being notoriously quarrelsome, and are refered to as "river lords". Noble bastards born in the riverlands are given the surname Rivers.</Text>
+			<Text>由於特殊的地理位置，使得它成為了一塊戰爭頻仍、流血漂櫓的是非之地。河間地的人民習慣上被成為「三河人」，其間包含堅韌的戰士、祥和的漁民和虔誠的平民。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_RIVERLANDS_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
-			<Text>The riverlands are ruled from Riverrun by House Tully, the Lords Paramount of the Trident. Notable houses of the region have included Blackwood, Bracken, Darry, Frey, Lothston, Mallister, Mooton, Mudd, Piper, Ryger, Strong, Vance, and Whent.</Text>
+			<Text>在過去的三個世紀裡，河間地由奔流城的徒利家族統治，直到他們在五王之戰中戰敗。如今，奔流城被孿河城的佛雷家族佔據，但河間地總督的頭銜以及河間地名義上的宗主權都屬於赫倫堡公爵，培提爾·貝里席。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_RIVERLANDS_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
-			<Text>The riverlands encompass a region of plains, forests, hills, and endless rivers, and borders on every single kingdom except Dorne. Their northern border is near the swamplands of the Neck, the southernmost region of the north. To the east, the riverlands extend to the Vale of Arryn's Mountains of the Moon and Crackclaw Point in the crownlands. A stream forms part of the boundary between the riverlands and the crownlands, with the hills of House Wode in the former and the lands of House Hogg in the latter. To the south the riverlands border the crownlands and the Reach. The riverlands extend west to Ironman's Bay and the mountainous westerlands. The heavily fortified Golden Tooth guards the entrance to the riverlands but belongs itself to the westerlands. Some of the eastern hills of what are now the westerlands were once ruled by Kings of the Rivers and the Hills, such as the Mudds and Teagues. Some river kings also fought over territory with the Kings of the Reach to the south.</Text>
+			<Text>河間地的區間囊括了眾多平原、森林、山丘，以及無數的河流。北方以頸澤為界與北境接壤，東達國王大道和明月山脈，南至黑水河，西部邊界是鐵民灣以及西境的山地。河間地只在北方有易於防守的天然邊界，儘管東面和西面都有山脈，但它們對所屬的谷地和西境更有利，比如在西側，扼守河間地和西境交界的金牙城固若金湯、易守難攻，卻從來都是屬於西境的堡壘。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_RIVERLANDS_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
-			<Text>The riverlands are named for the number of rivers which are present. The Red Fork runs from its source in the western mountains to Riverrun where it combines with the Tumblestone and then runs to the east. The Blue Fork flows southeast from its sources near Seagard, while the Green Fork runs south from swamps in the Neck, near the kingsroad. The three forks come together a short distance from Lord Harroway's Town to form the Trident, which then pours into the Bay of Crabs at Saltpans. The northern Blackwater Rush and a river from the Gods Eye run through the southern riverlands.</Text>
+			<Text>河間地因流經其間的諸多河流而得名。綠叉河以北方的頸澤為源頭，奔騰南下；藍叉河和紅叉河則從西南向偏北方流淌，此三條支流在哈羅威伯爵的小鎮不遠處匯聚而成三叉戟河。紅叉河發源於西側的山脈，於奔流城處和騰石河交匯，隨後東流至三叉戟河，最終由位於鹽場鎮的河口匯入大海。在河間地南部，還有黑水河流經。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_RIVERLANDS_CHAPTER_HISTORY_PARA_6" Language="zh_Hans_CN">
-			<Text>The riverlands do not contain any major cities, but have a number towns, such as Fairmarket, Harrentown, Harroway, Maidenpool, Saltpans, and Stoney Sept. Their major castles include Darry, Harrenhal, Raventree Hall, Riverrun, Seagard, Stone Hedge, and the Twins. Additional noteworthy places in the riverlands are the old ruins at Oldstones, where in ancient times House Mudd had its castle, and the Gods Eye lake with the Isle of Faces in it. The Lady of the Leaves lives in a village hidden in trees, while a ghost is said to be at High Heart. The Quiet Isle is located at the mouth of the Trident.</Text>
+			<Text>河間地沒有什麼大城市，而是有許多市鎮，如美人集、哈羅威伯爵的小鎮、鹽場鎮、女泉鎮、石堂鎮等；主要的城堡則有奔流城、赫倫堡、海疆城、石籬城、孿河城等。河間地其他值得一提的地點則有荒石城的古老廢墟，此地是古時河間地國王的城堡；以及神眼湖和它中心的千面嶼。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_RIVERLANDS_CHAPTER_HISTORY_PARA_7" Language="zh_Hans_CN">
-			<Text>The riverlands are rich and fertile and populous. The numerous rivers that run across their expanse are used for trading and the transport of goods. In times of peace fisherfolk in skiffs and grain barges pole downstream and merchants on floating ships sail on the rivers. With so much trade on the rivers, villagers will haul their grain and other goods to it to see it sold and carried elsewhere by the merchants. Wine can be made from small, tart grapes grown in the riverlands.</Text>
+			<Text>河間地是一塊富庶、豐饒、人口稠密的土地。穿行其間的稠密河網為河間地的人力、物資交流提供方便。和平年代，河上滿是往來穿梭的漁民小船、順流而下的運糧大船以及沿河遊蕩的商人的浮船；長久以來，此地的居民們都習慣將自己的作物收成運到河邊，與河上的商人交換自己所需要的貨物。河間地所產的酒由一種果實又小又酸的葡萄釀成，勉強可以下咽，只有當地人能夠習慣。然而五王之戰期間，河間地作為主要戰場，主權反覆易手，人民飽受迫害，經濟也受到極大的破壞。</Text>
 		</Replace>
 
 		<!--LEADER-->
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HOSTER_TULLY_TITLE" Language="zh_Hans_CN">
-			<Text>Hoster Tully</Text>
+			<Text>霍斯特·徒利</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HOSTER_TULLY_SUBTITLE" Language="zh_Hans_CN">
-			<Text>Lord Paramount of the Trident, Lord of Riverrun.</Text>
+			<Text>奔流城公爵，三叉戟河总督</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HOSTER_TULLY_QUOTE" Language="zh_Hans_CN">
-			<Text>Little cat. My little cat. I watched for you...</Text>
+			<Text>我可爱的小猫咪，我会一直看着你们的</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HOSTER_TULLY_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
-			<Text>In his youth Hoster was tall and broad, strong, with blue eyes and brown hair.  As he grew older, he became portly, and his hair and beard became streaked with grey. Stricken by illness since 296 AC, Hoster has lost weight and now appears to have shrunk. His hair and beard have gone white.</Text>
+			<Text>霍斯特·徒利年轻时高大魁梧，有蓝色的眼睛和棕红色的头发。步入老年后则显得有些臃肿。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HOSTER_TULLY_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
-			<Text>Hoster has always been a proud man. When he was younger, he could never stay still, and was often traveling somewhere. Now aged, he enjoys watching the Red Fork and the Tumblestone from his solar in Riverrun's keep. Hoster's daughter, Catelyn Stark, does not believe he would be willing to father bastards.</Text>
+			<Text>在他年轻的时候，霍斯特是一个闲不住的人，总是要到各处去游历。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HOSTER_TULLY_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
-			<Text>Hoster's armor is silver plate-and-mail, while his cloak and surcoat are blue and red. The crest atop his greathelm is a silver and bronze trout. His shield is massive oak-and-iron, and he also owns a hunting horn. When he was younger, Hoster often rode a brown gelding.</Text>
+			<Text>篡夺者战争期间，凯特琳被许配给了布兰登·史塔克。当布兰登在君临遇害，霍斯特加入了叛军并将凯特琳许配给了布兰登的弟弟艾德·史塔克，将莱莎许配给了鹰巢城公爵琼恩·艾林。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HOSTER_TULLY_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
-			<Text>Following the death of his father, Hoster inherited the rule to Riverrun, at some point in or after 264 AC. Following the Tully funeral customs, Hoster's father was sent down the Red Fork in a boat, which Hoster was to set aflame by firing a fire arrow. While Hoster missed his first shot, his second arrow found sail.</Text>
+			<Text>当时他的一些封臣（例如慕顿家族、古柏克家族、戴瑞家族）依然忠于坦格利安 ，霍斯特·徒利就向他们发起攻击，带着火与剑杀向古柏克家族的村子。后来他参加了鸣钟之役，为时任国王之手琼恩·克林顿爵士所伤。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_HOSTER_TULLY_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
-			<Text>Lord Hoster wished to make advantageous marriages for his children. He betrothed his eldest daughter, Catelyn to Brandon Stark, the heir to Lord Rickard Stark of Winterfell, when she was only twelve years old. He began negotiations with Lord Tywin Lannister, aiming to betroth his younger daughter Lysa to Jaime Lannister, the heir to Casterly Rock. When Jaime spent a fortnight at Riverrun in his early teens, Hoster took care to seat him next to Lysa with every meal. By 281 AC, Tywin had invited Hoster to travel to King's Landing, where Tywin resided as Hand of the King, to discuss the dower. However, King Aerys II Targaryen named Jaime to his Kingsguard before the agreements were finalized, thereby preventing the betrothal from being made. When Tywin suggested his younger son, the deformed dwarf Tyrion, in Jaime's stead, Hoster declined, informing Tywin that he wanted a "whole man" for his daughter.</Text>
+			<Text>从295AC霍斯特·徒利开始卧床不起。</Text>
 		</Replace>
 
 		<!--UNITS-->
 		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_BROTHERHOOD_WITHOUT_BANNER_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
-			<Text>The brotherhood without banners, also known as the knights of the hollow hill and the forgotten fellowship, is an outlaw group who initially fights Lannister rule in the name of King Robert I Baratheon. Led by the Lightning Lord, Beric Dondarrion, the group is founded in the riverlands by soldiers and nobles who were sent by the then-Hand of the King, Eddard Stark, to bring Gregor Clegane to justice. After they are ambushed while crossing a ford and nearly defeated, the group continues the fight as a guerrilla group. Their numbers increase as they are joined by defeated soldiers from other battles, deserters, and refugees from the War of the Five Kings.</Text>
+			<Text>无旗兄弟会，是一个以劳勃国王之名反抗兰尼斯特统治的非法组织。队伍由被国王之手艾德·史塔克遣派捉捕格雷果·克里冈的士兵和贵族们组成。他们在途径一个浅滩时遭遇埋伏，几近败北，却在之后继续与魔山的队伍游击作战。队伍人员总数不断增加，多数是其他战役中战败的士兵和斗争中前来避难的平民。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_BROTHERHOOD_WITHOUT_BANNER_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
-			<Text>After reports of marauding raiders in the riverlands reach King's Landing, the Hand of the King, Lord Eddard Stark, sends out a force under the command of Lord Beric Dondarrion, including some of his own Stark men, to stop the marauders and bring them to justice. According to witnesses the raiders are led by a man of monstrous size, whom Ned Stark realizes can only be Ser Gregor Clegane. Beric, having the command of the party, leads his men into an ambush and is killed by Gregor in the battle at the Mummer's Ford. It is later revealed that Lord Tywin Lannister's intention with Gregor's raiding was to draw Eddard to them to be captured and exchanged for his son, Tyrion Lannister, who had been taken prisoner by Ned's wife, Catelyn. Because he had been wounded Eddard was unable to lead the party himself, and instead entrusted the leadership of the party to Beric.</Text>
+			<Text>在他们的领队贝里·唐德利恩死去后，被复活的凯特琳·徒利接管了这个团体。在她的领导之下，兄弟会由原来的履行正义，保护平民逐渐转变为了为了复仇而杀戮。</Text>
 		</Replace>
 
 		<!--CIVINFO-->
 		<Replace Tag="LOC_CIVINFO_THE_RIVERLANDS_LOCATION" Language="zh_Hans_CN">
-			<Text>The Riverlands</Text>
+			<Text>河间地</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVINFO_THE_RIVERLANDS_SIZE" Language="zh_Hans_CN">
-			<Text>The riverlands is a central region of the Seven Kingdoms of Westeros, consisting of the rich, fertile, and populous areas around the three forks of the Trident and the northern Blackwater Rush.</Text>
+			<Text>河間地是維斯特洛大陸的中部地區，包括三叉戟河的諸多支流之間的肥沃土地。</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVINFO_THE_RIVERLANDS_POPULATION" Language="zh_Hans_CN">
-			<Text>The people of the riverlands are known as "rivermen" or occasionally "riverlanders", and they are a mixture of hardy warriors, peaceful fisherfolk and devout smallfolk.</Text>
+			<Text>河間地的人民習慣上被成為「三河人」，其間包含堅韌的戰士、祥和的漁民和虔誠的平民。</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVINFO_THE_RIVERLANDS_CAPITAL" Language="zh_Hans_CN">
-			<Text>Riverrun</Text>
+			<Text>奔流城</Text>
 		</Replace>
 
 		<!--DIPLO-->
 
 		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_HOSTER_TULLY_ANY" Language="zh_Hans_CN">
-			<Text>I think it's a good idea. Come, sit next to my daughters.</Text>
+			<Text>这可真是个好主意。来，请在我的女儿边上就坐，咱们慢慢谈。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_HOSTER_TULLY_ANY" Language="zh_Hans_CN">
-			<Text>You have not proven to be true friend to the Riverlands yet. We will consider next time.</Text>
+			<Text>你还没有证明你是我们三河人的真正朋友。让我们下次再说吧。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_HOSTER_TULLY_ANY" Language="zh_Hans_CN">
-			<Text>Do you see my quarrelsome bannermen? We shouldn't do that. Instead, friendship maybe?</Text>
+			<Text>你看到我争吵的旗手了吗？我们不应该这样做。相反，我们应该化干戈为玉帛。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_HOSTER_TULLY_ANY" Language="zh_Hans_CN">
-			<Text>I know you are indeed a good friend!</Text>
+			<Text>我就知道你会是个好朋友！</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_HOSTER_TULLY_ANY" Language="zh_Hans_CN">
-			<Text>Unfortunate... Do you, by any chance find one of my daughters... adorable?</Text>
+			<Text>真是不幸...话说，我的女儿之中可有你觉得中意的？</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_HOSTER_TULLY_ANY" Language="zh_Hans_CN">
-			<Text>The Riverlands is always prepared for a battle, we are always in one here and there. And as usual, we will survive.</Text>
+			<Text>三河人时时刻刻都为战斗做足了充分的准备，我们历经沙场。一如既往，这次我们也会活下来。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_HOSTER_TULLY_ANY" Language="zh_Hans_CN">
-			<Text>It may be brutal, but I find war is the only remaining way to resolve our conflict.</Text>
+			<Text>现实也许是残酷的，但我发现战争是解决冲突的唯一剩余方式。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_HOSTER_TULLY_ANY" Language="zh_Hans_CN">
-			<Text>Ah, a trade delegation. Of course, of course.</Text>
+			<Text>啊，一个交流使团，当然，当然...</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_HOSTER_TULLY_ANY" Language="zh_Hans_CN">
-			<Text>You think I cannnot tell the difference between a trader and a spy in a trader's skin? Go home.</Text>
+			<Text>你认为我无法分辨真正的使团和披着使团外衣的间谍么？滚回去吧。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_HOSTER_TULLY_ANY" Language="zh_Hans_CN">
-			<Text>We would like to send you a trade delegation with our fish products. From the rivers, taste different from those in the sea.</Text>
+			<Text>我们想向您送出一队带有我们鱼产品的代表团。品尝这来自河流，与大海不同的味道。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_HOSTER_TULLY_ANY" Language="zh_Hans_CN">
-			<Text>This is rude.</Text>
+			<Text>无理至极！</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_HOSTER_TULLY_ANY" Language="zh_Hans_CN">
-			<Text>The key to House Tully's survival is through our allegiance to the great houses. And we shall not tolerate those who interfere.</Text>
+			<Text>徒利家族延续的关键是我们对伟大家族的忠诚。我们不会容忍那些试图破坏这些的人</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_AGENDA_LORD_TROUT_COMPETING_MINORS" Language="zh_Hans_CN">
-			<Text>(You are competing with them for city-states.)</Text>
+			<Text>(你正在与他们竞争城邦。)</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_HOSTER_TULLY_ANY" Language="zh_Hans_CN">
-			<Text>You are speaking to Hoster Tully, Lord Paramount of the Trident, Lord of Riverrun. Riverlands is a fertile region, we welcome you to sail along our rivers for trade.</Text>
+			<Text>你正在和三叉戟河至高无上的领主，奔流城公爵，霍斯特·徒利交谈。河間地是一个肥沃的地区，我们欢迎您沿着我们的河流航行进行贸易。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_HOSTER_TULLY_ANY" Language="zh_Hans_CN">
-			<Text>We sincerely invite you to visit our riverside city, listen to the water tumbling and enjoy our fine meal.</Text>
+			<Text>我诚挚的邀请您来访问我们位于河畔的城市，一边听着河水奔腾，一边享受美食。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_HOSTER_TULLY_ANY" Language="zh_Hans_CN">
-			<Text>I would like to visit your castles. I believe you won't toll me for passage, will you?</Text>
+			<Text>我想访问您的城堡，相信您不会收我过路费的吧？</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_HOSTER_TULLY_ANY" Language="zh_Hans_CN">
-			<Text>Tell me about your people. Are they hardworking?</Text>
+			<Text>和我说说你的人民，他们勤劳么？</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_GREETING_LEADER_HOSTER_TULLY_ANY" Language="zh_Hans_CN">
-			<Text>Nice to see you again.</Text>
+			<Text>我很高兴能与你再次相见。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_HOSTER_TULLY_ANY" Language="zh_Hans_CN">
-			<Text>I'm pleased to see that you are staying away from the houses I favor. They will be part of my family one day.</Text>
+			<Text>我很高兴看到你远离我所中意的家族。它们有一天会成为我们家族的一员。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_LORD_TROUT_CITY_STATE_NOT_COMPETING" Language="zh_Hans_CN">
-			<Text>Hoster Tully is happy to see you're staying away from their city-states.</Text>
+			<Text>(霍斯特·徒利很高兴看到你没有与他们竞争城邦。)</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_HOSTER_TULLY_ANY" Language="zh_Hans_CN">
-			<Text>Nothing can change my arrangement for the betrothal with the houses I select. How could you believe your daughters be better than mine?</Text>
+			<Text>没有什么可以改变我女儿与我所选择的屋主订婚的安排。你凭什么觉得你的女儿比我的好？</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_LORD_TROUT_CITY_STATE_COMPETING" Language="zh_Hans_CN">
-			<Text>Hoster Tully is angrey that you are competing with them for city-states.</Text>
+			<Text>霍斯特·徒利对你与他们竞争城邦的行为感到生气。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_HOSTER_TULLY_ANY" Language="zh_Hans_CN">
-			<Text>Great lord. Would you consider marry your son with my daughter? You see they are sweet and fertile. You will have a pack of grandchildren...</Text>
+			<Text>伟大的领主。你会考虑让你的儿子迎娶我的女儿吗？你看他们都是如此的甜美可人。他们会让您儿孙满堂的...</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_HOSTER_TULLY_ANY" Language="zh_Hans_CN">
-			<Text>I see. My common folks are suffering. So be it.</Text>
+			<Text>你说得对，我的人们也在遭受着苦难，让我们结束吧。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_HOSTER_TULLY_ANY" Language="zh_Hans_CN">
-			<Text>You should as my brother about this, see if he would ever agree...</Text>
+			<Text>你该问问我的兄弟，看看他们会不会同意。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_HOSTER_TULLY_ANY" Language="zh_Hans_CN">
-			<Text>Town after town disappeared. We should stop this tragedy, shall we?</Text>
+			<Text>城镇在战火中一座座消失，我们应该停止这场悲剧，不是么？</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_HOSTER_TULLY_ANY" Language="zh_Hans_CN">
-			<Text>You may use our bridges for crossing the rivers. Or take ferries if you prefer.</Text>
+			<Text>您可以尽管使用我们的桥梁过河。或者您比较喜欢渡轮？</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_HOSTER_TULLY_ANY" Language="zh_Hans_CN">
-			<Text>There must be a toll. A good amount of gold, a promise, a foster son, or an arrangement for marriage.</Text>
+			<Text>我必须为此收取些什么。一大笔黄金，一个承诺，一个质子或是一桩联姻。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_HOSTER_TULLY_ANY" Language="zh_Hans_CN">
-			<Text>Although these greencloaked folks won't even care about your permission, but would you please grant them a passage?</Text>
+			<Text>虽然那些披着绿斗篷的人不会关心你的许可与否，不过您是否能开一条方便之道呢。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_HOSTER_TULLY_ANY" Language="zh_Hans_CN">
-			<Text>Your soldiers are too close. What do you want?</Text>
+			<Text>你的士兵靠的太近了，你到底想做什么</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_HOSTER_TULLY_ANY" Language="zh_Hans_CN">
-			<Text>That stripling ... wretched boy ... not speak that name to me, your duty ... your mother, she would ... Oh, gods forgive me, forgive me, forgive me.</Text>
+			<Text>那个脱衣...猥琐的男孩...不要说出我的名字，你的责任......你的母亲，她应该...哦，上帝原谅我，原谅我，请原谅我。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_HOSTER_TULLY_ANY" Language="zh_Hans_CN">
-			<Text>Not acceptable.</Text>
+			<Text>无法接受。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_HOSTER_TULLY_ANY" Language="zh_Hans_CN">
-			<Text>It's a deal then.</Text>
+			<Text>就这么说定了。</Text>
 		</Replace>
 		
 		<Replace Tag="LOC_CITY_STATES_ANNEX_BUTTON" Language="zh_Hans_CN">
-			<Text>Annex City-State</Text>
+			<Text>吞并城邦</Text>
 		</Replace>
 		<Replace Tag="LOC_HT_CITY_STATES_NOT_SUZERAIN" Language="zh_Hans_CN">
-			<Text>You are not Suzerain of this city-state.</Text>
+			<Text>你不是该城邦的宗主国</Text>
 		</Replace>
 		<Replace Tag="LOC_HT_CITY_STATES_ANNEX_DETAILS" Language="zh_Hans_CN">
-			<Text>The Suzerain of this city-state can pay {1_GoldCost} [ICON_Gold] Gold to annex this city-state. Annexed City-State will always have full Loyalty, keeps it's City State type bonus to you when you annex it. Annexed City-State will also be considered as city originally founded by the Riverlands, so that it cannot be Liberated nor trigger Casus Belli.</Text>
+			<Text>可使用 [ICON_GOLD] 金币吞并已成为其宗主国的城邦。吞并所需费用根据城邦的 [ICON_CITIZEN] 人口，已建成的城区，建筑和单位的 [ICON_PRODUCTION] 造价来决定。[NEWLINE]被吞并的城邦忠诚度始终为最大，并且根据吞并时的使者数量给与相应的城邦类型奖励。被吞并的城邦会被认为是河间地无信仰的原生城市，无法被解放或者触发战争理由和紧急事件。</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

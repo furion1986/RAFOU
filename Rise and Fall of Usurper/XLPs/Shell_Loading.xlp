@@ -18,6 +18,34 @@
 			<m_ObjectName text="EDDARDSTARK_Foreground"/>
 		</Element>
 		<Element>
+			<m_EntryID text="TYWINLANNISTER_Foreground"/>
+			<m_ObjectName text="TYWINLANNISTER_Foreground"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ROBERTBARATHEON_Foreground"/>
+			<m_ObjectName text="ROBERTBARATHEON_Foreground"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Leader_Mace_Tyrell_Foreground"/>
+			<m_ObjectName text="Leader_Mace_Tyrell_Foreground"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Leader_Jon_Arryn_Foreground"/>
+			<m_ObjectName text="Leader_Jon_Arryn_Foreground"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Leader_HosterTully_Foreground"/>
+			<m_ObjectName text="Leader_HosterTully_Foreground"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Leader_Doran_Martell_Foreground"/>
+			<m_ObjectName text="Leader_Doran_Martell_Foreground"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Leader_Rhaegar_Targaryen_Foreground"/>
+			<m_ObjectName text="Leader_Rhaegar_Targaryen_Foreground"/>
+		</Element>
+		<Element>
 			<m_EntryID text="Dorne_background"/>
 			<m_ObjectName text="Dorne_background"/>
 		</Element>
@@ -52,34 +80,6 @@
 		<Element>
 			<m_EntryID text="TheWesternland_background"/>
 			<m_ObjectName text="TheWesternland_background"/>
-		</Element>
-		<Element>
-			<m_EntryID text="TYWINLANNISTER_Foreground"/>
-			<m_ObjectName text="TYWINLANNISTER_Foreground"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ROBERTBARATHEON_Foreground"/>
-			<m_ObjectName text="ROBERTBARATHEON_Foreground"/>
-		</Element>
-		<Element>
-			<m_EntryID text="Leader_Mace_Tyrell_Foreground"/>
-			<m_ObjectName text="Leader_Mace_Tyrell_Foreground"/>
-		</Element>
-		<Element>
-			<m_EntryID text="Leader_Jon_Arryn_Foreground"/>
-			<m_ObjectName text="Leader_Jon_Arryn_Foreground"/>
-		</Element>
-		<Element>
-			<m_EntryID text="Leader_HosterTully_Foreground"/>
-			<m_ObjectName text="Leader_HosterTully_Foreground"/>
-		</Element>
-		<Element>
-			<m_EntryID text="Leader_Doran_Martell_Foreground"/>
-			<m_ObjectName text="Leader_Doran_Martell_Foreground"/>
-		</Element>
-		<Element>
-			<m_EntryID text="Leader_Rhaegar_Targaryen_Foreground"/>
-			<m_ObjectName text="Leader_Rhaegar_Targaryen_Foreground"/>
 		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>

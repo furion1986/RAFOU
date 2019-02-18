@@ -337,7 +337,7 @@
 			<Text>Dragonpit</Text>
 		</Row>
 		<Row Tag="LOC_DISTRICT_DRAGONPIT_DESCRIPTION">
-			<Text>An early district unique to The Crownlands which provides major adjacency bonus to other districts and +6 [ICON_Faith] Faith and +2 [ICON_HOUSING] Housing. [NEWLINE]Dragonpit provides extra +4 points of [ICON_GreatMusician] Great Musician, 3 slots of aircraft and unlocks Targaryen Dragon.</Text>
+			<Text>An early district unique to The Crownlands which provides major adjacency bonus to other districts and +6 [ICON_Faith] Faith and +2 [ICON_HOUSING] Housing. [NEWLINE]Dragonpit provides extra +2 points of [ICON_GreatWriter] Great Writer and +1 point of [ICON_GreatMusician] Great Musician, 3 slots of aircraft and unlocks Targaryen Dragon.[NEWLINE]May only place on hill tiles.</Text>
 		</Row>
 		<Row Tag="LOC_LEADER_RHAEGAR_TARGARYEN_NAME">
 			<Text>Rhaegar Targaryen</Text>
@@ -359,7 +359,7 @@
 			<Text>The Silver Prince</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_RHAEGAR_TARGARYEN_DESCRIPTION">
-			<Text>+4 points of [ICON_GreatMusician] Great Musician from Capital City. +4 Slots of [ICON_GreatWork_Music] Great Works of Music to Palace. +2 Slot of [ICON_GreatWork_Music] Great Works of Music to each level of Government Plaza Building.[NEWLINE]Each [ICON_GreatWork_Music] Great Work of Music also yields +8 [ICON_Faith] Faith.</Text>
+			<Text>+2 Slots of [ICON_GreatWork_Music] Great Works of Music and [ICON_GreatWork_Writing] Great Works of Writing to Palace.[NEWLINE]+2 points of [ICON_GreatWriter] Great Writer from level 1 Government Plaza Building, +2 points of [ICON_GreatMusician] Great Musician and [ICON_GreatWriter] Great Writer from level 2 Government Plaza Building, +4 points of [ICON_GreatMusician] Great Musician from level 3 Government Plaza Building. +1 Slot of [ICON_GreatWork_Music] Great Works of Music and [ICON_GreatWork_Writing] Great Works of Writing to each level of Government Plaza Building.[NEWLINE]Each [ICON_GreatWork_Music] Great Work of Music and [ICON_GreatWork_Writing] Great Work of Writing also yields +6 [ICON_Faith] Faith and +3 [ICON_GOLD] Gold.</Text>
 		</Row>
 	</BaseGameText>
 </GameData>

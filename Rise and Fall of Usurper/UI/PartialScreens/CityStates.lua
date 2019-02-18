@@ -1236,7 +1236,7 @@ function ViewCityState( iPlayer:number )
 		Controls.LevyMilitaryButton:RegisterCallback( Mouse.eLClick, function() OnLevyMilitary( kCityState ); end );
 		
 		--Hoster Tully Annex Button.
-		local iAnnexCost :number = 320;
+		local iAnnexCost :number = 240;
 		local pPlayer		:table = Players[iPlayer];
 		local pPlayerCities	:table = pPlayer:GetCities();
 		if pPlayerCities:GetCount() > 1 then 
@@ -1245,9 +1245,9 @@ function ViewCityState( iPlayer:number )
 		end
 		for _, pCity in pPlayerCities:Members() do
 			local pDistrictCount			:number = pCity:GetDistricts():GetCount();
-			iAnnexCost = iAnnexCost + (54*3*pDistrictCount);
+			iAnnexCost = iAnnexCost + (41*3*pDistrictCount);
 			local pPopulation 				:number= pCity:GetPopulation();
-			iAnnexCost = iAnnexCost + 50*(pPopulation-1);
+			iAnnexCost = iAnnexCost + 38*(pPopulation-1);
 			local pCityBuildings = pCity:GetBuildings();
 			local pCityPlots:table = Map.GetCityPlots():GetPurchasedPlots( pCity );
 			if (pCityPlots ~= nil) then
@@ -1255,12 +1255,12 @@ function ViewCityState( iPlayer:number )
 					local pBuildingTypes:table = pCityBuildings:GetBuildingsAtLocation(plotID);
 					for _, type in ipairs(pBuildingTypes) do
 						local building = GameInfo.Buildings[type]; 
-						iAnnexCost = iAnnexCost + GameInfo.Buildings[building.BuildingType].Cost;
+						iAnnexCost = iAnnexCost + (GameInfo.Buildings[building.BuildingType].Cost)*0.75;
 					end
 				end
 			end
 		end
-		iAnnexCost = iAnnexCost + kCityState.LevyMilitaryCost;
+		iAnnexCost = iAnnexCost + (kCityState.LevyMilitaryCost)*0.75;
 		local pGameSpeedMultiplier =  (GameInfo.GameSpeeds[GameConfiguration.GetGameSpeedType()].CostMultiplier)/100
 		iAnnexCost = iAnnexCost*pGameSpeedMultiplier;
 		local iLeader		:string = PlayerConfigurations[localPlayerID]:GetLeaderTypeName();

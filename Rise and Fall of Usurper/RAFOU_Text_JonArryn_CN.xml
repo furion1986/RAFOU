@@ -2,302 +2,310 @@
 <GameData>
 	<LocalizedText>
 		<Replace Tag="LOC_CIVILIZATION_THE_VALE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>Vale of Arryn</Text>
+			<Text>艾林谷</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_VALE_ADJECTIVE" Language="zh_Hans_CN">
-			<Text>The Vale</Text>
+			<Text>谷地人</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_HAND_OF_THE_KING_NAME" Language="zh_Hans_CN">
-			<Text>Hand of the King</Text>
+			<Text>国王之手</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_HAND_OF_THE_KING_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>All International [ICON_TradeRoute] Trade Routes From/To the Vale yield extra +1 [ICON_CULTURE] Culture. All [ICON_TradeRoute] Trade Routes From/To an ally of the Vale yield extra +2 [ICON_CULTURE] Culture.[NEWLINE]Has Crescent Chamber unique building. +1 [ICON_CULTURE] Culture and allowing extra +5 relationship points from another civilization if you have sent Delegation or Resident Embassy to them.</Text>
+			<Text>所有来往艾林谷城市的国际[ICON_TradeRoute] 商路提供额外+1 [ICON_CULTURE] 文化。 所有来往于艾林谷的同盟的 [ICON_TradeRoute] 商路提供额外+2 [ICON_CULTURE] 文化。[NEWLINE]可建造独特建筑新月大厅。+1 [ICON_CULTURE] 文化。 新月大厅也使得琼恩·艾林在派遣代表团或者建立大使馆的文明处获得额外+5的关系点数。</Text>
 		</Replace>
 		<Replace Tag="LOC_LEADER_JON_ARRYN_QUOTE" Language="zh_Hans_CN">
-			<Text>"Jon Arryn was a wise man and a good Hand." - Eddard Stark to Rebert Baratheon</Text>
+			<Text>“琼恩·艾林是个聪明人而且还是一个好帮手。”——艾德·史塔克对劳伯·拜拉席恩说</Text>
 		</Replace>
 
 		<!--City Names-->
 		<Replace Tag="LOC_CIVILIZATION_THE_VALE_CITY_1" Language="zh_Hans_CN">
-			<Text>The Eyrie</Text>
+			<Text>鹰巢城</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_VALE_CITY_2" Language="zh_Hans_CN">
-			<Text>The Bloody Gate</Text>
+			<Text>血门</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_VALE_CITY_3" Language="zh_Hans_CN">
-			<Text>Culltown</Text>
+			<Text>海鸥镇</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_VALE_CITY_4" Language="zh_Hans_CN">
-			<Text>Oldtown</Text>
+			<Text>旧镇</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_VALE_CITY_5" Language="zh_Hans_CN">
-			<Text>Coldwater Burn</Text>
+			<Text>冷水城</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_VALE_CITY_6" Language="zh_Hans_CN">
-			<Text>The Fingers</Text>
+			<Text>五指半岛</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_VALE_CITY_7" Language="zh_Hans_CN">
-			<Text>Sisterton</Text>
+			<Text>姐妹屯</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_VALE_CITY_8" Language="zh_Hans_CN">
-			<Text>Breakwater</Text>
+			<Text>波浪台</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_VALE_CITY_9" Language="zh_Hans_CN">
-			<Text>Grey Glen</Text>
+			<Text>灰谷城</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_VALE_CITY_10" Language="zh_Hans_CN">
-			<Text>Heart's Home</Text>
+			<Text>心宿城</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_VALE_CITY_11" Language="zh_Hans_CN">
-			<Text>Ironoaks</Text>
+			<Text>铁橡城</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_VALE_CITY_12" Language="zh_Hans_CN">
-			<Text>Longbow Hall</Text>
+			<Text>长弓厅</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_VALE_CITY_13" Language="zh_Hans_CN">
-			<Text>Newkeep</Text>
+			<Text>新堡</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_VALE_CITY_14" Language="zh_Hans_CN">
-			<Text>Old Anchor</Text>
+			<Text>老锚地</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_THE_VALE_CITY_15" Language="zh_Hans_CN">
-			<Text>Runestone</Text>
+			<Text>符石城</Text>
 		</Replace>
 		<!--CITIZEN NAMES-->
 		<Replace Tag="LOC_CITIZEN_THE_VALE_MALE_1" Language="zh_Hans_CN">
-			<Text>Yohn Royce</Text>
+			<Text>约恩·罗伊斯</Text>
 		</Replace>
 		<Replace Tag="LOC_CITIZEN_THE_VALE_MALE_2" Language="zh_Hans_CN">
-			<Text>Harrold Hardyng</Text>
+			<Text>哈罗德·哈顿</Text>
 		</Replace>
 		<Replace Tag="LOC_CITIZEN_THE_VALE_MALE_3" Language="zh_Hans_CN">
-			<Text>Robin Arryn</Text>
+			<Text>罗宾·艾林</Text>
 		</Replace>
 		<Replace Tag="LOC_CITIZEN_THE_VALE_MALE_4" Language="zh_Hans_CN">
-			<Text>Jon Redfort</Text>
+			<Text>琼恩·雷德佛</Text>
 		</Replace>
 		<Replace Tag="LOC_CITIZEN_THE_VALE_FEMALE_1" Language="zh_Hans_CN">
-			<Text>Mya Stone</Text>
+			<Text>米亚·石东</Text>
 		</Replace>
 		<Replace Tag="LOC_CITIZEN_THE_VALE_FEMALE_2" Language="zh_Hans_CN">
-			<Text>Lysa Arryn</Text>
+			<Text>莱莎·艾林</Text>
 		</Replace>
 		<Replace Tag="LOC_CITIZEN_THE_VALE_FEMALE_3" Language="zh_Hans_CN">
-			<Text>Myranda Royce</Text>
+			<Text>米兰达·罗伊斯</Text>
 		</Replace>
 		<Replace Tag="LOC_CITIZEN_THE_VALE_FEMALE_4" Language="zh_Hans_CN">
-			<Text>Anya Waynwood</Text>
+			<Text>安雅·韦伍德</Text>
 		</Replace>
 		<Replace Tag="LOC_CITIZEN_THE_VALE_FEMALE_5" Language="zh_Hans_CN">
-			<Text>Chella</Text>
+			<Text>齐拉</Text>
 		</Replace>
 
 		<!--Diplomatics-->
 		<Replace Tag="LOC_DIPLO_MODIFIER_JA_DELEGATION" Language="zh_Hans_CN">
-			<Text>Our delegation tells them the story about our Crescent Chamber</Text>
+			<Text>我国代表团向他们讲述了新月大厅的故事</Text>
 		</Replace>
 		<Replace Tag="LOC_VIZSOURCE_DELEGATE_TRAIT" Language="zh_Hans_CN">
-			<Text>Jon Arryn's delegation</Text>
+			<Text>琼恩·艾林的代表团</Text>
 		</Replace>
 		<Replace Tag="LOC_VIZSOURCE_ACTION_DELEGATE_TRAIT" Language="zh_Hans_CN">
-			<Text>Play as Jon Arryn and send a delegation or establish an embassy.</Text>
+			<Text>扮演琼恩·艾林并派代表团或建立大使馆。</Text>
 		</Replace>
 		<Replace Tag="LOC_GOSSIP_SOURCE_DELEGATE_TRAIT" Language="zh_Hans_CN">
-			<Text>Your delegate, {1_Name}, sent a raven back to Crescent Chamber informing you that</Text>
+			<Text>你的{1_Name}代表将一只渡鸦送回新月大厅通知了你</Text>
 		</Replace>
 		<!--Agendas-->
-
+		<Replace Tag="LOC_AGENDA_THE_NOBLE_HAND_NAME" Language="zh_Hans_CN">
+			<Text>高贵的首相</Text>
+		</Replace>
+		<Replace Tag="LOC_AGENDA_THE_NOBLE_HAND_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>喜欢与他们宣布友好以及连通商路的文明。厌恶谴责他们朋友的文明。</Text>
+		</Replace>		
 		<!--PEDIA-->
 		<!--DISTRICT-->
 		<Replace Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_GATE_OF_THE_MOON_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
-			<Text>The Gates of the Moon was the first seat of House Arryn in the Vale. After the Battle of the Seven Stars, Artys I Arryn, the first King of Mountain and Vale, began construction of the large castle where his host had encamped below the Giant's Lance the night before his victory. The two eldest sons of Artys who followed him on the throne expanded the castle.</Text>
+			<Text>月门堡在巨人之枪山脚下。这里是月门堡的罗伊斯家族的家堡。月门堡周围有护城河，堡中有警卫室和方塔。这座城堡守卫着通往鹰巢城的道路。月门堡比鹰巢城规模更大。在白雪皑皑的冬季，艾林家族会居住在月门堡内，直到夏季来临才回到鹰巢城。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_GATE_OF_THE_MOON_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
-			<Text>While formidable, the Gates of the Moon was considered by some to not be suitable for kings, and the fourth Arryn monarch, Roland I, found it lacking in comparison to grand Casterly Rock and the Hightower. Roland considered dismantling his seat and starting anew, but he instead decided to build the Eyrie high on the Giant's Lance after wild clansmen descended from the Mountains of the Moon.</Text>
+			<Text>当阿提斯·艾林打败罗拔·罗伊斯二世，统领谷地之后，他在安达尔人军队于七星之战前夜扎营的地方修建了月门堡，作为艾林家族的家堡。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_GATE_OF_THE_MOON_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
-			<Text>The Gates of the Moon has since been used by House Arryn as their seat during winter, but when summer comes they return to the Eyrie. The Keepers of the Gates of the Moon have since held the castle for the Arryn kings and, after Aegon's Conquest, for the Arryn Wardens of the East.</Text>
+			<Text>第二任和第三任艾林国王仍住在月门堡，并对其进行了扩张修建。第四任艾林国王，罗兰·艾林一世年少时目睹过参天塔、凯岩城和先民仍在修修补补的一些河间地雄伟城堡，于是他决定建造鹰巢城，取代月门堡作为艾林家族的家堡。在罗宾·艾林一世执政期间，鹰巢城建造完毕，艾林家族离开了月门堡。</Text>
 		</Replace>
 		<!--CIV-->
 		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_VALE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
-			<Text>The Vale of Arryn or the Vale is one of the constituent regions of the Seven Kingdoms of Westeros. It was formerly a sovereign nation ruled by the Kings of Mountain and Vale before Aegon's Conquest. The Mountains of the Moon surround the smaller Vale proper, although the valley's name is often applied to all of House Arryn's realm.</Text>
+			<Text>艾林谷又叫谷地是维斯特洛大陆东部一个地域的泛称。在伊耿征服七国之前，这里曾是独立的山谷王国领土。如今谷地被鹰巢城的艾林家族所统辖。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_VALE_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
-			<Text>The Vale is ruled by the Arryns from the castle known as the Eyrie. Notable houses of this region include Baelish, Belmore, Corbray, Egen, Grafton, Hersy, Hunter, Melcolm, Redfort, Royce, Templeton, and Waynwood. Bastards of noble origin raised in the Vale are given the surname Stone.</Text>
+			<Text>在先民统治谷地的时期，谷地分为若干个小王国，如五指半岛之王，符石城之王，海鸥镇之王等。谷地是安达尔人最先登陆到达的地方，先民没有意识到安达尔人的威胁，几个王国甚至帮助安达尔人西渡，一厢情愿的希望依赖安达尔人来扩大自己小王国的实力。当他们意识到错误时，先民的国王罗拔·罗伊斯与谷地的飞翼骑士阿提斯·艾林在巨人之枪展开了大决战。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_VALE_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
-			<Text>The borders of the Vale are held to be the Bite to the north, the Bay of Crabs to the south, the Mountains of the Moon and then the riverlands to the west, and the narrow sea to the east. The Vale consists of various regions: the Vale of Arryn itself; the Mountains of the Moon; the snakewood; the Fingers; and the islands of the Three Sisters, the Paps, and Pebble.</Text>
+			<Text>最终，阿提斯·艾林取得了胜利[1]，艾林家族成为了现存最古老的安达尔人贵族后裔之一。他们几个世纪以来都统治者整个谷地，自立为王，直到臣服于征服者伊耿。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_VALE_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
-			<Text>The Vale is located on the eastern shore of Westeros, a land of fertile soil, rivers, and lakes, protected by its largely impassable Mountains of the Moon. The Vale tends to be slightly isolated from the rest of Westeros. Its harsh winters make travel only possible through the mountains during warmer years, and rebellious mountain clans make travel even more dangerous. The Vale can be reached through the high road, which connects the Vale and the riverlands, and is protected by the Bloody Gate.</Text>
+			<Text>谷地位于维斯特洛的东岸，四周被明月山脉所环抱，地势险要，易守难攻，只有一条道路通往河间地，谷地与外界基本处于半隔绝状态。加之谷内的气候严酷多变，只有在每年的特定时节才能容得旅者进出，而生活在大山之中的高山氏族部落一直未曾臣服于鹰巢城，经常袭击进出山谷的过往人员。 </Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_VALE_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
-			<Text>The mountainous border of the Vale of Arryn proper appears to include the Bloody Gate in the west and the Eyrie and Longbow Hall to the north. The fertile lands within the valley include Ironoaks, Old Anchor, Redfort, and a peninsula containing the city of Gulltown and Runestone. The town of Wickenden is located along the Bay of Crabs, in the mountains south of the valley. Castles north of the Vale proper in the valleys of the Mountains of the Moon and the snakewood forest[3] include Coldwater, Heart's Home, Snakewood, and Strongsong.</Text>
+			<Text>谷地东临狭海，北面的咬人湾中有三姐妹群岛和卵石岛、乳头岛，往南则是谷地最重要的港口城市——海鸥镇，它坐落在螃蟹湾旁。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_VALE_CHAPTER_HISTORY_PARA_6" Language="zh_Hans_CN">
-			<Text>The Valemen, the people of the Vale, are known as reliable warriors steeped in honor and the worship of the Faith of the Seven. The knights of the Vale consider themselves the finest in the Seven Kingdoms, and the Valemen consider the Eyrie to be the most beautiful castle of the realm.[8] The island people of the Three Sisters are known as Sistermen.</Text>
+			<Text>谷地的居民通常被叫做谷地人，被认为是值得尊敬并充满荣誉感的可靠战士，他们有着对七神的坚定信仰。有一部分居住于明月山脉脚下的部族，拒绝接受来自鹰巢城的统治，自己占山为王，其中就包括了黑耳部和灼人部等。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_VALE_CHAPTER_HISTORY_PARA_7" Language="zh_Hans_CN">
-			<Text>Some of the people living in the foothills of the Mountains of the Moon have rejected the authority of the Eyrie and live by their own rules. These mountain clans, such as the Black Ears and the Burned Men, are descendants of the First Men who raid unwary travelers and skirmish with the knights of the Vale.</Text>
+			<Text>小麦、大麦、玉米在谷地都有种植。谷底出产的南瓜比来自以富饶著称的高庭的要更为硕大，出产水果也更为甜美。魏克利家族以制造熏香蜡烛而闻名。 这些蜡烛是用肉豆蔻和其他一些昂贵的香料熏制而成。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_THE_VALE_CHAPTER_HISTORY_PARA_8" Language="zh_Hans_CN">
-			<Text>Wheat, corn, and barley is grown in the Vale. Not even in Highgarden do the pumpkins grow any larger nor is the fruit any sweeter. House Waxley is known for producing scented candles in Wickenden. The candles can be scented with nutmeg and other costly spices.</Text>
+			<Text></Text>
 		</Replace>
 
 		<!--LEADER-->
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JON_ARRYN_TITLE" Language="zh_Hans_CN">
-			<Text>Jon Arryn</Text>
+			<Text>琼恩·艾林</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JON_ARRYN_SUBTITLE" Language="zh_Hans_CN">
-			<Text>Lord of the Eyrie, Defender of the Vale, Warden of the East, Hand of the King, Keeper of the Gates of the Moon</Text>
+			<Text>鹰巢城公爵、峡谷守护者和东境守护</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JON_ARRYN_QUOTE" Language="zh_Hans_CN">
-			<Text>"I need good men about me. Men like Jon Arryn." - Robert Baratheon</Text>
+			<Text>“我需要好人在我身边。像琼恩·艾林这样的老好人。”——劳伯·拜拉席恩</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JON_ARRYN_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
-			<Text>Jon had broad shoulders. Half of his teeth had fallen out by the time he married Lysa Tully. As a younger man he resembled Harrold Hardyng, who has blue eyes, blonde hair, and an aquiline nose. Lysa resented his poor breath.</Text>
+			<Text>琼恩·艾林有宽阔的肩膀，在与莱莎·徒利结婚时就已经掉了一半牙齿。年轻时的他与哈罗德·哈顿外貌相似，有着蓝眼金发和鹰勾鼻。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JON_ARRYN_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
-			<Text>Jon had a reputation for being prudent, calming and wise, and kindly and trusting. He was cordial but not friendly toward Lord Stannis Baratheon. While in King's Landing, Lysa commissioned a double-edged longsword for Jon which he carried while sitting the Iron Throne in place of King Robert I Baratheon. Jon's blade has wings on its crossguard, a falcon-head pommel, and is engraved in silver to resemble mountain sky. Jon preferred functional armor, rather than jeweled and silvered plate.</Text>
+			<Text>在君临期间，莱莎为琼恩打造了一把长剑，每当他代替劳勃国王坐上铁王座时便会佩戴。剑身用银线雕镂出山间长空的纹理，剑柄如猎鹰的头，护手则是两只翅膀。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JON_ARRYN_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
-			<Text>Jon was born as the eldest son of Lord Jasper Arryn. Not much is known about his youth or his parents. He had a younger brother, Ronnel, and a sister, Alys, who married Ser Elys Waynwood. Jon was Keeper of the Gates of the Moon while his father lived, and after his father's death he named his brother Ronnel and later his cousin Denys to that position. Because of the Vale mountain clans, Jon always traveled in strength when crossing the Mountains of the Moon.</Text>
+			<Text>琼恩是贾斯皮·艾林公爵的长子。他的青年时代和双亲没有多少记载。他有一个弟弟罗纳和姐妹亚丽，她嫁给了伊利·韦伍德爵士。父亲在世时，琼恩是月门守护；父亲死后，他先后命弟弟罗纳和表亲丹尼斯·艾林担任此职。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JON_ARRYN_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
-			<Text>Jon's first wife was Jeyne Royce, but she died in childbed, their daughter stillborn. His second marriage was to Replaceena Arryn, a cousin, who died of a winter chill during a childless marriage. Because he had no children, Jon's heir became his nephew, Elbert, the son of Ronnel.</Text>
+			<Text>琼恩·艾林有过三次婚姻。第一任是珍妮·罗伊斯，但珍妮死于分娩，生下的女婴也是个死胎；第二任是堂妹露云娜·艾林，死于寒病，没有生下子嗣。[8] 琼恩指定了许多继承人，但他们却一个个先于自己死去：第一个继承人是弟弟罗纳的小儿子艾伯特·艾林，但在篡夺者战争前被伊里斯二世国王处死。第二顺位的丹尼斯成为继承人。他来自一支潦倒的艾林家族分支，娶了琼恩的外甥女。丹尼斯在鸣钟之役被杀。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_JON_ARRYN_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
-			<Text>Jon fostered Eddard Stark and Robert Baratheon as his wards in the Vale of Arryn. As they grew, the two boys became close companions and regarded the childless Jon as a second father. The only blade used by Robert was a hunting knife he received from Jon as a boy. Jon declined to foster the grandsons of Lord Walder Frey.</Text>
+			<Text>在劳勃的叛乱期间，琼恩娶了霍斯特·徒利公爵之女莱莎·徒利，他也因此获得了奔流城的支持，并且确保艾林家族有了继承人。[11] 然而他们的婚姻没有幸福。琼恩的苍老与口臭让莱莎感到厌恶。在多次流产后，莱莎终于给了琼恩一个体弱多病的继承人，劳勃·艾林。</Text>
 		</Replace>
 
 		<!--UNITS-->
 		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_VALE_KNIGHT_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
-			<Text>The tradition of knighthood is strong in the Vale. During the Andal invasion of Westeros, the Andals first landed in the Fingers. Legends claim that the first King of Mountain and Vale, Ser Artys I Arryn, was the Winged Knight.</Text>
+			<Text>峡谷骑士传统很强烈。 在安达尔人入侵维斯特洛时，安达尔人斯首次登陆五指半岛。</Text>
 		</Replace>
 		<Replace Tag="LOC_PEDIA_UNITS_PAGE_UNIT_VALE_KNIGHT_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
-			<Text>The knights of the Vale are sent out in search of the Vale mountain clans on occasion. The lesser clansmen tend to be wiped out by these knights.</Text>
+			<Text>峡谷骑士有时会被派出去寻找谷地的高山部落。 较小的部落往往会被这些骑士消灭。</Text>
 		</Replace>
 
 		<!--CIVINFO-->
 		<Replace Tag="LOC_CIVINFO_THE_VALE_LOCATION" Language="zh_Hans_CN">
-			<Text>The Vale</Text>
+			<Text>艾林谷</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVINFO_THE_VALE_SIZE" Language="zh_Hans_CN">
-			<Text>The borders of the Vale are held to be the Bite to the north, the Bay of Crabs to the south, the Mountains of the Moon and then the riverlands to the west, and the narrow sea to the east.</Text>
+			<Text>谷地位于维斯特洛的东岸，四周被明月山脉所环抱，地势险要，易守难攻，只有一条道路通往河间地，谷地与外界基本处于半隔绝状态。</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVINFO_THE_VALE_POPULATION" Language="zh_Hans_CN">
-			<Text>The Valemen, the people of the Vale, are known as reliable warriors steeped in honor and the worship of the Faith of the Seven. The knights of the Vale consider themselves the finest in the Seven Kingdoms, and the Valemen consider the Eyrie to be the most beautiful castle of the realm. The island people of the Three Sisters are known as Sistermen.</Text>
+			<Text>谷地的居民通常被叫做谷地人，被认为是值得尊敬并充满荣誉感的可靠战士，他们有着对七神的坚定信仰。有一部分居住于明月山脉脚下的部族，拒绝接受来自鹰巢城的统治，自己占山为王，其中就包括了黑耳部和灼人部等。</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVINFO_THE_VALE_CAPITAL" Language="zh_Hans_CN">
-			<Text>The Eyrie</Text>
+			<Text>鹰巢城</Text>
 		</Replace>
 
 		<!--DIPLO-->
 
 		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_HUMAN_LEADER_JON_ARRYN_ANY" Language="zh_Hans_CN">
-			<Text>A long lasting friendship makes us both strong. I must accept.</Text>
+			<Text>长久的友谊会使我们彼此都变得强大。我必须接受</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_JON_ARRYN_ANY" Language="zh_Hans_CN">
-			<Text>ALthough I'm commonly friendly to people. You are not my kind.</Text>
+			<Text>虽然我通常对人都很友好。但你我不是一类人。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_JON_ARRYN_ANY" Language="zh_Hans_CN">
-			<Text>I wish you may find it fit to declare friendship with us.</Text>
+			<Text>我希望你能发现我们之间的友谊是合适的。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_ACCEPT_DECLARE_FRIEND_FROM_AI_LEADER_JON_ARRYN_ANY" Language="zh_Hans_CN">
-			<Text>Yes! And I'm looking forward to our alliance soon.</Text>
+			<Text>太棒了!我会期待着我们联盟的成立。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_AI_LEADER_JON_ARRYN_ANY" Language="zh_Hans_CN">
-			<Text>Loner dies in the long winter. Because the night is long and full of terrors. Why these words came to me?</Text>
+			<Text>Loner逝去在这漫长的冬日里。因为这夜晚事如此的漫长并充满了恐怖。为啥我会突然想到这些？</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_HUMAN_LEADER_JON_ARRYN_ANY" Language="zh_Hans_CN">
-			<Text>Good, try us! Your army can't even reach my Gates of the Moon, I swear.</Text>
+			<Text>既然如此，尽管去试吧。我发誓你的军队甚至无法到达我的月门堡。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_DECLARE_WAR_FROM_AI_LEADER_JON_ARRYN_ANY" Language="zh_Hans_CN">
-			<Text>Your existence just went beyond our line. Now I shall strike with the Knight of Vale, to end your tyranny.</Text>
+			<Text>你的存在超越了我们的限度。现在我将与峡谷骑士一起进攻，来结束你的暴政。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_ACCEPT_DELEGATION_FROM_HUMAN_LEADER_JON_ARRYN_ANY" Language="zh_Hans_CN">
-			<Text>I will see to it that your trade delegation will reach Eyrie safe and warm. Our suggestion for him is not to look down on his way.</Text>
+			<Text>我将确保您的使团将安全地到达鹰巢城。希望他们没有恐高症。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_REJECT_DELEGATION_FROM_HUMAN_LEADER_JON_ARRYN_ANY" Language="zh_Hans_CN">
-			<Text>We close our path up to Eyrie durion winter time. You may come next time.</Text>
+			<Text>通往鹰巢城的道路在冬天会被封锁，请下次再来吧。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_DELEGATION_FROM_AI_LEADER_JON_ARRYN_ANY" Language="zh_Hans_CN">
-			<Text>I've sent my trade delegations to you with our famous giant pumpinks and various fruit products. Hope you will enjoy them.</Text>
+			<Text>我已经向你送去了载满我们著名巨型南瓜和各式水果的代表团，希望您能喜欢。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_HUMAN_LEADER_JON_ARRYN_ANY" Language="zh_Hans_CN">
-			<Text>Words are winds, but words are dangerous. There won't be any good result out of this.</Text>
+			<Text>甜美的言语就像美酒，但它同时也很危险。因为它往往不会带来什么好的结果。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_JON_ARRYN_ANY" Language="zh_Hans_CN">
-			<Text>If you find it hard to keep friendly to others, I will find it difficult to deal with you.</Text>
+			<Text>如果你无法对他人保持和善，那么我们也很难与你相处。</Text>
 		</Replace>
-		<Replace Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_AGENDA_THE_NOBLE_HAND" Language="zh_Hans_CN">
-			<Text>(You denounced their friend/you are not trading with them.)</Text>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_AGENDA_THE_NOBLE_HAND_DENOUNCED_FRIEND" Language="zh_Hans_CN">
+			<Text>(你谴责了他的好友)</Text>
+		</Replace>
+		<Replace Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_AGENDA_THE_NOBLE_HAND_TRADE" Language="zh_Hans_CN">
+			<Text>(你没有与他们交易)</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_FIRST_MEET_LEADER_JON_ARRYN_ANY" Language="zh_Hans_CN">
-			<Text>You are speaking to Ser Jon Arryn, Lord of the Eyrie, Defender of the Vale, Warden of the East, Hand of the King, Keeper of the Gates of the Moon. I'm impressed that you made you way here, wasn't easy was it? How may I serve you?</Text>
+			<Text>我是鹰巢城公爵、峡谷守护者和东境守护，琼恩·艾林。实在是太令人惊讶了，你居然来到了这里。那么有什么我能为你效劳的么。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_FIRST_MEET_VISIT_RECIPIENT_LEADER_JON_ARRYN_ANY" Language="zh_Hans_CN">
-			<Text>Take a tour up the Eyrie please. You will see a view beyond your imagination. And would you like to maybe send a son to my place? I'm known as a good foster father.</Text>
+			<Text>欢迎来我的鹰巢城参观，你将看到超出你想象的美景。你是否愿意送一个质子到我这来呢，我的慈父形象广为人知。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_FIRST_MEET_NEAR_INITIATOR_POSITIVE_LEADER_JON_ARRYN_ANY" Language="zh_Hans_CN">
-			<Text>I would like to take a tour to your cities. Sometimes my cliffs, rocks and blue sky gets me bored.</Text>
+			<Text>我想去你的城市看看。有时我也会看腻了那一成不变的悬崖，岩石和蓝天。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_FIRST_MEET_NO_MANS_INFO_EXCHANGE_LEADER_JON_ARRYN_ANY" Language="zh_Hans_CN">
-			<Text>Tell me about your capital. Is it on a mountain? I believe no, Eyrie must be the only one castle that's crazy enough to settle on a summit.</Text>
+			<Text>和我说说你的都城吧。它在山上吗？答案一定是否定的，鹰巢城肯定是唯一一个疯狂到会在山顶上定居的城堡。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_GREETING_LEADER_JON_ARRYN_ANY" Language="zh_Hans_CN">
-			<Text>How may I serve you?</Text>
+			<Text>有什么我能为你效劳的么?</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_KUDO_EXIT_LEADER_JON_ARRYN_ANY" Language="zh_Hans_CN">
-			<Text>Friendship and alliance is the key point for survival. I'm glad you understand it.</Text>
+			<Text>友谊和联盟是生存的关键。 我很高兴你理解这点。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_MODIFIER_THE_NOBLE_HAND_DECLARED_FRIEND" Language="zh_Hans_CN">
-			<Text>Jon Arryn is glad to see you be friendly.</Text>
+			<Text>琼恩·艾林很高兴看到你如此友好</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_KUDO_LEADER_JON_ARRYN_REASON_TRADE" Language="zh_Hans_CN">
-			<Text>Trading makes both of us thrive. I'm glad you see to value in it.</Text>
+			<Text>交易对我们双方都有助益。我很高兴你能理解这点。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_MODIFIER_THE_NOBLE_HAND_TRADE" Language="zh_Hans_CN">
-			<Text>Jon Arryn is glad to receive trade routes from you.</Text>
+			<Text>琼恩·艾林很高兴看到你与他的新商路</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_WARNING_EXIT_LEADER_JON_ARRYN_ANY" Language="zh_Hans_CN">
-			<Text>Enemy to my friends are then my enemy.</Text>
+			<Text>与我的朋友为敌就是与我为敌。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_MODIFIER_THE_NOBLE_HAND_DENOUNCED_FRIEND" Language="zh_Hans_CN">
-			<Text>Jon Arryn is angry that you denounced their friend.</Text>
+			<Text>琼恩·艾林对你谴责了他的好友感到生气</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_MAKE_ALLIANCE_FROM_AI_LEADER_JON_ARRYN_ANY" Language="zh_Hans_CN">
-			<Text>I'm honored to offer you our alliance. We can help each other on greater goals.</Text>
+			<Text>我很诚挚的邀请您与我共同组成联盟。我们可以互相帮助实现更大的目标。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_ACCEPT_DEAL_LEADER_JON_ARRYN_ANY" Language="zh_Hans_CN">
-			<Text>War isn't my favorite means of diplomacy. Good you would consider some other methods to settle our problems.</Text>
+			<Text>我不是很喜欢战争这种外交手段。希望你会考虑其他一些方法来解决我们的问题。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_MAKE_PEACE_AI_REFUSE_DEAL_LEADER_JON_ARRYN_ANY" Language="zh_Hans_CN">
-			<Text>I'd ask Yohn. Seems he's unwilling to retreat at the moment.</Text>
+			<Text>我询问过约翰。他现在似乎还不愿撤退。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_MAKE_PEACE_FROM_AI_LEADER_JON_ARRYN_ANY" Language="zh_Hans_CN">
-			<Text>I wish you'd be happy with the terms. And let's deal with our matters more delicately next time.</Text>
+			<Text>我希望你对我们提出的条款感到满意。也许下次我们能更巧妙地处理我们之间的分歧。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_ACCEPT_OPEN_BORDERS_FROM_HUMAN_LEADER_JON_ARRYN_ANY" Language="zh_Hans_CN">
-			<Text>You may pass. But be careful about the mountain tribes.</Text>
+			<Text>你可以通过这里。但还请小心附近的高山部落。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_REJECT_OPEN_BORDERS_FROM_HUMAN_LEADER_JON_ARRYN_ANY" Language="zh_Hans_CN">
-			<Text>I don't believe our people welcome outlanders at the moment.</Text>
+			<Text>我的人们似乎还没准备好与外乡人交流。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_OPEN_BORDERS_FROM_AI_LEADER_JON_ARRYN_ANY" Language="zh_Hans_CN">
-			<Text>Please allow my knights to pass. They are well disciplined and won't bother your people. You have my word.</Text>
+			<Text>请允许我的骑士通过。他们训练有素，不会有多余的行为。我向你保证。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_WARNING_TOO_MANY_TROOPS_NEAR_ME_LEADER_JON_ARRYN_ANY" Language="zh_Hans_CN">
-			<Text>I consider this an agressive move. Shall we talk about it before "incidents" actually happen?</Text>
+			<Text>我认为这是一个带有侵略性的举动。在“事件”真正发生之前，我们应该谈谈。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_DEFEAT_FROM_AI_LEADER_JON_ARRYN_ANY" Language="zh_Hans_CN">
-			<Text>The death of the noble Hand, Jon Arryn, will unleash a madness on the land, a madness of pride and violence... I've made such a mistake...</Text>
+			<Text>王国之手琼恩·艾林的死将在这片土地上引发疯狂，骄傲和暴力的疯狂...我居然犯了这样的错误...</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_REJECT_MAKE_DEAL_FROM_AI_LEADER_JON_ARRYN_ANY" Language="zh_Hans_CN">
-			<Text>No, thanks.</Text>
+			<Text>不，我觉得不行。</Text>
 		</Replace>
 		<Replace Tag="LOC_DIPLO_ACCEPT_MAKE_DEAL_FROM_AI_LEADER_JON_ARRYN_ANY" Language="zh_Hans_CN">
-			<Text>Sounds good to me.</Text>
+			<Text>听起来不错。</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>

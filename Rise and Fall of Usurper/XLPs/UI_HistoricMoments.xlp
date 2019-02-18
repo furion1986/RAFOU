@@ -41,6 +41,54 @@
 			<m_EntryID text="HM_Sellswords"/>
 			<m_ObjectName text="HM_Sellswords"/>
 		</Element>
+		<Element>
+			<m_EntryID text="HM_Dragonpit"/>
+			<m_ObjectName text="HM_Dragonpit"/>
+		</Element>
+		<Element>
+			<m_EntryID text="HM_RedwyneFleet"/>
+			<m_ObjectName text="HM_RedwyneFleet"/>
+		</Element>
+		<Element>
+			<m_EntryID text="HM_SandSnake"/>
+			<m_ObjectName text="HM_SandSnake"/>
+		</Element>
+		<Element>
+			<m_EntryID text="HM_Squire"/>
+			<m_ObjectName text="HM_Squire"/>
+		</Element>
+		<Element>
+			<m_EntryID text="HM_TargaryenDragon"/>
+			<m_ObjectName text="HM_TargaryenDragon"/>
+		</Element>
+		<Element>
+			<m_EntryID text="HM_Thrall"/>
+			<m_ObjectName text="HM_Thrall"/>
+		</Element>
+		<Element>
+			<m_EntryID text="HM_WaterGarden"/>
+			<m_ObjectName text="HM_WaterGarden"/>
+		</Element>
+		<Element>
+			<m_EntryID text="HM_ArborWinery"/>
+			<m_ObjectName text="HM_ArborWinery"/>
+		</Element>
+		<Element>
+			<m_EntryID text="HM_BrotherhoodWithoutBanners"/>
+			<m_ObjectName text="HM_BrotherhoodWithoutBanners"/>
+		</Element>
+		<Element>
+			<m_EntryID text="HM_CaptainsTavern"/>
+			<m_ObjectName text="HM_CaptainsTavern"/>
+		</Element>
+		<Element>
+			<m_EntryID text="HM_CrescentChamber"/>
+			<m_ObjectName text="HM_CrescentChamber"/>
+		</Element>
+		<Element>
+			<m_EntryID text="HM_TwinTowers"/>
+			<m_ObjectName text="HM_TwinTowers"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

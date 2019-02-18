@@ -335,13 +335,21 @@
 		<Row TraitType="TRAIT_AGENDA_PRINCE_OF_DORNE" ModifierId="AGENDA_PRINCE_OF_DORNE_HIGH_HAPPINESS"/>
 		<Row TraitType="TRAIT_AGENDA_PRINCE_OF_DORNE" ModifierId="AGENDA_PRINCE_OF_DORNE_LOW_HAPPINESS"/>	
 		<!-- Rhaegar Targaryen leads the Crownlands -->
-		<Row>
+		<!--Row>
 			<TraitType>TRAIT_THE_SILVER_PRINCE</TraitType>
 			<ModifierId>TRAIT_RT_PALACE_GM_POINTS</ModifierId>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_THE_SILVER_PRINCE</TraitType>
+			<ModifierId>TRAIT_RT_PALACE_GW_POINTS</ModifierId>
+		</Row-->
+		<Row>
+			<TraitType>TRAIT_THE_SILVER_PRINCE</TraitType>
 			<ModifierId>TRAIT_RT_PALACE_MUSIC_SLOTS</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_THE_SILVER_PRINCE</TraitType>
+			<ModifierId>TRAIT_RT_PALACE_WRITING_SLOTS</ModifierId>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_THE_SILVER_PRINCE</TraitType>
@@ -349,19 +357,67 @@
 		</Row>
 		<Row>
 			<TraitType>TRAIT_THE_SILVER_PRINCE</TraitType>
+			<ModifierId>TRAIT_RT_TALL_WRITING_SLOTS</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_THE_SILVER_PRINCE</TraitType>
+			<ModifierId>TRAIT_RT_TALL_GW_POINTS</ModifierId>
+		</Row>		
+		<Row>
+			<TraitType>TRAIT_THE_SILVER_PRINCE</TraitType>
 			<ModifierId>TRAIT_RT_WIDE_MUSIC_SLOTS</ModifierId>
 		</Row>
+		<Row>
+			<TraitType>TRAIT_THE_SILVER_PRINCE</TraitType>
+			<ModifierId>TRAIT_RT_WIDE_WRITING_SLOTS</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_THE_SILVER_PRINCE</TraitType>
+			<ModifierId>TRAIT_RT_WIDE_GW_POINTS</ModifierId>
+		</Row>		
 		<Row>
 			<TraitType>TRAIT_THE_SILVER_PRINCE</TraitType>
 			<ModifierId>TRAIT_RT_CONQUEST_MUSIC_SLOTS</ModifierId>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_THE_SILVER_PRINCE</TraitType>
+			<ModifierId>TRAIT_RT_CONQUEST_WRITING_SLOTS</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_THE_SILVER_PRINCE</TraitType>
+			<ModifierId>TRAIT_RT_CONQUEST_GW_POINTS</ModifierId>
+		</Row>		
+		<Row>
+			<TraitType>TRAIT_THE_SILVER_PRINCE</TraitType>
 			<ModifierId>TRAIT_RT_CITYSTATES_MUSIC_SLOTS</ModifierId>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_THE_SILVER_PRINCE</TraitType>
+			<ModifierId>TRAIT_RT_CITYSTATES_WRITING_SLOTS</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_THE_SILVER_PRINCE</TraitType>
+			<ModifierId>TRAIT_RT_CITYSTATES_GM_POINTS</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_THE_SILVER_PRINCE</TraitType>
+			<ModifierId>TRAIT_RT_CITYSTATES_GW_POINTS</ModifierId>
+		</Row>		
+		<Row>
+			<TraitType>TRAIT_THE_SILVER_PRINCE</TraitType>
 			<ModifierId>TRAIT_RT_SPIES_MUSIC_SLOTS</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_THE_SILVER_PRINCE</TraitType>
+			<ModifierId>TRAIT_RT_SPIES_WRITING_SLOTS</ModifierId>
+		</Row>
+				<Row>
+			<TraitType>TRAIT_THE_SILVER_PRINCE</TraitType>
+			<ModifierId>TRAIT_RT_SPIES_GM_POINTS</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_THE_SILVER_PRINCE</TraitType>
+			<ModifierId>TRAIT_RT_SPIES_GW_POINTS</ModifierId>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_THE_SILVER_PRINCE</TraitType>
@@ -369,11 +425,39 @@
 		</Row>
 		<Row>
 			<TraitType>TRAIT_THE_SILVER_PRINCE</TraitType>
+			<ModifierId>TRAIT_RT_FAITH_WRITING_SLOTS</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_THE_SILVER_PRINCE</TraitType>
+			<ModifierId>TRAIT_RT_FAITH_GM_POINTS</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_THE_SILVER_PRINCE</TraitType>
+			<ModifierId>TRAIT_RT_FAITH_GW_POINTS</ModifierId>
+		</Row>		
+		<Row>
+			<TraitType>TRAIT_THE_SILVER_PRINCE</TraitType>
 			<ModifierId>TRAIT_RT_MILITARY_MUSIC_SLOTS</ModifierId>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_THE_SILVER_PRINCE</TraitType>
+			<ModifierId>TRAIT_RT_MILITARY_WRITING_SLOTS</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_THE_SILVER_PRINCE</TraitType>
+			<ModifierId>TRAIT_RT_MILITARY_GM_POINTS</ModifierId>
+		</Row>		
+		<Row>
+			<TraitType>TRAIT_THE_SILVER_PRINCE</TraitType>
 			<ModifierId>TRAIT_RT_CULTURE_MUSIC_SLOTS</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_THE_SILVER_PRINCE</TraitType>
+			<ModifierId>TRAIT_RT_CULTURE_WRITING_SLOTS</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_THE_SILVER_PRINCE</TraitType>
+			<ModifierId>TRAIT_RT_CULTURE_GM_POINTS</ModifierId>
 		</Row>
 		<Row>
 			<TraitType>TRAIT_THE_SILVER_PRINCE</TraitType>
@@ -381,8 +465,28 @@
 		</Row>
 		<Row>
 			<TraitType>TRAIT_THE_SILVER_PRINCE</TraitType>
+			<ModifierId>TRAIT_RT_SCIENCE_WRITING_SLOTS</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_THE_SILVER_PRINCE</TraitType>
+			<ModifierId>TRAIT_RT_SCIENCE_GM_POINTS</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_THE_SILVER_PRINCE</TraitType>
 			<ModifierId>TRAIT_RT_MUSIC_FAITH</ModifierId>
 		</Row>
+		<Row>
+			<TraitType>TRAIT_THE_SILVER_PRINCE</TraitType>
+			<ModifierId>TRAIT_RT_MUSIC_GOLD</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_THE_SILVER_PRINCE</TraitType>
+			<ModifierId>TRAIT_RT_WRITING_FAITH</ModifierId>
+		</Row>
+		<Row>
+			<TraitType>TRAIT_THE_SILVER_PRINCE</TraitType>
+			<ModifierId>TRAIT_RT_WRITING_GOLD</ModifierId>
+		</Row>			
 		<Row TraitType="TRAIT_AGENDA_HARP_OVER_SWORD" ModifierId="AGENDA_HARP_OVER_SWORD_HIGH_CULTURE"/>
 		<Row TraitType="TRAIT_AGENDA_HARP_OVER_SWORD" ModifierId="AGENDA_HARP_OVER_SWORD_LOW_CULTURE"/>
 	</TraitModifiers>
@@ -655,49 +759,165 @@
 			<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS</ModifierType>
 		</Row>
 		<Row>
+			<ModifierId>TRAIT_RT_PALACE_GW_POINTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+		</Row>		
+		<Row>
 			<ModifierId>TRAIT_RT_PALACE_MUSIC_SLOTS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_GREAT_WORK_SLOTS</ModifierType>
 		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_PALACE_WRITING_SLOTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_GREAT_WORK_SLOTS</ModifierType>
+		</Row>		
 		<Row>
 			<ModifierId>TRAIT_RT_TALL_MUSIC_SLOTS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_GREAT_WORK_SLOTS</ModifierType>			
 		</Row>
 		<Row>
+			<ModifierId>TRAIT_RT_TALL_WRITING_SLOTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_GREAT_WORK_SLOTS</ModifierType>			
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_TALL_GW_POINTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_GOV_BUILDING_TALL_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>		
+		<Row>
 			<ModifierId>TRAIT_RT_WIDE_MUSIC_SLOTS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_GREAT_WORK_SLOTS</ModifierType>
 		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_WIDE_WRITING_SLOTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_GREAT_WORK_SLOTS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_WIDE_GW_POINTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_GOV_BUILDING_WIDE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>		
 		<Row>
 			<ModifierId>TRAIT_RT_CONQUEST_MUSIC_SLOTS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_GREAT_WORK_SLOTS</ModifierType>			
 		</Row>
 		<Row>
+			<ModifierId>TRAIT_RT_CONQUEST_WRITING_SLOTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_GREAT_WORK_SLOTS</ModifierType>			
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_CONQUEST_GW_POINTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_GOV_BUILDING_CONQUEST_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>		
+		<Row>
 			<ModifierId>TRAIT_RT_CITYSTATES_MUSIC_SLOTS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_GREAT_WORK_SLOTS</ModifierType>		
 		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_CITYSTATES_WRITING_SLOTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_GREAT_WORK_SLOTS</ModifierType>		
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_CITYSTATES_GM_POINTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_GOV_BUILDING_CITYSTATES_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_CITYSTATES_GW_POINTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_GOV_BUILDING_CITYSTATES_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>		
 		<Row>
 			<ModifierId>TRAIT_RT_SPIES_MUSIC_SLOTS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_GREAT_WORK_SLOTS</ModifierType>			
 		</Row>
 		<Row>
+			<ModifierId>TRAIT_RT_SPIES_WRITING_SLOTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_GREAT_WORK_SLOTS</ModifierType>			
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_SPIES_GM_POINTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_GOV_BUILDING_SPIES_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_SPIES_GW_POINTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_GOV_BUILDING_SPIES_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>		
+		<Row>
 			<ModifierId>TRAIT_RT_FAITH_MUSIC_SLOTS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_GREAT_WORK_SLOTS</ModifierType>		
 		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_FAITH_WRITING_SLOTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_GREAT_WORK_SLOTS</ModifierType>		
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_FAITH_GM_POINTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_GOV_BUILDING_FAITH_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_FAITH_GW_POINTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_GOV_BUILDING_FAITH_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>		
 		<Row>
 			<ModifierId>TRAIT_RT_MILITARY_MUSIC_SLOTS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_GREAT_WORK_SLOTS</ModifierType>			
 		</Row>
 		<Row>
+			<ModifierId>TRAIT_RT_MILITARY_WRITING_SLOTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_GREAT_WORK_SLOTS</ModifierType>			
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_MILITARY_GM_POINTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_GOV_BUILDING_MILITARY_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>		
+		<Row>
 			<ModifierId>TRAIT_RT_CULTURE_MUSIC_SLOTS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_GREAT_WORK_SLOTS</ModifierType>			
 		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_CULTURE_WRITING_SLOTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_GREAT_WORK_SLOTS</ModifierType>			
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_CULTURE_GM_POINTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_GOV_BUILDING_CULTURE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>		
 		<Row>
 			<ModifierId>TRAIT_RT_SCIENCE_MUSIC_SLOTS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_GREAT_WORK_SLOTS</ModifierType>			
 		</Row>
 		<Row>
+			<ModifierId>TRAIT_RT_SCIENCE_WRITING_SLOTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_EXTRA_GREAT_WORK_SLOTS</ModifierType>			
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_SCIENCE_GM_POINTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GREAT_PERSON_POINTS</ModifierType>
+			<SubjectRequirementSetId>PLAYER_HAS_GOV_BUILDING_SCIENCE_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>		
+		<Row>
 			<ModifierId>TRAIT_RT_MUSIC_FAITH</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREATWORK_YIELD</ModifierType>
 		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_MUSIC_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREATWORK_YIELD</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_WRITING_FAITH</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREATWORK_YIELD</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_WRITING_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_GREATWORK_YIELD</ModifierType>
+		</Row>		
 		<Row>
 			<ModifierId>AGENDA_HARP_OVER_SWORD_HIGH_CULTURE</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_SIMPLE_MODIFIER</ModifierType>
@@ -1292,6 +1512,7 @@
 			<Value>LOC_DIPLO_PRINCE_OF_DORNE_DESCRIPTION_LOW_HAPPINESS</Value>
 		</Row>		
 		<!-- Rhaegar Targaryen leads the Crownlands -->
+		<!-- PALACE -->
 		<Row>
 			<ModifierId>TRAIT_RT_PALACE_GM_POINTS</ModifierId>
 			<Name>GreatPersonClassType</Name>
@@ -1300,8 +1521,18 @@
 		<Row>
 			<ModifierId>TRAIT_RT_PALACE_GM_POINTS</ModifierId>
 			<Name>Amount</Name>
-			<Value>4</Value>
+			<Value>2</Value>
 		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_PALACE_GW_POINTS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_WRITER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_PALACE_GW_POINTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>		
 		<Row>
 			<ModifierId>TRAIT_RT_PALACE_MUSIC_SLOTS</ModifierId>
 			<Name>BuildingType</Name>
@@ -1315,8 +1546,24 @@
 		<Row>
 			<ModifierId>TRAIT_RT_PALACE_MUSIC_SLOTS</ModifierId>
 			<Name>Amount</Name>
-			<Value>4</Value>
+			<Value>2</Value>
 		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_PALACE_WRITING_SLOTS</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_PALACE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_PALACE_WRITING_SLOTS</ModifierId>
+			<Name>GreatWorkSlotType</Name>
+			<Value>GREATWORKSLOT_WRITING</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_PALACE_WRITING_SLOTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<!-- TALL -->		
 		<Row>
 			<ModifierId>TRAIT_RT_TALL_MUSIC_SLOTS</ModifierId>
 			<Name>BuildingType</Name>
@@ -1330,8 +1577,34 @@
 		<Row>
 			<ModifierId>TRAIT_RT_TALL_MUSIC_SLOTS</ModifierId>
 			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_TALL_WRITING_SLOTS</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_GOV_TALL</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_TALL_WRITING_SLOTS</ModifierId>
+			<Name>GreatWorkSlotType</Name>
+			<Value>GREATWORKSLOT_WRITING</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_TALL_WRITING_SLOTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_TALL_GW_POINTS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_WRITER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_TALL_GW_POINTS</ModifierId>
+			<Name>Amount</Name>
 			<Value>2</Value>
 		</Row>
+		<!-- WIDE -->
 		<Row>
 			<ModifierId>TRAIT_RT_WIDE_MUSIC_SLOTS</ModifierId>
 			<Name>BuildingType</Name>
@@ -1345,8 +1618,34 @@
 		<Row>
 			<ModifierId>TRAIT_RT_WIDE_MUSIC_SLOTS</ModifierId>
 			<Name>Amount</Name>
-			<Value>2</Value>
+			<Value>1</Value>
 		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_WIDE_WRITING_SLOTS</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_GOV_WIDE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_WIDE_WRITING_SLOTS</ModifierId>
+			<Name>GreatWorkSlotType</Name>
+			<Value>GREATWORKSLOT_WRITING</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_WIDE_WRITING_SLOTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_WIDE_GW_POINTS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_WRITER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_WIDE_GW_POINTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>		
+		<!-- CONQUEST -->
 		<Row>
 			<ModifierId>TRAIT_RT_CONQUEST_MUSIC_SLOTS</ModifierId>
 			<Name>BuildingType</Name>
@@ -1360,8 +1659,34 @@
 		<Row>
 			<ModifierId>TRAIT_RT_CONQUEST_MUSIC_SLOTS</ModifierId>
 			<Name>Amount</Name>
-			<Value>2</Value>
+			<Value>1</Value>
 		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_CONQUEST_WRITING_SLOTS</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_GOV_CONQUEST</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_CONQUEST_WRITING_SLOTS</ModifierId>
+			<Name>GreatWorkSlotType</Name>
+			<Value>GREATWORKSLOT_WRITING</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_CONQUEST_WRITING_SLOTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_CONQUEST_GW_POINTS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_WRITER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_CONQUEST_GW_POINTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>		
+		<!-- CITYSTATES -->
 		<Row>
 			<ModifierId>TRAIT_RT_CITYSTATES_MUSIC_SLOTS</ModifierId>
 			<Name>BuildingType</Name>
@@ -1375,8 +1700,44 @@
 		<Row>
 			<ModifierId>TRAIT_RT_CITYSTATES_MUSIC_SLOTS</ModifierId>
 			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_CITYSTATES_WRITING_SLOTS</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_GOV_CITYSTATES</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_CITYSTATES_WRITING_SLOTS</ModifierId>
+			<Name>GreatWorkSlotType</Name>
+			<Value>GREATWORKSLOT_WRITING</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_CITYSTATES_WRITING_SLOTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_CITYSTATES_GW_POINTS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_WRITER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_CITYSTATES_GW_POINTS</ModifierId>
+			<Name>Amount</Name>
 			<Value>2</Value>
 		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_CITYSTATES_GM_POINTS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_MUSICIAN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_CITYSTATES_GM_POINTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>		
+		<!-- SPIES -->
 		<Row>
 			<ModifierId>TRAIT_RT_SPIES_MUSIC_SLOTS</ModifierId>
 			<Name>BuildingType</Name>
@@ -1390,8 +1751,44 @@
 		<Row>
 			<ModifierId>TRAIT_RT_SPIES_MUSIC_SLOTS</ModifierId>
 			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_SPIES_WRITING_SLOTS</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_GOV_SPIES</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_SPIES_WRITING_SLOTS</ModifierId>
+			<Name>GreatWorkSlotType</Name>
+			<Value>GREATWORKSLOT_WRITING</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_SPIES_WRITING_SLOTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_SPIES_GW_POINTS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_WRITER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_SPIES_GW_POINTS</ModifierId>
+			<Name>Amount</Name>
 			<Value>2</Value>
 		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_SPIES_GM_POINTS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_MUSICIAN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_SPIES_GM_POINTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>			
+		<!-- FAITH -->
 		<Row>
 			<ModifierId>TRAIT_RT_FAITH_MUSIC_SLOTS</ModifierId>
 			<Name>BuildingType</Name>
@@ -1405,8 +1802,44 @@
 		<Row>
 			<ModifierId>TRAIT_RT_FAITH_MUSIC_SLOTS</ModifierId>
 			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_FAITH_WRITING_SLOTS</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_GOV_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_FAITH_WRITING_SLOTS</ModifierId>
+			<Name>GreatWorkSlotType</Name>
+			<Value>GREATWORKSLOT_WRITING</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_FAITH_WRITING_SLOTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_FAITH_GW_POINTS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_WRITER</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_FAITH_GW_POINTS</ModifierId>
+			<Name>Amount</Name>
 			<Value>2</Value>
 		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_FAITH_GM_POINTS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_MUSICIAN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_FAITH_GM_POINTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<!-- MILLITARY -->
 		<Row>
 			<ModifierId>TRAIT_RT_MILITARY_MUSIC_SLOTS</ModifierId>
 			<Name>BuildingType</Name>
@@ -1420,8 +1853,34 @@
 		<Row>
 			<ModifierId>TRAIT_RT_MILITARY_MUSIC_SLOTS</ModifierId>
 			<Name>Amount</Name>
-			<Value>2</Value>
+			<Value>1</Value>
 		</Row>
+				<Row>
+			<ModifierId>TRAIT_RT_MILITARY_WRITING_SLOTS</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_GOV_MILITARY</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_MILITARY_WRITING_SLOTS</ModifierId>
+			<Name>GreatWorkSlotType</Name>
+			<Value>GREATWORKSLOT_WRITING</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_MILITARY_WRITING_SLOTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_MILITARY_GM_POINTS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_MUSICIAN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_MILITARY_GM_POINTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<!-- CULTURE -->
 		<Row>
 			<ModifierId>TRAIT_RT_CULTURE_MUSIC_SLOTS</ModifierId>
 			<Name>BuildingType</Name>
@@ -1435,8 +1894,34 @@
 		<Row>
 			<ModifierId>TRAIT_RT_CULTURE_MUSIC_SLOTS</ModifierId>
 			<Name>Amount</Name>
-			<Value>2</Value>
+			<Value>1</Value>
 		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_CULTURE_WRITING_SLOTS</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_GOV_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_CULTURE_WRITING_SLOTS</ModifierId>
+			<Name>GreatWorkSlotType</Name>
+			<Value>GREATWORKSLOT_WRITING</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_CULTURE_WRITING_SLOTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_CULTURE_GM_POINTS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_MUSICIAN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_CULTURE_GM_POINTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<!-- SCIENCE -->
 		<Row>
 			<ModifierId>TRAIT_RT_SCIENCE_MUSIC_SLOTS</ModifierId>
 			<Name>BuildingType</Name>
@@ -1450,8 +1935,34 @@
 		<Row>
 			<ModifierId>TRAIT_RT_SCIENCE_MUSIC_SLOTS</ModifierId>
 			<Name>Amount</Name>
-			<Value>2</Value>
+			<Value>1</Value>
 		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_SCIENCE_WRITING_SLOTS</ModifierId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_GOV_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_SCIENCE_WRITING_SLOTS</ModifierId>
+			<Name>GreatWorkSlotType</Name>
+			<Value>GREATWORKSLOT_WRITING</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_SCIENCE_WRITING_SLOTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_SCIENCE_GM_POINTS</ModifierId>
+			<Name>GreatPersonClassType</Name>
+			<Value>GREAT_PERSON_CLASS_MUSICIAN</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_SCIENCE_GM_POINTS</ModifierId>
+			<Name>Amount</Name>
+			<Value>4</Value>
+		</Row>
+		<!-- GREATWORK YIELD -->
 		<Row>
 			<ModifierId>TRAIT_RT_MUSIC_FAITH</ModifierId>
 			<Name>GreatWorkObjectType</Name>
@@ -1465,8 +1976,53 @@
 		<Row>
 			<ModifierId>TRAIT_RT_MUSIC_FAITH</ModifierId>
 			<Name>YieldChange</Name>
-			<Value>8</Value>
+			<Value>6</Value>
 		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_MUSIC_GOLD</ModifierId>
+			<Name>GreatWorkObjectType</Name>
+			<Value>GREATWORKOBJECT_MUSIC</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_MUSIC_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_MUSIC_GOLD</ModifierId>
+			<Name>YieldChange</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_WRITING_FAITH</ModifierId>
+			<Name>GreatWorkObjectType</Name>
+			<Value>GREATWORKOBJECT_WRITING</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_WRITING_FAITH</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_FAITH</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_WRITING_FAITH</ModifierId>
+			<Name>YieldChange</Name>
+			<Value>6</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_WRITING_GOLD</ModifierId>
+			<Name>GreatWorkObjectType</Name>
+			<Value>GREATWORKOBJECT_WRITING</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_WRITING_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RT_WRITING_GOLD</ModifierId>
+			<Name>YieldChange</Name>
+			<Value>3</Value>
+		</Row>		
 		<Row>
 			<ModifierId>AGENDA_HARP_OVER_SWORD_HIGH_CULTURE</ModifierId>
 			<Name>InitialValue</Name>

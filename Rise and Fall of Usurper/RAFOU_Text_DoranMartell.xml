@@ -158,7 +158,12 @@
 			<Text>Obella</Text>
 		</Row>
 		<!--Agendas-->
-
+		<Row Tag="LOC_AGENDA_PRINCE_OF_DORNE_NAME">
+			<Text>Prince of Dorne</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_PRINCE_OF_DORNE_DESCRIPTION">
+			<Text>Likes civilizations that have happen citiznes.</Text>
+		</Row>		
 		<!--PEDIA-->
 		<!--CIV-->
 		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_WATER_GARDEN_CHAPTER_HISTORY_PARA_1">
@@ -234,7 +239,7 @@
 
 		<!--CIVINFO-->
 		<Row Tag="LOC_CIVINFO_DORNE_LOCATION">
-			<Text>The Riverlands</Text>
+			<Text>Dorne</Text>
 		</Row>
 		<Row Tag="LOC_CIVINFO_DORNE_SIZE">
 			<Text>Dorne is the large peninsula which makes up the southernmost part of Westeros, and is one of the constituent regions of the Seven Kingdoms.</Text>

@@ -233,10 +233,10 @@
 		</Replace>
 
 		<!--Unit Ability Descriptions-->
-		<Replace Language="zh_Hans_CN" Tag="LOC_ABILITY_MELEE_DEFEND_BONUS_MODIFIER_DESCRIPTION">
+		<Replace Language="zh_Hans_CN" Tag="LOC_ABILITY_TL_MELEE_DEFEND_BONUS_MODIFIER_DESCRIPTION">
 			<Text>防御时 +{1_Amount} 战斗力</Text>
 		</Replace>
-		<Replace Language="zh_Hans_CN" Tag="LOC_ABILITY_RANGED_WOUNDED_BONUS_MODIFIER_DESCRIPTION">
+		<Replace Language="zh_Hans_CN" Tag="LOC_ABILITY_TL_RANGED_WOUNDED_BONUS_MODIFIER_DESCRIPTION">
 			<Text>攻击受伤单位时 +{1_Amount} 战斗力</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_ABILITY_SELLSWORDS_NAME">
@@ -415,7 +415,7 @@
 			<Text>多么美好的提议，就这么办吧。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_REJECT_DECLARE_FRIEND_FROM_HUMAN_LEADER_TYWIN_LANNISTER_ANY">
-			<Text>西境而来的家伙，我必须拒绝你的请求。</Text>
+			<Text>看中我们黄金而来的家伙，我必须拒绝你的请求。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_DECLARE_FRIEND_FROM_AI_LEADER_TYWIN_LANNISTER_ANY">
 			<Text>有些战斗是用剑和枪打赢的，还有一些用的是笔和乌鸦打赢的。是否接受我的乌鸦带来的友谊呢？</Text>
@@ -468,26 +468,20 @@
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_GREETING_LEADER_TYWIN_LANNISTER_ANY">
 			<Text>你吼啊。</Text>
 		</Replace>
-		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_KUDO_LEADER_TYWIN_LANNISTER_REASON_AGENDA_HIGH_INCOME">
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_KUDO_EXIT_LEADER_TYWIN_LANNISTER_ANY">
 			<Text>你的国家如此富有强盛。请接收我的敬意。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_TYWIN_DESCRIPTION_HIGH_INCOME">
 			<Text>泰温·兰尼斯特乐于看到您的国家收入丰厚。</Text>
 		</Replace>
-		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_KUDO_LEADER_TYWIN_LANNISTER_REASON_AGENDA_HIGH_STANDING_ARMY">
-			<Text>训练有素的军队，十分的养眼。</Text>
-		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_TYWIN_DESCRIPTION_HIGH_STANDING_ARMY">
 			<Text>泰温·兰尼斯特感叹于您的军队强大。</Text>
 		</Replace>		
-		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_WARNING_LEADER_TYWIN_LANNISTER_REASON_AGENDA_LOW_INCOME">
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_WARNING_EXIT_LEADER_TYWIN_LANNISTER_ANY">
 			<Text>没钱你准备拿什么保护你的国民？</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_TYWIN_DESCRIPTION_LOW_INCOME">
 			<Text>泰温·兰尼斯特认为你的收入不足。</Text>
-		</Replace>
-		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_WARNING_LEADER_TYWIN_LANNISTER_REASON_AGENDA_LOW_STANDING_ARMY">
-			<Text>这些虾兵蟹将不是你的国防军吧？太难看了……</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_TYWIN_DESCRIPTION_LOW_STANDING_ARMY">
 			<Text>泰温·兰尼斯特认为你的国防空虚。</Text>
@@ -583,14 +577,11 @@
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_GREETING_LEADER_ROBERT_BARATHEON_ANY">
 			<Text>嘿嘿嘿，吼开心。</Text>
 		</Replace>
-		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_KUDO_LEADER_ROBERT_BARATHEON_REASON_AGENDA_SAME_GOVERNMENT">
-			<Text>我们有着同样的思想。看来我们可以做个好朋友。</Text>
+		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_KUDO_EXIT_LEADER_ROBERT_BARATHEON_ANY">
+			<Text>志同道合的武装力量。看来我们可以做个好朋友。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_ROBERT_DESCRIPTION_SAME_GOVERNMENT">
 			<Text>劳伯欣赏您与他采用相同的政体。</Text>
-		</Replace>
-		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_KUDO_LEADER_ROBERT_BARATHEON_REASON_AGENDA_HIGH_STANDING_ARMY">
-			<Text>强大的军队，这非常好。</Text>
 		</Replace>
 		<Replace Language="zh_Hans_CN" Tag="LOC_DIPLO_ROBERT_DESCRIPTION_HIGH_STANDING_ARMY">
 			<Text>劳伯欣赏您强大的军事力量。</Text>

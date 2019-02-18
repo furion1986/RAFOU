@@ -99,7 +99,12 @@
 			<Text>Shella Whent</Text>
 		</Row>
 		<!--Agendas-->
-
+		<Row Tag="LOC_AGENDA_LORD_TROUT_NAME">
+			<Text>Lord Trout</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_LORD_TROUT_DESCRIPTION">
+			<Text>Likes civilizations that don't compete for city-state allegiance. Dislikes civilizations that are directly competing for city-state allegiance.</Text>
+		</Row>		
 		<!--PEDIA-->
 		<!--DISTRICT-->
 		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_THE_TWIN_TOWERS_CHAPTER_HISTORY_PARA_1">

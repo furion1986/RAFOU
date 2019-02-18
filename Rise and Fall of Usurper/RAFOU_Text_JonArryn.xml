@@ -25,7 +25,7 @@
 			<Text>The Bloody Gate</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_THE_VALE_CITY_3">
-			<Text>Culltown</Text>
+			<Text>Gulltown</Text>
 		</Row>
 		<Row Tag="LOC_CIVILIZATION_THE_VALE_CITY_4">
 			<Text>Oldtown</Text>
@@ -106,7 +106,12 @@
 			<Text>Your delegate, {1_Name}, sent a raven back to Crescent Chamber informing you that</Text>
 		</Row>
 		<!--Agendas-->
-
+		<Row Tag="LOC_AGENDA_THE_NOBLE_HAND_NAME">
+			<Text>The Noble Hand</Text>
+		</Row>
+		<Row Tag="LOC_AGENDA_THE_NOBLE_HAND_DESCRIPTION">
+			<Text>Likes civilizations in friendship and establish trade routes with them. Dislikes civilizations that denounced their friends.</Text>
+		</Row>
 		<!--PEDIA-->
 		<!--DISTRICT-->
 		<Row Tag="LOC_PEDIA_DISTRICTS_PAGE_DISTRICT_GATE_OF_THE_MOON_CHAPTER_HISTORY_PARA_1">
@@ -230,8 +235,11 @@
 		<Row Tag="LOC_DIPLO_DENOUNCE_FROM_AI_LEADER_JON_ARRYN_ANY">
 			<Text>If you find it hard to keep friendly to others, I will find it difficult to deal with you.</Text>
 		</Row>
-		<Row Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_AGENDA_THE_NOBLE_HAND">
-			<Text>(You denounced their friend/you are not trading with them.)</Text>
+		<Row Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_AGENDA_THE_NOBLE_HAND_DENOUNCED_FRIEND">
+			<Text>(You denounced their friend.)</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_DENOUNCE_REASON_FROM_AI_LEADER_ANY_REASON_AGENDA_THE_NOBLE_HAND_TRADE">
+			<Text>(You are not trading with them.)</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_FIRST_MEET_LEADER_JON_ARRYN_ANY">
 			<Text>You are speaking to Ser Jon Arryn, Lord of the Eyrie, Defender of the Vale, Warden of the East, Hand of the King, Keeper of the Gates of the Moon. I'm impressed that you made you way here, wasn't easy was it? How may I serve you?</Text>

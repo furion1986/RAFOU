@@ -233,10 +233,10 @@
 		</Row>
 
 		<!--Unit Ability Descriptions-->
-		<Row Tag="LOC_ABILITY_MELEE_DEFEND_BONUS_MODIFIER_DESCRIPTION">
+		<Row Tag="LOC_ABILITY_TL_MELEE_DEFEND_BONUS_MODIFIER_DESCRIPTION">
 			<Text>+{1_Amount} Combat Strength when defending</Text>
 		</Row>
-		<Row Tag="LOC_ABILITY_RANGED_WOUNDED_BONUS_MODIFIER_DESCRIPTION">
+		<Row Tag="LOC_ABILITY_TL_RANGED_WOUNDED_BONUS_MODIFIER_DESCRIPTION">
 			<Text>+{1_Amount} Combat Strength to wounded unit</Text>
 		</Row>
 		<Row Tag="LOC_ABILITY_SELLSWORDS_NAME">
@@ -481,26 +481,20 @@
 		<Row Tag="LOC_DIPLO_GREETING_LEADER_TYWIN_LANNISTER_ANY">
 			<Text>Greetings.</Text>
 		</Row>
-		<Row Tag="LOC_DIPLO_KUDO_LEADER_TYWIN_LANNISTER_REASON_AGENDA_HIGH_INCOME">
-			<Text>Your people don't have to worry about poverty. You have my congratulations.</Text>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_TYWIN_LANNISTER_ANY">
+			<Text>Your people don't have to worry about poverty or protection. You have my congratulations.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_TYWIN_DESCRIPTION_HIGH_INCOME">
 			<Text>Tywin Lannister likes to see you have high gold income.</Text>
 		</Row>
-		<Row Tag="LOC_DIPLO_KUDO_LEADER_TYWIN_LANNISTER_REASON_AGENDA_HIGH_STANDING_ARMY">
-			<Text>A strong, well maintained army... Magnificent view.</Text>
-		</Row>
 		<Row Tag="LOC_DIPLO_TYWIN_DESCRIPTION_HIGH_STANDING_ARMY">
 			<Text>Tywin Lannister likes to see you with a strong standing army.</Text>
 		</Row>
-		<Row Tag="LOC_DIPLO_WARNING_LEADER_TYWIN_LANNISTER_REASON_AGENDA_LOW_INCOME">
+		<Row Tag="LOC_DIPLO_WARNING_EXIT_LEADER_TYWIN_LANNISTER_ANY">
 			<Text>Without gold, how would protect your people?</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_TYWIN_DESCRIPTION_LOW_INCOME">
 			<Text>Tywin Lannister thinks you have too low gold income.</Text>
-		</Row>
-		<Row Tag="LOC_DIPLO_WARNING_LEADER_TYWIN_LANNISTER_REASON_AGENDA_LOW_STANDING_ARMY">
-			<Text>You won't call these people soldiers, will you? What a shame...</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_TYWIN_DESCRIPTION_LOW_STANDING_ARMY">
 			<Text>Tywin Lannister thinks you are weak.</Text>
@@ -596,14 +590,11 @@
 		<Row Tag="LOC_DIPLO_GREETING_LEADER_ROBERT_BARATHEON_ANY">
 			<Text>Good day!</Text>
 		</Row>
-		<Row Tag="LOC_DIPLO_KUDO_LEADER_ROBERT_BARATHEON_REASON_AGENDA_SAME_GOVERNMENT">
-			<Text>We share the same ideology. I see you good friend to be.</Text>
+		<Row Tag="LOC_DIPLO_KUDO_EXIT_LEADER_ROBERT_BARATHEON_ANY">
+			<Text>Truely mighty force with shared ideology. I see you good friend to be.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_ROBERT_DESCRIPTION_SAME_GOVERNMENT">
 			<Text>Robert is happy that you have the same government as his.</Text>
-		</Row>
-		<Row Tag="LOC_DIPLO_KUDO_LEADER_ROBERT_BARATHEON_REASON_AGENDA_HIGH_STANDING_ARMY">
-			<Text>Truely mighty force you have. Good for you.</Text>
 		</Row>
 		<Row Tag="LOC_DIPLO_ROBERT_DESCRIPTION_HIGH_STANDING_ARMY">
 			<Text>Robert is happy that your army is strong.</Text>

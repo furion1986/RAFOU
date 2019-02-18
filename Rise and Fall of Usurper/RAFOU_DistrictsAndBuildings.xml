@@ -155,11 +155,18 @@
 	</District_Adjacencies>
 	
 	<District_ValidTerrains>
+		<!-- Jon Arryn leads the Vale -->
 		<Row DistrictType="DISTRICT_GATE_OF_THE_MOON" TerrainType="TERRAIN_GRASS_HILLS"/>
 		<Row DistrictType="DISTRICT_GATE_OF_THE_MOON" TerrainType="TERRAIN_PLAINS_HILLS"/>
 		<Row DistrictType="DISTRICT_GATE_OF_THE_MOON" TerrainType="TERRAIN_TUNDRA_HILLS"/>
 		<Row DistrictType="DISTRICT_GATE_OF_THE_MOON" TerrainType="TERRAIN_SNOW_HILLS"/>
 		<Row DistrictType="DISTRICT_GATE_OF_THE_MOON" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<!-- Rhaegar Targaryen leads the Crownlands -->
+		<Row DistrictType="DISTRICT_DRAGONPIT" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row DistrictType="DISTRICT_DRAGONPIT" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row DistrictType="DISTRICT_DRAGONPIT" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row DistrictType="DISTRICT_DRAGONPIT" TerrainType="TERRAIN_SNOW_HILLS"/>
+		<Row DistrictType="DISTRICT_DRAGONPIT" TerrainType="TERRAIN_DESERT_HILLS"/>
 	</District_ValidTerrains>
 
 	<District_GreatPersonPoints>
@@ -174,7 +181,8 @@
 		<!-- Hoster Tully leads the Riverlands -->
 		<!-- Doran Martell leads Dorne -->
 		<!-- Rhaegar Targaryen leads the Crownlands -->
-		<Row DistrictType="DISTRICT_DRAGONPIT" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN" PointsPerTurn="4"/>
+		<Row DistrictType="DISTRICT_DRAGONPIT" GreatPersonClassType="GREAT_PERSON_CLASS_WRITER" PointsPerTurn="2"/>
+		<Row DistrictType="DISTRICT_DRAGONPIT" GreatPersonClassType="GREAT_PERSON_CLASS_MUSICIAN" PointsPerTurn="1"/>
 	</District_GreatPersonPoints>
 	
 	<District_TradeRouteYields>

@@ -216,7 +216,9 @@ function OnLocalPlayerAnnexCityState(localPlayerID,citStateID, builtUnits:table,
 			local iUnitType = iUnit.UType;
 			local iUnitX = iUnit.UX;
 			local iUnitY = iUnit.UY;
-			pPlayer:GetUnits():Create(GameInfo.Units[iUnitType.UnitType].Index, iUnitX, iUnitY);
+			if (iUnitType.UnitType ~= "UNIT_TRADER") then
+				pPlayer:GetUnits():Create(GameInfo.Units[iUnitType.UnitType].Index, iUnitX, iUnitY);
+			end	
 		end
 	end
 	--Calc Gold Balance

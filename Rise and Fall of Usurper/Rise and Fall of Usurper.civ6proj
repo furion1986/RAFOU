@@ -5,9 +5,9 @@
     <Name>Rise and Fall of Usurper</Name>
     <Guid>609b5cea-2689-40fb-8cc5-3e6f8d1f72a3</Guid>
     <ProjectGuid>b3648e89-d133-47f4-9553-f5250aaee4d2</ProjectGuid>
-    <ModVersion>1</ModVersion>
-    <Teaser>Ice and Fire</Teaser>
-    <Description>Recompile the 4 Leaders already made and add more.</Description>
+    <ModVersion>1.1</ModVersion>
+    <Teaser>Rise and Fall of Usurper</Teaser>
+    <Description>Now have 9 leaders.</Description>
     <AffectsSavedGames>true</AffectsSavedGames>
     <SupportsSinglePlayer>true</SupportsSinglePlayer>
     <SupportsMultiplayer>true</SupportsMultiplayer>
@@ -212,6 +212,7 @@
     <Content Include="RAFOU_Icons_Civilizations.xml" />
     <Content Include="RAFOU_Leaders.xml" />
     <Content Include="RAFOU_DistrictsAndBuildings.xml" />
+    <Folder Include="Platforms\" />
     <Folder Include="UI\" />
     <Folder Include="UI\PartialScreens\" />
     <Folder Include="XLPs\" />

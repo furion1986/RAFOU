@@ -189,7 +189,7 @@
 		</Replace>
 
 		<Replace Tag="LOC_TRAIT_CIVILIZATION_THE_REACH_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>农场从相邻的学院获得+1 Extra [ICON_SCIENCE] 科研，从相邻的剧院广场获得+1 [ICON_CULTURE] 文化，从相邻的圣地获得+1 [ICON_Faith] 信仰，从相邻的商业中心或港口获得+2 [ICON_GOLD] 金币， 从相邻的工业区获得+1 [ICON_PRODUCTION] 生产力。</Text>
+			<Text>农场从相邻的学院获得+1 [ICON_SCIENCE] 科研，从相邻的剧院广场获得+1 [ICON_CULTURE] 文化，从相邻的圣地获得+1 [ICON_Faith] 信仰，从相邻的商业中心或港口获得+2 [ICON_GOLD] 金币， 从相邻的工业区获得+1 [ICON_PRODUCTION] 生产力。</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_MACE_TYRELL_NAME" Language="zh_Hans_CN">
 			<Text>充气鱼大人</Text>
@@ -337,7 +337,7 @@
 			<Text>龙穴</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_DRAGONPIT_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>王领独特的早期城区，提供等同于政府广场的相邻奖励，+6 [ICON_Faith] 信仰，+2 [ICON_HOUSING] 住房。[NEWLINE]龙穴提供额外+4 [ICON_GreatMusician] 大音乐家点数，3个空军停机位并解锁坦格利安巨龙。</Text>
+			<Text>王领独特的早期城区，提供等同于政府广场的相邻奖励，+6 [ICON_Faith] 信仰，+2 [ICON_HOUSING] 住房。[NEWLINE]龙穴提供额外+2 [ICON_GreatWriter] 大文学家点数和+1 [ICON_GreatMusician] 大音乐家点数，3个空军停机位并解锁坦格利安巨龙。[NEWLINE]只能建设在丘陵地格上。</Text>
 		</Replace>
 		<Replace Tag="LOC_LEADER_RHAEGAR_TARGARYEN_NAME" Language="zh_Hans_CN">
 			<Text>雷加·坦格利安</Text>
@@ -359,7 +359,7 @@
 			<Text>银王子</Text>
 		</Replace>
 		<Replace Tag="LOC_TRAIT_LEADER_RHAEGAR_TARGARYEN_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>首都获得+4 [ICON_GreatMusician] 大音乐家点数。宫殿提供+4 [ICON_GreatWork_Music] 音乐巨作槽。每一级政府广场建筑提供+2 [ICON_GreatWork_Music] 音乐巨作槽。[NEWLINE]Each [ICON_GreatWork_Music] 音乐巨作额外产出+8 [ICON_Faith] 信仰。</Text>
+			<Text>宫殿提供+2 [ICON_GreatWork_Music] 音乐巨作槽和  [ICON_GreatWork_Writing] 文学巨作槽。[NEWLINE]1级政府广场建筑+2 [ICON_GreatWriter] 大文学家点数，2级政府广场建筑+2 [ICON_GreatMusician] 大音乐家点数和 [ICON_GreatWriter] 大文学家点数，3级政府广场建筑+4 [ICON_GreatMusician] 大音乐家点数。每一级政府广场建筑提供+1 [ICON_GreatWork_Music] 音乐巨作槽和 [ICON_GreatWork_Writing] 文学巨作槽。[NEWLINE][ICON_GreatWork_Music] 音乐巨作额外产出+6 [ICON_Faith] 信仰和+3 [ICON_GOLD] 金币。</Text>
 		</Replace>
 	</LocalizedText>
 </GameData>
